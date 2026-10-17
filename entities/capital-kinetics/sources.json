@@ -694,6 +694,92 @@
    "max_new": 2
   },
   {
+   "id": "gn-rbi-rules",
+   "name": "RBI rules & policy (news)",
+   "type": "gnews",
+   "query": "RBI circular OR guidelines OR \"monetary policy\" OR repo",
+   "role": "news",
+   "tags": [
+    "rbi",
+    "regulation"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "gn-sebi-rules",
+   "name": "SEBI rules & orders (news)",
+   "type": "gnews",
+   "query": "SEBI circular OR \"new rules\" OR consultation OR order",
+   "role": "news",
+   "tags": [
+    "sebi",
+    "regulation"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "gn-nse-bse",
+   "name": "NSE / BSE rules & listings (news)",
+   "type": "gnews",
+   "query": "\"NSE\" OR \"BSE\" circular OR framework OR \"new rule\" OR listing",
+   "role": "news",
+   "tags": [
+    "exchange",
+    "regulation"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "gn-global-markets",
+   "name": "Global markets (Asia, Europe, Wall Street)",
+   "type": "gnews",
+   "query": "global markets stocks Asia Europe Wall Street close",
+   "role": "news",
+   "tags": [
+    "global-markets"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en"
+  },
+  {
+   "id": "gn-world-leaders",
+   "name": "World leaders: Putin, Xi, Kremlin, Beijing",
+   "type": "gnews",
+   "query": "Putin OR \"Xi Jinping\" OR Kremlin OR Beijing trade OR sanctions OR economy",
+   "role": "news",
+   "tags": [
+    "world-leaders",
+    "geopolitics"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en"
+  },
+  {
+   "id": "gn-china-economy",
+   "name": "China economy & policy",
+   "type": "gnews",
+   "query": "China economy OR yuan OR PBOC OR stimulus",
+   "role": "news",
+   "tags": [
+    "china",
+    "global-markets"
+   ],
+   "status": "active",
+   "max_new": 4,
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en"
+  },
+  {
    "id": "reddit-money-india",
    "name": "Reddit: Indian personal finance (4 subs)",
    "type": "reddit_manual",
