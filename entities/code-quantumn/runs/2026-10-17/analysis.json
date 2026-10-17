@@ -1,0 +1,99 @@
+{
+ "4399c56d45c32cf3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:29:45Z"
+ },
+ "2a05893fd2849a42": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:29:45Z"
+ },
+ "400adab972492aa4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:29:45Z"
+ },
+ "7fd0744cd3cdeaa8": {
+  "label": "KNOW",
+  "reason": "free_offer",
+  "flags": {
+   "category": "offer",
+   "audience_fit": "experts_only",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": false,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:29:45Z"
+ },
+ "d33292415e888fe1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:29:45Z"
+ },
+ "65192276f226639f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:29:45Z"
+ },
+ "e54f9fcf7af201fb": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "flags": {
+   "category": "product",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": true,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:29:45Z"
+ },
+ "038243a61a602e98": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:29:45Z"
+ },
+ "138e93a4a0440bcf": {
+  "label": "KNOW",
+  "reason": "research_paper",
+  "flags": {
+   "category": "research",
+   "audience_fit": "experts_only",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:29:45Z"
+ },
+ "956a40f950d6e381": {
+  "label": "MAKE",
+  "timing": "SOON",
+  "evergreen": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model",
+   "audience_fit": "developers",
+   "video_format": "news_short",
+   "india_relevant": true,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": true,
+   "needs_test": true,
+   "verified_official": true
+  },
+  "summary": "Mistral launched Timestral, an open-weights time-series model (5M-209M params) that runs on standard CPUs without a GPU. Free on Hugging Face for forecasting. Hook: 'You do not need an expensive GPU to predict time-series trends anymore.'",
+  "analyzed_at": "2026-10-17T10:29:45Z"
+ }
+}
