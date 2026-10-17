@@ -60,7 +60,7 @@ To change labels or categories, edit the niche's `config.json` (allowed values) 
 
 Each niche's `sources.json` lists its sources with a role (`official`, `news`, `org`, `people`, `competitor`), tags and status (`active`, `trial`, `paused`).
 Supported: RSS/Atom feeds, YouTube channels, Reddit, Hacker News, dev.to, Hugging Face papers, GitHub Trending and releases, sitemaps, and change detection on pages without a feed.
-X/Twitter, Instagram, daily.dev and other login-only sites are listed as **manual** on the dashboard's "Check manually" tab. They're never scraped.
+**Reddit and X**: these block scripts, so during "analyze today" the AI opens the listed subreddits and X profiles in its browser like a normal reader and adds only the meaningful posts from the last 24 hours. They're also on the "Check manually" tab for you. Instagram, daily.dev and other login-only sites stay manual.
 
 ## Good to know
 
@@ -73,6 +73,8 @@ X/Twitter, Instagram, daily.dev and other login-only sites are listed as **manua
 
 ```
 python3 engine/refresh.py                      # fetch fresh news now (skips if collected <15 min ago)
+python3 engine/sweep.py                        # Reddit/X pages the AI reads during analyze today
+python3 engine/add_item.py <niche> <url> --title ...   # add a post or link by hand
 python3 engine/status.py                       # what's pending, what's broken
 python3 engine/pending.py                      # list items to analyse
 python3 engine/save_analysis.py <niche> <payloads.json>

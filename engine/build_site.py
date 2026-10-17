@@ -10,7 +10,7 @@ import re
 import shutil
 from datetime import timedelta
 
-from common import DOCS, ROOT, entity_dirs, flatten_sources, iso, now_utc, parse_time, read_json, write_json
+from common import read_health, DOCS, ROOT, entity_dirs, flatten_sources, iso, now_utc, parse_time, read_json, write_json
 from pending import load_runs
 
 KEEP_DAYS = 60
@@ -65,7 +65,7 @@ def build_entity(edir):
     write_json(DOCS / "data" / f"{edir.name}.json", out)
 
     sources = read_json(edir / "sources.json", {"sources": []})
-    health = read_json(edir / "health.json", {})
+    health = read_health(edir)
     src_rows, manual = [], []
     for s in flatten_sources(sources):
         if s.get("mode") == "manual":

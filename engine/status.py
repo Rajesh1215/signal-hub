@@ -4,7 +4,7 @@
 """
 from datetime import timedelta
 
-from common import IST, entity_dirs, flatten_sources, now_utc, parse_time, read_json
+from common import read_health, IST, entity_dirs, flatten_sources, now_utc, parse_time, read_json
 from pending import load_runs, pending_for
 
 
@@ -12,7 +12,7 @@ def main():
     now = now_utc()
     for edir in entity_dirs():
         cfg = read_json(edir / "config.json")
-        health = read_json(edir / "health.json", {})
+        health = read_health(edir)
         stale_days = cfg.get("filters", {}).get("stale_after_days", 7)
         pending, stale = pending_for(edir, stale_days)
         last_runs = [parse_time(h.get("last_run")) for h in health.values() if h.get("last_run")]

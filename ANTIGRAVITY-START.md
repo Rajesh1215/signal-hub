@@ -29,17 +29,18 @@ Each channel folder has `brief.md`, your system prompt for judging that channel'
 Run **procedure A** from `AGENTS.md`, end to end, **without asking me for confirmation between steps**:
 
 1. `python3 engine/refresh.py`: fetches fresh news from every source on GitHub right now (2–4 minutes), then pulls. Wait for it to finish.
-2. `python3 engine/status.py`: note any broken sources.
-3. `python3 engine/pending.py`: lists every waiting item per channel, with the allowed labels, reasons and categories.
-4. For each channel:
+2. **Read Reddit and X yourself**: `python3 engine/sweep.py` lists the subreddits and X profiles per channel. Open each in your browser, look at the last 24 hours, and add only meaningful posts (max 3 per subreddit, 2 per X profile) with `python3 engine/add_item.py <channel> "<post url>" --title "..." --snippet "..." --source "..."`. If a page needs login or blocks you, skip it. Never log in.
+3. `python3 engine/status.py`: note any broken sources.
+4. `python3 engine/pending.py`: lists every waiting item per channel, with the allowed labels, reasons and categories.
+5. For each channel:
    - read `entities/<channel>/brief.md`
    - **quick pass**: judge every pending item yourself and write its payload by hand into `work/payloads-<channel>.json` (chunks of about 80). No keyword scripts and no default SKIP: every item gets its own decision and reason
    - **deep read**: open and fully read every MAKE / TEST / importance 4–5 item, then rewrite its summary from the real page (facts, numbers, dates); adjust the label or importance if the full story is different
    - save with `python3 engine/save_analysis.py <channel> work/payloads-<channel>.json`, fix any ✗ errors and re-run
-5. `python3 engine/save_analysis.py <channel> --mark-stale` if stale items were reported.
-6. `python3 engine/check.py`: must show ✓ for all 4.
-7. `git add entities && git commit -m "analysis: <date> (<N> items)" && git push` (if rejected: `git pull --rebase` then `git push`; never force-push).
-8. Report to me in chat:
+6. `python3 engine/save_analysis.py <channel> --mark-stale` if stale items were reported.
+7. `python3 engine/check.py`: must show ✓ for all 4.
+8. `git add entities && git commit -m "analysis: <date> (<N> items)" && git push` (if rejected: `git pull --rebase` then `git push`; never force-push).
+9. Report to me in chat:
    - counts per channel
    - **MAKE** list (NOW first) with the one-line angle
    - Important titles (importance 4–5)

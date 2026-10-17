@@ -1,6 +1,7 @@
 """Collect new items from every active source of every entity.
 
-    python engine/collect.py                 # all entities
+    python engine/collect.py                 # all entities (GitHub Actions: "auto" sources)
+    python engine/collect.py --local         # "local" sources (Reddit) from your Mac, during analyze today
     python engine/collect.py code-quantumn   # one entity
     python engine/collect.py --test <entity> # fetch and report, write nothing
     python engine/collect.py <entity> --only id1,id2   # test single sources (writes nothing)
@@ -20,12 +21,17 @@ SEEN_DAYS = 90
 HISTORY_DAYS = 30
 
 
-def collect_entity(edir, test=False, only=None):
+def collect_entity(edir, test=False, only=None, mode="auto"):
+    """mode "auto" runs in GitHub Actions and owns seen.json/health.json.
+    mode "local" runs on the user's Mac (sites that block cloud servers) and owns
+    seen-local.json/health-local.json, so the two never edit the same file."""
     entity = edir.name
+    sfx = "" if mode == "auto" else "-local"
     cfg = read_json(edir / "config.json")
     sources = read_json(edir / "sources.json", {"sources": []})
-    seen = read_json(edir / "seen.json", {})
-    health = read_json(edir / "health.json", {})
+    seen = read_json(edir / f"seen{sfx}.json", {})
+    other_seen = read_json(edir / ("seen-local.json" if mode == "auto" else "seen.json"), {})
+    health = read_json(edir / f"health{sfx}.json", {})
     now = now_utc()
     default_age = cfg.get("filters", {}).get("max_age_days", 3)
     default_max_new = cfg.get("filters", {}).get("max_new_per_source", 20)
@@ -34,7 +40,8 @@ def collect_entity(edir, test=False, only=None):
     for src in flatten_sources(sources):
         if only and src["id"] not in only:
             continue
-        if src.get("mode", "auto") != "auto" or src.get("status", "active") not in ("active", "trial", *(["paused", "candidate"] if only else [])):
+        if (src.get("mode", "auto") != mode and not (only and src.get("mode") == "local")) \
+                or src.get("status", "active") not in ("active", "trial", *(["paused", "candidate"] if only else [])):
             continue
         sid = src["id"]
         h = health.setdefault(sid, {"consecutive_errors": 0, "history": []})
@@ -62,6 +69,8 @@ def collect_entity(edir, test=False, only=None):
             if not baseline and fresh >= max_new:  # busy feeds: keep the newest few per run
                 continue
             iid = item_id(entity, it["url"])
+            if iid in other_seen:
+                continue
             if iid in seen:
                 # still listed by the source: refresh now and then so pruning only
                 # forgets items that disappeared (pages and sitemaps never re-flood)
@@ -105,10 +114,10 @@ def collect_entity(edir, test=False, only=None):
 
     local = now.astimezone(IST)
     if new_items:
-        write_json(edir / "runs" / local.strftime("%Y-%m-%d") / f"collect-{local.strftime('%H%M')}.json",
+        write_json(edir / "runs" / local.strftime("%Y-%m-%d") / f"collect{sfx}-{local.strftime('%H%M')}.json",
                    {"entity": entity, "run_at": iso(now), "items": new_items})
-    write_json(edir / "seen.json", seen)
-    write_json(edir / "health.json", health)
+    write_json(edir / f"seen{sfx}.json", seen)
+    write_json(edir / f"health{sfx}.json", health)
     return new_items
 
 
@@ -120,7 +129,8 @@ def main(argv):
     skip = {argv[argv.index("--only") + 1]} if only else set()
     names = [a for a in argv if not a.startswith("--") and a not in skip]
     dirs = [d for d in entity_dirs() if not names or d.name in names]
-    total = sum(len(collect_entity(d, test=test, only=only)) for d in dirs)
+    mode = "local" if "--local" in argv else "auto"
+    total = sum(len(collect_entity(d, test=test, only=only, mode=mode)) for d in dirs)
     print(f"done: {total} new items across {len(dirs)} entities")
 
 

@@ -169,6 +169,194 @@
    "max_new": 3
   },
   {
+   "id": "meta-engineering",
+   "name": "Meta Engineering",
+   "type": "feed",
+   "url": "https://engineering.fb.com/feed/",
+   "role": "official",
+   "tags": [
+    "models",
+    "launches"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "gn-meta-ai",
+   "name": "Meta AI (news)",
+   "type": "gnews",
+   "query": "\"Meta AI\" OR Llama OR \"Meta Superintelligence\"",
+   "role": "news",
+   "tags": [
+    "company-news"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "why": "ai.meta.com has no feed and blocks bots"
+  },
+  {
+   "id": "xai-news",
+   "name": "xAI News",
+   "type": "sitemap",
+   "url": "https://x.ai/sitemap.xml",
+   "match": [
+    "/news/"
+   ],
+   "role": "official",
+   "tags": [
+    "models",
+    "launches"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "deepseek-news",
+   "name": "DeepSeek News",
+   "type": "sitemap",
+   "url": "https://api-docs.deepseek.com/sitemap.xml",
+   "match": [
+    "/news/"
+   ],
+   "role": "official",
+   "tags": [
+    "models",
+    "launches"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "gn-deepseek",
+   "name": "DeepSeek (news)",
+   "type": "gnews",
+   "query": "DeepSeek model",
+   "role": "news",
+   "tags": [
+    "company-news"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "qwen-blog",
+   "name": "Qwen Blog",
+   "type": "feed",
+   "url": "https://qwenlm.github.io/blog/index.xml",
+   "role": "official",
+   "tags": [
+    "models",
+    "launches"
+   ],
+   "status": "active",
+   "max_age_days": 7
+  },
+  {
+   "id": "gn-qwen",
+   "name": "Qwen (news)",
+   "type": "gnews",
+   "query": "Qwen Alibaba AI model",
+   "role": "news",
+   "tags": [
+    "company-news"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "apple-ml",
+   "name": "Apple Machine Learning",
+   "type": "feed",
+   "url": "https://machinelearning.apple.com/rss.xml",
+   "role": "official",
+   "tags": [
+    "models",
+    "launches"
+   ],
+   "status": "active",
+   "max_age_days": 7
+  },
+  {
+   "id": "aws-ml",
+   "name": "AWS Machine Learning Blog",
+   "type": "feed",
+   "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+   "role": "official",
+   "tags": [
+    "models",
+    "launches"
+   ],
+   "status": "active",
+   "max_new": 4
+  },
+  {
+   "id": "gn-perplexity",
+   "name": "Perplexity (news)",
+   "type": "gnews",
+   "query": "\"Perplexity AI\"",
+   "role": "news",
+   "tags": [
+    "company-news"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "why": "Perplexity's blog has no feed"
+  },
+  {
+   "id": "cursor-changelog",
+   "name": "Cursor Changelog",
+   "type": "feed",
+   "url": "https://www.cursor.com/changelog/rss.xml",
+   "role": "official",
+   "tags": [
+    "models",
+    "launches"
+   ],
+   "status": "active",
+   "max_new": 4
+  },
+  {
+   "id": "cursor-blog",
+   "name": "Cursor Blog",
+   "type": "sitemap",
+   "url": "https://cursor.com/sitemap.xml",
+   "match": [
+    "/blog/"
+   ],
+   "role": "official",
+   "tags": [
+    "models",
+    "launches"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "gn-sarvam",
+   "name": "Sarvam AI (news)",
+   "type": "gnews",
+   "query": "\"Sarvam AI\"",
+   "role": "news",
+   "tags": [
+    "india",
+    "company-news"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "gn-india-ai",
+   "name": "Indian AI (Krutrim, IndiaAI Mission)",
+   "type": "gnews",
+   "query": "Krutrim OR \"IndiaAI Mission\" OR \"Indian LLM\"",
+   "role": "news",
+   "tags": [
+    "india",
+    "company-news"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
    "id": "techcrunch-ai",
    "name": "TechCrunch AI",
    "type": "feed",
@@ -339,8 +527,9 @@
     "discussion"
    ],
    "mode": "manual",
+   "sweep": true,
    "status": "active",
-   "why": "Reddit blocks GitHub's servers; open top posts by hand"
+   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
   },
   {
    "id": "r-openai",
@@ -352,8 +541,9 @@
     "discussion"
    ],
    "mode": "manual",
+   "sweep": true,
    "status": "active",
-   "why": "Reddit blocks GitHub's servers; open top posts by hand"
+   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
   },
   {
    "id": "r-claudeai",
@@ -365,8 +555,9 @@
     "discussion"
    ],
    "mode": "manual",
+   "sweep": true,
    "status": "active",
-   "why": "Reddit blocks GitHub's servers; open top posts by hand"
+   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
   },
   {
    "id": "r-machinelearning",
@@ -378,8 +569,9 @@
     "discussion"
    ],
    "mode": "manual",
+   "sweep": true,
    "status": "active",
-   "why": "Reddit blocks GitHub's servers; open top posts by hand"
+   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
   },
   {
    "id": "yt-3b1b",
@@ -743,7 +935,8 @@
      "type": "x_manual",
      "url": "https://x.com/karpathy",
      "mode": "manual",
-     "why": "X can't be collected automatically; open their profile for quick takes"
+     "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
+     "sweep": true
     }
    ]
   },
@@ -766,7 +959,8 @@
      "type": "x_manual",
      "url": "https://x.com/simonw",
      "mode": "manual",
-     "why": "X can't be collected automatically; open their profile for quick takes"
+     "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
+     "sweep": true
     }
    ]
   },
@@ -788,7 +982,8 @@
      "type": "x_manual",
      "url": "https://x.com/rasbt",
      "mode": "manual",
-     "why": "X can't be collected automatically; open their profile for quick takes"
+     "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
+     "sweep": true
     }
    ]
   },
@@ -810,7 +1005,8 @@
      "type": "x_manual",
      "url": "https://x.com/natolambert",
      "mode": "manual",
-     "why": "X can't be collected automatically; open their profile for quick takes"
+     "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
+     "sweep": true
     }
    ]
   },
@@ -832,7 +1028,8 @@
      "type": "x_manual",
      "url": "https://x.com/emollick",
      "mode": "manual",
-     "why": "X can't be collected automatically; open their profile for quick takes"
+     "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
+     "sweep": true
     }
    ]
   },
@@ -854,7 +1051,8 @@
      "type": "x_manual",
      "url": "https://x.com/sama",
      "mode": "manual",
-     "why": "X can't be collected automatically; open their profile for quick takes"
+     "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
+     "sweep": true
     }
    ]
   }

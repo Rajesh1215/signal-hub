@@ -6,7 +6,8 @@
 Pulls the repo, then triggers the GitHub "collect" workflow
 (it stays the only writer of collected data), waits for it to finish and pulls
 again. If GitHub can't be reached, it says so and the analysis continues on the
-data that is already there.
+data that is already there. Finally it fetches any "local" sources from this
+Mac (for sites that block GitHub's servers).
 """
 import json
 import subprocess
@@ -14,7 +15,7 @@ import sys
 import time
 from datetime import timedelta
 
-from common import IST, ROOT, entity_dirs, now_utc, parse_time, read_json
+from common import IST, ROOT, entity_dirs, flatten_sources, now_utc, parse_time, read_json
 
 
 def run(*cmd, timeout=120):
@@ -54,6 +55,18 @@ def collect_on_github():
         raise RuntimeError(f"collection run {run_id} failed; see the Actions tab")
 
 
+def collect_local():
+    """Sources marked "local" (Reddit blocks GitHub's servers) are fetched from this Mac."""
+    if not any(x.get("mode") == "local" for e in entity_dirs()
+               for x in flatten_sources(read_json(e / "sources.json", {}))):
+        return
+    print("Fetching local sources from this Mac…", flush=True)
+    r = run(sys.executable, "engine/collect.py", "--local", timeout=900)
+    for line in r.stdout.splitlines():
+        if line.startswith("[") or "✗" in line or line.startswith("done"):
+            print("  " + line.strip())
+
+
 def main(argv):
     max_age = float(argv[argv.index("--max-age") + 1]) if "--max-age" in argv else 0.25  # hours
     pull()
@@ -61,15 +74,18 @@ def main(argv):
     age = (now_utc() - last).total_seconds() / 3600 if last else 999
     when = last.astimezone(IST).strftime("%d %b %H:%M IST") if last else "never"
     if age < max_age:
-        print(f"News is fresh: last collected {round(age * 60)} min ago ({when}). Nothing to fetch.")
+        print(f"News is fresh: last collected {round(age * 60)} min ago ({when}). Nothing to fetch from GitHub.")
+        collect_local()
         return
     print(f"Last collected {when} ({age:.1f} h ago): fetching the latest news first.", flush=True)
     try:
         collect_on_github()
     except (RuntimeError, OSError, subprocess.TimeoutExpired) as e:
         print(f"! Could not run a fresh collection ({e}). Analysing the news already collected.")
+        collect_local()
         return
     pull()
+    collect_local()
     print(f"Fresh news collected at {last_collect().astimezone(IST):%d %b %H:%M IST}.")
 
 

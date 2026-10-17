@@ -52,6 +52,8 @@ def check_entity(edir):
             errs.append(f"{sid}: role '{role}' not in {sorted(ROLES)}")
         if s.get("status", "active") not in STATUSES:
             errs.append(f"{sid}: status '{s.get('status')}' not in {sorted(STATUSES)}")
+        if s.get("mode", "auto") not in ("auto", "manual", "local"):
+            errs.append(f"{sid}: mode must be auto, local or manual")
         if s.get("mode", "auto") == "manual":
             if not s.get("url"):
                 errs.append(f"{sid}: manual source needs a url")

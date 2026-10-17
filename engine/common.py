@@ -164,3 +164,8 @@ def flatten_sources(sources_doc):
                 s[key] = g["id"]
                 s.setdefault("name", g.get("name"))
                 yield s
+
+
+def read_health(edir):
+    """Source health from GitHub collection and local (Mac) collection combined."""
+    return {**read_json(edir / "health.json", {}), **read_json(edir / "health-local.json", {})}

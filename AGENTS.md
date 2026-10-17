@@ -16,6 +16,7 @@ Use `python3` for every command, run from the repo root. The engine uses only th
 | "analyze today", "analyse", "run", "proceed", "update" | **A. Analyse pending items** |
 | "status" | `python3 engine/status.py` and report in a few lines |
 | "add source <url> to <niche>" | **B. Add a source** |
+| "add this <url> to <niche>" (a single post or article) | `python3 engine/add_item.py <niche> "<url>" --title "..." --snippet "..."`, then analyse it with the rest |
 | "add competitor <name or url> to <niche>" | **C. Competitors** (max 5 active) |
 | "add person <name> to <niche>" | Same as C, in `people` (max 10 active) |
 | "fix sources", "check sources" | **D. Fix broken sources** |
@@ -31,14 +32,22 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
 ## A. Analyse pending items ("analyze today")
 
 1. **Get fresh news.** `python3 engine/refresh.py`. It pulls the repo, runs a fresh collection on GitHub from every blog and feed (2–4 minutes; skipped only if the last collection was in the last 15 minutes), then pulls again. You then analyse everything still waiting: the new items plus any older pending ones. Let it finish before going on. If it says it couldn't collect, carry on with the data that's there and mention it in the report. If the user says "quick" or "no refresh", run `git pull --rebase` instead.
-2. **Status.** `python3 engine/status.py`. Note BROKEN or QUIET sources for the final report.
-3. **List the work.** `python3 engine/pending.py`. For each niche it prints:
+2. **Read Reddit and X yourself.** These sites block scripts, so you read them like a normal visitor. Run `python3 engine/sweep.py`; it lists, per niche, the subreddits and X profiles to check. For each page:
+   - Open it in your browser and look at the posts from the **last 24 hours** (Reddit: the "top today" list it opens on; X: the newest posts).
+   - Add only meaningful posts (real launches, announcements, useful findings, strong discussions), at most 3 per subreddit and 2 per X profile, and none if nothing is worth it:
+     `python3 engine/add_item.py <niche> "<post url>" --title "<post title or first line>" --snippet "<key text, 1–3 sentences>" --source "<page name, e.g. r/LocalLLaMA>" [--published <ISO time>]`
+     For X profiles, add the `--role people --person <id>` shown by `sweep.py`.
+   - Skip memes, ads, rumours without a source, and anything older than 24 hours. `add_item.py` skips links that were already collected.
+   - If a page shows a login wall, captcha or block, skip it and mention it in the report. **Never log in, never use the user's accounts, never try to get around a block.**
+   - If the user says "quick", skip this step.
+3. **Status.** `python3 engine/status.py`. Note BROKEN or QUIET sources for the final report.
+4. **List the work.** `python3 engine/pending.py`. For each niche it prints:
    - the allowed labels, timing, reasons and categories (from `config.json`)
    - one line per pending item: `id | role/competitor | source | title | snippet | stats`
    - items already labelled in the last 3 days, so you can spot duplicates
 
    Full records are in `work/pending-<niche>.json` if you need more detail.
-4. **For each niche with pending items:**
+5. **For each niche with pending items:**
    1. Read `entities/<niche>/brief.md`. It is your system prompt for that niche: audience, labels, importance scale, categories, examples. Follow it exactly.
    2. **Quick pass.** Judge **every** pending item yourself from its title, snippet, source and stats, and write the payloads to `work/payloads-<niche>.json` (format below). For more than about 80 items, work in chunks (`payloads-<niche>-1.json`, `-2.json`…) and save each chunk.
       - **Write each payload by hand, one item at a time.** Don't generate payloads with a script of keyword rules, and never use a default label for items you didn't look at. Every item, including every SKIP, gets its own decision and its own reason.
@@ -48,16 +57,16 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
       - If the page can't be opened (paywall, block, login), keep the label but say so in the summary ("Couldn't open the full article; based on the headline.").
    4. Save: `python3 engine/save_analysis.py <niche> work/payloads-<niche>.json`
       - Every `✗` line names the item and what's wrong. Fix those payloads and run the command again with just the fixed ones. Saving is a merge, so re-running is safe.
-5. **Old items.** Items older than 7 days that were never analysed: `python3 engine/save_analysis.py <niche> --mark-stale` (only if `pending.py` reported stale items).
-6. **Validate.** `python3 engine/check.py`. It must print ✓ for every niche.
-7. **Commit and push.**
+6. **Old items.** Items older than 7 days that were never analysed: `python3 engine/save_analysis.py <niche> --mark-stale` (only if `pending.py` reported stale items).
+7. **Validate.** `python3 engine/check.py`. It must print ✓ for every niche.
+8. **Commit and push.**
    ```
    git add entities
    git commit -m "analysis: <YYYY-MM-DD> (<N> items)"
    git push
    ```
    If the push is rejected (the collector pushed in the meantime): `git pull --rebase` and `git push` again. Never force-push.
-8. **Report to the user** (short, in chat):
+9. **Report to the user** (short, in chat):
    - per niche: counts by label
    - **MAKE**: title, timing (NOW/SOON/ANYTIME), and the one-line angle from your summary. NOW items first.
    - **Important** (importance 4–5, not MAKE): titles only
@@ -158,7 +167,7 @@ Working efficiently:
 ## Rules (always)
 
 - **One writer at a time.** Always `git pull --rebase` before you start and push when done. Never force-push or rewrite history.
-- **Files you may edit:** `entities/*/runs/*/analysis.json` (only through `save_analysis.py`), `sources.json`, `config.json`, `brief.md`, `engine/**`, `site/**`, docs.
+- **Files you may edit:** `entities/*/runs/*/analysis.json` (only through `save_analysis.py`), items you add with `add_item.py` (it writes `collect-local-agent.json` and `seen-local.json`), `sources.json`, `config.json`, `brief.md`, `engine/**`, `site/**`, docs.
 - **Files you must not edit by hand:** `runs/*/collect-*.json`, `seen.json`, `health.json`. The collector owns them.
 - **The repo and dashboard are public.** Never write secrets, tokens, personal data or private notes into any file.
 - **Public data only**: no logins, no paywall bypass, no scraping that a site forbids.
