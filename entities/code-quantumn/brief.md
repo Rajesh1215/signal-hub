@@ -75,3 +75,4 @@ Competitor items may have a one-line summary: the topic, and how we could do it 
 - Never invent facts. If the snippet is too thin to judge, use `KNOW` with reason `minor_update`, or `TEST`.
 - Rumours, leaks and benchmark claims are not facts: `KNOW` with `rumor`/`benchmark_claim` until official.
 - GitHub trending, Hacker News and Reddit numbers (stars, points, upvotes) show heat, not importance.
+- **Arena (LMArena) items** report leaderboard changes with where the model performs (category ranks, Elo, votes, other boards). A new #1 on Text, WebDev or Agent is usually importance 4–5, often `MAKE` ("the best coding AI right now, ranked by real users"). For these, in the deep read also find the model's **official announcement** (company blog or model card) and mention in the summary what's new about it, whether it's free or paid, and whether it's available in India. If we haven't collected that announcement, add it with `add_item.py`.

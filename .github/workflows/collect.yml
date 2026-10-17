@@ -23,6 +23,11 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Install pyarrow (Arena leaderboard files)
+        run: python3 -m pip install --quiet "pyarrow>=17,<22"
       - name: Collect new items
         run: python3 engine/collect.py
       - name: Commit and push

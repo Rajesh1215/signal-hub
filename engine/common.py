@@ -78,7 +78,7 @@ def item_id(entity, url):
 
 
 # Minimum seconds between two requests to the same host (politeness).
-HOST_GAP = {"reddit.com": 10, "github.com": 2}
+HOST_GAP = {"reddit.com": 10, "github.com": 2, "datasets-server.huggingface.co": 2}
 _last_hit = {}
 _blocked = set()  # hosts that rate-limited us twice: skip them for the rest of the run
 
