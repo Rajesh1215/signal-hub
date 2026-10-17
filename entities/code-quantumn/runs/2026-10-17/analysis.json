@@ -1617,5 +1617,631 @@
   "label": "SKIP",
   "reason": "hype",
   "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "af68da1a816e89f6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "72d3e0702658f6ed": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "c91929f4fe4dca30": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "7f68375b1738b9bb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "85cd85c6bbf79f16": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Figma introduced AI Agent Canvases and SDKs allowing developers to embed autonomous design-to-code agents into production Figma workspaces.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "35f4655c73244d2f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "1b4dab9c54ed5ef9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "978b8ca0da66c2de": {
+  "label": "TEST",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Browser-based tool that benchmarks hardware specs against local model token speeds before purchasing hardware.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "5af27088296feee8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "4b5e32413affaa27": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Trending open-source repository on GitHub: android/skills.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "5575c122b242df00": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "65bfbb2fae0b36ab": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Anthropic's official terminal coding agent claude-code continues trending among developers for direct terminal pair-programming.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "6f63018292f82d27": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Trending open-source repository on GitHub: anomalyco/opencode.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "85016253334892e3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "5f46485909ae84e5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "6202477b8b87a475": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "2af536c01de91d53": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Ollama release v0.40.5: engine fixes and memory optimizations for local model serving.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "22f0bb0af282b618": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Ollama release v0.40.5-rc2: engine fixes and memory optimizations for local model serving.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "0aaf50a0bbccc963": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Ollama release v0.40.5-rc1: New model... (#19030): engine fixes and memory optimizations for local model serving.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "f358eb9e27183b4b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "7a094c971ade6440": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "87f2675800cd5a61": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "fe005d4f1e6f8693": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "551cde1e07f0c67a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Publishers and major platforms update robots.txt and terms of service to block autonomous AI crawler bots.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "9089118c63ec63c5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "6d2ece7817bd8d6a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Meta and AWS made Muse Spark Open, a 70B parameter open-weight reasoning model, available via SageMaker JumpStart.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "00151b24f71c543a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "7b10885d8bc8c60e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "c563ea30251a2016": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "4bc2ef38a328348c": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "DeepSeek released V4.1-Flash-1017 scoring 77.0 on DeepSWE and opened public search APIs at 1/10th the cost of US commercial search models.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "9b5b409c7979bc36": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "f51bd565608918cf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "b1f3fc57f75400b2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "8e4528404b224c51": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Alibaba published QwenGyre 2026, detailing distributed RL optimizations that cut agent training time by 44%.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "e6ff961da588a71c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "ea62d994d19ec2ba": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Apple Intelligence nears regulatory approval for mainland China rollout in late October via partnership with Alibaba Cloud.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "b0e4ca235887bdc6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "8e0dcb1f7257e566": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Technical architecture guide on running distributed 70B+ LLM inference across Apple Silicon clusters using MLX and RDMA interconnects.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "cb99f533aa45f423": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Apple ML study comparing tree-search reasoning architectures against direct retrieval for agent tool calling.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "87e43f6be96fcb4c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "d3993b9d0eb1bad9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "ddb726667e09ccd2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "2cafea0cab3d5139": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "3405da5a0ef1f794": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "407e7fceac69b647": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Apple ML researchers unveiled Minions, a system pooling idle Mac Studio silicon into a unified virtual GPU cluster for LLM inference. Hook: 'Apple figured out how to turn idle Macs into an AI supercomputer.'",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "9c7a4e8b55ce8cf3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "41d1cebd9405c58c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "f740536ad0a622d4": {
+  "label": "TEST",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "AWS released Reflection Beam, an open-weight model optimized for agentic self-correction in code generation.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "5ced1de34e633c47": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Meta and AWS made Muse Spark Open, a 70B parameter open-weight reasoning model, available via SageMaker JumpStart.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "a0a9935908c108b7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "8de36b0e4b564c1f": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Perplexity open-sourced SPACE, its micro-VM container sandbox for running untrusted LLM code safely during live browsing. Hook: 'How does Perplexity run code without getting hacked? They just open-sourced the entire engine.'",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "d58b8844c910d98a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "4c2f290116311ac6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "8f0323543042c906": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "68a5f14d1649b8cc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "be5d084973056bed": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Cursor shipped Cloud Agent Canvases, enabling multi-agent parallel coding workflows and persistent remote terminal environments directly in the editor.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "bfc7f5cd26898256": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "LMArena updated rankings: Arena Text leaderboard: top 5 today.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "1b0f509f1edf6300": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "LMArena updated rankings: Arena WebDev (coding) leaderboard: top 5 today.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "fd5e96e652dcb3e7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "LMArena updated rankings: Arena Agent leaderboard: top 5 today.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "32492155013c0a27": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "LMArena updated rankings: Arena Search leaderboard: top 5 today.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "335740fd3a34b552": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "model_release",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "LMArena added new model to evaluations: Arena (LMArena) leaderboard changelog: beam-1.0-501b-a23b has been added to the Agent Arena and Code Arena: WebDev leade.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "357b3ebc082b692b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "model_release",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "LMArena added new model to evaluations: Arena (LMArena) leaderboard changelog: MiMo V2.6 Pro & MiMo V2.6 Flash has been added to the Agent Arena leaderboard..",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "71e8aff801f89a96": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Sarvam AI launched Bulbul V4 Flash: real-time Indic text-to-speech with sub-100ms latency across 10 Indian languages. Free to test in playground. Hook: 'Indian AI just got a real voice: here is Sarvam\\'s Bulbul V4 Flash in action.'",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "e302668337fe2f37": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "590708c684ce4109": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "ae8edd3e8ed5bc92": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "457810eddf1cb861": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "3e7aab3b0525d579": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "90ceb25f9f2bcee2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Analysis on India's AI infrastructure: India invested just $15 billion in AI against $757 billion in US: Why private capital matters.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "506b3589281f4ea3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "45974910be0909b8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Analysis on India's AI infrastructure: India’s AI compute paradox: GPU providers look abroad as researchers, startups struggle at home.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "34078f8bcb2b151d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "8d9a69ee08382c11": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "9bfa805983fe9a32": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Publishers and major platforms update robots.txt and terms of service to block autonomous AI crawler bots.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "867980e409bc7c4e": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "1e7c5494f1a48a1c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "08e14e77d93a79cd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "4841c7966a09d294": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "8c4ddcc589244056": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "b635e917c37bd3dc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "a01e5929e5189017": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "6b8664033b68737b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "49c1d16795ae1a95": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "7be069d3bcb7e8bd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "b94fa4c4d0568389": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "381c5596b73a723f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "9f02e4e0ee02623e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "52827c9e5039f98c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "7fc34a76faf51a93": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "d722d1eb9482efd0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Discussion on vibe coding evolving from reckless prototyping into structured spec-driven agent workflows.",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "28d71cc4944e13fe": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "e7ec12ebfe8c8e06": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "2063f1a8c5bdf426": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T19:04:35Z"
  }
 }
