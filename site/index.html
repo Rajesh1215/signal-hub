@@ -2,179 +2,600 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
 <title>Signal Hub</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='9' fill='%230f1419'/><circle cx='16' cy='16' r='3' fill='%2322d3ee'/><path d='M9 23a10 10 0 0 1 0-14M23 9a10 10 0 0 1 0 14' stroke='%2322d3ee' stroke-width='2.5' fill='none' stroke-linecap='round'/></svg>">
 <style>
-  :root { --bg:#f6f7f9; --card:#ffffff; --ink:#111318; --muted:#5b6170; --line:#e3e6ec; --chip:#eef0f4;
-          --make:#e5484d; --important:#f59e0b; --know:#3b82f6; --skip:#9ca3af; --pending:#8b5cf6; --stale:#a8a29e;
-          --comp:#14b8a6; --accent:#111318; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#0d0f13; --card:#161a21; --ink:#eef0f4; --muted:#9aa1ae;
-          --line:#262b35; --chip:#20252e; --accent:#eef0f4; } }
-  * { box-sizing:border-box; }
-  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif; }
-  header { position:sticky; top:0; z-index:5; background:var(--bg); border-bottom:1px solid var(--line); padding:12px 16px 8px; }
-  h1 { font-size:18px; margin:0 0 2px; } .sub { color:var(--muted); font-size:12px; }
-  .row { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; align-items:center; }
-  .chip { border:1px solid var(--line); background:var(--chip); color:var(--ink); border-radius:999px; padding:5px 11px;
-          font-size:13px; cursor:pointer; white-space:nowrap; }
-  .chip.on { background:var(--accent); color:var(--bg); border-color:var(--accent); }
-  .chip .n { opacity:.65; margin-left:4px; font-size:11px; }
-  input[type=search], input[type=date] { border:1px solid var(--line); background:var(--card); color:var(--ink);
-          border-radius:8px; padding:6px 9px; font-size:13px; }
-  input[type=search] { flex:1; min-width:140px; }
-  main { max-width:900px; margin:0 auto; padding:12px 16px 60px; }
-  .day { margin:18px 0 6px; font-weight:700; color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.06em; }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:11px 13px; margin:8px 0;
-          border-left:4px solid var(--skip); }
-  .card a.t { color:var(--ink); font-weight:600; text-decoration:none; } .card a.t:hover { text-decoration:underline; }
-  .meta { color:var(--muted); font-size:12px; margin-top:4px; display:flex; flex-wrap:wrap; gap:8px; }
-  .meta a { color:var(--muted); }
-  .badge { display:inline-block; font-size:11px; font-weight:700; padding:2px 7px; border-radius:6px; color:#fff; margin-right:6px; }
-  .flags { display:flex; flex-wrap:wrap; gap:4px; margin-top:6px; }
-  .flag { font-size:11px; background:var(--chip); border:1px solid var(--line); border-radius:6px; padding:1px 6px; color:var(--muted); }
-  .sum { margin-top:6px; font-size:13.5px; }
-  .empty { color:var(--muted); text-align:center; padding:40px 0; }
-  table { width:100%; border-collapse:collapse; font-size:13px; background:var(--card); border-radius:10px; overflow:hidden; }
-  th, td { text-align:left; padding:7px 9px; border-bottom:1px solid var(--line); vertical-align:top; }
-  th { color:var(--muted); font-weight:600; } .bad { color:var(--make); font-weight:600; }
-  .manual a { display:block; padding:9px 12px; background:var(--card); border:1px solid var(--line); border-radius:10px; margin:6px 0; color:var(--ink); text-decoration:none; }
+:root {
+  --bg:#f4f5f7; --surface:#ffffff; --surface-2:#f0f2f5; --ink:#0f1419; --ink-2:#384150; --muted:#6b7280;
+  --line:#e4e7ec; --shadow:0 1px 2px rgba(16,24,40,.05), 0 2px 8px rgba(16,24,40,.05);
+  --make:#e5484d; --test:#f76b15; --important:#d99a06; --watch:#8e4ec6; --study:#0090ff; --know:#3e63dd;
+  --skip:#8b8d98; --pending:#6f7a8e; --stale:#a18072; --comp:#12a594; --ok:#30a46c;
+  --accent:#22d3ee; --radius:14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg:#0b0d12; --surface:#151821; --surface-2:#1d2130; --ink:#eef0f4; --ink-2:#c6ccd6; --muted:#8f97a6;
+    --line:#262b38; --shadow:none; --important:#f5b82e; --know:#7c93f0; --skip:#80838f; --pending:#8e98ab;
+  }
+}
+:root[data-theme="dark"] {
+  --bg:#0b0d12; --surface:#151821; --surface-2:#1d2130; --ink:#eef0f4; --ink-2:#c6ccd6; --muted:#8f97a6;
+  --line:#262b38; --shadow:none; --important:#f5b82e; --know:#7c93f0; --skip:#80838f; --pending:#8e98ab;
+}
+* { box-sizing:border-box; }
+html { -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif; -webkit-font-smoothing:antialiased; }
+a { color:inherit; }
+button { font:inherit; color:inherit; }
+svg.i { width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; flex-shrink:0; }
+svg.sm { width:14px; height:14px; }
+.app { display:flex; min-height:100vh; }
+.col { flex:1; min-width:0; }
+
+/* ---------- mobile header + bottom nav ---------- */
+.top { position:sticky; top:0; z-index:20; background:color-mix(in srgb, var(--bg) 86%, transparent);
+  -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px); border-bottom:1px solid var(--line);
+  padding:max(10px, env(safe-area-inset-top)) 16px 0; }
+.brand { display:flex; align-items:center; gap:10px; }
+.logo { width:32px; height:32px; border-radius:10px; background:#0f1419; display:grid; place-items:center; flex-shrink:0; }
+.logo svg { width:20px; height:20px; }
+.brand b { font-size:17px; letter-spacing:-.01em; }
+.brand .upd { font-size:12px; color:var(--muted); line-height:1.3; }
+.iconbtn { margin-left:auto; width:36px; height:36px; border-radius:10px; border:1px solid var(--line); background:var(--surface);
+  display:grid; place-items:center; cursor:pointer; color:var(--ink-2); }
+.niches { display:flex; gap:8px; overflow-x:auto; padding:10px 0 12px; scrollbar-width:none; }
+.niches::-webkit-scrollbar, .scroll::-webkit-scrollbar, .seg::-webkit-scrollbar { display:none; }
+.npill { display:inline-flex; align-items:center; gap:7px; height:36px; padding:0 13px; border-radius:999px; border:1px solid var(--line);
+  background:var(--surface); white-space:nowrap; cursor:pointer; font-size:14px; font-weight:550; color:var(--ink-2); }
+.npill.on { background:var(--ink); color:var(--bg); border-color:var(--ink); }
+.dot { width:9px; height:9px; border-radius:50%; background:var(--c); flex-shrink:0; }
+.count { font-size:11.5px; font-weight:650; padding:1px 7px; border-radius:999px; background:var(--surface-2); color:var(--muted); }
+.npill.on .count { background:color-mix(in srgb, var(--bg) 22%, transparent); color:var(--bg); }
+.bottom { position:fixed; left:0; right:0; bottom:0; z-index:30; display:grid; grid-template-columns:repeat(5,1fr);
+  background:color-mix(in srgb, var(--surface) 94%, transparent); -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px);
+  border-top:1px solid var(--line); padding-bottom:env(safe-area-inset-bottom); }
+.bottom button { border:0; background:none; padding:9px 2px 8px; display:flex; flex-direction:column; align-items:center; gap:3px;
+  font-size:11px; font-weight:550; color:var(--muted); cursor:pointer; position:relative; }
+.bottom button.on { color:var(--ink); }
+.bottom button.on::before { content:""; position:absolute; top:0; left:30%; right:30%; height:3px; border-radius:0 0 3px 3px; background:var(--accent); }
+.bottom .badge-n { position:absolute; top:5px; left:calc(50% + 6px); font-size:10px; background:var(--make); color:#fff; border-radius:999px; padding:0 5px; }
+
+/* ---------- desktop sidebar ---------- */
+.side { display:none; }
+main { padding:16px 16px calc(92px + env(safe-area-inset-bottom)); max-width:1080px; margin:0 auto; }
+@media (min-width: 920px) {
+  .top, .bottom { display:none; }
+  .side { display:flex; flex-direction:column; gap:4px; width:268px; flex-shrink:0; position:sticky; top:0; height:100vh; overflow-y:auto;
+    background:var(--surface); border-right:1px solid var(--line); padding:20px 14px; }
+  .side .brand { padding:0 8px 18px; }
+  .side h6 { margin:16px 10px 6px; font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:var(--muted); }
+  .sbtn { display:flex; align-items:center; gap:10px; width:100%; padding:9px 10px; border-radius:10px; border:0; background:none; cursor:pointer;
+    text-align:left; font-size:14.5px; font-weight:550; color:var(--ink-2); }
+  .sbtn:hover { background:var(--surface-2); }
+  .sbtn.on { background:var(--surface-2); color:var(--ink); box-shadow:inset 3px 0 0 var(--accent); }
+  .sbtn .count { margin-left:auto; }
+  .sbtn .count.red { background:var(--make); color:#fff; }
+  .side .foot { margin-top:auto; padding:14px 10px 0; font-size:12.5px; color:var(--muted); border-top:1px solid var(--line); }
+  .side .foot p { margin:0 0 8px; }
+  .side .foot code { background:var(--surface-2); padding:1px 6px; border-radius:5px; color:var(--ink-2); }
+  .themebtn { display:flex; align-items:center; gap:8px; border:1px solid var(--line); background:var(--surface); border-radius:10px;
+    padding:7px 10px; cursor:pointer; font-size:13px; color:var(--ink-2); margin-top:6px; }
+  main { padding:30px 36px 60px; }
+}
+
+/* ---------- page header ---------- */
+.ph { margin:4px 0 18px; }
+.ph h1 { margin:0; font-size:24px; letter-spacing:-.02em; line-height:1.2; }
+.ph p { margin:4px 0 0; color:var(--muted); font-size:14px; }
+@media (min-width: 920px) { .ph h1 { font-size:28px; } }
+.note { color:var(--muted); margin:12px 2px 0; font-size:14px; }
+.note code { background:var(--surface-2); padding:1px 7px; border-radius:6px; font-size:13px; color:var(--ink); }
+
+/* ---------- controls ---------- */
+.filters { display:flex; flex-direction:column; gap:10px; margin-bottom:8px; }
+@media (min-width: 920px) { .filters { position:sticky; top:0; z-index:10; background:var(--bg); padding:10px 0 12px; margin-top:-10px; } }
+.scroll { display:flex; gap:8px; overflow-x:auto; scrollbar-width:none; padding:1px; }
+@media (min-width: 920px) { .scroll { flex-wrap:wrap; } }
+.chip { display:inline-flex; align-items:center; gap:7px; height:34px; padding:0 12px; border-radius:999px; border:1px solid var(--line);
+  background:var(--surface); white-space:nowrap; cursor:pointer; font-size:13.5px; font-weight:550; color:var(--ink-2); text-decoration:none; }
+.chip.on { background:var(--ink); color:var(--bg); border-color:var(--ink); }
+.chip .n { font-size:12px; opacity:.65; font-weight:600; }
+.chip .av { width:18px; height:18px; font-size:10px; border-radius:5px; }
+.seg { display:inline-flex; background:var(--surface-2); border-radius:11px; padding:3px; gap:2px; max-width:100%; overflow-x:auto; scrollbar-width:none; }
+.seg button { border:0; background:none; padding:6px 11px; border-radius:8px; font-size:13.5px; font-weight:550; color:var(--muted); cursor:pointer; white-space:nowrap; }
+.seg button.on { background:var(--surface); color:var(--ink); box-shadow:0 1px 3px rgba(0,0,0,.12); }
+.bar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+@media (max-width: 919px) { .bar .seg:first-child { width:100%; } .bar .seg:first-child button { flex:1; padding:6px 4px; } }
+.search { flex:1; min-width:200px; display:flex; align-items:center; gap:8px; height:40px; padding:0 12px; border-radius:11px;
+  border:1px solid var(--line); background:var(--surface); color:var(--muted); }
+.search input { flex:1; min-width:0; border:0; outline:0; background:none; color:var(--ink); font-size:15px; }
+.dates { display:flex; gap:8px; align-items:center; color:var(--muted); font-size:13px; }
+.dates input { height:34px; border-radius:9px; border:1px solid var(--line); background:var(--surface); color:var(--ink); padding:0 8px; font:inherit; font-size:13px; }
+
+/* ---------- overview ---------- */
+.tiles { display:grid; grid-template-columns:repeat(2, 1fr); gap:10px; }
+@media (min-width: 720px) { .tiles { grid-template-columns:repeat(4, 1fr); gap:14px; } }
+.tile { text-align:left; border:1px solid var(--line); background:var(--surface); border-radius:var(--radius); padding:14px; cursor:pointer;
+  box-shadow:var(--shadow); position:relative; overflow:hidden; }
+.tile::after { content:""; position:absolute; left:0; right:0; top:0; height:3px; background:var(--lc); }
+.tile .num { font-size:28px; font-weight:750; letter-spacing:-.02em; line-height:1.1; }
+.tile .lbl { font-size:13.5px; font-weight:650; margin-top:2px; }
+.tile .sub { font-size:12px; color:var(--muted); }
+.sec { display:flex; align-items:baseline; justify-content:space-between; gap:10px; margin:30px 2px 12px; }
+.sec h2 { margin:0; font-size:18px; letter-spacing:-.01em; }
+.sec button { border:0; background:none; color:var(--muted); font-size:13.5px; font-weight:600; cursor:pointer; padding:0; white-space:nowrap; }
+.grid { display:grid; grid-template-columns:1fr; gap:12px; }
+@media (min-width: 720px) { .grid.two { grid-template-columns:repeat(2, 1fr); } .grid.three { grid-template-columns:repeat(3, 1fr); } }
+.stack { display:flex; flex-direction:column; gap:10px; }
+
+.banner { display:flex; gap:12px; align-items:flex-start; padding:14px 16px; border-radius:var(--radius); margin-bottom:16px;
+  background:color-mix(in srgb, var(--tone, var(--pending)) 10%, var(--surface)); border:1px solid color-mix(in srgb, var(--tone, var(--pending)) 28%, var(--line)); }
+.banner .ic { width:36px; height:36px; border-radius:10px; display:grid; place-items:center; flex-shrink:0;
+  background:color-mix(in srgb, var(--tone, var(--pending)) 18%, transparent); color:var(--tone, var(--pending)); }
+.banner b { display:block; font-size:15px; }
+.banner p { margin:2px 0 0; color:var(--ink-2); font-size:14px; }
+.banner code, .empty code { background:var(--surface-2); padding:1px 7px; border-radius:6px; font-size:13px; color:var(--ink); }
+.link { border:0; background:none; padding:0; color:var(--ink); font-weight:650; text-decoration:underline; text-underline-offset:3px; cursor:pointer; font-size:14px; }
+
+.empty { text-align:center; padding:36px 20px; background:var(--surface); border:1px dashed var(--line); border-radius:var(--radius); color:var(--muted); }
+.empty h3 { color:var(--ink); margin:10px 0 6px; font-size:18px; }
+.empty ol { text-align:left; display:inline-block; margin:8px auto 16px; padding-left:20px; color:var(--ink-2); }
+.empty ol li { margin:4px 0; }
+.btn { display:inline-flex; align-items:center; gap:7px; height:38px; padding:0 14px; border-radius:10px; border:1px solid var(--line);
+  background:var(--surface); color:var(--ink); font-weight:600; font-size:14px; cursor:pointer; text-decoration:none; }
+.btn.primary { background:var(--ink); color:var(--bg); border-color:var(--ink); }
+
+/* ---------- cards ---------- */
+.card { position:relative; display:flex; gap:14px; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+  padding:14px 14px 14px 16px; box-shadow:var(--shadow); min-width:0; }
+.card::before { content:""; position:absolute; left:0; top:14px; bottom:14px; width:4px; border-radius:0 4px 4px 0; background:var(--lc); }
+.card .body { flex:1; min-width:0; }
+.card.hero { flex-direction:column; gap:0; padding:0; overflow:hidden; }
+.card.hero::before { top:0; bottom:auto; left:0; right:0; width:auto; height:4px; border-radius:0; z-index:1; }
+.card.hero .body { padding:14px 16px 16px; }
+.badges { display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-bottom:7px; }
+.badge { display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:750; letter-spacing:.05em; text-transform:uppercase;
+  padding:3px 8px; border-radius:6px; color:#fff; background:var(--lc); }
+.badge.ghost { background:none; color:var(--pending); border:1px dashed color-mix(in srgb, var(--pending) 60%, transparent); padding:2px 7px; }
+.tag { font-size:12px; font-weight:550; padding:2px 8px; border-radius:6px; background:var(--surface-2); color:var(--ink-2); }
+.tag.now { background:color-mix(in srgb, var(--make) 14%, transparent); color:var(--make); font-weight:750; }
+.tag.soon { background:color-mix(in srgb, var(--important) 16%, transparent); color:var(--important); font-weight:700; }
+.ever { display:inline-flex; gap:3px; align-items:center; padding:0 2px; }
+.ever i { width:6px; height:6px; border-radius:50%; background:var(--line); }
+.ever i.f { background:var(--ok); }
+.title { font-size:16px; font-weight:650; line-height:1.38; color:var(--ink); text-decoration:none; display:-webkit-box; -webkit-line-clamp:3;
+  -webkit-box-orient:vertical; overflow:hidden; letter-spacing:-.005em; }
+.title:hover { text-decoration:underline; text-underline-offset:3px; }
+.hero .title { font-size:17px; }
+.summary { margin:7px 0 0; color:var(--ink-2); font-size:14.5px; line-height:1.5; }
+.snippet { margin:5px 0 0; color:var(--muted); font-size:13.5px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.flags { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+.flag { font-size:12px; padding:2px 9px; border-radius:999px; border:1px solid var(--line); color:var(--ink-2); background:var(--bg); }
+.meta { display:flex; flex-wrap:wrap; align-items:center; gap:4px 10px; margin-top:10px; font-size:12.5px; color:var(--muted); }
+.meta .src { display:inline-flex; align-items:center; gap:7px; font-weight:600; color:var(--ink-2); }
+.meta a { color:var(--muted); }
+.av { width:20px; height:20px; border-radius:6px; display:inline-grid; place-items:center; font-size:11px; font-weight:750; color:#fff; flex-shrink:0; }
+.thumb { flex-shrink:0; width:92px; height:70px; border-radius:10px; overflow:hidden; background:var(--surface-2); display:block; }
+.thumb img { width:100%; height:100%; object-fit:cover; display:block; }
+.hero .thumb { width:100%; height:auto; aspect-ratio:16/9; border-radius:0; }
+@media (min-width: 920px) { .card:not(.hero) .thumb { width:168px; height:100px; } }
+
+.list { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:2px 14px; box-shadow:var(--shadow); }
+.ritem { display:flex; gap:12px; align-items:flex-start; padding:12px 0; border-bottom:1px solid var(--line); }
+.ritem:last-child { border-bottom:0; }
+.ritem .rb { flex:1; min-width:0; }
+.ritem .rt { font-size:14.5px; font-weight:600; color:var(--ink); text-decoration:none; line-height:1.38; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.ritem .meta { margin-top:4px; }
+.ritem .thumb { width:64px; height:48px; border-radius:8px; }
+.ritem > .av { margin-top:2px; width:28px; height:28px; border-radius:8px; font-size:13px; }
+.day { font-size:12px; font-weight:750; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin:24px 4px 10px; display:flex; align-items:center; gap:10px; }
+.day::after { content:""; flex:1; height:1px; background:var(--line); }
+
+/* ---------- manual + sources ---------- */
+.mcard { display:flex; gap:12px; align-items:flex-start; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:14px; box-shadow:var(--shadow); }
+.mcard .mi { width:40px; height:40px; border-radius:11px; display:grid; place-items:center; font-weight:800; font-size:15px; color:#fff; flex-shrink:0; }
+.mcard .mb { flex:1; min-width:0; }
+.mcard b { display:block; font-size:15px; }
+.mcard p { margin:3px 0 10px; color:var(--muted); font-size:13.5px; }
+.srow { display:flex; gap:12px; align-items:flex-start; padding:12px 0; border-bottom:1px solid var(--line); }
+.srow:last-child { border-bottom:0; }
+.sdot { width:10px; height:10px; border-radius:50%; margin-top:6px; flex-shrink:0; }
+.srow .sb { flex:1; min-width:0; }
+.srow b { font-size:14.5px; }
+.srow .sm { font-size:12.5px; color:var(--muted); }
+.srow .err { font-size:12.5px; color:var(--make); margin-top:2px; word-break:break-word; }
+.srow .sn { text-align:right; font-size:12px; color:var(--muted); white-space:nowrap; }
+.srow .sn b { display:block; font-size:16px; color:var(--ink); }
+.pills { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
+.loading { padding:60px 0; text-align:center; color:var(--muted); }
 </style>
 </head>
 <body>
-<header>
-  <h1>📡 Signal Hub</h1>
-  <div class="sub" id="updated">Loading…</div>
-  <div class="row" id="entities"></div>
-  <div class="row" id="tabs"></div>
-  <div class="row" id="dates"></div>
-  <div class="row" id="labels"></div>
-  <div class="row"><input type="search" id="q" placeholder="Search titles, sources, flags…"></div>
-</header>
-<main id="out"></main>
+<div class="app">
+  <aside class="side" id="side"></aside>
+  <div class="col">
+    <header class="top" id="top"></header>
+    <main id="main"><div class="loading">Loading…</div></main>
+  </div>
+</div>
+<nav class="bottom" id="bottom" aria-label="Views"></nav>
+
 <script>
-const S = { entity:null, tab:'news', date:'today', from:'', to:'', label:'ALL', q:'', sort:'latest' };
-const PRIORITY = ['MAKE','TEST','IMPORTANT','WATCH','RELEASE','FEATURE','DECISION','CONTENT','PRACTICE','STUDY','KNOW','PENDING','SKIP','STALE'];
-const TIMING = { NOW:0, SOON:1, ANYTIME:2 };
+const ICON = {
+  logo: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="2.4" fill="#22d3ee"/><path d="M6.5 17.5a7.8 7.8 0 0 1 0-11M17.5 6.5a7.8 7.8 0 0 1 0 11" stroke="#22d3ee" stroke-width="2.2" fill="none" stroke-linecap="round"/></svg>',
+  overview: '<path d="M4 4h7v7H4zM13 4h7v4h-7zM13 10h7v10h-7zM4 13h7v7H4z"/>',
+  feed: '<path d="M5 6h14M5 12h14M5 18h9"/>',
+  competitors: '<circle cx="9" cy="8" r="3.4"/><path d="M2.8 20c.8-3.4 3.3-5.4 6.2-5.4s5.4 2 6.2 5.4M15.8 4.7a3.4 3.4 0 0 1 0 6.6M17.6 14.8c1.9.6 3.1 2.5 3.5 5.2"/>',
+  manual: '<path d="M10 6h10M10 12h10M10 18h10"/><path d="m3.5 6 1.6 1.6L8 4.8M3.5 12l1.6 1.6L8 10.8M3.5 18l1.6 1.6L8 16.8"/>',
+  sources: '<path d="M3 12h4l3-7 4 14 3-7h4"/>',
+  moon: '<path d="M20.5 13.2A8.5 8.5 0 1 1 10.8 3.5a6.6 6.6 0 0 0 9.7 9.7z"/>',
+  sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/>',
+  search: '<circle cx="11" cy="11" r="6.5"/><path d="m20 20-4-4"/>',
+  clock: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
+  open: '<path d="M14 4h6v6M20 4l-9 9M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/>',
+  spark: '<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6.3 6.3l2.5 2.5M15.2 15.2l2.5 2.5M6.3 17.7l2.5-2.5M15.2 8.8l2.5-2.5"/>',
+};
+const ic = (n, cls = '') => `<svg class="i ${cls}" viewBox="0 0 24 24">${ICON[n]}</svg>`;
+
+// label -> [display name, color, short meaning]
+const LABELS = {
+  MAKE: ['Make', 'var(--make)', 'Make a video'], TEST: ['Test', 'var(--test)', 'Try it first'],
+  IMPORTANT: ['Important', 'var(--important)', 'Big news'], WATCH: ['Watch', 'var(--watch)', 'Still developing'],
+  STUDY: ['Study', 'var(--study)', 'Learn later'], KNOW: ['Know', 'var(--know)', 'Good to know'],
+  SKIP: ['Skipped', 'var(--skip)', 'Not useful'], PENDING: ['Waiting', 'var(--pending)', 'Not analysed yet'],
+  STALE: ['Stale', 'var(--stale)', 'Never analysed'],
+  RELEASE: ['Release', 'var(--comp)'], FEATURE: ['Feature', 'var(--comp)'], DECISION: ['Decision', 'var(--comp)'],
+  PRACTICE: ['Practice', 'var(--comp)'], CONTENT: ['Content', 'var(--comp)'],
+};
+const RANK = ['MAKE','TEST','IMPORTANT','WATCH','RELEASE','FEATURE','DECISION','CONTENT','PRACTICE','STUDY','KNOW','PENDING','SKIP','STALE'];
+const TIMING = { NOW: ['Post now', 'now', 0], SOON: ['This week', 'soon', 1], ANYTIME: ['Anytime', '', 2] };
+const VIEWS = [['overview','Overview'], ['feed','Feed'], ['competitors','Competitors'], ['manual','Check manually'], ['sources','Sources']];
+const SHORT = { overview:'Home', feed:'Feed', competitors:'Competitors', manual:'Manual', sources:'Sources' };
+const DATES = [['today','Today'], ['yesterday','Yesterday'], ['week','Week'], ['month','Month'], ['custom','Custom']];
+
+const S = { entity:null, view:'overview', date:'week', from:'', to:'', label:'ALL', q:'', sort:'latest', comp:'ALL' };
 let META = null; const DATA = {};
-const COLORS = { MAKE:'var(--make)', IMPORTANT:'var(--important)', KNOW:'var(--know)', SKIP:'var(--skip)',
-  STALE:'var(--stale)', TEST:'var(--important)', STUDY:'var(--know)', RELEASE:'var(--comp)', FEATURE:'var(--comp)',
-  DECISION:'var(--comp)', PRACTICE:'var(--comp)', CONTENT:'var(--comp)' };
-const ist = d => new Date(new Date(d).getTime() + 330*60000).toISOString().slice(0,10);
-const todayIST = () => ist(Date.now());
-const esc = s => (s ?? '').toString().replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+// ---------- helpers ----------
+const esc = s => (s ?? '').toString().replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safe = u => /^https?:\/\//i.test(u || '') ? u : '#';
+const attr = o => esc(JSON.stringify(o));
+const human = s => (s ?? '').toString().replace(/_/g, ' ').replace(/^./, c => c.toUpperCase());
+const ist = d => new Date(new Date(d).getTime() + 330 * 60000).toISOString().slice(0, 10);
+const dayAgo = n => ist(Date.now() - n * 864e5);
+const lab = it => it.status === 'pending' ? 'PENDING' : it.status === 'stale' ? 'STALE' : it.label;
+const when = it => it.when || it.found_at;
+const newest = (a, b) => (when(b) || '').localeCompare(when(a) || '');
+const compact = n => new Intl.NumberFormat('en', { notation:'compact', maximumFractionDigits:1 }).format(n);
 function store(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
 function load(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
-
-function chip(label, on, onclick, n) {
-  const b = document.createElement('button'); b.className = 'chip' + (on ? ' on' : '');
-  b.innerHTML = esc(label) + (n != null ? `<span class="n">${n}</span>` : ''); b.onclick = onclick; return b;
+function rel(d) {
+  if (!d) return 'never';
+  const s = (Date.now() - new Date(d)) / 1000;
+  if (s < 90) return 'just now';
+  if (s < 3600) return Math.round(s / 60) + ' min ago';
+  if (s < 86400) return Math.round(s / 3600) + 'h ago';
+  if (s < 7 * 86400) return Math.round(s / 86400) + 'd ago';
+  return new Date(d).toLocaleDateString('en-IN', { day:'numeric', month:'short', timeZone:'Asia/Kolkata' });
 }
-function inRange(it) {
-  const d = ist(it.when || it.found_at), t = todayIST(), y = ist(Date.now() - 864e5);
-  if (S.date === 'today') return d === t;
-  if (S.date === 'yesterday') return d === y;
-  if (S.date === '7d') return d >= ist(Date.now() - 6*864e5);
-  if (S.date === '30d') return d >= ist(Date.now() - 29*864e5);
-  if (S.date === 'custom') return (!S.from || d >= S.from) && (!S.to || d <= S.to);
+function dayName(d) {
+  return d === dayAgo(0) ? 'Today' : d === dayAgo(1) ? 'Yesterday'
+    : new Date(d + 'T12:00:00Z').toLocaleDateString('en-IN', { weekday:'long', day:'numeric', month:'short' });
+}
+function hue(s) { let h = 0; for (const c of s || '') h = (h * 31 + c.charCodeAt(0)) % 360; return h; }
+const av = name => `<span class="av" style="background:hsl(${hue(name)} 52% 46%)">${esc((name || '?').replace(/^r\//, '').charAt(0).toUpperCase())}</span>`;
+function inRange(it, range = S.date) {
+  const d = ist(when(it));
+  if (range === 'today') return d === dayAgo(0);
+  if (range === 'yesterday') return d === dayAgo(1);
+  if (range === 'week') return d >= dayAgo(6);
+  if (range === 'month') return d >= dayAgo(29);
+  if (range === 'custom') return (!S.from || d >= S.from) && (!S.to || d <= S.to);
   return true;
 }
-function matchLabel(it) {
-  const L = it.status === 'pending' ? 'PENDING' : (it.status === 'stale' ? 'STALE' : it.label);
-  if (S.label === 'ALL') return L !== 'SKIP' && L !== 'STALE';
-  return L === S.label;
+const ent = () => META.entities.find(e => e.id === S.entity);
+const items = () => DATA[S.entity] || [];
+const news = () => items().filter(it => it.role !== 'competitor');
+const rivals = () => items().filter(it => it.role === 'competitor' && (S.comp === 'ALL' || it.competitor_id === S.comp));
+const useful = it => it.status === 'analyzed' && !['SKIP', 'STALE'].includes(it.label);
+function byPriority(a, b) {
+  return (RANK.indexOf(lab(a)) - RANK.indexOf(lab(b))) || ((TIMING[a.timing]?.[2] ?? 3) - (TIMING[b.timing]?.[2] ?? 3))
+    || ((b.evergreen || 0) - (a.evergreen || 0)) || newest(a, b);
+}
+
+// ---------- pieces ----------
+function flagChips(it) {
+  const defs = ent().flags || {};
+  return Object.entries(it.flags || {}).filter(([, v]) => v !== false && v != null && v !== 'none' && v !== '')
+    .sort(([a], [b]) => (a === 'category' ? -1 : b === 'category' ? 1 : 0))
+    .map(([k, v]) => {
+      const text = v === true ? human(k) : k === 'category' ? human(v)
+        : defs[k]?.type === 'date' ? 'Anniversary ' + new Date(v + 'T12:00:00Z').toLocaleDateString('en-IN', { day:'numeric', month:'short' })
+        : `${human(k)}: ${human(v)}`;
+      return `<span class="flag" title="${esc(defs[k]?.help || k)}">${esc(text)}</span>`;
+    }).join('');
+}
+function stats(it) {
+  const m = it.meta || {}, out = [];
+  if (m.views) out.push(compact(m.views) + ' views');
+  if (m.points) out.push(compact(m.points) + ' points');
+  if (m.upvotes) out.push(compact(m.upvotes) + ' upvotes');
+  if (m.reactions) out.push(compact(m.reactions) + ' reactions');
+  if (m.stars_today) out.push('★ ' + compact(m.stars_today) + ' today');
+  if (m.comments) out.push(compact(m.comments) + ' comments');
+  return out.map(s => `<span>${esc(s)}</span>`).join('');
+}
+function srcName(it) {
+  if (!it.competitor_id) return it.source;
+  return ent().competitors.find(c => c.id === it.competitor_id)?.name || it.source;
+}
+function badgeFor(L) {
+  const [name, color] = LABELS[L] || [L, 'var(--skip)'];
+  return L === 'PENDING' ? `<span class="badge ghost">${ic('clock', 'sm')}Waiting</span>`
+    : `<span class="badge" style="--lc:${color}">${esc(name)}</span>`;
+}
+const img = (it, cls) => `<a class="${cls}" href="${esc(safe(it.url))}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+  <img src="${esc(it.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></a>`;
+function card(it, mode = 'normal') {
+  const L = lab(it), color = (LABELS[L] || [])[1] || 'var(--skip)', src = srcName(it), m = it.meta || {};
+  const b = [badgeFor(L)];
+  if (it.timing && TIMING[it.timing]) b.push(`<span class="tag ${TIMING[it.timing][1]}">${TIMING[it.timing][0]}</span>`);
+  if (it.evergreen) b.push(`<span class="ever" title="Evergreen ${it.evergreen}/5">${[1,2,3,4,5].map(n => `<i class="${n <= it.evergreen ? 'f' : ''}"></i>`).join('')}</span>`);
+  if (it.reason) b.push(`<span class="tag">${esc(human(it.reason))}</span>`);
+  const snip = it.snippet && !it.snippet.startsWith((it.title || '').slice(0, 30)) ? it.snippet : '';
+  const text = it.summary ? `<p class="summary">${esc(it.summary)}</p>` : snip ? `<p class="snippet">${esc(snip)}</p>` : '';
+  const flags = flagChips(it);
+  const links = (m.discussion ? `<a href="${esc(safe(m.discussion))}" target="_blank" rel="noopener">discussion</a>` : '')
+    + (m.github ? `<a href="${esc(safe(m.github))}" target="_blank" rel="noopener">code</a>` : '');
+  const hero = mode === 'hero' && it.image;
+  return `<article class="card ${hero ? 'hero' : ''}" style="--lc:${color}">
+    ${hero ? img(it, 'thumb') : ''}
+    <div class="body">
+      <div class="badges">${b.join('')}</div>
+      <a class="title" href="${esc(safe(it.url))}" target="_blank" rel="noopener">${esc(it.title || it.url)}</a>
+      ${text}
+      ${flags ? `<div class="flags">${flags}</div>` : ''}
+      <div class="meta"><span class="src">${av(src)}${esc(src)}</span><span>${rel(when(it))}</span>${stats(it)}${links}</div>
+    </div>
+    ${!hero && it.image ? img(it, 'thumb') : ''}
+  </article>`;
+}
+function row(it) {
+  const src = srcName(it), L = lab(it);
+  return `<div class="ritem">${av(src)}
+    <div class="rb"><a class="rt" href="${esc(safe(it.url))}" target="_blank" rel="noopener">${esc(it.title || it.url)}</a>
+      <div class="meta">${L !== 'PENDING' ? badgeFor(L) : ''}<span class="src">${esc(src)}</span><span>${rel(when(it))}</span>${stats(it)}</div></div>
+    ${it.image ? img(it, 'thumb') : ''}
+  </div>`;
+}
+function grouped(list, render, wrap) {
+  let html = '', last = '';
+  for (const it of list) {
+    const d = ist(when(it));
+    if (d !== last) { if (last) html += '</div>'; html += `<div class="day">${dayName(d)}</div><div class="${wrap}">`; last = d; }
+    html += render(it);
+  }
+  return html + (last ? '</div>' : '');
+}
+
+// ---------- chrome (header, sidebar, bottom nav) ----------
+const updatedText = e => `Collected ${rel(e.last_collect)} · Analysed ${rel(e.last_analysis)}`;
+const isDark = () => document.documentElement.dataset.theme === 'dark'
+  || (!document.documentElement.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches);
+function renderChrome() {
+  const e = ent(), broken = e.sources.filter(s => s.broken).length, dark = isDark();
+  document.documentElement.style.setProperty('--accent', e.color);
+  const nicheBtn = (x, cls) => `<button class="${cls} ${x.id === S.entity ? 'on' : ''}" data-set="${attr({ entity:x.id })}">
+    <span class="dot" style="--c:${x.color}"></span>${esc(x.name)}${x.pending ? `<span class="count" title="Waiting for analysis">${x.pending}</span>` : ''}</button>`;
+  document.getElementById('top').innerHTML = `
+    <div class="brand"><span class="logo">${ICON.logo}</span><div><b>Signal Hub</b><div class="upd">${updatedText(e)}</div></div>
+      <button class="iconbtn" data-theme-toggle aria-label="Switch light or dark">${ic(dark ? 'sun' : 'moon')}</button></div>
+    <div class="niches">${META.entities.map(x => nicheBtn(x, 'npill')).join('')}</div>`;
+  const on = document.querySelector('.niches .on');
+  if (on) on.parentNode.scrollLeft = on.offsetLeft - 16;
+  document.getElementById('bottom').innerHTML = VIEWS.map(([k]) => `<button class="${S.view === k ? 'on' : ''}" data-set="${attr({ view:k })}">
+    ${ic(k)}${SHORT[k]}${k === 'sources' && broken ? `<span class="badge-n">${broken}</span>` : ''}</button>`).join('');
+  document.getElementById('side').innerHTML = `
+    <div class="brand"><span class="logo">${ICON.logo}</span><div><b>Signal Hub</b><div class="upd">News radar for your channels</div></div></div>
+    <h6>Channels</h6>${META.entities.map(x => nicheBtn(x, 'sbtn')).join('')}
+    <h6>Views</h6>${VIEWS.map(([k, l]) => `<button class="sbtn ${S.view === k ? 'on' : ''}" data-set="${attr({ view:k })}">${ic(k)}${l}
+      ${k === 'sources' && broken ? `<span class="count red">${broken}</span>` : ''}</button>`).join('')}
+    <div class="foot"><p>${updatedText(e)}</p><p>New news arrives at 6:30 am and 5:30 pm IST. To label it, say <code>analyze today</code> in Antigravity.</p>
+      <button class="themebtn" data-theme-toggle>${ic(dark ? 'sun' : 'moon')}${dark ? 'Light mode' : 'Dark mode'}</button></div>`;
+}
+
+// ---------- views ----------
+const pageHead = (title, sub) => `<div class="ph"><h1>${esc(title)}</h1>${sub ? `<p>${sub}</p>` : ''}</div>`;
+function waitingBanner(n) {
+  if (!n) return '';
+  return `<div class="banner"><span class="ic">${ic('clock')}</span><div>
+    <b>${n} new item${n === 1 ? '' : 's'} waiting for the AI</b>
+    <p>Collected, not analysed yet. Say <code>analyze today</code> in Antigravity and each one gets a label: Make, Important, Know or Skip.
+    <button class="link" data-set="${attr({ view:'feed', label:'PENDING', date:'week' })}">See them</button></p></div></div>`;
+}
+function viewOverview() {
+  const e = ent(), all = news();
+  const wk = all.filter(it => it.status === 'analyzed' && inRange(it, 'week'));
+  const count = ls => wk.filter(it => ls.includes(it.label)).length;
+  const pending = items().filter(it => it.status === 'pending').length;
+  const analysedAny = items().some(it => it.status === 'analyzed');
+  const tiles = [
+    ['To make', count(['MAKE', 'TEST']), 'var(--make)', 'MAKE', 'video ideas this week'],
+    ['Important', count(['IMPORTANT', 'WATCH']), 'var(--important)', 'IMPORTANT', 'big news this week'],
+    ['Good to know', count(['KNOW', 'STUDY']), 'var(--know)', 'KNOW', 'context, no video'],
+    ['Waiting', pending, 'var(--pending)', 'PENDING', 'not analysed yet'],
+  ].map(([l, n, c, L, sub]) => `<button class="tile" style="--lc:${c}" data-set="${attr({ view:'feed', date:'week', label:L })}">
+    <div class="num">${n}</div><div class="lbl">${l}</div><div class="sub">${sub}</div></button>`).join('');
+  let html = pageHead(e.name, esc(e.niche)) + waitingBanner(pending) + `<div class="tiles">${tiles}</div>`;
+
+  if (!analysedAny) {
+    html += `<div class="sec"><h2>Make next</h2></div><div class="empty">${ic('spark')}
+      <h3>Nothing analysed yet</h3>
+      <ol><li>Open the <b>signal-hub</b> folder in Antigravity</li><li>Type <code>analyze today</code></li><li>Come back in a minute: your video ideas appear here</li></ol><br>
+      <button class="btn primary" data-set="${attr({ view:'feed', label:'PENDING', date:'week' })}">Browse ${pending} waiting items</button></div>`;
+  } else {
+    const make = wk.filter(it => ['MAKE', 'TEST'].includes(it.label)).sort(byPriority);
+    const imp = wk.filter(it => ['IMPORTANT', 'WATCH'].includes(it.label)).sort(byPriority);
+    html += `<div class="sec"><h2>Make next</h2><button data-set="${attr({ view:'feed', label:'MAKE', date:'week', sort:'priority' })}">See all →</button></div>`;
+    html += make.length ? `<div class="grid two">${make.slice(0, 6).map(it => card(it, 'hero')).join('')}</div>`
+      : `<div class="empty">No video ideas this week yet.</div>`;
+    html += `<div class="sec"><h2>Important</h2><button data-set="${attr({ view:'feed', label:'IMPORTANT', date:'week' })}">See all →</button></div>`;
+    html += imp.length ? `<div class="stack">${imp.slice(0, 6).map(it => card(it)).join('')}</div>` : `<div class="empty">Nothing important this week.</div>`;
+  }
+  const comp = items().filter(it => it.role === 'competitor' && inRange(it, 'week') && lab(it) !== 'SKIP').sort(newest);
+  if (comp.length) {
+    html += `<div class="sec"><h2>Latest from competitors</h2><button data-set="${attr({ view:'competitors' })}">See all →</button></div>
+      <div class="grid three">${comp.slice(0, 6).map(it => card(it, 'hero')).join('')}</div>`;
+  }
+  if (e.manual.length) {
+    html += `<div class="sec"><h2>Also check by hand</h2><button data-set="${attr({ view:'manual' })}">All ${e.manual.length} →</button></div>
+      <div class="scroll">${e.manual.slice(0, 8).map(m => `<a class="chip" href="${esc(safe(m.url))}" target="_blank" rel="noopener">${esc(m.name)}${ic('open', 'sm')}</a>`).join('')}</div>`;
+  }
+  return html;
+}
+function filterBar(base, labelList) {
+  const counts = {};
+  base.filter(it => inRange(it)).forEach(it => {
+    const L = lab(it); counts[L] = (counts[L] || 0) + 1;
+    if (useful(it)) counts.USEFUL = (counts.USEFUL || 0) + 1;
+    if (L !== 'SKIP' && L !== 'STALE') counts.ALL = (counts.ALL || 0) + 1;
+  });
+  const chips = labelList.map(L => {
+    const name = L === 'USEFUL' ? 'Analysed' : L === 'ALL' ? 'All news' : (LABELS[L] || [L])[0];
+    const color = (LABELS[L] || [])[1];
+    return `<button class="chip ${S.label === L ? 'on' : ''}" data-set="${attr({ label:L })}" title="${esc((LABELS[L] || [])[2] || (L === 'USEFUL' ? 'Analysed by the AI, except Skipped' : L === 'ALL' ? 'Everything except Skipped' : ''))}">
+      ${color ? `<span class="dot" style="--c:${color}"></span>` : ''}${name}<span class="n">${counts[L] || 0}</span></button>`;
+  }).join('');
+  return `<div class="filters">
+    <div class="bar"><div class="seg">${DATES.map(([k, l]) => `<button class="${S.date === k ? 'on' : ''}" data-set="${attr({ date:k })}">${l}</button>`).join('')}</div>
+      <div class="seg">${[['latest', 'Latest'], ['priority', 'Priority']].map(([k, l]) => `<button class="${S.sort === k ? 'on' : ''}" data-set="${attr({ sort:k })}">${l}</button>`).join('')}</div></div>
+    ${S.date === 'custom' ? `<div class="dates"><input type="date" id="from" value="${esc(S.from)}" aria-label="From date"> to <input type="date" id="to" value="${esc(S.to)}" aria-label="To date"></div>` : ''}
+    <div class="scroll">${chips}</div>
+    <label class="search">${ic('search')}<input id="q" type="search" placeholder="Search titles, sources, flags" value="${esc(S.q)}"></label>
+  </div><div id="list"></div>`;
 }
 function matchQ(it) {
   if (!S.q) return true;
-  const hay = [it.title, it.source, it.reason, it.summary, JSON.stringify(it.flags||{})].join(' ').toLowerCase();
+  const hay = [it.title, it.source, srcName(it), it.reason, it.summary, it.snippet, JSON.stringify(it.flags || {})].join(' ').toLowerCase();
   return S.q.toLowerCase().split(/\s+/).every(w => hay.includes(w));
 }
-function card(it, ent) {
-  const L = it.status === 'pending' ? 'PENDING' : (it.status === 'stale' ? 'STALE' : it.label);
-  const color = L === 'PENDING' ? 'var(--pending)' : (COLORS[L] || 'var(--skip)');
-  const flags = Object.entries(it.flags || {}).filter(([k,v]) => v !== false && v != null)
-    .map(([k,v]) => `<span class="flag">${esc(k)}${v === true ? '' : ': ' + esc(v)}</span>`).join('');
-  const m = it.meta || {};
-  const stats = ['points','upvotes','views','reactions','stars_today','comments'].filter(k => m[k]).map(k => `${k} ${m[k]}`).join(' · ');
-  const compName = it.competitor_id ? (ent.competitors.find(c => c.id === it.competitor_id)?.name || it.competitor_id) : '';
-  const comp = compName && compName !== it.source ? compName : '';
-  const w = it.when || it.found_at;
-  const time = !w ? '' : S.sort === 'priority'
-    ? new Date(w).toLocaleString('en-IN', {day:'numeric', month:'short', hour:'2-digit', minute:'2-digit', timeZone:'Asia/Kolkata'})
-    : new Date(w).toLocaleTimeString('en-IN', {hour:'2-digit', minute:'2-digit', timeZone:'Asia/Kolkata'});
-  return `<div class="card" style="border-left-color:${color}">
-    <span class="badge" style="background:${color}">${esc(L)}</span>${it.timing ? `<span class="flag">${esc(it.timing)}</span> ` : ''}${it.evergreen ? `<span class="flag">evergreen ${it.evergreen}/5</span> ` : ''}${it.reason ? `<span class="flag">${esc(it.reason)}</span>` : ''}
-    <div style="margin-top:6px"><a class="t" href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title || it.url)}</a></div>
-    ${it.summary ? `<div class="sum">${esc(it.summary)}</div>` : ''}
-    ${flags ? `<div class="flags">${flags}</div>` : ''}
-    <div class="meta"><span>${esc(comp ? comp + ' · ' : '')}${esc(it.source)}</span><span>${esc(it.role)}</span><span>${time} IST</span>${stats ? `<span>${esc(stats)}</span>` : ''}${m.discussion ? `<a href="${esc(m.discussion)}" target="_blank" rel="noopener">discussion</a>` : ''}${m.github ? `<a href="${esc(m.github)}" target="_blank" rel="noopener">code</a>` : ''}</div>
-  </div>`;
+function matchLabel(it) {
+  if (S.label === 'USEFUL') return useful(it);
+  if (S.label === 'ALL') return lab(it) !== 'SKIP' && lab(it) !== 'STALE';
+  return lab(it) === S.label;
 }
-function renderControls() {
-  const ents = document.getElementById('entities'); ents.innerHTML = '';
-  META.entities.forEach(e => ents.append(chip(e.name, S.entity === e.id, () => { S.entity = e.id; store('sh-entity', e.id); go(); }, e.pending ? e.pending + ' new' : null)));
-  const tabs = document.getElementById('tabs'); tabs.innerHTML = '';
-  [['news','News'],['competitors','Competitors'],['manual','Check manually'],['sources','Sources']].forEach(([k,l]) =>
-    tabs.append(chip(l, S.tab === k, () => { S.tab = k; go(); })));
-  const dates = document.getElementById('dates'); dates.innerHTML = '';
-  const ent0 = META.entities.find(e => e.id === S.entity), fmt = d => d ? new Date(d).toLocaleString('en-IN', {timeZone:'Asia/Kolkata', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'}) : 'never';
-  document.getElementById('updated').textContent = `Collected ${fmt(ent0.last_collect)} · Analysed ${fmt(ent0.last_analysis)} (IST)`;
-  const showDates = S.tab === 'news' || S.tab === 'competitors';
-  if (showDates) {
-    [['today','Today'],['yesterday','Yesterday'],['7d','7 days'],['30d','30 days'],['custom','Custom']].forEach(([k,l]) =>
-      dates.append(chip(l, S.date === k, () => { S.date = k; go(); })));
-    dates.append(Object.assign(document.createElement('span'), {className:'sub', textContent:' · sort'}));
-    [['latest','Latest'],['priority','Priority']].forEach(([k,l]) => dates.append(chip(l, S.sort === k, () => { S.sort = k; go(); })));
-    if (S.date === 'custom') {
-      const f = Object.assign(document.createElement('input'), {type:'date', value:S.from, onchange:e => { S.from = e.target.value; go(); }});
-      const t = Object.assign(document.createElement('input'), {type:'date', value:S.to, onchange:e => { S.to = e.target.value; go(); }});
-      dates.append(f, t);
-    }
-  }
-  const labels = document.getElementById('labels'); labels.innerHTML = '';
-  if (showDates) {
-    const ent = META.entities.find(e => e.id === S.entity);
-    const base = S.tab === 'competitors' ? ['ALL', ...ent.competitor_labels, 'PENDING', 'SKIP'] : ['ALL', ...ent.labels.filter(l => l !== 'SKIP'), 'PENDING', 'SKIP', 'STALE'];
-    const items = (DATA[S.entity] || []).filter(it => (S.tab === 'competitors') === (it.role === 'competitor')).filter(inRange);
-    base.forEach(l => {
-      const n = l === 'ALL' ? null : items.filter(it => (it.status === 'pending' ? 'PENDING' : it.status === 'stale' ? 'STALE' : it.label) === l).length;
-      labels.append(chip(l === 'ALL' ? 'All (no SKIP)' : l, S.label === l, () => { S.label = l; go(); }, n));
-    });
-  }
-}
-function render() {
-  const ent = META.entities.find(e => e.id === S.entity), out = document.getElementById('out');
-  if (S.tab === 'manual') {
-    out.innerHTML = '<p class="sub">Check these yourself (not collected automatically).</p><div class="manual">' +
-      (ent.manual.length ? ent.manual.map(m => `<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)} <span class="sub">· ${esc(m.type)} · ${esc(m.role)}</span></a>`).join('') : '<div class="empty">No manual sources yet.</div>') + '</div>';
+function renderList() {
+  const base = S.view === 'feed' ? news() : rivals();
+  const list = base.filter(it => inRange(it) && matchLabel(it) && matchQ(it));
+  const el = document.getElementById('list');
+  if (!el) return;
+  if (!list.length) {
+    const pend = base.filter(it => it.status === 'pending' && inRange(it)).length;
+    el.innerHTML = `<div class="empty" style="margin-top:14px"><h3>Nothing here</h3>
+      <p>${S.label === 'USEFUL' && pend ? `${pend} items in this range are still waiting for analysis. Say <code>analyze today</code> in Antigravity.` : 'Try a wider date range or another label.'}</p>
+      ${S.label !== 'PENDING' && pend ? `<button class="btn" data-set="${attr({ label:'PENDING' })}">Show ${pend} waiting</button> ` : ''}
+      ${S.date !== 'month' ? `<button class="btn" data-set="${attr({ date:'month' })}">Last 30 days</button>` : ''}</div>`;
     return;
   }
-  if (S.tab === 'sources') {
-    out.innerHTML = `<table><tr><th>Source</th><th>Role</th><th>Status</th><th>New (7d)</th><th>Last OK</th></tr>${ent.sources.map(s =>
-      `<tr><td>${esc(s.name)}<div class="sub">${esc(s.type)}${s.last_error ? ' · ' + esc(s.last_error) : ''}</div></td><td>${esc(s.role)}</td><td class="${s.broken ? 'bad' : ''}">${s.broken ? 'BROKEN' : esc(s.status)}</td><td>${s.new_7d}</td><td>${s.last_ok ? new Date(s.last_ok).toLocaleString('en-IN', {timeZone:'Asia/Kolkata', dateStyle:'short', timeStyle:'short'}) : '—'}</td></tr>`).join('')}</table>`;
-    return;
+  const rows = ['PENDING', 'SKIP', 'STALE'].includes(S.label) && S.view === 'feed';
+  const intro = S.label === 'PENDING' ? `<p class="note">Collected but not analysed yet. They get labels when you say <code>analyze today</code> in Antigravity.</p>` : '';
+  if (S.sort === 'priority') {
+    list.sort(byPriority);
+    el.innerHTML = intro + (rows ? `<div class="list" style="margin-top:12px">${list.map(row).join('')}</div>`
+      : `<div class="stack" style="margin-top:12px">${list.map(it => card(it)).join('')}</div>`);
+  } else {
+    list.sort(newest);
+    el.innerHTML = intro + (rows ? grouped(list, row, 'list') : grouped(list, it => card(it), 'stack'));
   }
-  const items = (DATA[S.entity] || []).filter(it => (S.tab === 'competitors') === (it.role === 'competitor'))
-    .filter(inRange).filter(matchLabel).filter(matchQ);
-  if (!items.length) { out.innerHTML = '<div class="empty">Nothing here for this filter.</div>'; return; }
-  let html = '', last = '';
-  const t = todayIST(), y = ist(Date.now() - 864e5);
-  const lab = it => it.status === 'pending' ? 'PENDING' : (it.status === 'stale' ? 'STALE' : it.label);
-  const rank = it => PRIORITY.indexOf(lab(it)) * 10 + (TIMING[it.timing] ?? 3) - (it.evergreen || 0) / 10;
-  if (S.sort === 'priority') items.sort((a, b) => rank(a) - rank(b) || (b.when || '').localeCompare(a.when || ''));
-  items.forEach(it => { const d = S.sort === 'priority' ? '' : ist(it.when || it.found_at); if (S.sort !== 'priority' && d !== last) { last = d; html += `<div class="day">${d === t ? 'Today' : d === y ? 'Yesterday' : d}</div>`; } html += card(it, ent); });
-  out.innerHTML = html;
 }
-async function go() {
-  if (!DATA[S.entity]) DATA[S.entity] = await fetch(`data/${S.entity}.json?t=${Date.now()}`).then(r => r.json()).catch(() => []);
-  renderControls(); render();
+function viewFeed() {
+  const e = ent();
+  const labels = ['ALL', 'USEFUL', ...e.labels.filter(l => l !== 'SKIP').sort((a, b) => RANK.indexOf(a) - RANK.indexOf(b)), 'PENDING', 'SKIP', 'STALE'];
+  return pageHead('Feed', `${esc(e.name)} · all collected news, newest first`) + filterBar(news(), labels);
 }
+function viewCompetitors() {
+  const e = ent();
+  if (!e.competitors.length) return pageHead('Competitors') + `<div class="empty"><h3>No competitors yet</h3><p>Say <code>add competitor &lt;name&gt; to ${esc(e.name)}</code> in Antigravity (max 5).</p></div>`;
+  const all = items().filter(it => it.role === 'competitor' && inRange(it));
+  const chips = [['ALL', 'All', all.length], ...e.competitors.map(c => [c.id, c.name, all.filter(it => it.competitor_id === c.id).length])]
+    .map(([id, name, n]) => `<button class="chip ${S.comp === id ? 'on' : ''}" data-set="${attr({ comp:id })}">${id === 'ALL' ? '' : av(name)}${esc(name)}<span class="n">${n}</span></button>`).join('');
+  return pageHead('Competitors', `${e.competitors.length} channels tracked for ${esc(e.name)}: their new videos and moves`)
+    + `<div class="scroll" style="margin-bottom:12px">${chips}</div>`
+    + filterBar(rivals(), ['ALL', ...[...e.competitor_labels].sort((a, b) => RANK.indexOf(a) - RANK.indexOf(b)), 'PENDING', 'SKIP']);
+}
+function viewManual() {
+  const e = ent();
+  const look = t => ({ x_manual: ['𝕏', '#111'], reddit_manual: ['r/', '#ff4500'], daily_dev: ['d.', '#6b4ce6'], instagram_manual: ['IG', '#d6249f'] }[t] || ['↗', '#3e63dd']);
+  return pageHead('Check manually', 'These can’t be collected automatically (they need a login or block bots). Open them when you have a minute.')
+    + (e.manual.length ? `<div class="grid two">${e.manual.map(m => { const [g, c] = look(m.type); return `<div class="mcard">
+      <span class="mi" style="background:${c}">${esc(g)}</span><div class="mb"><b>${esc(m.name)}</b><p>${esc(m.why || human(m.type))}</p>
+      <a class="btn" href="${esc(safe(m.url))}" target="_blank" rel="noopener">Open ${ic('open', 'sm')}</a></div></div>`; }).join('')}</div>`
+      : `<div class="empty">No manual sources.</div>`);
+}
+function viewSources() {
+  const e = ent(), rows = [...e.sources].sort((a, b) => (b.broken - a.broken) || (b.errors - a.errors) || (b.new_7d - a.new_7d));
+  const broken = rows.filter(s => s.broken).length, failing = rows.filter(s => s.errors && !s.broken).length;
+  const color = s => s.broken ? 'var(--make)' : s.errors ? 'var(--important)' : s.status === 'paused' ? 'var(--skip)' : 'var(--ok)';
+  return pageHead('Sources', `${rows.length} automatic sources for ${esc(e.name)}`)
+    + `<div class="pills"><span class="chip"><span class="dot" style="--c:var(--ok)"></span>Working<span class="n">${rows.length - broken - failing}</span></span>
+       <span class="chip"><span class="dot" style="--c:var(--important)"></span>Failed last run<span class="n">${failing}</span></span>
+       <span class="chip"><span class="dot" style="--c:var(--make)"></span>Broken<span class="n">${broken}</span></span></div>`
+    + (broken ? `<div class="banner" style="--tone:var(--make)"><span class="ic">${ic('sources')}</span><div><b>${broken} broken source${broken > 1 ? 's' : ''}</b><p>Say <code>fix sources</code> in Antigravity.</p></div></div>` : '')
+    + `<div class="list">${rows.map(s => `<div class="srow"><span class="sdot" style="background:${color(s)}"></span>
+      <div class="sb"><b>${esc(s.name)}</b><div class="sm">${esc(human(s.type))} · ${esc(s.role)}${s.status !== 'active' ? ' · ' + esc(s.status) : ''} · last OK ${rel(s.last_ok)}</div>
+      ${s.last_error ? `<div class="err">${esc(s.last_error)}</div>` : ''}</div>
+      <div class="sn"><b>${s.new_7d}</b>new this week</div></div>`).join('')}</div>`;
+}
+
+// ---------- render loop ----------
+async function ensure(id) {
+  if (!DATA[id]) DATA[id] = await fetch(`data/${id}.json?t=${Date.now()}`).then(r => r.json()).catch(() => []);
+}
+async function render() {
+  await ensure(S.entity);
+  renderChrome();
+  const v = { overview:viewOverview, feed:viewFeed, competitors:viewCompetitors, manual:viewManual, sources:viewSources }[S.view] || viewOverview;
+  document.getElementById('main').innerHTML = v();
+  renderList();
+  const q = document.getElementById('q');
+  if (q) q.oninput = ev => { S.q = ev.target.value; renderList(); };
+  for (const id of ['from', 'to']) { const el = document.getElementById(id); if (el) el.onchange = ev => set({ [id]: ev.target.value }); }
+}
+function set(p) {
+  const jump = ('entity' in p && p.entity !== S.entity) || ('view' in p && p.view !== S.view);
+  if ('entity' in p && p.entity !== S.entity) { S.comp = 'ALL'; store('sh-entity', p.entity); }
+  if ('view' in p && p.view !== S.view && !('label' in p)) { S.label = 'ALL'; S.q = ''; }
+  Object.assign(S, p);
+  if (location.hash !== `#${S.entity}/${S.view}`) history.pushState(null, '', `#${S.entity}/${S.view}`);
+  render();
+  if (jump) window.scrollTo(0, 0);
+}
+document.addEventListener('click', ev => {
+  if (ev.target.closest('[data-theme-toggle]')) {
+    document.documentElement.dataset.theme = isDark() ? 'light' : 'dark';
+    store('sh-theme', document.documentElement.dataset.theme); renderChrome(); return;
+  }
+  const b = ev.target.closest('[data-set]');
+  if (b) { ev.preventDefault(); set(JSON.parse(b.dataset.set)); }
+});
+window.addEventListener('hashchange', () => {
+  const [hEnt, hView] = location.hash.slice(1).split('/');
+  const p = {};
+  if (META.entities.some(e => e.id === hEnt) && hEnt !== S.entity) p.entity = hEnt;
+  if (VIEWS.some(([k]) => k === hView) && hView !== S.view) p.view = hView;
+  if (Object.keys(p).length) set(p);
+});
 (async () => {
-  META = await fetch(`data/meta.json?t=${Date.now()}`).then(r => r.json());
-  const saved = load('sh-entity');
+  const theme = load('sh-theme'); if (theme) document.documentElement.dataset.theme = theme;
+  try { META = await fetch(`data/meta.json?t=${Date.now()}`).then(r => r.json()); }
+  catch (e) { document.getElementById('main').innerHTML = '<div class="empty"><h3>Could not load data</h3><p>Try again in a minute.</p></div>'; return; }
+  const [hEnt, hView] = location.hash.slice(1).split('/');
+  const saved = hEnt || load('sh-entity');
   S.entity = META.entities.some(e => e.id === saved) ? saved : META.entities[0].id;
-  document.getElementById('q').oninput = e => { S.q = e.target.value; render(); };
-  go();
+  if (VIEWS.some(([k]) => k === hView)) S.view = hView;
+  render();
 })();
 </script>
 </body>

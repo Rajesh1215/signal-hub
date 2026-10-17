@@ -36,6 +36,27 @@ def _text(el, name):
     return (c.text or "").strip() if c is not None and c.text else ""
 
 
+IMG_RE = re.compile(r"""<img[^>]+src=["']([^"']+)["']""", re.I)
+
+
+def _image(n, html):
+    """Best thumbnail for a feed entry: media:thumbnail, media:content or an
+    image enclosure, else the first <img> in the description HTML."""
+    for el in n.iter():
+        url = el.get("url") or ""
+        if not url.startswith("http"):
+            continue
+        tag, typ = _local(el.tag), (el.get("type") or "").lower()
+        if tag == "thumbnail" or (tag in ("content", "enclosure")
+                                  and (el.get("medium") == "image" or typ.startswith("image/"))):
+            return url
+    m = IMG_RE.search(html or "")
+    return m.group(1) if m and m.group(1).startswith("http") else None
+
+
+JUNK_IMAGE = re.compile(r"/emoji/|avatars\.githubusercontent|gravatar\.com|feedburner|pixel|spacer|1x1", re.I)
+
+
 def parse_feed(body):
     """RSS 2.0, RDF and Atom (YouTube, Reddit, GitHub, Substack, arXiv)."""
     root = ET.fromstring(body.encode() if isinstance(body, str) else body)
@@ -61,6 +82,9 @@ def parse_feed(body):
             stats = _find(community, "statistics") if community is not None else None
             if stats is not None and stats.get("views"):
                 meta["views"] = int(stats.get("views"))
+        image = _image(n, desc + _text(n, "encoded"))
+        if image and not JUNK_IMAGE.search(image):
+            meta["image"] = image
         author = _find(n, "author")
         if author is not None:
             meta["author"] = _text(author, "name") or (author.text or "").strip()

@@ -2,7 +2,7 @@
 
 A free, personal news radar for four content channels. It collects news twice a day, an AI agent labels it when you ask, and a dashboard shows what to make next.
 
-**Dashboard:** https://rajesh1215.github.io/signal-hub/
+**Dashboard:** https://rajesh1215.github.io/signal-hub/ (works on phone and desktop: Overview with "Make next" picks, Feed, Competitors, Check manually, Sources)
 
 ## How you use it
 
@@ -43,6 +43,7 @@ The agent's full manual is in [AGENTS.md](AGENTS.md). Any new chat reads it auto
 **Shared for every niche**
 - **MAKE timing:** `NOW` (within 24 h) · `SOON` (this week) · `ANYTIME` (evergreen), plus **evergreen** 1–5.
 - **Competitor labels** (max 5 competitors per niche): `RELEASE` · `FEATURE` · `DECISION` · `PRACTICE` · `CONTENT`.
+- **Waiting** (pending): collected but not analysed yet. "analyze today" gives each one a label, so it leaves the Waiting list.
 - **STALE:** not analysed within 7 days.
 - **Reason codes:** one per item, explaining the label (`model_release`, `tax_change`, `trend`, `anniversary`, `duplicate`…).
 - Only MAKE and IMPORTANT items (and competitor items) get a short summary. Everything else is just labels and flags.

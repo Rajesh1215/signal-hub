@@ -6,6 +6,7 @@ Writes docs/data/<entity>.json (items from the last 60 days with their labels),
 docs/data/meta.json (entities, label/flag definitions, manual sources,
 competitors, source health) and copies site/index.html to docs/index.html.
 """
+import re
 import shutil
 from datetime import timedelta
 
@@ -14,7 +15,25 @@ from pending import load_runs
 
 KEEP_DAYS = 60
 META_KEYS = ("points", "comments", "upvotes", "views", "reactions", "stars_today",
-             "github", "github_stars", "discussion", "subreddit", "author")
+             "github", "github_stars", "discussion", "subreddit", "author", "image", "anniversary_date", "years")
+JUNK_IMAGE = re.compile(r"/emoji/|avatars\.githubusercontent|gravatar\.com|feedburner|pixel|spacer|1x1", re.I)
+
+
+def thumbnail(url, meta):
+    """Feed image if there is a good one, else a known preview for the link type."""
+    img = meta.get("image")
+    if img and not JUNK_IMAGE.search(img):
+        return img
+    m = re.search(r"youtube\.com/(?:watch\?v=|shorts/)([\w-]{6,})", url)
+    if m:
+        return f"https://i.ytimg.com/vi/{m.group(1)}/mqdefault.jpg"
+    m = re.match(r"https://github\.com/([\w.-]+)/([\w.-]+)(?:/releases/tag/[^/]+)?/?$", url)
+    if m and m.group(1) not in ("orgs", "topics", "features", "trending", "sponsors"):
+        return f"https://opengraph.githubassets.com/1/{m.group(1)}/{m.group(2)}"
+    m = re.match(r"https://huggingface\.co/papers/([\w.]+)$", url)
+    if m:
+        return f"https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/{m.group(1)}.png"
+    return None
 
 
 def build_entity(edir):
@@ -27,12 +46,15 @@ def build_entity(edir):
             if found and now - found > timedelta(days=KEEP_DAYS):
                 continue
             a = analysis.get(it["id"], {})
+            meta = {k: v for k, v in (it.get("meta") or {}).items() if k in META_KEYS and v}
+            img = thumbnail(it["url"], meta)
+            meta.pop("image", None)
             out.append({
                 "id": it["id"], "title": it["title"], "url": it["url"], "source": it["source_name"],
                 "role": it.get("role", "news"), "competitor_id": it.get("competitor_id"),
                 "person_id": it.get("person_id"), "found_at": it.get("found_at"),
                 "published_at": it.get("published_at"),
-                "meta": {k: v for k, v in (it.get("meta") or {}).items() if k in META_KEYS and v},
+                "meta": meta, "image": img, "snippet": (it.get("snippet") or "")[:220],
                 "status": "analyzed" if a and a.get("label") != "STALE" else ("stale" if a else "pending"),
                 **{k: a[k] for k in ("label", "timing", "evergreen", "reason", "flags", "summary") if k in a},
             })
@@ -48,20 +70,20 @@ def build_entity(edir):
     for s in flatten_sources(sources):
         if s.get("mode") == "manual":
             manual.append({"name": s.get("name", s["id"]), "url": s.get("url"), "type": s.get("type"),
-                           "role": s.get("role", "news")})
+                           "role": s.get("role", "news"), "why": s.get("why", ""), "tags": s.get("tags", [])})
             continue
         h = health.get(s["id"], {})
         week = [x for x in h.get("history", [])
                 if parse_time(x["at"]) and now - parse_time(x["at"]) < timedelta(days=7)]
         src_rows.append({"id": s["id"], "name": s.get("name", s["id"]), "role": s.get("role", "news"),
-                         "type": s.get("type"), "status": s.get("status", "active"),
+                         "type": s.get("type"), "status": s.get("status", "active"), "why": s.get("why", ""),
                          "last_ok": h.get("last_ok"), "errors": h.get("consecutive_errors", 0),
                          "last_error": h.get("last_error"), "new_7d": sum(x["new"] for x in week),
                          "broken": h.get("consecutive_errors", 0) >= 3})
     last_collect = max((h.get("last_run") or "" for h in health.values()), default="") or None
     last_analysis = max((a.get("analyzed_at") or "" for _, _, an in load_runs(edir) for a in an.values()),
                         default="") or None
-    return {"id": edir.name, "name": cfg["name"], "color": cfg.get("color", "#22D3EE"),
+    return {"id": edir.name, "name": cfg["name"], "color": cfg.get("color", "#22D3EE"), "niche": cfg.get("niche", ""),
             "order": cfg.get("order", 99), "last_collect": last_collect, "last_analysis": last_analysis,
             "labels": cfg["labels"], "competitor_labels": cfg.get("competitor_labels", []),
             "flags": cfg["flags"], "count": len(out),
