@@ -7,7 +7,7 @@ description: Analyse Signal Hub's pending news items for every niche (label, fla
 
 Follow procedure **A** in `AGENTS.md` at the repo root. It is the source of truth. In short:
 
-1. `git pull --rebase`
+1. `python3 engine/refresh.py` (pulls; if the news is over 3 hours old it collects fresh news on GitHub first, about 3–4 min)
 2. `python3 engine/status.py`
 3. `python3 engine/pending.py`
 4. For each niche with pending items: read `entities/<niche>/brief.md`, label every item into `work/payloads-<niche>.json`, then run `python3 engine/save_analysis.py <niche> work/payloads-<niche>.json` and fix any rejected items

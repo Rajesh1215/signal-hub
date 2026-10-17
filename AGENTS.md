@@ -20,7 +20,7 @@ Use `python3` for every command, run from the repo root. The engine uses only th
 | "add person <name> to <niche>" | Same as C, in `people` (max 10 active) |
 | "fix sources", "check sources" | **D. Fix broken sources** |
 | "weekly review" | **E. Weekly review** |
-| "collect now" | `gh workflow run collect.yml`, wait about 3 min, `git pull`, then A |
+| "collect now" | `python3 engine/refresh.py --max-age 0` (fresh collection on GitHub, about 3–4 min), then A |
 | "new niche <name>" | **F. New entity** |
 | Anything else about the data | Answer from the files in `entities/*/runs/` |
 
@@ -30,7 +30,7 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
 
 ## A. Analyse pending items ("analyze today")
 
-1. **Sync.** `git pull --rebase`. If you have local uncommitted changes from an earlier session, commit them first.
+1. **Get fresh news.** `python3 engine/refresh.py`. It pulls the repo. If the last collection is more than 3 hours old, it runs a fresh collection on GitHub first (about 3–4 minutes, from every blog and feed), then pulls again. Let it finish before going on. If it says it couldn't collect, carry on with the data that's there and mention it in the report. If the user says "quick" or "no refresh", run `git pull --rebase` instead.
 2. **Status.** `python3 engine/status.py`. Note BROKEN or QUIET sources for the final report.
 3. **List the work.** `python3 engine/pending.py`. For each niche it prints:
    - the allowed labels, timing, reasons and flags (from `config.json`)

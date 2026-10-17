@@ -8,7 +8,7 @@ A free, personal news radar for four content channels. It collects news twice a 
 
 1. Open this folder in **Antigravity** (or Claude Code, or any coding agent).
 2. Type: **`analyze today`**
-3. The agent does everything: pulls the latest news, labels every item for each niche, saves, pushes, and tells you what to make. The dashboard updates a minute later.
+3. The agent does everything: if the last collection is more than 3 hours old it fetches fresh news from every source first (3–4 minutes), then labels every item for each niche, saves, pushes, and tells you what to make. The dashboard updates a minute later.
 
 Other things you can say: `status`, `add source <url> to <niche>`, `add competitor <name> to <niche>`, `fix sources`, `weekly review`, `collect now`, `new niche <name>`.
 The agent's full manual is in [AGENTS.md](AGENTS.md). Any new chat reads it automatically through `GEMINI.md`, `CLAUDE.md`, `.agent/rules` or `.agents/skills`.
@@ -104,6 +104,7 @@ X/Twitter, Instagram, daily.dev and other login-only sites are listed as **manua
 ## Commands (for reference)
 
 ```
+python3 engine/refresh.py                      # fetch fresh news if the last collection is >3 h old
 python3 engine/status.py                       # what's pending, what's broken
 python3 engine/pending.py                      # list items to analyse
 python3 engine/save_analysis.py <niche> <payloads.json>
