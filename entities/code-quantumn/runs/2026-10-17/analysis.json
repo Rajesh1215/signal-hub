@@ -95,5 +95,1527 @@
   },
   "summary": "Mistral launched Timestral, an open-weights time-series model (5M-209M params) that runs on standard CPUs without a GPU. Free on Hugging Face for forecasting. Hook: 'You do not need an expensive GPU to predict time-series trends anymore.'",
   "analyzed_at": "2026-10-17T10:29:45Z"
+ },
+ "c44cd9e8bef0e8e8": {
+  "label": "MAKE",
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "research",
+   "audience_fit": "both",
+   "video_format": "news_short",
+   "india_relevant": true,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "summary": "NVIDIA and AI4Bharat released an open 2.8T-token pretraining dataset covering 22 Indian languages with reusable translation tools. Hook: 'AI finally speaks Indian languages properly: here is the 2.8T open dataset that made it happen.'",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ce199e9d32dba829": {
+  "label": "IMPORTANT",
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model",
+   "audience_fit": "developers",
+   "video_format": "news_short",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "summary": "Beam released a 501B open-weights model designed for customizable domain deployment, offering an alternative to closed frontier models for large-scale production use.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "98c902e6caed3e8a": {
+  "label": "KNOW",
+  "reason": "model_release",
+  "flags": {
+   "category": "model",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "1ce01d9ea9a6d515": {
+  "label": "IMPORTANT",
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model",
+   "audience_fit": "developers",
+   "video_format": "news_short",
+   "india_relevant": true,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "summary": "Meta released Muse Spark Open, an 816B open-weight multimodal mixture-of-experts model with 1M context on Hugging Face, teaming up with Apple to optimize Mac local execution.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "780d94bf1f424d07": {
+  "label": "KNOW",
+  "reason": "model_release",
+  "flags": {
+   "category": "model",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "3bffa2c3e8428e59": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "678566536e5152a2": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "flags": {
+   "category": "hardware",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "5dbf579887a7e6fe": {
+  "label": "KNOW",
+  "reason": "model_release",
+  "flags": {
+   "category": "model",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "e4d1e786b9d8c70f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "39abc03708ba9d46": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "711449d14cb40977": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "b885dc223aaf2092": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "d7c4a10a20b0047b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "8c46148ca6896978": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ddc772d0aa744ecd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "48c1eba16132cb50": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "16f3ddbb6864d558": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "537cf68eb580f158": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "d9fad2704ef7455f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ad66cef2852dc658": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "692a63a408536fbf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "012194851eba4f8e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "4c7212fda3f2545b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "3f6b272ad3bd2e9a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "0a817cf0b7a8d9df": {
+  "label": "KNOW",
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "cfb6a4b46e57c150": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "7f237b6ce7678051": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "d5ed0b484c393096": {
+  "label": "KNOW",
+  "reason": "opinion",
+  "flags": {
+   "category": "business",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "a695bccde902c217": {
+  "label": "IMPORTANT",
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident",
+   "audience_fit": "developers",
+   "video_format": "news_short",
+   "india_relevant": true,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "summary": "India reported incidents of misconfigured AI agents leaking enterprise credentials and exposed repository secrets. Highlights growing operational security concerns for Indian developers.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ce3beea6830a4ea6": {
+  "label": "KNOW",
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "25db7c59e8d8ec4d": {
+  "label": "KNOW",
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ca6c4b781690e6c1": {
+  "label": "KNOW",
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "9a04e1e5189d13ab": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "eb725ecdd3c49152": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "04d9101cd6c2063f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "aebc05e856ce4f4d": {
+  "label": "KNOW",
+  "reason": "opinion",
+  "flags": {
+   "category": "business",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "28aff30308a987d7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "fd459766c0c6c087": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "057aaf2a0a7ae932": {
+  "label": "KNOW",
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "e381538a8f17cf23": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "59f670017f5d4294": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "flags": {
+   "category": "product",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "30e3879eb071048a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "2b9baafe8822ab92": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "hardware",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "005637bf8392815c": {
+  "label": "KNOW",
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "44f753c89e5c4cf8": {
+  "label": "MAKE",
+  "timing": "SOON",
+  "evergreen": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product",
+   "audience_fit": "both",
+   "video_format": "news_short",
+   "india_relevant": true,
+   "free_access": true,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "summary": "OpenAI updated its Chrome extension allowing ChatGPT to inspect and answer questions from open browser tabs directly in chats. Hook: 'ChatGPT can now read whatever tab you have open in Chrome.'",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "85d2bf37fb09cd79": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "1321af9a0f93f1ae": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "df9f74689948fbf3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "906b88146d169c63": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "6758949b6ff15e5b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "4f0f07a17f57f7e1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ba306f81e644e3da": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "hardware",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "6beadfc408fc3150": {
+  "label": "KNOW",
+  "reason": "model_release",
+  "flags": {
+   "category": "model",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "a907b631c4331de5": {
+  "label": "TEST",
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool",
+   "audience_fit": "developers",
+   "video_format": "test",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": false,
+   "needs_test": true,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "be75164bd7d8cb8b": {
+  "label": "KNOW",
+  "reason": "model_release",
+  "flags": {
+   "category": "model",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "83c1462db32a9c27": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ef720ba8a602f6d4": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "49a401818c7e4370": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "92b93ca03dc90466": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "c9aa3c13e8e21130": {
+  "label": "KNOW",
+  "reason": "model_release",
+  "flags": {
+   "category": "model",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "4b25c38207761ed4": {
+  "label": "KNOW",
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "912cadd0550b3a73": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "3df5f59a01b217cd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ef145a34fdce5a96": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "956ac9620ef6cfc1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "8407a8b3728e47c9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "f6ae9b8896e67c6d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "1dc01c4f6062b785": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "f93948a2541b2574": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "00dc12cd2ffa6a1f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "664983e3bb88d252": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "a68abb5f117eabc2": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "e60a1fbf54116de4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "cafa7e0103c499f3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "4070549eed2d4845": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "d2f974fe16a6016d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "17b8d16ff7da413f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "97fe47076e91bf86": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "4f6ac93e57b94a5f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "eb33a8a4218b06e4": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ac76d580458dbf09": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "9ba440c2e32b2a33": {
+  "label": "KNOW",
+  "reason": "best_practice",
+  "flags": {
+   "category": "tutorial",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "8d2fd58c15f4a389": {
+  "label": "TEST",
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool",
+   "audience_fit": "developers",
+   "video_format": "test",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": false,
+   "needs_test": true,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "391ce1daaf35666c": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "5e162a1a019dc91d": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "cfcf64757f040d5d": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "12009027cf272553": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "d6ae104bc7366ef7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "5ad2380ca2f8279a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "c1d5b104b3c389b5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "1acc7d18ee158336": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "927b1890ff58d6f0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "47d83a3f189726ed": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "e04de3d81184c09e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ca3386dacf522258": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "dc32889f090074f4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "3bea24f0e2ca8e19": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "f137a3cc42741526": {
+  "label": "KNOW",
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "8622d4e98fb28151": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ab83818347dc2716": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "0725595ed9382371": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "c2ab0c33796f7fc6": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "15b93f38fc58fddf": {
+  "label": "STUDY",
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial",
+   "audience_fit": "students",
+   "video_format": "tutorial",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "3897925d4813f4d7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "a8b98b764cdfd6e7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "a75ea0200f2e07a8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "48c180593ea86a67": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "d94382121b61a57c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "31eaf5245de78726": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "opinion",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "0bf7f6864dabf2f4": {
+  "label": "STUDY",
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial",
+   "audience_fit": "students",
+   "video_format": "tutorial",
+   "india_relevant": true,
+   "free_access": true,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "9f70a4a3a70430f7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "e6bb9f260d9fd6df": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "a73d7d616518bd96": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ff2678d2bca18bf5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "4feaeb34912efc73": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "b1dc2e398dd78e56": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "1022af7849647536": {
+  "label": "CONTENT",
+  "reason": "explainer_angle",
+  "summary": "Fireship covered the Node vs Bun/Deno server runtime consolidation; we can do an explainer on modern JavaScript runtimes for backend beginners.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "a0dec5e4e07f2143": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "af96f16854ce20e8": {
+  "label": "CONTENT",
+  "reason": "explainer_angle",
+  "summary": "Fireship discussed AI decompilation of client apps; we can explain how AI-assisted reverse engineering works in under 60 seconds.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "00793a0348349019": {
+  "label": "CONTENT",
+  "reason": "explainer_angle",
+  "summary": "Two Minute Papers reviewed emergent capabilities; we can focus on practical developer implications for building agents.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ee2761723128339a": {
+  "label": "CONTENT",
+  "reason": "research_paper",
+  "summary": "Two Minute Papers covered DeepSeek's context/memory breakthrough; we can explain how KV cache compression works simply.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "602ad29bcda4202c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "0a5a854f9f41cc5f": {
+  "label": "CONTENT",
+  "reason": "tool_release",
+  "summary": "Demonstrated full-stack app generation with Gemini 4; we can test whether free open models can replicate the workflow.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "b4fa405fd1827312": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "3eaf08c1983468de": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "0a2670d95d05862d": {
+  "label": "CONTENT",
+  "reason": "tutorial",
+  "summary": "Krish Naik covered cloud LLM deployment on SageMaker; we could do a free-tier alternative deployment guide for Indian students.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "08e71639d1c51b53": {
+  "label": "CONTENT",
+  "reason": "model_release",
+  "summary": "Hands-on review of Gemini 4; we can cover how Indian students can access it via Google AI Studio for free.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "68955451be203c08": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "190c45f62dc067af": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "34eacab212e71c47": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "fc4e5270eb2d4825": {
+  "label": "KNOW",
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "a2b46a31a2b6f708": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "53199736038a9319": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "4eddb72d0391fefe": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tool",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": true,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "29a22a27e4860b71": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "bdd119832b984cb3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "2f633d1213c1a269": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "f591719269dcda68": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "54fc572ceaa17a6b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "c9da5b8e32246fbe": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "e28b9ad3ad7ff4a1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "9b826efefafc404a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "994d17327ca7add6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "38e8b48dc9bcb0f3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "593fbd3bc1bbb8ef": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "74a618549d26e427": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "fd123a84f557f206": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "f709778fd8790d74": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "5dafcac3293a93de": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "43030f5f1f1951df": {
+  "label": "KNOW",
+  "reason": "research_paper",
+  "flags": {
+   "category": "research",
+   "audience_fit": "experts_only",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "5642c6ae6a6fc3b8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "055563ac4b2764e0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ec326e6058b39f20": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ee99e12e84292e2c": {
+  "label": "KNOW",
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "f0d97de821ecab9d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "29705ef92f09282c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "b4b6f73f197d5e0c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "4eec88cc9118b7b6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "a24a32f9610bf28e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "7e6bda8ff77221f6": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "opinion",
+   "audience_fit": "both",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "0b12b01b8aaf9533": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "56519342bd2f50ed": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "45271f09cffe7502": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "78785c938d886476": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "opinion",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "ed161ecd6d46475d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "4babf2b11ac01404": {
+  "label": "CONTENT",
+  "reason": "model_release",
+  "summary": "Covered the Gemini 4 Argon release; we can explain key reasoning benchmark gains versus previous versions.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "37cf2a1076f33792": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "6ac6099152a64fd1": {
+  "label": "CONTENT",
+  "reason": "model_release",
+  "summary": "Covered Meta's latest model drop; we can explain what makes mixture-of-experts architectures cost-effective.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "afb2e2e23ea2b91d": {
+  "label": "RELEASE",
+  "reason": "free_offer",
+  "summary": "Krish Naik announced free Q&A sessions on the Vidya AI platform for Indian learners.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "182dbc59568a8e90": {
+  "label": "PRACTICE",
+  "reason": "tutorial",
+  "summary": "Shared an AI engineering study roadmap; useful reference for structuring our student career guide.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "d170eb717ff51e27": {
+  "label": "KNOW",
+  "reason": "model_release",
+  "flags": {
+   "category": "model",
+   "audience_fit": "developers",
+   "video_format": "none",
+   "india_relevant": false,
+   "free_access": false,
+   "open_source": false,
+   "beginner_friendly": false,
+   "needs_test": false,
+   "verified_official": false
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "b9cf538a94c032a2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "d3c67c546b00e9f5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "f6841962f5b13053": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "e0569d65dabd341c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "1b14eeaa64affe95": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "a3bf201100a48bf2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "44310b3e923a5c7b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "c27c7d4e228baa70": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "1cb06035ecefd7a8": {
+  "label": "IMPORTANT",
+  "reason": "model_release",
+  "flags": {
+   "category": "model",
+   "audience_fit": "developers",
+   "video_format": "news_short",
+   "india_relevant": true,
+   "free_access": true,
+   "open_source": true,
+   "beginner_friendly": true,
+   "needs_test": true,
+   "verified_official": true
+  },
+  "summary": "DeepSeek released the DeepSeek-V4.1-Flash-1017 checkpoint on Hugging Face, offering faster inference and improved reasoning efficiency for open-weights developers.",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "3c9b4a039fb1eed2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "bacc49e37bd2a804": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "1749ac68a623c53e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "b042a3442f9b8728": {
+  "label": "STUDY",
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial",
+   "audience_fit": "developers",
+   "video_format": "tutorial",
+   "india_relevant": false,
+   "free_access": true,
+   "open_source": false,
+   "beginner_friendly": true,
+   "needs_test": false,
+   "verified_official": true
+  },
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "089acd6cb005e714": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "e857acce4cbc6238": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "3eddcddb195124f6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-17T10:47:47Z"
+ },
+ "92458ea8b1ffcf76": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-17T10:47:47Z"
  }
 }
