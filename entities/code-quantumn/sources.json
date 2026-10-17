@@ -331,6 +331,51 @@
    "max_new": 5
   },
   {
+   "id": "arena-leaderboard",
+   "name": "Arena (LMArena) leaderboard changelog",
+   "adapter": "site:arena_changelog",
+   "type": "arena_changelog",
+   "url": "https://arena.ai/company/leaderboard-changelog/",
+   "role": "official",
+   "tags": [
+    "benchmarks",
+    "leaderboard"
+   ],
+   "status": "active",
+   "max_new": 6,
+   "why": "New models added to the Arena leaderboards and methodology changes"
+  },
+  {
+   "id": "arena-product",
+   "name": "Arena (LMArena) product changelog",
+   "adapter": "site:arena_changelog",
+   "type": "arena_changelog",
+   "url": "https://arena.ai/company/product-changelog/",
+   "role": "official",
+   "tags": [
+    "benchmarks"
+   ],
+   "status": "active",
+   "max_new": 3,
+   "max_age_days": 7
+  },
+  {
+   "id": "arena-blog",
+   "name": "Arena (LMArena) blog",
+   "type": "sitemap",
+   "url": "https://blog.lmarena.ai/sitemap.xml",
+   "match": [
+    "/blog/"
+   ],
+   "role": "official",
+   "tags": [
+    "benchmarks",
+    "research"
+   ],
+   "status": "active",
+   "max_new": 4
+  },
+  {
    "id": "gn-sarvam",
    "name": "Sarvam AI (news)",
    "type": "gnews",
