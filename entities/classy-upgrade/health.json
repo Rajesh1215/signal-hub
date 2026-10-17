@@ -1,0 +1,144 @@
+{
+ "gq-india": {
+  "consecutive_errors": 1,
+  "history": [],
+  "last_error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ "vogue-india": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T07:33:08Z",
+    "found": 30,
+    "new": 15
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T07:33:08Z",
+  "last_run": "2026-10-17T07:33:08Z"
+ },
+ "ie-fashion": {
+  "consecutive_errors": 1,
+  "history": [],
+  "last_error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ "esquire-style": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T07:33:08Z",
+    "found": 50,
+    "new": 10
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T07:33:08Z",
+  "last_run": "2026-10-17T07:33:08Z"
+ },
+ "allure": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T07:33:08Z",
+    "found": 30,
+    "new": 15
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T07:33:08Z",
+  "last_run": "2026-10-17T07:33:08Z"
+ },
+ "highsnobiety": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T07:33:08Z",
+    "found": 14,
+    "new": 14
+   }
+  ],
+  "state": {
+   "etag": "\"a7ded0c791a503df29dbe852c577af24\"",
+   "last_modified": "Sat, 17 Oct 2026 07:00:42 GMT"
+  },
+  "last_ok": "2026-10-17T07:33:08Z",
+  "last_run": "2026-10-17T07:33:08Z"
+ },
+ "hypebeast": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T07:33:08Z",
+    "found": 19,
+    "new": 15
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T07:33:08Z",
+  "last_run": "2026-10-17T07:33:08Z"
+ },
+ "bof": {
+  "consecutive_errors": 1,
+  "history": [],
+  "last_error": "HTTPError: HTTP Error 403: Forbidden"
+ },
+ "r-malefashionadvice": {
+  "consecutive_errors": 1,
+  "history": [],
+  "last_error": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "r-femalefashionadvice": {
+  "consecutive_errors": 1,
+  "history": [],
+  "last_error": "URLError: <urlopen error skipped: www.reddit.com rate-limited us earlier in this run>"
+ },
+ "r-skincareaddiction": {
+  "consecutive_errors": 1,
+  "history": [],
+  "last_error": "URLError: <urlopen error skipped: www.reddit.com rate-limited us earlier in this run>"
+ },
+ "r-indianskincare": {
+  "consecutive_errors": 1,
+  "history": [],
+  "last_error": "URLError: <urlopen error skipped: www.reddit.com rate-limited us earlier in this run>"
+ },
+ "comp-rmrs-yt": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T07:33:08Z",
+    "found": 15,
+    "new": 3
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T07:33:08Z",
+  "last_run": "2026-10-17T07:33:08Z"
+ },
+ "comp-justine-yt": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T07:33:08Z",
+    "found": 15,
+    "new": 1
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T07:33:08Z",
+  "last_run": "2026-10-17T07:33:08Z"
+ },
+ "comp-pranaysai-yt": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T07:33:08Z",
+    "found": 15,
+    "new": 3
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T07:33:08Z",
+  "last_run": "2026-10-17T07:33:08Z"
+ }
+}
