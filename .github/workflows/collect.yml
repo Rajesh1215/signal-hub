@@ -1,0 +1,43 @@
+# Collects new items twice a day. No AI runs here: it only fetches feeds and
+# saves what is new. Analysis happens when you say "analyze today" to an agent.
+name: collect
+
+on:
+  schedule:
+    - cron: "0 1 * * *"    # 06:30 IST
+    - cron: "0 12 * * *"   # 17:30 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7
+      - name: Collect new items
+        run: python3 engine/collect.py
+      - name: Commit and push
+        run: |
+          git config user.name "signal-hub-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add entities
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          git commit -q -m "collect: $(TZ=Asia/Kolkata date '+%Y-%m-%d %H:%M') IST"
+          for i in 1 2 3 4; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          echo "Push failed after retries"; exit 1
+
+  pages:
+    needs: collect
+    uses: ./.github/workflows/pages.yml

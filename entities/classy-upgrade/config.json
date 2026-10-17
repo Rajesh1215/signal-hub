@@ -1,0 +1,134 @@
+{
+ "id": "classy-upgrade",
+ "order": 3,
+ "name": "Classy Upgrade",
+ "color": "#E879F9",
+ "niche": "Style, grooming, skincare basics and confidence habits, education only (English, Instagram + YouTube)",
+ "platforms": [
+  "instagram",
+  "youtube"
+ ],
+ "language": "en",
+ "labels": [
+  "SKIP",
+  "KNOW",
+  "IMPORTANT",
+  "MAKE"
+ ],
+ "competitor_labels": [
+  "RELEASE",
+  "FEATURE",
+  "DECISION",
+  "PRACTICE",
+  "CONTENT"
+ ],
+ "timing": [
+  "NOW",
+  "SOON",
+  "ANYTIME"
+ ],
+ "reasons": [
+  "official_launch",
+  "feature_update",
+  "price_change",
+  "free_offer",
+  "policy_change",
+  "trending_discussion",
+  "tutorial",
+  "explainer_angle",
+  "opinion",
+  "hype",
+  "rumor",
+  "duplicate",
+  "minor_update",
+  "off_topic",
+  "too_niche",
+  "paywalled",
+  "competitor_move",
+  "best_practice",
+  "evergreen_idea",
+  "trend",
+  "seasonal",
+  "brand_launch",
+  "myth_busting",
+  "product_science",
+  "celebrity_look"
+ ],
+ "flags": {
+  "category": {
+   "type": "enum",
+   "values": [
+    "fashion",
+    "grooming",
+    "skincare",
+    "haircare",
+    "fitness",
+    "confidence",
+    "habits",
+    "brand_news",
+    "industry"
+   ],
+   "help": "Topic area"
+  },
+  "trend_stage": {
+   "type": "enum",
+   "values": [
+    "emerging",
+    "peak",
+    "fading",
+    "evergreen"
+   ],
+   "help": "Where the trend is right now"
+  },
+  "occasion": {
+   "type": "enum",
+   "values": [
+    "wedding",
+    "festival",
+    "office",
+    "college",
+    "date",
+    "summer",
+    "monsoon",
+    "winter",
+    "travel",
+    "none"
+   ],
+   "help": "Occasion or season it fits"
+  },
+  "gender": {
+   "type": "enum",
+   "values": [
+    "men",
+    "women",
+    "all"
+   ],
+   "help": "Who it is for"
+  },
+  "budget_friendly": {
+   "type": "bool",
+   "help": "Can be done without expensive products"
+  },
+  "india_relevant": {
+   "type": "bool",
+   "help": "Works for Indian climate, skin tones, budgets or events"
+  },
+  "educational_angle": {
+   "type": "bool",
+   "help": "Has a 'why/how it works' angle, not just a product or a look"
+  },
+  "science_backed": {
+   "type": "bool",
+   "help": "Grounded in dermatology/research, not influencer claims"
+  }
+ },
+ "filters": {
+  "max_age_days": 3,
+  "max_new_per_source": 15,
+  "stale_after_days": 7
+ },
+ "caps": {
+  "competitors": 5,
+  "people": 10
+ }
+}

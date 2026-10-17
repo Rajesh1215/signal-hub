@@ -1,0 +1,326 @@
+{
+ "sources": [
+  {
+   "id": "rbi-press",
+   "name": "RBI press releases",
+   "type": "feed",
+   "url": "https://rbi.org.in/pressreleases_rss.xml",
+   "role": "official",
+   "tags": [
+    "rbi",
+    "banking"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "rbi-notifications",
+   "name": "RBI notifications",
+   "type": "feed",
+   "url": "https://rbi.org.in/notifications_rss.xml",
+   "role": "official",
+   "tags": [
+    "rbi",
+    "regulation"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "sebi",
+   "name": "SEBI",
+   "type": "feed",
+   "url": "https://www.sebi.gov.in/sebirss.xml",
+   "role": "official",
+   "tags": [
+    "sebi",
+    "regulation"
+   ],
+   "status": "active",
+   "max_new": 6
+  },
+  {
+   "id": "finshots",
+   "name": "Finshots",
+   "type": "feed",
+   "url": "https://finshots.in/rss/",
+   "role": "news",
+   "tags": [
+    "explainer",
+    "business"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "et-markets",
+   "name": "ET Markets",
+   "type": "feed",
+   "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+   "role": "news",
+   "tags": [
+    "markets"
+   ],
+   "status": "active",
+   "max_new": 6
+  },
+  {
+   "id": "et-wealth",
+   "name": "ET Wealth",
+   "type": "feed",
+   "url": "https://economictimes.indiatimes.com/wealth/rssfeeds/837555174.cms",
+   "role": "news",
+   "tags": [
+    "personal-finance"
+   ],
+   "status": "active",
+   "max_new": 10
+  },
+  {
+   "id": "mint-markets",
+   "name": "Mint Markets",
+   "type": "feed",
+   "url": "https://www.livemint.com/rss/markets",
+   "role": "news",
+   "tags": [
+    "markets"
+   ],
+   "status": "active",
+   "max_new": 6
+  },
+  {
+   "id": "mint-money",
+   "name": "Mint Money",
+   "type": "feed",
+   "url": "https://www.livemint.com/rss/money",
+   "role": "news",
+   "tags": [
+    "personal-finance"
+   ],
+   "status": "active",
+   "max_new": 10
+  },
+  {
+   "id": "businessline-markets",
+   "name": "BusinessLine Markets",
+   "type": "feed",
+   "url": "https://www.thehindubusinessline.com/markets/feeder/default.rss",
+   "role": "news",
+   "tags": [
+    "markets"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "cnbctv18-markets",
+   "name": "CNBC-TV18 Markets",
+   "type": "feed",
+   "url": "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml",
+   "role": "news",
+   "tags": [
+    "markets"
+   ],
+   "status": "paused",
+   "max_new": 10,
+   "why": "Overlaps ET/Mint markets; re-enable if those break"
+  },
+  {
+   "id": "r-indiainvestments",
+   "name": "r/IndiaInvestments",
+   "type": "reddit",
+   "subreddit": "IndiaInvestments",
+   "t": "week",
+   "role": "news",
+   "tags": [
+    "discussion"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "r-personalfinanceindia",
+   "name": "r/personalfinanceindia",
+   "type": "reddit",
+   "subreddit": "personalfinanceindia",
+   "t": "week",
+   "role": "news",
+   "tags": [
+    "discussion",
+    "personal-finance"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "r-indianstockmarket",
+   "name": "r/IndianStockMarket",
+   "type": "reddit",
+   "subreddit": "IndianStockMarket",
+   "t": "day",
+   "role": "news",
+   "tags": [
+    "discussion",
+    "markets"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "yt-zerodha",
+   "name": "Zerodha",
+   "type": "youtube",
+   "channel_id": "UC59YUBhNLMkS2Q8NBWBGHAA",
+   "role": "org",
+   "tags": [
+    "broker",
+    "education"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-think-school",
+   "name": "Think School",
+   "type": "youtube",
+   "channel_id": "UCKZozRVHRYsYHGEyNKuhhdA",
+   "role": "news",
+   "tags": [
+    "business-story"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "x-finance-list",
+   "name": "X: your finance list",
+   "type": "x_manual",
+   "url": "https://x.com/i/lists",
+   "role": "people",
+   "tags": [
+    "discussion"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "why": "Your own X list of Indian finance voices"
+  },
+  {
+   "id": "nse-circulars",
+   "name": "NSE circulars",
+   "type": "page",
+   "url": "https://www.nseindia.com/resources/exchange-communication-circulars",
+   "role": "official",
+   "tags": [
+    "exchange"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "why": "Blocks scripts; check weekly by hand"
+  },
+  {
+   "id": "pib-finance",
+   "name": "PIB Finance Ministry",
+   "type": "page",
+   "url": "https://pib.gov.in/allRel.aspx",
+   "role": "official",
+   "tags": [
+    "government"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "why": "Blocks scripts; check on budget/policy days"
+  },
+  {
+   "id": "incometax-news",
+   "name": "Income Tax Dept news",
+   "type": "page",
+   "url": "https://www.incometax.gov.in/iec/foportal/latest-news",
+   "role": "official",
+   "tags": [
+    "tax"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "why": "Check around tax deadlines"
+  }
+ ],
+ "competitors": [
+  {
+   "id": "finance-with-sharan",
+   "name": "Finance With Sharan",
+   "kind": "channel",
+   "why": "Biggest English finance explainer for Indian salaried people",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-sharan-yt",
+     "type": "youtube",
+     "channel_id": "UCwVEhEzsjLym_u1he4XWFkg",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "ca-rachana-ranade",
+   "name": "CA Rachana Ranade",
+   "kind": "channel",
+   "why": "Teacher-style market basics",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-rachana-yt",
+     "type": "youtube",
+     "channel_id": "UCe3qdG0A_gr-sEdat5y2twQ",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "akshat-shrivastava",
+   "name": "Akshat Shrivastava",
+   "kind": "channel",
+   "why": "Fast reactions to economic news",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-akshat-yt",
+     "type": "youtube",
+     "channel_id": "UCqW8jxh4tH1Z1sWPbkGWL4g",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "pranjal-kamra",
+   "name": "Pranjal Kamra",
+   "kind": "channel",
+   "why": "Investing education, long-form",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-kamra-yt",
+     "type": "youtube",
+     "channel_id": "UCwAdQUuPT6laN-AQR17fe1g",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "labour-law-advisor",
+   "name": "Labour Law Advisor",
+   "kind": "channel",
+   "why": "Salary, PF, tax and job-rights topics",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-lla-yt",
+     "type": "youtube",
+     "channel_id": "UCVOTBwF0vnSxMRIbfSE_K_g",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  }
+ ],
+ "people": []
+}

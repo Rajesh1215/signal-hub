@@ -1,0 +1,118 @@
+{
+ "id": "timeless-curio",
+ "order": 4,
+ "name": "Timeless Curio",
+ "color": "#F59E0B",
+ "niche": "Curiosity stories: space, science, history, the human body and 'what if' (English, Instagram + YouTube)",
+ "platforms": [
+  "instagram",
+  "youtube"
+ ],
+ "language": "en",
+ "labels": [
+  "SKIP",
+  "KNOW",
+  "IMPORTANT",
+  "MAKE"
+ ],
+ "competitor_labels": [
+  "RELEASE",
+  "FEATURE",
+  "DECISION",
+  "PRACTICE",
+  "CONTENT"
+ ],
+ "timing": [
+  "NOW",
+  "SOON",
+  "ANYTIME"
+ ],
+ "reasons": [
+  "official_launch",
+  "feature_update",
+  "price_change",
+  "free_offer",
+  "policy_change",
+  "trending_discussion",
+  "tutorial",
+  "explainer_angle",
+  "opinion",
+  "hype",
+  "rumor",
+  "duplicate",
+  "minor_update",
+  "off_topic",
+  "too_niche",
+  "paywalled",
+  "competitor_move",
+  "best_practice",
+  "evergreen_idea",
+  "discovery",
+  "new_study",
+  "anniversary",
+  "mission_event",
+  "myth_busting",
+  "record_broken"
+ ],
+ "flags": {
+  "category": {
+   "type": "enum",
+   "values": [
+    "space",
+    "evolution",
+    "human_body",
+    "inventions",
+    "wars_empires",
+    "ancient",
+    "mysteries",
+    "earth_nature",
+    "animals",
+    "discovery",
+    "what_if"
+   ],
+   "help": "Topic area"
+  },
+  "visual_potential": {
+   "type": "enum",
+   "values": [
+    "high",
+    "medium",
+    "low"
+   ],
+   "help": "How well it can be shown with motion graphics"
+  },
+  "anniversary_date": {
+   "type": "date",
+   "help": "YYYY-MM-DD of an upcoming anniversary worth posting on"
+  },
+  "verified_primary": {
+   "type": "bool",
+   "help": "Backed by a paper, agency (NASA/ESA/ISRO) or museum, not only a blog"
+  },
+  "what_if_potential": {
+   "type": "bool",
+   "help": "Can become a 'what if' video"
+  },
+  "india_angle": {
+   "type": "bool",
+   "help": "Has an Indian link (ISRO, Indian history, Indian scientist)"
+  },
+  "sensitive": {
+   "type": "bool",
+   "help": "War, death, religion or tragedy: needs a careful, respectful script"
+  },
+  "surprising_fact": {
+   "type": "bool",
+   "help": "Contains a fact most people get wrong or have never heard"
+  }
+ },
+ "filters": {
+  "max_age_days": 3,
+  "max_new_per_source": 15,
+  "stale_after_days": 7
+ },
+ "caps": {
+  "competitors": 5,
+  "people": 10
+ }
+}

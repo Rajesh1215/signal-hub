@@ -1,0 +1,678 @@
+{
+ "sources": [
+  {
+   "id": "openai-news",
+   "name": "OpenAI News",
+   "type": "feed",
+   "url": "https://openai.com/news/rss.xml",
+   "role": "official",
+   "tags": [
+    "models",
+    "launches"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "google-ai-blog",
+   "name": "Google AI Blog",
+   "type": "feed",
+   "url": "https://blog.google/technology/ai/rss/",
+   "role": "official",
+   "tags": [
+    "models",
+    "launches"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "deepmind-blog",
+   "name": "Google DeepMind",
+   "type": "feed",
+   "url": "https://deepmind.google/blog/rss.xml",
+   "role": "official",
+   "tags": [
+    "research"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "anthropic-news",
+   "name": "Anthropic News",
+   "type": "sitemap",
+   "url": "https://www.anthropic.com/sitemap.xml",
+   "match": [
+    "/news/"
+   ],
+   "role": "official",
+   "tags": [
+    "models",
+    "launches"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "mistral-news",
+   "name": "Mistral AI",
+   "type": "feed",
+   "url": "https://mistral.ai/rss.xml",
+   "role": "official",
+   "tags": [
+    "models",
+    "open-source"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "hf-blog",
+   "name": "Hugging Face Blog",
+   "type": "feed",
+   "url": "https://huggingface.co/blog/feed.xml",
+   "role": "official",
+   "tags": [
+    "open-source",
+    "models"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "nvidia-dev-blog",
+   "name": "NVIDIA Developer Blog",
+   "type": "feed",
+   "url": "https://developer.nvidia.com/blog/feed",
+   "role": "official",
+   "tags": [
+    "hardware"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "ms-research",
+   "name": "Microsoft Research",
+   "type": "feed",
+   "url": "https://www.microsoft.com/en-us/research/feed/",
+   "role": "official",
+   "tags": [
+    "research"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "github-changelog",
+   "name": "GitHub Changelog",
+   "type": "feed",
+   "url": "https://github.blog/changelog/feed/",
+   "role": "official",
+   "tags": [
+    "changelog",
+    "dev-tools"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "gemini-api-changelog",
+   "name": "Gemini API changelog",
+   "type": "page",
+   "url": "https://ai.google.dev/gemini-api/docs/changelog",
+   "role": "official",
+   "tags": [
+    "changelog"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "anthropic-release-notes",
+   "name": "Anthropic release notes",
+   "type": "page",
+   "url": "https://docs.anthropic.com/en/release-notes/overview",
+   "role": "official",
+   "tags": [
+    "changelog"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "openai-api-changelog",
+   "name": "OpenAI API changelog",
+   "type": "page",
+   "url": "https://platform.openai.com/docs/changelog",
+   "role": "official",
+   "tags": [
+    "changelog"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "gh-claude-code",
+   "name": "Claude Code releases",
+   "type": "feed",
+   "url": "https://github.com/anthropics/claude-code/releases.atom",
+   "role": "official",
+   "tags": [
+    "changelog",
+    "dev-tools"
+   ],
+   "status": "active",
+   "max_new": 3
+  },
+  {
+   "id": "gh-ollama",
+   "name": "Ollama releases",
+   "type": "feed",
+   "url": "https://github.com/ollama/ollama/releases.atom",
+   "role": "official",
+   "tags": [
+    "changelog",
+    "open-source"
+   ],
+   "status": "active",
+   "max_new": 3
+  },
+  {
+   "id": "techcrunch-ai",
+   "name": "TechCrunch AI",
+   "type": "feed",
+   "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "role": "news",
+   "tags": [
+    "industry"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "verge-ai",
+   "name": "The Verge AI",
+   "type": "feed",
+   "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "role": "news",
+   "tags": [
+    "consumer"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "marktechpost",
+   "name": "MarkTechPost",
+   "type": "feed",
+   "url": "https://www.marktechpost.com/feed/",
+   "role": "news",
+   "tags": [
+    "research",
+    "open-source"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "the-rundown",
+   "name": "The Rundown AI",
+   "type": "feed",
+   "url": "https://www.therundown.ai/feed",
+   "role": "news",
+   "tags": [
+    "newsletter"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "bens-bites",
+   "name": "Ben's Bites",
+   "type": "feed",
+   "url": "https://bensbites.com/feed",
+   "role": "news",
+   "tags": [
+    "newsletter",
+    "tools"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "latent-space",
+   "name": "Latent Space / AINews",
+   "type": "feed",
+   "url": "https://www.latent.space/feed",
+   "role": "news",
+   "tags": [
+    "newsletter",
+    "engineering"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "product-hunt",
+   "name": "Product Hunt",
+   "type": "feed",
+   "url": "https://www.producthunt.com/feed",
+   "role": "news",
+   "tags": [
+    "tools",
+    "launches"
+   ],
+   "status": "active",
+   "max_new": 10
+  },
+  {
+   "id": "hn-ai",
+   "name": "Hacker News (AI)",
+   "type": "hn",
+   "role": "news",
+   "tags": [
+    "discussion"
+   ],
+   "status": "active",
+   "keywords": [
+    "ai",
+    "llm",
+    "gpt",
+    "claude",
+    "gemini",
+    "openai",
+    "anthropic",
+    "deepseek",
+    "llama",
+    "mistral",
+    "agent",
+    "model",
+    "transformer",
+    "copilot",
+    "cursor",
+    "nvidia",
+    "inference"
+   ],
+   "min_points": 80
+  },
+  {
+   "id": "hf-papers",
+   "name": "Hugging Face Daily Papers",
+   "type": "hf_papers",
+   "role": "news",
+   "tags": [
+    "research"
+   ],
+   "status": "active",
+   "min_upvotes": 25,
+   "max_new": 8
+  },
+  {
+   "id": "gh-trending",
+   "name": "GitHub Trending",
+   "type": "github_trending",
+   "role": "news",
+   "tags": [
+    "open-source",
+    "tools"
+   ],
+   "status": "active",
+   "min_stars_today": 150,
+   "max_new": 8
+  },
+  {
+   "id": "devto-ai",
+   "name": "dev.to #ai",
+   "type": "devto",
+   "tag": "ai",
+   "role": "news",
+   "tags": [
+    "tutorial"
+   ],
+   "status": "active",
+   "min_reactions": 20
+  },
+  {
+   "id": "devto-llm",
+   "name": "dev.to #llm",
+   "type": "devto",
+   "tag": "llm",
+   "role": "news",
+   "tags": [
+    "tutorial"
+   ],
+   "status": "active",
+   "min_reactions": 15
+  },
+  {
+   "id": "r-localllama",
+   "name": "r/LocalLLaMA",
+   "type": "reddit",
+   "subreddit": "LocalLLaMA",
+   "t": "day",
+   "role": "news",
+   "tags": [
+    "open-source",
+    "discussion"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "r-openai",
+   "name": "r/OpenAI",
+   "type": "reddit",
+   "subreddit": "OpenAI",
+   "t": "day",
+   "role": "news",
+   "tags": [
+    "discussion"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "r-claudeai",
+   "name": "r/ClaudeAI",
+   "type": "reddit",
+   "subreddit": "ClaudeAI",
+   "t": "day",
+   "role": "news",
+   "tags": [
+    "discussion"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "r-machinelearning",
+   "name": "r/MachineLearning",
+   "type": "reddit",
+   "subreddit": "MachineLearning",
+   "t": "day",
+   "role": "news",
+   "tags": [
+    "research"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "yt-3b1b",
+   "name": "3Blue1Brown",
+   "type": "youtube",
+   "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+   "role": "news",
+   "tags": [
+    "learning"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-ibm-tech",
+   "name": "IBM Technology",
+   "type": "youtube",
+   "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ",
+   "role": "news",
+   "tags": [
+    "learning",
+    "explainer"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-umar-jamil",
+   "name": "Umar Jamil",
+   "type": "youtube",
+   "channel_id": "UCtAcpQcYerN8xxZJYTfWBMw",
+   "role": "news",
+   "tags": [
+    "learning",
+    "deep-dive"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-campusx",
+   "name": "CampusX",
+   "type": "youtube",
+   "channel_id": "UCCWi3hpnq_Pe03nGxuS7isg",
+   "role": "news",
+   "tags": [
+    "learning",
+    "india"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-dwarkesh",
+   "name": "Dwarkesh Patel",
+   "type": "youtube",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "role": "news",
+   "tags": [
+    "interviews"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-latent-space",
+   "name": "Latent Space (YouTube)",
+   "type": "youtube",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "role": "news",
+   "tags": [
+    "interviews",
+    "engineering"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "x-ai-list",
+   "name": "X: your AI list",
+   "type": "x_manual",
+   "url": "https://x.com/i/lists",
+   "role": "people",
+   "tags": [
+    "discussion"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "why": "Open your own X list of AI people; paste interesting post links into chat to add them"
+  },
+  {
+   "id": "daily-dev",
+   "name": "daily.dev",
+   "type": "daily_dev",
+   "url": "https://app.daily.dev/",
+   "role": "news",
+   "tags": [
+    "aggregator"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "why": "Personalised dev feed; scan once a day"
+  },
+  {
+   "id": "theres-an-ai",
+   "name": "There's An AI For That",
+   "type": "page",
+   "url": "https://theresanaiforthat.com/new/",
+   "role": "news",
+   "tags": [
+    "tools"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "why": "New AI tools; scan weekly"
+  }
+ ],
+ "competitors": [
+  {
+   "id": "fireship",
+   "name": "Fireship",
+   "kind": "channel",
+   "why": "Fast tech news shorts; sets the bar for pace and humour",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-fireship-yt",
+     "type": "youtube",
+     "channel_id": "UCsBjURrPoezykLs9EqgamOA",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "two-minute-papers",
+   "name": "Two Minute Papers",
+   "kind": "channel",
+   "why": "Research made exciting; shows which papers go viral",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-tmp-yt",
+     "type": "youtube",
+     "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "ai-explained",
+   "name": "AI Explained",
+   "kind": "channel",
+   "why": "Careful model-release analysis",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-aiexplained-yt",
+     "type": "youtube",
+     "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "matthew-berman",
+   "name": "Matthew Berman",
+   "kind": "channel",
+   "why": "First to test new models and tools",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-berman-yt",
+     "type": "youtube",
+     "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "krish-naik",
+   "name": "Krish Naik",
+   "kind": "channel",
+   "why": "Biggest Indian AI education channel; same audience",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-krishnaik-yt",
+     "type": "youtube",
+     "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  }
+ ],
+ "people": [
+  {
+   "id": "karpathy",
+   "name": "Andrej Karpathy",
+   "why": "Clearest teacher of how LLMs work",
+   "status": "active",
+   "sources": [
+    {
+     "id": "p-karpathy-yt",
+     "type": "youtube",
+     "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
+     "max_age_days": 7
+    },
+    {
+     "id": "p-karpathy-blog",
+     "type": "feed",
+     "url": "https://karpathy.bearblog.dev/feed/",
+     "max_age_days": 7
+    }
+   ]
+  },
+  {
+   "id": "simon-willison",
+   "name": "Simon Willison",
+   "why": "Tests every new model and tool the same day",
+   "status": "active",
+   "sources": [
+    {
+     "id": "p-simonw-blog",
+     "type": "feed",
+     "url": "https://simonwillison.net/atom/everything/",
+     "max_new": 6,
+     "max_age_days": 7
+    }
+   ]
+  },
+  {
+   "id": "sebastian-raschka",
+   "name": "Sebastian Raschka",
+   "why": "LLM internals explained",
+   "status": "active",
+   "sources": [
+    {
+     "id": "p-raschka-blog",
+     "type": "feed",
+     "url": "https://magazine.sebastianraschka.com/feed",
+     "max_age_days": 7
+    }
+   ]
+  },
+  {
+   "id": "nathan-lambert",
+   "name": "Nathan Lambert",
+   "why": "Open models and post-training",
+   "status": "active",
+   "sources": [
+    {
+     "id": "p-lambert-blog",
+     "type": "feed",
+     "url": "https://www.interconnects.ai/feed",
+     "max_age_days": 7
+    }
+   ]
+  },
+  {
+   "id": "ethan-mollick",
+   "name": "Ethan Mollick",
+   "why": "How normal people use AI at work and study",
+   "status": "active",
+   "sources": [
+    {
+     "id": "p-mollick-blog",
+     "type": "feed",
+     "url": "https://www.oneusefulthing.org/feed",
+     "max_age_days": 7
+    }
+   ]
+  },
+  {
+   "id": "sam-altman",
+   "name": "Sam Altman",
+   "why": "OpenAI direction (rare posts)",
+   "status": "active",
+   "sources": [
+    {
+     "id": "p-altman-blog",
+     "type": "feed",
+     "url": "https://blog.samaltman.com/posts.atom",
+     "max_age_days": 7
+    }
+   ]
+  }
+ ]
+}

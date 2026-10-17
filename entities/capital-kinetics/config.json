@@ -1,0 +1,135 @@
+{
+ "id": "capital-kinetics",
+ "order": 2,
+ "name": "Capital Kinetics",
+ "color": "#22C55E",
+ "niche": "Money, markets and personal finance for Indian salaried people and new investors (English, education only, never tips)",
+ "platforms": [
+  "instagram",
+  "youtube"
+ ],
+ "language": "en",
+ "labels": [
+  "SKIP",
+  "KNOW",
+  "IMPORTANT",
+  "MAKE",
+  "WATCH"
+ ],
+ "competitor_labels": [
+  "RELEASE",
+  "FEATURE",
+  "DECISION",
+  "PRACTICE",
+  "CONTENT"
+ ],
+ "timing": [
+  "NOW",
+  "SOON",
+  "ANYTIME"
+ ],
+ "reasons": [
+  "official_launch",
+  "feature_update",
+  "price_change",
+  "free_offer",
+  "policy_change",
+  "trending_discussion",
+  "tutorial",
+  "explainer_angle",
+  "opinion",
+  "hype",
+  "rumor",
+  "duplicate",
+  "minor_update",
+  "off_topic",
+  "too_niche",
+  "paywalled",
+  "competitor_move",
+  "best_practice",
+  "evergreen_idea",
+  "market_event",
+  "rate_decision",
+  "regulation",
+  "tax_change",
+  "earnings",
+  "ipo_listing",
+  "data_release",
+  "scam_alert",
+  "budget_or_policy"
+ ],
+ "flags": {
+  "category": {
+   "type": "enum",
+   "values": [
+    "markets",
+    "rbi_policy",
+    "banking",
+    "tax",
+    "ipo",
+    "mutual_funds",
+    "insurance",
+    "regulation",
+    "economy",
+    "company_results",
+    "global",
+    "commodities",
+    "personal_finance",
+    "scam",
+    "business_story"
+   ],
+   "help": "Topic area"
+  },
+  "personal_impact": {
+   "type": "enum",
+   "values": [
+    "emi",
+    "tax",
+    "savings",
+    "investing",
+    "salary",
+    "prices",
+    "insurance",
+    "none"
+   ],
+   "help": "Where it hits a normal person's money"
+  },
+  "affects_common_people": {
+   "type": "bool",
+   "help": "Changes something for ordinary salaried people, not only traders"
+  },
+  "india_relevant": {
+   "type": "bool",
+   "help": "About India or directly affects Indians"
+  },
+  "regulatory": {
+   "type": "bool",
+   "help": "Comes from RBI, SEBI, Income Tax, Finance Ministry, IRDAI, PFRDA, NPCI"
+  },
+  "market_moving": {
+   "type": "bool",
+   "help": "Likely to move indices, rates or a big stock"
+  },
+  "trending_widely": {
+   "type": "bool",
+   "help": "Being discussed everywhere today"
+  },
+  "verified_official": {
+   "type": "bool",
+   "help": "Confirmed by a regulator, exchange filing or company release"
+  },
+  "needs_care": {
+   "type": "bool",
+   "help": "Easy to turn into advice or fear; script must stay educational and neutral"
+  }
+ },
+ "filters": {
+  "max_age_days": 3,
+  "max_new_per_source": 15,
+  "stale_after_days": 7
+ },
+ "caps": {
+  "competitors": 5,
+  "people": 10
+ }
+}

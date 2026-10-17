@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Signal Hub</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+<style>
+  :root { --bg:#f6f7f9; --card:#ffffff; --ink:#111318; --muted:#5b6170; --line:#e3e6ec; --chip:#eef0f4;
+          --make:#e5484d; --important:#f59e0b; --know:#3b82f6; --skip:#9ca3af; --pending:#8b5cf6; --stale:#a8a29e;
+          --comp:#14b8a6; --accent:#111318; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0d0f13; --card:#161a21; --ink:#eef0f4; --muted:#9aa1ae;
+          --line:#262b35; --chip:#20252e; --accent:#eef0f4; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif; }
+  header { position:sticky; top:0; z-index:5; background:var(--bg); border-bottom:1px solid var(--line); padding:12px 16px 8px; }
+  h1 { font-size:18px; margin:0 0 2px; } .sub { color:var(--muted); font-size:12px; }
+  .row { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; align-items:center; }
+  .chip { border:1px solid var(--line); background:var(--chip); color:var(--ink); border-radius:999px; padding:5px 11px;
+          font-size:13px; cursor:pointer; white-space:nowrap; }
+  .chip.on { background:var(--accent); color:var(--bg); border-color:var(--accent); }
+  .chip .n { opacity:.65; margin-left:4px; font-size:11px; }
+  input[type=search], input[type=date] { border:1px solid var(--line); background:var(--card); color:var(--ink);
+          border-radius:8px; padding:6px 9px; font-size:13px; }
+  input[type=search] { flex:1; min-width:140px; }
+  main { max-width:900px; margin:0 auto; padding:12px 16px 60px; }
+  .day { margin:18px 0 6px; font-weight:700; color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.06em; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:11px 13px; margin:8px 0;
+          border-left:4px solid var(--skip); }
+  .card a.t { color:var(--ink); font-weight:600; text-decoration:none; } .card a.t:hover { text-decoration:underline; }
+  .meta { color:var(--muted); font-size:12px; margin-top:4px; display:flex; flex-wrap:wrap; gap:8px; }
+  .meta a { color:var(--muted); }
+  .badge { display:inline-block; font-size:11px; font-weight:700; padding:2px 7px; border-radius:6px; color:#fff; margin-right:6px; }
+  .flags { display:flex; flex-wrap:wrap; gap:4px; margin-top:6px; }
+  .flag { font-size:11px; background:var(--chip); border:1px solid var(--line); border-radius:6px; padding:1px 6px; color:var(--muted); }
+  .sum { margin-top:6px; font-size:13.5px; }
+  .empty { color:var(--muted); text-align:center; padding:40px 0; }
+  table { width:100%; border-collapse:collapse; font-size:13px; background:var(--card); border-radius:10px; overflow:hidden; }
+  th, td { text-align:left; padding:7px 9px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; } .bad { color:var(--make); font-weight:600; }
+  .manual a { display:block; padding:9px 12px; background:var(--card); border:1px solid var(--line); border-radius:10px; margin:6px 0; color:var(--ink); text-decoration:none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📡 Signal Hub</h1>
+  <div class="sub" id="updated">Loading…</div>
+  <div class="row" id="entities"></div>
+  <div class="row" id="tabs"></div>
+  <div class="row" id="dates"></div>
+  <div class="row" id="labels"></div>
+  <div class="row"><input type="search" id="q" placeholder="Search titles, sources, flags…"></div>
+</header>
+<main id="out"></main>
+<script>
+const S = { entity:null, tab:'news', date:'today', from:'', to:'', label:'ALL', q:'', sort:'latest' };
+const PRIORITY = ['MAKE','TEST','IMPORTANT','WATCH','RELEASE','FEATURE','DECISION','CONTENT','PRACTICE','STUDY','KNOW','PENDING','SKIP','STALE'];
+const TIMING = { NOW:0, SOON:1, ANYTIME:2 };
+let META = null; const DATA = {};
+const COLORS = { MAKE:'var(--make)', IMPORTANT:'var(--important)', KNOW:'var(--know)', SKIP:'var(--skip)',
+  STALE:'var(--stale)', TEST:'var(--important)', STUDY:'var(--know)', RELEASE:'var(--comp)', FEATURE:'var(--comp)',
+  DECISION:'var(--comp)', PRACTICE:'var(--comp)', CONTENT:'var(--comp)' };
+const ist = d => new Date(new Date(d).getTime() + 330*60000).toISOString().slice(0,10);
+const todayIST = () => ist(Date.now());
+const esc = s => (s ?? '').toString().replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function store(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+function load(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+
+function chip(label, on, onclick, n) {
+  const b = document.createElement('button'); b.className = 'chip' + (on ? ' on' : '');
+  b.innerHTML = esc(label) + (n != null ? `<span class="n">${n}</span>` : ''); b.onclick = onclick; return b;
+}
+function inRange(it) {
+  const d = ist(it.when || it.found_at), t = todayIST(), y = ist(Date.now() - 864e5);
+  if (S.date === 'today') return d === t;
+  if (S.date === 'yesterday') return d === y;
+  if (S.date === '7d') return d >= ist(Date.now() - 6*864e5);
+  if (S.date === '30d') return d >= ist(Date.now() - 29*864e5);
+  if (S.date === 'custom') return (!S.from || d >= S.from) && (!S.to || d <= S.to);
+  return true;
+}
+function matchLabel(it) {
+  const L = it.status === 'pending' ? 'PENDING' : (it.status === 'stale' ? 'STALE' : it.label);
+  if (S.label === 'ALL') return L !== 'SKIP' && L !== 'STALE';
+  return L === S.label;
+}
+function matchQ(it) {
+  if (!S.q) return true;
+  const hay = [it.title, it.source, it.reason, it.summary, JSON.stringify(it.flags||{})].join(' ').toLowerCase();
+  return S.q.toLowerCase().split(/\s+/).every(w => hay.includes(w));
+}
+function card(it, ent) {
+  const L = it.status === 'pending' ? 'PENDING' : (it.status === 'stale' ? 'STALE' : it.label);
+  const color = L === 'PENDING' ? 'var(--pending)' : (COLORS[L] || 'var(--skip)');
+  const flags = Object.entries(it.flags || {}).filter(([k,v]) => v !== false && v != null)
+    .map(([k,v]) => `<span class="flag">${esc(k)}${v === true ? '' : ': ' + esc(v)}</span>`).join('');
+  const m = it.meta || {};
+  const stats = ['points','upvotes','views','reactions','stars_today','comments'].filter(k => m[k]).map(k => `${k} ${m[k]}`).join(' · ');
+  const compName = it.competitor_id ? (ent.competitors.find(c => c.id === it.competitor_id)?.name || it.competitor_id) : '';
+  const comp = compName && compName !== it.source ? compName : '';
+  const w = it.when || it.found_at;
+  const time = !w ? '' : S.sort === 'priority'
+    ? new Date(w).toLocaleString('en-IN', {day:'numeric', month:'short', hour:'2-digit', minute:'2-digit', timeZone:'Asia/Kolkata'})
+    : new Date(w).toLocaleTimeString('en-IN', {hour:'2-digit', minute:'2-digit', timeZone:'Asia/Kolkata'});
+  return `<div class="card" style="border-left-color:${color}">
+    <span class="badge" style="background:${color}">${esc(L)}</span>${it.timing ? `<span class="flag">${esc(it.timing)}</span> ` : ''}${it.evergreen ? `<span class="flag">evergreen ${it.evergreen}/5</span> ` : ''}${it.reason ? `<span class="flag">${esc(it.reason)}</span>` : ''}
+    <div style="margin-top:6px"><a class="t" href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title || it.url)}</a></div>
+    ${it.summary ? `<div class="sum">${esc(it.summary)}</div>` : ''}
+    ${flags ? `<div class="flags">${flags}</div>` : ''}
+    <div class="meta"><span>${esc(comp ? comp + ' · ' : '')}${esc(it.source)}</span><span>${esc(it.role)}</span><span>${time} IST</span>${stats ? `<span>${esc(stats)}</span>` : ''}${m.discussion ? `<a href="${esc(m.discussion)}" target="_blank" rel="noopener">discussion</a>` : ''}${m.github ? `<a href="${esc(m.github)}" target="_blank" rel="noopener">code</a>` : ''}</div>
+  </div>`;
+}
+function renderControls() {
+  const ents = document.getElementById('entities'); ents.innerHTML = '';
+  META.entities.forEach(e => ents.append(chip(e.name, S.entity === e.id, () => { S.entity = e.id; store('sh-entity', e.id); go(); }, e.pending ? e.pending + ' new' : null)));
+  const tabs = document.getElementById('tabs'); tabs.innerHTML = '';
+  [['news','News'],['competitors','Competitors'],['manual','Check manually'],['sources','Sources']].forEach(([k,l]) =>
+    tabs.append(chip(l, S.tab === k, () => { S.tab = k; go(); })));
+  const dates = document.getElementById('dates'); dates.innerHTML = '';
+  const ent0 = META.entities.find(e => e.id === S.entity), fmt = d => d ? new Date(d).toLocaleString('en-IN', {timeZone:'Asia/Kolkata', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'}) : 'never';
+  document.getElementById('updated').textContent = `Collected ${fmt(ent0.last_collect)} · Analysed ${fmt(ent0.last_analysis)} (IST)`;
+  const showDates = S.tab === 'news' || S.tab === 'competitors';
+  if (showDates) {
+    [['today','Today'],['yesterday','Yesterday'],['7d','7 days'],['30d','30 days'],['custom','Custom']].forEach(([k,l]) =>
+      dates.append(chip(l, S.date === k, () => { S.date = k; go(); })));
+    dates.append(Object.assign(document.createElement('span'), {className:'sub', textContent:' · sort'}));
+    [['latest','Latest'],['priority','Priority']].forEach(([k,l]) => dates.append(chip(l, S.sort === k, () => { S.sort = k; go(); })));
+    if (S.date === 'custom') {
+      const f = Object.assign(document.createElement('input'), {type:'date', value:S.from, onchange:e => { S.from = e.target.value; go(); }});
+      const t = Object.assign(document.createElement('input'), {type:'date', value:S.to, onchange:e => { S.to = e.target.value; go(); }});
+      dates.append(f, t);
+    }
+  }
+  const labels = document.getElementById('labels'); labels.innerHTML = '';
+  if (showDates) {
+    const ent = META.entities.find(e => e.id === S.entity);
+    const base = S.tab === 'competitors' ? ['ALL', ...ent.competitor_labels, 'PENDING', 'SKIP'] : ['ALL', ...ent.labels.filter(l => l !== 'SKIP'), 'PENDING', 'SKIP', 'STALE'];
+    const items = (DATA[S.entity] || []).filter(it => (S.tab === 'competitors') === (it.role === 'competitor')).filter(inRange);
+    base.forEach(l => {
+      const n = l === 'ALL' ? null : items.filter(it => (it.status === 'pending' ? 'PENDING' : it.status === 'stale' ? 'STALE' : it.label) === l).length;
+      labels.append(chip(l === 'ALL' ? 'All (no SKIP)' : l, S.label === l, () => { S.label = l; go(); }, n));
+    });
+  }
+}
+function render() {
+  const ent = META.entities.find(e => e.id === S.entity), out = document.getElementById('out');
+  if (S.tab === 'manual') {
+    out.innerHTML = '<p class="sub">Check these yourself (not collected automatically).</p><div class="manual">' +
+      (ent.manual.length ? ent.manual.map(m => `<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.name)} <span class="sub">· ${esc(m.type)} · ${esc(m.role)}</span></a>`).join('') : '<div class="empty">No manual sources yet.</div>') + '</div>';
+    return;
+  }
+  if (S.tab === 'sources') {
+    out.innerHTML = `<table><tr><th>Source</th><th>Role</th><th>Status</th><th>New (7d)</th><th>Last OK</th></tr>${ent.sources.map(s =>
+      `<tr><td>${esc(s.name)}<div class="sub">${esc(s.type)}${s.last_error ? ' · ' + esc(s.last_error) : ''}</div></td><td>${esc(s.role)}</td><td class="${s.broken ? 'bad' : ''}">${s.broken ? 'BROKEN' : esc(s.status)}</td><td>${s.new_7d}</td><td>${s.last_ok ? new Date(s.last_ok).toLocaleString('en-IN', {timeZone:'Asia/Kolkata', dateStyle:'short', timeStyle:'short'}) : '—'}</td></tr>`).join('')}</table>`;
+    return;
+  }
+  const items = (DATA[S.entity] || []).filter(it => (S.tab === 'competitors') === (it.role === 'competitor'))
+    .filter(inRange).filter(matchLabel).filter(matchQ);
+  if (!items.length) { out.innerHTML = '<div class="empty">Nothing here for this filter.</div>'; return; }
+  let html = '', last = '';
+  const t = todayIST(), y = ist(Date.now() - 864e5);
+  const lab = it => it.status === 'pending' ? 'PENDING' : (it.status === 'stale' ? 'STALE' : it.label);
+  const rank = it => PRIORITY.indexOf(lab(it)) * 10 + (TIMING[it.timing] ?? 3) - (it.evergreen || 0) / 10;
+  if (S.sort === 'priority') items.sort((a, b) => rank(a) - rank(b) || (b.when || '').localeCompare(a.when || ''));
+  items.forEach(it => { const d = S.sort === 'priority' ? '' : ist(it.when || it.found_at); if (S.sort !== 'priority' && d !== last) { last = d; html += `<div class="day">${d === t ? 'Today' : d === y ? 'Yesterday' : d}</div>`; } html += card(it, ent); });
+  out.innerHTML = html;
+}
+async function go() {
+  if (!DATA[S.entity]) DATA[S.entity] = await fetch(`data/${S.entity}.json?t=${Date.now()}`).then(r => r.json()).catch(() => []);
+  renderControls(); render();
+}
+(async () => {
+  META = await fetch(`data/meta.json?t=${Date.now()}`).then(r => r.json());
+  const saved = load('sh-entity');
+  S.entity = META.entities.some(e => e.id === saved) ? saved : META.entities[0].id;
+  document.getElementById('q').oninput = e => { S.q = e.target.value; render(); };
+  go();
+})();
+</script>
+</body>
+</html>

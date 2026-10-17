@@ -1,0 +1,48 @@
+# Builds the dashboard from the repo data and publishes it to GitHub Pages.
+# Runs after each collection, and whenever an agent pushes analysis or config.
+name: pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "entities/**/analysis.json"
+      - "entities/**/config.json"
+      - "entities/**/sources.json"
+      - "engine/**"
+      - "site/**"
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main   # always the newest data, including what collect just pushed
+      - name: Build dashboard
+        run: python3 engine/build_site.py
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,8 @@
+# agent scratch files (pending lists, payload drafts)
+work/
+# dashboard is built by the pages workflow; build locally only to preview
+docs/
+__pycache__/
+*.pyc
+.DS_Store
+.env

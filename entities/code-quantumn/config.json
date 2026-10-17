@@ -1,0 +1,135 @@
+{
+ "id": "code-quantumn",
+ "order": 1,
+ "name": "Code Quantumn",
+ "color": "#22D3EE",
+ "niche": "AI and tech explained simply for Indian students and developers (English, Instagram + YouTube)",
+ "platforms": [
+  "instagram",
+  "youtube"
+ ],
+ "language": "en",
+ "labels": [
+  "SKIP",
+  "KNOW",
+  "IMPORTANT",
+  "MAKE",
+  "TEST",
+  "STUDY"
+ ],
+ "competitor_labels": [
+  "RELEASE",
+  "FEATURE",
+  "DECISION",
+  "PRACTICE",
+  "CONTENT"
+ ],
+ "timing": [
+  "NOW",
+  "SOON",
+  "ANYTIME"
+ ],
+ "reasons": [
+  "official_launch",
+  "feature_update",
+  "price_change",
+  "free_offer",
+  "policy_change",
+  "trending_discussion",
+  "tutorial",
+  "explainer_angle",
+  "opinion",
+  "hype",
+  "rumor",
+  "duplicate",
+  "minor_update",
+  "off_topic",
+  "too_niche",
+  "paywalled",
+  "competitor_move",
+  "best_practice",
+  "evergreen_idea",
+  "model_release",
+  "tool_release",
+  "open_source_release",
+  "research_paper",
+  "benchmark_claim",
+  "security_incident",
+  "funding_or_deal"
+ ],
+ "flags": {
+  "category": {
+   "type": "enum",
+   "values": [
+    "model",
+    "tool",
+    "product",
+    "research",
+    "changelog",
+    "policy",
+    "offer",
+    "incident",
+    "tutorial",
+    "opinion",
+    "hardware",
+    "business"
+   ],
+   "help": "What kind of news this is"
+  },
+  "audience_fit": {
+   "type": "enum",
+   "values": [
+    "students",
+    "developers",
+    "both",
+    "experts_only"
+   ],
+   "help": "Who would care"
+  },
+  "video_format": {
+   "type": "enum",
+   "values": [
+    "news_short",
+    "test",
+    "explainer",
+    "tutorial",
+    "comparison",
+    "none"
+   ],
+   "help": "Best video shape"
+  },
+  "india_relevant": {
+   "type": "bool",
+   "help": "Available in India, Indian pricing/language, or Indian company"
+  },
+  "free_access": {
+   "type": "bool",
+   "help": "Viewers can try it free today"
+  },
+  "open_source": {
+   "type": "bool",
+   "help": "Weights or code are public"
+  },
+  "beginner_friendly": {
+   "type": "bool",
+   "help": "Can be explained to a beginner in under a minute"
+  },
+  "needs_test": {
+   "type": "bool",
+   "help": "Claims must be tried hands-on before making a video"
+  },
+  "verified_official": {
+   "type": "bool",
+   "help": "Confirmed by the company's own post, docs or repo"
+  }
+ },
+ "filters": {
+  "max_age_days": 3,
+  "max_new_per_source": 15,
+  "stale_after_days": 7
+ },
+ "caps": {
+  "competitors": 5,
+  "people": 10
+ }
+}

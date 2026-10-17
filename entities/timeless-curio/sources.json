@@ -1,0 +1,350 @@
+{
+ "sources": [
+  {
+   "id": "nasa",
+   "name": "NASA",
+   "type": "feed",
+   "url": "https://www.nasa.gov/feed/",
+   "role": "official",
+   "tags": [
+    "space"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "esa-science",
+   "name": "ESA Space Science",
+   "type": "feed",
+   "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
+   "role": "official",
+   "tags": [
+    "space"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "space-com",
+   "name": "Space.com",
+   "type": "feed",
+   "url": "https://www.space.com/feeds/all",
+   "role": "news",
+   "tags": [
+    "space"
+   ],
+   "status": "active",
+   "max_new": 10
+  },
+  {
+   "id": "livescience",
+   "name": "Live Science",
+   "type": "feed",
+   "url": "https://www.livescience.com/feeds/all",
+   "role": "news",
+   "tags": [
+    "science",
+    "history"
+   ],
+   "status": "active",
+   "max_new": 12
+  },
+  {
+   "id": "sciencedaily",
+   "name": "ScienceDaily",
+   "type": "feed",
+   "url": "https://www.sciencedaily.com/rss/top/science.xml",
+   "role": "news",
+   "tags": [
+    "science"
+   ],
+   "status": "active",
+   "max_new": 10
+  },
+  {
+   "id": "phys-org",
+   "name": "Phys.org",
+   "type": "feed",
+   "url": "https://phys.org/rss-feed/",
+   "role": "news",
+   "tags": [
+    "science"
+   ],
+   "status": "active",
+   "max_new": 10
+  },
+  {
+   "id": "smithsonian",
+   "name": "Smithsonian Magazine",
+   "type": "feed",
+   "url": "https://www.smithsonianmag.com/rss/latest_articles/",
+   "role": "news",
+   "tags": [
+    "history",
+    "science"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "ars-science",
+   "name": "Ars Technica Science",
+   "type": "feed",
+   "url": "https://feeds.arstechnica.com/arstechnica/science",
+   "role": "news",
+   "tags": [
+    "science"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "new-scientist",
+   "name": "New Scientist",
+   "type": "feed",
+   "url": "https://www.newscientist.com/feed/home/",
+   "role": "news",
+   "tags": [
+    "science"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "quanta",
+   "name": "Quanta Magazine",
+   "type": "feed",
+   "url": "https://www.quantamagazine.org/feed/",
+   "role": "news",
+   "tags": [
+    "science",
+    "maths"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "bbc-science",
+   "name": "BBC Science",
+   "type": "feed",
+   "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+   "role": "news",
+   "tags": [
+    "science"
+   ],
+   "status": "active",
+   "max_new": 10
+  },
+  {
+   "id": "hindu-science",
+   "name": "The Hindu Science",
+   "type": "feed",
+   "url": "https://www.thehindu.com/sci-tech/science/feeder/default.rss",
+   "role": "news",
+   "tags": [
+    "science",
+    "india"
+   ],
+   "status": "active",
+   "max_new": 10
+  },
+  {
+   "id": "atlas-obscura",
+   "name": "Atlas Obscura",
+   "type": "feed",
+   "url": "https://www.atlasobscura.com/feeds/latest",
+   "role": "news",
+   "tags": [
+    "places",
+    "mysteries"
+   ],
+   "status": "active",
+   "max_new": 8
+  },
+  {
+   "id": "on-this-day",
+   "name": "Wikipedia: On this day (7 and 14 days ahead)",
+   "adapter": "site:onthisday",
+   "type": "onthisday",
+   "role": "news",
+   "tags": [
+    "anniversary"
+   ],
+   "status": "active",
+   "days_ahead": [
+    7,
+    14
+   ],
+   "min_years": 25,
+   "round_only": true
+  },
+  {
+   "id": "r-space",
+   "name": "r/space",
+   "type": "reddit",
+   "subreddit": "space",
+   "t": "day",
+   "role": "news",
+   "tags": [
+    "space",
+    "discussion"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "r-history",
+   "name": "r/history",
+   "type": "reddit",
+   "subreddit": "history",
+   "t": "week",
+   "role": "news",
+   "tags": [
+    "history",
+    "discussion"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "r-todayilearned",
+   "name": "r/todayilearned",
+   "type": "reddit",
+   "subreddit": "todayilearned",
+   "t": "day",
+   "role": "news",
+   "tags": [
+    "facts"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "yt-kings-generals",
+   "name": "Kings and Generals",
+   "type": "youtube",
+   "channel_id": "UCMmaBzfCCwZ2KqaBJjkj0fw",
+   "role": "news",
+   "tags": [
+    "history"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-history-matters",
+   "name": "History Matters",
+   "type": "youtube",
+   "channel_id": "UC22BdTgxefuvUivrjesETjg",
+   "role": "news",
+   "tags": [
+    "history"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "isro-updates",
+   "name": "ISRO updates",
+   "type": "page",
+   "url": "https://www.isro.gov.in/",
+   "role": "official",
+   "tags": [
+    "space",
+    "india"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "why": "No feed; check on launch weeks"
+  },
+  {
+   "id": "google-trends-in",
+   "name": "Google Trends (IN, science)",
+   "type": "page",
+   "url": "https://trends.google.com/trending?geo=IN&category=15",
+   "role": "news",
+   "tags": [
+    "trends"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "why": "Science stories rising in India"
+  }
+ ],
+ "competitors": [
+  {
+   "id": "kurzgesagt",
+   "name": "Kurzgesagt",
+   "kind": "channel",
+   "why": "Gold standard for animated science",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-kurz-yt",
+     "type": "youtube",
+     "channel_id": "UCsXVk37bltHxD1rDPwtNM8Q",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "veritasium",
+   "name": "Veritasium",
+   "kind": "channel",
+   "why": "Surprising-science storytelling",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-veritasium-yt",
+     "type": "youtube",
+     "channel_id": "UCHnyfMqiRRG1u-2MsSQLbXA",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "oversimplified",
+   "name": "OverSimplified",
+   "kind": "channel",
+   "why": "History made funny and visual",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-oversimplified-yt",
+     "type": "youtube",
+     "channel_id": "UCNIuvl7V8zACPpTmmNIqP2A",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "reallifelore",
+   "name": "RealLifeLore",
+   "kind": "channel",
+   "why": "Geography and 'what if' explainers",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-rll-yt",
+     "type": "youtube",
+     "channel_id": "UCP5tjEmvPItGyLhmjdwP7Ww",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "vsauce",
+   "name": "Vsauce",
+   "kind": "channel",
+   "why": "Curiosity questions",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-vsauce-yt",
+     "type": "youtube",
+     "channel_id": "UC6nSFpj9HTCZ5t-N3Rm3-HA",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  }
+ ],
+ "people": []
+}

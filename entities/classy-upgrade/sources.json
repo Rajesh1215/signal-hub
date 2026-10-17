@@ -1,0 +1,244 @@
+{
+ "sources": [
+  {
+   "id": "gq-india",
+   "name": "GQ India",
+   "type": "feed",
+   "url": "https://www.gqindia.com/feed/rss",
+   "role": "news",
+   "tags": [
+    "men",
+    "fashion"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "vogue-india",
+   "name": "Vogue India",
+   "type": "feed",
+   "url": "https://www.vogue.in/feed/rss",
+   "role": "news",
+   "tags": [
+    "women",
+    "fashion"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "ie-fashion",
+   "name": "Indian Express Fashion",
+   "type": "feed",
+   "url": "https://indianexpress.com/section/lifestyle/fashion/feed/",
+   "role": "news",
+   "tags": [
+    "india",
+    "fashion"
+   ],
+   "status": "active",
+   "max_new": 10
+  },
+  {
+   "id": "esquire-style",
+   "name": "Esquire Style",
+   "type": "feed",
+   "url": "https://www.esquire.com/rss/style.xml/",
+   "role": "news",
+   "tags": [
+    "men",
+    "fashion"
+   ],
+   "status": "active",
+   "max_new": 10
+  },
+  {
+   "id": "allure",
+   "name": "Allure",
+   "type": "feed",
+   "url": "https://www.allure.com/feed/rss",
+   "role": "news",
+   "tags": [
+    "skincare",
+    "grooming"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "highsnobiety",
+   "name": "Highsnobiety",
+   "type": "feed",
+   "url": "https://www.highsnobiety.com/feed/",
+   "role": "news",
+   "tags": [
+    "streetwear",
+    "trends"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "hypebeast",
+   "name": "Hypebeast",
+   "type": "feed",
+   "url": "https://hypebeast.com/feed",
+   "role": "news",
+   "tags": [
+    "streetwear",
+    "trends"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "bof",
+   "name": "Business of Fashion",
+   "type": "feed",
+   "url": "https://www.businessoffashion.com/arc/outboundfeeds/rss/",
+   "role": "news",
+   "tags": [
+    "industry"
+   ],
+   "status": "active",
+   "max_new": 10
+  },
+  {
+   "id": "r-malefashionadvice",
+   "name": "r/malefashionadvice",
+   "type": "reddit",
+   "subreddit": "malefashionadvice",
+   "t": "day",
+   "role": "news",
+   "tags": [
+    "men",
+    "discussion"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "r-femalefashionadvice",
+   "name": "r/femalefashionadvice",
+   "type": "reddit",
+   "subreddit": "femalefashionadvice",
+   "t": "day",
+   "role": "news",
+   "tags": [
+    "women",
+    "discussion"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "r-skincareaddiction",
+   "name": "r/SkincareAddiction",
+   "type": "reddit",
+   "subreddit": "SkincareAddiction",
+   "t": "day",
+   "role": "news",
+   "tags": [
+    "skincare",
+    "discussion"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "r-indianskincare",
+   "name": "r/IndianSkincareAddicts",
+   "type": "reddit",
+   "subreddit": "IndianSkincareAddicts",
+   "t": "week",
+   "role": "news",
+   "tags": [
+    "skincare",
+    "india"
+   ],
+   "status": "trial"
+  },
+  {
+   "id": "pinterest-trends",
+   "name": "Pinterest Trends",
+   "type": "page",
+   "url": "https://trends.pinterest.com/",
+   "role": "news",
+   "tags": [
+    "trends"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "why": "Check weekly: rising searches by country"
+  },
+  {
+   "id": "google-trends-style",
+   "name": "Google Trends (IN)",
+   "type": "page",
+   "url": "https://trends.google.com/trending?geo=IN&category=3",
+   "role": "news",
+   "tags": [
+    "trends"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "why": "Fashion/beauty searches rising in India"
+  },
+  {
+   "id": "ig-explore",
+   "name": "Instagram Reels audio + explore",
+   "type": "instagram_manual",
+   "url": "https://www.instagram.com/reels/",
+   "role": "news",
+   "tags": [
+    "trends"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "why": "Which looks and audios are trending this week"
+  }
+ ],
+ "competitors": [
+  {
+   "id": "real-men-real-style",
+   "name": "Real Men Real Style",
+   "kind": "channel",
+   "why": "Classic men's style education",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-rmrs-yt",
+     "type": "youtube",
+     "channel_id": "UCmRfQHc3U4fV1-i8Ry1HmtA",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "justine-leconte",
+   "name": "Justine Leconte",
+   "kind": "channel",
+   "why": "Fashion explained by a designer; women's style",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-justine-yt",
+     "type": "youtube",
+     "channel_id": "UChxkFSjTE7nLCHsDk8_pRhg",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "pranaysai",
+   "name": "PranaySai",
+   "kind": "channel",
+   "why": "Indian men's style and grooming",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-pranaysai-yt",
+     "type": "youtube",
+     "channel_id": "UC6NW8T10e9atHIoNlDw6YrQ",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  }
+ ],
+ "people": []
+}
