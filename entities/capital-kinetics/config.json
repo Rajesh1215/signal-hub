@@ -60,7 +60,13 @@
   "new_startup",
   "acquisition",
   "company_issue",
-  "market_outlook"
+  "market_outlook",
+  "geopolitics",
+  "big_player_statement",
+  "expert_view",
+  "lesson",
+  "trending_topic",
+  "follow_up"
  ],
  "flags": {
   "category": {
@@ -84,7 +90,12 @@
     "startups_funding",
     "yc",
     "tech_business",
-    "hardware_chips"
+    "hardware_chips",
+    "world_geopolitics",
+    "wall_street",
+    "big_player_statement",
+    "lessons",
+    "trending"
    ],
    "help": "Topic area"
   }

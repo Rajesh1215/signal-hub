@@ -17,6 +17,8 @@ Use `python3` for every command, run from the repo root. The engine uses only th
 |---|---|
 | "analyze today", "analyse", "run", "proceed", "update" | **A. Analyse pending items** |
 | "status" | `python3 engine/status.py` and report in a few lines |
+| "ideas" / "show ideas for <niche>" | `python3 engine/idea_status.py <niche> --list` |
+| "idea <id or title words> made / skipped / to make", "I made the video on …" | `python3 engine/idea_status.py <niche> "<id or words>" made\|skipped\|to_make [--note "..."]`, then commit and push. Ideas marked `made` become candidates for follow-ups when the story develops |
 | "add source <url> to <niche>" | **B. Add a source** |
 | "add this <url> to <niche>" or "I saw <news>" (a tip from the user) | Add it with `python3 engine/add_item.py <niche> "<url>" --title "..." --snippet "..." --source "Your tip"` (find the original link if they only describe it), analyse it with the rest, and append one line to `notes/user-tips.md`: date, niche, the story, the link, and whether Signal Hub had already caught it (`coverage.py`). Missed tips are reviewed in the weekly review. |
 | "add competitor <name or url> to <niche>" | **C. Competitors** (max 5 active) |
@@ -73,21 +75,33 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
       - Write the summary from what the video **actually says**: key claims, demos, numbers. Re-check the label and importance.
       - For competitor videos, also note the angle and structure (hook, sections) in the summary.
       - **News mentioned in the video:** if it mentions a launch, tool, paper or story, check it with `python3 engine/coverage.py "<headline words>"`. If it's not caught, find the original page (company blog, repo, paper) and add that page as an item with `add_item.py`, so it gets analysed like the rest. Daily runs only add the news item; adding new *sources* is for the weekly review. Note the website or account in `notes/source-ideas.md` (one line: date, niche, what, where it came from) for that review.
-   5. Save: `python3 engine/save_analysis.py <niche> work/payloads-<niche>.json`
+   5. **Follow-ups.** If an item continues an earlier story (a new development, an official confirmation, results of something announced before), link it: set `follows` to the earlier item's id and `background` to 1–2 sentences on what happened before, with dates. Find the earlier item in the "already labelled" list from `pending.py` or with `python3 engine/coverage.py "<words>" --days 30`. The dashboard then shows "↳ Follow-up of …" so the user knows the back-story.
+   6. Save: `python3 engine/save_analysis.py <niche> work/payloads-<niche>.json`
       - Every `✗` line names the item and what's wrong. Fix those payloads and run the command again with just the fixed ones. Saving is a merge, so re-running is safe.
-6. **Old items.** Items older than 7 days that were never analysed: `python3 engine/save_analysis.py <niche> --mark-stale` (only if `pending.py` reported stale items).
-7. **Validate.** `python3 engine/check.py`. It must print ✓ for every niche.
-8. **Commit and push.**
+6. **Video ideas** (every niche, every run). `pending.py` lists the niche's existing ideas. Write 2–6 ideas to `work/ideas-<niche>.json` and save them with `python3 engine/save_ideas.py <niche> work/ideas-<niche>.json` (format in `engine/save_ideas.py`). Each idea gets:
+   - a **type**:
+     - `hype`: rides today's buzz and only works now; usually `NOW`
+     - `months`: stays useful for weeks or months (a new rule, a big launch explained)
+     - `evergreen`: works any time. Often the hype makes people curious, but the explainer behind it (how gold funds work, what an LLM context window is) lasts
+   - a **title**, an **angle** (the hook), and an **outline** of what the video should cover in order (2–10 points, with the key facts and numbers)
+   - **items**: the news item ids it's based on. One video can combine several stories
+   - **follow-ups**: if a new story continues an earlier idea (especially one marked `made`), write a new idea with `follows_idea`, `follow_up` (`part 2` for a new video, `update` for adding to the old one) and `background` (what happened before and what's new)
+   - Don't repeat an existing open idea. Reuse its id to update it (new items, a sharper outline) instead.
+   - Ideas come from the useful items: MAKE, high importance, strong competitor topics. Mix the types; at least one evergreen idea when there's a good one.
+7. **Old items.** Items older than 7 days that were never analysed: `python3 engine/save_analysis.py <niche> --mark-stale` (only if `pending.py` reported stale items).
+8. **Validate.** `python3 engine/check.py`. It must print ✓ for every niche.
+9. **Commit and push.**
    ```
    git add entities notes
    git commit -m "analysis: <YYYY-MM-DD> (<N> items)"
    git push
    ```
    If the push is rejected (the collector pushed in the meantime): `git pull --rebase` and `git push` again. Never force-push.
-9. **Report to the user** (short, in chat):
+10. **Report to the user** (short, in chat):
    - per niche: counts by label
    - **MAKE**: title, timing (NOW/SOON/ANYTIME), and the one-line angle from your summary. NOW items first.
    - **Important** (importance 4–5, not MAKE): titles only
+   - **New video ideas**: title, type (hype / months / evergreen) and one-line angle; follow-ups marked as such
    - competitor highlights (one line each, if any)
    - broken sources, if any, and what you did about them
    - dashboard: https://rajesh1215.github.io/signal-hub/ (updates about 1–2 minutes after the push)
@@ -198,7 +212,8 @@ Goal: find out what we're missing and what's wasting space, then fix the sources
    - the new sources you propose, and why
    - any Reddit or X changes (upvote bars, groups, profiles)
 6. **Apply only what the user approves.** Add new sources as `trial`, then run `python3 engine/check.py`, commit and push. Promote or pause trial sources in the next review based on their results.
-7. If labels have looked off all week (too many MAKE, or the wrong audience), propose a specific edit to that niche's `brief.md` and apply it if the user agrees.
+7. **Ideas:** list ideas still `new` after 7 days. Suggest skipping stale `hype` ones, and keep `months` and `evergreen` ones. For ideas marked `made`, check whether their stories developed since then (a follow-up idea may be due).
+8. If labels have looked off all week (too many MAKE, or the wrong audience), propose a specific edit to that niche's `brief.md` and apply it if the user agrees.
 
 ## F. New entity (niche)
 

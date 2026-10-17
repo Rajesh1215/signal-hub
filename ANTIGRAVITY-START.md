@@ -39,13 +39,16 @@ Run **procedure A** from `AGENTS.md`, end to end, **without asking me for confir
    - **quick pass**: judge every pending item yourself and write its payload by hand into `work/payloads-<channel>.json` (chunks of about 80). No keyword scripts and no default SKIP: every item gets its own decision and reason
    - **deep read**: open and fully read every MAKE / TEST / importance 4–5 item, then rewrite its summary from the real page (facts, numbers, dates); adjust the label or importance if the full story is different
    - **YouTube**: for every non-SKIP video, get what's actually said, in this order: `python3 engine/video.py "<url>"`, then the browser ("…more" → "Show transcript"), then `python3 engine/video.py "<url>" --gemini` (only if a key is set), else the description with a note. Write the summary from the transcript. If the video mentions news we don't have (`python3 engine/coverage.py "<words>"`), add the original page with `add_item.py`
+   - **follow-ups**: if an item continues an earlier story, set `follows` (earlier item id) and `background` (what happened before)
    - save with `python3 engine/save_analysis.py <channel> work/payloads-<channel>.json`, fix any ✗ errors and re-run
+   - **video ideas**: write 2–6 ideas (types hype / months / evergreen, angle, outline, the news items they use, follow-ups of earlier ideas) to `work/ideas-<channel>.json` and save with `python3 engine/save_ideas.py <channel> work/ideas-<channel>.json`
 6. `python3 engine/save_analysis.py <channel> --mark-stale` if stale items were reported.
 7. `python3 engine/check.py`: must show ✓ for all 4.
 8. `git add entities notes && git commit -m "analysis: <date> (<N> items)" && git push` (if rejected: `git pull --rebase` then `git push`; never force-push).
 9. Report to me in chat:
    - counts per channel
    - **MAKE** list (NOW first) with the one-line angle
+   - new **video ideas** (type + angle)
    - Important titles (importance 4–5)
    - competitor highlights
    - broken sources

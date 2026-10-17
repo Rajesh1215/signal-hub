@@ -53,11 +53,11 @@ svg.sm { width:14px; height:14px; }
 .dot { width:9px; height:9px; border-radius:50%; background:var(--c); flex-shrink:0; }
 .count { font-size:11.5px; font-weight:650; padding:1px 7px; border-radius:999px; background:var(--surface-2); color:var(--muted); }
 .npill.on .count { background:color-mix(in srgb, var(--bg) 22%, transparent); color:var(--bg); }
-.bottom { position:fixed; left:0; right:0; bottom:0; z-index:30; display:grid; grid-template-columns:repeat(5,1fr);
+.bottom { position:fixed; left:0; right:0; bottom:0; z-index:30; display:grid; grid-template-columns:repeat(6,1fr);
   background:color-mix(in srgb, var(--surface) 94%, transparent); -webkit-backdrop-filter:blur(14px); backdrop-filter:blur(14px);
   border-top:1px solid var(--line); padding-bottom:env(safe-area-inset-bottom); }
 .bottom button { border:0; background:none; padding:9px 2px 8px; display:flex; flex-direction:column; align-items:center; gap:3px;
-  font-size:11px; font-weight:550; color:var(--muted); cursor:pointer; position:relative; }
+  font-size:10.5px; font-weight:550; color:var(--muted); cursor:pointer; position:relative; }
 .bottom button.on { color:var(--ink); }
 .bottom button.on::before { content:""; position:absolute; top:0; left:30%; right:30%; height:3px; border-radius:0 0 3px 3px; background:var(--accent); }
 .bottom .badge-n { position:absolute; top:5px; left:calc(50% + 6px); font-size:10px; background:var(--make); color:#fff; border-radius:999px; padding:0 5px; }
@@ -218,6 +218,16 @@ main { padding:16px 16px calc(92px + env(safe-area-inset-bottom)); max-width:108
 .srow .sn b { display:block; font-size:16px; color:var(--ink); }
 .pills { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
 .loading { padding:60px 0; text-align:center; color:var(--muted); }
+.bg { margin:8px 0 0; font-size:13.5px; color:var(--ink-2); background:var(--surface-2); border-radius:8px; padding:7px 10px; }
+.bg a { color:var(--ink); font-weight:600; }
+.outline { margin:10px 0 0; padding-left:20px; color:var(--ink-2); font-size:14px; }
+.outline li { margin:3px 0; }
+.based { margin-top:10px; font-size:13px; color:var(--muted); }
+.based a { display:block; color:var(--ink-2); text-decoration:none; padding:3px 0; }
+.based a:hover { text-decoration:underline; }
+.idea .title { cursor:default; }
+.hint { font-size:12px; color:var(--muted); margin-top:10px; }
+.hint code { background:var(--surface-2); padding:1px 6px; border-radius:5px; }
 </style>
 </head>
 <body>
@@ -238,6 +248,7 @@ const ICON = {
   competitors: '<circle cx="9" cy="8" r="3.4"/><path d="M2.8 20c.8-3.4 3.3-5.4 6.2-5.4s5.4 2 6.2 5.4M15.8 4.7a3.4 3.4 0 0 1 0 6.6M17.6 14.8c1.9.6 3.1 2.5 3.5 5.2"/>',
   manual: '<path d="M10 6h10M10 12h10M10 18h10"/><path d="m3.5 6 1.6 1.6L8 4.8M3.5 12l1.6 1.6L8 10.8M3.5 18l1.6 1.6L8 16.8"/>',
   sources: '<path d="M3 12h4l3-7 4 14 3-7h4"/>',
+  ideas: '<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.4 1 1.1 1 1.8V16h5v-.3c0-.7.4-1.4 1-1.8A6 6 0 0 0 12 3z"/>',
   moon: '<path d="M20.5 13.2A8.5 8.5 0 1 1 10.8 3.5a6.6 6.6 0 0 0 9.7 9.7z"/>',
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/>',
   search: '<circle cx="11" cy="11" r="6.5"/><path d="m20 20-4-4"/>',
@@ -259,12 +270,12 @@ const LABELS = {
 };
 const RANK = ['MAKE','TEST','IMPORTANT','WATCH','RELEASE','FEATURE','DECISION','CONTENT','PRACTICE','STUDY','KNOW','PENDING','SKIP','STALE'];
 const TIMING = { NOW: ['Post now', 'now', 0], SOON: ['This week', 'soon', 1], ANYTIME: ['Anytime', '', 2] };
-const VIEWS = [['overview','Overview'], ['feed','Feed'], ['competitors','Competitors'], ['manual','Check manually'], ['sources','Sources']];
-const SHORT = { overview:'Home', feed:'Feed', competitors:'Competitors', manual:'Manual', sources:'Sources' };
+const VIEWS = [['overview','Overview'], ['ideas','Video ideas'], ['feed','Feed'], ['competitors','Competitors'], ['manual','Check manually'], ['sources','Sources']];
+const SHORT = { overview:'Home', ideas:'Ideas', feed:'Feed', competitors:'Rivals', manual:'Manual', sources:'Sources' };
 const DATES = [['today','Today'], ['yesterday','Yesterday'], ['week','Week'], ['month','Month'], ['custom','Custom']];
 
-const S = { entity:null, view:'overview', date:'week', from:'', to:'', label:'ALL', q:'', sort:'latest', comp:'ALL' };
-let META = null; const DATA = {};
+const S = { entity:null, view:'overview', date:'week', from:'', to:'', label:'ALL', q:'', sort:'latest', comp:'ALL', istatus:'OPEN', itype:'ALL' };
+let META = null; const DATA = {}; const IDEAS = {};
 
 // ---------- helpers ----------
 const esc = s => (s ?? '').toString().replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -310,7 +321,7 @@ const rivals = () => items().filter(it => it.role === 'competitor' && (S.comp ==
 const useful = it => it.status === 'analyzed' && !['SKIP', 'STALE'].includes(it.label);
 const imp = it => it.importance || (it.label === 'IMPORTANT' ? 4 : 0);
 const isImp = it => useful(it) && imp(it) >= 4;
-const IMPNAME = { 5:'Must know', 4:'Important', 3:'Useful', 2:'Niche', 1:'Minor' };
+const IMPNAME = { 5:'High', 4:'High', 3:'Medium', 2:'Low', 1:'Low' };
 const desk = matchMedia('(min-width: 920px)');
 const cardMode = () => desk.matches ? 'hero' : 'normal';
 function byPriority(a, b) {
@@ -355,11 +366,13 @@ function card(it, mode = 'normal') {
   const L = lab(it), color = (LABELS[L] || [])[1] || 'var(--skip)', src = srcName(it), m = it.meta || {};
   const b = [badgeFor(L)];
   if (it.timing && TIMING[it.timing]) b.push(`<span class="tag ${TIMING[it.timing][1]}">${TIMING[it.timing][0]}</span>`);
-  if (imp(it) && L !== 'IMPORTANT') b.push(`<span class="tag ${imp(it) >= 4 ? 'imp' + imp(it) : ''}" title="Importance ${imp(it)}/5">${IMPNAME[imp(it)]}</span>`);
+  if (imp(it) && L !== 'IMPORTANT') b.push(`<span class="tag ${imp(it) >= 4 ? 'imp' + imp(it) : ''}" title="Importance ${imp(it)}/5">${IMPNAME[imp(it)]} importance</span>`);
   if (it.evergreen) b.push(`<span class="ever" title="Evergreen ${it.evergreen}/5: how long the video stays useful"><b>Evergreen</b>${[1,2,3,4,5].map(n => `<i class="${n <= it.evergreen ? 'f' : ''}"></i>`).join('')}</span>`);
   if (it.reason) b.push(`<span class="tag">${esc(human(it.reason))}</span>`);
   const snip = it.snippet && !it.snippet.startsWith((it.title || '').slice(0, 30)) ? it.snippet : '';
   const text = it.summary ? `<p class="summary">${esc(it.summary)}</p>` : snip ? `<p class="snippet">${esc(snip)}</p>` : '';
+  const prev = it.follows ? items().find(x => x.id === it.follows) : null;
+  const follow = it.follows ? `<p class="bg">↳ Follow-up${prev ? ` of <a href="${esc(safe(prev.url))}" target="_blank" rel="noopener">${esc(prev.title.slice(0, 90))}</a>` : ''}${it.background ? ': ' + esc(it.background) : ''}</p>` : '';
   const flags = flagChips(it);
   const links = (m.discussion ? `<a href="${esc(safe(m.discussion))}" target="_blank" rel="noopener">discussion</a>` : '')
     + (m.github ? `<a href="${esc(safe(m.github))}" target="_blank" rel="noopener">code</a>` : '');
@@ -370,6 +383,7 @@ function card(it, mode = 'normal') {
       <div class="badges">${b.join('')}</div>
       <a class="title" href="${esc(safe(it.url))}" target="_blank" rel="noopener">${esc(it.title || it.url)}</a>
       ${text}
+      ${follow}
       ${flags ? `<div class="flags">${flags}</div>` : ''}
       <div class="meta"><span class="src">${av(src)}${esc(src)}</span><span>${rel(when(it))}</span>${stats(it)}${links}</div>
     </div>
@@ -444,6 +458,11 @@ function viewOverview() {
     <div class="num">${n}</div><div class="lbl">${l}</div><div class="sub">${sub}</div></button>`).join('');
   let html = pageHead(e.name, esc(e.niche)) + waitingBanner(pending) + `<div class="tiles">${tiles}</div>`;
 
+  const openIdeas = ideas().filter(i => ['new', 'to_make'].includes(i.status));
+  if (openIdeas.length) {
+    html += `<div class="sec"><h2>Video ideas</h2><button data-set="${attr({ view:'ideas' })}">All ${openIdeas.length} →</button></div>
+      <div class="grid two">${openIdeas.slice(0, 4).map(ideaCard).join('')}</div>`;
+  }
   if (!analysedAny) {
     html += `<div class="sec"><h2>Make next</h2></div><div class="empty">${ic('spark')}
       <h3>Nothing analysed yet</h3>
@@ -468,6 +487,42 @@ function viewOverview() {
       <div class="scroll">${e.manual.filter(m => !m.sweep).slice(0, 8).map(m => `<a class="chip" href="${esc(safe(m.url))}" target="_blank" rel="noopener">${esc(m.name)}${ic('open', 'sm')}</a>`).join('')}</div>`;
   }
   return html;
+}
+const ITYPE = { hype: ['Hype now', 'var(--make)', 'Only works while the news is hot'], months: ['For months', 'var(--know)', 'Stays useful for weeks or months'], evergreen: ['Evergreen', 'var(--ok)', 'Works any time'] };
+const ISTATUS = { new: 'New', to_make: 'To make', made: 'Made', skipped: 'Skipped' };
+const ideas = () => IDEAS[S.entity] || [];
+function ideaCard(i) {
+  const [tname, tcolor] = ITYPE[i.type] || [i.type, 'var(--skip)'];
+  const all = items(), earlier = i.follows_idea ? ideas().find(x => x.id === i.follows_idea) : null;
+  const based = (i.items || []).map(id => all.find(x => x.id === id)).filter(Boolean);
+  const b = [`<span class="badge" style="--lc:${tcolor}">${tname}</span>`];
+  if (i.timing && TIMING[i.timing]) b.push(`<span class="tag ${TIMING[i.timing][1]}">${TIMING[i.timing][0]}</span>`);
+  if (i.follow_up) b.push(`<span class="tag">${i.follow_up === 'part 2' ? 'Part 2' : 'Update'}</span>`);
+  b.push(`<span class="tag">${ISTATUS[i.status] || i.status}</span>`);
+  return `<article class="card idea" style="--lc:${tcolor}"><div class="body">
+    <div class="badges">${b.join('')}</div>
+    <div class="title">${esc(i.title)}</div>
+    <p class="summary">${esc(i.angle || '')}</p>
+    ${i.follows_idea || i.background ? `<p class="bg">↳ ${earlier ? `Follows “${esc(earlier.title)}”` : 'Before'}${i.background ? ': ' + esc(i.background) : ''}</p>` : ''}
+    ${(i.outline || []).length ? `<ol class="outline">${i.outline.map(o => `<li>${esc(o)}</li>`).join('')}</ol>` : ''}
+    ${based.length ? `<div class="based"><b>Based on</b>${based.map(x => `<a href="${esc(safe(x.url))}" target="_blank" rel="noopener">• ${esc(x.title.slice(0, 110))} <span class="sub">(${esc(srcName(x))})</span></a>`).join('')}</div>` : ''}
+    <div class="hint">${rel(i.created_at)} · ${i.status_note ? esc(i.status_note) + ' · ' : ''}to update, tell Antigravity: <code>idea ${esc(i.id)} made</code> / <code>skipped</code> / <code>to make</code></div>
+  </div></article>`;
+}
+function viewIdeas() {
+  const e = ent(), list = ideas();
+  if (!list.length) return pageHead('Video ideas', esc(e.name)) + `<div class="empty"><h3>No video ideas yet</h3><p>After each <code>analyze today</code>, the AI suggests video ideas here: hype ones for right now, ones that last for months, and evergreen ones, plus follow-ups to earlier stories.</p></div>`;
+  const st = i => S.istatus === 'ALL' || (S.istatus === 'OPEN' ? ['new', 'to_make'].includes(i.status) : i.status === S.istatus);
+  const ty = i => S.itype === 'ALL' || i.type === S.itype;
+  const count = f => list.filter(f).length;
+  const schips = [['OPEN', 'Open'], ['new', 'New'], ['to_make', 'To make'], ['made', 'Made'], ['skipped', 'Skipped'], ['ALL', 'All']]
+    .map(([k, l]) => `<button class="chip ${S.istatus === k ? 'on' : ''}" data-set="${attr({ istatus:k })}">${l}<span class="n">${count(i => k === 'ALL' || (k === 'OPEN' ? ['new', 'to_make'].includes(i.status) : i.status === k))}</span></button>`).join('');
+  const tchips = [['ALL', 'All types', null], ...Object.entries(ITYPE).map(([k, v]) => [k, v[0], v[1]])]
+    .map(([k, l, c]) => `<button class="chip ${S.itype === k ? 'on' : ''}" data-set="${attr({ itype:k })}" title="${esc((ITYPE[k] || [])[2] || '')}">${c ? `<span class="dot" style="--c:${c}"></span>` : ''}${l}<span class="n">${count(i => st(i) && (k === 'ALL' || i.type === k))}</span></button>`).join('');
+  const shown = list.filter(i => st(i) && ty(i));
+  return pageHead('Video ideas', `${esc(e.name)} · suggested by the AI after each run`)
+    + `<div class="filters"><div class="scroll">${schips}</div><div class="scroll">${tchips}</div></div>`
+    + (shown.length ? `<div class="cards" style="margin-top:12px">${shown.map(ideaCard).join('')}</div>` : `<div class="empty" style="margin-top:12px">No ideas for this filter.</div>`);
 }
 function filterBar(base, labelList) {
   const counts = {};
@@ -579,11 +634,12 @@ function viewSources() {
 // ---------- render loop ----------
 async function ensure(id) {
   if (!DATA[id]) DATA[id] = await fetch(`data/${id}.json?t=${Date.now()}`).then(r => r.json()).catch(() => []);
+  if (!IDEAS[id]) IDEAS[id] = await fetch(`data/${id}-ideas.json?t=${Date.now()}`).then(r => r.json()).catch(() => []);
 }
 async function render() {
   await ensure(S.entity);
   renderChrome();
-  const v = { overview:viewOverview, feed:viewFeed, competitors:viewCompetitors, manual:viewManual, sources:viewSources }[S.view] || viewOverview;
+  const v = { overview:viewOverview, ideas:viewIdeas, feed:viewFeed, competitors:viewCompetitors, manual:viewManual, sources:viewSources }[S.view] || viewOverview;
   document.getElementById('main').innerHTML = v();
   renderList();
   const q = document.getElementById('q');

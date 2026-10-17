@@ -59,6 +59,12 @@ def validate(p, cfg, role):
         errs.append("summary is not used on SKIP items (give a reason instead)")
     if useful and not p.get("summary"):
         errs.append("every non-SKIP item needs a summary (what happened + why it matters)")
+    if p.get("background") and not p.get("follows"):
+        errs.append("background is only for follow-ups (set follows to the earlier item id)")
+    if p.get("follows") and not p.get("background"):
+        errs.append("a follow-up needs background: what happened before, with the date")
+    if p.get("background") and len(p["background"]) > 300:
+        errs.append("background must be under 300 characters")
     imp = p.get("importance")
     if imp is not None and (not isinstance(imp, int) or not 1 <= imp <= 5):
         errs.append("importance must be an integer 1-5")
@@ -94,6 +100,8 @@ def main(argv):
             rejected += 1
             continue
         errs = validate(p, cfg, roles[iid])
+        if p.get("follows") and p["follows"] not in where:
+            errs.append(f"follows '{p['follows']}' is not a known item id")
         if errs:
             print(f"✗ {iid}: " + "; ".join(errs))
             rejected += 1

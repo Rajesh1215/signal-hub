@@ -361,6 +361,339 @@
    "max_new": 5
   },
   {
+   "id": "bbc-world",
+   "name": "BBC World",
+   "type": "feed",
+   "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+   "role": "news",
+   "tags": [
+    "world",
+    "geopolitics"
+   ],
+   "status": "active",
+   "max_new": 6
+  },
+  {
+   "id": "bbc-business",
+   "name": "BBC Business",
+   "type": "feed",
+   "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+   "role": "news",
+   "tags": [
+    "world",
+    "business"
+   ],
+   "status": "active",
+   "max_new": 6
+  },
+  {
+   "id": "hindu-international",
+   "name": "The Hindu International",
+   "type": "feed",
+   "url": "https://www.thehindu.com/news/international/feeder/default.rss",
+   "role": "news",
+   "tags": [
+    "world",
+    "india"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "cnbc-top",
+   "name": "CNBC Top News",
+   "type": "feed",
+   "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+   "role": "news",
+   "tags": [
+    "wall-street",
+    "us"
+   ],
+   "status": "active",
+   "max_new": 6
+  },
+  {
+   "id": "cnbc-economy",
+   "name": "CNBC Economy",
+   "type": "feed",
+   "url": "https://www.cnbc.com/id/20910258/device/rss/rss.html",
+   "role": "news",
+   "tags": [
+    "wall-street",
+    "economy"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "marketwatch",
+   "name": "MarketWatch",
+   "type": "feed",
+   "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+   "role": "news",
+   "tags": [
+    "wall-street"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "gn-trump-markets",
+   "name": "Trump / White House and markets",
+   "type": "gnews",
+   "query": "Trump tariffs OR sanctions OR executive order markets",
+   "role": "news",
+   "tags": [
+    "big-players",
+    "us"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en"
+  },
+  {
+   "id": "gn-fed",
+   "name": "Federal Reserve and central banks",
+   "type": "gnews",
+   "query": "\"Federal Reserve\" OR Powell OR \"rate decision\" OR ECB",
+   "role": "news",
+   "tags": [
+    "big-players",
+    "rates"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en"
+  },
+  {
+   "id": "gn-trade-war",
+   "name": "Trade, wars and oil",
+   "type": "gnews",
+   "query": "trade war OR sanctions OR war oil prices markets",
+   "role": "news",
+   "tags": [
+    "world",
+    "geopolitics"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en"
+  },
+  {
+   "id": "gn-wall-street-views",
+   "name": "Wall Street outlooks (Goldman, Morgan Stanley, JPMorgan…)",
+   "type": "gnews",
+   "query": "Goldman Sachs OR Morgan Stanley OR JPMorgan outlook strategist",
+   "role": "news",
+   "tags": [
+    "wall-street",
+    "experts"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en"
+  },
+  {
+   "id": "gn-production",
+   "name": "Big company production & capacity",
+   "type": "gnews",
+   "query": "Reuters factory OR production OR capacity OR plant expansion company",
+   "role": "news",
+   "tags": [
+    "companies",
+    "production"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en"
+  },
+  {
+   "id": "gn-big-investors",
+   "name": "Big investors' views (Buffett, Dalio, Marks…)",
+   "type": "gnews",
+   "query": "Buffett OR \"Ray Dalio\" OR \"Howard Marks\" OR \"Jamie Dimon\" says",
+   "role": "news",
+   "tags": [
+    "experts",
+    "lessons"
+   ],
+   "status": "active",
+   "max_new": 3,
+   "hl": "en-US",
+   "gl": "US",
+   "ceid": "US:en"
+  },
+  {
+   "id": "google-trends-in",
+   "name": "Google Trends India (trending searches)",
+   "type": "feed",
+   "url": "https://trends.google.com/trending/rss?geo=IN",
+   "role": "news",
+   "tags": [
+    "trending"
+   ],
+   "status": "active",
+   "max_new": 10,
+   "max_age_days": 1
+  },
+  {
+   "id": "freefincal",
+   "name": "Freefincal",
+   "type": "feed",
+   "url": "https://freefincal.com/feed/",
+   "role": "news",
+   "tags": [
+    "lessons",
+    "personal-finance"
+   ],
+   "status": "active",
+   "max_age_days": 7
+  },
+  {
+   "id": "safal-niveshak",
+   "name": "Safal Niveshak",
+   "type": "feed",
+   "url": "https://www.safalniveshak.com/feed/",
+   "role": "news",
+   "tags": [
+    "lessons",
+    "investing"
+   ],
+   "status": "active",
+   "max_age_days": 7
+  },
+  {
+   "id": "zerodha-zconnect",
+   "name": "Zerodha Z-Connect",
+   "type": "feed",
+   "url": "https://zerodha.com/z-connect/feed",
+   "role": "news",
+   "tags": [
+    "lessons",
+    "broker"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "wealth-common-sense",
+   "name": "A Wealth of Common Sense",
+   "type": "feed",
+   "url": "https://awealthofcommonsense.com/feed/",
+   "role": "news",
+   "tags": [
+    "lessons",
+    "investing"
+   ],
+   "status": "active",
+   "max_age_days": 7
+  },
+  {
+   "id": "yt-cnbc-tv18",
+   "name": "CNBC-TV18",
+   "type": "youtube",
+   "channel_id": "UCmRbHAgG2k2vDUvb3xsEunQ",
+   "role": "news",
+   "tags": [
+    "news-channel"
+   ],
+   "status": "active",
+   "max_age_days": 3,
+   "max_new": 3
+  },
+  {
+   "id": "yt-et-now",
+   "name": "ET Now",
+   "type": "youtube",
+   "channel_id": "UCI_mwTKUhicNzFrhm33MzBQ",
+   "role": "news",
+   "tags": [
+    "news-channel"
+   ],
+   "status": "active",
+   "max_age_days": 3,
+   "max_new": 3
+  },
+  {
+   "id": "yt-zee-business",
+   "name": "Zee Business",
+   "type": "youtube",
+   "channel_id": "UCkXopQ3ubd-rnXnStZqCl2w",
+   "role": "news",
+   "tags": [
+    "news-channel"
+   ],
+   "status": "active",
+   "max_age_days": 3,
+   "max_new": 3
+  },
+  {
+   "id": "yt-moneycontrol",
+   "name": "Moneycontrol",
+   "type": "youtube",
+   "channel_id": "UChftTVI0QJmyXkajQYt2tiQ",
+   "role": "news",
+   "tags": [
+    "news-channel"
+   ],
+   "status": "active",
+   "max_age_days": 3,
+   "max_new": 3
+  },
+  {
+   "id": "yt-cnbc-tv",
+   "name": "CNBC Television (US)",
+   "type": "youtube",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "role": "news",
+   "tags": [
+    "news-channel",
+    "wall-street"
+   ],
+   "status": "active",
+   "max_age_days": 3,
+   "max_new": 3
+  },
+  {
+   "id": "yt-bloomberg-tv",
+   "name": "Bloomberg Television",
+   "type": "youtube",
+   "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
+   "role": "news",
+   "tags": [
+    "news-channel",
+    "wall-street"
+   ],
+   "status": "active",
+   "max_age_days": 3,
+   "max_new": 3
+  },
+  {
+   "id": "yt-warikoo",
+   "name": "Ankur Warikoo",
+   "type": "youtube",
+   "channel_id": "UCRzYN32xtBf3Yxsx5BvJWJw",
+   "role": "news",
+   "tags": [
+    "evergreen-creator",
+    "lessons"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 2
+  },
+  {
    "id": "reddit-money-india",
    "name": "Reddit: Indian personal finance (4 subs)",
    "type": "reddit_manual",

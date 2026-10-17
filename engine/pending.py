@@ -81,6 +81,11 @@ def main(argv):
                                         for k, v in cfg["flags"].items()))
         for it in pending:
             print(compact(it))
+        ideas = [i for i in read_json(edir / "ideas.json", []) if i.get("status") in ("new", "to_make", "made")][:25]
+        if ideas and pending:
+            print(f"--- {edir.name}: existing video ideas (update or follow up instead of repeating)")
+            for i in ideas:
+                print(f"  {i['id']:<42} {i['status']:<8} {i['type']:<9} {i['title'][:90]}")
         recent = recent_labelled(edir, 3)
         if recent and pending:
             print(f"--- {edir.name}: already labelled in the last 3 days (check duplicates against these)")
