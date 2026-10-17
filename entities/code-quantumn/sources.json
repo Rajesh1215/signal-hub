@@ -331,6 +331,32 @@
    "max_new": 5
   },
   {
+   "id": "arena-ranks",
+   "name": "Arena (LMArena) rankings",
+   "adapter": "site:arena_ranks",
+   "type": "arena_ranks",
+   "boards": [
+    "text",
+    "webdev",
+    "vision",
+    "agent",
+    "search",
+    "text_to_image",
+    "text_to_video",
+    "image_edit"
+   ],
+   "top": 10,
+   "role": "official",
+   "tags": [
+    "benchmarks",
+    "leaderboard"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 12,
+   "why": "Arena's official leaderboard data: new #1, new top-10 entries and big jumps on 8 boards"
+  },
+  {
    "id": "arena-leaderboard",
    "name": "Arena (LMArena) leaderboard changelog",
    "adapter": "site:arena_changelog",
