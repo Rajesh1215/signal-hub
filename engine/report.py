@@ -13,7 +13,7 @@ from datetime import timedelta
 from common import entity_dirs, now_utc, parse_time, read_json
 from pending import load_runs
 
-GOOD = ("MAKE", "IMPORTANT", "TEST", "STUDY", "WATCH", "CONTENT", "RELEASE", "FEATURE", "DECISION", "PRACTICE")
+GOOD = ("MAKE", "IMPORTANT", "KNOW-4+", "TEST", "STUDY", "WATCH", "CONTENT", "RELEASE", "FEATURE", "DECISION", "PRACTICE")
 
 
 def main(argv):
@@ -27,7 +27,10 @@ def main(argv):
                 found = parse_time(it.get("found_at"))
                 if found and now - found > timedelta(days=days):
                     continue
-                label = (analysis.get(it["id"]) or {}).get("label", "PENDING")
+                a = analysis.get(it["id"]) or {}
+                label = a.get("label", "PENDING")
+                if label == "KNOW" and (a.get("importance") or 0) >= 4:
+                    label = "KNOW-4+"  # important news counts as useful
                 key = it["source_id"] if it["source_id"] != "agent" else it.get("source_name", "agent")  # Reddit/X by page
                 r = rows.setdefault(key, {})
                 r[label] = r.get(label, 0) + 1
