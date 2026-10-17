@@ -21,11 +21,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 1299,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 1299,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "google-ai-blog": {
   "consecutive_errors": 0,
@@ -49,11 +54,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "deepmind-blog": {
   "consecutive_errors": 0,
@@ -77,13 +87,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 100,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 100,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "\"8Myrjg\""
+   "etag": "\"CHgTQA\""
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "anthropic-news": {
   "consecutive_errors": 0,
@@ -107,12 +122,17 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 266,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 269,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
+  "last_ok": "2026-10-17T16:38:05Z",
   "baselined": true,
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "mistral-news": {
   "consecutive_errors": 0,
@@ -136,13 +156,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "\"e2160fe1e2d32ca6312bd31a3d30a64d-ssl-df\""
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "hf-blog": {
   "consecutive_errors": 0,
@@ -166,13 +191,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"3f6f6-Ef/AItza4NWqyHSy8jzb0/DQhEU\""
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "nvidia-dev-blog": {
   "consecutive_errors": 0,
@@ -196,14 +226,19 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "\"88b28f265f6fbf40486bd83fdbf3507a\"",
    "last_modified": "Fri, 16 Oct 2026 21:30:50 GMT"
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "ms-research": {
   "consecutive_errors": 0,
@@ -227,14 +262,19 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "\"37fdfc140cbd798b7d466566c05b770d\"",
    "last_modified": "Sat, 17 Oct 2026 01:07:36 GMT"
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "github-changelog": {
   "consecutive_errors": 0,
@@ -258,14 +298,19 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"097bdce5ea904764cd2b17e5788776d4\"",
    "last_modified": "Fri, 16 Oct 2026 22:08:46 GMT"
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "gemini-api-changelog": {
   "consecutive_errors": 0,
@@ -289,14 +334,19 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 143,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 143,
+    "new": 0
    }
   ],
   "state": {
    "last_modified": "Wed, 14 Oct 2026 18:19:46 GMT"
   },
-  "last_ok": "2026-10-17T14:29:20Z",
+  "last_ok": "2026-10-17T16:38:05Z",
   "baselined": true,
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "anthropic-release-notes": {
   "consecutive_errors": 0,
@@ -320,12 +370,17 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 154,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 154,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
+  "last_ok": "2026-10-17T16:38:05Z",
   "baselined": true,
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "openai-api-changelog": {
   "consecutive_errors": 0,
@@ -349,14 +404,17 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 136,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 0,
+    "new": 0
    }
   ],
-  "state": {
-   "last_modified": "Sat, 17 Oct 2026 07:55:12 GMT"
-  },
-  "last_ok": "2026-10-17T14:29:20Z",
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
   "baselined": true,
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "gh-claude-code": {
   "consecutive_errors": 0,
@@ -380,13 +438,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"b781116ec7249013fd233abbb434dd4d\""
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "gh-ollama": {
   "consecutive_errors": 0,
@@ -410,13 +473,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 10,
+    "new": 3
    }
   ],
   "state": {
-   "etag": "W/\"2e55f506bdbe8e0c5723256fc879fd73\""
+   "etag": "W/\"25c933f55c4afd27db74bd5aa86707b4\""
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "techcrunch-ai": {
   "consecutive_errors": 0,
@@ -440,14 +508,19 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 20,
     "new": 5
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"5274c924b810417eac0f005cd364b2dc\"",
-   "last_modified": "Sat, 17 Oct 2026 13:02:18 GMT"
+   "etag": "W/\"3204d782c9ccb1b876350dc3083fbdcf\"",
+   "last_modified": "Sat, 17 Oct 2026 16:32:04 GMT"
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "verge-ai": {
   "consecutive_errors": 0,
@@ -471,13 +544,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 10,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 10,
+    "new": 2
    }
   ],
   "state": {
-   "etag": "W/\"9c64575d3503963f31a24bbceeab8e7c\""
+   "etag": "W/\"e17cdac95d288ca33058b50b95bc82e5\""
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "marktechpost": {
   "consecutive_errors": 0,
@@ -501,14 +579,19 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 10,
     "new": 1
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"33ade50be57c9288f5cbfff22e44627f\"",
+   "etag": "\"33ade50be57c9288f5cbfff22e44627f\"",
    "last_modified": "Sat, 17 Oct 2026 08:54:00 GMT"
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "the-rundown": {
   "consecutive_errors": 0,
@@ -532,11 +615,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 50,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 50,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "bens-bites": {
   "consecutive_errors": 0,
@@ -560,13 +648,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"b04e8-JawYAH6g3IiYmYdW9QoDN+LQuPU\""
+   "etag": "W/\"b04e8-jPs/7DbrKs5I6AUcfqs7xJ6ObEo\""
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "latent-space": {
   "consecutive_errors": 0,
@@ -590,13 +683,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"df055-+FbL5IkzK+XODRC4lpFd46CI+c8\""
+   "etag": "W/\"df055-RJzgxQDQkhpV8BKiyZTBzCKJJik\""
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "product-hunt": {
   "consecutive_errors": 0,
@@ -620,14 +718,19 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 50,
     "new": 1
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 50,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"2434017fc49e55e103b3fd6c7b5c2812\"",
-   "last_modified": "Sat, 17 Oct 2026 14:28:33 GMT"
+   "etag": "W/\"f74ca62953dfab5eef2824051483eefe\"",
+   "last_modified": "Sat, 17 Oct 2026 16:37:55 GMT"
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "hn-ai": {
   "consecutive_errors": 0,
@@ -651,11 +754,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 8,
     "new": 1
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 6,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "hf-papers": {
   "consecutive_errors": 0,
@@ -679,11 +787,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 30,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 30,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "gh-trending": {
   "consecutive_errors": 0,
@@ -707,11 +820,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 13,
     "new": 5
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 13,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "devto-ai": {
   "consecutive_errors": 0,
@@ -735,11 +853,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 3,
     "new": 2
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 3,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "devto-llm": {
   "consecutive_errors": 0,
@@ -763,11 +886,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 1,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "r-localllama": {
   "consecutive_errors": 1,
@@ -811,11 +939,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "yt-ibm-tech": {
   "consecutive_errors": 0,
@@ -839,11 +972,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "yt-umar-jamil": {
   "consecutive_errors": 0,
@@ -867,11 +1005,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "yt-campusx": {
   "consecutive_errors": 0,
@@ -895,11 +1038,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "yt-dwarkesh": {
   "consecutive_errors": 0,
@@ -923,11 +1071,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "yt-latent-space": {
   "consecutive_errors": 0,
@@ -951,11 +1104,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "comp-fireship-yt": {
   "consecutive_errors": 0,
@@ -979,11 +1137,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "comp-tmp-yt": {
   "consecutive_errors": 0,
@@ -1007,11 +1170,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "comp-aiexplained-yt": {
   "consecutive_errors": 0,
@@ -1035,11 +1203,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "comp-berman-yt": {
   "consecutive_errors": 0,
@@ -1063,11 +1236,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "comp-krishnaik-yt": {
   "consecutive_errors": 0,
@@ -1091,11 +1269,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "p-karpathy-yt": {
   "consecutive_errors": 0,
@@ -1119,11 +1302,16 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "p-karpathy-blog": {
   "consecutive_errors": 0,
@@ -1147,13 +1335,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 10,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "last_modified": "Sat, 17 Oct 2026 11:16:57 GMT"
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "p-simonw-blog": {
   "consecutive_errors": 0,
@@ -1177,13 +1370,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "last_modified": "Fri, 16 Oct 2026 22:06:37 GMT"
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "p-raschka-blog": {
   "consecutive_errors": 0,
@@ -1207,13 +1405,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"294643-89ppGZshIJTNs/UHQRcXCUTcuhc\""
+   "etag": "W/\"294643-L/ZA5y4mKhrDNjgZdhZuNMUeJVc\""
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "p-lambert-blog": {
   "consecutive_errors": 0,
@@ -1237,13 +1440,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 20,
     "new": 1
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"83717-dXEAgVhIqTbkkFJPeIK/rTZ6RnI\""
+   "etag": "W/\"83717-+8kDPUMaI6raeHEf3Z/64p2qqfE\""
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "p-mollick-blog": {
   "consecutive_errors": 0,
@@ -1267,13 +1475,18 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"dd78f-Ljm8/lnd2lCoURqwECELaxFv9v4\""
+   "etag": "W/\"dd78f-KN+UnCuX7S1I8I8VgwpQrWTxEdY\""
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  },
  "p-altman-blog": {
   "consecutive_errors": 0,
@@ -1297,12 +1510,1068 @@
     "at": "2026-10-17T14:29:20Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 30,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "\"2a1e9e9c16f21e7e32a3f1fb5a7b5443\""
+   "etag": "\"19352c05db5f0220fde52f3d5a006b32\""
   },
-  "last_ok": "2026-10-17T14:29:20Z",
-  "last_run": "2026-10-17T14:29:20Z"
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "meta-engineering": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 9,
+    "new": 3
+   }
+  ],
+  "state": {
+   "etag": "W/\"c136aa2242e30d2415817954c25068a6\"",
+   "last_modified": "Fri, 16 Oct 2026 23:22:31 GMT"
+  },
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "gn-meta-ai": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 61,
+    "new": 5
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "xai-news": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 87,
+    "new": 0
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "baselined": true,
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "deepseek-news": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 19,
+    "new": 0
+   }
+  ],
+  "state": {
+   "last_modified": "Sat, 17 Oct 2026 09:05:56 GMT"
+  },
+  "last_ok": "2026-10-17T16:38:05Z",
+  "baselined": true,
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "gn-deepseek": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 49,
+    "new": 5
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "qwen-blog": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 44,
+    "new": 0
+   }
+  ],
+  "state": {
+   "etag": "W/\"6970c244-98ff\"",
+   "last_modified": "Wed, 21 Jan 2026 12:10:44 GMT"
+  },
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "gn-qwen": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 41,
+    "new": 5
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "apple-ml": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 10,
+    "new": 9
+   }
+  ],
+  "state": {
+   "etag": "W/\"6ad12d2a-2701\"",
+   "last_modified": "Thu, 15 Oct 2026 19:44:42 GMT"
+  },
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "aws-ml": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 20,
+    "new": 4
+   }
+  ],
+  "state": {
+   "last_modified": "Fri, 16 Oct 2026 22:46:08 GMT"
+  },
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "gn-perplexity": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 27,
+    "new": 5
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "cursor-changelog": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 50,
+    "new": 1
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "cursor-blog": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 120,
+    "new": 0
+   }
+  ],
+  "state": {
+   "last_modified": "Sat, 17 Oct 2026 02:43:37 GMT"
+  },
+  "last_ok": "2026-10-17T16:38:05Z",
+  "baselined": true,
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "arena-ranks": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 8,
+    "new": 4
+   }
+  ],
+  "state": {
+   "text": {
+    "date": "2026-10-15",
+    "top": [
+     {
+      "model": "Gemini 4 Argon (High)",
+      "org": "google",
+      "rank": 1,
+      "license": "Proprietary",
+      "votes": 4904,
+      "rating": 1532
+     },
+     {
+      "model": "Claude Opus 5.5 (High)",
+      "org": "anthropic",
+      "rank": 2,
+      "license": "Proprietary",
+      "votes": 8300,
+      "rating": 1516
+     },
+     {
+      "model": "Claude Fable 5.1 (Max)",
+      "org": "anthropic",
+      "rank": 3,
+      "license": "Proprietary",
+      "votes": 14590,
+      "rating": 1512
+     },
+     {
+      "model": "Claude Opus 5 (Max)",
+      "org": "anthropic",
+      "rank": 4,
+      "license": "Proprietary",
+      "votes": 32495,
+      "rating": 1508
+     },
+     {
+      "model": "Claude Opus 5 (High)",
+      "org": "anthropic",
+      "rank": 5,
+      "license": "Proprietary",
+      "votes": 66824,
+      "rating": 1503
+     },
+     {
+      "model": "Claude Opus 4.6 (High)",
+      "org": "anthropic",
+      "rank": 6,
+      "license": "Proprietary",
+      "votes": 81394,
+      "rating": 1502
+     },
+     {
+      "model": "Muse Wonder (Max)",
+      "org": "meta",
+      "rank": 7,
+      "license": "Proprietary",
+      "votes": 3247,
+      "rating": 1501
+     },
+     {
+      "model": "Gemini 3.8 Flash (High)",
+      "org": "google",
+      "rank": 8,
+      "license": "Proprietary",
+      "votes": 37454,
+      "rating": 1499
+     },
+     {
+      "model": "Claude Opus 4.6",
+      "org": "anthropic",
+      "rank": 9,
+      "license": "Proprietary",
+      "votes": 86071,
+      "rating": 1498
+     },
+     {
+      "model": "Claude Fable 5 (High)",
+      "org": "anthropic",
+      "rank": 10,
+      "license": "Proprietary",
+      "votes": 42004,
+      "rating": 1491
+     }
+    ]
+   },
+   "webdev": {
+    "date": "2026-10-16",
+    "top": [
+     {
+      "model": "Claude Opus 5.5 (Max)",
+      "org": "anthropic",
+      "rank": 1,
+      "license": "Proprietary",
+      "votes": 2775,
+      "rating": 1807
+     },
+     {
+      "model": "GPT-6 Astra (Max)",
+      "org": "openai",
+      "rank": 2,
+      "license": "Proprietary",
+      "votes": 6014,
+      "rating": 1777
+     },
+     {
+      "model": "Claude Sonnet 5.5 (xHigh)",
+      "org": "anthropic",
+      "rank": 3,
+      "license": "Proprietary",
+      "votes": 3182,
+      "rating": 1768
+     },
+     {
+      "model": "GPT-6.1 Sol (Max)",
+      "org": "openai",
+      "rank": 4,
+      "license": "Proprietary",
+      "votes": 2863,
+      "rating": 1755
+     },
+     {
+      "model": "Claude Fable 5.1 (Max)",
+      "org": "anthropic",
+      "rank": 5,
+      "license": "Proprietary",
+      "votes": 7503,
+      "rating": 1741
+     },
+     {
+      "model": "Claude Sonnet 5.5 (High)",
+      "org": "anthropic",
+      "rank": 6,
+      "license": "Proprietary",
+      "votes": 4914,
+      "rating": 1711
+     },
+     {
+      "model": "Claude Opus 5 (Max)",
+      "org": "anthropic",
+      "rank": 7,
+      "license": "Proprietary",
+      "votes": 18310,
+      "rating": 1689
+     },
+     {
+      "model": "GPT-6 Sol (Max)",
+      "org": "openai",
+      "rank": 8,
+      "license": "Proprietary",
+      "votes": 4364,
+      "rating": 1683
+     },
+     {
+      "model": "Gemini 4 Argon (High)",
+      "org": "google",
+      "rank": 9,
+      "license": "Proprietary",
+      "votes": 1775,
+      "rating": 1678
+     },
+     {
+      "model": "Qwen3.8-Max (0902)",
+      "org": "alibaba",
+      "rank": 10,
+      "license": "Proprietary",
+      "votes": 13812,
+      "rating": 1674
+     }
+    ]
+   },
+   "vision": {
+    "date": "2026-10-09",
+    "top": [
+     {
+      "model": "claude-fable-5-high",
+      "org": "anthropic",
+      "rank": 1,
+      "license": "Proprietary",
+      "votes": 14175,
+      "rating": 1324
+     },
+     {
+      "model": "claude-opus-5.5-high",
+      "org": "anthropic",
+      "rank": 2,
+      "license": "Proprietary",
+      "votes": 2508,
+      "rating": 1321
+     },
+     {
+      "model": "claude-opus-5-high",
+      "org": "anthropic",
+      "rank": 3,
+      "license": "Proprietary",
+      "votes": 16665,
+      "rating": 1319
+     },
+     {
+      "model": "claude-fable-5.1-max",
+      "org": "anthropic",
+      "rank": 4,
+      "license": "Proprietary",
+      "votes": 4648,
+      "rating": 1318
+     },
+     {
+      "model": "claude-opus-4-7",
+      "org": "anthropic",
+      "rank": 5,
+      "license": "Proprietary",
+      "votes": 23165,
+      "rating": 1316
+     },
+     {
+      "model": "gemini-3.7-flash-high",
+      "org": "google",
+      "rank": 6,
+      "license": "Proprietary",
+      "votes": 4524,
+      "rating": 1316
+     },
+     {
+      "model": "claude-opus-4-6-high",
+      "org": "anthropic",
+      "rank": 7,
+      "license": "Proprietary",
+      "votes": 22304,
+      "rating": 1316
+     },
+     {
+      "model": "gemini-3.8-flash-high",
+      "org": "google",
+      "rank": 8,
+      "license": "Proprietary",
+      "votes": 3792,
+      "rating": 1314
+     },
+     {
+      "model": "qwen3.8-max",
+      "org": "alibaba",
+      "rank": 9,
+      "license": "Proprietary",
+      "votes": 10017,
+      "rating": 1314
+     },
+     {
+      "model": "claude-opus-4-6",
+      "org": "anthropic",
+      "rank": 10,
+      "license": "Proprietary",
+      "votes": 26853,
+      "rating": 1313
+     }
+    ]
+   },
+   "agent": {
+    "date": "2026-10-16",
+    "top": [
+     {
+      "model": "Claude Opus 5.5 (Max)",
+      "org": "anthropic",
+      "rank": 1,
+      "license": "Proprietary",
+      "votes": 1225665,
+      "rating": null
+     },
+     {
+      "model": "GPT-6 Astra (Max)",
+      "org": "openai",
+      "rank": 2,
+      "license": "Proprietary",
+      "votes": 987308,
+      "rating": null
+     },
+     {
+      "model": "Claude Fable 5.1 (Max)",
+      "org": "anthropic",
+      "rank": 3,
+      "license": "Proprietary",
+      "votes": 1913479,
+      "rating": null
+     },
+     {
+      "model": "GPT-6.1 Sol (Max)",
+      "org": "openai",
+      "rank": 4,
+      "license": "Proprietary",
+      "votes": 1036811,
+      "rating": null
+     },
+     {
+      "model": "Gemini 4 Argon (High)",
+      "org": "google",
+      "rank": 5,
+      "license": "Proprietary",
+      "votes": 2715716,
+      "rating": null
+     },
+     {
+      "model": "Claude Sonnet 5.5 (Max)",
+      "org": "anthropic",
+      "rank": 6,
+      "license": "Proprietary",
+      "votes": 943865,
+      "rating": null
+     },
+     {
+      "model": "GPT-6 Sol (Max)",
+      "org": "openai",
+      "rank": 7,
+      "license": "Proprietary",
+      "votes": 1357947,
+      "rating": null
+     },
+     {
+      "model": "Claude Opus 5 (Max)",
+      "org": "anthropic",
+      "rank": 8,
+      "license": "Proprietary",
+      "votes": 3146528,
+      "rating": null
+     },
+     {
+      "model": "Claude Fable 5 (High)",
+      "org": "anthropic",
+      "rank": 9,
+      "license": "Proprietary",
+      "votes": 2530600,
+      "rating": null
+     },
+     {
+      "model": "GPT-5.6 Sol (xHigh)",
+      "org": "openai",
+      "rank": 10,
+      "license": "Proprietary",
+      "votes": 4418140,
+      "rating": null
+     }
+    ]
+   },
+   "search": {
+    "date": "2026-10-13",
+    "top": [
+     {
+      "model": "gpt-5.6-sol-xhigh",
+      "org": "openai",
+      "rank": 1,
+      "license": "Proprietary",
+      "votes": 60437,
+      "rating": 1261
+     },
+     {
+      "model": "qwen3.8-max",
+      "org": "alibaba",
+      "rank": 2,
+      "license": "Proprietary",
+      "votes": 1870,
+      "rating": 1261
+     },
+     {
+      "model": "claude-opus-4-6-search",
+      "org": "anthropic",
+      "rank": 3,
+      "license": "Proprietary",
+      "votes": 173191,
+      "rating": 1251
+     },
+     {
+      "model": "gpt-5.5-search",
+      "org": "openai",
+      "rank": 4,
+      "license": "Proprietary",
+      "votes": 125957,
+      "rating": 1247
+     },
+     {
+      "model": "claude-fable-5.1-high",
+      "org": "anthropic",
+      "rank": 5,
+      "license": "Proprietary",
+      "votes": 12782,
+      "rating": 1246
+     },
+     {
+      "model": "claude-opus-5-high",
+      "org": "anthropic",
+      "rank": 6,
+      "license": "Proprietary",
+      "votes": 13285,
+      "rating": 1242
+     },
+     {
+      "model": "gpt-6-astra-max",
+      "org": "openai",
+      "rank": 7,
+      "license": "Proprietary",
+      "votes": 18483,
+      "rating": 1234
+     },
+     {
+      "model": "gpt-6.1-sol-max",
+      "org": "openai",
+      "rank": 8,
+      "license": "Proprietary",
+      "votes": 5555,
+      "rating": 1233
+     },
+     {
+      "model": "claude-opus-4-7",
+      "org": "anthropic",
+      "rank": 9,
+      "license": "Proprietary",
+      "votes": 127506,
+      "rating": 1230
+     },
+     {
+      "model": "claude-fable-5-high",
+      "org": "anthropic",
+      "rank": 10,
+      "license": "Proprietary",
+      "votes": 73596,
+      "rating": 1229
+     }
+    ]
+   },
+   "text_to_image": {
+    "date": "2026-10-07",
+    "top": [
+     {
+      "model": "gpt-image-2.5-sunburst",
+      "org": "openai",
+      "rank": 1,
+      "license": "Proprietary",
+      "votes": 17752,
+      "rating": 1425
+     },
+     {
+      "model": "gpt-image-2.5-flare",
+      "org": "openai",
+      "rank": 2,
+      "license": "Proprietary",
+      "votes": 16889,
+      "rating": 1398
+     },
+     {
+      "model": "gpt-image-2 (medium)",
+      "org": "openai",
+      "rank": 3,
+      "license": "Proprietary",
+      "votes": 93334,
+      "rating": 1383
+     },
+     {
+      "model": "grok-imagine-image-2.0 (canvas)",
+      "org": "xai",
+      "rank": 4,
+      "license": "Proprietary",
+      "votes": 3113,
+      "rating": 1334
+     },
+     {
+      "model": "mai-image-2.6",
+      "org": "microsoft-ai",
+      "rank": 5,
+      "license": "Proprietary",
+      "votes": 25091,
+      "rating": 1332
+     },
+     {
+      "model": "gemini-nano-banana-2.1",
+      "org": "google",
+      "rank": 6,
+      "license": "Proprietary",
+      "votes": 5310,
+      "rating": 1328
+     },
+     {
+      "model": "reve-2.1",
+      "org": "reve",
+      "rank": 7,
+      "license": "Proprietary",
+      "votes": 8249,
+      "rating": 1302
+     },
+     {
+      "model": "grok-imagine-image-2.0 (20260801)",
+      "org": "xai",
+      "rank": 8,
+      "license": "Proprietary",
+      "votes": 14483,
+      "rating": 1294
+     },
+     {
+      "model": "muse-image",
+      "org": "meta",
+      "rank": 9,
+      "license": "Proprietary",
+      "votes": 42262,
+      "rating": 1274
+     },
+     {
+      "model": "reve-2.0",
+      "org": "reve",
+      "rank": 10,
+      "license": "Proprietary",
+      "votes": 15773,
+      "rating": 1269
+     }
+    ]
+   },
+   "text_to_video": {
+    "date": "2026-09-22",
+    "top": [
+     {
+      "model": "gemini-omni-1.1-flash",
+      "org": "google",
+      "rank": 1,
+      "license": "Proprietary",
+      "votes": 1784,
+      "rating": 1516
+     },
+     {
+      "model": "gemini-omni-flash",
+      "org": "google",
+      "rank": 2,
+      "license": "Proprietary",
+      "votes": 26576,
+      "rating": 1513
+     },
+     {
+      "model": "flux-3-video",
+      "org": "bfl",
+      "rank": 3,
+      "license": "Proprietary",
+      "votes": 1302,
+      "rating": 1493
+     },
+     {
+      "model": "grok-imagine-video-1.5-agent",
+      "org": "xai",
+      "rank": 4,
+      "license": "Proprietary",
+      "votes": 1218,
+      "rating": 1492
+     },
+     {
+      "model": "dreamina-seedance-2.0-720p",
+      "org": "bytedance",
+      "rank": 5,
+      "license": "Proprietary",
+      "votes": 56318,
+      "rating": 1479
+     },
+     {
+      "model": "wan3.0",
+      "org": "alibaba",
+      "rank": 6,
+      "license": "Proprietary",
+      "votes": 2598,
+      "rating": 1476
+     },
+     {
+      "model": "dreamina-seedance-2.5-720p",
+      "org": "bytedance",
+      "rank": 7,
+      "license": "Proprietary",
+      "votes": 8001,
+      "rating": 1474
+     },
+     {
+      "model": "minimax-h3",
+      "org": "minimax",
+      "rank": 8,
+      "license": "minimax-h3-community-license-agreement",
+      "votes": 11417,
+      "rating": 1460
+     },
+     {
+      "model": "muse-video",
+      "org": "meta",
+      "rank": 9,
+      "license": "Proprietary",
+      "votes": 2188,
+      "rating": 1456
+     },
+     {
+      "model": "happyhorse-1.0",
+      "org": "aorizon",
+      "rank": 10,
+      "license": "Proprietary",
+      "votes": 22264,
+      "rating": 1427
+     }
+    ]
+   },
+   "image_edit": {
+    "date": "2026-10-06",
+    "top": [
+     {
+      "model": "gpt-image-2.5-sunburst",
+      "org": "openai",
+      "rank": 1,
+      "license": "Proprietary",
+      "votes": 59825,
+      "rating": 1524
+     },
+     {
+      "model": "gpt-image-2.5-flare",
+      "org": "openai",
+      "rank": 2,
+      "license": "Proprietary",
+      "votes": 57408,
+      "rating": 1481
+     },
+     {
+      "model": "gpt-image-2 (medium)",
+      "org": "openai",
+      "rank": 3,
+      "license": "Proprietary",
+      "votes": 305825,
+      "rating": 1462
+     },
+     {
+      "model": "grok-imagine-image-2.0 (canvas)",
+      "org": "xai",
+      "rank": 4,
+      "license": "Proprietary",
+      "votes": 11589,
+      "rating": 1439
+     },
+     {
+      "model": "mai-image-2.6",
+      "org": "microsoft-ai",
+      "rank": 5,
+      "license": "Proprietary",
+      "votes": 51384,
+      "rating": 1428
+     },
+     {
+      "model": "gemini-nano-banana-2.1",
+      "org": "google",
+      "rank": 6,
+      "license": "Proprietary",
+      "votes": 12985,
+      "rating": 1428
+     },
+     {
+      "model": "grok-imagine-image-2.0 (20260801)",
+      "org": "xai",
+      "rank": 7,
+      "license": "Proprietary",
+      "votes": 50427,
+      "rating": 1425
+     },
+     {
+      "model": "muse-image",
+      "org": "meta",
+      "rank": 8,
+      "license": "Proprietary",
+      "votes": 142644,
+      "rating": 1403
+     },
+     {
+      "model": "mai-image-2.5",
+      "org": "microsoft-ai",
+      "rank": 9,
+      "license": "Proprietary",
+      "votes": 190081,
+      "rating": 1401
+     },
+     {
+      "model": "seedream-5.0-pro",
+      "org": "bytedance",
+      "rank": 10,
+      "license": "Proprietary",
+      "votes": 282865,
+      "rating": 1394
+     }
+    ]
+   }
+  },
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "arena-leaderboard": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 234,
+    "new": 2
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "arena-product": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 9,
+    "new": 0
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "arena-blog": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 76,
+    "new": 0
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "baselined": true,
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "gn-sarvam": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 13,
+    "new": 5
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "gn-india-ai": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 10,
+    "new": 5
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "yt-matt-wolfe": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 3
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "yt-riley-brown": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 3
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "yt-cole-medin": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 3
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "yt-ai-advantage": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 3
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "yt-wes-roth": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 3
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "yt-sam-witteveen": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 1
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "yt-yannic-kilcher": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "yt-bycloud": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 2
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
+ },
+ "yt-ai-jason": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T16:38:05Z",
+    "found": 15,
+    "new": 0
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T16:38:05Z",
+  "last_run": "2026-10-17T16:38:05Z"
  }
 }
