@@ -602,7 +602,7 @@ function viewManual() {
   const tile = m => { const [g, c] = look(m.type); return `<div class="mcard">
       <span class="mi" style="background:${c}">${esc(g)}</span><div class="mb"><b>${esc(m.name)}</b><p>${esc(m.why || human(m.type))}</p>
       ${m.members && m.members.length ? `<div class="flags" style="margin:-4px 0 12px">${m.members.map(h => `<a class="flag" href="https://x.com/${encodeURIComponent(h)}" target="_blank" rel="noopener">@${esc(h)}</a>`).join('')}</div>` : ''}
-      <a class="btn" href="${esc(safe(m.url))}" target="_blank" rel="noopener">${m.type === 'x_list' ? 'Open my X lists' : 'Open'} ${ic('open', 'sm')}</a></div></div>`; };
+      <a class="btn" href="${esc(safe(m.url))}" target="_blank" rel="noopener">${m.type === 'x_list' ? (/\/i\/lists\/\d/.test(m.url) ? 'Open this list' : 'Open my X lists') : 'Open'} ${ic('open', 'sm')}</a></div></div>`; };
   const ai = e.manual.filter(m => m.sweep), you = e.manual.filter(m => !m.sweep);
   if (!e.manual.length) return pageHead('Check manually') + '<div class="empty">No manual sources.</div>';
   return pageHead('Check manually', 'Sites that block automatic collection.')
