@@ -102,62 +102,6 @@
    "why": "Site blocks cloud servers (403); read through Google News search instead"
   },
   {
-   "id": "r-malefashionadvice",
-   "name": "r/malefashionadvice",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/malefashionadvice/top/?t=day",
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
-  },
-  {
-   "id": "r-femalefashionadvice",
-   "name": "r/femalefashionadvice",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/femalefashionadvice/top/?t=day",
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
-  },
-  {
-   "id": "r-skincareaddiction",
-   "name": "r/SkincareAddiction",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/SkincareAddiction/top/?t=day",
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
-  },
-  {
-   "id": "r-indianskincareaddicts",
-   "name": "r/IndianSkincareAddicts",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/IndianSkincareAddicts/top/?t=week",
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
-  },
-  {
    "id": "pinterest-trends",
    "name": "Pinterest Trends",
    "type": "page",
@@ -195,6 +139,72 @@
    "mode": "manual",
    "status": "active",
    "why": "Which looks and audios are trending this week"
+  },
+  {
+   "id": "reddit-style",
+   "name": "Reddit: style & fashion (5 subs)",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/malefashionadvice+femalefashionadvice+IndianFashionAddicts+streetwear+frugalmalefashion/top/?t=day",
+   "subreddits": [
+    "malefashionadvice",
+    "femalefashionadvice",
+    "IndianFashionAddicts",
+    "streetwear",
+    "frugalmalefashion"
+   ],
+   "role": "news",
+   "tags": [
+    "discussion"
+   ],
+   "mode": "manual",
+   "sweep": true,
+   "status": "active",
+   "pick": 5,
+   "min_upvotes": 50,
+   "why": "The AI reads the top discussions here during analyze today (r/malefashionadvice, r/femalefashionadvice, r/IndianFashionAddicts, r/streetwear, r/frugalmalefashion)"
+  },
+  {
+   "id": "reddit-skin-grooming",
+   "name": "Reddit: skincare & grooming (4 subs)",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/SkincareAddiction+IndianSkincareAddicts+AsianBeauty+malegrooming/top/?t=day",
+   "subreddits": [
+    "SkincareAddiction",
+    "IndianSkincareAddicts",
+    "AsianBeauty",
+    "malegrooming"
+   ],
+   "role": "news",
+   "tags": [
+    "discussion"
+   ],
+   "mode": "manual",
+   "sweep": true,
+   "status": "active",
+   "pick": 5,
+   "min_upvotes": 50,
+   "why": "The AI reads the top discussions here during analyze today (r/SkincareAddiction, r/IndianSkincareAddicts, r/AsianBeauty, r/malegrooming)"
+  },
+  {
+   "id": "reddit-habits",
+   "name": "Reddit: fitness & confidence (3 subs)",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/Fitness+getdisciplined+socialskills/top/?t=day",
+   "subreddits": [
+    "Fitness",
+    "getdisciplined",
+    "socialskills"
+   ],
+   "role": "news",
+   "tags": [
+    "discussion"
+   ],
+   "mode": "manual",
+   "sweep": true,
+   "status": "active",
+   "pick": 5,
+   "min_upvotes": 100,
+   "why": "The AI reads the top discussions here during analyze today (r/Fitness, r/getdisciplined, r/socialskills)"
   }
  ],
  "competitors": [

@@ -173,10 +173,17 @@
    "round_only": true
   },
   {
-   "id": "r-space",
-   "name": "r/space",
+   "id": "reddit-science-space",
+   "name": "Reddit: science & space (5 subs)",
    "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/space/top/?t=day",
+   "url": "https://www.reddit.com/r/space+askscience+Astronomy+science+Physics/top/?t=day",
+   "subreddits": [
+    "space",
+    "askscience",
+    "Astronomy",
+    "science",
+    "Physics"
+   ],
    "role": "news",
    "tags": [
     "discussion"
@@ -184,13 +191,21 @@
    "mode": "manual",
    "sweep": true,
    "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
+   "pick": 5,
+   "min_upvotes": 200,
+   "why": "The AI reads the top discussions here during analyze today (r/space, r/askscience, r/Astronomy, r/science, r/Physics)"
   },
   {
-   "id": "r-history",
-   "name": "r/history",
+   "id": "reddit-history",
+   "name": "Reddit: history (4 subs)",
    "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/history/top/?t=week",
+   "url": "https://www.reddit.com/r/history+AskHistorians+IndianHistory+ArtefactPorn/top/?t=day",
+   "subreddits": [
+    "history",
+    "AskHistorians",
+    "IndianHistory",
+    "ArtefactPorn"
+   ],
    "role": "news",
    "tags": [
     "discussion"
@@ -198,13 +213,21 @@
    "mode": "manual",
    "sweep": true,
    "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
+   "pick": 5,
+   "min_upvotes": 100,
+   "why": "The AI reads the top discussions here during analyze today (r/history, r/AskHistorians, r/IndianHistory, r/ArtefactPorn)"
   },
   {
-   "id": "r-todayilearned",
-   "name": "r/todayilearned",
+   "id": "reddit-curiosities",
+   "name": "Reddit: curiosities & maps (4 subs)",
    "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/todayilearned/top/?t=day",
+   "url": "https://www.reddit.com/r/todayilearned+Damnthatsinteresting+MapPorn+wikipedia/top/?t=day",
+   "subreddits": [
+    "todayilearned",
+    "Damnthatsinteresting",
+    "MapPorn",
+    "wikipedia"
+   ],
    "role": "news",
    "tags": [
     "discussion"
@@ -212,7 +235,9 @@
    "mode": "manual",
    "sweep": true,
    "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
+   "pick": 5,
+   "min_upvotes": 500,
+   "why": "The AI reads the top discussions here during analyze today (r/todayilearned, r/Damnthatsinteresting, r/MapPorn, r/wikipedia)"
   },
   {
    "id": "yt-kings-generals",

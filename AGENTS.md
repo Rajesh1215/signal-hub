@@ -32,13 +32,16 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
 ## A. Analyse pending items ("analyze today")
 
 1. **Get fresh news.** `python3 engine/refresh.py`. It pulls the repo, runs a fresh collection on GitHub from every blog and feed (2–4 minutes; skipped only if the last collection was in the last 15 minutes), then pulls again. You then analyse everything still waiting: the new items plus any older pending ones. Let it finish before going on. If it says it couldn't collect, carry on with the data that's there and mention it in the report. If the user says "quick" or "no refresh", run `git pull --rebase` instead.
-2. **Read Reddit and X yourself.** These sites block scripts, so you read them like a normal visitor. Run `python3 engine/sweep.py`; it lists, per niche, the subreddits and X profiles to check. For each page:
-   - Open it in your browser and look at the posts from the **last 24 hours** (Reddit: the "top today" list it opens on; X: the newest posts).
-   - Add only meaningful posts (real launches, announcements, useful findings, strong discussions), at most 3 per subreddit and 2 per X profile, and none if nothing is worth it:
-     `python3 engine/add_item.py <niche> "<post url>" --title "<post title or first line>" --snippet "<key text, 1–3 sentences>" --source "<page name, e.g. r/LocalLLaMA>" [--published <ISO time>]`
-     For X profiles, add the `--role people --person <id>` shown by `sweep.py`.
-   - Skip memes, ads, rumours without a source, and anything older than 24 hours. `add_item.py` skips links that were already collected.
-   - If a page shows a login wall, captcha or block, skip it and mention it in the report. **Never log in, never use the user's accounts, never try to get around a block.**
+2. **Read Reddit and X yourself.** These sites block scripts, so you read them like a normal visitor. Run `python3 engine/sweep.py`: per niche it lists Reddit pages (each combines several subreddits, sorted by top today) and X profiles, with the rule for each.
+   - **Reddit: target good discussions, not noise.**
+     - On each page, look only at posts from the last 24 hours that meet its bar (the `min_upvotes` shown, or 30+ comments).
+     - Prefer news, research, launches, "I tested X", how-tos and real debates. Skip memes, screenshots with no context, self-promotion, rants and help requests.
+     - For each candidate, **open the thread and read the top comments**. Keep it only if the discussion adds something (expert replies, corrections, real experiences, a clear consensus or disagreement).
+     - Pick up to the number shown (usually 5 per page). Fewer is fine.
+     - Add each with the thread URL. The snippet says what the post claims **and what the top comments add**, and includes the numbers:
+       `python3 engine/add_item.py <niche> "<thread url>" --title "<post title>" --snippet "<post + what the discussion concluded, 2–3 sentences>" --source "r/<subreddit>" --points <upvotes> --comments <comments>`
+   - **X profiles:** newest posts from the last 24 hours, at most 2 per profile, only real announcements or strong insights. Add the `--role people --person <id>` shown by `sweep.py`.
+   - `add_item.py` skips links already collected. If a page shows a login wall, captcha or block, skip it and mention it in the report. **Never log in, never use the user's accounts, never try to get around a block.**
    - If the user says "quick", skip this step.
 3. **Status.** `python3 engine/status.py`. Note BROKEN or QUIET sources for the final report.
 4. **List the work.** `python3 engine/pending.py`. For each niche it prints:

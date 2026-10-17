@@ -24,7 +24,11 @@ def main(argv):
         print(f"\n=== {edir.name}: {len(rows)} pages to check")
         for s in rows:
             extra = f" --role people --person {s['person_id']}" if s.get("person_id") else ""
-            print(f"{s['name']:<34} {s['url']}  ({LIMITS.get(s['type'], 'meaningful posts only')}){extra}")
+            if s["type"] == "reddit_manual":
+                rule = f"pick up to {s.get('pick', 3)}; only posts with {s.get('min_upvotes', 50)}+ upvotes or 30+ comments; read the top comments"
+            else:
+                rule = LIMITS.get(s["type"], "meaningful posts only")
+            print(f"{s['name']:<44} {s['url']}\n{'':<44} ({rule}){extra}")
 
 
 if __name__ == "__main__":

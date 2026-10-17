@@ -29,7 +29,7 @@ Each channel folder has `brief.md`, your system prompt for judging that channel'
 Run **procedure A** from `AGENTS.md`, end to end, **without asking me for confirmation between steps**:
 
 1. `python3 engine/refresh.py`: fetches fresh news from every source on GitHub right now (2–4 minutes), then pulls. Wait for it to finish.
-2. **Read Reddit and X yourself**: `python3 engine/sweep.py` lists the subreddits and X profiles per channel. Open each in your browser, look at the last 24 hours, and add only meaningful posts (max 3 per subreddit, 2 per X profile) with `python3 engine/add_item.py <channel> "<post url>" --title "..." --snippet "..." --source "..."`. If a page needs login or blocks you, skip it. Never log in.
+2. **Read Reddit and X yourself**: `python3 engine/sweep.py` lists Reddit pages (several subreddits each, top today) and X profiles per channel. On Reddit, pick only good discussions from the last 24 hours that meet the upvote bar shown. Open each thread, read the top comments, and keep it only if the discussion adds something (up to 5 per page). Add each with `python3 engine/add_item.py <channel> "<thread url>" --title "..." --snippet "<post + what the comments concluded>" --source "r/..." --points N --comments N`. On X, take at most 2 real posts per profile. If a page needs login or blocks you, skip it. Never log in.
 3. `python3 engine/status.py`: note any broken sources.
 4. `python3 engine/pending.py`: lists every waiting item per channel, with the allowed labels, reasons and categories.
 5. For each channel:

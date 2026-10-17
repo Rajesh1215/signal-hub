@@ -123,10 +123,16 @@
    "why": "Overlaps ET/Mint markets; re-enable if those break"
   },
   {
-   "id": "r-indiainvestments",
-   "name": "r/IndiaInvestments",
+   "id": "reddit-money-india",
+   "name": "Reddit: Indian personal finance (4 subs)",
    "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/IndiaInvestments/top/?t=week",
+   "url": "https://www.reddit.com/r/IndiaInvestments+personalfinanceindia+FIREIndia+CreditCardsIndia/top/?t=day",
+   "subreddits": [
+    "IndiaInvestments",
+    "personalfinanceindia",
+    "FIREIndia",
+    "CreditCardsIndia"
+   ],
    "role": "news",
    "tags": [
     "discussion"
@@ -134,13 +140,20 @@
    "mode": "manual",
    "sweep": true,
    "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
+   "pick": 5,
+   "min_upvotes": 30,
+   "why": "The AI reads the top discussions here during analyze today (r/IndiaInvestments, r/personalfinanceindia, r/FIREIndia, r/CreditCardsIndia)"
   },
   {
-   "id": "r-personalfinanceindia",
-   "name": "r/personalfinanceindia",
+   "id": "reddit-markets",
+   "name": "Reddit: markets & economy (3 subs)",
    "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/personalfinanceindia/top/?t=week",
+   "url": "https://www.reddit.com/r/IndianStockMarket+Economics+business/top/?t=day",
+   "subreddits": [
+    "IndianStockMarket",
+    "Economics",
+    "business"
+   ],
    "role": "news",
    "tags": [
     "discussion"
@@ -148,21 +161,9 @@
    "mode": "manual",
    "sweep": true,
    "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
-  },
-  {
-   "id": "r-indianstockmarket",
-   "name": "r/IndianStockMarket",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/IndianStockMarket/top/?t=day",
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
+   "pick": 5,
+   "min_upvotes": 100,
+   "why": "The AI reads the top discussions here during analyze today (r/IndianStockMarket, r/Economics, r/business)"
   },
   {
    "id": "yt-zerodha",

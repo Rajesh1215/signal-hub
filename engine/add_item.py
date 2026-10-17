@@ -2,6 +2,7 @@
 
     python3 engine/add_item.py <entity> <url> --title "..." [--snippet "..."]
         [--source "Andrej Karpathy on X"] [--role people] [--person karpathy] [--published 2026-10-17T09:30:00Z]
+        [--points 540 --comments 120]   # Reddit/X engagement, shown on the dashboard
 
 The item lands in runs/<today>/collect-local-agent.json as a normal pending
 item, so it gets analysed like everything else. Links already collected are
@@ -38,7 +39,8 @@ def main(argv):
         "published_at": iso(pub), "found_at": iso(now),
         "source_id": "agent", "source_name": arg(argv, "--source", "Added by agent"),
         "role": arg(argv, "--role", "news"), "type": "agent",
-        "competitor_id": None, "person_id": arg(argv, "--person"), "meta": {},
+        "competitor_id": None, "person_id": arg(argv, "--person"),
+        "meta": {k: int(arg(argv, f"--{k}")) for k in ("points", "comments") if (arg(argv, f"--{k}") or "").isdigit()},
     })
     doc["run_at"] = iso(now)
     write_json(path, doc)

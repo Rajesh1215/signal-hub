@@ -518,10 +518,19 @@
    "min_reactions": 15
   },
   {
-   "id": "r-localllama",
-   "name": "r/LocalLLaMA",
+   "id": "reddit-ai-news",
+   "name": "Reddit: AI news & models (7 subs)",
    "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/LocalLLaMA/top/?t=day",
+   "url": "https://www.reddit.com/r/LocalLLaMA+OpenAI+ClaudeAI+singularity+artificial+GeminiAI+ChatGPT/top/?t=day",
+   "subreddits": [
+    "LocalLLaMA",
+    "OpenAI",
+    "ClaudeAI",
+    "singularity",
+    "artificial",
+    "GeminiAI",
+    "ChatGPT"
+   ],
    "role": "news",
    "tags": [
     "discussion"
@@ -529,13 +538,23 @@
    "mode": "manual",
    "sweep": true,
    "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
+   "pick": 5,
+   "min_upvotes": 100,
+   "why": "The AI reads the top discussions here during analyze today (r/LocalLLaMA, r/OpenAI, r/ClaudeAI, r/singularity, r/artificial, r/GeminiAI, r/ChatGPT)"
   },
   {
-   "id": "r-openai",
-   "name": "r/OpenAI",
+   "id": "reddit-ai-builders",
+   "name": "Reddit: AI builders & coding (6 subs)",
    "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/OpenAI/top/?t=day",
+   "url": "https://www.reddit.com/r/ChatGPTCoding+cursor+ClaudeCode+LLMDevs+AI_Agents+MachineLearning/top/?t=day",
+   "subreddits": [
+    "ChatGPTCoding",
+    "cursor",
+    "ClaudeCode",
+    "LLMDevs",
+    "AI_Agents",
+    "MachineLearning"
+   ],
    "role": "news",
    "tags": [
     "discussion"
@@ -543,13 +562,21 @@
    "mode": "manual",
    "sweep": true,
    "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
+   "pick": 5,
+   "min_upvotes": 50,
+   "why": "The AI reads the top discussions here during analyze today (r/ChatGPTCoding, r/cursor, r/ClaudeCode, r/LLMDevs, r/AI_Agents, r/MachineLearning)"
   },
   {
-   "id": "r-claudeai",
-   "name": "r/ClaudeAI",
+   "id": "reddit-students-india",
+   "name": "Reddit: students & Indian devs (4 subs)",
    "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/ClaudeAI/top/?t=day",
+   "url": "https://www.reddit.com/r/developersIndia+learnmachinelearning+learnprogramming+csMajors/top/?t=day",
+   "subreddits": [
+    "developersIndia",
+    "learnmachinelearning",
+    "learnprogramming",
+    "csMajors"
+   ],
    "role": "news",
    "tags": [
     "discussion"
@@ -557,21 +584,9 @@
    "mode": "manual",
    "sweep": true,
    "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
-  },
-  {
-   "id": "r-machinelearning",
-   "name": "r/MachineLearning",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/MachineLearning/top/?t=day",
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "why": "The AI reads the top posts here during analyze today (Reddit blocks scripts)"
+   "pick": 5,
+   "min_upvotes": 50,
+   "why": "The AI reads the top discussions here during analyze today (r/developersIndia, r/learnmachinelearning, r/learnprogramming, r/csMajors)"
   },
   {
    "id": "yt-3b1b",
