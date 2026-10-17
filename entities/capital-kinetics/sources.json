@@ -193,19 +193,6 @@
    "max_new": 3
   },
   {
-   "id": "x-finance-list",
-   "name": "X: your finance list",
-   "type": "x_manual",
-   "url": "https://x.com/i/lists",
-   "role": "people",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "why": "Your own X list of Indian finance voices"
-  },
-  {
    "id": "nse-circulars",
    "name": "NSE circulars",
    "type": "page",
@@ -243,6 +230,51 @@
    "mode": "manual",
    "status": "active",
    "why": "Check around tax deadlines"
+  },
+  {
+   "id": "x-list-india-money",
+   "name": "X list: India Money (pin this)",
+   "type": "x_list",
+   "url": "https://x.com/i/lists",
+   "role": "people",
+   "tags": [
+    "x"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "members": [
+    "RBI",
+    "SEBI_India",
+    "nsitharamanoffc",
+    "FinMinIndia",
+    "IncomeTaxIndia",
+    "NSEIndia",
+    "BSEIndia"
+   ],
+   "why": "Regulators and markets: rate, tax and rule changes as they happen. Make it a private list and add these accounts (no need to follow them):"
+  },
+  {
+   "id": "x-list-finance-voices",
+   "name": "X list: Finance Voices",
+   "type": "x_list",
+   "url": "https://x.com/i/lists",
+   "role": "people",
+   "tags": [
+    "x"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "members": [
+    "FinshotsDaily",
+    "zerodhaonline",
+    "Nithin0dha",
+    "nikhilkamathcio",
+    "deepakshenoy",
+    "CNBCTV18Live",
+    "livemint",
+    "EconomicTimes"
+   ],
+   "why": "Explainers and market commentary. Make it a private list and add these accounts (no need to follow them):"
   }
  ],
  "competitors": [

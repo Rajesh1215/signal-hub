@@ -875,19 +875,6 @@
    "max_new": 3
   },
   {
-   "id": "x-ai-list",
-   "name": "X: your AI list",
-   "type": "x_manual",
-   "url": "https://x.com/i/lists",
-   "role": "people",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "why": "Open your own X list of AI people; paste interesting post links into chat to add them"
-  },
-  {
    "id": "daily-dev",
    "name": "daily.dev",
    "type": "daily_dev",
@@ -912,6 +899,110 @@
    "mode": "manual",
    "status": "active",
    "why": "New AI tools; scan weekly"
+  },
+  {
+   "id": "x-list-ai-labs",
+   "name": "X list: AI Labs (pin this)",
+   "type": "x_list",
+   "url": "https://x.com/i/lists",
+   "role": "people",
+   "tags": [
+    "x"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "members": [
+    "OpenAI",
+    "OpenAIDevs",
+    "AnthropicAI",
+    "claudeai",
+    "GoogleDeepMind",
+    "GoogleAI",
+    "GeminiApp",
+    "MistralAI",
+    "deepseek_ai",
+    "Alibaba_Qwen",
+    "xai",
+    "AIatMeta",
+    "huggingface",
+    "lmarena_ai",
+    "cursor_ai",
+    "perplexity_ai",
+    "NVIDIAAI"
+   ],
+   "why": "Companies post launches here first, often before their blogs. Make it a private list and add these accounts (no need to follow them):"
+  },
+  {
+   "id": "x-list-ai-people",
+   "name": "X list: AI People (pin this)",
+   "type": "x_list",
+   "url": "https://x.com/i/lists",
+   "role": "people",
+   "tags": [
+    "x"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "members": [
+    "karpathy",
+    "sama",
+    "simonw",
+    "rasbt",
+    "natolambert",
+    "emollick",
+    "AndrewYNg",
+    "ylecun",
+    "demishassabis",
+    "gdb",
+    "JeffDean",
+    "OfficialLoganK",
+    "alexalbert__",
+    "swyx",
+    "_akhaliq",
+    "fchollet",
+    "hardmaru"
+   ],
+   "why": "Researchers and builders: early takes, demos, paper drops. Make it a private list and add these accounts (no need to follow them):"
+  },
+  {
+   "id": "x-list-ai-creators",
+   "name": "X list: AI Creators & News",
+   "type": "x_list",
+   "url": "https://x.com/i/lists",
+   "role": "people",
+   "tags": [
+    "x"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "members": [
+    "mreflow",
+    "rileybrownai",
+    "MatthewBerman",
+    "rowancheung",
+    "bentossell",
+    "Fireship_dev"
+   ],
+   "why": "What other creators are covering today (topics and hooks). Make it a private list and add these accounts (no need to follow them):"
+  },
+  {
+   "id": "x-list-india-tech",
+   "name": "X list: India Tech & AI",
+   "type": "x_list",
+   "url": "https://x.com/i/lists",
+   "role": "people",
+   "tags": [
+    "x"
+   ],
+   "mode": "manual",
+   "status": "active",
+   "members": [
+    "Krishnaik06",
+    "nikhilkamathcio",
+    "Nithin0dha",
+    "SarvamAI"
+   ],
+   "why": "Indian AI, startup and tech-jobs news for your student audience. Make it a private list and add these accounts (no need to follow them):"
   }
  ],
  "competitors": [

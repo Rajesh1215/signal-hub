@@ -543,19 +543,23 @@ function viewCompetitors() {
 }
 function viewManual() {
   const e = ent();
-  const look = t => ({ x_manual: ['𝕏', '#111'], reddit_manual: ['r/', '#ff4500'], daily_dev: ['d.', '#6b4ce6'], instagram_manual: ['IG', '#d6249f'] }[t] || ['↗', '#3e63dd']);
+  const look = t => ({ x_manual: ['𝕏', '#111'], x_list: ['𝕏', '#111'], reddit_manual: ['r/', '#ff4500'], daily_dev: ['d.', '#6b4ce6'], instagram_manual: ['IG', '#d6249f'] }[t] || ['↗', '#3e63dd']);
   const tile = m => { const [g, c] = look(m.type); return `<div class="mcard">
       <span class="mi" style="background:${c}">${esc(g)}</span><div class="mb"><b>${esc(m.name)}</b><p>${esc(m.why || human(m.type))}</p>
-      <a class="btn" href="${esc(safe(m.url))}" target="_blank" rel="noopener">Open ${ic('open', 'sm')}</a></div></div>`; };
+      ${m.members && m.members.length ? `<div class="flags" style="margin:-4px 0 12px">${m.members.map(h => `<a class="flag" href="https://x.com/${encodeURIComponent(h)}" target="_blank" rel="noopener">@${esc(h)}</a>`).join('')}</div>` : ''}
+      <a class="btn" href="${esc(safe(m.url))}" target="_blank" rel="noopener">${m.type === 'x_list' ? 'Open my X lists' : 'Open'} ${ic('open', 'sm')}</a></div></div>`; };
   const ai = e.manual.filter(m => m.sweep), you = e.manual.filter(m => !m.sweep);
   if (!e.manual.length) return pageHead('Check manually') + '<div class="empty">No manual sources.</div>';
   return pageHead('Check manually', 'Sites that block automatic collection.')
     + (ai.length ? `<div class="sec"><h2>The AI reads these for you</h2></div>
       <p class="note" style="margin:-4px 2px 12px">Every “analyze today”, the AI opens these Reddit and X pages, picks the meaningful posts from the last 24 hours and adds them to the feed. You don’t need to check them.</p>
       <div class="grid two">${ai.map(tile).join('')}</div>` : '')
-    + (you.length ? `<div class="sec"><h2>Only you can check these</h2></div>
+    + (you.some(m => m.type === 'x_list') ? `<div class="sec"><h2>Your X lists</h2></div>
+      <p class="note" style="margin:-4px 2px 12px">Lists are separate timelines with only the accounts you add. Make each one <b>private</b>, add the accounts below (tap a name to open it; no need to follow), and pin the ones marked “pin this”. Your normal feed doesn’t change.</p>
+      <div class="grid two">${you.filter(m => m.type === 'x_list').map(tile).join('')}</div>` : '')
+    + (you.some(m => m.type !== 'x_list') ? `<div class="sec"><h2>Only you can check these</h2></div>
       <p class="note" style="margin:-4px 2px 12px">These need your login or an app. Have a look when you have a minute.</p>
-      <div class="grid two">${you.map(tile).join('')}</div>` : '');
+      <div class="grid two">${you.filter(m => m.type !== 'x_list').map(tile).join('')}</div>` : '');
 }
 function viewSources() {
   const e = ent(), rows = [...e.sources].sort((a, b) => (b.broken - a.broken) || (b.errors - a.errors) || (b.new_7d - a.new_7d));
