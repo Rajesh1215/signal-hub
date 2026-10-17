@@ -3,7 +3,7 @@
  "order": 2,
  "name": "Capital Kinetics",
  "color": "#22C55E",
- "niche": "Money, markets and personal finance for Indian salaried people and new investors (English, education only, never tips)",
+ "niche": "Money, markets and personal finance for Indian salaried people and new investors (English, education only, never tips; plus major startup, funding, big-tech and hardware news for the user's own awareness)",
  "platforms": [
   "instagram",
   "youtube"
@@ -55,7 +55,12 @@
   "ipo_listing",
   "data_release",
   "scam_alert",
-  "budget_or_policy"
+  "budget_or_policy",
+  "funding_round",
+  "new_startup",
+  "acquisition",
+  "company_issue",
+  "market_outlook"
  ],
  "flags": {
   "category": {
@@ -75,7 +80,11 @@
     "commodities",
     "personal_finance",
     "scam",
-    "business_story"
+    "business_story",
+    "startups_funding",
+    "yc",
+    "tech_business",
+    "hardware_chips"
    ],
    "help": "Topic area"
   }

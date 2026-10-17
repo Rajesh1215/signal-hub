@@ -123,6 +123,244 @@
    "why": "Overlaps ET/Mint markets; re-enable if those break"
   },
   {
+   "id": "yt-day-trader-telugu",
+   "name": "Day Trader Telugu",
+   "type": "youtube",
+   "channel_id": "UCeEP6GESh2t4-e2132uj3Sg",
+   "role": "news",
+   "tags": [
+    "telugu",
+    "daily-market"
+   ],
+   "status": "active",
+   "max_age_days": 3,
+   "max_new": 4,
+   "deep_video": true,
+   "why": "Daily Telugu market updates; the AI analyses every video in full (transcript or Gemini) and checks the news he mentions"
+  },
+  {
+   "id": "yc-blog",
+   "name": "Y Combinator Blog",
+   "type": "feed",
+   "url": "https://www.ycombinator.com/blog/rss/",
+   "role": "official",
+   "tags": [
+    "startups",
+    "yc"
+   ],
+   "status": "active",
+   "max_age_days": 7
+  },
+  {
+   "id": "hn-launch",
+   "name": "Hacker News: Launch HN / YC",
+   "type": "hn",
+   "role": "news",
+   "tags": [
+    "startups",
+    "yc"
+   ],
+   "status": "active",
+   "keywords": [
+    "launch hn",
+    "y combinator",
+    "yc w",
+    "yc s",
+    "yc f",
+    "yc x",
+    "(yc"
+   ],
+   "min_points": 30
+  },
+  {
+   "id": "gn-yc",
+   "name": "Y Combinator (news)",
+   "type": "gnews",
+   "query": "\"Y Combinator\" OR \"YC-backed\"",
+   "role": "news",
+   "tags": [
+    "startups",
+    "yc"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "tc-venture",
+   "name": "TechCrunch Venture",
+   "type": "feed",
+   "url": "https://techcrunch.com/category/venture/feed/",
+   "role": "news",
+   "tags": [
+    "funding"
+   ],
+   "status": "active",
+   "max_new": 6
+  },
+  {
+   "id": "tc-startups",
+   "name": "TechCrunch Startups",
+   "type": "feed",
+   "url": "https://techcrunch.com/category/startups/feed/",
+   "role": "news",
+   "tags": [
+    "startups"
+   ],
+   "status": "active",
+   "max_new": 6
+  },
+  {
+   "id": "crunchbase-news",
+   "name": "Crunchbase News",
+   "type": "feed",
+   "url": "https://news.crunchbase.com/feed/",
+   "role": "news",
+   "tags": [
+    "funding"
+   ],
+   "status": "active"
+  },
+  {
+   "id": "inc42",
+   "name": "Inc42",
+   "type": "feed",
+   "url": "https://inc42.com/feed/",
+   "role": "news",
+   "tags": [
+    "india",
+    "startups"
+   ],
+   "status": "active",
+   "max_new": 8
+  },
+  {
+   "id": "yourstory",
+   "name": "YourStory",
+   "type": "feed",
+   "url": "https://yourstory.com/feed",
+   "role": "news",
+   "tags": [
+    "india",
+    "startups"
+   ],
+   "status": "active",
+   "max_new": 6
+  },
+  {
+   "id": "et-tech-startups",
+   "name": "ET Tech: Startups",
+   "type": "feed",
+   "url": "https://economictimes.indiatimes.com/tech/startups/rssfeeds/78570550.cms",
+   "role": "news",
+   "tags": [
+    "india",
+    "startups"
+   ],
+   "status": "active",
+   "max_new": 8
+  },
+  {
+   "id": "gn-entrackr",
+   "name": "Entrackr (news)",
+   "type": "gnews",
+   "query": "site:entrackr.com",
+   "role": "news",
+   "tags": [
+    "india",
+    "funding"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "why": "Entrackr has no feed"
+  },
+  {
+   "id": "gn-india-funding",
+   "name": "Indian startup funding (news)",
+   "type": "gnews",
+   "query": "startup raises funding India OR \"Series A\" OR \"Series B\" India",
+   "role": "news",
+   "tags": [
+    "india",
+    "funding"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "mint-companies",
+   "name": "Mint Companies",
+   "type": "feed",
+   "url": "https://www.livemint.com/rss/companies",
+   "role": "news",
+   "tags": [
+    "companies"
+   ],
+   "status": "active",
+   "max_new": 6
+  },
+  {
+   "id": "businessline-companies",
+   "name": "BusinessLine Companies",
+   "type": "feed",
+   "url": "https://www.thehindubusinessline.com/companies/feeder/default.rss",
+   "role": "news",
+   "tags": [
+    "companies"
+   ],
+   "status": "active",
+   "max_new": 6
+  },
+  {
+   "id": "ndtv-profit",
+   "name": "NDTV Profit",
+   "type": "feed",
+   "url": "https://feeds.feedburner.com/ndtvprofit-latest",
+   "role": "news",
+   "tags": [
+    "business"
+   ],
+   "status": "active",
+   "max_new": 6
+  },
+  {
+   "id": "tomshardware",
+   "name": "Tom's Hardware",
+   "type": "feed",
+   "url": "https://www.tomshardware.com/feeds/all",
+   "role": "news",
+   "tags": [
+    "hardware"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "semianalysis",
+   "name": "SemiAnalysis",
+   "type": "feed",
+   "url": "https://newsletter.semianalysis.com/feed",
+   "role": "news",
+   "tags": [
+    "hardware",
+    "chips"
+   ],
+   "status": "active",
+   "max_age_days": 7
+  },
+  {
+   "id": "gn-semis",
+   "name": "Chips & hardware companies (news)",
+   "type": "gnews",
+   "query": "semiconductor OR TSMC OR Nvidia OR chipmaker earnings",
+   "role": "news",
+   "tags": [
+    "hardware",
+    "chips"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
    "id": "reddit-money-india",
    "name": "Reddit: Indian personal finance (4 subs)",
    "type": "reddit_manual",
@@ -164,6 +402,29 @@
    "pick": 5,
    "min_upvotes": 100,
    "why": "The AI reads the top discussions here during analyze today (r/IndianStockMarket, r/Economics, r/business)"
+  },
+  {
+   "id": "reddit-startups-tech",
+   "name": "Reddit: startups & tech business (5 subs)",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/startups+ycombinator+StartUpIndia+hardware+technology/top/?t=day",
+   "subreddits": [
+    "startups",
+    "ycombinator",
+    "StartUpIndia",
+    "hardware",
+    "technology"
+   ],
+   "role": "news",
+   "tags": [
+    "discussion"
+   ],
+   "mode": "manual",
+   "sweep": true,
+   "status": "active",
+   "pick": 4,
+   "min_upvotes": 200,
+   "why": "The AI reads the top discussions here during analyze today (r/startups, r/ycombinator, r/StartUpIndia, r/hardware, r/technology)"
   },
   {
    "id": "yt-zerodha",

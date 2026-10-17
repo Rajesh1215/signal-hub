@@ -42,7 +42,7 @@ Run **procedure A** from `AGENTS.md`, end to end, **without asking me for confir
    - save with `python3 engine/save_analysis.py <channel> work/payloads-<channel>.json`, fix any ✗ errors and re-run
 6. `python3 engine/save_analysis.py <channel> --mark-stale` if stale items were reported.
 7. `python3 engine/check.py`: must show ✓ for all 4.
-8. `git add entities && git commit -m "analysis: <date> (<N> items)" && git push` (if rejected: `git pull --rebase` then `git push`; never force-push).
+8. `git add entities notes && git commit -m "analysis: <date> (<N> items)" && git push` (if rejected: `git pull --rebase` then `git push`; never force-push).
 9. Report to me in chat:
    - counts per channel
    - **MAKE** list (NOW first) with the one-line angle

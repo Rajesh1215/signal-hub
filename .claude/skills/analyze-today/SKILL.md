@@ -14,7 +14,7 @@ Follow procedure **A** in `AGENTS.md` at the repo root. It is the source of trut
 5. For each niche with pending items: read `entities/<niche>/brief.md`, label every item into `work/payloads-<niche>.json` (quick pass: judge each item yourself, written by hand, no keyword scripts or default labels), then open and fully read every MAKE/TEST/importance 4–5 item and write its summary from the real page (deep read); for YouTube items get the transcript (video.py → browser 'Show transcript' → video.py --gemini → description) and add any news the video mentions that we missed (coverage.py, add_item.py); then run `python3 engine/save_analysis.py <niche> work/payloads-<niche>.json` and fix any rejected items
 6. `python3 engine/save_analysis.py <niche> --mark-stale` if stale items were reported
 7. `python3 engine/check.py`
-8. `git add entities && git commit -m "analysis: <date> (<N> items)" && git push` (if rejected: `git pull --rebase && git push`)
+8. `git add entities notes && git commit -m "analysis: <date> (<N> items)" && git push` (if rejected: `git pull --rebase && git push`)
 9. Report: counts per niche, MAKE list (NOW first, with angle), Important titles (importance 4–5), competitor highlights, broken sources, and the dashboard link https://rajesh1215.github.io/signal-hub/
 
 Do it end to end without asking for confirmation.

@@ -18,7 +18,7 @@ Use `python3` for every command, run from the repo root. The engine uses only th
 | "analyze today", "analyse", "run", "proceed", "update" | **A. Analyse pending items** |
 | "status" | `python3 engine/status.py` and report in a few lines |
 | "add source <url> to <niche>" | **B. Add a source** |
-| "add this <url> to <niche>" (a single post or article) | `python3 engine/add_item.py <niche> "<url>" --title "..." --snippet "..."`, then analyse it with the rest |
+| "add this <url> to <niche>" or "I saw <news>" (a tip from the user) | Add it with `python3 engine/add_item.py <niche> "<url>" --title "..." --snippet "..." --source "Your tip"` (find the original link if they only describe it), analyse it with the rest, and append one line to `notes/user-tips.md`: date, niche, the story, the link, and whether Signal Hub had already caught it (`coverage.py`). Missed tips are reviewed in the weekly review. |
 | "add competitor <name or url> to <niche>" | **C. Competitors** (max 5 active) |
 | "add person <name> to <niche>" | Same as C, in `people` (max 10 active) |
 | "fix sources", "check sources" | **D. Fix broken sources** |
@@ -67,17 +67,19 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
       3. `python3 engine/video.py "<video url>" --gemini`: Gemini watches the video. Works only if the user has added a Gemini key; skip if it says there's no key or the limit is reached.
       4. None worked: use the title and description, and add "(No transcript available; based on the description.)" to the summary.
 
+      Sources marked `"deep_video": true` in `sources.json` (e.g. Day Trader Telugu): analyse **every** new video in full, even if it looks minor, and follow that niche's brief for them. For charts and on-screen data, `video.py --gemini` is best (Gemini sees the frames); without a key, open the video and look at the key moments yourself.
+
       Then:
       - Write the summary from what the video **actually says**: key claims, demos, numbers. Re-check the label and importance.
       - For competitor videos, also note the angle and structure (hook, sections) in the summary.
-      - **News mentioned in the video:** if it mentions a launch, tool, paper or story, check it with `python3 engine/coverage.py "<headline words>"`. If it's not caught, find the original page (company blog, repo, paper) and add that page as an item with `add_item.py`, so it gets analysed like the rest. Daily runs only add the news item; adding new *sources* is for the weekly review. Note the website or account in `work/source-ideas.md` for that review.
+      - **News mentioned in the video:** if it mentions a launch, tool, paper or story, check it with `python3 engine/coverage.py "<headline words>"`. If it's not caught, find the original page (company blog, repo, paper) and add that page as an item with `add_item.py`, so it gets analysed like the rest. Daily runs only add the news item; adding new *sources* is for the weekly review. Note the website or account in `notes/source-ideas.md` (one line: date, niche, what, where it came from) for that review.
    5. Save: `python3 engine/save_analysis.py <niche> work/payloads-<niche>.json`
       - Every `✗` line names the item and what's wrong. Fix those payloads and run the command again with just the fixed ones. Saving is a merge, so re-running is safe.
 6. **Old items.** Items older than 7 days that were never analysed: `python3 engine/save_analysis.py <niche> --mark-stale` (only if `pending.py` reported stale items).
 7. **Validate.** `python3 engine/check.py`. It must print ✓ for every niche.
 8. **Commit and push.**
    ```
-   git add entities
+   git add entities notes
    git commit -m "analysis: <YYYY-MM-DD> (<N> items)"
    git push
    ```
@@ -178,7 +180,8 @@ Goal: find out what we're missing and what's wasting space, then fix the sources
 3. **Find more good sources.**
    - Links that our best items (MAKE, importance 4–5) point to again and again
    - links and accounts listed in competitor and creator video descriptions
-   - websites and accounts noted in `work/source-ideas.md` during the week
+   - websites and accounts noted in `notes/source-ideas.md` during the week
+   - **the user's tips** in `notes/user-tips.md`: for each, find where the story was first published and whether a source we could add would have caught it earlier
    - websites that keep appearing in the top Reddit and Hacker News discussions
    - GitHub organisations whose repos keep trending (add their releases feed)
    - X accounts that keep being quoted as the source of news
@@ -208,6 +211,7 @@ Goal: find out what we're missing and what's wasting space, then fix the sources
 ## Rules (always)
 
 - **One writer at a time.** Always `git pull --rebase` before you start and push when done. Never force-push or rewrite history.
+- **Notes:** `notes/source-ideas.md` and `notes/user-tips.md` are yours to append to; commit them with the analysis.
 - **Files you may edit:** `entities/*/runs/*/analysis.json` (only through `save_analysis.py`), items you add with `add_item.py` (it writes `collect-local-agent.json` and `seen-local.json`), `sources.json`, `config.json`, `brief.md`, `engine/**`, `site/**`, docs.
 - **Files you must not edit by hand:** `runs/*/collect-*.json`, `seen.json`, `health.json`. The collector owns them.
 - **The repo and dashboard are public.** Never write secrets, tokens, personal data or private notes into any file.
