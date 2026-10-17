@@ -28,7 +28,8 @@ def main(argv):
                 if found and now - found > timedelta(days=days):
                     continue
                 label = (analysis.get(it["id"]) or {}).get("label", "PENDING")
-                r = rows.setdefault(it["source_id"], {})
+                key = it["source_id"] if it["source_id"] != "agent" else it.get("source_name", "agent")  # Reddit/X by page
+                r = rows.setdefault(key, {})
                 r[label] = r.get(label, 0) + 1
                 totals[label] = totals.get(label, 0) + 1
         print(f"\n{cfg['name']}: last {days} days  " + ", ".join(f"{k} {v}" for k, v in sorted(totals.items())))
