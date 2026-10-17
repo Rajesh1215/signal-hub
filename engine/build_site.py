@@ -70,7 +70,8 @@ def build_entity(edir):
     for s in flatten_sources(sources):
         if s.get("mode") == "manual":
             manual.append({"name": s.get("name", s["id"]), "url": s.get("url"), "type": s.get("type"),
-                           "role": s.get("role", "news"), "why": s.get("why", ""), "tags": s.get("tags", [])})
+                           "role": s.get("role", "news"), "why": s.get("why", ""), "tags": s.get("tags", []),
+                           "sweep": bool(s.get("sweep"))})
             continue
         h = health.get(s["id"], {})
         week = [x for x in h.get("history", [])

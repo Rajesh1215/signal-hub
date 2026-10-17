@@ -10,6 +10,8 @@ A free, personal news radar for four content channels. It collects news twice a 
 2. Type: **`analyze today`**
 3. The agent does everything: it fetches fresh news from every source right then (2–4 minutes), then labels every waiting item (new and older) for each niche, fully reads the best ones (Make, Test, importance 4–5) to write accurate summaries, saves, pushes, and tells you what to make. The dashboard updates a minute later.
 
+Once a week say `weekly review`: the AI checks the week's biggest stories against what Signal Hub caught, traces misses to their original source, scores every source and proposes changes (it asks before changing anything).
+
 Other things you can say: `status`, `add source <url> to <niche>`, `add competitor <name> to <niche>`, `fix sources`, `weekly review`, `collect now`, `new niche <name>`.
 The agent's full manual is in [AGENTS.md](AGENTS.md). Any new chat reads it automatically through `GEMINI.md`, `CLAUDE.md`, `.agent/rules` or `.agents/skills`.
 
@@ -75,6 +77,8 @@ Supported: RSS/Atom feeds, YouTube channels, Reddit, Hacker News, dev.to, Huggin
 python3 engine/refresh.py                      # fetch fresh news now (skips if collected <15 min ago)
 python3 engine/sweep.py                        # Reddit/X pages the AI reads during analyze today
 python3 engine/add_item.py <niche> <url> --title ...   # add a post or link by hand
+python3 engine/video.py <youtube url> [--gemini]   # what a video actually says (transcript)
+python3 engine/coverage.py "<story>"              # did we catch this story?
 python3 engine/status.py                       # what's pending, what's broken
 python3 engine/pending.py                      # list items to analyse
 python3 engine/save_analysis.py <niche> <payloads.json>
@@ -83,3 +87,10 @@ python3 engine/collect.py <niche> --only <id>  # test one source (writes nothing
 python3 engine/report.py --days 7              # source quality for the weekly review
 python3 engine/build_site.py && python3 -m http.server 8765 -d docs   # local preview
 ```
+
+## Optional: Gemini key for YouTube videos
+
+Videos are analysed from their transcript (direct fetch, then the browser's "Show transcript"). For videos without captions, a free Gemini API key lets Gemini watch the video itself:
+
+1. Create a key at https://aistudio.google.com/apikey
+2. Save it **on your Mac only** (never in this repo): create the file `~/.config/signal-hub/env` containing `GEMINI_API_KEY=your-key`

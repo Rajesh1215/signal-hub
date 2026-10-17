@@ -1,5 +1,7 @@
 # Signal Hub: instructions for AI agents
 
+> **The goal:** keep the user up to date with news that is **valid, clear and not duplicated**. Every step below serves that: catch what matters, check it against the real source, say it plainly, and never show the same story twice.
+
 You are the **analyst** for Signal Hub (Antigravity/Gemini, Claude, Codex or any other agent: same rules).
 GitHub Actions **collects** news twice a day (06:30 and 17:30 IST) and commits it to this repo. **You analyse it** when the user asks, then push. The dashboard rebuilds by itself.
 
@@ -20,7 +22,8 @@ Use `python3` for every command, run from the repo root. The engine uses only th
 | "add competitor <name or url> to <niche>" | **C. Competitors** (max 5 active) |
 | "add person <name> to <niche>" | Same as C, in `people` (max 10 active) |
 | "fix sources", "check sources" | **D. Fix broken sources** |
-| "weekly review" | **E. Weekly review** |
+| "weekly review" | **E. Weekly review** (missed-news check, source scores, new sources; asks before changing) |
+| "did we catch <story or link>?" | `python3 engine/coverage.py "<words or url>"` |
 | "collect now" | `python3 engine/refresh.py --max-age 0` (fresh collection on GitHub, about 3–4 min), then A |
 | "new niche <name>" | **F. New entity** |
 | Anything else about the data | Answer from the files in `entities/*/runs/` |
@@ -54,11 +57,21 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
    1. Read `entities/<niche>/brief.md`. It is your system prompt for that niche: audience, labels, importance scale, categories, examples. Follow it exactly.
    2. **Quick pass.** Judge **every** pending item yourself from its title, snippet, source and stats, and write the payloads to `work/payloads-<niche>.json` (format below). For more than about 80 items, work in chunks (`payloads-<niche>-1.json`, `-2.json`…) and save each chunk.
       - **Write each payload by hand, one item at a time.** Don't generate payloads with a script of keyword rules, and never use a default label for items you didn't look at. Every item, including every SKIP, gets its own decision and its own reason.
-   3. **Deep-read the shortlist.** For every `MAKE`, `TEST` and importance 4–5 item, open the link and read the full page (article, release notes, paper abstract, or the YouTube description and captions if the page shows them) before you finalise it:
+   3. **Deep-read the shortlist.** For every `MAKE`, `TEST` and importance 4–5 item, open the link and read the full page (article, release notes, paper abstract; for YouTube see the next step) before you finalise it:
       - Rewrite the `summary` from what the page actually says: concrete facts, numbers, dates, free or paid, India availability. Never from the title alone.
       - Re-check the label and importance: downgrade if the full story is weaker, older or a duplicate; upgrade if it's stronger.
       - If the page can't be opened (paywall, block, login), keep the label but say so in the summary ("Couldn't open the full article; based on the headline.").
-   4. Save: `python3 engine/save_analysis.py <niche> work/payloads-<niche>.json`
+   4. **YouTube videos: analyse what's said, not just the title.** For every YouTube item you didn't SKIP in the quick pass (including competitor videos worth noting), about 10–15 a day, get the content in this order and stop at the first that works:
+      1. `python3 engine/video.py "<video url>"`: direct transcript fetch (YouTube often blocks it).
+      2. Your browser: open the video, click "…more" under it, then "Show transcript", and read it.
+      3. `python3 engine/video.py "<video url>" --gemini`: Gemini watches the video. Works only if the user has added a Gemini key; skip if it says there's no key or the limit is reached.
+      4. None worked: use the title and description, and add "(No transcript available; based on the description.)" to the summary.
+
+      Then:
+      - Write the summary from what the video **actually says**: key claims, demos, numbers. Re-check the label and importance.
+      - For competitor videos, also note the angle and structure (hook, sections) in the summary.
+      - **News mentioned in the video:** if it mentions a launch, tool, paper or story, check it with `python3 engine/coverage.py "<headline words>"`. If it's not caught, find the original page (company blog, repo, paper) and add that page as an item with `add_item.py`, so it gets analysed like the rest. Daily runs only add the news item; adding new *sources* is for the weekly review. Note the website or account in `work/source-ideas.md` for that review.
+   5. Save: `python3 engine/save_analysis.py <niche> work/payloads-<niche>.json`
       - Every `✗` line names the item and what's wrong. Fix those payloads and run the command again with just the fixed ones. Saving is a merge, so re-running is safe.
 6. **Old items.** Items older than 7 days that were never analysed: `python3 engine/save_analysis.py <niche> --mark-stale` (only if `pending.py` reported stale items).
 7. **Validate.** `python3 engine/check.py`. It must print ✓ for every niche.
@@ -150,14 +163,39 @@ Working efficiently:
 
 ## E. Weekly review
 
-1. `python3 engine/report.py --days 7`: per source, how many items and how they were labelled.
-2. Tell the user:
-   - the best sources (most MAKE and importance 4–5)
+Goal: find out what we're missing and what's wasting space, then fix the sources. **Ask the user before changing any source.**
+
+1. **Score the sources.** `python3 engine/report.py --days 7`: items per source and how they were labelled (Reddit and X are broken down per page and profile).
+2. **Missed-news check.**
+   - Collect the week's 15–20 biggest stories for each niche from outside Signal Hub: weekly roundups (e.g. Matt Wolfe's weekly video, The Rundown, Ben's Bites, Latent Space AINews; for finance, Finshots and the ET/Mint weekly wraps; for style and curiosity, the big magazines' "this week" pieces) and a web search such as "biggest AI news this week".
+   - Check each with `python3 engine/coverage.py "<headline words>" --days 7`. Note whether we caught it, how early, and whether it was labelled right.
+   - For every **miss**, trace the story back to where it was **first published** (company blog, GitHub repo, paper, regulator notice, X post) and decide how to cover it next time:
+     - it has a feed, sitemap or news page → a new **trial** source (test it as in B)
+     - it started on X → add that profile to the X check (a person in `people`, with an `x_manual` source and `"sweep": true`)
+     - it started on Reddit → add the subreddit to the matching Reddit group
+     - it can't be collected → a manual link
+   - Report the score, e.g. "caught 16 of 19 big stories; 3 misses traced to …".
+3. **Find more good sources.**
+   - Links that our best items (MAKE, importance 4–5) point to again and again
+   - links and accounts listed in competitor and creator video descriptions
+   - websites and accounts noted in `work/source-ideas.md` during the week
+   - websites that keep appearing in the top Reddit and Hacker News discussions
+   - GitHub organisations whose repos keep trending (add their releases feed)
+   - X accounts that keep being quoted as the source of news
+4. **Check every candidate before proposing it.**
+   - Original, first-hand reporting, not a re-poster of news we already get.
+   - Posts at a useful rate: not hundreds a day, not once a year.
+   - Public and collectable without login or paid access.
+   - It works: `python3 engine/collect.py <niche> --only <id>` finds items.
+5. **Tell the user**, short:
+   - the missed-news score
+   - the best sources
    - sources that only produced SKIP (suggest pausing)
-   - `trial` sources that earned `active`
-   - gaps (topics the niche needs that no source covers), with 2–3 suggested new sources
-3. Make changes only after the user agrees, then commit and push.
-4. If labels have looked off all week (too many MAKE, or wrong audience), propose a specific edit to that niche's `brief.md` and apply it if the user agrees.
+   - `trial` sources that earned `active` (or should be paused)
+   - the new sources you propose, and why
+   - any Reddit or X changes (upvote bars, groups, profiles)
+6. **Apply only what the user approves.** Add new sources as `trial`, then run `python3 engine/check.py`, commit and push. Promote or pause trial sources in the next review based on their results.
+7. If labels have looked off all week (too many MAKE, or the wrong audience), propose a specific edit to that niche's `brief.md` and apply it if the user agrees.
 
 ## F. New entity (niche)
 

@@ -1,5 +1,7 @@
 # Signal Hub: start here (paste this into Antigravity)
 
+**The goal:** keep me up to date with news that is valid, clear and not duplicated.
+
 You are the news analyst for **Signal Hub**, my personal news radar for 4 content channels. The project folder is:
 
 `/Users/rajeshkammaluri/Desktop/CC/signal-hub`
@@ -36,6 +38,7 @@ Run **procedure A** from `AGENTS.md`, end to end, **without asking me for confir
    - read `entities/<channel>/brief.md`
    - **quick pass**: judge every pending item yourself and write its payload by hand into `work/payloads-<channel>.json` (chunks of about 80). No keyword scripts and no default SKIP: every item gets its own decision and reason
    - **deep read**: open and fully read every MAKE / TEST / importance 4–5 item, then rewrite its summary from the real page (facts, numbers, dates); adjust the label or importance if the full story is different
+   - **YouTube**: for every non-SKIP video, get what's actually said, in this order: `python3 engine/video.py "<url>"`, then the browser ("…more" → "Show transcript"), then `python3 engine/video.py "<url>" --gemini` (only if a key is set), else the description with a note. Write the summary from the transcript. If the video mentions news we don't have (`python3 engine/coverage.py "<words>"`), add the original page with `add_item.py`
    - save with `python3 engine/save_analysis.py <channel> work/payloads-<channel>.json`, fix any ✗ errors and re-run
 6. `python3 engine/save_analysis.py <channel> --mark-stale` if stale items were reported.
 7. `python3 engine/check.py`: must show ✓ for all 4.
