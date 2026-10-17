@@ -19,6 +19,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from html import unescape
@@ -27,7 +28,9 @@ from pathlib import Path
 from common import ROOT, http_get
 
 OUT = ROOT / "work" / "transcripts"
-GEMINI_MODEL = os.environ.get("SIGNAL_HUB_GEMINI_MODEL", "gemini-2.5-flash")
+# Tried in order; a model that is busy (503) or out of free quota (429) is skipped.
+GEMINI_MODELS = [m for m in os.environ.get("SIGNAL_HUB_GEMINI_MODELS", "").split(",") if m] or [
+    "gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-latest", "gemini-2.5-flash", "gemini-3.5-flash-lite"]
 PROMPT = ("Summarise this video for a content researcher. Give: 1) what the video is about in 2 sentences, "
           "2) every concrete claim, launch, tool, number or date mentioned, as bullets with timestamps, "
           "3) any products, companies, websites or people it mentions as sources, "
@@ -77,18 +80,33 @@ def gemini(url):
     if not key:
         return None, "no Gemini key (add GEMINI_API_KEY to ~/.config/signal-hub/env)"
     body = json.dumps({"contents": [{"parts": [{"file_data": {"file_uri": url}}, {"text": PROMPT}]}]}).encode()
-    req = urllib.request.Request(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
-        data=body, headers={"Content-Type": "application/json", "x-goog-api-key": key})
-    try:
-        with urllib.request.urlopen(req, timeout=300) as r:
-            data = json.loads(r.read())
-    except urllib.error.HTTPError as e:
-        msg = e.read().decode(errors="replace")[:200]
-        return None, f"Gemini error {e.code}" + (" (daily free limit reached)" if e.code == 429 else "") + f": {msg}"
-    parts = (data.get("candidates") or [{}])[0].get("content", {}).get("parts", [])
-    text = "\n".join(p.get("text", "") for p in parts).strip()
-    return (text, None) if text else (None, "Gemini returned nothing")
+    errors = []
+    for model in GEMINI_MODELS:
+        for attempt in range(2):
+            req = urllib.request.Request(
+                f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+                data=body, headers={"Content-Type": "application/json", "x-goog-api-key": key})
+            try:
+                with urllib.request.urlopen(req, timeout=300) as r:
+                    data = json.loads(r.read())
+            except urllib.error.HTTPError as e:
+                if e.code in (429, 500, 503) and attempt == 0 and e.code != 429:
+                    time.sleep(8)
+                    continue
+                errors.append(f"{model}: {e.code}")
+                if e.code in (400, 401, 403):
+                    return None, f"Gemini rejected the request ({e.code}): {e.read().decode(errors='replace')[:200]}"
+                break
+            except OSError as e:
+                errors.append(f"{model}: {type(e).__name__}")
+                break
+            parts = (data.get("candidates") or [{}])[0].get("content", {}).get("parts", [])
+            text = "\n".join(p.get("text", "") for p in parts).strip()
+            if text:
+                return f"model: {model}\n\n{text}", None
+            errors.append(f"{model}: empty answer")
+            break
+    return None, "all Gemini models busy or out of quota (" + ", ".join(errors) + ")"
 
 
 def main(argv):
