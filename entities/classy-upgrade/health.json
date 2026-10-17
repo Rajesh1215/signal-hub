@@ -1,8 +1,16 @@
 {
  "gq-india": {
-  "consecutive_errors": 1,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 403: Forbidden"
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T08:41:01Z",
+    "found": 20,
+    "new": 15
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T08:41:01Z",
+  "last_run": "2026-10-17T08:41:01Z"
  },
  "vogue-india": {
   "consecutive_errors": 0,
@@ -11,16 +19,29 @@
     "at": "2026-10-17T07:33:08Z",
     "found": 30,
     "new": 15
+   },
+   {
+    "at": "2026-10-17T08:41:01Z",
+    "found": 30,
+    "new": 15
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T07:33:08Z",
-  "last_run": "2026-10-17T07:33:08Z"
+  "last_ok": "2026-10-17T08:41:01Z",
+  "last_run": "2026-10-17T08:41:01Z"
  },
  "ie-fashion": {
-  "consecutive_errors": 1,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 403: Forbidden"
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T08:41:01Z",
+    "found": 2,
+    "new": 2
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T08:41:01Z",
+  "last_run": "2026-10-17T08:41:01Z"
  },
  "esquire-style": {
   "consecutive_errors": 0,
@@ -29,11 +50,16 @@
     "at": "2026-10-17T07:33:08Z",
     "found": 50,
     "new": 10
+   },
+   {
+    "at": "2026-10-17T08:41:01Z",
+    "found": 50,
+    "new": 7
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T07:33:08Z",
-  "last_run": "2026-10-17T07:33:08Z"
+  "last_ok": "2026-10-17T08:41:01Z",
+  "last_run": "2026-10-17T08:41:01Z"
  },
  "allure": {
   "consecutive_errors": 0,
@@ -42,11 +68,16 @@
     "at": "2026-10-17T07:33:08Z",
     "found": 30,
     "new": 15
+   },
+   {
+    "at": "2026-10-17T08:41:01Z",
+    "found": 30,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T07:33:08Z",
-  "last_run": "2026-10-17T07:33:08Z"
+  "last_ok": "2026-10-17T08:41:01Z",
+  "last_run": "2026-10-17T08:41:01Z"
  },
  "highsnobiety": {
   "consecutive_errors": 0,
@@ -55,14 +86,19 @@
     "at": "2026-10-17T07:33:08Z",
     "found": 14,
     "new": 14
+   },
+   {
+    "at": "2026-10-17T08:41:01Z",
+    "found": 14,
+    "new": 0
    }
   ],
   "state": {
    "etag": "\"a7ded0c791a503df29dbe852c577af24\"",
    "last_modified": "Sat, 17 Oct 2026 07:00:42 GMT"
   },
-  "last_ok": "2026-10-17T07:33:08Z",
-  "last_run": "2026-10-17T07:33:08Z"
+  "last_ok": "2026-10-17T08:41:01Z",
+  "last_run": "2026-10-17T08:41:01Z"
  },
  "hypebeast": {
   "consecutive_errors": 0,
@@ -71,16 +107,29 @@
     "at": "2026-10-17T07:33:08Z",
     "found": 19,
     "new": 15
+   },
+   {
+    "at": "2026-10-17T08:41:01Z",
+    "found": 19,
+    "new": 4
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T07:33:08Z",
-  "last_run": "2026-10-17T07:33:08Z"
+  "last_ok": "2026-10-17T08:41:01Z",
+  "last_run": "2026-10-17T08:41:01Z"
  },
  "bof": {
-  "consecutive_errors": 1,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 403: Forbidden"
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-17T08:41:01Z",
+    "found": 100,
+    "new": 10
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-17T08:41:01Z",
+  "last_run": "2026-10-17T08:41:01Z"
  },
  "r-malefashionadvice": {
   "consecutive_errors": 1,
@@ -109,11 +158,16 @@
     "at": "2026-10-17T07:33:08Z",
     "found": 15,
     "new": 3
+   },
+   {
+    "at": "2026-10-17T08:41:01Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T07:33:08Z",
-  "last_run": "2026-10-17T07:33:08Z"
+  "last_ok": "2026-10-17T08:41:01Z",
+  "last_run": "2026-10-17T08:41:01Z"
  },
  "comp-justine-yt": {
   "consecutive_errors": 0,
@@ -122,11 +176,16 @@
     "at": "2026-10-17T07:33:08Z",
     "found": 15,
     "new": 1
+   },
+   {
+    "at": "2026-10-17T08:41:01Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T07:33:08Z",
-  "last_run": "2026-10-17T07:33:08Z"
+  "last_ok": "2026-10-17T08:41:01Z",
+  "last_run": "2026-10-17T08:41:01Z"
  },
  "comp-pranaysai-yt": {
   "consecutive_errors": 0,
@@ -135,10 +194,15 @@
     "at": "2026-10-17T07:33:08Z",
     "found": 15,
     "new": 3
+   },
+   {
+    "at": "2026-10-17T08:41:01Z",
+    "found": 15,
+    "new": 3
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T07:33:08Z",
-  "last_run": "2026-10-17T07:33:08Z"
+  "last_ok": "2026-10-17T08:41:01Z",
+  "last_run": "2026-10-17T08:41:01Z"
  }
 }
