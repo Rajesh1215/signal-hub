@@ -464,6 +464,139 @@
    "max_new": 3
   },
   {
+   "id": "yt-matt-wolfe",
+   "name": "Matt Wolfe",
+   "type": "youtube",
+   "channel_id": "UChpleBmo18P08aKCIgti38g",
+   "role": "news",
+   "tags": [
+    "creator",
+    "ai-news",
+    "tools"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-riley-brown",
+   "name": "Riley Brown",
+   "type": "youtube",
+   "channel_id": "UCMcoud_ZW7cfxeIugBflSBw",
+   "role": "news",
+   "tags": [
+    "creator",
+    "vibe-coding",
+    "tools"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-cole-medin",
+   "name": "Cole Medin",
+   "type": "youtube",
+   "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
+   "role": "news",
+   "tags": [
+    "creator",
+    "agents",
+    "tutorial"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-ai-advantage",
+   "name": "The AI Advantage",
+   "type": "youtube",
+   "channel_id": "UCHhYXsLBEVVnbvsq57n1MTQ",
+   "role": "news",
+   "tags": [
+    "creator",
+    "tools",
+    "tutorial"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-wes-roth",
+   "name": "Wes Roth",
+   "type": "youtube",
+   "channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw",
+   "role": "news",
+   "tags": [
+    "creator",
+    "ai-news"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-sam-witteveen",
+   "name": "Sam Witteveen",
+   "type": "youtube",
+   "channel_id": "UC55ODQSvARtgSyc8ThfiepQ",
+   "role": "news",
+   "tags": [
+    "creator",
+    "models",
+    "tutorial"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-yannic-kilcher",
+   "name": "Yannic Kilcher",
+   "type": "youtube",
+   "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+   "role": "news",
+   "tags": [
+    "creator",
+    "research"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-bycloud",
+   "name": "bycloud",
+   "type": "youtube",
+   "channel_id": "UCgfe2ooZD3VJPB6aJAnuQng",
+   "role": "news",
+   "tags": [
+    "creator",
+    "research",
+    "explainer"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yt-ai-jason",
+   "name": "AI Jason",
+   "type": "youtube",
+   "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw",
+   "role": "news",
+   "tags": [
+    "creator",
+    "agents",
+    "tutorial"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
    "id": "x-ai-list",
    "name": "X: your AI list",
    "type": "x_manual",
@@ -603,6 +736,14 @@
      "type": "feed",
      "url": "https://karpathy.bearblog.dev/feed/",
      "max_age_days": 7
+    },
+    {
+     "id": "p-karpathy-x",
+     "name": "Andrej Karpathy on X",
+     "type": "x_manual",
+     "url": "https://x.com/karpathy",
+     "mode": "manual",
+     "why": "X can't be collected automatically; open their profile for quick takes"
     }
    ]
   },
@@ -618,6 +759,14 @@
      "url": "https://simonwillison.net/atom/everything/",
      "max_new": 6,
      "max_age_days": 7
+    },
+    {
+     "id": "p-simon-willison-x",
+     "name": "Simon Willison on X",
+     "type": "x_manual",
+     "url": "https://x.com/simonw",
+     "mode": "manual",
+     "why": "X can't be collected automatically; open their profile for quick takes"
     }
    ]
   },
@@ -632,6 +781,14 @@
      "type": "feed",
      "url": "https://magazine.sebastianraschka.com/feed",
      "max_age_days": 7
+    },
+    {
+     "id": "p-sebastian-raschka-x",
+     "name": "Sebastian Raschka on X",
+     "type": "x_manual",
+     "url": "https://x.com/rasbt",
+     "mode": "manual",
+     "why": "X can't be collected automatically; open their profile for quick takes"
     }
    ]
   },
@@ -646,6 +803,14 @@
      "type": "feed",
      "url": "https://www.interconnects.ai/feed",
      "max_age_days": 7
+    },
+    {
+     "id": "p-nathan-lambert-x",
+     "name": "Nathan Lambert on X",
+     "type": "x_manual",
+     "url": "https://x.com/natolambert",
+     "mode": "manual",
+     "why": "X can't be collected automatically; open their profile for quick takes"
     }
    ]
   },
@@ -660,6 +825,14 @@
      "type": "feed",
      "url": "https://www.oneusefulthing.org/feed",
      "max_age_days": 7
+    },
+    {
+     "id": "p-ethan-mollick-x",
+     "name": "Ethan Mollick on X",
+     "type": "x_manual",
+     "url": "https://x.com/emollick",
+     "mode": "manual",
+     "why": "X can't be collected automatically; open their profile for quick takes"
     }
    ]
   },
@@ -674,6 +847,14 @@
      "type": "feed",
      "url": "https://blog.samaltman.com/posts.atom",
      "max_age_days": 7
+    },
+    {
+     "id": "p-sam-altman-x",
+     "name": "Sam Altman on X",
+     "type": "x_manual",
+     "url": "https://x.com/sama",
+     "mode": "manual",
+     "why": "X can't be collected automatically; open their profile for quick takes"
     }
    ]
   }
