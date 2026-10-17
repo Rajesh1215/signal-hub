@@ -30,7 +30,7 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
 
 ## A. Analyse pending items ("analyze today")
 
-1. **Get fresh news.** `python3 engine/refresh.py`. It pulls the repo. If the last collection is more than 3 hours old, it runs a fresh collection on GitHub first (about 3–4 minutes, from every blog and feed), then pulls again. Let it finish before going on. If it says it couldn't collect, carry on with the data that's there and mention it in the report. If the user says "quick" or "no refresh", run `git pull --rebase` instead.
+1. **Get fresh news.** `python3 engine/refresh.py`. It pulls the repo, runs a fresh collection on GitHub from every blog and feed (2–4 minutes; skipped only if the last collection was in the last 15 minutes), then pulls again. You then analyse everything still waiting: the new items plus any older pending ones. Let it finish before going on. If it says it couldn't collect, carry on with the data that's there and mention it in the report. If the user says "quick" or "no refresh", run `git pull --rebase` instead.
 2. **Status.** `python3 engine/status.py`. Note BROKEN or QUIET sources for the final report.
 3. **List the work.** `python3 engine/pending.py`. For each niche it prints:
    - the allowed labels, timing, reasons and flags (from `config.json`)
@@ -40,8 +40,13 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
    Full records are in `work/pending-<niche>.json` if you need more detail.
 4. **For each niche with pending items:**
    1. Read `entities/<niche>/brief.md`. It is your system prompt for that niche: audience, label rules, flag rules, examples. Follow it exactly.
-   2. Label **every** pending item. Write the result to `work/payloads-<niche>.json` (format below). For more than about 80 items, work in chunks (`payloads-<niche>-1.json`, `-2.json`…) and save each chunk.
-   3. Save: `python3 engine/save_analysis.py <niche> work/payloads-<niche>.json`
+   2. **Quick pass.** Label **every** pending item from its title, snippet, source and stats. Write the result to `work/payloads-<niche>.json` (format below). For more than about 80 items, work in chunks (`payloads-<niche>-1.json`, `-2.json`…) and save each chunk.
+   3. **Deep-read the shortlist.** For every item you labelled `MAKE`, `IMPORTANT` or `TEST`, open the link and read the full page (article, release notes, paper abstract, or the YouTube description and captions if the page shows them) before you finalise it:
+      - Write the `summary` from what the page actually says: concrete facts, numbers, dates and who it's for. Never write it from the title alone.
+      - Re-check the label: if the full story is weaker, older or a duplicate, downgrade it (e.g. to `KNOW`); if it's stronger, upgrade it.
+      - Re-check flags such as `free_access`, `india_relevant` and `verified_official` against the page.
+      - If the page can't be opened (paywall, block, login), keep the label but say so in the summary ("Couldn't open the full article; based on the headline.").
+   4. Save: `python3 engine/save_analysis.py <niche> work/payloads-<niche>.json`
       - Every `✗` line names the item and what's wrong. Fix those payloads and run the command again with just the fixed ones. Saving is a merge, so re-running is safe.
 5. **Old items.** Items older than 7 days that were never analysed: `python3 engine/save_analysis.py <niche> --mark-stale` (only if `pending.py` reported stale items).
 6. **Validate.** `python3 engine/check.py`. It must print ✓ for every niche.
@@ -87,7 +92,7 @@ Rules enforced by `save_analysis.py`:
 
 Working efficiently:
 - `SKIP` needs only `id`, `label`, `reason`. Fill flags for non-SKIP items.
-- Open a link only for possible MAKE/IMPORTANT items whose snippet is too thin to judge, to confirm the facts.
+- Don't open links during the quick pass. Open and fully read only the shortlist (MAKE, IMPORTANT, TEST) in the deep-read step.
 - Most items should be SKIP or KNOW. Respect the per-day guide in each brief: a few strong MAKE items beat many weak ones.
 - Never invent facts in summaries. Use only what the source says.
 

@@ -1,9 +1,9 @@
 """Make sure the news is fresh before analysing. Step 1 of "analyze today".
 
-    python3 engine/refresh.py               # collect first if the last collection is over 3 hours old
+    python3 engine/refresh.py               # collect now, unless the last collection was in the last 15 minutes
     python3 engine/refresh.py --max-age 0   # always collect now ("collect now")
 
-Pulls the repo. If the data is too old, triggers the GitHub "collect" workflow
+Pulls the repo, then triggers the GitHub "collect" workflow
 (it stays the only writer of collected data), waits for it to finish and pulls
 again. If GitHub can't be reached, it says so and the analysis continues on the
 data that is already there.
@@ -55,13 +55,13 @@ def collect_on_github():
 
 
 def main(argv):
-    max_age = float(argv[argv.index("--max-age") + 1]) if "--max-age" in argv else 3
+    max_age = float(argv[argv.index("--max-age") + 1]) if "--max-age" in argv else 0.25  # hours
     pull()
     last = last_collect()
     age = (now_utc() - last).total_seconds() / 3600 if last else 999
     when = last.astimezone(IST).strftime("%d %b %H:%M IST") if last else "never"
     if age < max_age:
-        print(f"News is fresh: last collected {age:.1f} h ago ({when}). Nothing to fetch.")
+        print(f"News is fresh: last collected {round(age * 60)} min ago ({when}). Nothing to fetch.")
         return
     print(f"Last collected {when} ({age:.1f} h ago): fetching the latest news first.", flush=True)
     try:
