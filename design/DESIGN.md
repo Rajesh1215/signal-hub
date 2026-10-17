@@ -1,3 +1,5 @@
+> **Note:** original design notes, kept for reference. What is actually built (collection in GitHub Actions, analysis by a local agent with "analyze today", JSON files in this repo, Pages dashboard) is described in [README.md](../README.md) and [AGENTS.md](../AGENTS.md).
+
 # Signal Hub: design
 
 Last updated: 17 October 2026 · Status: proposal, not built · No Telegram (dashboard + X + chat only)
