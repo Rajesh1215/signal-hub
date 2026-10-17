@@ -4,12 +4,12 @@
     python engine/save_analysis.py <entity> --mark-stale [--days 7]
 
 Rules enforced: label from config (competitor items may also use competitor
-labels); MAKE needs timing + evergreen 1-5; MAKE/IMPORTANT need a summary;
-summaries only on MAKE, IMPORTANT and non-SKIP competitor items; flags typed.
+labels); MAKE needs timing + evergreen 1-5; every non-SKIP item needs a summary;
+non-SKIP news items need importance 1-5 and flags.category; flags typed.
 
 payloads.json is a list of objects:
-  {"id": "...", "label": "MAKE", "timing": "NOW", "evergreen": 2,
-   "reason": "official_launch", "flags": {...}, "summary": "only for MAKE/IMPORTANT"}
+  {"id": "...", "label": "MAKE", "importance": 4, "timing": "NOW", "evergreen": 2,
+   "reason": "model_release", "flags": {"category": "model"}, "summary": "... Hook: '...'"}
 
 Every field is checked against entities/<entity>/config.json. Invalid payloads
 are rejected with a message (fix and re-run); valid ones are merged into
@@ -54,11 +54,19 @@ def validate(p, cfg, role):
             errs.append(f"flag '{k}' must be an integer")
         elif spec["type"] == "date" and not _is_date(v):
             errs.append(f"flag '{k}' must be YYYY-MM-DD")
-    summary_ok = p.get("label") in ("MAKE", "IMPORTANT") or (role == "competitor" and p.get("label") != "SKIP")
-    if p.get("summary") and not summary_ok:
-        errs.append("summary is only allowed for MAKE, IMPORTANT or competitor items")
-    if p.get("label") in ("MAKE", "IMPORTANT") and not p.get("summary"):
-        errs.append("MAKE and IMPORTANT need a one-line summary")
+    useful = p.get("label") not in ("SKIP", "STALE", None)
+    if p.get("summary") and not useful:
+        errs.append("summary is not used on SKIP items (give a reason instead)")
+    if useful and not p.get("summary"):
+        errs.append("every non-SKIP item needs a summary (what happened + why it matters)")
+    imp = p.get("importance")
+    if imp is not None and (not isinstance(imp, int) or not 1 <= imp <= 5):
+        errs.append("importance must be an integer 1-5")
+    if useful and role != "competitor":
+        if imp is None:
+            errs.append("non-SKIP items need importance 1-5")
+        if "category" in cfg["flags"] and not (p.get("flags") or {}).get("category"):
+            errs.append("non-SKIP items need flags.category")
     return errs
 
 

@@ -12,7 +12,6 @@
  "labels": [
   "SKIP",
   "KNOW",
-  "IMPORTANT",
   "MAKE",
   "TEST",
   "STUDY"
@@ -75,52 +74,6 @@
     "business"
    ],
    "help": "What kind of news this is"
-  },
-  "audience_fit": {
-   "type": "enum",
-   "values": [
-    "students",
-    "developers",
-    "both",
-    "experts_only"
-   ],
-   "help": "Who would care"
-  },
-  "video_format": {
-   "type": "enum",
-   "values": [
-    "news_short",
-    "test",
-    "explainer",
-    "tutorial",
-    "comparison",
-    "none"
-   ],
-   "help": "Best video shape"
-  },
-  "india_relevant": {
-   "type": "bool",
-   "help": "Available in India, Indian pricing/language, or Indian company"
-  },
-  "free_access": {
-   "type": "bool",
-   "help": "Viewers can try it free today"
-  },
-  "open_source": {
-   "type": "bool",
-   "help": "Weights or code are public"
-  },
-  "beginner_friendly": {
-   "type": "bool",
-   "help": "Can be explained to a beginner in under a minute"
-  },
-  "needs_test": {
-   "type": "bool",
-   "help": "Claims must be tried hands-on before making a video"
-  },
-  "verified_official": {
-   "type": "bool",
-   "help": "Confirmed by the company's own post, docs or repo"
   }
  },
  "filters": {
@@ -131,5 +84,11 @@
  "caps": {
   "competitors": 5,
   "people": 10
+ },
+ "importance": {
+  "min": 1,
+  "max": 5,
+  "important_from": 4,
+  "help": "How much the audience needs to know this: 5 everyone will hear about it, 4 changes how many of them work/learn/spend, 3 useful, 2 niche, 1 minor"
  }
 }

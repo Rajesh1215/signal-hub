@@ -12,7 +12,6 @@
  "labels": [
   "SKIP",
   "KNOW",
-  "IMPORTANT",
   "MAKE"
  ],
  "competitor_labels": [
@@ -69,57 +68,6 @@
     "industry"
    ],
    "help": "Topic area"
-  },
-  "trend_stage": {
-   "type": "enum",
-   "values": [
-    "emerging",
-    "peak",
-    "fading",
-    "evergreen"
-   ],
-   "help": "Where the trend is right now"
-  },
-  "occasion": {
-   "type": "enum",
-   "values": [
-    "wedding",
-    "festival",
-    "office",
-    "college",
-    "date",
-    "summer",
-    "monsoon",
-    "winter",
-    "travel",
-    "none"
-   ],
-   "help": "Occasion or season it fits"
-  },
-  "gender": {
-   "type": "enum",
-   "values": [
-    "men",
-    "women",
-    "all"
-   ],
-   "help": "Who it is for"
-  },
-  "budget_friendly": {
-   "type": "bool",
-   "help": "Can be done without expensive products"
-  },
-  "india_relevant": {
-   "type": "bool",
-   "help": "Works for Indian climate, skin tones, budgets or events"
-  },
-  "educational_angle": {
-   "type": "bool",
-   "help": "Has a 'why/how it works' angle, not just a product or a look"
-  },
-  "science_backed": {
-   "type": "bool",
-   "help": "Grounded in dermatology/research, not influencer claims"
   }
  },
  "filters": {
@@ -130,5 +78,11 @@
  "caps": {
   "competitors": 5,
   "people": 10
+ },
+ "importance": {
+  "min": 1,
+  "max": 5,
+  "important_from": 4,
+  "help": "How much the audience needs to know this: 5 everyone will hear about it, 4 changes how many of them work/learn/spend, 3 useful, 2 niche, 1 minor"
  }
 }

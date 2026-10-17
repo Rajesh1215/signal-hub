@@ -12,7 +12,6 @@
  "labels": [
   "SKIP",
   "KNOW",
-  "IMPORTANT",
   "MAKE"
  ],
  "competitor_labels": [
@@ -72,38 +71,9 @@
    ],
    "help": "Topic area"
   },
-  "visual_potential": {
-   "type": "enum",
-   "values": [
-    "high",
-    "medium",
-    "low"
-   ],
-   "help": "How well it can be shown with motion graphics"
-  },
   "anniversary_date": {
    "type": "date",
    "help": "YYYY-MM-DD of an upcoming anniversary worth posting on"
-  },
-  "verified_primary": {
-   "type": "bool",
-   "help": "Backed by a paper, agency (NASA/ESA/ISRO) or museum, not only a blog"
-  },
-  "what_if_potential": {
-   "type": "bool",
-   "help": "Can become a 'what if' video"
-  },
-  "india_angle": {
-   "type": "bool",
-   "help": "Has an Indian link (ISRO, Indian history, Indian scientist)"
-  },
-  "sensitive": {
-   "type": "bool",
-   "help": "War, death, religion or tragedy: needs a careful, respectful script"
-  },
-  "surprising_fact": {
-   "type": "bool",
-   "help": "Contains a fact most people get wrong or have never heard"
   }
  },
  "filters": {
@@ -114,5 +84,11 @@
  "caps": {
   "competitors": 5,
   "people": 10
+ },
+ "importance": {
+  "min": 1,
+  "max": 5,
+  "important_from": 4,
+  "help": "How much the audience needs to know this: 5 everyone will hear about it, 4 changes how many of them work/learn/spend, 3 useful, 2 niche, 1 minor"
  }
 }

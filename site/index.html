@@ -128,7 +128,15 @@ main { padding:16px 16px calc(92px + env(safe-area-inset-bottom)); max-width:108
 .sec button { border:0; background:none; color:var(--muted); font-size:13.5px; font-weight:600; cursor:pointer; padding:0; white-space:nowrap; }
 .grid { display:grid; grid-template-columns:1fr; gap:12px; }
 @media (min-width: 720px) { .grid.two { grid-template-columns:repeat(2, 1fr); } .grid.three { grid-template-columns:repeat(3, 1fr); } }
-.stack { display:flex; flex-direction:column; gap:10px; }
+.stack, .cards { display:flex; flex-direction:column; gap:10px; }
+@media (min-width: 920px) {
+  .cards { display:grid; grid-template-columns:repeat(auto-fill, minmax(310px, 1fr)); gap:14px; }
+  .list.rows { display:grid; grid-template-columns:repeat(2, 1fr); column-gap:28px; }
+  .list.rows .ritem { border-bottom:1px solid var(--line); }
+}
+.tag.imp4 { background:color-mix(in srgb, var(--important) 16%, transparent); color:var(--important); font-weight:700; }
+.tag.imp5 { background:var(--important); color:#fff; font-weight:750; }
+.ever b { font-size:11px; font-weight:600; color:var(--muted); margin-right:3px; }
 
 .banner { display:flex; gap:12px; align-items:flex-start; padding:14px 16px; border-radius:var(--radius); margin-bottom:16px;
   background:color-mix(in srgb, var(--tone, var(--pending)) 10%, var(--surface)); border:1px solid color-mix(in srgb, var(--tone, var(--pending)) 28%, var(--line)); }
@@ -300,15 +308,20 @@ const items = () => DATA[S.entity] || [];
 const news = () => items().filter(it => it.role !== 'competitor');
 const rivals = () => items().filter(it => it.role === 'competitor' && (S.comp === 'ALL' || it.competitor_id === S.comp));
 const useful = it => it.status === 'analyzed' && !['SKIP', 'STALE'].includes(it.label);
+const imp = it => it.importance || (it.label === 'IMPORTANT' ? 4 : 0);
+const isImp = it => useful(it) && imp(it) >= 4;
+const IMPNAME = { 5:'Must know', 4:'Important', 3:'Useful', 2:'Niche', 1:'Minor' };
+const desk = matchMedia('(min-width: 920px)');
+const cardMode = () => desk.matches ? 'hero' : 'normal';
 function byPriority(a, b) {
-  return (RANK.indexOf(lab(a)) - RANK.indexOf(lab(b))) || ((TIMING[a.timing]?.[2] ?? 3) - (TIMING[b.timing]?.[2] ?? 3))
+  return (RANK.indexOf(lab(a)) - RANK.indexOf(lab(b))) || (imp(b) - imp(a)) || ((TIMING[a.timing]?.[2] ?? 3) - (TIMING[b.timing]?.[2] ?? 3))
     || ((b.evergreen || 0) - (a.evergreen || 0)) || newest(a, b);
 }
 
 // ---------- pieces ----------
 function flagChips(it) {
   const defs = ent().flags || {};
-  return Object.entries(it.flags || {}).filter(([, v]) => v !== false && v != null && v !== 'none' && v !== '')
+  return Object.entries(it.flags || {}).filter(([k, v]) => defs[k] && v !== false && v != null && v !== 'none' && v !== '')
     .sort(([a], [b]) => (a === 'category' ? -1 : b === 'category' ? 1 : 0))
     .map(([k, v]) => {
       const text = v === true ? human(k) : k === 'category' ? human(v)
@@ -342,7 +355,8 @@ function card(it, mode = 'normal') {
   const L = lab(it), color = (LABELS[L] || [])[1] || 'var(--skip)', src = srcName(it), m = it.meta || {};
   const b = [badgeFor(L)];
   if (it.timing && TIMING[it.timing]) b.push(`<span class="tag ${TIMING[it.timing][1]}">${TIMING[it.timing][0]}</span>`);
-  if (it.evergreen) b.push(`<span class="ever" title="Evergreen ${it.evergreen}/5">${[1,2,3,4,5].map(n => `<i class="${n <= it.evergreen ? 'f' : ''}"></i>`).join('')}</span>`);
+  if (imp(it) && L !== 'IMPORTANT') b.push(`<span class="tag ${imp(it) >= 4 ? 'imp' + imp(it) : ''}" title="Importance ${imp(it)}/5">${IMPNAME[imp(it)]}</span>`);
+  if (it.evergreen) b.push(`<span class="ever" title="Evergreen ${it.evergreen}/5: how long the video stays useful"><b>Evergreen</b>${[1,2,3,4,5].map(n => `<i class="${n <= it.evergreen ? 'f' : ''}"></i>`).join('')}</span>`);
   if (it.reason) b.push(`<span class="tag">${esc(human(it.reason))}</span>`);
   const snip = it.snippet && !it.snippet.startsWith((it.title || '').slice(0, 30)) ? it.snippet : '';
   const text = it.summary ? `<p class="summary">${esc(it.summary)}</p>` : snip ? `<p class="snippet">${esc(snip)}</p>` : '';
@@ -423,8 +437,8 @@ function viewOverview() {
   const analysedAny = items().some(it => it.status === 'analyzed');
   const tiles = [
     ['To make', count(['MAKE', 'TEST']), 'var(--make)', 'MAKE', 'video ideas this week'],
-    ['Important', count(['IMPORTANT', 'WATCH']), 'var(--important)', 'IMPORTANT', 'big news this week'],
-    ['Good to know', count(['KNOW', 'STUDY']), 'var(--know)', 'KNOW', 'context, no video'],
+    ['Important', wk.filter(isImp).length, 'var(--important)', 'IMP', 'must-know news this week'],
+    ['Good to know', count(['KNOW', 'STUDY', 'WATCH']), 'var(--know)', 'KNOW', 'context, no video'],
     ['Waiting', pending, 'var(--pending)', 'PENDING', 'not analysed yet'],
   ].map(([l, n, c, L, sub]) => `<button class="tile" style="--lc:${c}" data-set="${attr({ view:'feed', date:'week', label:L })}">
     <div class="num">${n}</div><div class="lbl">${l}</div><div class="sub">${sub}</div></button>`).join('');
@@ -437,17 +451,17 @@ function viewOverview() {
       <button class="btn primary" data-set="${attr({ view:'feed', label:'PENDING', date:'week' })}">Browse ${pending} waiting items</button></div>`;
   } else {
     const make = wk.filter(it => ['MAKE', 'TEST'].includes(it.label)).sort(byPriority);
-    const imp = wk.filter(it => ['IMPORTANT', 'WATCH'].includes(it.label)).sort(byPriority);
+    const impList = wk.filter(it => isImp(it) && !['MAKE', 'TEST'].includes(it.label)).sort((a, b) => (imp(b) - imp(a)) || newest(a, b));
     html += `<div class="sec"><h2>Make next</h2><button data-set="${attr({ view:'feed', label:'MAKE', date:'week', sort:'priority' })}">See all →</button></div>`;
     html += make.length ? `<div class="grid two">${make.slice(0, 6).map(it => card(it, 'hero')).join('')}</div>`
       : `<div class="empty">No video ideas this week yet.</div>`;
-    html += `<div class="sec"><h2>Important</h2><button data-set="${attr({ view:'feed', label:'IMPORTANT', date:'week' })}">See all →</button></div>`;
-    html += imp.length ? `<div class="stack">${imp.slice(0, 6).map(it => card(it)).join('')}</div>` : `<div class="empty">Nothing important this week.</div>`;
+    html += `<div class="sec"><h2>Important</h2><button data-set="${attr({ view:'feed', label:'IMP', date:'week' })}">See all →</button></div>`;
+    html += impList.length ? `<div class="cards">${impList.slice(0, 6).map(it => card(it, cardMode())).join('')}</div>` : `<div class="empty">Nothing important this week.</div>`;
   }
   const comp = items().filter(it => it.role === 'competitor' && inRange(it, 'week') && lab(it) !== 'SKIP').sort(newest);
   if (comp.length) {
     html += `<div class="sec"><h2>Latest from competitors</h2><button data-set="${attr({ view:'competitors' })}">See all →</button></div>
-      <div class="grid three">${comp.slice(0, 6).map(it => card(it, 'hero')).join('')}</div>`;
+      <div class="cards">${comp.slice(0, 6).map(it => card(it, 'hero')).join('')}</div>`;
   }
   if (e.manual.length) {
     html += `<div class="sec"><h2>Also check by hand</h2><button data-set="${attr({ view:'manual' })}">All ${e.manual.length} →</button></div>
@@ -460,12 +474,13 @@ function filterBar(base, labelList) {
   base.filter(it => inRange(it)).forEach(it => {
     const L = lab(it); counts[L] = (counts[L] || 0) + 1;
     if (useful(it)) counts.USEFUL = (counts.USEFUL || 0) + 1;
+    if (isImp(it)) counts.IMP = (counts.IMP || 0) + 1;
     if (L !== 'SKIP' && L !== 'STALE') counts.ALL = (counts.ALL || 0) + 1;
   });
   const chips = labelList.map(L => {
-    const name = L === 'USEFUL' ? 'Analysed' : L === 'ALL' ? 'All news' : (LABELS[L] || [L])[0];
-    const color = (LABELS[L] || [])[1];
-    return `<button class="chip ${S.label === L ? 'on' : ''}" data-set="${attr({ label:L })}" title="${esc((LABELS[L] || [])[2] || (L === 'USEFUL' ? 'Analysed by the AI, except Skipped' : L === 'ALL' ? 'Everything except Skipped' : ''))}">
+    const name = L === 'USEFUL' ? 'Analysed' : L === 'ALL' ? 'All news' : L === 'IMP' ? 'Important' : (LABELS[L] || [L])[0];
+    const color = L === 'IMP' ? 'var(--important)' : (LABELS[L] || [])[1];
+    return `<button class="chip ${S.label === L ? 'on' : ''}" data-set="${attr({ label:L })}" title="${esc((LABELS[L] || [])[2] || (L === 'USEFUL' ? 'Analysed by the AI, except Skipped' : L === 'ALL' ? 'Everything except Skipped' : L === 'IMP' ? 'Importance 4–5: news people need to know' : ''))}">
       ${color ? `<span class="dot" style="--c:${color}"></span>` : ''}${name}<span class="n">${counts[L] || 0}</span></button>`;
   }).join('');
   return `<div class="filters">
@@ -483,6 +498,7 @@ function matchQ(it) {
 }
 function matchLabel(it) {
   if (S.label === 'USEFUL') return useful(it);
+  if (S.label === 'IMP') return isImp(it);
   if (S.label === 'ALL') return lab(it) !== 'SKIP' && lab(it) !== 'STALE';
   return lab(it) === S.label;
 }
@@ -503,16 +519,16 @@ function renderList() {
   const intro = S.label === 'PENDING' ? `<p class="note">Collected but not analysed yet. They get labels when you say <code>analyze today</code> in Antigravity.</p>` : '';
   if (S.sort === 'priority') {
     list.sort(byPriority);
-    el.innerHTML = intro + (rows ? `<div class="list" style="margin-top:12px">${list.map(row).join('')}</div>`
-      : `<div class="stack" style="margin-top:12px">${list.map(it => card(it)).join('')}</div>`);
+    el.innerHTML = intro + (rows ? `<div class="list rows" style="margin-top:12px">${list.map(row).join('')}</div>`
+      : `<div class="cards" style="margin-top:12px">${list.map(it => card(it, cardMode())).join('')}</div>`);
   } else {
     list.sort(newest);
-    el.innerHTML = intro + (rows ? grouped(list, row, 'list') : grouped(list, it => card(it), 'stack'));
+    el.innerHTML = intro + (rows ? grouped(list, row, 'list rows') : grouped(list, it => card(it, cardMode()), 'cards'));
   }
 }
 function viewFeed() {
   const e = ent();
-  const labels = ['ALL', 'USEFUL', ...e.labels.filter(l => l !== 'SKIP').sort((a, b) => RANK.indexOf(a) - RANK.indexOf(b)), 'PENDING', 'SKIP', 'STALE'];
+  const labels = ['ALL', 'USEFUL', 'IMP', ...e.labels.filter(l => l !== 'SKIP' && l !== 'IMPORTANT').sort((a, b) => RANK.indexOf(a) - RANK.indexOf(b)), 'PENDING', 'SKIP', 'STALE'];
   return pageHead('Feed', `${esc(e.name)} · all collected news, newest first`) + filterBar(news(), labels);
 }
 function viewCompetitors() {
@@ -580,6 +596,7 @@ document.addEventListener('click', ev => {
   const b = ev.target.closest('[data-set]');
   if (b) { ev.preventDefault(); set(JSON.parse(b.dataset.set)); }
 });
+desk.addEventListener('change', () => META && render());
 window.addEventListener('hashchange', () => {
   const [hEnt, hView] = location.hash.slice(1).split('/');
   const p = {};

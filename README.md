@@ -8,7 +8,7 @@ A free, personal news radar for four content channels. It collects news twice a 
 
 1. Open this folder in **Antigravity** (or Claude Code, or any coding agent).
 2. Type: **`analyze today`**
-3. The agent does everything: it fetches fresh news from every source right then (2–4 minutes), then labels every waiting item (new and older) for each niche, fully reads the best ones (Make, Important, Test) to write accurate summaries, saves, pushes, and tells you what to make. The dashboard updates a minute later.
+3. The agent does everything: it fetches fresh news from every source right then (2–4 minutes), then labels every waiting item (new and older) for each niche, fully reads the best ones (Make, Test, importance 4–5) to write accurate summaries, saves, pushes, and tells you what to make. The dashboard updates a minute later.
 
 Other things you can say: `status`, `add source <url> to <niche>`, `add competitor <name> to <niche>`, `fix sources`, `weekly review`, `collect now`, `new niche <name>`.
 The agent's full manual is in [AGENTS.md](AGENTS.md). Any new chat reads it automatically through `GEMINI.md`, `CLAUDE.md`, `.agent/rules` or `.agents/skills`.
@@ -35,58 +35,26 @@ The agent's full manual is in [AGENTS.md](AGENTS.md). Any new chat reads it auto
 
 | Niche | Folder | Labels |
 |---|---|---|
-| Code Quantumn (AI & tech) | `entities/code-quantumn` | SKIP · KNOW · IMPORTANT · MAKE · TEST · STUDY |
-| Capital Kinetics (money & markets) | `entities/capital-kinetics` | SKIP · KNOW · IMPORTANT · MAKE · WATCH |
-| Classy Upgrade (style & grooming) | `entities/classy-upgrade` | SKIP · KNOW · IMPORTANT · MAKE |
-| Timeless Curio (curiosity stories) | `entities/timeless-curio` | SKIP · KNOW · IMPORTANT · MAKE |
+| Code Quantumn (AI & tech) | `entities/code-quantumn` | SKIP · KNOW · MAKE · TEST · STUDY |
+| Capital Kinetics (money & markets) | `entities/capital-kinetics` | SKIP · KNOW · MAKE · WATCH |
+| Classy Upgrade (style & grooming) | `entities/classy-upgrade` | SKIP · KNOW · MAKE |
+| Timeless Curio (curiosity stories) | `entities/timeless-curio` | SKIP · KNOW · MAKE |
 
-**Shared for every niche**
-- **MAKE timing:** `NOW` (within 24 h) · `SOON` (this week) · `ANYTIME` (evergreen), plus **evergreen** 1–5.
-- **Competitor labels** (max 5 competitors per niche): `RELEASE` · `FEATURE` · `DECISION` · `PRACTICE` · `CONTENT`.
-- **Waiting** (pending): collected but not analysed yet. "analyze today" gives each one a label, so it leaves the Waiting list.
-- **STALE:** not analysed within 7 days.
-- **Reason codes:** one per item, explaining the label (`model_release`, `tax_change`, `trend`, `anniversary`, `duplicate`…).
-- Only MAKE and IMPORTANT items (and competitor items) get a short summary. Everything else is just labels and flags.
+- **KNOW** worth knowing, no video · **MAKE** make a video · **TEST** try it first · **STUDY** learn from it later · **WATCH** developing story (finance).
 
-### Flags per niche
+**What every useful (non-SKIP) item gets**
 
-**Code Quantumn**
-
-| Flag | Values |
+| Field | Meaning |
 |---|---|
-| category | model · tool · product · research · changelog · policy · offer · incident · tutorial · opinion · hardware · business |
-| audience_fit | students · developers · both · experts_only |
-| video_format | news_short · test · explainer · tutorial · comparison · none |
-| india_relevant · free_access · open_source · beginner_friendly · needs_test · verified_official | yes / no |
+| `importance` 1–5 | How much people need to know it (5 must know … 1 minor). 4–5 shows as **Important** on the dashboard |
+| `summary` | One or two lines: what happened + why it matters. MAKE items end with the video hook |
+| `category` | The only flag, for filtering (e.g. model, tool, tax, skincare, space) |
+| `timing` + `evergreen` | MAKE only: NOW (24 h) / SOON (this week) / ANYTIME, and how long the video stays useful (1–5) |
 
-**Capital Kinetics**
+SKIP items only get a reason. Competitor videos get CONTENT · RELEASE · FEATURE · DECISION · PRACTICE (max 5 competitors per niche).
+**Waiting** (pending) means collected but not analysed yet; **STALE** means never analysed within 7 days.
 
-| Flag | Values |
-|---|---|
-| category | markets · rbi_policy · banking · tax · ipo · mutual_funds · insurance · regulation · economy · company_results · global · commodities · personal_finance · scam · business_story |
-| personal_impact | emi · tax · savings · investing · salary · prices · insurance · none |
-| affects_common_people · india_relevant · regulatory · market_moving · trending_widely · verified_official · needs_care | yes / no |
-
-**Classy Upgrade**
-
-| Flag | Values |
-|---|---|
-| category | fashion · grooming · skincare · haircare · fitness · confidence · habits · brand_news · industry |
-| trend_stage | emerging · peak · fading · evergreen |
-| occasion | wedding · festival · office · college · date · summer · monsoon · winter · travel · none |
-| gender | men · women · all |
-| budget_friendly · india_relevant · educational_angle · science_backed | yes / no |
-
-**Timeless Curio**
-
-| Flag | Values |
-|---|---|
-| category | space · evolution · human_body · inventions · wars_empires · ancient · mysteries · earth_nature · animals · discovery · what_if |
-| visual_potential | high · medium · low |
-| anniversary_date | a date (from the "On this day" source, 7 and 14 days ahead) |
-| verified_primary · what_if_potential · india_angle · sensitive · surprising_fact | yes / no |
-
-To change labels or flags, edit the niche's `config.json` (allowed values) and `brief.md` (how to judge), or just ask the agent.
+To change labels or categories, edit the niche's `config.json` (allowed values) and `brief.md` (how to judge), or just ask the agent.
 
 ## Sources
 

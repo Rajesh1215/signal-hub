@@ -9,7 +9,7 @@ Work only inside that folder. The full operating manual is `AGENTS.md` in it. **
 ## What this project is
 
 - GitHub Actions collects news from blogs, RSS feeds, YouTube channels, Hacker News, GitHub and Hugging Face twice a day (6:30 am and 5:30 pm IST). It saves the items into `entities/<channel>/runs/<date>/collect-*.json`.
-- **You analyse them**: give every item a label (MAKE / IMPORTANT / KNOW / SKIP, plus channel-specific ones), flags, and a short summary for the best ones.
+- **You analyse them**: give every item a label (MAKE / KNOW / SKIP, plus channel-specific ones like TEST, STUDY, WATCH), and for every useful item an importance score (1–5), a category and a one-line summary.
 - When you push, the dashboard rebuilds by itself: https://rajesh1215.github.io/signal-hub/
 - Repo: https://github.com/Rajesh1215/signal-hub (my GitHub CLI and git are already logged in).
 
@@ -30,11 +30,11 @@ Run **procedure A** from `AGENTS.md`, end to end, **without asking me for confir
 
 1. `python3 engine/refresh.py`: fetches fresh news from every source on GitHub right now (2–4 minutes), then pulls. Wait for it to finish.
 2. `python3 engine/status.py`: note any broken sources.
-3. `python3 engine/pending.py`: lists every waiting item per channel, with the allowed labels, reasons and flags.
+3. `python3 engine/pending.py`: lists every waiting item per channel, with the allowed labels, reasons and categories.
 4. For each channel:
    - read `entities/<channel>/brief.md`
-   - **quick pass**: label every pending item into `work/payloads-<channel>.json`, in chunks of about 80 if there are many
-   - **deep read**: open and fully read every MAKE / IMPORTANT / TEST item, then write its summary from the real page (facts, numbers, dates); adjust the label or flags if the full story is different
+   - **quick pass**: judge every pending item yourself and write its payload by hand into `work/payloads-<channel>.json` (chunks of about 80). No keyword scripts and no default SKIP: every item gets its own decision and reason
+   - **deep read**: open and fully read every MAKE / TEST / importance 4–5 item, then rewrite its summary from the real page (facts, numbers, dates); adjust the label or importance if the full story is different
    - save with `python3 engine/save_analysis.py <channel> work/payloads-<channel>.json`, fix any ✗ errors and re-run
 5. `python3 engine/save_analysis.py <channel> --mark-stale` if stale items were reported.
 6. `python3 engine/check.py`: must show ✓ for all 4.
@@ -42,12 +42,12 @@ Run **procedure A** from `AGENTS.md`, end to end, **without asking me for confir
 8. Report to me in chat:
    - counts per channel
    - **MAKE** list (NOW first) with the one-line angle
-   - IMPORTANT titles
+   - Important titles (importance 4–5)
    - competitor highlights
    - broken sources
    - the dashboard link
 
-The first run is big (about 650 items across the 4 channels, because it's catching up on about 3 days). Work through all of them channel by channel. Most items will be SKIP or KNOW; that's expected.
+Work through every pending item, channel by channel. Most items will be SKIP or KNOW; that's expected.
 
 ## Rules
 

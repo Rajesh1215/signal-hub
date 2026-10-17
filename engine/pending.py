@@ -76,6 +76,7 @@ def main(argv):
         if pending:
             print(f"labels: {' '.join(cfg['labels'])} | competitor items also: {' '.join(cfg['competitor_labels'])}")
             print(f"timing: {' '.join(cfg['timing'])} | reasons: {' '.join(cfg['reasons'])}")
+            print("importance: 1-5 on every non-SKIP item (4-5 = Important) | summary: every non-SKIP item")
             print("flags: " + "; ".join(f"{k}=" + ("/".join(v["values"]) if v["type"] == "enum" else v["type"])
                                         for k, v in cfg["flags"].items()))
         for it in pending:

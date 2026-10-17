@@ -33,18 +33,18 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
 1. **Get fresh news.** `python3 engine/refresh.py`. It pulls the repo, runs a fresh collection on GitHub from every blog and feed (2–4 minutes; skipped only if the last collection was in the last 15 minutes), then pulls again. You then analyse everything still waiting: the new items plus any older pending ones. Let it finish before going on. If it says it couldn't collect, carry on with the data that's there and mention it in the report. If the user says "quick" or "no refresh", run `git pull --rebase` instead.
 2. **Status.** `python3 engine/status.py`. Note BROKEN or QUIET sources for the final report.
 3. **List the work.** `python3 engine/pending.py`. For each niche it prints:
-   - the allowed labels, timing, reasons and flags (from `config.json`)
+   - the allowed labels, timing, reasons and categories (from `config.json`)
    - one line per pending item: `id | role/competitor | source | title | snippet | stats`
    - items already labelled in the last 3 days, so you can spot duplicates
 
    Full records are in `work/pending-<niche>.json` if you need more detail.
 4. **For each niche with pending items:**
-   1. Read `entities/<niche>/brief.md`. It is your system prompt for that niche: audience, label rules, flag rules, examples. Follow it exactly.
-   2. **Quick pass.** Label **every** pending item from its title, snippet, source and stats. Write the result to `work/payloads-<niche>.json` (format below). For more than about 80 items, work in chunks (`payloads-<niche>-1.json`, `-2.json`…) and save each chunk.
-   3. **Deep-read the shortlist.** For every item you labelled `MAKE`, `IMPORTANT` or `TEST`, open the link and read the full page (article, release notes, paper abstract, or the YouTube description and captions if the page shows them) before you finalise it:
-      - Write the `summary` from what the page actually says: concrete facts, numbers, dates and who it's for. Never write it from the title alone.
-      - Re-check the label: if the full story is weaker, older or a duplicate, downgrade it (e.g. to `KNOW`); if it's stronger, upgrade it.
-      - Re-check flags such as `free_access`, `india_relevant` and `verified_official` against the page.
+   1. Read `entities/<niche>/brief.md`. It is your system prompt for that niche: audience, labels, importance scale, categories, examples. Follow it exactly.
+   2. **Quick pass.** Judge **every** pending item yourself from its title, snippet, source and stats, and write the payloads to `work/payloads-<niche>.json` (format below). For more than about 80 items, work in chunks (`payloads-<niche>-1.json`, `-2.json`…) and save each chunk.
+      - **Write each payload by hand, one item at a time.** Don't generate payloads with a script of keyword rules, and never use a default label for items you didn't look at. Every item, including every SKIP, gets its own decision and its own reason.
+   3. **Deep-read the shortlist.** For every `MAKE`, `TEST` and importance 4–5 item, open the link and read the full page (article, release notes, paper abstract, or the YouTube description and captions if the page shows them) before you finalise it:
+      - Rewrite the `summary` from what the page actually says: concrete facts, numbers, dates, free or paid, India availability. Never from the title alone.
+      - Re-check the label and importance: downgrade if the full story is weaker, older or a duplicate; upgrade if it's stronger.
       - If the page can't be opened (paywall, block, login), keep the label but say so in the summary ("Couldn't open the full article; based on the headline.").
    4. Save: `python3 engine/save_analysis.py <niche> work/payloads-<niche>.json`
       - Every `✗` line names the item and what's wrong. Fix those payloads and run the command again with just the fixed ones. Saving is a merge, so re-running is safe.
@@ -60,7 +60,7 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
 8. **Report to the user** (short, in chat):
    - per niche: counts by label
    - **MAKE**: title, timing (NOW/SOON/ANYTIME), and the one-line angle from your summary. NOW items first.
-   - **IMPORTANT**: titles only
+   - **Important** (importance 4–5, not MAKE): titles only
    - competitor highlights (one line each, if any)
    - broken sources, if any, and what you did about them
    - dashboard: https://rajesh1215.github.io/signal-hub/ (updates about 1–2 minutes after the push)
@@ -72,27 +72,30 @@ A JSON list. One object per item:
 ```json
 [
   {"id": "3f2a9c1d0b7e4a11", "label": "SKIP", "reason": "off_topic"},
-  {"id": "9b1e22c4d5f60a77", "label": "KNOW", "reason": "feature_update",
-   "flags": {"category": "tool", "audience_fit": "developers"}},
-  {"id": "0c7d1e2f3a4b5c6d", "label": "MAKE", "timing": "NOW", "evergreen": 2, "reason": "model_release",
-   "flags": {"category": "model", "audience_fit": "both", "video_format": "news_short", "free_access": true,
-             "india_relevant": true, "beginner_friendly": true, "verified_official": true},
-   "summary": "What happened + why our audience cares. Hook: '...'"},
+  {"id": "9b1e22c4d5f60a77", "label": "KNOW", "importance": 2, "reason": "feature_update",
+   "flags": {"category": "tool"},
+   "summary": "Ollama 0.40 loads models faster on Macs; small quality-of-life update for local-AI users."},
+  {"id": "0c7d1e2f3a4b5c6d", "label": "MAKE", "importance": 4, "timing": "NOW", "evergreen": 2, "reason": "model_release",
+   "flags": {"category": "model"},
+   "summary": "What happened + why our audience cares (free? India? official?). Hook: '...'"},
   {"id": "77aa88bb99cc00dd", "label": "CONTENT", "reason": "competitor_move",
    "summary": "They covered X; we can do it shorter with the India angle."}
 ]
 ```
 
-Rules enforced by `save_analysis.py`:
-- `label` must be in the niche's `labels`. Competitor items (role `competitor`) may also use `RELEASE FEATURE DECISION PRACTICE CONTENT`.
-- `MAKE` needs `timing` (NOW / SOON / ANYTIME) and `evergreen` (integer 1–5).
-- `MAKE` and `IMPORTANT` need a `summary` (max 300 characters). Summaries are allowed only on those and on non-SKIP competitor items.
-- `reason` must be one of the niche's `reasons`.
-- `flags` must use the niche's flag names and types: `true/false` for bool, one of the listed values for enum, `YYYY-MM-DD` for date.
+Fields:
+- `label`: one of the niche's `labels`. Competitor items (role `competitor`) may also use `RELEASE FEATURE DECISION PRACTICE CONTENT`.
+- `importance`: 1–5, required on every non-SKIP news item. It means how much the audience needs to know this (see the brief). 4–5 shows as **Important** on the dashboard, so keep it rare.
+- `summary`: required on every non-SKIP item, max 300 characters: what happened + why it matters. `MAKE` ends with `Hook: '...'`. No summary on SKIP.
+- `flags.category`: required on every non-SKIP news item. It's the only flag (plus `anniversary_date` for Timeless Curio anniversaries).
+- `timing` (NOW / SOON / ANYTIME) and `evergreen` (1–5): `MAKE` only, required.
+- `reason`: one of the niche's `reasons`, on every item.
+
+`save_analysis.py` rejects anything that breaks these rules and tells you why.
 
 Working efficiently:
-- `SKIP` needs only `id`, `label`, `reason`. Fill flags for non-SKIP items.
-- Don't open links during the quick pass. Open and fully read only the shortlist (MAKE, IMPORTANT, TEST) in the deep-read step.
+- `SKIP` needs only `id`, `label`, `reason`.
+- Don't open links during the quick pass. Open and fully read only the shortlist (MAKE, TEST, importance 4–5) in the deep-read step.
 - Most items should be SKIP or KNOW. Respect the per-day guide in each brief: a few strong MAKE items beat many weak ones.
 - Never invent facts in summaries. Use only what the source says.
 
@@ -137,7 +140,7 @@ Working efficiently:
 
 1. `python3 engine/report.py --days 7`: per source, how many items and how they were labelled.
 2. Tell the user:
-   - the best sources (most MAKE/IMPORTANT)
+   - the best sources (most MAKE and importance 4–5)
    - sources that only produced SKIP (suggest pausing)
    - `trial` sources that earned `active`
    - gaps (topics the niche needs that no source covers), with 2–3 suggested new sources
@@ -146,7 +149,7 @@ Working efficiently:
 
 ## F. New entity (niche)
 
-1. Create `entities/<new-id>/` with `config.json`, `brief.md` and `sources.json`, copying the structure of an existing niche. Change `name`, `color`, `niche`, `labels`, `reasons` and `flags` to fit.
+1. Create `entities/<new-id>/` with `config.json`, `brief.md` and `sources.json`, copying the structure of an existing niche. Change `name`, `color`, `niche`, `labels`, `reasons` and the `category` values to fit.
 2. Add 10–20 sources via B; leave competitors empty until the user names them.
 3. `python3 engine/check.py`, `python3 engine/collect.py <new-id> --test`, then commit and push. The dashboard picks it up automatically.
 
@@ -169,8 +172,8 @@ Working efficiently:
 AGENTS.md              ← you are here (GEMINI.md, CLAUDE.md and skills point here)
 README.md              ← human overview
 entities/<niche>/
-  brief.md             ← analyst system prompt for this niche (labels, flags, examples)
-  config.json          ← allowed labels, timing, reasons, flags, filters, caps
+  brief.md             ← analyst system prompt for this niche (labels, importance, categories, examples)
+  config.json          ← allowed labels, timing, reasons, categories, filters, caps
   sources.json         ← sources, competitors (max 5), people (max 10)
   runs/<YYYY-MM-DD>/
     collect-<HHMM>.json  ← new items from one collection (written by Actions)

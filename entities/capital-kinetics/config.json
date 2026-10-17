@@ -12,7 +12,6 @@
  "labels": [
   "SKIP",
   "KNOW",
-  "IMPORTANT",
   "MAKE",
   "WATCH"
  ],
@@ -79,48 +78,6 @@
     "business_story"
    ],
    "help": "Topic area"
-  },
-  "personal_impact": {
-   "type": "enum",
-   "values": [
-    "emi",
-    "tax",
-    "savings",
-    "investing",
-    "salary",
-    "prices",
-    "insurance",
-    "none"
-   ],
-   "help": "Where it hits a normal person's money"
-  },
-  "affects_common_people": {
-   "type": "bool",
-   "help": "Changes something for ordinary salaried people, not only traders"
-  },
-  "india_relevant": {
-   "type": "bool",
-   "help": "About India or directly affects Indians"
-  },
-  "regulatory": {
-   "type": "bool",
-   "help": "Comes from RBI, SEBI, Income Tax, Finance Ministry, IRDAI, PFRDA, NPCI"
-  },
-  "market_moving": {
-   "type": "bool",
-   "help": "Likely to move indices, rates or a big stock"
-  },
-  "trending_widely": {
-   "type": "bool",
-   "help": "Being discussed everywhere today"
-  },
-  "verified_official": {
-   "type": "bool",
-   "help": "Confirmed by a regulator, exchange filing or company release"
-  },
-  "needs_care": {
-   "type": "bool",
-   "help": "Easy to turn into advice or fear; script must stay educational and neutral"
   }
  },
  "filters": {
@@ -131,5 +88,11 @@
  "caps": {
   "competitors": 5,
   "people": 10
+ },
+ "importance": {
+  "min": 1,
+  "max": 5,
+  "important_from": 4,
+  "help": "How much the audience needs to know this: 5 everyone will hear about it, 4 changes how many of them work/learn/spend, 3 useful, 2 niche, 1 minor"
  }
 }
