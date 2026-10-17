@@ -175,40 +175,41 @@
   {
    "id": "r-space",
    "name": "r/space",
-   "type": "reddit",
-   "subreddit": "space",
-   "t": "day",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/space/top/?t=day",
    "role": "news",
    "tags": [
-    "space",
     "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "r-history",
    "name": "r/history",
-   "type": "reddit",
-   "subreddit": "history",
-   "t": "week",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/history/top/?t=week",
    "role": "news",
    "tags": [
-    "history",
     "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "r-todayilearned",
    "name": "r/todayilearned",
-   "type": "reddit",
-   "subreddit": "todayilearned",
-   "t": "day",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/todayilearned/top/?t=day",
    "role": "news",
    "tags": [
-    "facts"
+    "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "yt-kings-generals",

@@ -332,51 +332,54 @@
   {
    "id": "r-localllama",
    "name": "r/LocalLLaMA",
-   "type": "reddit",
-   "subreddit": "LocalLLaMA",
-   "t": "day",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/LocalLLaMA/top/?t=day",
    "role": "news",
    "tags": [
-    "open-source",
     "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "r-openai",
    "name": "r/OpenAI",
-   "type": "reddit",
-   "subreddit": "OpenAI",
-   "t": "day",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/OpenAI/top/?t=day",
    "role": "news",
    "tags": [
     "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "r-claudeai",
    "name": "r/ClaudeAI",
-   "type": "reddit",
-   "subreddit": "ClaudeAI",
-   "t": "day",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/ClaudeAI/top/?t=day",
    "role": "news",
    "tags": [
     "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "r-machinelearning",
    "name": "r/MachineLearning",
-   "type": "reddit",
-   "subreddit": "MachineLearning",
-   "t": "day",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/MachineLearning/top/?t=day",
    "role": "news",
    "tags": [
-    "research"
+    "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "yt-3b1b",

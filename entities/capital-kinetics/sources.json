@@ -125,40 +125,41 @@
   {
    "id": "r-indiainvestments",
    "name": "r/IndiaInvestments",
-   "type": "reddit",
-   "subreddit": "IndiaInvestments",
-   "t": "week",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/IndiaInvestments/top/?t=week",
    "role": "news",
    "tags": [
     "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "r-personalfinanceindia",
    "name": "r/personalfinanceindia",
-   "type": "reddit",
-   "subreddit": "personalfinanceindia",
-   "t": "week",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/personalfinanceindia/top/?t=week",
    "role": "news",
    "tags": [
-    "discussion",
-    "personal-finance"
+    "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "r-indianstockmarket",
    "name": "r/IndianStockMarket",
-   "type": "reddit",
-   "subreddit": "IndianStockMarket",
-   "t": "day",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/IndianStockMarket/top/?t=day",
    "role": "news",
    "tags": [
-    "discussion",
-    "markets"
+    "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "yt-zerodha",

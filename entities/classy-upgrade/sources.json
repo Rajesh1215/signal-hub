@@ -3,14 +3,15 @@
   {
    "id": "gq-india",
    "name": "GQ India",
-   "type": "feed",
-   "url": "https://www.gqindia.com/feed/rss",
    "role": "news",
    "tags": [
     "men",
     "fashion"
    ],
-   "status": "active"
+   "type": "gnews",
+   "query": "site:gqindia.com",
+   "status": "active",
+   "why": "Site blocks cloud servers (403); read through Google News search instead"
   },
   {
    "id": "vogue-india",
@@ -27,15 +28,16 @@
   {
    "id": "ie-fashion",
    "name": "Indian Express Fashion",
-   "type": "feed",
-   "url": "https://indianexpress.com/section/lifestyle/fashion/feed/",
    "role": "news",
    "tags": [
     "india",
     "fashion"
    ],
+   "max_new": 10,
+   "type": "gnews",
+   "query": "site:indianexpress.com/article/lifestyle/fashion",
    "status": "active",
-   "max_new": 10
+   "why": "Site blocks cloud servers (403); read through Google News search instead"
   },
   {
    "id": "esquire-style",
@@ -89,66 +91,67 @@
   {
    "id": "bof",
    "name": "Business of Fashion",
-   "type": "feed",
-   "url": "https://www.businessoffashion.com/arc/outboundfeeds/rss/",
    "role": "news",
    "tags": [
     "industry"
    ],
+   "max_new": 10,
+   "type": "gnews",
+   "query": "site:businessoffashion.com",
    "status": "active",
-   "max_new": 10
+   "why": "Site blocks cloud servers (403); read through Google News search instead"
   },
   {
    "id": "r-malefashionadvice",
    "name": "r/malefashionadvice",
-   "type": "reddit",
-   "subreddit": "malefashionadvice",
-   "t": "day",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/malefashionadvice/top/?t=day",
    "role": "news",
    "tags": [
-    "men",
     "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "r-femalefashionadvice",
    "name": "r/femalefashionadvice",
-   "type": "reddit",
-   "subreddit": "femalefashionadvice",
-   "t": "day",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/femalefashionadvice/top/?t=day",
    "role": "news",
    "tags": [
-    "women",
     "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "r-skincareaddiction",
    "name": "r/SkincareAddiction",
-   "type": "reddit",
-   "subreddit": "SkincareAddiction",
-   "t": "day",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/SkincareAddiction/top/?t=day",
    "role": "news",
    "tags": [
-    "skincare",
     "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
-   "id": "r-indianskincare",
+   "id": "r-indianskincareaddicts",
    "name": "r/IndianSkincareAddicts",
-   "type": "reddit",
-   "subreddit": "IndianSkincareAddicts",
-   "t": "week",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/IndianSkincareAddicts/top/?t=week",
    "role": "news",
    "tags": [
-    "skincare",
-    "india"
+    "discussion"
    ],
-   "status": "trial"
+   "mode": "manual",
+   "status": "active",
+   "why": "Reddit blocks GitHub's servers; open top posts by hand"
   },
   {
    "id": "pinterest-trends",

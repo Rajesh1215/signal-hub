@@ -222,6 +222,18 @@ def a_page(src, state):
     return out, st
 
 
+def a_gnews(src, state):
+    """Google News RSS search (public feed). Use for sites that block cloud
+    servers or have no feed, e.g. {"type": "gnews", "query": "site:gqindia.com"}."""
+    q = urllib.parse.quote(f"{src['query']} when:{src.get('when', '3d')}")
+    url = f"https://news.google.com/rss/search?q={q}&hl={src.get('hl', 'en-IN')}&gl={src.get('gl', 'IN')}&ceid={src.get('ceid', 'IN:en')}"
+    items, st = a_feed({**src, "url": url}, {})
+    for it in items:  # titles end with " - Publisher"; snippets only repeat the title
+        it["title"] = re.sub(r"\s+-\s+[^-]{2,60}$", "", it["title"])
+        it["snippet"] = ""
+    return items, st
+
+
 def a_sitemap(src, state):
     """Sites without a feed: new URLs in sitemap.xml that match a path prefix.
     Title comes from the URL slug; lastmod is used as the publish time."""
@@ -252,7 +264,7 @@ def a_site(src, state):
 
 ADAPTERS = {"feed": a_feed, "youtube": a_youtube, "reddit": a_reddit, "hn": a_hn, "devto": a_devto,
             "hf_papers": a_hf_papers, "github_trending": a_github_trending, "page": a_page,
-            "sitemap": a_sitemap}
+            "sitemap": a_sitemap, "gnews": a_gnews}
 
 
 def run_adapter(src, state):

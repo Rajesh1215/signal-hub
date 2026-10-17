@@ -14,7 +14,8 @@ from common import entity_dirs, read_json
 
 STATUSES = {"active", "trial", "paused", "disabled", "candidate"}
 ROLES = {"news", "official", "people", "org", "competitor"}
-NEEDS = {"feed": "url", "page": "url", "youtube": "channel_id", "reddit": "subreddit", "devto": "tag"}
+NEEDS = {"feed": "url", "page": "url", "sitemap": "url", "youtube": "channel_id", "reddit": "subreddit",
+         "devto": "tag", "gnews": "query"}
 FLAG_TYPES = {"bool", "enum", "int", "date"}
 
 
