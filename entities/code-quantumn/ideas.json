@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-18T13:05:09Z",
+  "history": [],
+  "id": "2026-10-18-jevmaxxing-decision-models",
+  "title": "Why developers are \"Jevmaxxing\": the end of expensive LLM tokens",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "Why pay zsh.05 per API call when a 0.8s decision model does it for zsh.00024? Meet System One AI.",
+  "outline": [
+   "The problem: Using GPT-4 or Claude just to classify or detect elements costs thousands in token bills.",
+   "What is Jevmaxxing: Using dedicated System One decision models instead of text-generating LLMs.",
+   "What Jev 1.14 just shipped: Adding native vision, 262k context, and pixel bounding boxes.",
+   "Real benchmarks: 0.8s latency, 2 cents per 100 images, 60% cheaper than OpenAI Decisions API.",
+   "Where to use it: Ad creative analysis, content moderation, image tagging, and visual quality control."
+  ],
+  "items": [
+   "c9aa3c13e8e21130",
+   "88d20f1db634bd21"
+  ],
+  "updated_at": "2026-10-18T13:05:09Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-18T13:05:09Z",
+  "history": [],
+  "id": "2026-10-18-krea-3-realtime-video",
+  "title": "Real-time AI video is here: what Krea 3 actually changes",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "AI video used to take 5 minutes to render. Krea 3 just made it real-time in your browser.",
+  "outline": [
+   "The shift: Moving from batch diffusion render queues to real-time generative canvas.",
+   "What Krea 3 does: Interactive camera pans, live frame adjustments, and motion brush controls.",
+   "Free tier vs paid: How much you get without paying, and what hardware runs it.",
+   "Real-world verdict: Is it ready for commercial video editing or just social media shorts?"
+  ],
+  "items": [
+   "a25341bf590b4f0a"
+  ],
+  "updated_at": "2026-10-18T13:05:09Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-18T05:08:41Z",
   "history": [],
   "id": "2026-10-18-sarvam-bulbul-indian-voice",
