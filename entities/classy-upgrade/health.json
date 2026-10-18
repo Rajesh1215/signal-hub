@@ -26,11 +26,16 @@
     "at": "2026-10-17T18:57:43Z",
     "found": 18,
     "new": 0
+   },
+   {
+    "at": "2026-10-18T03:40:31Z",
+    "found": 19,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T18:57:43Z",
-  "last_run": "2026-10-17T18:57:43Z"
+  "last_ok": "2026-10-18T03:40:31Z",
+  "last_run": "2026-10-18T03:40:31Z"
  },
  "vogue-india": {
   "consecutive_errors": 0,
@@ -64,11 +69,16 @@
     "at": "2026-10-17T18:57:43Z",
     "found": 30,
     "new": 0
+   },
+   {
+    "at": "2026-10-18T03:40:31Z",
+    "found": 30,
+    "new": 14
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T18:57:43Z",
-  "last_run": "2026-10-17T18:57:43Z"
+  "last_ok": "2026-10-18T03:40:31Z",
+  "last_run": "2026-10-18T03:40:31Z"
  },
  "ie-fashion": {
   "consecutive_errors": 0,
@@ -97,11 +107,16 @@
     "at": "2026-10-17T18:57:43Z",
     "found": 2,
     "new": 0
+   },
+   {
+    "at": "2026-10-18T03:40:31Z",
+    "found": 2,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T18:57:43Z",
-  "last_run": "2026-10-17T18:57:43Z"
+  "last_ok": "2026-10-18T03:40:31Z",
+  "last_run": "2026-10-18T03:40:31Z"
  },
  "esquire-style": {
   "consecutive_errors": 0,
@@ -135,11 +150,16 @@
     "at": "2026-10-17T18:57:43Z",
     "found": 50,
     "new": 0
+   },
+   {
+    "at": "2026-10-18T03:40:31Z",
+    "found": 50,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T18:57:43Z",
-  "last_run": "2026-10-17T18:57:43Z"
+  "last_ok": "2026-10-18T03:40:31Z",
+  "last_run": "2026-10-18T03:40:31Z"
  },
  "allure": {
   "consecutive_errors": 0,
@@ -173,11 +193,16 @@
     "at": "2026-10-17T18:57:43Z",
     "found": 30,
     "new": 0
+   },
+   {
+    "at": "2026-10-18T03:40:31Z",
+    "found": 30,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T18:57:43Z",
-  "last_run": "2026-10-17T18:57:43Z"
+  "last_ok": "2026-10-18T03:40:31Z",
+  "last_run": "2026-10-18T03:40:31Z"
  },
  "highsnobiety": {
   "consecutive_errors": 0,
@@ -211,14 +236,19 @@
     "at": "2026-10-17T18:57:43Z",
     "found": 11,
     "new": 2
+   },
+   {
+    "at": "2026-10-18T03:40:31Z",
+    "found": 9,
+    "new": 3
    }
   ],
   "state": {
-   "etag": "\"68c637755e4692f667478bf2e8d52684\"",
-   "last_modified": "Sat, 17 Oct 2026 18:50:05 GMT"
+   "etag": "\"251acb040a6446f2a145e75643a89c87\"",
+   "last_modified": "Sat, 17 Oct 2026 20:55:15 GMT"
   },
-  "last_ok": "2026-10-17T18:57:43Z",
-  "last_run": "2026-10-17T18:57:43Z"
+  "last_ok": "2026-10-18T03:40:31Z",
+  "last_run": "2026-10-18T03:40:31Z"
  },
  "hypebeast": {
   "consecutive_errors": 0,
@@ -252,11 +282,16 @@
     "at": "2026-10-17T18:57:43Z",
     "found": 19,
     "new": 0
+   },
+   {
+    "at": "2026-10-18T03:40:31Z",
+    "found": 19,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T18:57:43Z",
-  "last_run": "2026-10-17T18:57:43Z"
+  "last_ok": "2026-10-18T03:40:31Z",
+  "last_run": "2026-10-18T03:40:31Z"
  },
  "bof": {
   "consecutive_errors": 0,
@@ -285,11 +320,16 @@
     "at": "2026-10-17T18:57:43Z",
     "found": 100,
     "new": 10
+   },
+   {
+    "at": "2026-10-18T03:40:31Z",
+    "found": 100,
+    "new": 10
    }
   ],
   "state": {},
-  "last_ok": "2026-10-17T18:57:43Z",
-  "last_run": "2026-10-17T18:57:43Z"
+  "last_ok": "2026-10-18T03:40:31Z",
+  "last_run": "2026-10-18T03:40:31Z"
  },
  "r-malefashionadvice": {
   "consecutive_errors": 1,
@@ -312,7 +352,7 @@
   "last_error": "URLError: <urlopen error skipped: www.reddit.com rate-limited us earlier in this run>"
  },
  "comp-rmrs-yt": {
-  "consecutive_errors": 0,
+  "consecutive_errors": 1,
   "history": [
    {
     "at": "2026-10-17T07:33:08Z",
@@ -347,10 +387,11 @@
   ],
   "state": {},
   "last_ok": "2026-10-17T18:57:43Z",
-  "last_run": "2026-10-17T18:57:43Z"
+  "last_run": "2026-10-17T18:57:43Z",
+  "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-justine-yt": {
-  "consecutive_errors": 0,
+  "consecutive_errors": 1,
   "history": [
    {
     "at": "2026-10-17T07:33:08Z",
@@ -385,10 +426,11 @@
   ],
   "state": {},
   "last_ok": "2026-10-17T18:57:43Z",
-  "last_run": "2026-10-17T18:57:43Z"
+  "last_run": "2026-10-17T18:57:43Z",
+  "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-pranaysai-yt": {
-  "consecutive_errors": 0,
+  "consecutive_errors": 1,
   "history": [
    {
     "at": "2026-10-17T07:33:08Z",
@@ -423,6 +465,7 @@
   ],
   "state": {},
   "last_ok": "2026-10-17T18:57:43Z",
-  "last_run": "2026-10-17T18:57:43Z"
+  "last_run": "2026-10-17T18:57:43Z",
+  "last_error": "HTTPError: HTTP Error 404: Not Found"
  }
 }
