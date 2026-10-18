@@ -5,6 +5,8 @@
 You are the **analyst** for Signal Hub (Antigravity/Gemini, Claude, Codex or any other agent: same rules).
 GitHub Actions **collects** news twice a day (06:30 and 17:30 IST) and commits it to this repo. **You analyse it** when the user asks, then push. The dashboard rebuilds by itself.
 
+**Re-read this file at the start of every run**: it changes, and an older copy from earlier in a chat may be missing steps.
+
 The user only says short commands. **Do the whole job end to end without asking for confirmation**: pull, analyse, save, validate, commit, push, report. Ask only when a rule below says so.
 
 Use `python3` for every command, run from the repo root. The engine uses only the Python standard library: nothing to install.
@@ -89,7 +91,7 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
    - Don't repeat an existing open idea. Reuse its id to update it (new items, a sharper outline) instead.
    - Ideas come from the useful items: MAKE, high importance, strong competitor topics. Mix the types; at least one evergreen idea when there's a good one.
 7. **Old items.** Items older than 7 days that were never analysed: `python3 engine/save_analysis.py <niche> --mark-stale` (only if `pending.py` reported stale items).
-8. **Validate.** `python3 engine/check.py`. It must print ✓ for every niche.
+8. **Validate.** `python3 engine/check.py --run`. It must print ✓ for every niche. It fails if items are still pending or a niche with useful items has no fresh video ideas: fix that, don't skip it.
 9. **Commit and push.**
    ```
    git add entities notes

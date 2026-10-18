@@ -1,0 +1,110 @@
+[
+ {
+  "status": "new",
+  "created_at": "2026-10-18T05:08:41Z",
+  "history": [],
+  "id": "2026-10-18-sarvam-bulbul-indian-voice",
+  "title": "Indian AI just got a real voice: Sarvam's Bulbul V4 Flash",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "Real-time Indian-language text-to-speech under 100 ms, free to try today",
+  "outline": [
+   "Hook: play the same sentence in 3 Indian languages",
+   "What Sarvam launched: Bulbul V4 Flash, 10 Indian languages, sub-100 ms latency",
+   "Why speed matters: live voice agents, customer support, accessibility",
+   "How to try it free in the Sarvam playground",
+   "Where Indian AI stands vs global voice models"
+  ],
+  "items": [
+   "71e8aff801f89a96"
+  ],
+  "updated_at": "2026-10-18T05:08:41Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-18T05:08:41Z",
+  "history": [],
+  "id": "2026-10-18-ai-speaks-indian-languages",
+  "title": "Why AI is finally getting good at Indian languages",
+  "type": "months",
+  "timing": "SOON",
+  "angle": "A 2.8 trillion-token open Indian-language dataset, new Indian voice models and government fellowships: the pieces are coming together",
+  "outline": [
+   "The old problem: AI trained mostly on English",
+   "NVIDIA + AI4Bharat: 2.8T open tokens across 22 Indian languages",
+   "Sarvam's Bulbul V4 Flash: real-time Indic speech",
+   "IndiaAI Fellowship: ₹1 lakh/month + free GPU compute for student researchers",
+   "What students can build with this now"
+  ],
+  "items": [
+   "c44cd9e8bef0e8e8",
+   "71e8aff801f89a96",
+   "82f451ca7f358451"
+  ],
+  "updated_at": "2026-10-18T05:08:41Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-18T05:08:41Z",
+  "history": [],
+  "id": "2026-10-18-indiaai-fellowship",
+  "title": "The government will pay you ₹1 lakh a month to research AI",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "IndiaAI Fellowship 2026-27 is open: stipend, free GPUs, and who can apply",
+  "outline": [
+   "Hook: ₹1 lakh/month + free GPU compute",
+   "Who runs it (MeitY / IndiaAI)",
+   "Eligibility and deadline (check the official page)",
+   "How to write a strong application",
+   "Free alternatives if you're not eligible"
+  ],
+  "items": [
+   "82f451ca7f358451"
+  ],
+  "updated_at": "2026-10-18T05:08:41Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-18T05:08:41Z",
+  "history": [],
+  "id": "2026-10-18-ai-sandbox-explained",
+  "title": "How AI agents run code without getting hacked",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "Perplexity open-sourced SPACE, its micro-VM sandbox: the idea behind every safe AI agent",
+  "outline": [
+   "Hook: the AI just wrote code; should it run on your laptop?",
+   "What a sandbox / micro-VM is, in one picture",
+   "Perplexity SPACE: open-sourced, built on Firecracker micro-VMs",
+   "Where you've seen this: ChatGPT code interpreter, Claude, Cursor agents",
+   "One rule for students building agents: never run model code unsandboxed"
+  ],
+  "items": [
+   "8de36b0e4b564c1f",
+   "a907b631c4331de5"
+  ],
+  "updated_at": "2026-10-18T05:08:41Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-18T05:08:41Z",
+  "history": [],
+  "id": "2026-10-18-kv-cache-explained",
+  "title": "How AI remembers long chats (KV cache, explained simply)",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "Two Minute Papers covered DeepSeek's memory breakthrough; we explain the idea underneath for beginners",
+  "outline": [
+   "Hook: why long chats get slow and expensive",
+   "What the model 'remembers' between words: the KV cache",
+   "Why it grows with every token",
+   "How compression tricks (like DeepSeek's) shrink it",
+   "What this means for free long-context models"
+  ],
+  "items": [
+   "ee2761723128339a"
+  ],
+  "updated_at": "2026-10-18T05:08:41Z"
+ }
+]

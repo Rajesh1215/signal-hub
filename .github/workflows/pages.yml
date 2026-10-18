@@ -7,6 +7,8 @@ on:
     branches: [main]
     paths:
       - "entities/**/analysis.json"
+      - "entities/**/ideas.json"
+      - "entities/**/runs/**/collect-local-*.json"
       - "entities/**/config.json"
       - "entities/**/sources.json"
       - "engine/**"
