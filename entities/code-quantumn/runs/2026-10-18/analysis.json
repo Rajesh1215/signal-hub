@@ -205,5 +205,232 @@
   "label": "SKIP",
   "reason": "duplicate",
   "analyzed_at": "2026-10-17T19:04:35Z"
+ },
+ "d949e4a99c07f7d9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Ollama 0.40.7 patch release fixing context buffer limits on CUDA and Apple Silicon backends.",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "d2ab3b7c6f41f650": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "96eac4e2bf04e60d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Linux kernel subsystem maintainers test Meta AI models for patch triage while clarifying guidelines around AI-assisted code contributions.",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "0623538f9651529d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "5670fd9a8f9f3cb4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "llama.cpp ecosystem expands GUI wrappers enabling zero-terminal local model execution on consumer hardware.",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "151f02c403d4455a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "a90c34978c4f9cb9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "9685ca72deccddb8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "151f88aa8115aed2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "a1eacccba355d4de": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "04c3a89b6202928a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "a26e58889ba4c6b2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "bdbf160be034e53d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "ab7407dd2ec1e249": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Alibaba launched Qwen N1 multimodal smart glasses with real-time translation and object recognition powered by on-device Qwen models.",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "6ca81f1a1d590bca": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "4834a14232cbd63a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "77c7de294e73b1ec": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "CNN signed multi-year licensing agreement allowing Google Gemini and AI Overviews direct access to real-time reporting.",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "98fde2f55c1a8ead": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "f372b381ad736e1c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "f5bfc6c1f56b98b6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "007032c909335c4f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "d028e91fbdba951e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "264eacca2000b047": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "1360b3c63c6ae155": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "36c29cd972fa161e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "738f74047cc88ec3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "89e66cd6aaf2bd68": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "f164b8922db57c73": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "afb058dbfea04ca1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "6e3b55f932aaf466": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Anthropic reports shifting internal engineering ratio toward senior researchers as autonomous agent tools handle junior coding tasks.",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "f99b9d15e50c96a4": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "French lab Kyutai open-sourced REKI, a lightweight 2.4B Vision-Language-Action robotics model that retains episodic memory for physical manipulation tasks. Hook: 'Can an AI robot remember what it did 5 minutes ago? Kyutai just proved it with a 2.4B model.'",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "091e26c9f359bc24": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "f96ab6523684a263": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "819a5e0b6b8d848a": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Anthropic engineering note on architecting distributed source control and synthetic branches for multi-agent code evaluation.",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "36281989757df826": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "c7cd34f3b4b8d623": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
+ },
+ "2db014b4294f605e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T03:44:27Z"
  }
 }
