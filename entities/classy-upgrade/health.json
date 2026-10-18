@@ -31,11 +31,16 @@
     "at": "2026-10-18T03:40:31Z",
     "found": 19,
     "new": 0
+   },
+   {
+    "at": "2026-10-18T05:32:08Z",
+    "found": 19,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-18T03:40:31Z",
-  "last_run": "2026-10-18T03:40:31Z"
+  "last_ok": "2026-10-18T05:32:08Z",
+  "last_run": "2026-10-18T05:32:08Z"
  },
  "vogue-india": {
   "consecutive_errors": 0,
@@ -74,11 +79,16 @@
     "at": "2026-10-18T03:40:31Z",
     "found": 30,
     "new": 14
+   },
+   {
+    "at": "2026-10-18T05:32:08Z",
+    "found": 30,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-18T03:40:31Z",
-  "last_run": "2026-10-18T03:40:31Z"
+  "last_ok": "2026-10-18T05:32:08Z",
+  "last_run": "2026-10-18T05:32:08Z"
  },
  "ie-fashion": {
   "consecutive_errors": 0,
@@ -112,11 +122,16 @@
     "at": "2026-10-18T03:40:31Z",
     "found": 2,
     "new": 0
+   },
+   {
+    "at": "2026-10-18T05:32:08Z",
+    "found": 2,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-18T03:40:31Z",
-  "last_run": "2026-10-18T03:40:31Z"
+  "last_ok": "2026-10-18T05:32:08Z",
+  "last_run": "2026-10-18T05:32:08Z"
  },
  "esquire-style": {
   "consecutive_errors": 0,
@@ -155,11 +170,16 @@
     "at": "2026-10-18T03:40:31Z",
     "found": 50,
     "new": 0
+   },
+   {
+    "at": "2026-10-18T05:32:08Z",
+    "found": 50,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-18T03:40:31Z",
-  "last_run": "2026-10-18T03:40:31Z"
+  "last_ok": "2026-10-18T05:32:08Z",
+  "last_run": "2026-10-18T05:32:08Z"
  },
  "allure": {
   "consecutive_errors": 0,
@@ -198,11 +218,16 @@
     "at": "2026-10-18T03:40:31Z",
     "found": 30,
     "new": 0
+   },
+   {
+    "at": "2026-10-18T05:32:08Z",
+    "found": 30,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-18T03:40:31Z",
-  "last_run": "2026-10-18T03:40:31Z"
+  "last_ok": "2026-10-18T05:32:08Z",
+  "last_run": "2026-10-18T05:32:08Z"
  },
  "highsnobiety": {
   "consecutive_errors": 0,
@@ -241,14 +266,19 @@
     "at": "2026-10-18T03:40:31Z",
     "found": 9,
     "new": 3
+   },
+   {
+    "at": "2026-10-18T05:32:08Z",
+    "found": 9,
+    "new": 0
    }
   ],
   "state": {
    "etag": "\"251acb040a6446f2a145e75643a89c87\"",
    "last_modified": "Sat, 17 Oct 2026 20:55:15 GMT"
   },
-  "last_ok": "2026-10-18T03:40:31Z",
-  "last_run": "2026-10-18T03:40:31Z"
+  "last_ok": "2026-10-18T05:32:08Z",
+  "last_run": "2026-10-18T05:32:08Z"
  },
  "hypebeast": {
   "consecutive_errors": 0,
@@ -287,11 +317,16 @@
     "at": "2026-10-18T03:40:31Z",
     "found": 19,
     "new": 0
+   },
+   {
+    "at": "2026-10-18T05:32:08Z",
+    "found": 19,
+    "new": 2
    }
   ],
   "state": {},
-  "last_ok": "2026-10-18T03:40:31Z",
-  "last_run": "2026-10-18T03:40:31Z"
+  "last_ok": "2026-10-18T05:32:08Z",
+  "last_run": "2026-10-18T05:32:08Z"
  },
  "bof": {
   "consecutive_errors": 0,
@@ -325,11 +360,16 @@
     "at": "2026-10-18T03:40:31Z",
     "found": 100,
     "new": 10
+   },
+   {
+    "at": "2026-10-18T05:32:08Z",
+    "found": 100,
+    "new": 10
    }
   ],
   "state": {},
-  "last_ok": "2026-10-18T03:40:31Z",
-  "last_run": "2026-10-18T03:40:31Z"
+  "last_ok": "2026-10-18T05:32:08Z",
+  "last_run": "2026-10-18T05:32:08Z"
  },
  "r-malefashionadvice": {
   "consecutive_errors": 1,
@@ -352,7 +392,7 @@
   "last_error": "URLError: <urlopen error skipped: www.reddit.com rate-limited us earlier in this run>"
  },
  "comp-rmrs-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:08Z",
@@ -391,7 +431,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-justine-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:08Z",
@@ -430,7 +470,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-pranaysai-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:08Z",
