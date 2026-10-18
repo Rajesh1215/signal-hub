@@ -314,9 +314,210 @@
     "QuantaMagazine",
     "SmithsonianMag",
     "kurzgesagt",
-    "veritasium"
+    "veritasium",
+    "OurWorldInData",
+    "IEA",
+    "johnnyharris",
+    "MarkRober"
    ],
    "why": "Launches, discoveries and images, often first on X. Make it a private list and add these accounts (no need to follow them):"
+  },
+  {
+   "id": "owid",
+   "name": "Our World in Data",
+   "type": "feed",
+   "url": "https://ourworldindata.org/atom.xml",
+   "role": "news",
+   "tags": [
+    "data",
+    "future"
+   ],
+   "status": "active",
+   "max_new": 4,
+   "why": "Long-term data on the world: the base for 'where are we heading' scenarios"
+  },
+  {
+   "id": "gn-iea",
+   "name": "IEA (oil and energy outlook)",
+   "type": "gnews",
+   "query": "site:iea.org",
+   "role": "news",
+   "tags": [
+    "energy",
+    "future"
+   ],
+   "status": "active",
+   "max_new": 3,
+   "why": "Oil, energy and electricity outlooks (site blocks cloud servers, read via Google News)"
+  },
+  {
+   "id": "gn-imf-blog",
+   "name": "IMF blog (world economy)",
+   "type": "gnews",
+   "query": "site:imf.org/en/Blogs",
+   "role": "news",
+   "tags": [
+    "economy",
+    "future"
+   ],
+   "status": "active",
+   "max_new": 3,
+   "why": "Where the world economy is heading"
+  },
+  {
+   "id": "gn-wef-stories",
+   "name": "World Economic Forum (global risks, future of jobs)",
+   "type": "gnews",
+   "query": "site:weforum.org/stories",
+   "role": "news",
+   "tags": [
+    "future",
+    "trends"
+   ],
+   "status": "active",
+   "max_new": 3,
+   "why": "Global risks, future of jobs, technology trends"
+  },
+  {
+   "id": "gn-visual-capitalist",
+   "name": "Visual Capitalist",
+   "type": "gnews",
+   "query": "site:visualcapitalist.com",
+   "role": "news",
+   "tags": [
+    "data",
+    "visuals"
+   ],
+   "status": "active",
+   "max_new": 3,
+   "why": "Data visuals on world trends: easy video material"
+  },
+  {
+   "id": "noema",
+   "name": "Noema Magazine",
+   "type": "feed",
+   "url": "https://www.noemamag.com/feed/",
+   "role": "news",
+   "tags": [
+    "future",
+    "ideas"
+   ],
+   "status": "active",
+   "max_new": 4,
+   "why": "Essays on AI, technology, politics and the future"
+  },
+  {
+   "id": "big-think-tc",
+   "name": "Big Think",
+   "type": "feed",
+   "url": "https://bigthink.com/feed/",
+   "role": "news",
+   "tags": [
+    "ideas",
+    "science"
+   ],
+   "status": "active",
+   "max_new": 4,
+   "why": "Big questions in science and the future"
+  },
+  {
+   "id": "xkcd-what-if",
+   "name": "xkcd What If",
+   "type": "feed",
+   "url": "https://what-if.xkcd.com/feed.atom",
+   "role": "news",
+   "tags": [
+    "what_if",
+    "physics"
+   ],
+   "status": "active",
+   "max_new": 4,
+   "why": "Absurd 'what if' physics questions answered seriously; baseline (rarely updated)",
+   "baseline": true
+  },
+  {
+   "id": "yt-wendover",
+   "name": "Wendover Productions",
+   "type": "youtube",
+   "channel_id": "UC9RM-iSvTu1uPJb8X5yp3EQ",
+   "role": "news",
+   "tags": [
+    "systems",
+    "explainers"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3,
+   "why": "How the world works: logistics, economics, geography"
+  },
+  {
+   "id": "yt-real-engineering",
+   "name": "Real Engineering",
+   "type": "youtube",
+   "channel_id": "UCR1IuLEqb6UEA_zQ81kwXfg",
+   "role": "news",
+   "tags": [
+    "engineering",
+    "future"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3,
+   "why": "Engineering and future technology explained"
+  },
+  {
+   "id": "yt-caspian-report",
+   "name": "CaspianReport",
+   "type": "youtube",
+   "channel_id": "UCwnKziETDbHJtx78nIkfYug",
+   "role": "news",
+   "tags": [
+    "geopolitics",
+    "future"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3,
+   "why": "Geopolitics and where regions are heading"
+  },
+  {
+   "id": "yt-economics-explained",
+   "name": "Economics Explained",
+   "type": "youtube",
+   "channel_id": "UCZ4AMrDcNrfy3X6nsU8-rPg",
+   "role": "news",
+   "tags": [
+    "economy",
+    "future"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3,
+   "why": "Country economies and future scenarios"
+  },
+  {
+   "id": "reddit-future-world",
+   "name": "Reddit: future, geopolitics, big questions (5 subs)",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/Futurology+geopolitics+AskPhysics+UnresolvedMysteries+energy/top/?t=day",
+   "subreddits": [
+    "Futurology",
+    "geopolitics",
+    "AskPhysics",
+    "UnresolvedMysteries",
+    "energy"
+   ],
+   "role": "news",
+   "tags": [
+    "discussion",
+    "future"
+   ],
+   "mode": "manual",
+   "sweep": true,
+   "status": "active",
+   "pick": 5,
+   "min_upvotes": 150,
+   "why": "The AI reads the top discussions here during analyze today: what people wonder about the future, physics and mysteries"
   }
  ],
  "competitors": [
@@ -395,6 +596,70 @@
      "id": "comp-vsauce-yt",
      "type": "youtube",
      "channel_id": "UC6nSFpj9HTCZ5t-N3Rm3-HA",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "johnny-harris",
+   "name": "Johnny Harris",
+   "kind": "channel",
+   "why": "Geopolitics and 'where is this heading' explainers: closest to our future-scenarios series",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-johnny-harris-yt",
+     "type": "youtube",
+     "channel_id": "UCmGSJVG3mCRXVOP4yZrU1Dw",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "polymatter",
+   "name": "PolyMatter",
+   "kind": "channel",
+   "why": "Countries, economies and future scenarios, motion graphics",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-polymatter-yt",
+     "type": "youtube",
+     "channel_id": "UCgNg3vwj3xt7QOrcIDaHdFg",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "mark-rober",
+   "name": "Mark Rober",
+   "kind": "channel",
+   "why": "Real physics tests and experiments (our later 'real test' format)",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-mark-rober-yt",
+     "type": "youtube",
+     "channel_id": "UCY1kMZp36IQSyNx_9h4mpCg",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "infographics-show",
+   "name": "The Infographics Show",
+   "kind": "channel",
+   "why": "What-if and human-body-limit explainers at huge scale",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-infographics-show-yt",
+     "type": "youtube",
+     "channel_id": "UCfdNM3NAhaBOXCafH7krzrA",
      "max_age_days": 7,
      "max_new": 3
     }

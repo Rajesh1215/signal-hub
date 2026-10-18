@@ -3,7 +3,7 @@
  "order": 3,
  "name": "Classy Upgrade",
  "color": "#E879F9",
- "niche": "Style, grooming, skincare basics and confidence habits, education only (English, Instagram + YouTube)",
+ "niche": "Upgrade yourself from the inside out: mindset, self-control, motivation and how to think first; then physique, health and habits; then style and the impression you make. Education only (English, Instagram + YouTube)",
  "platforms": [
   "instagram",
   "youtube"
@@ -51,20 +51,32 @@
   "brand_launch",
   "myth_busting",
   "product_science",
-  "celebrity_look"
+  "celebrity_look",
+  "new_study",
+  "podcast_insight",
+  "expert_advice",
+  "series_fit"
  ],
  "flags": {
   "category": {
    "type": "enum",
    "values": [
+    "mindset",
+    "focus_productivity",
+    "motivation_discipline",
+    "emotional_control",
+    "thinking_decisions",
+    "brain_science",
+    "personality_social",
+    "physique_fitness",
+    "health_longevity",
+    "sleep_energy",
+    "habits",
+    "style_impression",
     "fashion",
     "grooming",
     "skincare",
     "haircare",
-    "fitness",
-    "confidence",
-    "habits",
-    "brand_news",
     "industry"
    ],
    "help": "Topic area"
@@ -76,7 +88,7 @@
   "stale_after_days": 7
  },
  "caps": {
-  "competitors": 5,
+  "competitors": 10,
   "people": 10
  },
  "importance": {

@@ -67,6 +67,10 @@ How much our audience needs to **know** this, whether or not we make a video:
 
 Items scored 4–5 show as **Important** on the dashboard, so keep 4–5 rare (about 8 a day at most).
 
+## Video idea policy: evergreen first
+
+Capital Kinetics is not a daily-news channel. A video must still be useful **at least 3 months later**. A big event (RBI policy, budget, a new tax rule, a famous startup collapse) is the **launch hook**: release while people are talking about it, and explain the lasting lesson (how the rule works, what to do with your money, what the case teaches). Today's number on its own (Sensex up, a daily price) is never an idea; label it `KNOW`. Ideas are mostly `evergreen` or `months`; use `hype` only when the reach is big **and** the lesson lasts.
+
 ## MAKE needs timing and evergreen
 
 - `timing`: `NOW` = within 24 h (RBI policy day, budget, new tax rule today). `SOON` = this week. `ANYTIME` = evergreen explainer.

@@ -3,7 +3,7 @@
  "order": 4,
  "name": "Timeless Curio",
  "color": "#F59E0B",
- "niche": "Curiosity stories: space, science, history, the human body and 'what if' (English, Instagram + YouTube)",
+ "niche": "Curiosity explained: where the world is heading (AI, energy, politics, technology scenarios), big mysteries and questions, history, important discoveries, space, physics and 'what if', the limits of the human body (English, Instagram + YouTube)",
  "platforms": [
   "instagram",
   "youtube"
@@ -51,7 +51,10 @@
   "anniversary",
   "mission_event",
   "myth_busting",
-  "record_broken"
+  "record_broken",
+  "scenario_trend",
+  "data_report",
+  "series_fit"
  ],
  "flags": {
   "category": {
@@ -67,7 +70,12 @@
     "earth_nature",
     "animals",
     "discovery",
-    "what_if"
+    "what_if",
+    "future_world",
+    "energy_resources",
+    "geopolitics_trends",
+    "physics",
+    "body_limits"
    ],
    "help": "Topic area"
   },
@@ -82,7 +90,7 @@
   "stale_after_days": 7
  },
  "caps": {
-  "competitors": 5,
+  "competitors": 9,
   "people": 10
  },
  "importance": {

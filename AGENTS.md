@@ -90,6 +90,7 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
    - **follow-ups**: if a new story continues an earlier idea (especially one marked `made`), write a new idea with `follows_idea`, `follow_up` (`part 2` for a new video, `update` for adding to the old one) and `background` (what happened before and what's new)
    - Don't repeat an existing open idea. Reuse its id to update it (new items, a sharper outline) instead.
    - Ideas come from the useful items: MAKE, high importance, strong competitor topics. Mix the types; at least one evergreen idea when there's a good one.
+   - Follow the niche's **"Video idea policy"** in its `brief.md`. Capital Kinetics, Classy Upgrade and Timeless Curio are **evergreen first**: every idea must still be worth watching 3 months later. A trend is only the launch hook, and one-day news never becomes an idea. Also keep each niche's **starting series** going (see its brief).
 7. **Old items.** Items older than 7 days that were never analysed: `python3 engine/save_analysis.py <niche> --mark-stale` (only if `pending.py` reported stale items).
 8. **Validate.** `python3 engine/check.py --run`. It must print ✓ for every niche. It fails if items are still pending or a niche with useful items has no fresh video ideas: fix that, don't skip it.
 9. **Commit and push.**

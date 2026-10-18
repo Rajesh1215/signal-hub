@@ -23,7 +23,8 @@
     "women",
     "fashion"
    ],
-   "status": "active"
+   "status": "paused",
+   "why": "Paused 18 Oct 2026: the channel is now mind-first; fashion is only the last layer"
   },
   {
    "id": "ie-fashion",
@@ -62,7 +63,8 @@
     "skincare",
     "grooming"
    ],
-   "status": "active"
+   "status": "paused",
+   "why": "Paused 18 Oct 2026: the channel is now mind-first; fashion is only the last layer"
   },
   {
    "id": "highsnobiety",
@@ -74,7 +76,8 @@
     "streetwear",
     "trends"
    ],
-   "status": "active"
+   "status": "paused",
+   "why": "Paused 18 Oct 2026: the channel is now mind-first; fashion is only the last layer"
   },
   {
    "id": "hypebeast",
@@ -86,7 +89,8 @@
     "streetwear",
     "trends"
    ],
-   "status": "active"
+   "status": "paused",
+   "why": "Paused 18 Oct 2026: the channel is now mind-first; fashion is only the last layer"
   },
   {
    "id": "bof",
@@ -98,8 +102,8 @@
    "max_new": 10,
    "type": "gnews",
    "query": "site:businessoffashion.com",
-   "status": "active",
-   "why": "Site blocks cloud servers (403); read through Google News search instead"
+   "status": "paused",
+   "why": "Paused 18 Oct 2026: the channel is now mind-first; fashion is only the last layer"
   },
   {
    "id": "pinterest-trends",
@@ -187,13 +191,16 @@
   },
   {
    "id": "reddit-habits",
-   "name": "Reddit: fitness & confidence (3 subs)",
+   "name": "Reddit: discipline, self-improvement, focus (6 subs)",
    "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/Fitness+getdisciplined+socialskills/top/?t=day",
+   "url": "https://www.reddit.com/r/getdisciplined+selfimprovement+productivity+socialskills+Fitness+decidingtobebetter/top/?t=day",
    "subreddits": [
-    "Fitness",
     "getdisciplined",
-    "socialskills"
+    "selfimprovement",
+    "productivity",
+    "socialskills",
+    "Fitness",
+    "decidingtobebetter"
    ],
    "role": "news",
    "tags": [
@@ -204,11 +211,11 @@
    "status": "active",
    "pick": 5,
    "min_upvotes": 100,
-   "why": "The AI reads the top discussions here during analyze today (r/Fitness, r/getdisciplined, r/socialskills)"
+   "why": "The AI reads the top discussions here during analyze today: what people struggle with (motivation, focus, discipline, confidence)"
   },
   {
    "id": "x-list-style",
-   "name": "X list: Style",
+   "name": "X list: Mind & Body",
    "type": "x_list",
    "url": "https://x.com/i/lists",
    "role": "people",
@@ -218,13 +225,265 @@
    "mode": "manual",
    "status": "active",
    "members": [
-    "GQIndia",
-    "VogueIndia",
-    "highsnobiety",
-    "hypebeast",
-    "BoF"
+    "hubermanlab",
+    "HealthyGamerGG",
+    "ChrisWillx",
+    "melrobbins",
+    "PeterAttiaMD",
+    "bryan_johnson",
+    "JeffNippard",
+    "AliAbdaal",
+    "GQIndia"
    ],
-   "why": "Fashion news on X (most style trends are on Instagram, check that too). Make it a private list and add these accounts (no need to follow them):"
+   "why": "Brain, mindset, health and a little style on X. Make it a private list and add these accounts (no need to follow them):"
+  },
+  {
+   "id": "neuroscience-news",
+   "name": "Neuroscience News",
+   "type": "feed",
+   "url": "https://neurosciencenews.com/feed/",
+   "role": "news",
+   "tags": [
+    "brain",
+    "research"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "why": "New brain and behaviour studies in plain language"
+  },
+  {
+   "id": "sd-mind-brain",
+   "name": "ScienceDaily: Mind & Brain",
+   "type": "feed",
+   "url": "https://www.sciencedaily.com/rss/mind_brain.xml",
+   "role": "news",
+   "tags": [
+    "brain",
+    "research"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "why": "University press releases on psychology and the brain"
+  },
+  {
+   "id": "gn-psypost",
+   "name": "PsyPost (psychology studies)",
+   "type": "gnews",
+   "query": "site:psypost.org",
+   "role": "news",
+   "tags": [
+    "psychology",
+    "research"
+   ],
+   "status": "active",
+   "max_new": 4,
+   "why": "Psychology research news (site blocks cloud servers, read via Google News)"
+  },
+  {
+   "id": "greater-good",
+   "name": "Greater Good (Berkeley)",
+   "type": "feed",
+   "url": "https://greatergood.berkeley.edu/site/rss/articles",
+   "role": "news",
+   "tags": [
+    "mindset",
+    "research"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "why": "Science of emotions, gratitude, resilience and relationships"
+  },
+  {
+   "id": "psyche",
+   "name": "Psyche (Aeon)",
+   "type": "feed",
+   "url": "https://psyche.co/feed",
+   "role": "news",
+   "tags": [
+    "thinking",
+    "guides"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "why": "Deep guides on thinking, emotions and the mind"
+  },
+  {
+   "id": "big-think",
+   "name": "Big Think",
+   "type": "feed",
+   "url": "https://bigthink.com/feed/",
+   "role": "news",
+   "tags": [
+    "thinking",
+    "ideas"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "why": "Ideas, thinking and expert interviews"
+  },
+  {
+   "id": "peter-attia",
+   "name": "Peter Attia (longevity)",
+   "type": "feed",
+   "url": "https://www.peterattiamd.com/feed/",
+   "role": "news",
+   "tags": [
+    "health",
+    "longevity"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "why": "Longevity and health science"
+  },
+  {
+   "id": "stronger-by-science",
+   "name": "Stronger By Science",
+   "type": "feed",
+   "url": "https://www.strongerbyscience.com/feed/",
+   "role": "news",
+   "tags": [
+    "fitness",
+    "research"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "why": "Evidence-based training and physique"
+  },
+  {
+   "id": "sd-fitness",
+   "name": "ScienceDaily: Fitness",
+   "type": "feed",
+   "url": "https://www.sciencedaily.com/rss/health_medicine/fitness.xml",
+   "role": "news",
+   "tags": [
+    "fitness",
+    "research"
+   ],
+   "status": "active",
+   "max_new": 5,
+   "why": "New exercise and fitness studies"
+  },
+  {
+   "id": "yt-huberman",
+   "name": "Huberman Lab",
+   "type": "youtube",
+   "channel_id": "UC2D2CMWXMOVWx7giW1n3LIg",
+   "role": "news",
+   "tags": [
+    "podcast",
+    "brain"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3,
+   "why": "Neuroscience of focus, motivation, sleep and habits",
+   "deep_video": true
+  },
+  {
+   "id": "yt-sahar-yousef",
+   "name": "Dr. Sahar Yousef",
+   "type": "youtube",
+   "channel_id": "UCT_CnzzlO6Zd4VXqwo7xSfQ",
+   "role": "news",
+   "tags": [
+    "brain",
+    "focus"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3,
+   "why": "Cognitive neuroscientist (Berkeley) on focus, energy and performance",
+   "deep_video": true
+  },
+  {
+   "id": "yt-modern-wisdom",
+   "name": "Modern Wisdom (Chris Williamson)",
+   "type": "youtube",
+   "channel_id": "UCIaH-gZIVC432YRjNVvnyCA",
+   "role": "news",
+   "tags": [
+    "podcast",
+    "mindset"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3,
+   "why": "Long interviews with psychologists and thinkers"
+  },
+  {
+   "id": "yt-mel-robbins",
+   "name": "Mel Robbins",
+   "type": "youtube",
+   "channel_id": "UCk2U-Oqn7RXf-ydPqfSxG5g",
+   "role": "news",
+   "tags": [
+    "podcast",
+    "motivation"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3,
+   "why": "Motivation, habits and mindset podcast"
+  },
+  {
+   "id": "yt-peter-attia",
+   "name": "Peter Attia MD",
+   "type": "youtube",
+   "channel_id": "UC8kGsMa0LygSX9nkBcBH1Sg",
+   "role": "news",
+   "tags": [
+    "podcast",
+    "longevity"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3,
+   "why": "Longevity, exercise and health"
+  },
+  {
+   "id": "yt-bryan-johnson",
+   "name": "Bryan Johnson (Don't Die)",
+   "type": "youtube",
+   "channel_id": "UCnRVL1-HJnXWB_Xi2dAoTcg",
+   "role": "news",
+   "tags": [
+    "longevity",
+    "habits"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3,
+   "why": "Don't Die: longevity routines; explain ideas, never recommend his protocol"
+  },
+  {
+   "id": "yt-jeff-nippard",
+   "name": "Jeff Nippard",
+   "type": "youtube",
+   "channel_id": "UC68TLK0mAEzUyHx5x5k-S1Q",
+   "role": "news",
+   "tags": [
+    "fitness",
+    "physique"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3,
+   "why": "Science-based physique training"
+  },
+  {
+   "id": "yt-rp-israetel",
+   "name": "Renaissance Periodization (Dr Mike Israetel)",
+   "type": "youtube",
+   "channel_id": "UCfQgsKhHjSyRLOp9mnffqVg",
+   "role": "news",
+   "tags": [
+    "fitness",
+    "physique"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3,
+   "why": "Hypertrophy and diet science"
   }
  ],
  "competitors": [
@@ -271,6 +530,86 @@
      "id": "comp-pranaysai-yt",
      "type": "youtube",
      "channel_id": "UC6NW8T10e9atHIoNlDw6YrQ",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "healthygamergg",
+   "name": "Dr K (HealthyGamerGG)",
+   "kind": "channel",
+   "why": "Psychiatrist on motivation, mind and emotions: the closest match to our mind-first angle",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-healthygamergg-yt",
+     "type": "youtube",
+     "channel_id": "UClHVl2N3jPEbkNJVx-ItQIQ",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "ali-abdaal",
+   "name": "Ali Abdaal",
+   "kind": "channel",
+   "why": "Productivity and self-improvement, evidence-based",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-ali-abdaal-yt",
+     "type": "youtube",
+     "channel_id": "UCoOae5nYA7VqaXzerajD0lg",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "better-ideas",
+   "name": "Better Ideas",
+   "kind": "channel",
+   "why": "Self-improvement explainers with animation, young audience",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-better-ideas-yt",
+     "type": "youtube",
+     "channel_id": "UCtUId5WFnN82GdDy7DgaQ7w",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "hamza",
+   "name": "Hamza",
+   "kind": "channel",
+   "why": "Men's self-improvement: discipline, physique, style",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-hamza-yt",
+     "type": "youtube",
+     "channel_id": "UCWsslCoN3b_wBaFVWK_ye_A",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "beerbiceps",
+   "name": "BeerBiceps (Ranveer Allahbadia)",
+   "kind": "channel",
+   "why": "Biggest Indian self-improvement and podcast channel",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-beerbiceps-yt",
+     "type": "youtube",
+     "channel_id": "UCPxMZIFE856tbTfdkdjzTSQ",
      "max_age_days": 7,
      "max_new": 3
     }
