@@ -58,7 +58,7 @@ def collect_entity(edir, test=False, only=None, mode="auto"):
                 traceback.print_exc()
             continue
 
-        baseline = src.get("adapter", src.get("type")) in ("page", "sitemap") and not h.get("baselined")
+        baseline = (src.get("adapter", src.get("type")) in ("page", "sitemap") or src.get("baseline")) and not h.get("baselined")
         max_age = timedelta(days=src.get("max_age_days", default_age))
         max_new = src.get("max_new", default_max_new)
         found = fresh = 0

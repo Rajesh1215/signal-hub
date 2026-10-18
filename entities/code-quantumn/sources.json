@@ -15,7 +15,12 @@
     "ai agent",
     "vibe coding",
     "python",
-    "ai course"
+    "ai course",
+    "full stack",
+    "system design",
+    "next.js",
+    "supabase",
+    "saas"
    ],
    "templates": [
     "how to use {x}",
@@ -31,7 +36,11 @@
     "how to learn ai",
     "ai jobs for",
     "free ai course",
-    "best laptop for ai"
+    "best laptop for ai",
+    "how to build an app with ai",
+    "ai startup ideas",
+    "how to become ai engineer",
+    "ai engineer roadmap"
    ],
    "youtube": [
     "how to use {x}",
@@ -696,6 +705,164 @@
    "min_reactions": 15
   },
   {
+   "id": "vercel-changelog",
+   "name": "Vercel (deploy, AI SDK, Next.js)",
+   "type": "feed",
+   "url": "https://vercel.com/atom",
+   "role": "official",
+   "tags": [
+    "full-stack",
+    "platform"
+   ],
+   "status": "active",
+   "max_new": 3
+  },
+  {
+   "id": "supabase-blog",
+   "name": "Supabase blog",
+   "type": "feed",
+   "url": "https://supabase.com/rss.xml",
+   "role": "official",
+   "tags": [
+    "full-stack",
+    "database"
+   ],
+   "status": "active",
+   "max_new": 2
+  },
+  {
+   "id": "cloudflare-blog",
+   "name": "Cloudflare blog",
+   "type": "feed",
+   "url": "https://blog.cloudflare.com/rss/",
+   "role": "official",
+   "tags": [
+    "platform",
+    "infra"
+   ],
+   "status": "active",
+   "max_new": 3
+  },
+  {
+   "id": "react-blog",
+   "name": "React blog",
+   "type": "feed",
+   "url": "https://react.dev/rss.xml",
+   "role": "official",
+   "tags": [
+    "frontend"
+   ],
+   "status": "active",
+   "max_age_days": 7
+  },
+  {
+   "id": "bytebytego-newsletter",
+   "name": "ByteByteGo newsletter (system design)",
+   "type": "feed",
+   "url": "https://blog.bytebytego.com/feed",
+   "role": "news",
+   "tags": [
+    "system-design",
+    "backend"
+   ],
+   "status": "active",
+   "max_age_days": 7
+  },
+  {
+   "id": "pragmatic-engineer",
+   "name": "The Pragmatic Engineer",
+   "type": "feed",
+   "url": "https://newsletter.pragmaticengineer.com/feed",
+   "role": "news",
+   "tags": [
+    "engineering",
+    "careers"
+   ],
+   "status": "active",
+   "max_age_days": 7
+  },
+  {
+   "id": "lennys-newsletter",
+   "name": "Lenny's Newsletter (product)",
+   "type": "feed",
+   "url": "https://www.lennysnewsletter.com/feed",
+   "role": "news",
+   "tags": [
+    "product"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "yc-blog",
+   "name": "Y Combinator blog",
+   "type": "feed",
+   "url": "https://www.ycombinator.com/blog/rss/",
+   "role": "official",
+   "tags": [
+    "startups"
+   ],
+   "status": "active",
+   "max_age_days": 7
+  },
+  {
+   "id": "pg-essays",
+   "name": "Paul Graham essays",
+   "type": "feed",
+   "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+   "role": "people",
+   "tags": [
+    "startups",
+    "essays"
+   ],
+   "status": "active",
+   "baseline": true,
+   "max_age_days": 3650
+  },
+  {
+   "id": "yt-yc",
+   "name": "Y Combinator (Startup School)",
+   "type": "youtube",
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "role": "news",
+   "tags": [
+    "startups",
+    "learning"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 2
+  },
+  {
+   "id": "yt-hussein-nasser",
+   "name": "Hussein Nasser (backend)",
+   "type": "youtube",
+   "channel_id": "UC_ML5xP23TOWKUcc-oAE_Eg",
+   "role": "news",
+   "tags": [
+    "backend",
+    "learning"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 2
+  },
+  {
+   "id": "yt-tech-with-tim",
+   "name": "Tech With Tim",
+   "type": "youtube",
+   "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+   "role": "news",
+   "tags": [
+    "tutorial",
+    "python"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 2
+  },
+  {
    "id": "reddit-ai-news",
    "name": "Reddit: AI news & models (7 subs)",
    "type": "reddit_manual",
@@ -765,6 +932,29 @@
    "pick": 5,
    "min_upvotes": 50,
    "why": "The AI reads the top discussions here during analyze today (r/developersIndia, r/learnmachinelearning, r/learnprogramming, r/csMajors)"
+  },
+  {
+   "id": "reddit-builders",
+   "name": "Reddit: builders & product engineers (5 subs)",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/webdev+SaaS+indiehackers+SideProject+ExperiencedDevs/top/?t=day",
+   "subreddits": [
+    "webdev",
+    "SaaS",
+    "indiehackers",
+    "SideProject",
+    "ExperiencedDevs"
+   ],
+   "role": "news",
+   "tags": [
+    "discussion"
+   ],
+   "mode": "manual",
+   "sweep": true,
+   "status": "active",
+   "pick": 5,
+   "min_upvotes": 100,
+   "why": "The AI reads the top discussions here during analyze today (r/webdev, r/SaaS, r/indiehackers, r/SideProject, r/ExperiencedDevs)"
   },
   {
    "id": "yt-3b1b",
@@ -1250,22 +1440,6 @@
    ]
   },
   {
-   "id": "tech-with-tim",
-   "name": "Tech With Tim",
-   "kind": "channel",
-   "why": "Python and AI project tutorials for beginners",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-tech-with-tim-yt",
-     "type": "youtube",
-     "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
    "id": "ai-coffee-break",
    "name": "AI Coffee Break with Letitia",
    "kind": "channel",
@@ -1276,6 +1450,38 @@
      "id": "comp-ai-coffee-break-yt",
      "type": "youtube",
      "channel_id": "UCobqgqE4i5Kf7wrxRxhToQA",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "theo-t3gg",
+   "name": "Theo (t3.gg)",
+   "kind": "channel",
+   "why": "Full-stack + AI opinions; huge with developers",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-theo-t3gg-yt",
+     "type": "youtube",
+     "channel_id": "UCbRP3c757lWg9M-U7TyEkXA",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "bytebytego",
+   "name": "ByteByteGo",
+   "kind": "channel",
+   "why": "System design with motion graphics, very close to our style",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-bytebytego-yt",
+     "type": "youtube",
+     "channel_id": "UCZgt6AzoyjslHTC9dz0UoTw",
      "max_age_days": 7,
      "max_new": 3
     }

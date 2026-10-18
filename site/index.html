@@ -329,7 +329,8 @@ function inRange(it, range = S.date) {
 }
 const ent = () => META.entities.find(e => e.id === S.entity);
 const items = () => DATA[S.entity] || [];
-const news = () => items().filter(it => it.role !== 'competitor');
+// Feed: all news, plus competitor videos the AI found worth knowing (analysed, not skipped)
+const news = () => items().filter(it => it.role !== 'competitor' || (it.status === 'analyzed' && !['SKIP', 'STALE'].includes(it.label)));
 const rivals = () => items().filter(it => it.role === 'competitor' && (S.comp === 'ALL' || it.competitor_id === S.comp));
 const useful = it => it.status === 'analyzed' && !['SKIP', 'STALE'].includes(it.label);
 const imp = it => it.importance || (it.label === 'IMPORTANT' ? 4 : 0);
@@ -378,6 +379,7 @@ const img = (it, cls) => `<a class="${cls}" href="${esc(safe(it.url))}" target="
 function card(it, mode = 'normal') {
   const L = lab(it), color = (LABELS[L] || [])[1] || 'var(--skip)', src = srcName(it), m = it.meta || {};
   const b = [badgeFor(L)];
+  if (it.role === 'competitor' && S.view !== 'competitors') b.push('<span class="tag">Competitor</span>');
   if (it.timing && TIMING[it.timing]) b.push(`<span class="tag ${TIMING[it.timing][1]}">${TIMING[it.timing][0]}</span>`);
   if (imp(it) && L !== 'IMPORTANT') b.push(`<span class="tag ${imp(it) >= 4 ? 'imp' + imp(it) : ''}" title="Importance ${imp(it)}/5">${IMPNAME[imp(it)]} importance</span>`);
   if (it.evergreen) b.push(`<span class="ever" title="Evergreen ${it.evergreen}/5: how long the video stays useful"><b>Evergreen</b>${[1,2,3,4,5].map(n => `<i class="${n <= it.evergreen ? 'f' : ''}"></i>`).join('')}</span>`);

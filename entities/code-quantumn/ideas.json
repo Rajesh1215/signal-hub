@@ -1,6 +1,62 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-18T16:52:16Z",
+  "history": [],
+  "id": "2026-10-18-series-learn-ai-fast-ep1",
+  "title": "Learn AI as fast as possible, Ep 1: the 30-day roadmap (what to skip)",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "Series opener: most beginners waste months on the wrong things. Here is the shortest path from zero to building with AI.",
+  "outline": [
+   "Who this is for: students and developers starting from zero",
+   "What to skip at first (heavy math, training models from scratch)",
+   "Week 1: Python basics + using LLM APIs",
+   "Week 2: prompting, RAG and embeddings by building one small app",
+   "Week 3: agents and tools (Claude Code, n8n, MCP)",
+   "Week 4: ship a project and put it on GitHub",
+   "CTA: follow for the episode-by-episode series"
+  ],
+  "updated_at": "2026-10-18T16:52:16Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-18T16:52:16Z",
+  "history": [],
+  "id": "2026-10-18-series-learn-ai-fast-ep2",
+  "title": "Learn AI as fast as possible, Ep 2: your first AI app in one hour",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "Stop watching theory: call an LLM API and build a working chatbot over your own notes today.",
+  "outline": [
+   "Get a free API key (Gemini free tier) and keep it secret",
+   "Ten lines of Python to call the model",
+   "Add your own documents (simple RAG)",
+   "Put it behind a small web page",
+   "What you just learned and what comes next"
+  ],
+  "updated_at": "2026-10-18T16:52:16Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-18T16:52:16Z",
+  "history": [],
+  "id": "2026-10-18-series-learn-ai-fast-ep3",
+  "title": "Learn AI as fast as possible, Ep 3: run AI on your own laptop (Ollama + DeepSeek)",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "Free, private AI on your own machine in 10 minutes: no API key, no bill.",
+  "outline": [
+   "Why local models matter (privacy, free, offline)",
+   "Install Ollama and pull a small model",
+   "Which model fits your RAM",
+   "Connect it to a chat UI",
+   "Limits vs cloud models"
+  ],
+  "updated_at": "2026-10-18T16:52:16Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-18T13:10:29Z",
   "history": [],
   "id": "2026-10-18-vibe-coding-vs-agentic",

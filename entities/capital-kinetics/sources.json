@@ -19,7 +19,12 @@
     "epf",
     "stock market",
     "health insurance",
-    "term insurance"
+    "term insurance",
+    "business",
+    "startup",
+    "gst",
+    "company registration",
+    "salary"
    ],
    "templates": [
     "how to start {x}",
@@ -36,7 +41,12 @@
     "how to reduce tax",
     "how to get loan",
     "salary hike",
-    "how to become rich"
+    "how to become rich",
+    "how to start a business",
+    "how to register a company",
+    "how to manage employees",
+    "first salary",
+    "how to manage money"
    ],
    "youtube": [
     "{x} in telugu",
@@ -738,20 +748,6 @@
    "max_new": 3
   },
   {
-   "id": "yt-warikoo",
-   "name": "Ankur Warikoo",
-   "type": "youtube",
-   "channel_id": "UCRzYN32xtBf3Yxsx5BvJWJw",
-   "role": "news",
-   "tags": [
-    "evergreen-creator",
-    "lessons"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 2
-  },
-  {
    "id": "gn-rbi-rules",
    "name": "RBI rules & policy (news)",
    "type": "gnews",
@@ -838,6 +834,144 @@
    "ceid": "US:en"
   },
   {
+   "id": "startuptalky",
+   "name": "StartupTalky (Indian business case studies)",
+   "type": "feed",
+   "url": "https://startuptalky.com/rss/",
+   "role": "news",
+   "tags": [
+    "case-studies",
+    "india"
+   ],
+   "status": "active",
+   "max_new": 5
+  },
+  {
+   "id": "gn-firstround",
+   "name": "First Round Review (running a company)",
+   "type": "sitemap",
+   "role": "news",
+   "tags": [
+    "management",
+    "startups"
+   ],
+   "status": "active",
+   "max_new": 3,
+   "url": "https://review.firstround.com/sitemap-posts.xml",
+   "baseline": true
+  },
+  {
+   "id": "gn-hbr",
+   "name": "Harvard Business Review (management, people)",
+   "type": "gnews",
+   "query": "site:hbr.org",
+   "role": "news",
+   "tags": [
+    "management"
+   ],
+   "status": "active",
+   "max_new": 3
+  },
+  {
+   "id": "gn-a16z",
+   "name": "a16z (startups, investing)",
+   "type": "gnews",
+   "query": "site:a16z.com",
+   "role": "news",
+   "tags": [
+    "startups",
+    "vc"
+   ],
+   "status": "active",
+   "max_new": 3
+  },
+  {
+   "id": "lennys-newsletter",
+   "name": "Lenny's Newsletter (product, growth, hiring)",
+   "type": "feed",
+   "url": "https://www.lennysnewsletter.com/feed",
+   "role": "news",
+   "tags": [
+    "product",
+    "management"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 3
+  },
+  {
+   "id": "pg-essays",
+   "name": "Paul Graham essays",
+   "type": "feed",
+   "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+   "role": "people",
+   "tags": [
+    "startups",
+    "essays"
+   ],
+   "status": "active",
+   "baseline": true,
+   "max_age_days": 3650
+  },
+  {
+   "id": "yt-yc",
+   "name": "Y Combinator (Startup School)",
+   "type": "youtube",
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "role": "news",
+   "tags": [
+    "startups",
+    "learning"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 2
+  },
+  {
+   "id": "yt-lennys-podcast",
+   "name": "Lenny's Podcast",
+   "type": "youtube",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "role": "news",
+   "tags": [
+    "product",
+    "management",
+    "learning"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 2
+  },
+  {
+   "id": "yt-my-first-million",
+   "name": "My First Million",
+   "type": "youtube",
+   "channel_id": "UCyaN6mg5u8Cjy2ZI4ikWaug",
+   "role": "news",
+   "tags": [
+    "business-ideas",
+    "learning"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 2
+  },
+  {
+   "id": "yt-diary-of-a-ceo",
+   "name": "The Diary Of A CEO",
+   "type": "youtube",
+   "channel_id": "UCGq-a57w-aPwyi3pW7XLiHw",
+   "role": "news",
+   "tags": [
+    "founders",
+    "mindset",
+    "learning"
+   ],
+   "status": "active",
+   "max_age_days": 7,
+   "max_new": 2
+  },
+  {
    "id": "reddit-money-india",
    "name": "Reddit: Indian personal finance (4 subs)",
    "type": "reddit_manual",
@@ -904,6 +1038,32 @@
    "why": "The AI reads the top discussions here during analyze today (r/startups, r/ycombinator, r/StartUpIndia, r/hardware, r/technology)"
   },
   {
+   "id": "reddit-business-mgmt",
+   "name": "Reddit: business & management (8 subs)",
+   "type": "reddit_manual",
+   "url": "https://www.reddit.com/r/startups+Entrepreneur+smallbusiness+StartUpIndia+managers+humanresources+sales+CustomerSuccess/top/?t=day",
+   "subreddits": [
+    "startups",
+    "Entrepreneur",
+    "smallbusiness",
+    "StartUpIndia",
+    "managers",
+    "humanresources",
+    "sales",
+    "CustomerSuccess"
+   ],
+   "role": "news",
+   "tags": [
+    "discussion"
+   ],
+   "mode": "manual",
+   "sweep": true,
+   "status": "active",
+   "pick": 5,
+   "min_upvotes": 100,
+   "why": "The AI reads the top discussions here during analyze today (r/startups, r/Entrepreneur, r/smallbusiness, r/StartUpIndia, r/managers, r/humanresources, r/sales, r/CustomerSuccess)"
+  },
+  {
    "id": "yt-zerodha",
    "name": "Zerodha",
    "type": "youtube",
@@ -912,19 +1072,6 @@
    "tags": [
     "broker",
     "education"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-think-school",
-   "name": "Think School",
-   "type": "youtube",
-   "channel_id": "UCKZozRVHRYsYHGEyNKuhhdA",
-   "role": "news",
-   "tags": [
-    "business-story"
    ],
    "status": "active",
    "max_age_days": 7,
@@ -1068,22 +1215,6 @@
    ]
   },
   {
-   "id": "pranjal-kamra",
-   "name": "Pranjal Kamra",
-   "kind": "channel",
-   "why": "Investing education, long-form",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-kamra-yt",
-     "type": "youtube",
-     "channel_id": "UCwAdQUuPT6laN-AQR17fe1g",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
    "id": "labour-law-advisor",
    "name": "Labour Law Advisor",
    "kind": "channel",
@@ -1094,6 +1225,102 @@
      "id": "comp-lla-yt",
      "type": "youtube",
      "channel_id": "UCVOTBwF0vnSxMRIbfSE_K_g",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "think-school",
+   "name": "Think School",
+   "kind": "channel",
+   "why": "Indian business case studies: the gold standard",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-think-school-yt",
+     "type": "youtube",
+     "channel_id": "UCKZozRVHRYsYHGEyNKuhhdA",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "raj-shamani",
+   "name": "Raj Shamani (Figuring Out)",
+   "kind": "channel",
+   "why": "Founder and business podcast",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-raj-shamani-yt",
+     "type": "youtube",
+     "channel_id": "UCzwCEE_PchiBULMnAJqhGVg",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "nikhil-kamath",
+   "name": "Nikhil Kamath (WTF)",
+   "kind": "channel",
+   "why": "Founders, investors, business deep-dives",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-nikhil-kamath-yt",
+     "type": "youtube",
+     "channel_id": "UCnC8SAZzQiBGYVSKZ_S3y4Q",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "ankur-warikoo",
+   "name": "Ankur Warikoo",
+   "kind": "channel",
+   "why": "Personal finance and entrepreneurship",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-ankur-warikoo-yt",
+     "type": "youtube",
+     "channel_id": "UCRzYN32xtBf3Yxsx5BvJWJw",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "barbershop-shantanu",
+   "name": "The Barbershop with Shantanu",
+   "kind": "channel",
+   "why": "Founder stories and startup reality",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-barbershop-shantanu-yt",
+     "type": "youtube",
+     "channel_id": "UCta-0NnMg1q3g3bZN_yS65A",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "varun-mayya",
+   "name": "Varun Mayya",
+   "kind": "channel",
+   "why": "Business, tech and careers",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-varun-mayya-yt",
+     "type": "youtube",
+     "channel_id": "UCsQoiOrh7jzKmE8NBofhTnQ",
      "max_age_days": 7,
      "max_new": 3
     }
