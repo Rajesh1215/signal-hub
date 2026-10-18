@@ -177,6 +177,22 @@ def a_hf_papers(src, state):
     return out, {}
 
 
+def a_hf_trending(src, state):
+    """Models trending on Hugging Face right now (new open models people are trying)."""
+    _, body, _ = http_get(f"https://huggingface.co/api/models?sort=trendingScore&limit={src.get('limit', 25)}&full=true")
+    out = []
+    for m in json.loads(body):
+        mid = m.get("id") or m.get("modelId")
+        if not mid or (m.get("likes") or 0) < src.get("min_likes", 20):
+            continue
+        task = m.get("pipeline_tag") or ""
+        out.append({"url": f"https://huggingface.co/{mid}", "title": f"Trending on Hugging Face: {mid}" + (f" ({task})" if task else ""),
+                    "published_at": iso(parse_time(m.get("createdAt"))) if m.get("createdAt") else None,
+                    "snippet": clean_text(" ".join((m.get("cardData") or {}).get("tags", []) if isinstance(m.get("cardData"), dict) else []), 200),
+                    "meta": {"upvotes": m.get("likes"), "downloads": m.get("downloads")}})
+    return out, {}
+
+
 def a_github_trending(src, state):
     lang = src.get("language", "")
     status, body, _ = http_get(f"https://github.com/trending/{lang}?since={src.get('since', 'daily')}")
@@ -288,7 +304,7 @@ def a_site(src, state):
 
 ADAPTERS = {"feed": a_feed, "youtube": a_youtube, "reddit": a_reddit, "hn": a_hn, "devto": a_devto,
             "hf_papers": a_hf_papers, "github_trending": a_github_trending, "page": a_page,
-            "sitemap": a_sitemap, "gnews": a_gnews}
+            "sitemap": a_sitemap, "gnews": a_gnews, "hf_trending": a_hf_trending}
 
 
 def run_adapter(src, state):
