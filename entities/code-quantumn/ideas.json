@@ -44,25 +44,40 @@
   "updated_at": "2026-10-18T05:08:41Z"
  },
  {
-  "status": "new",
+  "status": "to_make",
   "created_at": "2026-10-18T05:08:41Z",
-  "history": [],
+  "history": [
+   {
+    "at": "2026-10-18T08:14:15Z",
+    "event": "updated by agent"
+   },
+   {
+    "at": "2026-10-18T08:14:15Z",
+    "event": "marked to_make",
+    "note": "Video rendered 18 Oct; verified on official portal"
+   }
+  ],
   "id": "2026-10-18-indiaai-fellowship",
-  "title": "The government will pay you ₹1 lakh a month to research AI",
+  "title": "Govt of India funds AI students: up to ₹2 lakh (IndiaAI Fellowship)",
   "type": "hype",
   "timing": "NOW",
-  "angle": "IndiaAI Fellowship 2026-27 is open: stipend, free GPUs, and who can apply",
+  "angle": "Verified on the official portal: who can apply, how much, documents, DigiLocker sign-in, deadline 30 Nov",
   "outline": [
-   "Hook: ₹1 lakh/month + free GPU compute",
-   "Who runs it (MeitY / IndiaAI)",
-   "Eligibility and deadline (check the official page)",
-   "How to write a strong application",
-   "Free alternatives if you're not eligible"
+   "Hook: Govt funds AI students, up to ₹2 lakh",
+   "Official portal: applications open for 2026-27",
+   "Deadline 30 November (official poster)",
+   "UG final year up to ₹1 lakh; PG sem 1–3 up to ₹2 lakh; PhD ₹70K/month",
+   "Eligibility: CGPA 7+, 3 AI courses, AI project with a guide",
+   "Documents: endorsement letter, marksheets, cancelled cheque, photo",
+   "Apply: sign in with DigiLocker",
+   "Check your college is eligible",
+   "CTA: comment AI for details in DM"
   ],
   "items": [
    "82f451ca7f358451"
   ],
-  "updated_at": "2026-10-18T05:08:41Z"
+  "updated_at": "2026-10-18T08:14:15Z",
+  "status_note": "Video rendered 18 Oct; verified on official portal"
  },
  {
   "status": "new",
