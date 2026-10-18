@@ -218,6 +218,19 @@ main { padding:16px 16px calc(92px + env(safe-area-inset-bottom)); max-width:108
 .srow .sn b { display:block; font-size:16px; color:var(--ink); }
 .pills { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
 .loading { padding:60px 0; text-align:center; color:var(--muted); }
+.dbtn { border:1px solid var(--line); background:var(--surface-2); color:var(--ink); border-radius:8px; padding:4px 10px; font-size:12.5px; font-weight:650; cursor:pointer; }
+.dbtn:hover { background:var(--line); }
+.modal { position:fixed; inset:0; z-index:100; background:rgba(8,10,14,.55); display:flex; align-items:flex-start; justify-content:center; padding:40px 16px; overflow-y:auto; -webkit-backdrop-filter:blur(4px); backdrop-filter:blur(4px); }
+.sheet { position:relative; width:100%; max-width:760px; background:var(--surface); border-radius:18px; padding:22px 22px 26px; box-shadow:0 30px 80px rgba(0,0,0,.35); }
+.sheet .x { position:absolute; top:14px; right:14px; width:36px; height:36px; border-radius:10px; border:1px solid var(--line); background:var(--surface-2); cursor:pointer; font-size:18px; color:var(--ink); }
+.sheet h2 { margin:6px 44px 6px 0; font-size:21px; line-height:1.3; letter-spacing:-.01em; }
+.sheet h4 { margin:20px 0 6px; font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+.sheet p { margin:0; color:var(--ink-2); font-size:15px; line-height:1.55; white-space:pre-wrap; }
+.sheet ul { margin:0; padding-left:20px; color:var(--ink-2); font-size:15px; line-height:1.55; }
+.sheet li { margin:3px 0; }
+.sheet .acts li::marker { content:"✓  "; color:var(--ok); }
+.sheet .row2 { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
+@media (max-width: 919px) { .modal { padding:0; align-items:stretch; } .sheet { border-radius:0; min-height:100%; padding-top:18px; } }
 .bg { margin:8px 0 0; font-size:13.5px; color:var(--ink-2); background:var(--surface-2); border-radius:8px; padding:7px 10px; }
 .bg a { color:var(--ink); font-weight:600; }
 .outline { margin:10px 0 0; padding-left:20px; color:var(--ink-2); font-size:14px; }
@@ -386,7 +399,7 @@ function card(it, mode = 'normal') {
       ${text}
       ${follow}
       ${flags ? `<div class="flags">${flags}</div>` : ''}
-      <div class="meta"><span class="src">${av(src)}${esc(src)}</span><span>${rel(when(it))}</span>${stats(it)}${links}</div>
+      <div class="meta"><span class="src">${av(src)}${esc(src)}</span><span>${rel(when(it))}</span>${stats(it)}${links}${(it.status === 'analyzed' || it.snippet) ? `<button class="dbtn" data-detail="${esc(it.id)}">Details</button>` : ''}</div>
     </div>
     ${!hero && it.image ? img(it, 'thumb') : ''}
   </article>`;
@@ -525,6 +538,50 @@ function viewIdeas() {
     + `<div class="filters"><div class="scroll">${schips}</div><div class="scroll">${tchips}</div></div>`
     + (shown.length ? `<div class="cards" style="margin-top:12px">${shown.map(ideaCard).join('')}</div>` : `<div class="empty" style="margin-top:12px">No ideas for this filter.</div>`);
 }
+function notesHtml(t) {
+  const lines = (t || '').split('\n');
+  let out = '', list = [];
+  const flush = () => { if (list.length) { out += `<ul>${list.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`; list = []; } };
+  for (const l of lines) {
+    const m = l.match(/^\s*[-*•]\s+(.*)/);
+    if (m) list.push(m[1]); else { flush(); if (l.trim()) out += `<p>${esc(l)}</p>`; }
+  }
+  flush();
+  return out;
+}
+function openDetail(id) {
+  const it = items().find(x => x.id === id);
+  if (!it) return;
+  const L = lab(it), color = (LABELS[L] || [])[1] || 'var(--skip)';
+  const prev = it.follows ? items().find(x => x.id === it.follows) : null;
+  const b = [badgeFor(L)];
+  if (imp(it)) b.push(`<span class="tag ${imp(it) >= 4 ? 'imp' + imp(it) : ''}">${IMPNAME[imp(it)]} importance</span>`);
+  if (it.timing && TIMING[it.timing]) b.push(`<span class="tag ${TIMING[it.timing][1]}">${TIMING[it.timing][0]}</span>`);
+  if (it.type === 'search_demand') b.push('<span class="tag soon">🔎 Search demand</span>');
+  if (it.reason) b.push(`<span class="tag">${esc(human(it.reason))}</span>`);
+  const flags = flagChips(it);
+  const m = document.createElement('div');
+  m.className = 'modal';
+  m.innerHTML = `<div class="sheet" style="border-top:5px solid ${color}">
+    <button class="x" data-close aria-label="Close">✕</button>
+    <div class="badges">${b.join('')}</div>
+    <h2>${esc(it.title)}</h2>
+    <div class="meta"><span class="src">${av(srcName(it))}${esc(srcName(it))}</span><span>${rel(when(it))}</span>${stats(it)}</div>
+    ${it.image ? `<img src="${esc(it.image)}" alt="" referrerpolicy="no-referrer" style="width:100%;max-height:240px;object-fit:cover;border-radius:12px;margin-top:14px" onerror="this.remove()">` : ''}
+    ${it.summary ? `<h4>Summary</h4><p>${esc(it.summary)}</p>` : ''}
+    ${it.follows || it.background ? `<h4>Back-story</h4><p>${prev ? 'Follow-up of: ' + esc(prev.title) + '\n' : ''}${esc(it.background || '')}</p>` : ''}
+    ${it.notes ? `<h4>Observations</h4>${notesHtml(it.notes)}` : ''}
+    ${(it.actions || []).length ? `<h4>What the AI did</h4><ul class="acts">${it.actions.map(a => `<li>${esc(a)}</li>`).join('')}</ul>` : ''}
+    ${!it.summary && !it.notes && it.snippet ? `<h4>From the source</h4><p>${esc(it.snippet)}</p>` : ''}
+    ${flags ? `<h4>Tags</h4><div class="flags">${flags}</div>` : ''}
+    <div class="row2"><a class="btn primary" href="${esc(safe(it.url))}" target="_blank" rel="noopener">Open original ${ic('open', 'sm')}</a>
+      ${it.analyzed_at ? `<span class="sub" style="align-self:center">Analysed ${rel(it.analyzed_at)}</span>` : '<span class="sub" style="align-self:center">Not analysed yet</span>'}</div>
+  </div>`;
+  document.body.appendChild(m);
+  document.body.style.overflow = 'hidden';
+}
+function closeDetail() { document.querySelectorAll('.modal').forEach(x => x.remove()); document.body.style.overflow = ''; }
+document.addEventListener('keydown', ev => { if (ev.key === 'Escape') closeDetail(); });
 function filterBar(base, labelList) {
   const counts = {};
   base.filter(it => inRange(it)).forEach(it => {
@@ -657,6 +714,9 @@ function set(p) {
   if (jump) window.scrollTo(0, 0);
 }
 document.addEventListener('click', ev => {
+  const d = ev.target.closest('[data-detail]');
+  if (d) { ev.preventDefault(); openDetail(d.dataset.detail); return; }
+  if (ev.target.closest('[data-close]') || ev.target.classList.contains('modal')) { closeDetail(); return; }
   if (ev.target.closest('[data-theme-toggle]')) {
     document.documentElement.dataset.theme = isDark() ? 'light' : 'dark';
     store('sh-theme', document.documentElement.dataset.theme); renderChrome(); return;

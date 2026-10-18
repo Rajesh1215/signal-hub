@@ -120,7 +120,9 @@ A JSON list. One object per item:
    "summary": "Ollama 0.40 loads models faster on Macs; small quality-of-life update for local-AI users."},
   {"id": "0c7d1e2f3a4b5c6d", "label": "MAKE", "importance": 4, "timing": "NOW", "evergreen": 2, "reason": "model_release",
    "flags": {"category": "model"},
-   "summary": "What happened + why our audience cares (free? India? official?). Hook: '...'"},
+   "summary": "What happened + why our audience cares (free? India? official?). Hook: '...'",
+   "notes": "- Launched 17 Oct on the official blog\n- Free tier: 50 messages/day; works in India\n- New vs last version: ...",
+   "actions": ["Added the official model card as item 9a1b…", "Created video idea 2026-10-18-new-model-free"]},
   {"id": "77aa88bb99cc00dd", "label": "CONTENT", "reason": "competitor_move",
    "summary": "They covered X; we can do it shorter with the India angle."}
 ]
@@ -132,6 +134,8 @@ Fields:
 - `summary`: required on every non-SKIP item, max 300 characters: what happened + why it matters. `MAKE` ends with `Hook: '...'`. No summary on SKIP.
 - `flags.category`: required on every non-SKIP news item. It's the only flag (plus `anniversary_date` for Timeless Curio anniversaries).
 - `timing` (NOW / SOON / ANYTIME) and `evergreen` (1–5): `MAKE` only, required.
+- `notes`: your **observations** from the full read, shown when the user clicks "Details" on the card (up to 6000 characters, plain text with line breaks and "- " bullets). **Required** for `MAKE`, importance 4–5 and competitor items; write them for every item you deep-read. For a YouTube video: the key points in order with numbers and timestamps (from the transcript or `video.py --gemini` output), and what's new compared with what we already had. For an article or paper: what's actually new, key facts, who it matters to, any doubts.
+- `actions`: what you **did** because of this item, one short sentence each, e.g. "Added the original OpenAI blog post as item 3f2a…", "Noted Sarvam AI's X account in notes/source-ideas.md", "Linked as follow-up of the 16 Oct gold-fund story", "Created video idea 2026-10-18-gold-ways-explained".
 - `reason`: one of the niche's `reasons`, on every item.
 
 `save_analysis.py` rejects anything that breaks these rules and tells you why.

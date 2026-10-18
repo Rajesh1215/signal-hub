@@ -65,6 +65,17 @@ def validate(p, cfg, role):
         errs.append("a follow-up needs background: what happened before, with the date")
     if p.get("background") and len(p["background"]) > 300:
         errs.append("background must be under 300 characters")
+    notes = p.get("notes")
+    if notes is not None and (not isinstance(notes, str) or len(notes) > 6000):
+        errs.append("notes must be text under 6000 characters")
+    acts = p.get("actions")
+    if acts is not None and (not isinstance(acts, list) or len(acts) > 15 or not all(isinstance(x, str) for x in acts)):
+        errs.append("actions must be a list of up to 15 short sentences")
+    if notes and not useful:
+        errs.append("notes are not used on SKIP items")
+    deep = p.get("label") == "MAKE" or (p.get("importance") or 0) >= 4 or (role == "competitor" and useful)
+    if deep and not notes:
+        errs.append("MAKE, importance 4-5 and competitor items need notes (your observations from the full read)")
     imp = p.get("importance")
     if imp is not None and (not isinstance(imp, int) or not 1 <= imp <= 5):
         errs.append("importance must be an integer 1-5")

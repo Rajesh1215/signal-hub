@@ -59,7 +59,7 @@ def build_entity(edir):
                 "published_at": it.get("published_at"),
                 "meta": meta, "image": img, "snippet": (it.get("snippet") or "")[:220],
                 "status": "analyzed" if a and a.get("label") != "STALE" else ("stale" if a else "pending"),
-                **{k: a[k] for k in ("label", "importance", "timing", "evergreen", "reason", "flags", "summary", "follows", "background") if k in a},
+                **{k: a[k] for k in ("label", "importance", "timing", "evergreen", "reason", "flags", "summary", "follows", "background", "notes", "actions", "analyzed_at") if k in a},
             })
     for x in out:  # "when" = publish time, unless missing or in the future (bad feed dates)
         pub = x.get("published_at")
