@@ -1,6 +1,64 @@
 {
  "sources": [
   {
+   "id": "search-demand-money",
+   "name": "What India is searching: money & finance",
+   "terms": [
+    "sip",
+    "mutual fund",
+    "gold etf",
+    "sgb",
+    "fixed deposit",
+    "nps",
+    "ppf",
+    "home loan",
+    "credit card",
+    "income tax",
+    "ipo",
+    "upi",
+    "epf",
+    "stock market",
+    "health insurance",
+    "term insurance"
+   ],
+   "templates": [
+    "how to start {x}",
+    "is {x} safe",
+    "{x} vs",
+    "best {x}",
+    "{x} new rules",
+    "{x} in telugu"
+   ],
+   "seeds": [
+    "how to save money",
+    "how to invest",
+    "best investment for",
+    "how to reduce tax",
+    "how to get loan",
+    "salary hike",
+    "how to become rich"
+   ],
+   "youtube": [
+    "{x} in telugu",
+    "how to save money",
+    "how to invest"
+   ],
+   "adapter": "site:search_demand",
+   "type": "search_demand",
+   "role": "news",
+   "tags": [
+    "search-demand",
+    "trending"
+   ],
+   "status": "active",
+   "gl": "in",
+   "hl": "en",
+   "every_hours": 20,
+   "max_new": 15,
+   "max_age_days": 2,
+   "why": "New Google/YouTube search suggestions in India: questions people have just started asking"
+  },
+  {
    "id": "rbi-press",
    "name": "RBI press releases",
    "type": "feed",

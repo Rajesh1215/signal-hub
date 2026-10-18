@@ -91,6 +91,14 @@ Competitors are similar finance creators (see sources.json). Label each new vide
 `CONTENT` (topic they covered: we might do it clearer or from the salaried-person angle), `RELEASE`/`FEATURE` (they launched a course, app or format), `DECISION` (they changed direction), `PRACTICE` (a format worth learning from), or `SKIP` (sponsored or off-topic).
 Competitor items may have a one-line summary: the topic and our different angle. Never copy their script.
 
+## Search-demand items ("New Google/YouTube search in India: …")
+
+These come from the source "What India is searching": a search suggestion that has just appeared, i.e. a question many people have started typing. They are demand signals, not news.
+- If it's a real, answerable question that fits our audience (how to use a new tool free, X vs Y, best tool for a task, a new rule), label `MAKE` or `KNOW` with importance by how big the demand looks; the summary says what people want to know and the answer angle.
+- Several related searches (e.g. "chatgpt 6 astra free", "how to use chatgpt 6 astra") are one demand: label the clearest one and mark the rest `SKIP` + `duplicate`.
+- Celebrity, sports or off-topic completions are `SKIP`.
+- Strong ones should become **video ideas** (often `evergreen` how-tos or `hype` "everyone is searching this" videos). Mention in the idea's angle that people are searching it.
+
 ## Duplicates and sources
 
 - The same news comes from RBI/SEBI and five news sites. Label the **official source** if present, else the clearest news story. Others are `SKIP` + `duplicate`.

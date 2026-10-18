@@ -1,6 +1,59 @@
 {
  "sources": [
   {
+   "id": "search-demand-tech",
+   "name": "What India is searching: AI & tech",
+   "terms": [
+    "chatgpt",
+    "gemini",
+    "claude",
+    "deepseek",
+    "copilot",
+    "cursor ai",
+    "perplexity",
+    "grok",
+    "ai agent",
+    "vibe coding",
+    "python",
+    "ai course"
+   ],
+   "templates": [
+    "how to use {x}",
+    "is {x} free",
+    "{x} vs",
+    "{x} not working",
+    "{x} in telugu",
+    "what is {x}"
+   ],
+   "seeds": [
+    "best ai for",
+    "ai tools for",
+    "how to learn ai",
+    "ai jobs for",
+    "free ai course",
+    "best laptop for ai"
+   ],
+   "youtube": [
+    "how to use {x}",
+    "best ai for",
+    "ai tools for"
+   ],
+   "adapter": "site:search_demand",
+   "type": "search_demand",
+   "role": "news",
+   "tags": [
+    "search-demand",
+    "trending"
+   ],
+   "status": "active",
+   "gl": "in",
+   "hl": "en",
+   "every_hours": 20,
+   "max_new": 15,
+   "max_age_days": 2,
+   "why": "New Google/YouTube search suggestions in India: questions people have just started asking"
+  },
+  {
    "id": "openai-news",
    "name": "OpenAI News",
    "type": "feed",
