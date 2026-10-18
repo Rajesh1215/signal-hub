@@ -775,5 +775,228 @@
   },
   "summary": "Filip Knyszewski benchmarked TypeSafe AI's Jev 1.14 image input: 0.8s median latency and zsh.00024/ad (~60% cheaper than OpenAI Decisions API), returning confidence signals and element bounding boxes.",
   "analyzed_at": "2026-10-18T08:17:27Z"
+ },
+ "845bab977e2f9cb1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "dbe54cb3204ebe8b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "347a33b10400c267": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "8762733b583ead24": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "b8e716a99eb32f61": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "455b3a4ad6cdc746": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "ed65058b598b5ab6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "7dfc88fa2302063b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "63c8a9c9ab0a90b7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "3528c4bc6fccc814": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "f7c3b27e8e449d15": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "FLock.io released an open-source decision model fine-tuned on Qwen 2.5 for local sub-second edge routing.",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "4deef7c04f33c7c9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "525319c781a7805a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "0d51d1f00199d916": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "0b4ebb37c677f155": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "bbfa0ec80e462135": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "84bfec15c5c2fda5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "ae55564bb4a12caa": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "ed546d4097c41ff0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "fcdcbe21e5206aa1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "7abdcb48b4bb365a": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Google open-sourced Harness2, an agentic evaluation framework that recursively tests autonomous coding agents against multi-step failure recovery loops. Hook: 'How does Google test its AI agents before releasing them? They just open-sourced the test harness.'",
+  "notes": "- Google open-sourced Harness2 for evaluating autonomous multi-agent trajectories\n- Focuses on recursive self-recovery when agents hit syntax errors or rate limits\n- Standard benchmark scores miss agent looping failures; Harness2 specifically stresses error resilience",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "6f0cbd0828f14b61": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "77928fb24f0dc1be": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Hardware architecture breakdown explaining HBM memory bandwidth constraints vs GPU compute throughput in modern LLM clusters.",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "a157166ed1632661": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "9c6f959989391062": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "31f4363c3fb9b641": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "78df948c7f2a97c2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "cb946e7e8068cede": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "1ee02c21d9acd37e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search interest spikes in India around Cursor AI free student tier access and comparison with Claude Code.",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "889242748abb0cbc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "568633e761e014e7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "5d169b99fadf6c4f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Top tech searches in India focus on distinguishing AI agents from generative chatbots and testing coding agents.",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "be04581fd089a3c3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Google Trends India reveals surging queries comparing vibe coding vs agentic coding and free setups in VS Code.",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "0177c2626d478620": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "841c8aeb22791627": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "337926b6cc743da3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "2fd463e175169d0d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "e4d79100ff55d1b8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:09:39Z"
  }
 }

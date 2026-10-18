@@ -203,5 +203,93 @@
   "label": "SKIP",
   "reason": "minor_update",
   "analyzed_at": "2026-10-18T08:16:33Z"
+ },
+ "0706e9fedbfc893c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Citizen science project Black Hole Hunters invites the public to analyze gravitational microlensing light curves from Gaia space telescope data.",
+  "analyzed_at": "2026-10-18T13:06:39Z"
+ },
+ "286fed3b288ce07d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T13:06:39Z"
+ },
+ "d780544d1ecaa270": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T13:06:39Z"
+ },
+ "7780deedffb504da": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Astronomers imaged SNR Pa 30, the remnant of a 1181 AD supernova, revealing radial sulfur filaments and a surviving hot white dwarf core.",
+  "analyzed_at": "2026-10-18T13:06:39Z"
+ },
+ "bbaf95c5c5951167": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Cuttlefish generate pulsating waves of colour across their skin—known as the passing cloud display—visually dazzling crabs into paralysis before striking. Hook: 'Can an animal actually hypnotize its prey? Meet the ocean's master illusionist.'",
+  "notes": "- Cuttlefish use millions of pigment-filled cells called chromatophores controlled directly by motor neurons in the brain\n- The dynamic passing cloud display creates a stroboscopic optical illusion that overloads the visual cortex of prey like crabs\n- Visual camouflage works even though cuttlefish are completely colorblind, detecting polarization patterns instead",
+  "analyzed_at": "2026-10-18T13:06:39Z"
+ },
+ "c9d8d89d14ea7a1d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Metagenomic analysis of African lion gut microbiomes reveals novel bacterial lineages vital to feline digestive enzymes.",
+  "analyzed_at": "2026-10-18T13:06:39Z"
+ },
+ "c7b6daf95f85a84d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T13:06:39Z"
+ },
+ "7e9077b32e868839": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:06:39Z"
+ },
+ "06b19a8b5e420443": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-18T13:06:39Z"
+ },
+ "77d47cb12274a337": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T13:06:39Z"
+ },
+ "30f42d34a806d3dd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T13:06:39Z"
+ },
+ "5577e8da9853e6d0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T13:06:39Z"
+ },
+ "d033d29d65926f73": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-18T13:06:39Z"
  }
 }
