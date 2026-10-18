@@ -49,8 +49,11 @@ def build_entity(edir):
             meta = {k: v for k, v in (it.get("meta") or {}).items() if k in META_KEYS and v}
             img = thumbnail(it["url"], meta)
             meta.pop("image", None)
+            url = it["url"]
+            if "news.google.com/rss/articles/" in url:  # older items: the non-RSS link opens in a browser
+                url = url.replace("/rss/articles/", "/articles/").split("?")[0]
             out.append({
-                "id": it["id"], "title": it["title"], "url": it["url"], "source": it["source_name"],
+                "id": it["id"], "title": it["title"], "url": url, "type": it.get("type"), "source": it["source_name"],
                 "role": it.get("role", "news"), "competitor_id": it.get("competitor_id"),
                 "person_id": it.get("person_id"), "found_at": it.get("found_at"),
                 "published_at": it.get("published_at"),

@@ -14,7 +14,7 @@ import traceback
 from datetime import timedelta
 
 from adapters import run_adapter
-from common import (IST, canonical_url, entity_dirs, flatten_sources, item_id, iso,
+from common import (IST, canonical_url, resolve_gnews, entity_dirs, flatten_sources, item_id, iso,
                     now_utc, parse_time, read_json, write_json)
 
 SEEN_DAYS = 90
@@ -84,6 +84,8 @@ def collect_entity(edir, test=False, only=None, mode="auto"):
             if baseline:  # first look at a page: remember what exists, report nothing
                 continue
             fresh += 1
+            if "news.google.com/" in it["url"]:  # keep the id from Google's link, show the publisher's
+                it["url"] = resolve_gnews(it["url"])
             new_items.append({
                 "id": iid, "entity": entity, "url": it["url"], "canonical_url": canonical_url(it["url"]),
                 "title": it.get("title", ""), "snippet": it.get("snippet", "")[:600],

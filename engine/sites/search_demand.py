@@ -10,9 +10,9 @@ Source fields:
 
 Search suggestions come from what many people actually type, so a suggestion
 that wasn't there before is a new question people want answered. The source
-remembers every suggestion it has seen (in its state, 45 days) and reports only
-new ones; the first run just records what exists. It runs at most once every
-`every_hours` to keep the number of lookups small.
+remembers every suggestion it has seen (in its state, 45 days). Each run makes
+one entry per topic: its top searches today, with the ones that are NEW since
+earlier runs listed first. It runs at most once every `every_hours`.
 """
 import json
 import time
@@ -36,7 +36,7 @@ def fetch(src, state):
     state = dict(state or {})
     now = now_utc()
     last = parse_time(state.get("last_run"))
-    if last and now - last < timedelta(hours=src.get("every_hours", 20)):
+    if last and state.get("v") == 2 and now - last < timedelta(hours=src.get("every_hours", 20)):
         return [], state  # already checked recently
     seen = dict(state.get("seen", {}))
     first_run = not seen
@@ -52,7 +52,7 @@ def fetch(src, state):
             q = t.replace("{x}", x) if x else t
             queries.append((q, x or q.split()[0], "youtube"))
 
-    out, failures = [], 0
+    groups, failures = {}, 0  # topic -> {"top": [...], "new": [...], "where": set()}
     for q, must, where in queries:
         url = (YOUTUBE if where == "youtube" else GOOGLE).format(hl=hl, gl=gl, q=urllib.parse.quote(q))
         try:
@@ -63,25 +63,34 @@ def fetch(src, state):
                 raise OSError("search suggestions unavailable (5 failures)")
             continue
         time.sleep(0.4)
-        for s in found:
-            if must.lower() not in s or s == q:
-                continue  # off-topic completions ("is ai" -> "is air fryer healthy") and the query itself
-            key = f"{where}:{s}"
-            if key in seen:
-                seen[key] = iso(now)
+        topic = must if must in src.get("terms", []) else q
+        g = groups.setdefault(topic, {"top": [], "new": [], "where": set()})
+        g["where"].add("YouTube" if where == "youtube" else "Google")
+        for rank, s_ in enumerate(found):
+            if must.lower() not in s_ or s_ == q:
                 continue
+            key = f"{where}:{s_}"
+            if key not in seen and not first_run:
+                g["new"].append(s_)
             seen[key] = iso(now)
-            if first_run:
-                continue
-            platform = "YouTube" if where == "youtube" else "Google"
-            search_url = ("https://www.youtube.com/results?search_query=" if where == "youtube"
-                          else "https://www.google.com/search?q=") + urllib.parse.quote(s)
-            out.append({"url": search_url + "#sh-sd",
-                        "title": f"New {platform} search in India: \"{s}\"",
-                        "published_at": iso(now),
-                        "snippet": f"People have started searching \"{s}\" (suggested when typing \"{q}\" on {platform}, India).",
-                        "meta": {"search": s, "starter": q, "platform": platform}})
+            if rank < 3 and s_ not in g["top"]:
+                g["top"].append(s_)  # Google lists the most-searched completions first
+    day = now.date().isoformat()
+    out = []
+    for topic, g in groups.items():
+        if not g["top"] and not g["new"]:
+            continue
+        new = list(dict.fromkeys(g["new"]))
+        top = g["top"]
+        parts = []
+        if new:
+            parts.append("NEW: " + "; ".join(new[:8]))
+        parts.append("Top searches: " + "; ".join(top[:10]))
+        out.append({"url": f"https://www.google.com/search?q={urllib.parse.quote(topic)}#sh-sd-{urllib.parse.quote(topic)}-{day}",
+                    "title": f"What India is searching about \"{topic}\" today" + (f" ({len(new)} new)" if new else ""),
+                    "published_at": iso(now), "snippet": " | ".join(parts)[:600],
+                    "meta": {"topic": topic, "new_searches": len(new), "platforms": sorted(g["where"])}})
     cutoff = now - timedelta(days=KEEP_DAYS)
     state["seen"] = {k: v for k, v in seen.items() if parse_time(v) and parse_time(v) > cutoff}
-    state["last_run"] = iso(now)
+    state["last_run"], state["v"] = iso(now), 2
     return out, state

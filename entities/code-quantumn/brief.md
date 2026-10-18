@@ -63,13 +63,12 @@ Competitors are similar channels (see sources.json). Label each new video:
 `CONTENT` (they covered a topic: note it so we cover it better or differently), `RELEASE`/`FEATURE` (they launched a product, course or format), `DECISION` (they changed direction, e.g. stopped shorts), `PRACTICE` (a format or technique worth copying), or `SKIP`.
 Competitor items may have a one-line summary: the topic, and how we could do it differently or better. Never copy their script.
 
-## Search-demand items ("New Google/YouTube search in India: …")
+## Search-demand entries ("What India is searching about … today")
 
-These come from the source "What India is searching": a search suggestion that has just appeared, i.e. a question many people have started typing. They are demand signals, not news.
-- If it's a real, answerable question that fits our audience (how to use a new tool free, X vs Y, best tool for a task, a new rule), label `MAKE` or `KNOW` with importance by how big the demand looks; the summary says what people want to know and the answer angle.
-- Several related searches (e.g. "chatgpt 6 astra free", "how to use chatgpt 6 astra") are one demand: label the clearest one and mark the rest `SKIP` + `duplicate`.
-- Celebrity, sports or off-topic completions are `SKIP`.
-- Strong ones should become **video ideas** (often `evergreen` how-tos or `hype` "everyone is searching this" videos). Mention in the idea's angle that people are searching it.
+The source "What India is searching" makes one entry per topic each day from Google and YouTube search suggestions in India. "Top searches" are the most-typed questions about that topic; "NEW" ones appeared since the last check. They show **what people want to know**, not news.
+- Rate each topic entry by demand: lots of NEW searches about a fresh launch or rule = High importance; steady everyday searches = Medium/Low; off-topic completions = `SKIP`.
+- Label `MAKE` when there's a clear question we can answer well (how to use a new tool free, X vs Y, best tool for a task, a new rule explained), and say in the summary which searches show the demand and the answer angle.
+- Turn strong ones into **video ideas** and mention in the angle that people are searching it.
 
 ## Duplicates and sources
 

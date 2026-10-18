@@ -169,3 +169,31 @@ def flatten_sources(sources_doc):
 def read_health(edir):
     """Source health from GitHub collection and local (Mac) collection combined."""
     return {**read_json(edir / "health.json", {}), **read_json(edir / "health-local.json", {})}
+
+
+def resolve_gnews(url):
+    """Turn a news.google.com/rss/articles/... link into the publisher's own URL.
+    Returns the original URL if Google's decode step fails."""
+    import json as _json
+    m = re.search(r"news\.google\.com/(?:rss/)?articles/([^?#/]+)", url or "")
+    if not m:
+        return url
+    gid = m.group(1)
+    try:
+        _, html, _ = http_get(f"https://news.google.com/articles/{gid}", headers={"User-Agent": "Mozilla/5.0"})
+        sg = re.search(r'data-n-a-sg="([^"]+)"', html)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', html)
+        if not (sg and ts):
+            return url
+        inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],'
+                 f'"X","X",1,[1,1,1],1,1,null,0,0,null,0],"{gid}",{ts.group(1)},"{sg.group(1)}"]')
+        body = "f.req=" + urllib.parse.quote(_json.dumps([[["Fbv4je", inner]]]))
+        req = urllib.request.Request("https://news.google.com/_/DotsSplashUi/data/batchexecute", data=body.encode(),
+                                     headers={"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+                                              "User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            txt = r.read().decode("utf-8", "replace")
+        found = re.search(r'\[\\"garturlres\\",\\"(.*?)\\"', txt)
+        return found.group(1) if found and found.group(1).startswith("http") else url
+    except (OSError, ValueError):
+        return url

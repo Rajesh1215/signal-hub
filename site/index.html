@@ -368,6 +368,7 @@ function card(it, mode = 'normal') {
   if (it.timing && TIMING[it.timing]) b.push(`<span class="tag ${TIMING[it.timing][1]}">${TIMING[it.timing][0]}</span>`);
   if (imp(it) && L !== 'IMPORTANT') b.push(`<span class="tag ${imp(it) >= 4 ? 'imp' + imp(it) : ''}" title="Importance ${imp(it)}/5">${IMPNAME[imp(it)]} importance</span>`);
   if (it.evergreen) b.push(`<span class="ever" title="Evergreen ${it.evergreen}/5: how long the video stays useful"><b>Evergreen</b>${[1,2,3,4,5].map(n => `<i class="${n <= it.evergreen ? 'f' : ''}"></i>`).join('')}</span>`);
+  if (it.type === 'search_demand') b.push(`<span class="tag soon" title="What people in India are searching on Google and YouTube">🔎 Search demand</span>`);
   if (it.reason) b.push(`<span class="tag">${esc(human(it.reason))}</span>`);
   const snip = it.snippet && !it.snippet.startsWith((it.title || '').slice(0, 30)) ? it.snippet : '';
   const text = it.summary ? `<p class="summary">${esc(it.summary)}</p>` : snip ? `<p class="snippet">${esc(snip)}</p>` : '';
