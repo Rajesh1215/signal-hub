@@ -23,7 +23,7 @@ Use `python3` for every command, run from the repo root. The engine uses only th
 | "idea <id or title words> made / skipped / to make", "I made the video on …" | `python3 engine/idea_status.py <niche> "<id or words>" made\|skipped\|to_make [--note "..."]`, then commit and push. Ideas marked `made` become candidates for follow-ups when the story develops |
 | "add source <url> to <niche>" | **B. Add a source** |
 | "add this <url> to <niche>" or "I saw <news>" (a tip from the user) | Add it with `python3 engine/add_item.py <niche> "<url>" --title "..." --snippet "..." --source "Your tip"` (find the original link if they only describe it), analyse it with the rest, and append one line to `notes/user-tips.md`: date, niche, the story, the link, and whether Signal Hub had already caught it (`coverage.py`). Missed tips are reviewed in the weekly review. |
-| "add competitor <name or url> to <niche>" | **C. Competitors** (max 5 active) |
+| "add competitor <name or url> to <niche>" | **C. Competitors** (cap in the niche's `config.json`; Code Quantumn: 12) |
 | "add person <name> to <niche>" | Same as C, in `people` (max 10 active) |
 | "fix sources", "check sources" | **D. Fix broken sources** |
 | "weekly review" | **E. Weekly review** (missed-news check, source scores, new sources; asks before changing) |
@@ -160,11 +160,11 @@ Working efficiently:
 4. `python3 engine/check.py`, then commit (`"sources: add <id> to <niche>"`) and push.
 5. Change `trial` to `active` after a week if it produces useful items (see E).
 
-## C. Competitors (max 5 active per niche) and people (max 10)
+## C. Competitors (cap set per niche in config.json, default 5; Code Quantumn 12) and people (max 10)
 
 - Competitors live in `sources.json` → `competitors`. Each has `id`, `name`, `kind` (channel, app, company), `why`, `status`, and its own `sources` (usually one YouTube channel; add a blog or feed if they have one).
 - Their items appear on the dashboard's **Competitors** tab and are labelled `CONTENT`, `RELEASE`, `FEATURE`, `DECISION`, `PRACTICE` or `SKIP`.
-- **Cap:** at most 5 with status `active` or `trial`. If adding a 6th, tell the user which current one is weakest (fewest useful items in `python3 engine/report.py --days 30`) and **ask** which to pause. Set the removed one to `"status": "paused"`; don't delete it.
+- **Cap:** at most the niche's `caps.competitors` with status `active` or `trial`. If adding one more than the cap, tell the user which current one is weakest (fewest useful items in `python3 engine/report.py --days 30`) and **ask** which to pause. Set the removed one to `"status": "paused"`; don't delete it.
 - People (key individuals: researchers, founders, analysts) work the same way in `people`, with a cap of 10.
 - Run `python3 engine/check.py`: it enforces the caps.
 
@@ -201,6 +201,7 @@ Goal: find out what we're missing and what's wasting space, then fix the sources
    - websites that keep appearing in the top Reddit and Hacker News discussions
    - GitHub organisations whose repos keep trending (add their releases feed)
    - X accounts that keep being quoted as the source of news
+   - **Competitors and creators:** list each competitor's uploads in the last 30 days (`report.py` shows items per source). Inactive (nothing in 30 days) or always-SKIP channels → suggest pausing. Look for new active channels in the niche (channels our competitors mention or collaborate with, channels whose videos keep appearing in Reddit/HN discussions, research-explainer channels covering papers we saw) and propose up to 3, with their posting frequency and typical views.
 4. **Check every candidate before proposing it.**
    - Original, first-hand reporting, not a re-poster of news we already get.
    - Posts at a useful rate: not hundreds a day, not once a year.

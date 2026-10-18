@@ -59,9 +59,23 @@ Example (KNOW, importance 2): "Ollama 0.40 adds faster model loading on Macs; sm
 
 ## Competitor items (role = competitor)
 
-Competitors are similar channels (see sources.json). Label each new video:
-`CONTENT` (they covered a topic: note it so we cover it better or differently), `RELEASE`/`FEATURE` (they launched a product, course or format), `DECISION` (they changed direction, e.g. stopped shorts), `PRACTICE` (a format or technique worth copying), or `SKIP`.
-Competitor items may have a one-line summary: the topic, and how we could do it differently or better. Never copy their script.
+Competitors are similar channels (see sources.json). For every new competitor video:
+1. **Decide from title, description and views first.** `SKIP` it if it's off our audience (enterprise, US-only, drama, merch, live streams, sponsor reads) or a topic we already covered this week with nothing new.
+2. **Otherwise get what's actually said** (YouTube step in AGENTS.md: transcript or Gemini) and label:
+   - `CONTENT`: they covered a topic. Summary: what they said in one line + how we can do it better or differently for Indian students (shorter, free tools, India angle).
+   - `PRACTICE`: a format, hook or editing technique worth learning from.
+   - `RELEASE` / `FEATURE`: they launched a product, course or series.
+   - `DECISION`: they changed direction (new format, stopped posting).
+3. **Missing news check:** every launch, tool, paper or story they mention → `coverage.py`. If we don't have it, add the original page with `add_item.py`, and note the site or account in `notes/source-ideas.md` so the weekly review can add a source that catches it first next time.
+4. A competitor video with **unusually high views for that channel** is a signal the topic is hot: raise the importance and consider a video idea.
+Never copy their script or wording.
+
+## Research-paper explainer channels
+
+Two Minute Papers, Yannic Kilcher, bycloud, AI Explained, Umar Jamil and similar channels explain new papers. For their new videos:
+- Get the transcript (or Gemini) and **list the papers / models discussed** in the summary.
+- For each paper we haven't collected, add it (arXiv or Hugging Face papers link) with `add_item.py` and label it: `STUDY` if worth learning, `KNOW` if worth knowing, `MAKE` if it can become a simple explainer.
+- Tell the user in the report: "New research worth knowing: …" (one line each).
 
 ## Search-demand entries ("What India is searching about … today")
 
