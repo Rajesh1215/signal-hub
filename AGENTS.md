@@ -48,6 +48,7 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
      - Add each with the thread URL. The snippet says what the post claims **and what the top comments add**, and includes the numbers:
        `python3 engine/add_item.py <niche> "<thread url>" --title "<post title>" --snippet "<post + what the discussion concluded, 2–3 sentences>" --source "r/<subreddit>" --points <upvotes> --comments <comments>`
    - **X profiles:** newest posts from the last 24 hours, at most 2 per profile, only real announcements or strong insights. Add the `--role people --person <id>` shown by `sweep.py`.
+   - **If X won't load** (blank page, "Something went wrong", or a bot check), skip the X profiles for this run and say so in the report. Never try to get around a bot check. The user can read X in their own browser (Brave), where their lists are.
    - `add_item.py` skips links already collected. If a page shows a login wall, captcha or block, skip it and mention it in the report. **Never log in, never use the user's accounts, never try to get around a block.**
    - If the user says "quick", skip this step.
 3. **Status.** `python3 engine/status.py`. Note BROKEN or QUIET sources for the final report.
