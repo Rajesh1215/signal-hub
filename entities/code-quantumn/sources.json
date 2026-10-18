@@ -825,21 +825,6 @@
    "max_new": 3
   },
   {
-   "id": "yt-cole-medin",
-   "name": "Cole Medin",
-   "type": "youtube",
-   "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
-   "role": "news",
-   "tags": [
-    "creator",
-    "agents",
-    "tutorial"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
    "id": "yt-ai-advantage",
    "name": "The AI Advantage",
    "type": "youtube",
@@ -878,20 +863,6 @@
     "creator",
     "models",
     "tutorial"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-yannic-kilcher",
-   "name": "Yannic Kilcher",
-   "type": "youtube",
-   "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
-   "role": "news",
-   "tags": [
-    "creator",
-    "research"
    ],
    "status": "active",
    "max_age_days": 7,
@@ -1139,6 +1110,118 @@
      "id": "comp-krishnaik-yt",
      "type": "youtube",
      "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "cole-medin",
+   "name": "Cole Medin",
+   "kind": "channel",
+   "why": "Local AI, agents and n8n setups: closest to our setup tutorials",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-cole-medin-yt",
+     "type": "youtube",
+     "channel_id": "UCMwVTLZIRRUyyVrkjDpn4pA",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "yannic-kilcher",
+   "name": "Yannic Kilcher",
+   "kind": "channel",
+   "why": "Deep paper explanations: the bar for our research stream",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-yannic-kilcher-yt",
+     "type": "youtube",
+     "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "networkchuck",
+   "name": "NetworkChuck",
+   "kind": "channel",
+   "why": "Hugely popular local setup tutorials (self-hosting, local AI, n8n)",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-networkchuck-yt",
+     "type": "youtube",
+     "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "nate-herk",
+   "name": "Nate Herk",
+   "kind": "channel",
+   "why": "n8n and AI automation tutorials",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-nate-herk-yt",
+     "type": "youtube",
+     "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "codewithharry",
+   "name": "CodeWithHarry",
+   "kind": "channel",
+   "why": "Biggest Indian coding channel; same student audience",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-codewithharry-yt",
+     "type": "youtube",
+     "channel_id": "UCeVMnSShP_Iviwkknt83cww",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "tech-with-tim",
+   "name": "Tech With Tim",
+   "kind": "channel",
+   "why": "Python and AI project tutorials for beginners",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-tech-with-tim-yt",
+     "type": "youtube",
+     "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+     "max_age_days": 7,
+     "max_new": 3
+    }
+   ]
+  },
+  {
+   "id": "ai-coffee-break",
+   "name": "AI Coffee Break with Letitia",
+   "kind": "channel",
+   "why": "Short, clear research-paper explainers",
+   "status": "active",
+   "sources": [
+    {
+     "id": "comp-ai-coffee-break-yt",
+     "type": "youtube",
+     "channel_id": "UCobqgqE4i5Kf7wrxRxhToQA",
      "max_age_days": 7,
      "max_new": 3
     }
