@@ -1359,5 +1359,287 @@
   "summary": "Jean Lee reveals hiring criteria for AI engineers; we can build an actionable roadmap showing Indian developers how to demonstrate those exact skills.",
   "notes": "- Former Meta EM highlights real hiring demands: reliable evals, latency optimization, data engineering, not just API calls\n- Perfect hook for Code Quantumn's 'Learn AI as fast as possible' roadmap videos",
   "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "1cd5244862ff702d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "853c582990a97279": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "bdcb54525bf987ba": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "7868596fbb58616a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "e13115c780e9f718": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "5a50f33ec9c32148": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "9dfabe52b27eda4b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "price_change",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "DeepSeek launched its agent retrieval search API at $0.75 per 1,000 calls, undercutting standard search API pricing by over 80%.",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "5ab0ade549754ac8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "98c9b52bd8bd2004": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "9cd309a6f788ef2e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "bdd49784d98a0eb1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "68b26e36babf2de8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "036bbc80357f32d8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "bfb17b2a17e1343d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Cybersecurity report highlights prompt injection and unauthorized API execution vulnerabilities uncovered in autonomous customer-facing agents in India.",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "d58d8273bb089c4f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "27597f30cdbc6b01": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "3228daf9a44b9cd4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "3613961d449d095a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "479b553fb3a9a27b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "fcdd5a9f870c3aaa": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Figma Specs generates automated developer handoff documentation and CSS tokens directly from Figma design components.",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "d4976e3d82320d88": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "a23b73075e7a4eb0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "802414696c69f206": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "DLite introduces history-free speculative decoding for agentic workloads, using lightweight draft models without maintaining full KV caches to cut inference latency.",
+  "notes": "- Speculative decoding tailored for agent tool loops\n- Reduces memory footprint by eliminating draft model history caches\n- Useful architecture for high-concurrency local agent deployment",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "5a236acbe82a9b84": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "2a9f5f6ad4469a79": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "1539cd1c11a68867": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Study evaluates video world model memory failures, proposing diagnostic benchmarks to distinguish scene setup errors from temporal execution drift.",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "8658d963f505a1d6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "017e09dce713143e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "2b77643e7216bed5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "376da50a749f6362": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Fudan University releases technical report for MOSS-Image, improving dense text-to-image typography and complex graphic composition in open weights.",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "0603682a6bdeb94e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "9f350ede30b9f200": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Alexandr Wang shares insights on data moats, training compute economics, and founder opportunities in an era of commodity intelligence.",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "8e28589fa926a79e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Paul Graham discusses what surprised him about LLM capabilities and how software development velocity is changing for early-stage founders.",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "edf14807a02d6346": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Tech With Tim tests Opus 5.5 building full-stack apps across three effort tiers: prompt-only, guided iterative coding, and structured spec architectures.",
+  "notes": "- Evaluates code generation across 3 engineering tiers\n- Highlights that detailed architectural specs yield production-grade full-stack code while vague prompts fail",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "4c24b8ab22d08abd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Tech With Tim clarifies the career distinction between building apps with AI APIs versus engineering core AI architectures and evals.",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "607108a599e68dd5": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin breaks down the reverse engineering repo; we can show students how to map and trace open-source repos with AI coding tools.",
+  "notes": "- Explains reverse engineering open-source architectures\n- Good competitor hook for code comprehension",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "36dc2e022d6cae4b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "aa0ccea193b1cd8a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "f0eac0848a12580c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "13a3987f375b58d2": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo analyzes Meta Muse open weights vs Anthropic; we can compare local Mac inference performance on Ollama for builders.",
+  "notes": "- Theo compares Meta Muse to Claude\n- Open weights vs proprietary models for web developer workflows",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "ecf8bae7fdac62bb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "66e1ae40c83c3e99": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Paul Lipsky demos Gemini's desktop super app (Tasks, local folders, Antigravity); we can cover how engineers can integrate Antigravity into dev workflows.",
+  "notes": "- Full walkthrough of Gemini desktop app features\n- Covers local folder permissions, background Tasks, Antigravity coding integration, and voice control\n- High consumer interest hook",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "ef21ec4f98c558c1": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Paul Lipsky reviews Gemini 4 Argon and Meta Muse; we can focus on developer API benchmarks and token costs for Indian builders.",
+  "notes": "- Commentary on Gemini 4 Argon coding capabilities and Meta Muse launch\n- Competitor angle comparing user perception vs benchmark claims",
+  "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "56e8268b3a22c0de": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Paul Lipsky tests Gemini 4 Argon on daily tasks; we can run deep developer evals on real Next.js and Python codebases.",
+  "notes": "- Hands-on consumer test of Gemini 4 Argon\n- We can provide a deeper technical test on code generation",
+  "analyzed_at": "2026-10-19T08:01:59Z"
  }
 }
