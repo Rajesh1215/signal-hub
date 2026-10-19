@@ -998,5 +998,76 @@
   "label": "SKIP",
   "reason": "duplicate",
   "analyzed_at": "2026-10-18T13:09:39Z"
+ },
+ "6a1373ffa5545ee9": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-10-19T02:38:39Z"
+ },
+ "5b8c01a1f8fe11e7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:38:39Z"
+ },
+ "5e03ef38d2f59ccd": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "NetworkChuck covered Uptime Kuma and Grafana monitoring; useful template for building an AI API latency and uptime tracking dashboard.",
+  "notes": "- Shows setup of open-source monitoring dashboards (Uptime Kuma, Prometheus) with Docker.\n- We can adapt this into monitoring AI model latency, token rates, and fallback errors for web apps.",
+  "analyzed_at": "2026-10-19T02:38:39Z"
+ },
+ "36bd74d210a056ad": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Nate Herk reviewed Clay's new autonomous outbound agent; relevant for building workflow automations and lead-enrichment agents.",
+  "notes": "- Teardown of automated lead-enrichment agents combining web search, LinkedIn scraping, and personalized outreach drafts.\n- High-demand topic for product builders creating B2B workflow products.",
+  "analyzed_at": "2026-10-19T02:38:39Z"
+ },
+ "52064980e9dd612a": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-19T02:38:39Z"
+ },
+ "c4b13a69ac9050bf": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matt Pocock argued TypeScript type safety, systems thinking, and prompt verification are the top skills for AI engineers in 2026.",
+  "notes": "- Deep conversation on why developers who know types, debugging, and API architecture thrive with AI coding tools while prompt-only users hit walls.\n- Directly aligns with Code Quantumn's mission of becoming a complete product engineer.",
+  "analyzed_at": "2026-10-19T02:38:39Z"
+ },
+ "7ccb923e19cbc07c": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "CodeWithHarry launched his full-stack Web Development cohort in Hindi, showing massive ongoing demand for hands-on web engineering courses.",
+  "notes": "- Announces next cohort covering MERN stack + Next.js with deployment.\n- Confirms huge appetite among Indian students for structured product development roadmaps.",
+  "analyzed_at": "2026-10-19T02:38:39Z"
+ },
+ "d025e2377fa052d8": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "CodeWithHarry reviewed Gemini 4 Argon's multimodal code editing capabilities for Indian beginners.",
+  "notes": "- Tests coding abilities on competitive programming and React debugging.\n- Highlights strengths in explaining errors in plain language.",
+  "analyzed_at": "2026-10-19T02:38:39Z"
+ },
+ "d3f7f62db1d59990": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Tech With Tim built a Python app chaining whisper STT, LLM prompt expansion, and media generation APIs; great project tutorial format.",
+  "notes": "- Step-by-step tutorial chaining Whisper voice transcription, Claude prompt refinement, and image/audio generation APIs into a unified GUI.\n- Excellent project template for beginner product engineers.",
+  "analyzed_at": "2026-10-19T02:38:39Z"
+ },
+ "576f3fa4498c2e5b": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Tech With Tim explained GPU VRAM math, quantization (GGUF, AWQ, FP8), and memory bandwidth bottlenecks for local LLM inference.",
+  "notes": "- Clear math showing why parameters * precision / 8 determines VRAM requirements, plus KV cache overhead.\n- High-performing explainer format that dispels confusion around running local models on budget PCs.",
+  "analyzed_at": "2026-10-19T02:38:39Z"
+ },
+ "14b9f42e2b05c21e": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Tech With Tim compared Apple Silicon Unified Memory vs Nvidia RTX CUDA for AI development and fine-tuning in 2026.",
+  "notes": "- Breakdown of unified memory bandwidth on Mac (great for loading massive 70B+ weights cheaply) vs CUDA tensor cores on PC (faster raw token speed and fine-tuning support).\n- Crucial buying guide for engineering students in India.",
+  "analyzed_at": "2026-10-19T02:38:39Z"
  }
 }

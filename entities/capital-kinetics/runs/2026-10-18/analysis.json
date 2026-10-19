@@ -5233,5 +5233,759 @@
   "label": "SKIP",
   "reason": "minor_update",
   "analyzed_at": "2026-10-18T13:13:17Z"
+ },
+ "ce4b9762abc39f97": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "69d68aa87607d9d5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "baf6b888ae6f01f4": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Banks default matured FDs to savings interest rates (2.5-3%) or auto-renew for short tenors if unclaimed, costing thousands in lost interest. Hook: 'What happens to your money when a Fixed Deposit matures and you forget to withdraw it?'",
+  "notes": "- Under RBI guidelines, if an FD matures and proceeds remain unclaimed, the bank pays interest at the savings account rate or contracted FD rate, whichever is lower.\n- If auto-renewal was selected without instructions, funds renew for the shortest tenor or original term, locking money at sub-optimal yields.\n- Practical checklist: set up maturity auto-credit instructions to savings accounts or liquid funds upon booking any term deposit.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "e69dc63b163dec1d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_release",
+  "flags": {
+   "category": "mutual_funds"
+  },
+  "summary": "First-year performance data for Specialized Investment Funds (SIFs) shows long-short hybrid strategies generated up to 25.5% annualized returns.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "e7b92afb3cefb481": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "insurance"
+  },
+  "summary": "IRCTC travel insurance becomes optional opt-in from Oct 27, offering up to ₹10 lakh accidental coverage for under 45 paise per passenger.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "9da4e222660112ce": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "526f4a2374a64e91": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "3247ea2e1d7c1869": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "7cada46383f1ac5a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "59fc270ddb3e3739": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "73c75c106c4914a8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "d8ea312689ed1219": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Day Trader Telugu outlined an 8-step defense plan against 12.6% real inflation: 6-12 month emergency buffer, ₹2 Cr term life policy, clearing debt, and 10% step-up SIPs.",
+  "notes": "- Cites house rents in Hyderabad IT corridors surging 30-40% and school fees rising 50-80% over 3 years, pushing real personal inflation to 12.6% vs 6.7% salary hikes.\n- Highlights macro headwinds: crude oil basket touching -130/bbl due to Strait of Hormuz tanker spikes, and RBI household debt jumping to 45.5% of GDP.\n- 8-step financial roadmap: (1) personal inflation audit, (2) plug budget leaks, (3) 6-12 month emergency buffer in FDs/liquid funds, (4) ₹1-2 Cr term life policy with accidental disability rider, (5) standalone health cover separate from corporate policy, (6) clear credit card (22-42% APR) and personal loans, (7) 10% annual step-up SIP at 12% CAGR, and (8) career upskilling.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "47c5b6ad7fdc7471": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "5c99edb1b89f60ef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "67fd8620d067fa75": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Bengaluru spacetech startup OXG Space raised ₹17 crore seed round to build low-Earth orbit synthetic aperture radar satellites.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "941fff4823afb9e5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "32740c2f35f0afb6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "10a40145f2e87396": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "df29ec2a5f36a576": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Automotive B2B supply chain startup CapGrid raised ₹46.28 crore Pre-Series B led by Hero Enterprise to expand precision parts sourcing.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "b2de55fe878478c9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "68490b6b68fdd6ea": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "b1612aca082bae03": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "fa522a0d6d4618ef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "a60c21db5772cdec": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "235a2adcd6493ab7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "c4872f50f0812007": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "14ac0dab9886e6ec": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "e311dabd3e2289a4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "cead5ea8c1056175": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "c70d53ef16cee4ef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "5d06411f82b1fde3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "c0939702c940d658": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "158fe6389324f9bc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "b2d7efb8c9a72fd5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "9f68d1386b35ba3e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "653de97fadd1a385": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "9718db19a0c15f7e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "de06c51864b35515": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "08d2c41a5d87d112": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "hardware_chips"
+  },
+  "summary": "Samsung Electronics agreed to fabricate base dies using TSMC logic nodes for Nvidia HBM4 memory modules, ending sole-foundry rivalry.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "04efe4b3bb5b307a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "f923281ab0686960": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "831d0d073814d0d8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "fc4f51b6bc055632": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "53ec148bcfae7927": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "6b246c39d08358b6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "1a6c055da57a01f9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "87bc90ab1134f4a0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "9af317f4e0eb317a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "4731501c7fcae595": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "401efbc97fbeb576": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "febb3ab7a1cc352f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "e032ec0e24e89d6a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "3c295d54a42df216": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "38238483446c7010": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "f6a4a548989614c4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "4ba59bceb364e865": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "843747f02cda69cd": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "geopolitics",
+  "flags": {
+   "category": "world_geopolitics"
+  },
+  "summary": "Trump administration paused enforcement of secondary Russian oil shipping sanctions to curb domestic fuel inflation, easing crude import settlement friction for Indian refiners.",
+  "notes": "- Pauses secondary maritime sanctions on tankers transporting Urals crude, cooling global oil shipping risk premiums.\n- Provides immediate relief to Indian state refiners (IOCL, BPCL, HPCL) using alternative currency clearing channels.\n- Softens near-term imported inflation pressure on India's current account deficit.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "0226290fb5d30b4b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "ad73205bfcd2cde0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "94b123af72cdc9f1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "5cc4d9eae38f095a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "37544ffc8110c061": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "b6653a6b353e2448": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "cadc6a13b069b565": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "2dd78f309b521126": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "bc14795583a72aaa": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "40b7fec5ac0f2c06": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "bd23adb3f79a1ce3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "4d55425db28b577c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "d2b4529035bd4a61": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "bdeae90486ed171b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "dbda695d1d96dbd0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "2412a0e0b029f9bd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "9fad7ee5abf5609e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "de676af984c33340": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "de7c92a13cb54049": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "f613d71636813e66": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "20bffadd55baec2e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "expert_view",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Ray Dalio described Bitcoin as a volatile digital alternative that remains tiny compared to sovereign gold reserves as central banks diversify.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "384f291c520146df": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "expert_view",
+  "flags": {
+   "category": "wall_street"
+  },
+  "summary": "JPMorgan CEO Jamie Dimon warned geopolitical fragmentation and ballooning fiscal deficits make severe stagflation far more likely than markets price in.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "36535657595a2349": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "expert_view",
+  "flags": {
+   "category": "global"
+  },
+  "summary": "Ray Dalio warned US debt dynamics could trigger a supply-demand imbalance as .1 trillion in new Treasury issuance tests global sovereign appetite.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "7586665ba55515d1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "762a312401f79e09": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "8c9d9b4487282f61": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "79c430c97b60d342": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "81a5837039984ae0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "116c1cdc9821d81a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "5f96b06d186032b3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "ffbb2e6550a4141d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "02d2857dbe05978a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "68dde148e5dd82b9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "0b176e28a50e6f43": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "94f000a0dd181c3f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "2773b57651ad2c5a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "2f33b1aee2af4bad": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "3d53fac4b410e56f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "4cf1e7c6815876fd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "34dee165d2c1ed29": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "50832c1e540cfa21": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "828f207638cdf6e8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "c06e29df44daece2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "e4196953f2d3d563": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "Following RBI's 25 bps repo hike to 5.5%, SBI, PNB and Bank of India revised external benchmark lending rates, increasing home loan EMIs. Hook: 'Your home loan EMI just went up: here is how the RBI rate hike changes your monthly payments.'",
+  "notes": "- SBI, PNB, and Bank of India raised external benchmark lending rates (EBLR/RLLR) by 25 bps immediately following RBI's repo rate hike to 5.50%.\n- For a ₹50 lakh home loan over 20 years at 8.5%, a 25 bps increase adds approximately ₹800/month to EMIs or extends tenure by nearly 12 months if EMI remains fixed.\n- Existing floating rate borrowers should check their reset frequency and consider part-prepayments to mitigate tenure extension.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "6ca09f6ac5fc3ba9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "5e48a9b6684312bc": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "data_release",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "RBI revised FY27 real GDP growth projection to 7.2% and CPI inflation forecast to 4.8% alongside repo rate hike to anchor inflation expectations.",
+  "notes": "- Governor highlighted elevated food and crude shipping prices as primary catalysts for tightening policy stance.\n- Resilient domestic investment and capital expenditure cycle cited as buffer allowing rate tightening without stalling growth.\n- Signals monetary policy committee remains committed to durably aligning inflation with 4% target.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "3fac453b30cf0566": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "bae826984d528d2e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "86ef649f4736ea9e": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "regulation",
+  "flags": {
+   "category": "regulation"
+  },
+  "summary": "SEBI revised Closing Auction Session (CAS) mechanics, reintroducing 30-minute Volume-Weighted Average Price (VWAP) for derivatives expiry settlement.",
+  "notes": "- Modifies earlier CAS guidelines after brokers and algorithmic funds reported extreme illiquidity spikes during expiry closing ticks.\n- 30-minute volume-weighted average price (VWAP) reinstated from 3:00 PM to 3:30 PM to settle index options and futures.\n- Mitigates erratic benchmark swings that previously whipsawed retail expiry traders.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "fee9c84f1462f8c3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "55e7119b999722a4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "bd3aaaf6e2899b22": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "regulation"
+  },
+  "summary": "NFRA initiated investigation into statutory auditors over alleged accounting irregularities of ₹15.15 lakh crore in Rajesh Exports export billing.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "cc189fdaf26e2d65": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "4bfef0065e07bb95": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "946c46f940751a04": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "62879157c39ac40e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "e15c58dfddc1d92a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "7e1545fa65910bd9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "cdb138338e2d2a4b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "23355657b4cd78af": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "9f36c0c7c742e82a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "1403ca793dfff5ce": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "b437077e70d5e2fb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "6d89181340b68c8a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "3679709d70e9d7bc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "f185e151e810996c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "7d170971b4a5aed6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "0a7a403269b12751": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "global"
+  },
+  "summary": "China completed issuance of 1.3 trillion yuan ( billion) in ultra-long special sovereign bonds to finance infrastructure and consumer subsidies.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "b4650ba597a75b42": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "4a7b0cdf72581ec2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "b3b59fd637ded950": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "dba15f1f4e564a5a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "4e9be76e2c47cf78": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Sharan discussed the rise of BNPL and personal loans for concert tickets (Coldplay, Diljit); warns against lifestyle debt traps.",
+  "notes": "- Highlights alarming trend of 20-somethings taking high-interest personal loans and BNPL credit for luxury concerts.\n- Demonstrates how lifestyle borrowing damages credit scores and initiates debt spirals.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "308946dbd00a4533": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Saurabh Mukherjea shared long-term compounding principles during flat market cycles and career slowdowns.",
+  "notes": "- Focuses on high-ROCE monopoly franchises that compound earnings regardless of broader index stagnation.\n- Recommends increasing savings rate to 50%+ and acquiring niche technical skills during economic lulls.",
+  "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "32c229385cea911e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T02:45:50Z"
  }
 }

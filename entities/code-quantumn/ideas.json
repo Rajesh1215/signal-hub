@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-19T02:38:55Z",
+  "history": [],
+  "id": "2026-10-19-deepseek-v4-flash-coding",
+  "title": "DeepSeek V4.1 Flash: The ultra-fast coding model that challenges Sonnet for pennies",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "DeepSeek just landed on LMSYS WebDev Arena: 120+ tokens/sec speed, top-tier React generation, and 10x cheaper than proprietary models.",
+  "outline": [
+   "The speed test: watch DeepSeek V4.1 Flash generate a 300-line React component at 120 tokens/second",
+   "LMSYS Code Arena rankings: comparing real developer win-rates against Claude Sonnet and GPT-4o",
+   "The pricing shock: at zsh.14/1M tokens, a full autonomous debugging loop costs less than 20 paise",
+   "Setting it up in your local editor: drop-in OpenAI-compatible API configuration in Cursor, VS Code, and Claude Code",
+   "Live test: generating a full interactive dashboard with Tailwind and charts from a single prompt"
+  ],
+  "items": [
+   "b31cf4929aeee921"
+  ],
+  "updated_at": "2026-10-19T02:38:55Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-19T02:38:55Z",
+  "history": [],
+  "id": "2026-10-19-ai-agents-shopify-checkout",
+  "title": "How to build an AI agent that actually buys things (Vercel + Shopify APIs)",
+  "type": "months",
+  "timing": "SOON",
+  "angle": "Vercel and Shopify launched agent checkout APIs: here is how product engineers can build bots that browse, cart, and buy products autonomously.",
+  "outline": [
+   "Why chat is dying and transactional agent UI is the future of e-commerce",
+   "The architecture: hooking Vercel AI SDK tool-calling into Shopify Storefront GraphQL endpoints",
+   "Managing agent state: inventory lookups, variant matching, and cart persistence across conversations",
+   "Solving the security hurdle: how agents hand off to PCI-compliant tokenized payment sessions safely",
+   "Full product engineering blueprint: repo clone to deployment on Vercel in 15 minutes"
+  ],
+  "items": [
+   "90500aac254fe75e"
+  ],
+  "updated_at": "2026-10-19T02:38:55Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-18T16:52:16Z",
   "history": [],
   "id": "2026-10-18-series-learn-ai-fast-ep1",
