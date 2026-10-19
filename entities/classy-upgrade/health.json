@@ -562,27 +562,23 @@
   "last_run": "2026-10-18T14:57:08Z"
  },
  "r-malefashionadvice": {
-  "consecutive_errors": 1,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 429: Too Many Requests"
+  "consecutive_errors": 0,
+  "history": []
  },
  "r-femalefashionadvice": {
-  "consecutive_errors": 1,
-  "history": [],
-  "last_error": "URLError: <urlopen error skipped: www.reddit.com rate-limited us earlier in this run>"
+  "consecutive_errors": 0,
+  "history": []
  },
  "r-skincareaddiction": {
-  "consecutive_errors": 1,
-  "history": [],
-  "last_error": "URLError: <urlopen error skipped: www.reddit.com rate-limited us earlier in this run>"
+  "consecutive_errors": 0,
+  "history": []
  },
  "r-indianskincare": {
-  "consecutive_errors": 1,
-  "history": [],
-  "last_error": "URLError: <urlopen error skipped: www.reddit.com rate-limited us earlier in this run>"
+  "consecutive_errors": 0,
+  "history": []
  },
  "comp-rmrs-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:08Z",
@@ -637,11 +633,10 @@
   ],
   "state": {},
   "last_ok": "2026-10-18T14:57:08Z",
-  "last_run": "2026-10-18T14:57:08Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_run": "2026-10-18T14:57:08Z"
  },
  "comp-justine-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:08Z",
@@ -696,11 +691,10 @@
   ],
   "state": {},
   "last_ok": "2026-10-18T14:57:08Z",
-  "last_run": "2026-10-18T14:57:08Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_run": "2026-10-18T14:57:08Z"
  },
  "comp-pranaysai-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:08Z",
@@ -755,8 +749,7 @@
   ],
   "state": {},
   "last_ok": "2026-10-18T14:57:08Z",
-  "last_run": "2026-10-18T14:57:08Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_run": "2026-10-18T14:57:08Z"
  },
  "neuroscience-news": {
   "consecutive_errors": 0,
@@ -937,14 +930,12 @@
   "last_run": "2026-10-19T03:41:00Z"
  },
  "yt-huberman": {
-  "consecutive_errors": 2,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 500: Internal Server Error"
+  "consecutive_errors": 0,
+  "history": []
  },
  "yt-sahar-yousef": {
-  "consecutive_errors": 2,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "consecutive_errors": 0,
+  "history": []
  },
  "yt-modern-wisdom": {
   "consecutive_errors": 0,
@@ -960,34 +951,28 @@
   "last_run": "2026-10-19T03:41:00Z"
  },
  "yt-mel-robbins": {
-  "consecutive_errors": 2,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "consecutive_errors": 0,
+  "history": []
  },
  "yt-peter-attia": {
-  "consecutive_errors": 2,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 500: Internal Server Error"
+  "consecutive_errors": 0,
+  "history": []
  },
  "yt-bryan-johnson": {
-  "consecutive_errors": 2,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "consecutive_errors": 0,
+  "history": []
  },
  "yt-jeff-nippard": {
-  "consecutive_errors": 2,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "consecutive_errors": 0,
+  "history": []
  },
  "yt-rp-israetel": {
-  "consecutive_errors": 2,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "consecutive_errors": 0,
+  "history": []
  },
  "comp-healthygamergg-yt": {
-  "consecutive_errors": 2,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "consecutive_errors": 0,
+  "history": []
  },
  "comp-ali-abdaal-yt": {
   "consecutive_errors": 0,
@@ -1016,13 +1001,11 @@
   "last_run": "2026-10-19T03:41:00Z"
  },
  "comp-hamza-yt": {
-  "consecutive_errors": 2,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "consecutive_errors": 0,
+  "history": []
  },
  "comp-beerbiceps-yt": {
-  "consecutive_errors": 2,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "consecutive_errors": 0,
+  "history": []
  }
 }
