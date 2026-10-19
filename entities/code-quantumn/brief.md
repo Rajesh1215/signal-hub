@@ -98,7 +98,7 @@ Two Minute Papers, Yannic Kilcher, bycloud, AI Explained, Umar Jamil and similar
 ## Search-demand entries ("What India is searching about … today")
 
 The source "What India is searching" makes one entry per topic each day from Google and YouTube search suggestions in India. "Top searches" are the most-typed questions about that topic; "NEW" ones appeared since the last check. They show **what people want to know**, not news.
-- Rate each topic entry by demand: lots of NEW searches about a fresh launch or rule = High importance; steady everyday searches = Medium/Low; off-topic completions = `SKIP`.
+- **Never `SKIP` a search entry** (they're the record of what people search; the Feed's "🔎 Searches" chip shows them all). Label it `KNOW` with importance by demand: lots of NEW searches about a fresh launch or rule = 4–5; steady everyday searches = 2–3; only off-topic completions = 1.
 - Label `MAKE` when there's a clear question we can answer well (how to use a new tool free, X vs Y, best tool for a task, a new rule explained), and say in the summary which searches show the demand and the answer angle.
 - Turn strong ones into **video ideas** and mention in the angle that people are searching it.
 

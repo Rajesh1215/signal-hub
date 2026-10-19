@@ -591,11 +591,12 @@ function filterBar(base, labelList) {
     if (useful(it)) counts.USEFUL = (counts.USEFUL || 0) + 1;
     if (isImp(it)) counts.IMP = (counts.IMP || 0) + 1;
     if (L !== 'SKIP' && L !== 'STALE') counts.ALL = (counts.ALL || 0) + 1;
+    if (it.type === 'search_demand') counts.SEARCH = (counts.SEARCH || 0) + 1;
   });
   const chips = labelList.map(L => {
-    const name = L === 'USEFUL' ? 'Analysed' : L === 'ALL' ? 'All news' : L === 'IMP' ? 'Important' : (LABELS[L] || [L])[0];
+    const name = L === 'SEARCH' ? '🔎 Searches' : L === 'USEFUL' ? 'Analysed' : L === 'ALL' ? 'All news' : L === 'IMP' ? 'Important' : (LABELS[L] || [L])[0];
     const color = L === 'IMP' ? 'var(--important)' : (LABELS[L] || [])[1];
-    return `<button class="chip ${S.label === L ? 'on' : ''}" data-set="${attr({ label:L })}" title="${esc((LABELS[L] || [])[2] || (L === 'USEFUL' ? 'Analysed by the AI, except Skipped' : L === 'ALL' ? 'Everything except Skipped' : L === 'IMP' ? 'Importance 4–5: news people need to know' : ''))}">
+    return `<button class="chip ${S.label === L ? 'on' : ''}" data-set="${attr({ label:L })}" title="${esc((LABELS[L] || [])[2] || (L === 'USEFUL' ? 'Analysed by the AI, except Skipped' : L === 'ALL' ? 'Everything except Skipped' : L === 'IMP' ? 'Importance 4–5: news people need to know' : L === 'SEARCH' ? 'What people in India are searching on Google and YouTube, one entry per topic per day (NEW searches first)' : ''))}">
       ${color ? `<span class="dot" style="--c:${color}"></span>` : ''}${name}<span class="n">${counts[L] || 0}</span></button>`;
   }).join('');
   return `<div class="filters">
@@ -612,6 +613,7 @@ function matchQ(it) {
   return S.q.toLowerCase().split(/\s+/).every(w => hay.includes(w));
 }
 function matchLabel(it) {
+  if (S.label === 'SEARCH') return it.type === 'search_demand';
   if (S.label === 'USEFUL') return useful(it);
   if (S.label === 'IMP') return isImp(it);
   if (S.label === 'ALL') return lab(it) !== 'SKIP' && lab(it) !== 'STALE';
@@ -643,7 +645,7 @@ function renderList() {
 }
 function viewFeed() {
   const e = ent();
-  const labels = ['ALL', 'USEFUL', 'IMP', ...e.labels.filter(l => l !== 'SKIP' && l !== 'IMPORTANT').sort((a, b) => RANK.indexOf(a) - RANK.indexOf(b)), 'PENDING', 'SKIP', 'STALE'];
+  const labels = ['ALL', 'USEFUL', 'IMP', 'SEARCH', ...e.labels.filter(l => l !== 'SKIP' && l !== 'IMPORTANT').sort((a, b) => RANK.indexOf(a) - RANK.indexOf(b)), 'PENDING', 'SKIP', 'STALE'];
   return pageHead('Feed', `${esc(e.name)} · all collected news, newest first`) + filterBar(news(), labels);
 }
 function viewCompetitors() {

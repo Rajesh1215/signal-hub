@@ -518,6 +518,61 @@
    "pick": 5,
    "min_upvotes": 150,
    "why": "The AI reads the top discussions here during analyze today: what people wonder about the future, physics and mysteries"
+  },
+  {
+   "adapter": "site:search_demand",
+   "type": "search_demand",
+   "role": "news",
+   "tags": [
+    "search-demand",
+    "trending"
+   ],
+   "status": "active",
+   "gl": "in",
+   "hl": "en",
+   "every_hours": 20,
+   "max_new": 15,
+   "max_age_days": 2,
+   "why": "Google/YouTube search suggestions in India: what people want to know, one entry per topic per day.",
+   "id": "search-demand-curiosity",
+   "name": "What India is searching: curiosity & future",
+   "terms": [
+    "black hole",
+    "universe",
+    "ai",
+    "oil",
+    "world war",
+    "mars",
+    "moon",
+    "human body",
+    "time travel",
+    "aliens",
+    "future"
+   ],
+   "templates": [
+    "what if {x}",
+    "why {x}",
+    "how {x}",
+    "future of {x}",
+    "what happens if {x}"
+   ],
+   "seeds": [
+    "what if",
+    "why is the sky",
+    "what happens if",
+    "future of india",
+    "will ai",
+    "how did the universe",
+    "mystery of",
+    "how long can a human",
+    "what is inside",
+    "how big is"
+   ],
+   "youtube": [
+    "what if {x}",
+    "what happens if",
+    "mystery of"
+   ]
   }
  ],
  "competitors": [

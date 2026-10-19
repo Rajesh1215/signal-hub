@@ -484,6 +484,63 @@
    "max_age_days": 7,
    "max_new": 3,
    "why": "Hypertrophy and diet science"
+  },
+  {
+   "adapter": "site:search_demand",
+   "type": "search_demand",
+   "role": "news",
+   "tags": [
+    "search-demand",
+    "trending"
+   ],
+   "status": "active",
+   "gl": "in",
+   "hl": "en",
+   "every_hours": 20,
+   "max_new": 15,
+   "max_age_days": 2,
+   "why": "Google/YouTube search suggestions in India: what people want to know, one entry per topic per day.",
+   "id": "search-demand-mind-style",
+   "name": "What India is searching: mind, body & style",
+   "terms": [
+    "procrastination",
+    "discipline",
+    "motivation",
+    "confidence",
+    "anger",
+    "overthinking",
+    "dopamine",
+    "focus",
+    "habits",
+    "gym",
+    "skincare",
+    "hair fall",
+    "how to dress"
+   ],
+   "templates": [
+    "how to stop {x}",
+    "how to improve {x}",
+    "how to control {x}",
+    "{x} tips",
+    "why {x}"
+   ],
+   "seeds": [
+    "how to be confident",
+    "how to stop overthinking",
+    "how to focus on studies",
+    "how to build discipline",
+    "dopamine detox",
+    "what to wear to an interview",
+    "how to look good",
+    "how to talk to people",
+    "morning routine",
+    "how to increase focus"
+   ],
+   "youtube": [
+    "how to stop {x}",
+    "how to be confident",
+    "how to focus on studies"
+   ]
   }
  ],
  "competitors": [

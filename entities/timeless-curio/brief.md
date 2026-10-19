@@ -80,6 +80,13 @@ Competitors are big curiosity channels (see sources.json). Label each new video:
 `CONTENT` (topic they covered: proven interest; we could do a shorter or India-angle take), `RELEASE`/`FEATURE` (they launched a product, book or series), `DECISION` (they changed direction), `PRACTICE` (a storytelling or visual technique worth learning), or `SKIP`.
 Competitor items may have a one-line summary: the topic and our different angle. Never copy their script.
 
+## Search-demand entries ("What India is searching about … today")
+
+The source "What India is searching" makes one entry per topic each day from Google and YouTube search suggestions in India. "Top searches" are the most-typed questions about that topic; "NEW" ones appeared since the last check. They show **what people want to know** (big questions, what-ifs, the future, mysteries), not news.
+- **Never `SKIP` a search entry** (they're the record of what people search; the Feed's "🔎 Searches" chip shows them all). Label it `KNOW` with importance by demand: lots of NEW searches about a fresh launch or rule = 4–5; steady everyday searches = 2–3; only off-topic completions = 1.
+- Label `MAKE` when there's a clear question we can answer well and evergreen (see the video idea policy), and say in the summary which searches show the demand and the answer angle.
+- Turn strong ones into **video ideas** and mention in the angle that people are searching it.
+
 ## Duplicates and sources
 
 - Science news is syndicated everywhere. Label the **primary** source (NASA, ESA, the journal, the museum) or the clearest article; others are `SKIP` + `duplicate`.
