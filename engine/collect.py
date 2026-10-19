@@ -93,7 +93,7 @@ def collect_entity(edir, test=False, only=None, mode="auto"):
                 it["url"] = resolve_gnews(it["url"])
             new_items.append({
                 "id": iid, "entity": entity, "url": it["url"], "canonical_url": canonical_url(it["url"]),
-                "title": it.get("title", ""), "snippet": it.get("snippet", "")[:600],
+                "title": it.get("title", ""), "snippet": it.get("snippet", "")[:900],
                 "published_at": it.get("published_at"), "found_at": iso(now),
                 "source_id": sid, "source_name": src.get("name", sid), "role": src.get("role", "news"),
                 "type": src.get("type"), "competitor_id": src.get("competitor_id"),
