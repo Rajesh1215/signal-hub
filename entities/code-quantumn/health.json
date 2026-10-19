@@ -3192,7 +3192,7 @@
   "last_run": "2026-10-19T02:29:30Z"
  },
  "gn-meta-ai": {
-  "consecutive_errors": 3,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -3227,8 +3227,7 @@
   ],
   "state": {},
   "last_ok": "2026-10-18T12:09:48Z",
-  "last_run": "2026-10-18T12:09:48Z",
-  "last_error": "URLError: <urlopen error skipped: news.google.com rate-limited us earlier in this run>"
+  "last_run": "2026-10-18T12:09:48Z"
  },
  "xai-news": {
   "consecutive_errors": 0,
@@ -3341,7 +3340,7 @@
   "last_run": "2026-10-19T02:29:30Z"
  },
  "gn-deepseek": {
-  "consecutive_errors": 3,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -3376,8 +3375,7 @@
   ],
   "state": {},
   "last_ok": "2026-10-18T12:09:48Z",
-  "last_run": "2026-10-18T12:09:48Z",
-  "last_error": "URLError: <urlopen error skipped: news.google.com rate-limited us earlier in this run>"
+  "last_run": "2026-10-18T12:09:48Z"
  },
  "qwen-blog": {
   "consecutive_errors": 0,
@@ -3435,7 +3433,7 @@
   "last_run": "2026-10-19T02:29:30Z"
  },
  "gn-qwen": {
-  "consecutive_errors": 3,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -3470,8 +3468,7 @@
   ],
   "state": {},
   "last_ok": "2026-10-18T12:09:48Z",
-  "last_run": "2026-10-18T12:09:48Z",
-  "last_error": "URLError: <urlopen error skipped: news.google.com rate-limited us earlier in this run>"
+  "last_run": "2026-10-18T12:09:48Z"
  },
  "apple-ml": {
   "consecutive_errors": 0,
@@ -3585,7 +3582,7 @@
   "last_run": "2026-10-19T02:29:30Z"
  },
  "gn-perplexity": {
-  "consecutive_errors": 3,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -3620,8 +3617,7 @@
   ],
   "state": {},
   "last_ok": "2026-10-18T12:09:48Z",
-  "last_run": "2026-10-18T12:09:48Z",
-  "last_error": "URLError: <urlopen error skipped: news.google.com rate-limited us earlier in this run>"
+  "last_run": "2026-10-18T12:09:48Z"
  },
  "cursor-changelog": {
   "consecutive_errors": 0,
@@ -4627,7 +4623,7 @@
   "last_run": "2026-10-19T02:29:30Z"
  },
  "gn-sarvam": {
-  "consecutive_errors": 3,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -4662,11 +4658,10 @@
   ],
   "state": {},
   "last_ok": "2026-10-18T12:09:48Z",
-  "last_run": "2026-10-18T12:09:48Z",
-  "last_error": "URLError: <urlopen error skipped: news.google.com rate-limited us earlier in this run>"
+  "last_run": "2026-10-18T12:09:48Z"
  },
  "gn-india-ai": {
-  "consecutive_errors": 3,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -4701,8 +4696,7 @@
   ],
   "state": {},
   "last_ok": "2026-10-18T12:09:48Z",
-  "last_run": "2026-10-18T12:09:48Z",
-  "last_error": "URLError: <urlopen error skipped: news.google.com rate-limited us earlier in this run>"
+  "last_run": "2026-10-18T12:09:48Z"
  },
  "yt-matt-wolfe": {
   "consecutive_errors": 1,
@@ -6143,9 +6137,8 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "yt-hussein-nasser": {
-  "consecutive_errors": 1,
-  "history": [],
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "consecutive_errors": 0,
+  "history": []
  },
  "yt-tech-with-tim": {
   "consecutive_errors": 1,

@@ -51,9 +51,14 @@ def collect_entity(edir, test=False, only=None, mode="auto"):
             h["consecutive_errors"], h["last_ok"] = 0, iso(now)
             h.pop("last_error", None)
         except Exception as e:  # noqa: BLE001 — one broken source must not stop the run
-            h["consecutive_errors"] = h.get("consecutive_errors", 0) + 1
-            h["last_error"] = f"{type(e).__name__}: {str(e)[:160]}"
-            report.append(f"  ✗ {sid}: {h['last_error']}")
+            err_msg = str(e)
+            if "rate-limited us earlier in this run" in err_msg:
+                h["last_error"] = f"{type(e).__name__}: {err_msg[:160]}"
+                report.append(f"  ~ {sid}: {h['last_error']}")
+            else:
+                h["consecutive_errors"] = h.get("consecutive_errors", 0) + 1
+                h["last_error"] = f"{type(e).__name__}: {err_msg[:160]}"
+                report.append(f"  ✗ {sid}: {h['last_error']}")
             if test and not isinstance(e, (OSError, ValueError)):
                 traceback.print_exc()
             continue

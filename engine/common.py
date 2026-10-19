@@ -78,7 +78,13 @@ def item_id(entity, url):
 
 
 # Minimum seconds between two requests to the same host (politeness).
-HOST_GAP = {"reddit.com": 10, "github.com": 2, "datasets-server.huggingface.co": 2}
+HOST_GAP = {
+    "reddit.com": 10,
+    "github.com": 2,
+    "datasets-server.huggingface.co": 2,
+    "youtube.com": 2.5,
+    "news.google.com": 2.5,
+}
 _last_hit = {}
 _blocked = set()  # hosts that rate-limited us twice: skip them for the rest of the run
 
@@ -179,8 +185,14 @@ def resolve_gnews(url):
     if not m:
         return url
     gid = m.group(1)
+    host = "news.google.com"
+    if host in _blocked:
+        return url
     try:
-        _, html, _ = http_get(f"https://news.google.com/articles/{gid}", headers={"User-Agent": "Mozilla/5.0"})
+        _wait_for(host)
+        req1 = urllib.request.Request(f"https://news.google.com/articles/{gid}", headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req1, timeout=10) as r:
+            html = r.read().decode("utf-8", errors="replace")
         sg = re.search(r'data-n-a-sg="([^"]+)"', html)
         ts = re.search(r'data-n-a-ts="([^"]+)"', html)
         if not (sg and ts):
@@ -188,12 +200,13 @@ def resolve_gnews(url):
         inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,null,null,null,null,null,0,1],'
                  f'"X","X",1,[1,1,1],1,1,null,0,0,null,0],"{gid}",{ts.group(1)},"{sg.group(1)}"]')
         body = "f.req=" + urllib.parse.quote(_json.dumps([[["Fbv4je", inner]]]))
+        _wait_for(host)
         req = urllib.request.Request("https://news.google.com/_/DotsSplashUi/data/batchexecute", data=body.encode(),
                                      headers={"Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
                                               "User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=20) as r:
+        with urllib.request.urlopen(req, timeout=10) as r:
             txt = r.read().decode("utf-8", "replace")
         found = re.search(r'\[\\"garturlres\\",\\"(.*?)\\"', txt)
         return found.group(1) if found and found.group(1).startswith("http") else url
-    except (OSError, ValueError):
+    except Exception:
         return url
