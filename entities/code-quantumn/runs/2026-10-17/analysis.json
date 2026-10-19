@@ -952,9 +952,15 @@
   "analyzed_at": "2026-10-17T10:47:47Z"
  },
  "1acc7d18ee158336": {
-  "label": "SKIP",
-  "reason": "too_niche",
-  "analyzed_at": "2026-10-17T10:47:47Z"
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "FDE-Gym benchmarks autonomous AI agents on messy, realistic software engineering delivery tasks rather than clean algorithmic problem sets.",
+  "notes": "- Evaluates agents on end-to-end forward deployed software engineering tasks\n- Simulates real developer workflows: messy repos, missing documentation, ambiguous tickets, and multi-service deployment\n- 281 upvotes on Hugging Face Daily Papers",
+  "analyzed_at": "2026-10-19T07:18:00Z"
  },
  "927b1890ff58d6f0": {
   "label": "SKIP",
@@ -1322,9 +1328,15 @@
   "analyzed_at": "2026-10-17T10:47:47Z"
  },
  "74a618549d26e427": {
-  "label": "SKIP",
-  "reason": "too_niche",
-  "analyzed_at": "2026-10-17T10:47:47Z"
+  "label": "STUDY",
+  "importance": 4,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "OpenGCUA releases a fully open-source stack for OS-level computer use agents, enabling developers to build autonomous desktop automation agents.",
+  "notes": "- Open-source alternative to Anthropic's proprietary Computer Use API\n- Supports multimodal OS interaction: screen perception, mouse/keyboard actuation, and shell execution\n- 315 upvotes on Hugging Face Daily Papers\n- Crucial resource for developers building autonomous desktop agents",
+  "analyzed_at": "2026-10-19T07:18:00Z"
  },
  "fd123a84f557f206": {
   "label": "SKIP",
@@ -1337,9 +1349,15 @@
   "analyzed_at": "2026-10-17T10:47:47Z"
  },
  "5dafcac3293a93de": {
-  "label": "SKIP",
-  "reason": "too_niche",
-  "analyzed_at": "2026-10-17T10:47:47Z"
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Waypoint-OPD introduces gated on-policy distillation, transferring reasoning improvements from RL-tuned teacher models into smaller student models.",
+  "notes": "- 660 upvotes on Hugging Face Daily Papers\n- Distills reasoning improvements from post-RL teachers into lightweight open models\n- Solves the problem of smaller models losing reasoning chains when distilled from RLHF teachers",
+  "analyzed_at": "2026-10-19T07:18:00Z"
  },
  "43030f5f1f1951df": {
   "label": "KNOW",
