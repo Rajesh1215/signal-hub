@@ -1,6 +1,49 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-19T07:45:14Z",
+  "history": [],
+  "id": "2026-10-19-agent-object-context",
+  "title": "Why AI agents fail after 10 turns (and how to fix their memory)",
+  "type": "months",
+  "timing": "SOON",
+  "angle": "AI agents don't fail because the model is dumb—they fail because raw chat histories bloat context windows. Here is how object-oriented state management fixes long-horizon agents.",
+  "outline": [
+   "The 10-turn cliff: why autonomous coding agents start hallucinating and repeating actions",
+   "The root cause: raw token accumulation vs persistent task state",
+   "What the 'Pack Light, CarryOn' paper discovered (65% token cut and higher completion rates)",
+   "How to structure an agent's memory as an Object with explicit getter/setter tools instead of a giant string",
+   "Step-by-step code example in Python: building a clean state harness for your agent"
+  ],
+  "items": [
+   "c3065073cde3bbaa"
+  ],
+  "updated_at": "2026-10-19T07:45:14Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-19T07:45:14Z",
+  "history": [],
+  "id": "2026-10-19-multi-agent-system-design",
+  "title": "How to build multiplayer AI agents (without spending thousands)",
+  "type": "months",
+  "timing": "SOON",
+  "angle": "Stop chaining prompts in a single LLM call: how to build collaborative multi-agent architectures with shared state using open-source tools.",
+  "outline": [
+   "Why single-agent architectures hit a complexity ceiling on real apps",
+   "The multiplayer agent paradigm: orchestrator vs specialist worker agents",
+   "Real-world examples from Theo & Cole Medin: code review, merge queues, and automated QA",
+   "Handling state conflicts and message routing with open-source frameworks (LangGraph / AutoGen)",
+   "Deploying a working 3-agent team locally on your laptop without paying enterprise API costs"
+  ],
+  "items": [
+   "7ae58ee8c7f559b1",
+   "42ea6840a68f5512"
+  ],
+  "updated_at": "2026-10-19T07:45:14Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-19T03:56:03Z",
   "history": [],
   "id": "2026-10-19-ps5-llm-server",

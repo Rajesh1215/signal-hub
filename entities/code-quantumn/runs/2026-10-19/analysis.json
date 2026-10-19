@@ -686,5 +686,678 @@
   "summary": "Indian voice AI startups like Gnani face TRAI scrutiny over unsolicited AI telemarketing calls, signaling strict inbound/outbound consent rules for voice bots.",
   "notes": "- TRAI examining complaints around automated conversational AI voice agents used for sales calls\n- Startups like Gnani.ai and global providers like ElevenLabs offering sub-dollar human-like Indic voice agents\n- Regulators considering mandatory AI voice disclosures and explicit prior user consent for outbound commercial bots",
   "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "fec78fff0a7d5702": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "3994c21f9ddfa2b0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "95e558f1619ef4a0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "7c80b56dcbd0ccd9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "01787b8cfd7f7880": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "0e7fecb4e81b7c2a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "0f8869faefa45d02": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "d992d8b011cbef3a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "5f178df91716a71c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "36ca187b47255e9d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "efc5dae73a7f24ee": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Alibaba launched Qwen Glasses N1 in China for 2,218 yuan (~$300), competing directly with Ray-Ban Meta smart glasses.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "ad77b8b395c04be0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "China proposed export control restrictions on proprietary AI models, training weights, and autonomous agent frameworks.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "c693f81307cc9d74": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "28252dc2f9f6e171": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "e963c806696b5f9c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "55ccf8822e97fa93": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "ba7f1d914200a101": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "ffe58ba3d8ab70a9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "f8f92942100becf7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "765d9262dfbe137e": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "NVIDIA open-sourced Run:ai under Apache 2.0, providing Kubernetes GPU fractionalization and scheduling for AI clusters.",
+  "notes": "- Full open source release under Apache 2.0\n- Includes KAI Scheduler, dynamic CUDA GPU fractionalization and multi-tenant workload sharing\n- Highly relevant for ML platform engineers managing GPU clusters.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "16120668ddb082ea": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Argues every AI engineering team should run an internal LLM proxy to inspect raw prompts, cache calls, and catch token leaks in production.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "20f679893216eca8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "India search queries surge on using ChatGPT Astra free, WhatsApp integrations, and ChatGPT vs Gemini model comparisons.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "8741248313150e42": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search demand in India focuses on accessing Gemini 4 Argon, using Gemini free, and comparisons against Claude and DeepSeek.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "cf96a6f2e7fdb595": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Top Indian searches seek ways to use Claude free without rate limits, compare Claude vs ChatGPT, and understand Claude Fable 5.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "6f02b1cfa749fe9d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search queries spike around using the new DeepSeek V4.1 Flash release for free and comparing it against ChatGPT and Gemini.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "cd98093751d67ba5": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Users in India are actively searching for Copilot vs ChatGPT comparisons, free VS Code usage, and Office integration fixes.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "344631147d3c5de9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Searches focus on running Cursor AI inside VS Code for free and comparisons between Cursor AI and Claude Code.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "054f909ffd3c60ee": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Queries in India center on whether Perplexity AI Pro remains free for Airtel users and how to claim complimentary access.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "03705c6de3f11054": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search demand centers on accessing Grok for free and integrating Grok models into developer tools like Cursor.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "89aed762d0a26feb": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Growing demand for tutorials explaining the difference between LLMs and AI agents, and how multi-agent orchestration works.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "30304179e356b1c8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Searchers explore the difference between vibe coding and vibe engineering, and how to use AI coding in VS Code.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "b02d0fcb0a11749d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Queries reflect beginner programming demand: Python vs Java comparisons and setting up Python in the command prompt.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "9663985875b6ca08": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "High steady interest in free online AI courses, Google AI certifications, and comparing AI degrees with cybersecurity.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "0d4eedf8715bde24": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Heavy search volume for full stack FastAPI templates, modern web roadmaps, and incorporating AI into full stack workflows.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "598753577f73939a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "32 new search queries about System Design Primer, clearing system design interviews, and finding free system design guides.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "71ecde7c10dd710f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Developers are searching for Next.js architectural comparisons against React, Node.js, and Express for full-stack apps.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "b2bd6f255fa89daf": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "a23f984cdc9b6cbe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "fae05ec4cc702f14": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "2c7d2d7309bd409e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "00a5c8462073dfa4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "521110424e59c9d8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "7acc33c226ba6aca": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "b57f70fc8e64de0c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "fc6336ebe0587396": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "20b557ffd3ec7426": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "2c52723161e20668": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "3765ced2b932a6ef": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "3e98a4c21a39b800": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Alibaba is mandating its Qwen enterprise AI tools for Taobao merchants, highlighting growing platform-level automation in Asian e-commerce.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "0c402d8305744e91": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "09db3402d745f17f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "c26cf9547e9777e8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "08280e9d19b92498": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "79f486c7605079b9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Worldcoin/Tools for Humanity is testing biometric verification for autonomous AI agents handling banking and high-value financial actions.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "0d99451770689e89": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "7d900d345548b097": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "India's IT ministry MeitY outlined initiatives promoting indigenous AI solutions in public healthcare diagnostics and accessibility.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "a3ef866705ae92d3": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Beam.win lets users run local AI agents on one Mac while controlling and visualizing windows from another machine.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "099c28a852c490f8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "06141536700f9e82": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "45acf73e62aa3698": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "08f2d70574e03c70": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "b6b8ac5e41496c5b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "0ab7425c3129fb6e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Framefields is an open-source, code-first video rendering framework designed for programmatic visual generation with AI.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "3bc401698ddba2ef": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "813c6149a4395b0b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Croft enables developers to build local-first data pipelines in TypeScript backed by embedded DuckDB without heavy infrastructure.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "5a0d3ce98ec4ff1c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "b94dace58721ee30": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "58d6922ba49f4b50": {
+  "label": "STUDY",
+  "importance": 4,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Evaluates GPT-6-Astra across physical manipulation and spatial reasoning benchmarks, testing how general multimodal foundation models compete with specialized robotics policies.",
+  "notes": "- 96 upvotes on Hugging Face Daily Papers\n- Tests generalist VLM against specialized robot policies on manipulation and spatial navigation\n- Shows foundation models with vision-language-action grounding can perform open-vocabulary physical tasks",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "c3065073cde3bbaa": {
+  "label": "STUDY",
+  "importance": 4,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Proposes an object-oriented context management harness for long-horizon AI agents, isolating persistent task state from raw interaction histories to prevent context blowup.",
+  "notes": "- 91 upvotes on Hugging Face Daily Papers\n- Tackles context degradation in long-horizon agents\n- Instead of accumulating raw prompt logs, it abstracts state into object representations with explicit read/write methods\n- Cuts token overhead by up to 65% while boosting completion rates",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "eebd14944356877b": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "HexaShell designs a minimal execution harness allowing vision-language coding agents to write and iterate on Python control scripts for robotic manipulation.",
+  "notes": "- 70 upvotes on Hugging Face Daily Papers\n- Code-as-policies approach: VLM writes Python scripts interacting with physical APIs\n- Practical architecture for embodied agent developers",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "4ccf46d365722704": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "New benchmark testing whether autonomous AI agents can formulate novel hypotheses and debug code on unsolved scientific research problems rather than canned textbook benchmarks.",
+  "notes": "- 70 upvotes on Hugging Face Daily Papers\n- Evaluates agents on real, unsolved scientific research problems\n- Highlights reasoning bottlenecks when agents cannot rely on regurgitating memorized training data",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "59dc4aee24c83447": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "BizBench benchmarks autonomous agents across realistic multi-step enterprise workflows, measuring intermediate error propagation and silent failures in business logic.",
+  "notes": "- 65 upvotes on Hugging Face Daily Papers\n- Measures multi-step execution integrity rather than just end-state success\n- Reveals high rates of silent failures in complex business workflows",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "a705dad45dd1f321": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Investigates how vision-language models can actively explore and reason within interactive 3D spatial environments through step-by-step spatial deliberation.",
+  "notes": "- 55 upvotes on Hugging Face Daily Papers\n- Focuses on active exploration and 3D spatial grounding for VLMs\n- Important foundation for multimodal spatial reasoning",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "7babc38551112236": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "bdb593d97d200226": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Introduces speculative sampling for interactive video diffusion models, accelerating frame generation latency for real-time visual simulations.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "b8ff93551aa8ec35": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "YC Paper Club deconstructs AI safety research from decades of empirical alignment literature versus mainstream panic headlines.",
+  "notes": "- YC hosts dissect academic AI safety papers\n- Focuses on concrete alignment challenges: reward hacking, specification gaming, and evals\n- Great reference for engineers designing robust agent evaluations",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "03d30e380ae5debb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "abc5e31796379bfe": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Hussein Nasser explains why PostgreSQL commits can crawl even during low activity due to WAL group-commit delays and disk sync bottlenecks.",
+  "notes": "- Deep dive into Postgres WAL commit behavior\n- When activity is near zero, group commit can wait for timeout instead of flushing immediately\n- Crucial backend knowledge for high-throughput database design",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "5837b74e86023941": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "5b8e86fe6ec99af4": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Tech With Tim outlines the AI skills Python developers need: tool calling, structured outputs, and evals rather than just prompt engineering.",
+  "notes": "- Breaks down expectations for Python developers transitioning to AI engineering\n- Emphasizes: function calling, schema validation (Pydantic), evaluation pipelines, and vector retrieval\n- Direct match for our AI engineer curriculum stream",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "9f29c1479ea6e5df": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Demonstrates Claude Opus 5.5 programmatic video editing workflows via automated Python cut lists and timeline scripting.",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "597362860cbc91cd": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Berman explains DeepSeek MLA compression; we can make a concise motion-graphics explainer comparing KV cache vs MLA for Indian builders.",
+  "notes": "- Matthew Berman video explaining DeepSeek's memory savings\n- Covers Multi-Head Latent Attention (MLA) compressing KV cache into low-dimensional latent vectors\n- Good competitor angle to produce a tighter visual explainer",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "ee5561e96747b0a4": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin shows Opus 5.5 editing videos; we can cover open-source programmatic video tools (MoviePy, Remotion) with AI.",
+  "notes": "- Short demoing Opus generating edit scripts\n- We can contrast with Remotion or Python automation for developers",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "7e0891cc71a26438": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "7ae58ee8c7f559b1": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin covers multiplayer multi-agent orchestration; we can do a practical open-source tutorial using LangGraph or AutoGen.",
+  "notes": "- Covers multi-agent architecture with shared state\n- High viewer interest in agent collaboration\n- Can be turned into an architectural tutorial for full-stack developers",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "fb6a028dd0f1f6d0": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Nate Herk builds multiplayer AI agents using Kylon; we can demonstrate the same concepts using free, local open-source frameworks.",
+  "notes": "- Nate Herk sponsored tutorial on multi-agent collaboration with Kylon\n- Proves market curiosity for multi-agent systems\n- We can present a free alternative",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "b980c8f86fa06be4": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "798e29b22cbb1d9e": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Nate Herk analyzes a viral repo for reverse engineering codebases; we can show students how to systematically study open source repos with AI.",
+  "notes": "- Explains viral GitHub repository for code comprehension\n- Good hook: how to use AI coding agents to map and understand large legacy codebases",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "39bb545c1a59f5cf": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo argues most AI features are structured prompts; we can adapt this into a crisp guide on prompt engineering vs systems engineering.",
+  "notes": "- Theo breaks down prompt engineering for real software engineers\n- Highlights common developer mistakes: overly vague instructions, lack of type constraints, missing negative constraints\n- Great angle for Code Quantumn's engineer audience",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "42ea6840a68f5512": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo breaks down how Anthropic scaled merge throughput from 2.5k to 30k merges daily; we can cover Git internals and trunk-based CI for builders.",
+  "notes": "- Reviews Anthropic's engineering post on high-velocity automated merge queues\n- Explains how AI coding agents force companies to rethink version control throughput\n- Excellent system design and developer workflow topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "dbd639b5a0d4ba71": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo tests Gemini 4 Argon for frontend coding; we can compare Gemini 4 vs Claude Sonnet specifically on Next.js full-stack generation.",
+  "notes": "- Hands-on developer review of Gemini 4 Argon\n- Tests frontend code generation, speed, and API pricing\n- Strong benchmark signal for developer-focused model evaluation",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "0dca0a53f6069dc3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T07:44:44Z"
+ },
+ "f2caa037e4c46549": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Jean Lee reveals hiring criteria for AI engineers; we can build an actionable roadmap showing Indian developers how to demonstrate those exact skills.",
+  "notes": "- Former Meta EM highlights real hiring demands: reliable evals, latency optimization, data engineering, not just API calls\n- Perfect hook for Code Quantumn's 'Learn AI as fast as possible' roadmap videos",
+  "analyzed_at": "2026-10-19T07:44:44Z"
  }
 }

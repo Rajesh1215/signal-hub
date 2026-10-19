@@ -174,6 +174,7 @@ def a_hf_papers(src, state):
                     "snippet": clean_text(paper.get("summary"), 400),
                     "meta": {"upvotes": up, "github": paper.get("githubRepo"),
                              "github_stars": paper.get("githubStars")}})
+    out.sort(key=lambda x: x["meta"].get("upvotes") or 0, reverse=True)
     return out, {}
 
 
