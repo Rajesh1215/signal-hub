@@ -7,7 +7,7 @@
    "category": "business"
   },
   "summary": "Anthropic committed 5% of company equity to a Long-Term Benefit Trust to fund third-party AI safety evals, public audits, and risk mitigation.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "fec04988c7250649": {
   "label": "KNOW",
@@ -17,7 +17,7 @@
    "category": "changelog"
   },
   "summary": "Claude Code CLI patch v2.1.303 fixes bash execution timeouts and terminal color parsing in interactive sessions.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "fe01dc16343d2366": {
   "label": "TEST",
@@ -28,7 +28,7 @@
   },
   "summary": "Reflection Beam reasoning model is freely available on Ollama for local execution; claims strong multi-step logic. Need to test RAM needs and speed.",
   "notes": "- Matt Shumer's Reflection Beam model ported to Ollama for local quantized execution.\n- Tests multi-step reflection tokens before producing answers; evaluate whether reasoning quality holds without excessive hallucination.\n- Test hardware: M1/M2/M3 Mac (16GB RAM) and RTX 3060 to verify token throughput.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "24c4bc17c9794f7c": {
   "label": "STUDY",
@@ -38,7 +38,7 @@
    "category": "tutorial"
   },
   "summary": "Architecture guide by Ollama and Fly.io on deploying containerized local LLM agents with isolated compute sandboxes and ephemeral GPUs.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "f27e0a0bcf67c4df": {
   "label": "KNOW",
@@ -48,7 +48,7 @@
    "category": "model"
   },
   "summary": "OpenBMB released MiniCPM-V 4.7 35B multimodal vision-language model, achieving top open-source OCR and chart reasoning scores.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "e374527941b9ceec": {
   "label": "KNOW",
@@ -58,7 +58,7 @@
    "category": "model"
   },
   "summary": "Fish Audio released Drama-3, an open-weights zero-shot emotional text-to-speech model supporting low-latency expressive dialogue.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "1c72731932e7a4a6": {
   "label": "KNOW",
@@ -68,7 +68,7 @@
    "category": "tool"
   },
   "summary": "Black Forest Labs released Flux-3 Klein ComfyUI node integration, enabling rapid local image-to-image conditioning on 8GB VRAM.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "af6e86e12d5535ab": {
   "label": "KNOW",
@@ -78,17 +78,17 @@
    "category": "model"
   },
   "summary": "Liquid AI released LFM 2.5 24B non-transformer recurrent architecture, offering constant-memory inference on 1M token contexts.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "ee3ee410d44025af": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "e12ffe5da58cf8a3": {
   "label": "SKIP",
   "reason": "too_niche",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "79dbd3f840c7b902": {
   "label": "KNOW",
@@ -98,7 +98,7 @@
    "category": "model"
   },
   "summary": "Alibaba released Qwen-Image 2.1 Turbo, accelerating 4-step diffusion generation with bilingual English and Chinese text rendering.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "e12210cc9522e327": {
   "label": "KNOW",
@@ -108,17 +108,17 @@
    "category": "model"
   },
   "summary": "OpenBMB dropped a lightweight 1B parameter vision model runnable on smartphones and Raspberry Pi with real-time video understanding.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "3a8ed20c63fabd31": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "e2d84343e1ec98b2": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "462b88e079ff3468": {
   "label": "KNOW",
@@ -128,7 +128,7 @@
    "category": "tool"
   },
   "summary": "ComfyUI v0.42.0 introduces native multi-GPU execution pipelines and unified model management across Flux and SDXL checkpoints.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "b31cf4929aeee921": {
   "label": "MAKE",
@@ -141,12 +141,12 @@
   },
   "summary": "DeepSeek V4.1 Flash entered LMSYS WebDev Code Arena, matching frontier coding scores at 1/10th API pricing with full India access. Hook: 'DeepSeek just released a lightning-fast coding model that challenges Claude Sonnet for pennies.'",
   "notes": "- Added to LMSYS Code Arena (WebDev evaluation benchmark) with competitive Elo ratings against proprietary frontier models.\n- Token generation speed exceeds 120 tokens/sec on flash infrastructure with aggressive speculative decoding.\n- Pricing remains extremely low (zsh.14/1M input tokens), making full-stack app prototyping and autonomous test loops practically free.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "f6081c2d06839e03": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "653524b0780ad258": {
   "label": "KNOW",
@@ -156,12 +156,12 @@
    "category": "business"
   },
   "summary": "Disney acqui-hired majority of Character.AI team to build interactive narrative agents, signaling consumer AI consolidation.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "588ba060b379302b": {
   "label": "SKIP",
   "reason": "off_topic",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "514029397cf48734": {
   "label": "KNOW",
@@ -171,7 +171,7 @@
    "category": "model"
   },
   "summary": "Mistral released Timestral, a 209M open time-series forecasting model outperforming Google TimesFM-3 on financial and demand telemetry.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "914ded9e52a08dd7": {
   "label": "KNOW",
@@ -181,7 +181,7 @@
    "category": "tool"
   },
   "summary": "TinyFish open-sourced a headless scraping and markdown extraction proxy for AI agents, cutting web-grounding token overhead by 80%.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "37705b47a5913b99": {
   "label": "STUDY",
@@ -191,7 +191,7 @@
    "category": "research"
   },
   "summary": "Technical paper proposing hybrid agents that execute planning in continuous vector latent space before decoding discrete natural language tool actions.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "d1164f91d55f19f9": {
   "label": "KNOW",
@@ -201,7 +201,7 @@
    "category": "product"
   },
   "summary": "Developer created an esoteric language with randomized semantic operators designed to break LLM token prediction; shows transformer brittleness.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "39722328278c7476": {
   "label": "STUDY",
@@ -211,22 +211,22 @@
    "category": "tutorial"
   },
   "summary": "Practical post-mortem on LoRA fine-tuning Qwen3-8B for domain-specific JSON extraction, detailing dataset curating mistakes and GPU cost blowouts.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "3cd16583de0db1da": {
   "label": "SKIP",
   "reason": "off_topic",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "ac49b5d5c70eb010": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "512c01f918cc069b": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "90500aac254fe75e": {
   "label": "MAKE",
@@ -239,7 +239,7 @@
   },
   "summary": "Vercel and Shopify launched autonomous agent checkout APIs, allowing AI bots to browse catalogs, manage carts, and execute payments via Next.js. Hook: 'Your Next.js app can now let AI agents buy real products for users.'",
   "notes": "- Joint integration between Vercel AI SDK and Shopify Storefront API providing structured tool-calling endpoints for e-commerce agents.\n- Agents handle search filters, inventory checks, session carts, and pass off to secure PCI-compliant checkout sessions.\n- Demonstrates how product engineers can bridge LLM agents with real transaction revenue.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "8a92f5126e9c1abb": {
   "label": "KNOW",
@@ -249,7 +249,7 @@
    "category": "policy"
   },
   "summary": "Cloudflare updated its Verified Bot program to dynamically rate-limit scraping agents that violate robots.txt and pay-per-crawl standards.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "afa372330719ddcc": {
   "label": "STUDY",
@@ -260,7 +260,7 @@
   },
   "summary": "ByteByteGo breaks down 8 chunking strategies for RAG agents: fixed-size, recursive character, document structure, semantic, late, and agentic chunking.",
   "notes": "- Comprehensive guide covering the trade-offs of chunk boundaries on embedding retrieval precision and recall.\n- Compares naive sliding windows against semantic chunking (splitting on cosine similarity drops) and late chunking (embedding whole doc before token pooling).\n- High educational value for students building production RAG pipelines.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "ee435ee693327470": {
   "label": "STUDY",
@@ -270,7 +270,7 @@
    "category": "system_design"
   },
   "summary": "System design teardown of distributed resilience patterns: circuit breakers, bulkhead isolation, idempotency keys, and exponential backoff.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "b8548255e020ce20": {
   "label": "KNOW",
@@ -280,7 +280,7 @@
    "category": "research"
   },
   "summary": "Analysis of reward hacking and RLHF sycophancy: how training models on narrow human preferences creates catastrophic edge-case drift.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "235e32b515379dcb": {
   "label": "STUDY",
@@ -290,7 +290,7 @@
    "category": "research"
   },
   "summary": "Explainer on statistical thermodynamics and entropy equations underlying modern transformer softmax attention mechanisms and temperature sampling.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "86b1143654b71a91": {
   "label": "KNOW",
@@ -300,12 +300,12 @@
    "category": "research"
   },
   "summary": "Explores non-linguistic reasoning architectures: graph neural networks, geometric deep learning, and continuous state-space planning.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "106265b2c581ae07": {
   "label": "SKIP",
   "reason": "off_topic",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "3cf7e73a9dffc7c0": {
   "label": "STUDY",
@@ -315,7 +315,7 @@
    "category": "system_design"
   },
   "summary": "Deep architecture dive into Michelangelo v3: how Uber orchestrates real-time feature stores, model serving, and automated canary deployments at scale.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "cfaaa94adebd48d3": {
   "label": "STUDY",
@@ -325,7 +325,7 @@
    "category": "system_design"
   },
   "summary": "Engineering guidelines for handling LLM latency spikes, provider outages, prompt injection, and fallback model degradation in production.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "e003298dc7c73cd1": {
   "label": "STUDY",
@@ -335,7 +335,7 @@
    "category": "research"
   },
   "summary": "Anthropic researcher Emmanuel Ameisen breaks down mechanistic interpretability: dictionary learning, feature activation monosemanticity, and prompt steering.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "c0f011f7a1e3e3dd": {
   "label": "KNOW",
@@ -345,7 +345,7 @@
    "category": "startup"
   },
   "summary": "Product leadership insights on structuring Product Requirement Documents (PRDs) for autonomous agents and non-deterministic UX workflows.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "11d5c60389079b61": {
   "label": "KNOW",
@@ -355,27 +355,27 @@
    "category": "product"
   },
   "summary": "Analysis of Meta Muse Wonder UI-generation model: excels at state-machine logic for agents but lags human polish in responsive frontend aesthetics.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "b6cadcad5f558516": {
   "label": "SKIP",
   "reason": "off_topic",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "1940a18f14ca0a7a": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "c732e5e01c094c32": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "4342921c7e9886ca": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "2e0c111d92129abc": {
   "label": "KNOW",
@@ -385,16 +385,306 @@
    "category": "changelog"
   },
   "summary": "Simon Willison updates local environments for Python 3.15, highlighting JIT compiler speedups and deprecated C-API removals.",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "a200b3c1ed7017c9": {
   "label": "SKIP",
   "reason": "too_niche",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
  },
  "1889c0b3db8d5e12": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-10-19T02:38:39Z"
+  "analyzed_at": "2026-10-19T03:49:52Z"
+ },
+ "13d089e6660785ae": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "OpenMOSS released MOSS-Image-Base, an open-weights text-to-image foundation model trending on Hugging Face.",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "183a7f1537a305ee": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Nvidia published Qwen3.8-Flash-Next in FP4 for local RTX GPUs, cutting VRAM needs to run multimodal vision-text models locally on consumer cards. Hook: 'Run Nvidia’s newest quantized vision model right on your laptop GPU.'",
+  "notes": "- FP4 quantized weights on Hugging Face by Nvidia\n- Multimodal: image-text-to-text\n- Designed for local inference on consumer RTX 40-series cards\n- Allows developers to run agentic vision pipelines locally with low VRAM footprint",
+  "actions": [
+   "Flagged for local model setup tutorial"
+  ],
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "6d43a2a61b12df57": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Datalab released Indra-OCR, an open image-to-text model built specifically for 12 Indian languages and complex document layouts. Hook: 'An open-source OCR model built specifically for Indian documents.'",
+  "notes": "- Released on Hugging Face by Datalab\n- Covers 12 Indian languages\n- High accuracy on complex Indic layouts, invoices, and handwritten texts\n- Open weights, runnable locally or via API",
+  "actions": [
+   "Added to Indian AI builder resources"
+  ],
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "bc22094f0a00d69f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Liquid AI released GGUF quantized builds of LFM 2.5 24B, allowing local testing of non-transformer liquid neural networks via llama.cpp.",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "6ad5f43c402b3cee": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "ComfyUI released official workflow nodes for MOSS-Image, integrating the new open image model directly into local generation graphs.",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "401d753b28f2b4e6": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Tencent released Hy-Memory 30B, an open model focusing on long-term agent memory and retrieval benchmarks.",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "4bd58f9c6679fd96": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "09b8517b6b0d8cc0": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "8cf402a34c37d035": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Meta’s upcoming Oct 30 terms allow automated training on crawled site content unless publishers opt out, sparking global publisher pushback.",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "ca99990bd0cf675c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "9cb2713eeb226628": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "8f2dc4284ae51496": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Developers ported llama.cpp to jailbroken PS5 consoles, achieving 20 tokens/sec on Qwen 27B using the console's 16GB unified GDDR6 memory. Hook: 'People are turning $400 gaming consoles into 20 tok/s AI servers.'",
+  "notes": "- Ported via 'PS5LM Plus' using PS5's FreeBSD OS layer and 16GB unified GDDR6 memory\n- Achieves 20 tokens/s on 27B Qwen 3.8 GGUF\n- Proves low-cost unified memory gaming hardware can run production-grade LLM inference without $2000 GPUs",
+  "actions": [
+   "Created video idea on running LLMs on unconventional hardware"
+  ],
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "55a3ce257b1ff62b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "967fa04163bd7a58": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "f077bf2001fa87c3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "cdeb94dd27c8fe63": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "3bce697245ec5ebd": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "347e7115bd25f7c0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Alibaba reported automated data scraping attempts against Amap by rival AI agents, highlighting emerging multi-agent scraping and anti-bot conflicts.",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "6a95b9502cff1114": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "official_launch",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Alibaba launched Qwen Glasses N1 at 2,218 Yuan (~), bringing multimodal Qwen agent features to consumer hardware in China.",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "a973c99ba10a4bd3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "833fc32016023892": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "e65494c8f9008a13": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "China announced tighter export controls on AI models and dual-use algorithms, creating new licensing hurdles for Chinese open-weights developers.",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "281ca7b4b1dc7f89": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "087dbd632a2abf87": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "5b19493210b7894c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "a199f0b99bb48d7c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "27b05a63d5ed31f4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "0c6d50b0f645531a": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "598a74cd9f47cde2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "0e4c96fba7def9c8": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "IndiaAI Mission approved procuring an additional 10,000 GPUs to expand subsidized cloud compute for Indian startups and student researchers. Hook: 'India is adding 10,000 more GPUs to its free startup compute pool.'",
+  "notes": "- Government expanding national compute pool by 10,000 GPUs under IndiaAI Mission\n- Subsidized access for Indian AI startups, researchers, and academic labs\n- Directly addresses the domestic GPU crunch where Indian founders previously looked abroad\n- Applications open via IndiaAI portal for compute grants",
+  "actions": [
+   "Created video idea for Indian AI compute opportunities"
+  ],
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "6063e9d317242352": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Lenny’s framework breaks down how to evaluate startup moats in the AI era across data flywheels, distribution, switching costs, and developer workflows.",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "215b3338313c077c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "5a7ce9ac5c67fe7b": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Meta’s design director details how Muse balances multimodal UI with conversational state, providing lessons for developers building agent interfaces.",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "1f94d30ee9a413a6": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Tech With Tim demonstrates connecting Claude and AI agents to real-world web data using Apify's Model Context Protocol (MCP) server.",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "bd2bde8fa356950a": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Tech With Tim explains why shipping a complete full-stack project with live API, database, and CI/CD beats credentials in AI-era developer interviews.",
+  "analyzed_at": "2026-10-19T03:51:45Z"
+ },
+ "e3e18ca71b2ea6b2": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Indian voice AI startups like Gnani face TRAI scrutiny over unsolicited AI telemarketing calls, signaling strict inbound/outbound consent rules for voice bots.",
+  "notes": "- TRAI examining complaints around automated conversational AI voice agents used for sales calls\n- Startups like Gnani.ai and global providers like ElevenLabs offering sub-dollar human-like Indic voice agents\n- Regulators considering mandatory AI voice disclosures and explicit prior user consent for outbound commercial bots",
+  "analyzed_at": "2026-10-19T03:51:45Z"
  }
 }

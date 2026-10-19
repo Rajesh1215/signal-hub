@@ -930,5 +930,869 @@
   "label": "SKIP",
   "reason": "minor_update",
   "analyzed_at": "2026-10-19T02:45:50Z"
+ },
+ "29166cc8c4146699": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "46b87b876ec51b28": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "284ade6a27c278ee": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "regulation"
+  },
+  "summary": "SEBI revised settlement framework rules for equity derivatives, providing operational relief for institutional desks and retail brokers.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "d64f5e2affcd2b79": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "7da16696245ef667": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "6475c792e144cf4f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "d68c25d132c7bc44": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "b6ea9b0e31deba73": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "2cd6c7f1897cc4c0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_outlook",
+  "flags": {
+   "category": "mutual_funds"
+  },
+  "summary": "Valuation premium of Indian mid and small-caps over large-caps hit 20-year highs, prompting advisors to recommend shifting fresh SIPs to large-cap funds.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "c23019ac7b03084b": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Banks offer up to 40-50 bps lower home loan rates for borrowers with credit scores above 780, saving lakhs over a 20-year loan tenure. Hook: 'Your credit score can cut ₹3-5 lakhs off your home loan EMI.'",
+  "notes": "- Most public and private banks tie home loan rate spreads directly to CIBIL brackets\n- Scores above 780-800 get best-tier spreads (e.g. 8.4% vs 8.9% for <700)\n- On a ₹50L 20-year loan, 0.5% rate difference saves ~₹3.5 lakhs in total interest\n- Actionable advice: check credit report for errors, pay cards before billing cycle, keep utilization under 30%",
+  "actions": [
+   "Created video idea on credit scores and home loan interest rates"
+  ],
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "f0f2958c71cbd530": {
+  "label": "MAKE",
+  "importance": 3,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Explains how the Safe Withdrawal Rate rule applies to Indian inflation and taxation, helping salaried workers estimate retirement corpus needs. Hook: 'How much money do you actually need to retire in India?'",
+  "notes": "- Explains 4% SWR rule adjusted for higher Indian inflation (~6%) and debt returns\n- In India, a safer withdrawal rate is often 3-3.5% for 30+ year retirements\n- For ₹8L/year expenses, a ₹2 Cr corpus gives a 4% initial withdrawal rate but needs equity allocation to beat inflation",
+  "actions": [
+   "Added to personal finance explainer series"
+  ],
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "059c47c3a9965e19": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "5688b0423aca5319": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "3b4a7f07dc41e953": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "916f3e90613af9b6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "5a476fb9c42534a6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "47be74eeb7d9b2b3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "5f9c40f45deb5183": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "scam_alert",
+  "flags": {
+   "category": "scam"
+  },
+  "summary": "Cybercriminals are targeting Indian employees using WhatsApp and email impersonating CEOs to authorize emergency wire transfers. Hook: 'If your boss messages you on WhatsApp asking for money, don't send it.'",
+  "notes": "- Chennai firm lost ₹1.90 crore to a WhatsApp account using the CEO's photo and urgent tone\n- Scam targets finance and operations executives with urgent, confidential requests\n- Defense: mandatory dual-authorization protocols and out-of-band verification via voice call",
+  "actions": [
+   "Created video idea on workplace financial scams and impersonation fraud"
+  ],
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "fb89770b5cf8a011": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Explains the difference between Dearness Allowance (DA) for serving employees and Dearness Relief (DR) for pensioners ahead of 8th Pay Commission meetings.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "223e16378859a1b6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "61b7922e0146f0cd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Urban Company is exploring a ₹2,500 crore follow-on capital raise for international expansion and quick-commerce home services.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "03bc5be322aea186": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_release",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "India ranked 4th globally in tech startup funding with .7 billion raised year-to-date, reflecting steady recovery in late-stage capital.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "721f524ee19886f5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Enterprise AI startup RapidCanvas raised  million in Series B funding to scale its automated data science platform.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "a55ffe782c51bd59": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "8ac384468fb54462": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "f7038f09bd7b9ed7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "GreenCell Mobility raised ₹330 crore from Impact Fund Denmark to expand its electric intercity and intra-city bus fleet across India.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "45ce94d14cf32aa7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "925dc159ccb96091": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "budget_or_policy",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Delhi government approved the Go-Delhi Foundation with ₹50 crore corpus to provide seed grants and incubation support for early-stage startups.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "23582c2f2b2d3a42": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "b49e50549f339051": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "tech_business"
+  },
+  "summary": "Meta updated site terms ahead of Oct 30 regarding web scraping and content usage for training commercial models.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "15e7720831f33a63": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Airtel introduced cheaper voice-only prepaid plans starting at ₹185 following TRAI mandates to unbundle mandatory data for basic phone users.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "436fe1c679985fc4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "919f5f4a68746808": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "6becd3d6405c9001": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "cb7e0039a7d73fca": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Automaker Stellantis announced ₹4,000 crore India capex by 2030 to launch 12 new models with higher local component sourcing.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "4ee3767b5063b895": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "4285b074414e841f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "d9a4344f0f5e6bdf": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "3714ee57a94e85c2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "0b980bbcc0aa50bb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "462f7145942aeb8b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "earnings",
+  "flags": {
+   "category": "company_results"
+  },
+  "summary": "ICICI Bank reported solid Q2 net interest income growth and declining credit provisions, outperforming peers on asset quality.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "847493d394886fef": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "0b0e4a2005e27b07": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "71a25ddcc83971e9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "7807d41dbe17ef2a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "128cc0e15be22d17": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "0e77feb3512d2521": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "504c7f97ec83c6e4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "db20525b8b1c83fe": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "0f32fdae286bc762": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_outlook",
+  "flags": {
+   "category": "markets"
+  },
+  "summary": "Global markets focus on semiconductor announcements, upcoming Fed rate deliberations, and major US tech earnings.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "0d3319a5fcf70c44": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "f5531e02fe09b45c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "69c57a62deebaa7c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "1b9f2138524c621e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "1addf702b8aacd54": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "d174cf72dca58896": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "tech_business"
+  },
+  "summary": "Anthropic committed 5% of its equity to a public benefit trust as it prepares for an eventual multibillion-dollar public listing.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "fc14a8ef3ee5d688": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "09147911b3e81d97": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "bc90dd3ef9b61870": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "8908cf57688b64b7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "bebe1c1655edf979": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "e140bff64fad8f68": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "ff69786a777d19a1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "c89912d8be59f830": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "geopolitics",
+  "flags": {
+   "category": "world_geopolitics"
+  },
+  "summary": "Drone strikes on Russian oil storage hubs and data centers heightened energy infrastructure security risks across Eastern Europe.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "865cedbef7206b1a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "e1c9b3b257bdd8a9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "global"
+  },
+  "summary": "Indonesian equities dropped to six-year lows following warnings of a possible MSCI emerging market index weight reduction.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "8e48c8209d3fda58": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "6eb7a27c892e1c42": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "db912fbd7c08e713": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "geopolitics",
+  "flags": {
+   "category": "world_geopolitics"
+  },
+  "summary": "Trump waived sanctions on Russian energy buyers under the Graham Act, causing crude oil prices to tumble and easing import pressures on India.",
+  "notes": "- Sanctions waiver issued ahead of statutory deadline\n- WTI oil dropped toward /bbl\n- Direct positive for India's oil import bill and rupee stability",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "2fa2ddc3f3830a8f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "fc9c6d4bf1fb6275": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "d04e0499723e597e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "2419f320d34c5c9f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "946f8389683ea0db": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "8c21b98a9f3ae0c0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "72d01a1fc93cf5af": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "1af5d1ed3c7b0efb": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "96252370adcb86fe": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "3432e7a45de0cb78": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "geopolitics",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "The Philippines declared a national energy emergency amid Middle East supply risks, highlighting regional vulnerabilities to energy shocks.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "dd57e5195af0bc51": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "6d45a518687579b0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "a88db4498f2aaf40": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "844489b12b451e7f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "fa654980f1847d92": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "fc29fdad80e161df": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "c9273edd1d4904f7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "bc3ae2e8ad73f04e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "46c3054dcb612de5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "06717dc079d8fc3b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "161cda337b4034c8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "00a590a02c29fd2b": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "f4e5b15720d44e06": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "0debfa03eb3af86b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "big_player_statement",
+  "flags": {
+   "category": "big_player_statement"
+  },
+  "summary": "JPMorgan CEO Jamie Dimon cautioned that geopolitical conflict and sticky inflation present significant risks despite resilient current US corporate earnings.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "f474e8320c78d0d2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "d8bf8be1997aee37": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "RBI injected ₹87,000 crore (.5B) in banking liquidity via Variable Rate Repo auctions to ease short-term funding pressures.",
+  "notes": "- ₹87,000 Cr liquidity injected via VRR\n- Addresses temporary advance tax and festival cash demand outflows\n- Keeps overnight call money rates anchored around the repo rate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "38f62bcb1a15a364": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "0e39a0d511e841b0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "71202c904d881a6a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "1fd95248887cdb46": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Major Indian public banks adjusted repo-linked lending rate (RLLR) spreads, slightly raising new home and auto loan borrowing costs.",
+  "notes": "- SBI, PNB, BoI revised external benchmark linked rates\n- Existing borrowers with reset dates will see EMI adjustments\n- Salaried borrowers should check reset frequency (quarterly vs monthly)",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "0e22dbdb8f58519f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "ad95fc174d8a98be": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "regulation",
+  "flags": {
+   "category": "regulation"
+  },
+  "summary": "SEBI revised closing auction rules and extended stock derivatives trading to 3:45 PM starting Dec 7 to curb end-of-day volatility.",
+  "notes": "- New norms effective Dec 7, 2026\n- Closing auction window revised\n- Stock derivatives trading window extended to 3:45 PM\n- Aims to reduce manipulative closing price swings and improve liquidity matching",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "7ab8fcf168e37825": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "d15731a389ce386f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "SEBI reduced face value norms for privately placed corporate bonds to ₹10,000, broadening retail access and lowering funding costs for NBFCs.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "13c2ff425fa3fd6a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "b93543d339bbf340": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Reliance's Jio Platforms ₹30,213 crore IPO heads toward late October debut with grey market premium signaling strong institutional demand.",
+  "notes": "- One of India's largest tech IPOs at ₹30,213 Cr\n- High retail investor and DII participation expected\n- Key test for domestic tech valuation benchmarks",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "3be88ba08fa8c8c3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "e4f1d926d56176c9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "8e7443e6747c5b86": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "4dc2aaa3f6c333bd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "320ddc55647039b7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "f2ec8b7eb7d0bf5a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "02ab5f9c53354fa7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "e0e7fa6797045c91": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "5b38aee863bb5e3c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "b18248db7cb988be": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "5a8db2d9e9726b37": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "21bd626a89ae6272": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "0724222a1527c580": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "3f8682627c4aeda3": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "c1259f9eeea7a802": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "data_release",
+  "flags": {
+   "category": "global"
+  },
+  "summary": "China's GDP grew 4.5% year-on-year in Q3, beating market forecasts on strong exports despite lingering domestic property weakness.",
+  "notes": "- Q3 GDP printed at 4.5% YoY\n- Export engine offset domestic real estate drag\n- Signals stimulus measures stabilizing manufacturing output",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "13ae57f8f768e1e8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "d36b30b31524569e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "188c404a283676fb": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "c717ece225d57ba3": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "dcdf5498a9d243e9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "d4903812f53b295a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "company_issue",
+  "flags": {
+   "category": "tech_business"
+  },
+  "summary": "CoreWeave bond spreads widened as credit rating agencies flagged high debt leverage used to finance massive AI GPU cluster buildouts.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "ee0eb69cc9571d18": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "d17b039e651e8cd4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "company_issue",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Reliance stated that satellite spectrum allocation in India must adhere to uniform security and local hosting regulations, countering Starlink's claims.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "452cba131a7d3020": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "2b32281d472bec3a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "5a316187e283c841": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "fd8fc9b9f341c38d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "45cb75d738d54ac3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "289e8d398dcb50ca": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "cd296c6d8311603f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "lesson",
+  "flags": {
+   "category": "startup_management"
+  },
+  "summary": "Lenny’s framework details how founders and startup employees can assess real business moats across network effects, scale, and switching costs.",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "a9efb208ea7d162f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
+ },
+ "8591cc94cb343363": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-19T03:54:33Z"
  }
 }
