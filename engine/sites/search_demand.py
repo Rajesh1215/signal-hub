@@ -55,21 +55,30 @@ def fetch(src, state):
             q = t.replace("{x}", x) if x else t
             queries.append((q, x or q.split()[0], "youtube"))
 
-    # topic -> {"where": set(), region: {"top": [...], "new": [...]}}
-    groups, failures = {}, 0
-    for gl in regions:
-        prefix = "" if gl == "in" else f"{gl}:"  # India keys keep their old form
-        first_run = not any(k.startswith(prefix) and (gl != "in" or ":" in k and k.split(":", 1)[0] in ("google", "youtube")) for k in seen)
+    def fetch_region(gl):
+        """All suggestions for one region (runs in its own thread)."""
+        res, fails = [], 0
         for q, must, where in queries:
             url = (YOUTUBE if where == "youtube" else GOOGLE).format(hl=hl, gl=gl, q=urllib.parse.quote(q))
             try:
-                found = suggestions(url)
+                res.append((q, must, where, suggestions(url)))
             except (OSError, ValueError):
-                failures += 1
-                if failures >= 8:
-                    raise OSError("search suggestions unavailable (8 failures)")
-                continue
-            time.sleep(0.4)
+                fails += 1
+                if fails >= 8:
+                    raise OSError(f"search suggestions unavailable for {gl} (8 failures)")
+            time.sleep(0.25)
+        return gl, res
+
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(len(regions)) as ex:
+        results = list(ex.map(fetch_region, regions))
+
+    # topic -> {"where": set(), region: {"top": [...], "new": [...]}}
+    groups = {}
+    for gl, res in results:
+        prefix = "" if gl == "in" else f"{gl}:"  # India keys keep their old form
+        first_run = not any((k.startswith(prefix) if prefix else k.split(":", 1)[0] in ("google", "youtube")) for k in seen)
+        for q, must, where, found in res:
             topic = must if must in src.get("terms", []) else q
             g = groups.setdefault(topic, {"where": set()})
             r = g.setdefault(gl, {"top": [], "new": []})
