@@ -81,11 +81,16 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 17,
     "new": 1
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 17,
+    "new": 4
    }
   ],
   "state": {},
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "vogue-india": {
   "consecutive_errors": 0,
@@ -237,11 +242,16 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 1,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 1,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "esquire-style": {
   "consecutive_errors": 0,
@@ -335,11 +345,16 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 50,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 50,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "allure": {
   "consecutive_errors": 0,
@@ -628,7 +643,7 @@
   "history": []
  },
  "comp-rmrs-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:08Z",
@@ -684,12 +699,16 @@
     "at": "2026-10-19T17:57:23Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "comp-justine-yt": {
   "consecutive_errors": 0,
@@ -753,14 +772,19 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "comp-pranaysai-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:08Z",
@@ -816,12 +840,16 @@
     "at": "2026-10-19T17:57:23Z",
     "found": 15,
     "new": 1
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "neuroscience-news": {
   "consecutive_errors": 0,
@@ -845,14 +873,19 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "\"87a7226bd3fecdecf639eca793d46816\"",
    "last_modified": "Mon, 19 Oct 2026 21:35:56 GMT"
   },
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "sd-mind-brain": {
   "consecutive_errors": 0,
@@ -886,13 +919,18 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 60,
+    "new": 5
    }
   ],
   "state": {
-   "last_modified": "Mon, 19 Oct 2026 13:19:13 GMT"
+   "last_modified": "Tue, 20 Oct 2026 13:10:30 GMT"
   },
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "gn-psypost": {
   "consecutive_errors": 0,
@@ -921,11 +959,16 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 4,
     "new": 1
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 4,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "greater-good": {
   "consecutive_errors": 0,
@@ -959,11 +1002,18 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 50,
+    "new": 0
    }
   ],
-  "state": {},
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "state": {
+   "last_modified": "Mon, 19 Oct 2026 20:12:14 GMT"
+  },
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "psyche": {
   "consecutive_errors": 0,
@@ -997,11 +1047,16 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 20,
+    "new": 2
    }
   ],
   "state": {},
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "big-think": {
   "consecutive_errors": 0,
@@ -1035,14 +1090,19 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 10,
+    "new": 2
    }
   ],
   "state": {
-   "etag": "W/\"07c4fca85db077fd0a095f6e1c04710f\"",
-   "last_modified": "Mon, 19 Oct 2026 19:39:17 GMT"
+   "etag": "W/\"9969a1c9d58e1303ae2729d8611190e3\"",
+   "last_modified": "Tue, 20 Oct 2026 13:44:39 GMT"
   },
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "peter-attia": {
   "consecutive_errors": 0,
@@ -1076,14 +1136,19 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "\"eebef5cb621a4e76b14c3a8e519ffead\"",
    "last_modified": "Mon, 19 Oct 2026 13:56:27 GMT"
   },
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "stronger-by-science": {
   "consecutive_errors": 0,
@@ -1117,14 +1182,19 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"1e45bb38246ffa8d86b97e290b584af4\"",
    "last_modified": "Sat, 10 Oct 2026 16:40:07 GMT"
   },
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "sd-fitness": {
   "consecutive_errors": 0,
@@ -1158,16 +1228,21 @@
     "at": "2026-10-20T05:50:16Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 60,
+    "new": 5
    }
   ],
   "state": {
-   "last_modified": "Mon, 19 Oct 2026 13:16:27 GMT"
+   "last_modified": "Tue, 20 Oct 2026 13:07:44 GMT"
   },
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "yt-huberman": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T17:57:23Z",
@@ -1178,29 +1253,37 @@
     "at": "2026-10-20T03:13:17Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-20T03:13:17Z",
-  "last_run": "2026-10-20T03:13:17Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "yt-sahar-yousef": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T17:57:23Z",
     "found": 15,
     "new": 1
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "yt-modern-wisdom": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T03:41:00Z",
@@ -1211,99 +1294,127 @@
     "at": "2026-10-19T17:57:23Z",
     "found": 15,
     "new": 3
-   }
-  ],
-  "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
- },
- "yt-mel-robbins": {
-  "consecutive_errors": 2,
-  "history": [
+   },
    {
-    "at": "2026-10-19T17:57:23Z",
+    "at": "2026-10-20T13:54:02Z",
     "found": 15,
     "new": 3
    }
   ],
   "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
+ },
+ "yt-mel-robbins": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-19T17:57:23Z",
+    "found": 15,
+    "new": 3
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 3
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "yt-peter-attia": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T17:57:23Z",
     "found": 15,
     "new": 1
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 500: Internal Server Error"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "yt-bryan-johnson": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T17:57:23Z",
     "found": 15,
     "new": 2
-   }
-  ],
-  "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
- },
- "yt-jeff-nippard": {
-  "consecutive_errors": 2,
-  "history": [
+   },
    {
-    "at": "2026-10-19T17:57:23Z",
+    "at": "2026-10-20T13:54:02Z",
     "found": 15,
     "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
+ },
+ "yt-jeff-nippard": {
+  "consecutive_errors": 0,
+  "history": [
+   {
+    "at": "2026-10-19T17:57:23Z",
+    "found": 15,
+    "new": 1
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 0
+   }
+  ],
+  "state": {},
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "yt-rp-israetel": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T17:57:23Z",
     "found": 15,
     "new": 3
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 3
    }
   ],
   "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "comp-healthygamergg-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T17:57:23Z",
     "found": 15,
     "new": 3
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 3
    }
   ],
   "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "comp-ali-abdaal-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T03:41:00Z",
@@ -1314,15 +1425,19 @@
     "at": "2026-10-19T17:57:23Z",
     "found": 15,
     "new": 3
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 2
    }
   ],
   "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "comp-better-ideas-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T03:41:00Z",
@@ -1333,15 +1448,19 @@
     "at": "2026-10-19T17:57:23Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 500: Internal Server Error"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "comp-hamza-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T05:52:01Z",
@@ -1352,26 +1471,34 @@
     "at": "2026-10-19T17:57:23Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "comp-beerbiceps-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T17:57:23Z",
     "found": 15,
     "new": 3
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
+    "found": 15,
+    "new": 3
    }
   ],
   "state": {},
-  "last_ok": "2026-10-19T17:57:23Z",
-  "last_run": "2026-10-19T17:57:23Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  },
  "search-demand-mind-style": {
   "consecutive_errors": 0,
@@ -1393,6 +1520,11 @@
    },
    {
     "at": "2026-10-20T05:50:16Z",
+    "found": 0,
+    "new": 0
+   },
+   {
+    "at": "2026-10-20T13:54:02Z",
     "found": 0,
     "new": 0
    }
@@ -2843,7 +2975,7 @@
    "last_run": "2026-10-19T17:58:11Z",
    "v": 3
   },
-  "last_ok": "2026-10-20T05:50:16Z",
-  "last_run": "2026-10-20T05:50:16Z"
+  "last_ok": "2026-10-20T13:54:02Z",
+  "last_run": "2026-10-20T13:54:02Z"
  }
 }
