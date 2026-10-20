@@ -1641,5 +1641,555 @@
   "summary": "Paul Lipsky tests Gemini 4 Argon on daily tasks; we can run deep developer evals on real Next.js and Python codebases.",
   "notes": "- Hands-on consumer test of Gemini 4 Argon\n- We can provide a deeper technical test on code generation",
   "analyzed_at": "2026-10-19T08:01:59Z"
+ },
+ "7ec99c5deabf21da": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "NVIDIA published optimized CUDA Tile kernels for Mamba-2 state space models, achieving 2.4x speedups in forward-pass sequence processing.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "6f04e6c2b8db7458": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "96e96ff8c0b361a2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "899a4cf74a37795c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "cb4cc55a3ecd1311": {
+  "label": "STUDY",
+  "importance": 4,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Meta engineering shares their architectural pattern for production agents: keeping the routing orchestrator thin and delegating subtask execution to specialized, isolated worker tools.",
+  "notes": "- Solves orchestration bloat in complex agent workflows\n- Instead of building a monolithic reasoning router, Meta uses minimal routers with deterministic sub-agent handoffs\n- Direct practical architecture for full-stack AI builders",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "08d14edd3c7296e5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Meta details the network topology, liquid cooling, and RoCE v2 fabric architecture powering its Prometheus gigawatt-scale AI training supercluster.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "445a936f615fb6d0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "ee0ff8047ddbfd49": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "51d32c6225303fb2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "67af11d689c6d124": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "b1d2227350f50836": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "81e4e72de74c6dea": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "US federal agencies issued directives prohibiting DeepSeek AI tools and APIs on government systems over national security and data sovereignty concerns.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "59d582eb49f07bb4": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "49af18a483a420e1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "51ec3cdd7b7f2601": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "682f6dbd10155dd6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "80684fa8a9a49ce2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "c2d87b6c69c28906": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "85830afe9e707acf": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "172c4b3528faab44": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "e571acd9ec6125ea": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "9973f6e822822dfd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "TwelveLabs' Pegasus 1.5 video-language model launched on Amazon Bedrock, providing programmatic video search and multimodal summarization APIs.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "dc77ab257d74242f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Deepgram published technical architecture details on porting voice recognition models to AWS Trainium instances, reducing per-stream transcription costs by 40%.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "9d0c40d049d3f861": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "AWS ML engineers detail push-based KV cache transfer across disaggregated prefill and decode vLLM nodes, cutting time-to-first-token (TTFT) by up to 45%.",
+  "notes": "- Deep technical guide on disaggregated LLM serving in vLLM\n- Decouples compute-heavy prefill workers from latency-sensitive decode workers\n- Pushes KV cache buffers asynchronously to minimize inter-node synchronization stalls",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "a74780e9e60924ee": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "AWS demonstrates bi-directional KV cache transfer in vLLM for multi-turn AI agents, avoiding redundant context re-computation on repeated tool loops.",
+  "notes": "- Focuses specifically on multi-turn agent loop latency\n- Maintains shared prefix KV states across consecutive tool executions\n- Great architectural pattern for local and cloud agent deployment",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "80e2b8e4f348ac2e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "405485655ece5057": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "a7353214a4aac149": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "0d1fefd67855b5bf": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "6cdf5ec7c76cb966": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "be6931f8790703b5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "LMArena added MiniMax-M3.1-Flash and Meta's Muse Wonder Full to the WebDev and Agent coding leaderboards to evaluate full-stack code generation.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "6e82bd8b7076e770": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Birla AI Labs launched YUG 1, an India-developed open foundation model tailored for financial, power grid, and industrial time-series forecasting.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "974ae2d0879bb556": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "e294f0afd42c6139": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Karnataka government's partnership with US-based ElevenLabs sparked backlash from Indian voice AI startups advocating for indigenous language models like Sarvam and Krutrim.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "79f98985d8ce0c8b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "HCL co-founder Ajai Chowdhry stressed that India must fund homegrown silicon IP and foundation models rather than just subsidizing physical data center real estate.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "9b9e8e4abc6ac447": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "cf398d650dc9eead": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "d83fbc0ad98243a8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "f54d7988fd94ae4a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "9807134c8a599e5f": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Nvidia released a suite of open-weight small language models optimized via TensorRT-LLM for running autonomous agents locally on consumer RTX PCs.",
+  "notes": "- Suite of local SLMs for agentic tool use and function calling\n- Engineered for low-latency local execution on GeForce RTX laptops and desktops\n- High relevance for builders seeking private, zero-API-cost local agent runners",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "0df4dd6cb3c296c6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "1d582c53762a859f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "a57a979680b07ea8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Security researchers demonstrated automated multi-agent scanning swarms breaching enterprise supply-chain portals by exploiting neglected API endpoints.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "8489933da6d80c37": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "8d25229e976648dc": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "MiniMax launched M3.1 Flash, a 428B MoE agentic model with 1M context priced at an ultra-low $0.15 per million input tokens, challenging DeepSeek and Haiku.",
+  "notes": "- 428B parameter Mixture-of-Experts architecture\n- Benchmarks strongly on tool execution and long-context retrieval\n- Priced aggressively at $0.15/M tokens input, making it a viable high-volume agent backbone",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "c79a3a37b8930779": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "CERN and Mistral AI partnered to develop open-source scientific foundation models analyzing high-energy physics collision datasets.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "396aae9beab537be": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Developer fine-tuned Qwen3-4B on human prose to eliminate stereotypical AI conversational filler words ('delve', 'tapestry', 'testament').",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "a8b3c081301c48b2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "1ae9d74d855cb28b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Xiaomi open-sourced Lens-0, an efficient on-device visual language model optimized for edge mobile devices and smart eyewear.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "0c85dd0c6a07db3b": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Introduces LEV (Looped Evidential Verification), allowing decision models to dynamically loop intermediate latent thoughts before emitting agent tool commands.",
+  "notes": "- Proposes looped recurrence to trade variable inference compute for higher decision accuracy\n- Eliminates fixed chain-of-thought token generation by looping hidden state activations\n- Valuable architecture for low-latency agent policy execution",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "f34bb6c710bce209": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "db0d320ecfacb899": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "ReaDy uses recurrent hidden states as dynamic context for speculative drafting in hybrid linear attention architectures, achieving 2.8x speedups in continuous generation.",
+  "notes": "- Enhances speculative drafting for linear attention / state-space models\n- Replaces costly KV cache lookups with compact recurrent state vectors\n- Direct relevance to local inference speedups",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "8f3c33143302f896": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "76ca6408a7178ce4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "89cfbb605baf3d84": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "8d4aa98abeb106fe": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Headroom is an open-source real-time developer terminal dashboard for profiling token consumption, cache hits, and latency across multi-agent workflows.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "29a46c28a78b69b6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "5722f42a84297d7c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "47e9b69879eae8f6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "fb5180dd235146f0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel added Mercury 3 to its AI Gateway, providing unified caching, rate limiting, and failover endpoints for Next.js full-stack apps.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "4d385b6cb8d7f605": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 3,
+  "reason": "free_offer",
+  "flags": {
+   "category": "offer"
+  },
+  "summary": "Vercel made MiniMax M3.1 Flash free on its AI Gateway with 1M context. Developers can build agentic workflows with zero token costs. Hook: 'Vercel just made a frontier 1-million-token coding AI completely free.'",
+  "notes": "- Free tier for MiniMax M3.1 Flash on Vercel AI Gateway\n- Supports 1M token context window and structured tool calls\n- Perfect hook for Indian students and developers building production agent prototypes without paying API costs",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "f633a472eae3b3e2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Cloudflare launched Clairic, specialized ultra-fast sub-10ms extraction models designed to parse unstructured web pages and PDFs into typed JSON schemas.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "0ecda4e85dcbc384": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "fbe9ac1bd3571a00": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "ByteByteGo breaks down Uber's Genie architecture: a production enterprise RAG system combining graph retrieval, query rewriting, and verifier agent guardrails.",
+  "notes": "- Case study on Uber's internal GenAI search platform Genie\n- Analyzes query decomposition, semantic routing, and hallucination guardrail layers\n- Superb blueprint for building reliable enterprise search and support agents",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "7a1121a899e59c7a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Lenny covers production creator workflows combining Claude code scripting, ElevenLabs, and Remotion to automate video generation at scale.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "9c52f3afdb5967dd": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "9036c6471f72e986": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Tech With Tim breaks down the VRAM math for running local LLMs: weight sizing, context length KV cache expansion, and quantization tradeoffs across GPUs.",
+  "notes": "- Clear breakdown of VRAM calculation formulas for local model serving\n- Explains: 1 parameter = 2 bytes (FP16) vs 0.5 bytes (4-bit), plus context buffer memory allocation\n- Direct match for Code Quantumn's local setup curriculum",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "8190195ddad7b178": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "02b147e182cfd45e": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "IBM Technology explains loop engineering for AI agents: structuring feedback loops, validation steps, and error recovery to stop agents from infinite cycles.",
+  "notes": "- Deconstructs loop engineering for autonomous systems\n- Explains how to implement circuit breakers, validator evaluators, and escalation triggers in multi-step agents",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "e4a61736caff6dae": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Matt Wolfe demonstrates three advanced prompting templates for Claude: hierarchical XML tags, automated system review personas, and live web artifact generation.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "9227a7100442f98d": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Sam Witteveen conducts a deep technical walkthrough of Meta's Muse open weights, analyzing architectural changes, tokenization, and local vLLM performance.",
+  "notes": "- Deep technical analysis of Meta Muse open weights\n- Covers benchmark verification, inference throughput on consumer hardware, and tool-calling reliability",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "b3f63a5c1ebeb28d": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Two Minute Papers reviews Gemini 4 Argon's multimodal surprises; we can make a practical builder guide testing Gemini 4 vs Claude Sonnet on building full-stack apps.",
+  "notes": "- Two Minute Papers review of Gemini 4 Argon foundation model\n- Highlights surprising emergent reasoning on complex physics and visual reasoning puzzles\n- Competitor hook: we can test real code generation and API pricing for Indian developers",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "d5217fe017e6761d": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin curates his top 7 developer AI tools; we can create an India-focused student edition highlighting 100% free open-source equivalents.",
+  "notes": "- Cole Medin listicle of 7 essential AI developer tools\n- High viewer engagement format\n- We can adapt this into a zero-cost stack for students in India",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "22ba8a789af76f8c": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Paul Lipsky reviews Meta Muse Wonder; we can contrast consumer use cases with developer local self-hosting on Ollama.",
+  "notes": "- Consumer-oriented review of Meta Muse Wonder\n- Good signal that Meta's new models are penetrating mainstream user discussions",
+  "analyzed_at": "2026-10-20T03:23:22Z"
+ },
+ "622441a3173b01fd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Review of 190 government-funded AI pilot projects in India identifies bottlenecks in compute allocation, clean labeled datasets, and production deployment.",
+  "analyzed_at": "2026-10-20T03:23:22Z"
  }
 }

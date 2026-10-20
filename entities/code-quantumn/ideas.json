@@ -1,6 +1,27 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-20T03:23:45Z",
+  "history": [],
+  "id": "2026-10-20-minimax-m3-free-agents",
+  "title": "Vercel made a 1M-token coding AI free: how to build agents with zero API bills",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "Vercel just added MiniMax M3.1 Flash to its free tier with 1-million-token context: here is how to wire up local and cloud AI agents without paying a single dollar.",
+  "outline": [
+   "The high cost of agent tool loops: why building multi-turn agents drains developer wallets",
+   "What MiniMax M3.1 Flash is: 428B MoE architecture benchmarked against Haiku and DeepSeek",
+   "Connecting to Vercel AI Gateway: obtaining your free API key and setting up rate limits",
+   "Writing your first autonomous agent loop in Next.js using the Vercel AI SDK",
+   "Live demo: building a documentation scraper and automated code reviewer"
+  ],
+  "items": [
+   "4d385b6cb8d7f605"
+  ],
+  "updated_at": "2026-10-20T03:23:45Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-19T07:45:14Z",
   "history": [],
   "id": "2026-10-19-agent-object-context",
