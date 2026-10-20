@@ -1,6 +1,27 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-20T14:01:46Z",
+  "history": [],
+  "id": "2026-10-20-deepseek-inference-engine-local",
+  "title": "DeepSeek Just Open-Sourced Their Secret Inference Engine",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "DeepSeek dropped the exact open-source inference engine powering their models. Here is how it cuts memory overhead by 50% and how to run it locally.",
+  "outline": [
+   "DeepSeek models cut costs by 90%, but their serving stack was proprietary until today.",
+   "How Multi-Head Latent Attention (MLA) and FP8 matrix kernels eliminate KV-cache bottlenecks.",
+   "Throughput benchmark: 2x speedup compared to standard vLLM on consumer GPUs.",
+   "Step-by-step setup: compiling the engine and serving local models via OpenAI-compatible endpoints.",
+   "Why open-source inference infrastructure is decentralising frontier AI."
+  ],
+  "items": [
+   "6327800627b25eb9"
+  ],
+  "updated_at": "2026-10-20T14:01:46Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-20T03:23:45Z",
   "history": [],
   "id": "2026-10-20-minimax-m3-free-agents",
