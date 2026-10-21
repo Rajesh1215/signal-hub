@@ -1162,5 +1162,404 @@
   "summary": "Covers automation workflows built on top of Meta's Muse open-weight model family running on local desktop machines.",
   "notes": "- Overview of local automation hooks without API costs.\n- Useful comparison with Ollama and LMStudio.",
   "analyzed_at": "2026-10-20T14:01:26Z"
+ },
+ "791bd95ad716bdb3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "768bbd1866c11070": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "2b7bc6f0deed910f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "d790a2cbf7e87058": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "a9eb58a802cd4e8e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "a3736c4c83374339": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "378b53649983938a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "054e5ffc19de2673": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "8936253abca4a15a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "f98b75eb90cc854f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "fa0b10be1e524a85": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "f8fbd8f15c50487d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "447435e6461a44a3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "eb692707c13e611f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "5d15f8192b1e33c3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "fac7a4e4d3bf5808": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "bce6767e0ee5427a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "bb032c67f24ed3d6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "bc37aa9b4b7e3b1e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "7425ad97f6072e08": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "aa544560a4afe424": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "33075b154ed42f26": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "AWS Bedrock AgentCore integrates Model Context Protocol (MCP) gateways to connect autonomous agents with enterprise cloud infrastructure.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "3a259c083a01eae3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "a9476a34a0ec2bf1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "5fb0a4e9663ace0e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "0a5fbad89db0d121": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "tool_release",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Perplexity released an offline local runtime for its Computer agent, executing browser actions and file manipulation entirely on Apple Silicon without cloud calls. Hook: 'Perplexity's autonomous Computer agent can now run 100% offline on your Mac with zero API costs.'",
+  "notes": "- Runs quantized local visual-action models using Apple Silicon Neural Engine.\n- Executes complex multi-step UI automations and spreadsheet data scraping privately.\n- Huge step forward for local agentic privacy and zero-cost workflows.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "1e7f51e89bd3d563": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "ead9afb72a6ee835": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "2019d45c5dceb9ef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "b04a4562c4722a29": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "1f5d1f238c9b343b": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 3,
+  "reason": "free_offer",
+  "flags": {
+   "category": "offer"
+  },
+  "summary": "MeitY and IndiaAI Mission opened applications for the 2026-27 Fellowship, offering up to ₹1 Lakh in direct stipends plus free compute grants for B.Tech, M.Tech and PhD students. Hook: 'Building AI in India? The government is offering ₹1 lakh and free GPU compute to student developers.'",
+  "notes": "- Direct actionable opportunity for Indian student developer audience.\n- Covers eligibility criteria: enrolled in AI/ML coursework, capstone projects, or published research.\n- Explains how to draft the project proposal to get selected.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "0cc869a9add3521d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Figma co-founder Dylan Field argues Anthropic's Model Context Protocol (MCP) lacks fine-grained bi-directional state streaming needed for collaborative canvas tools.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "3a7b7c2cbe74c31f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Spotify purged 50 million automated AI-generated music tracks deployed by bot networks to siphon royalty payouts through fake streaming farms.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "6f880c570a045553": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Google open-sourced TorchTPU, a native PyTorch C++ backend for Cloud TPUs that executes standard PyTorch code directly without TorchXLA refactoring. Hook: 'Google just open-sourced TorchTPU — you can now run standard PyTorch code directly on Cloud TPUs with zero conversion.'",
+  "notes": "- Solves a 6-year developer headache where migrating PyTorch models to Google Cloud TPUs required rewrite into TorchXLA or JAX.\n- Provides native LibTorch integration directly mapped to TPU matrix cores.\n- Slashes multi-node Cloud TPU training setup friction for AI developers.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "9d8ffb425cd6bc14": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "DeepSeek published documentation and benchmark guides for DeepInfer, its high-throughput inference engine optimized for MoE architectures.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "54249f6e4403b91a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "e3e749a38d6bb4c8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Harness² releases developer tooling for recursive agent orchestration and evaluation harnesses.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "9a8616b322a9f6be": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "bba261e412ff26b0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "366ccd49537cb042": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "ee06475be692ad1f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "9d683197b52aa735": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "cb470d5a774f7d3e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "ad414427c6e3f864": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "ba66b0cbc56b6bee": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "52aa41cb28b9dd25": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Security researchers demonstrate data poisoning attacks where deliberately fabricated statistics on low-authority blogs get amplified by AI search engines.",
+  "notes": "- Explains SEO manipulation of RAG search indexing and hallucination cascading.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "a5e19285b3f97801": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "FineSplat introduces localized 3D Gaussian splatting groups for sub-millimeter geometry reconstruction.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "9234789df17ee6f8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "4453ebff0255b230": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "State World Models decouple symbolic game logic rules from generative pixel rendering, enabling consistent physics prediction in interactive simulations.",
+  "notes": "- Bridges discrete state transitions with continuous visual generation.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "d411d121acf7457a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Demonstrates mapping textual refusal vectors into multimodal vision towers to prevent visual prompt jailbreaks.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "4c76be081a7ecc3d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "b7b632c3cca6d977": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Research models memory retention costs in long-context LLMs, introducing dynamic token pruning based on task-value utility metrics.",
+  "notes": "- Addresses KV-cache bloating during multi-hour agent trajectories.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "7436d667da144527": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "564dd55fec9ed0d2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "13ed72c4af65df5f": {
+  "label": "STUDY",
+  "importance": 4,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Supabase introduced read-only MCP verification tools allowing coding agents (Cursor, Claude Code) to validate database migrations against production schemas safely.",
+  "notes": "- Protects production databases from destructive automated agent writes.\n- Sandboxed verification harness ensures migrations match production telemetry before merge.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "e06c67174afb1026": {
+  "label": "STUDY",
+  "importance": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "ByteByteGo breaks down Shopify's architectural migration from React Native to native Swift and Kotlin, analyzing memory overhead and bridge latency at scale.",
+  "notes": "- Exceptional system design case study for mobile and full-stack engineers.\n- Covers the performance ceiling of cross-platform JS runtimes on flagship mobile commerce apps.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "0d76dc954b3083da": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "69136816030f3486": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "NetworkChuck interviews ethical hacker Ryan Montgomery on OSINT reconnaissance tooling and digital footprint tracing.",
+  "notes": "- Cybersecurity and network traffic analysis breakdown.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "b4da156e496c277a": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Jean Lee shares signal vs noise heuristics from 1,000+ Big Tech engineering interviews, focusing on systems architecture and debugging clarity.",
+  "notes": "- Teardown of Meta engineering hiring bar.\n- Practical advice for Indian software engineers preparing for L5/L6 system design rounds.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "7892e830a7b71db6": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Ethan Mollick charts 30 months of LLM capability gains, showing capabilities scaling linearly against compute while organizational adoption lags by years.",
+  "notes": "- In-depth macro analysis of AI enterprise absorption rates.\n- Visual charts contrasting model intelligence leaps against sluggish corporate workflow integration.",
+  "analyzed_at": "2026-10-21T05:31:48Z"
  }
 }

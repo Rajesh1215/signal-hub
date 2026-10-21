@@ -1,0 +1,996 @@
+{
+ "df247114d42c31e2": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "RBI conducted overnight Variable Rate Repo auction injecting liquidity to manage short-term banking cash deficits.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "6e67d1fb35230c89": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "3bdec633663b1dcd": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tax"
+  },
+  "summary": "Finshots explainer analyzes why global wealth taxes trigger capital flight, valuation disputes, and revenue underperformance in European test cases.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "b00c659d08d37a9f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "85aea26c99d83ae7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "6a0ec8f8595ed1ba": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "4abb7281ee8c638a": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 3,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Jio Platforms opened its record ₹30,213 crore IPO with QIB quota subscribed within minutes; key differences between holding RIL shares vs bidding directly. Hook: 'Should you bid for the massive ₹30,000 Cr Jio IPO or just buy Reliance shares?'",
+  "notes": "- India's historic mega IPO issue size: ₹30,213 crore\n- QIB subscription oversubscribed on day 1\n- Holding company discount dynamics: RIL consolidated ownership vs pure-play digital platform\n- Education on valuation multiples (EV/EBITDA and ARPU growth trajectory)",
+  "actions": [
+   "Created video idea 2026-10-21-jio-platforms-mega-ipo-breakdown"
+  ],
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "7ba57c3f9647f12a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "a6431943c4aebd39": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "f6faada573cbace3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "73476e19bdab7f72": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "career_employee"
+  },
+  "summary": "Detailed calculation guide showing how Indian labor law gratuity formulas work on basic pay and years of tenure upon job resignation or retirement. Hook: 'How much gratuity will your employer actually pay you when you resign?'",
+  "notes": "- Formula: (15 * Last Drawn Basic * Tenure) / 26\n- 5-year mandatory continuous service rule explained\n- Tax exemption threshold limit up to ₹20 lakh under Section 10(10)\n- Core employee compensation lesson for salaried workers",
+  "actions": [
+   "Created video idea 2026-10-21-gratuity-calculation-rules-explained"
+  ],
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "76bbfa1a5820f6ba": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "26e874883a6f55ed": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "ET Wealth guide on vehicle affordability rules: limiting car purchases to under 50% of annual salary and financing with the 20/4/10 budgeting rule.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "cdd60bb2965b2435": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "fa7eeffa275da31a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "0e62f2557520eb8c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "2b8493ab07aaaf46": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "40c1f45319cd8e30": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "bb658f701250cd75": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "6377805ca3f77425": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "6eb72568af63e958": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "30256b542e71fce0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "07217a48186e08d0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "mutual_funds"
+  },
+  "summary": "Comparison of Specialized Investment Funds against traditional mutual funds in risk-adjusted performance across volatile market regimes.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "b51dc58f96ab63d3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tax_change",
+  "flags": {
+   "category": "tax"
+  },
+  "summary": "Finance Ministry issued notification exempting coupon interest paid on New Development Bank Maharaja rupee-denominated bonds from TDS.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "3607dbe63810c499": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "mutual_funds"
+  },
+  "summary": "Analysis explaining why holding multiple small-cap funds with over 50% portfolio overlap dilutes diversification while doubling expense fees.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "6b1353d1fc446d7c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tax_change",
+  "flags": {
+   "category": "insurance"
+  },
+  "summary": "ITAT rejected tax exemption on a ₹50 lakh single-premium life insurance policy bought by a taxpayer with disproportionate declared annual income.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "23629fb773331560": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tax_change",
+  "flags": {
+   "category": "tax"
+  },
+  "summary": "CBDT notified Form 173A laying down operational documentation procedures for sovereign bond and government security tax exemptions.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "0cb64a70a744efa6": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "company_issue",
+  "flags": {
+   "category": "tech_business"
+  },
+  "summary": "Anthropic's confidential IPO filing revealed an $80.7 billion half-year loss driven by enormous compute infrastructure and frontier training cluster commitments.",
+  "notes": "- Anthropic confidential S-1 reveals staggering $80.7B half-year net loss\n- Training runs and cloud commitments drove the cash burn\n- Reflects the massive capital intensity of frontier LLMs",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "24435a993f67cb38": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "94b270d6ebeb4617": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "561e5b3b1b55dca8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "4825e8ca9b476503": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "a90aabbaedbc96e1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "305ed89f77f304c7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "642f3e9e73ca1890": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "806410c88bc9e9df": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "e61eed3c36125eb8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "455c9ad01c89d757": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "5360385133e098e8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "79616cca9acf40b5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "7c0e4ff1af6579c8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "AI infrastructure startup Simplismart in negotiations to raise $40-50 million to expand its model inference optimization engine.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "b7ad291911c6dee2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "e158e0ee70585565": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "654d6bd139cec213": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_round",
+  "flags": {
+   "category": "hardware_chips"
+  },
+  "summary": "Jim Keller's AI chip startup Tenstorrent raised $1.5 billion at a $6.2 billion valuation to challenge Nvidia's data center compute dominance.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "003c2012eaec1fff": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Lab-grown diamond D2C brand So/Facet raised ₹10 crore in seed funding led by early-stage consumer fund Sauce.vc.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "b34ef6e9a65d06e8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Frontline hiring AI startup Hunar.AI raised ₹40 crore in Series A funding led by Blume Ventures to scale voice agents.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "2474c78c9aca8ba3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "0b8d8b5dce0b7333": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "277719d5088ae277": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "1c031d1fedcec15b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "acec9cd49373be02": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "93345d8e840a9a3b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "856029d1e8f5888c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "730f533c12460cf6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "1843be3ab98799b8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "0fe749d9eb0cfdde": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "earnings",
+  "flags": {
+   "category": "tech_business"
+  },
+  "summary": "SpaceX reported Q3 revenue surged 161% to $14.6 billion driven by profitable cash generation from its Starlink satellite broadband network.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "df7d077efd0afc90": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "67eb750136563073": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "d66bc803c9c28c63": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "6eb257249e953e49": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "7fa080fa4bcf0766": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "b5b07394e9a03b7c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "6b543e970f5a24ce": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "b18cde80a2b94135": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Step-by-step roadmap for young salaried professionals to build their first ₹10 lakh corpus through automated SIPs and liquid safety cushions. Hook: 'Why your first ₹10 lakh is the hardest money you will ever save.'",
+  "notes": "- The mathematical power of the first ₹10 lakh compounding milestone\n- Asset allocation: 70% index SIP, 30% liquid fund emergency cushion\n- Realistic timeframe calculation at ₹15,000 vs ₹25,000 monthly savings rate\n- Direct fit for Starting Series 'Managing your money after your first job'",
+  "actions": [
+   "Created video idea 2026-10-21-first-10-lakh-corpus-roadmap"
+  ],
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "c1a8172bcaf31f5c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "30454408fbd9eedf": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "638d625b4129487f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "53075bfb7e134f14": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "15d21c91656ab59b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "e5cb5da0ecfb7dd2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "3ceeee919a21a39b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "earnings",
+  "flags": {
+   "category": "hardware_chips"
+  },
+  "summary": "TSMC delivered record Q3 earnings and raised full-year capex outlook, citing persistent global demand for advanced AI accelerators.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "22473b5048b4d4c6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "278dbe691088e524": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "32aca6739c923e34": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "632af47d0a93f1c7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "6c366cdebce95a1e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "abeb638f6df4073b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "56099bc3196c8a96": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "7c69e3c5c0a824da": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "263e26e3b12769cf": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "7b5cab0f63c719db": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "468742da6ff1b123": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "cd37b415c2f1c4fe": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "ecc25d13568d2c02": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "3e08e551fcd494c5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "26a04394d744478b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "b7f5e0488441de99": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "1537fe46bd492420": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "08b587dcd8aa1281": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "big_player_statement",
+  "flags": {
+   "category": "world_geopolitics"
+  },
+  "summary": "Donald Trump stated that any future US-India trade agreement will require significant tariff adjustments on American industrial goods.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "47b7f216a4c0cefa": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "60055c2a47fa9682": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "d0f4dedcb3281826": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "10c13ace507d5592": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "9958b46b92ab9630": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "a81a50f9827050c0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "3bb2086db8362f35": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "81996a1565d99717": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "31dd0b594199a18a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "858e3e9075ea7537": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "1123fa65a15d3924": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "c96c7226ea2dfe55": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "1f0b8d0153386620": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "d049a59c0dd4b398": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "74a52ad5c9911d15": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "7564589832672922": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "3a39ab5dbaf9c927": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "0899a7b2ad02eebd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "6be61042a437c313": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "f584a8d47732e211": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "3f3555e83939442c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "d0a0d64b3d3e3201": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "e36878929806332e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "1834eb0d9c4fa862": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "5bab0703f2f58d8a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "0619cd0dc3c4b52b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "074a6529566d28cc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "efe5adde1c4c32cd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "99e72cfd379fa23c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "854c6aa14dd27ff2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "20cc2fcffd8e48ec": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "37dfb87e419849e8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "ef822c925e6cd93f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "fc2ad25642269196": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "eff7b0bc95ef00eb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "995aeb3fb71b5728": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "b87394216cb1b11d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "074f8e34f5e7ce6c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "dd9c5067b352296e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "41a7fce2e859c1c7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "cd6d4f68c7f2ac61": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "wall_street"
+  },
+  "summary": "JPMorgan allocated $5 billion in direct financing for dual-use defense tech and critical supply chain semiconductor manufacturing.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "e1bdba0127357a6e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "f14344b17741413d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Freefincal guide analyzing safe equity allocation percentages for retirees to beat inflation without risking sequence-of-returns ruin.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "b148baa31c967f0c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "expert_view",
+  "flags": {
+   "category": "lessons"
+  },
+  "summary": "Essay on why even Silicon Valley founders and venture capitalists struggle to predict consumer technology adoption shifts.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "a6618d0f8ecd22d5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "Explainer on differences between Bank Rate and Repo Rate and how central bank policy rate transmissions affect retail lending benchmarks.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "4d695d99bc8ed866": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "f665506dce5191f4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "30dcad37d96aa7a5": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "regulation",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Allahabad High Court sought standardized RBI regulatory guidelines allowing legal guardians to access bank deposits of comatose patients.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "6df20389a6233c43": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "14edfe378a5ff144": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "regulation"
+  },
+  "summary": "SEBI revised operational mechanics and auction windows for exchange closing sessions to curb end-of-day market volatility.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "2a17c7d07bf7334e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "b719a264c754dfdb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "9b5688ab66e4ae1d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "56722705a2ad0ad2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "997e2e23e6627741": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "41dcf6694842ff02": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "b76b9c7ae4e7cfd3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "10a06164b0b29f02": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "f88d9824595be59b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "b5253f8d2b279b23": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "a618ac35f4daa018": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "020e774c3b4d5ece": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "eefbe05782968b62": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "2a81bdff8d394b67": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "762d714dc0a134f9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "0dbc69b1dc1f9308": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "bf54d0a61efe2c8d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "cefa7bba63c65377": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "f8e549fdd1e923b0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "ce6d67a60783b84b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "4ca623cce33ac330": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "2e22ce2666b1cbce": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "945206661deedd26": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "aeb380c135bdfe04": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "40d07bbe766cd78c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "303cc847edfc55bb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "33b5d579754c0466": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "68ab802015635a73": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "c116787788b122ca": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ },
+ "e7fb9c4392f9c89d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "hardware_chips"
+  },
+  "summary": "Germany signed an infrastructure partnership with Nvidia to build sovereign industrial AI supercomputing clusters across Europe.",
+  "analyzed_at": "2026-10-21T06:05:06Z"
+ }
+}

@@ -1,6 +1,27 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-21T05:32:18Z",
+  "history": [],
+  "id": "2026-10-21-google-torchtpu-native-pytorch",
+  "title": "Google Open-Sourced TorchTPU: Native PyTorch on Cloud TPUs",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "Running PyTorch on Google TPUs used to require painful TorchXLA rewrites. Google just open-sourced TorchTPU to run vanilla PyTorch code on Cloud TPUs with zero conversion.",
+  "outline": [
+   "Why Cloud TPUs are 50% cheaper than Nvidia H100s, but developers avoided them due to TorchXLA compilation friction.",
+   "How TorchTPU maps standard LibTorch tensors directly to TPU matrix multiplication units.",
+   "Cost breakdown: Training an open-source reasoning model on TPU v5e vs Nvidia cloud clusters.",
+   "Setup guide: Launching a Google Cloud TPU VM, pulling the wheel, and testing inference in under 5 minutes.",
+   "Why native PyTorch support on TPUs breaks Nvidia's software monopoly."
+  ],
+  "items": [
+   "6f880c570a045553"
+  ],
+  "updated_at": "2026-10-21T05:32:18Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-20T14:01:46Z",
   "history": [],
   "id": "2026-10-20-deepseek-inference-engine-local",
