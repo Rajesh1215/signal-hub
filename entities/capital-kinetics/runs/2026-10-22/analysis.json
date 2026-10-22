@@ -1086,5 +1086,2189 @@
   "label": "SKIP",
   "reason": "minor_update",
   "analyzed_at": "2026-10-22T05:34:55Z"
+ },
+ "d1af7d9c4713f2f7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "global"
+  },
+  "summary": "China's benchmark CSI 300 index tumbled 20% from its recent peak, entering technical bear market territory despite stimulus announcements.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "14a107810d055708": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f30ae83b6b9ffb2d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "5d4e59241dbe67a9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2ac27f0b2c9305aa": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "fa5c0f673b066403": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ef9326ad739f7fb4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "0578d1f926dfb0eb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c7de1e37006435f9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a065fb5399e0959c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a613f2e6521c2139": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1281a23d98dfe286": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b9179fb1976f6c34": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "insurance"
+  },
+  "summary": "An investigation into health insurance air ambulance coverage, exposing sub-limits and strict pre-authorization clauses during critical emergencies. Hook: 'Why your ₹1 crore health insurance policy might completely refuse to pay for an emergency air ambulance.'",
+  "notes": "- Actual commercial air ambulance cost: ₹5 lakh to ₹15 lakh depending on route and ICU onboard team\n- Policy sub-limits: most standard policies cap air ambulance claims at ₹2.5 lakh to ₹5 lakh\n- Critical conditions: mandatory requirement for written certification that ground transport was medically non-viable\n- Network hospital limitations and pre-approval bottlenecks during life-or-death golden hours",
+  "actions": [
+   "Created video idea 2026-10-22-air-ambulance-insurance-hidden-caps"
+  ],
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "88e39b25fc26617a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Financial analysis evaluates real-world payback periods for rooftop solar installations and EV home chargers under PM Surya Ghar subsidies.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1d632356e4ec9ffb": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tax"
+  },
+  "summary": "A practical guide explaining how to fix income tax payment errors, correct wrong assessment years, and update challan heads online without notices. Hook: 'Made a mistake paying your advance tax or self-assessment tax? Here is how to fix the challan online in 5 minutes.'",
+  "notes": "- Common error: selecting Minor Head 200 (Advance Tax) instead of Minor Head 400 (Self-Assessment Tax)\n- Wrong Assessment Year selection: locking funds into the incorrect tax cycle\n- Online Challan Correction mechanism on the e-Filing portal under 'Services > Challan Correction'\n- Step-by-step approval timeline by the jurisdictional Assessing Officer (AO)\n- Saves taxpayers from receiving automated Section 143(1) demand notices",
+  "actions": [
+   "Created video idea 2026-10-22-income-tax-challan-error-fix"
+  ],
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "0cd559e14024fc0a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "363787e73e0b9020": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a9cd8335c166325e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e88abc2c16ce30c4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ef14ca0ec85c3688": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "earnings",
+  "flags": {
+   "category": "tech_business"
+  },
+  "summary": "Meta delivered strong Q3 financial results with revenue rising 26% to $64.6 billion, driven by AI recommendation systems improving ad engagement.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c2f50626c0177a55": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "D2C kitchenware and home products startup Chapter Home raised ₹63 crore in equity and debt led by Bessemer Venture Partners.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e939e9a2b2d90a8f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7104797f82d93f25": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "704db2f1b662d6c9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "914eb4569ea80fea": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "66604bc3b9ae23b2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b78561ce5b941893": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "company_issue",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "State Bank of India initiated an internal cybersecurity review after a third-party vendor compromise leaked 3,897 customer records onto dark web forums.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "97bf3b616c41639b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "bff31b1396e5b363": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "74fa9b759d615920": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e9ad7c11479ac805": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "fee8fca2af8edc1e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7d04aa62facffc61": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "5e791ee28e2bab5c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a1f76ac33180ac3d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Quick commerce platform Zepto is in late-stage talks to raise $100-150 million from Indian family offices and domestic funds ahead of its planned IPO.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "69c5c64b01803c10": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8c00d76d2897d355": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "005e9cc127b54505": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a30dc1ccdf6f5e72": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Brewing giant Carlsberg is preparing a $700 million initial public offering for its Indian subsidiary, targeting a December stock exchange listing.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ee05bdec0b512884": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8ba3850cb8211c6b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f7b6c29b3c5d3a68": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e175a9ea99046962": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ea90391a3b078e83": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7c6002abdf415bf4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ed50bfb80566efc6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9401f1f777235909": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "77de2f73532f567d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ebe3d6fdb450ea8f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "82bc8d5093f99ce8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "dd49e1bdd839f4a6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d93cbcfdfd557a28": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "daf2e77ba4b02732": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8ab0f8e5d94691f2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9378fbed0c44b763": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "5d8ca7189a99a76b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e107bf7513825cd4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9c3d01f45949c8d0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "aab60411c0477ac8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "80aaa598af7e670e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2284b3aa943752fa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "182dab4dd9f04670": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d0f8a774716d81ef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "49d811cbacc13e24": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c7cd5b2546d5552b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a51683bd4a25132e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "07ea6fb5ca01f397": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f842226161e135c1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "004f8d519d3a2519": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7dd8e3a447e402ee": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c695bb0bc66a9fff": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f4d0a20c922b8a2b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ca9bf7a4f13965a8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2ad688de45be7712": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "097d95ec0bd173b9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "3dca35d1573e0949": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "18ab19e53f4fa0a4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "4737767d59fe7464": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2543de5cfe2e7ae1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "3cfb0e32e153051e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8be19890ffcba815": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "3e9d32ae0167a1b8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "0f3b4201f938c26e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e09611f87db4f9e6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "345d203fd44a5a3b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "16ad98e3d4601d98": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "356e3e897cdc7d79": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6e3f45216ea66174": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9061413941d4eede": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a7d8f64dc4fb77a7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "bb32118e00ae3ca5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "58af7d3ede6465bd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "bb6f1d5aee6bbfce": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "3ec63e3a74e4ab55": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "3ff81f26081ec5c7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a53f67f8288d1e5f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ae2dd7edf4d6284f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7ca69c4abd2cc351": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b82aef9579e3abaa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "90cb240d41b2b1a5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9bd11f459df0ebde": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f9b47af9770a9b10": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "24157b214b823b3e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b6f034879761e7ce": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "955d61fb358a36b3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2e010581b8ac8a80": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c2acfa7a20fe2dd4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "23bf05c48e366592": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1b5ed32659d802b3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a6faa38d29aa00ce": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ea1b96a5295d50e0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7f547a406a07e2b4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "14605013c3b1ae49": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "fcb06c06b813be8d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8df70efe0eb14bc5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "4820004f235c12ce": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "244adc2777c446cb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "3ca76fd222ee4d56": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7fea59a8bb7c723f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2223f25ae60c37f0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f7be47975991ae1d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "846d97284f8eb29a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1ba91e9e99389cdb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "97ff7a9d5bcf5fcb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6178d2c111e818bc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d3fc8d9276e91296": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "93428a04ab5fa105": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "517872b12b82b0f1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "5ecf2c21408d83d9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "99b7bdb8b4f24b71": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a2953ec6adbfbb83": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e9e6b1e3aa9cda00": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "07d38077150dad0b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "5ead70b2c5819a75": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d2fa07c2f2740970": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "4da97df7b544e333": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "272b7c075e8a0e0c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d8fe81aaf1827367": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "745e46e41978fd5b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9135ff3229d25596": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b3bed2351a086388": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ee11918c4a95c836": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b13ea36ea16e92a0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "10fad26246fdbbda": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "382acb8f075a2551": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "0c1678ab9145541b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "33e085c16d8cca6d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "194a7009b6fb9f1e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f42c339782683759": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "mutual_funds"
+  },
+  "summary": "Top Indian queries on SIP focus on step-up calculators, best day of month to invest, and pause vs stop rules.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "324b561d3c0a89ba": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "mutual_funds"
+  },
+  "summary": "High query volume on flexi-cap vs large-cap funds, expense ratio compounding, and tax changes under Budget 2024.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a9161556f506a9fb": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Searches asking whether gold ETFs or physical sovereign gold provide better post-tax returns amid rising bullion prices.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "5c855817c965b3e7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Queries on Sovereign Gold Bond secondary market trading, premature redemption rules, and RBI issuance outlook.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "5cc7db662881fd43": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Searches for highest bank FD interest rates, senior citizen benefits, and DICGC ₹5 lakh deposit insurance coverage.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "0956d14b726e5b9f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "User searches on Tier-1 vs Tier-2 NPS withdrawal rules, 80CCD(1B) extra tax deductions, and annuity requirements.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a7180b04f78feefe": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Evergreen interest in PPF 7.1% tax-free compounding, 15-year maturity extension, and loan facilities against PPF.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7d65c8fb7bf799e9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Searches on floating vs fixed rates, Section 24 interest tax rebate limits, and prepayment vs investing extra cash.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2344732f120489df": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "High interest in entry-level credit cards for first-time salary earners, CIBIL score building, and lounge access.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8825972cba999afc": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "tax"
+  },
+  "summary": "Queries comparing New Tax Regime slabs vs Old Tax Regime deductions for salaried employees above ₹12 lakh CTC.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "deb45b57884efc9a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "High search surge driven by Jio Platforms and retail IPO GMP trends, allotment check tricks, and listing gains.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ab5faee8471ec49e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Searches on UPI transaction limits per bank, UPI Lite wallet setup, and international UPI usage while traveling.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "22ac573fa10e77d6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Queries on EPFO UAN passbook checks, online claim processing delays, and tax on employer PF above ₹7.5 lakh.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "16d3b9ed581b0409": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "markets"
+  },
+  "summary": "Broad queries on Nifty and Sensex all-time levels, best beginner demat accounts, and avoiding F&O trading losses.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "bd819abe4872f2d8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_topic",
+  "flags": {
+   "category": "insurance"
+  },
+  "summary": "Searches on 1-crore super top-up policies, pre-existing disease waiting periods, and cashless hospital networks.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "272724cf3c800b0f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "RBI announced a 3-day Variable Rate Repo auction to infuse liquidity into scheduled commercial banks ahead of weekend settlements.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "448ebfb674f5f6a8": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "RBI announced the final redemption price for Sovereign Gold Bond 2018-19 Series, locking in over 150% tax-free capital gains for long-term investors. Hook: 'RBI just redeemed the 2018 Sovereign Gold Bond: here is the insane tax-free return investors made.'",
+  "notes": "- Issue price in October 2018 was ₹3,119 per gram\n- Final redemption price fixed at ₹7,800+ per gram based on IBJA simple average\n- Tax exemption under Section 47(viic) makes the entire capital gain 100% tax-free for retail individuals\n- Combined with the 2.5% annual semi-annual interest payout, annualized IRR exceeds 14%",
+  "actions": [
+   "Created video idea 2026-10-22-sgb-redemption-tax-free-gains"
+  ],
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "74201f0f496eca95": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7ff7d6eee6ffb890": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "74a652a26f58e1b5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e80e1c90bd353fc2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scam_alert",
+  "flags": {
+   "category": "scam"
+  },
+  "summary": "SEBI issued an urgent investor advisory warning against fraudulent unregistered stock tips circulated on invitation-only WhatsApp and Telegram groups.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d074a7389c04acb0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "65c822b82469021c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c9de2385710d459f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "4975da759b1c0d81": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2c34cabf1c48ebfd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "fceca47374959fd4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6cd414ad36fb6e28": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7250a85cf4e859e4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "876e5332a7254515": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f3dc2ba06bccb85b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8abc493d6b10fdd8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "04d90e7270aaecfa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1bc3358b4911c857": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b0630ba7b90e5dc0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "12fac8af09e79188": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8ab5ca4f64c452cf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8174cd02c5b79403": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ee6ae0c2af3c26ba": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "01b66f19831eb7ec": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "86e74b742e14b3e5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "94206d7dedf9ddc4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "02d5d4d41be25f43": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7db1c49fac7d6a4c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ec4972a861082e31": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "60404132a2efa8cc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d8d1e5d352e2cf3e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2df4549659f28989": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a6f33ba06d5db2fd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "71052583bab4731c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "cb9939b65ec80cb1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b3e9c9a26357e928": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9b62009d69dc9cee": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ac6850cbe6954ce2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "afcd66640dd45c97": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "fb883b0ca8aaa555": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8b6cf79009372efb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7d091ea468f68b4b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c5f6f6c909b7db74": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e7f00a3b5bc00bc1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "bc3f517a05c90277": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "82fa10c18fa807b6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "52a26e58f49453c4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "bcb8a306e94a0803": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "04ef56234a4a8597": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "141a8e0e27d4b026": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "fcbd5316d2274435": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "721d340de2186d04": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b431346d7e77e4ae": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "59231a1bcb540427": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8c9d629cc9bb2c7d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7e71961d9661468e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "481f6314c8a55e8e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d0f80d9a4d0b8500": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ca35d4a4dfd73424": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1720fbaee544e9b6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6dc3d44e49cf03bf": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6d76eb58161fb3bf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8d606d9ec3a358e5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1f850e8cffdeda18": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "cc145feb6ee60953": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "0321bff724eee5bf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b8e8273de1645122": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ad23ef5c19e5d469": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d7a82f8ead1c46e1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d9fbe09cf47ef6b7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "acd6763381302f5f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d7376e02cfe3825b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8e72871f74cf7321": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "809c6b963769beec": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "fa5ec27d079f4a3f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1a223b513524d2ed": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b406d8dc36b4b489": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "534000a1f036badf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "5a63d0dd7b037176": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "09eaebc14229fc25": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f14c8f37e7306603": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "11c71b8167613f5f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "3a5f60fdee685496": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9190e20cb7640127": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a13403212589f67d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6be008a9707f0f69": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e3ec197299982216": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "4db8988a837b26d5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2ccced63fabf9a3f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "aabfbe7cd00ca9cd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "cd8043255ff356cc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2480d115da907ef1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9476935b8f45cdce": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "577044a2ce14ef7a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "44ce3b6928796848": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "5130adb1f998a01e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "49aaf318e1be22fa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "bfdea8dcdc384134": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1ffd4a27c1682a30": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "76bddcb9f201177c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ab7fcf1444946790": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8d23f82c89f946c2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1e164b4c394dc732": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a731a5551a276c32": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "900f23d13ab803fd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "fcadd8ee454639bd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "843711b2b64493c7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "833442d0ac4a3003": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d197e647df3261d4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a929bd97227b8557": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "72904e0764809e36": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "4333a87c648b4748": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1ba30105f4ac175a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "358a16f0008650f1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6842f2b2ac3bddc6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "4108114d3634cd6a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "be851aa0f6300198": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6997b5400dba6b49": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d8c59e59f41e0d9f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "90589e63f9dddf71": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f14f4d9575dbe01b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1a9133444fd6cb83": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c9dda1160829a135": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6b5eed3084623985": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f6f1cf36c1c6d050": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "cf8169a3e7eed956": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "bffc61b28558501f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "73949a66a6a4a370": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c1cdd026f09bb505": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1e3bd9bf9aa23752": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "4d2c32ab9c7376a4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "503bb8c22c80988c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c6fa15f0f17414c5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e71975c86e7d592a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "52bcfa59b49b84a8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "176294e50e1ff30c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9fe377e7bd58ee27": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2d8c439eb944c207": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d50904e0d5a7662f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a182807447b3a0e5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "4a0ed0f5e0d56e14": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "bf9c1bccffcdd80e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e0f50a147fbbe243": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1beb710a772c91ff": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c90e5b8cd6a4ddab": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9063a91e63edcaac": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b9190223b5c37c8b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8b721bcb25f8d218": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "fe1f650af713b99b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c0036457647e8573": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "0cfc9a1defdaf6a1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2cf11e87a1d4f182": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1dd532cfd8764d54": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2d9321daba982019": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c9f1efb51e5b0787": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a06b5c3b81ced161": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e8eb43d640c42173": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f2ef85de5e7886ee": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "699db45a77a5ea05": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "bad7d32f0905ede3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e526ae02847e9348": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e2fabd0032f0c9ef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "cd331e42feb14403": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c1a91c8e17ba1b43": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c3f248125624adc0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9042185e4b23da54": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "61c9dea32072847a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "75e3423624774d72": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2dfb6f3a1e04c7ca": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "5d736a22b6d50561": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "414a86a90d0583b8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "13c673b3a48d5626": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ab219b5b121d1d25": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a283f6a144290555": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "11f2ad7de7054c44": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "0dd60043941b6deb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "a1b050bb17bc823a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c6777c58b29c6b3b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "61eafdcddae1a419": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "0272df21b98d7796": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "8792f84d4f54ca6c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "4c9f786980e592dc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "83a32c06d90b2466": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2b7aeb13dbd5277d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "603cf993a8ae0218": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "dbb231b8353f2382": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "567e258607f8e21a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "80809b89109401d3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b3f5dbf7a11eef1f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c8bff0b8298d9381": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "fbb0223e8a3e0694": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "3bd5a64068d42bb4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c9fd02c71112b315": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "fe81cf68aba975d7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d582092df1bd1113": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f43eb2d28cf04983": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "b927736cdcac6294": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9743248e9907c725": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "bf64f4f1e18a087b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "cba602664187411c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "96b49b00345d49cb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "3034fe1d58572b7c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9ece852fe6556d0e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "176673b23e355572": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9b2370abe47b666d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "575cc22fa43b7e59": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "0a05d2b688074999": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "0044b023e46794f7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c068cc160c2830d0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d62db33f01323c88": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "16cdc8c0e930ea2a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d09620b9bc115505": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "63d7be2e1287fc5f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "47498ff464e3eb60": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "dfa944365bb75c9c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "93cae531f1c1fab8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9428edc9b2b9d6b1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6f596b127b056ec9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6f3607069b151f32": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "3ce8b3bc25bd60c3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "16a417da755a53cc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1140eff3c1a06ee4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "4245c6c921f014c3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "cf80f3503b240dfb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "c1f57c379aacfd94": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e51a171d12f66bf9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "7ce237c9f3aa69e2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "84ab39423103e0f7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "d0fbb9ac070f23ae": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "1cc2b344d27efc90": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "ec02526a06e0b3b6": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "markets"
+  },
+  "summary": "Zerodha introduced Quick Launcher on Kite web and mobile, enabling rapid keyboard switching between recent candlestick charts.",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "84af8b4c0ed7b5d4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6bed5a15376675a1": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Forensic breakdown of Jio Platforms' 528-page DRHP prospectus; we can evaluate long-term holding vs listing flip.",
+  "notes": "- Topic: Think School breakdown of Jio Platforms 528-page DRHP prospectus\n- Structure: Financial forensic presentation analyzing ARPU, debt, and spectrum capex\n- Our angle: What the numbers mean for retail investors evaluating long-term holding vs listing flip",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "f19c39bcdfc2dc82": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Founder interview on scaling FMCG brand SuperYou to ₹100Cr ARR; our angle covers D2C unit economics and margins.",
+  "notes": "- Topic: How SuperYou hit ₹100Cr ARR in consumer FMCG\n- Structure: Founder interview clip\n- Our angle: Unit economics and distribution channel strategy for D2C consumer brands in India",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "e9745a34079fb41d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6fe198d1574372c4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "0c77f8a71f4c51a8": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Short explainer on GST input tax credit; we can explain how small business owners claim GST credits without errors.",
+  "notes": "- Topic: How GST input tax credit works in retail consumer pricing\n- Structure: 60-second educational short\n- Our angle: How small business owners claim GST input tax credit without compliance errors",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "6682fe1d70e88efe": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "2e2e1f1f3d701a5a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:24:31Z"
+ },
+ "9883adccac10c3df": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:24:31Z"
  }
 }

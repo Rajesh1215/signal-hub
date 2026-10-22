@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-22T15:20:19Z",
+  "history": [],
+  "id": "2026-10-22-1password-secure-ai-agents",
+  "title": "How 1Password Solved the Scariest Problem in AI Agents",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "AI agents can browse the web and order food, but giving them your passwords is a security disaster. Here is how zero-knowledge delegation works.",
+  "outline": [
+   "The agent security dilemma: why pasting API keys or passwords into LLM prompts leads to credential leakage",
+   "How 1Password's agent credential protocol creates temporary scoped session tokens",
+   "Zero-knowledge authentication: allowing agents to complete web workflows without reading master secrets",
+   "Real-world setup: configuring Claude Code and browser agents with delegated access",
+   "Best security practices for developers building agentic workflows in production"
+  ],
+  "items": [
+   "25d03f5cda4080d7"
+  ],
+  "updated_at": "2026-10-22T15:20:19Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-22T15:20:19Z",
+  "history": [],
+  "id": "2026-10-22-chariot-realtime-voice-india",
+  "title": "The Real-Time Voice Model Built for Indian Accents",
+  "type": "months",
+  "timing": "SOON",
+  "angle": "OpenAI's Realtime API is expensive and struggles with Hinglish. Chariot just released a sub-150ms speech model built specifically for Indian languages.",
+  "outline": [
+   "Why global speech models fail on Indian code-mixed conversations (Hindi-English blending)",
+   "The latency barrier: why conversational AI requires sub-200ms end-to-end response time",
+   "How Chariot's architecture handles Indian phonetics and regional accents at 1/5th the cloud cost",
+   "Hands-on test: comparing transcription accuracy and latency against Whisper and OpenAI Realtime",
+   "The massive business opportunity: building automated voice agents for Indian banking, travel, and logistics"
+  ],
+  "items": [
+   "7e2c1ef1196e4bd7"
+  ],
+  "updated_at": "2026-10-22T15:20:19Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-22T05:29:44Z",
   "history": [],
   "id": "2026-10-22-recursive-flint-local-swebench",

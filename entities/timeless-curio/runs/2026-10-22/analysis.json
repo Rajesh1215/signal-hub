@@ -365,5 +365,576 @@
   "label": "SKIP",
   "reason": "minor_update",
   "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "0e60e9c851f9cc8b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "987bdc9314328df0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "c2f39db532cc0787": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "discovery",
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Genetic analysis of a museum specimen solved a 100-year mystery, confirming the existence of a rare venomous primate lineage. Hook: 'A venomous mammal thought lost to science for 100 years was just rediscovered hiding in a dusty museum jar.'",
+  "notes": "- Only known venomous primates: slow lorises secrete flesh-rotting venom from brachial arm glands\n- Specimen collected in the 1930s underwent modern genomic sequencing\n- Confirms a distinct cryptic species adapted to high-altitude Javan cloud forests\n- Explains the evolutionary mystery of why primates evolved venom weapons",
+  "actions": [
+   "Created video idea 2026-10-22-venomous-primate-rediscovery"
+  ],
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "04d334445f03c10d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "d06bae1f3b4683dd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "ec53e1409c69887c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "4fe7a97f62ab6f1b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "63549767de608057": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "44ada53316a91e1f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "0ba0ce8016b4088c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "9bf5ec556b382b40": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "8ea2aba893483405": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "bcd40c323eaf68de": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "df13a3b52d1ccf0d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "c737469d55314d6d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "ee970461ff762695": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "0040a14a77a9dde2": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Hubble imagery captured star formation inside dynamic gaseous clouds of the open cluster NGC 602 in the Small Magellanic Cloud.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "677e9af321e86279": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Orbital imagery highlights Western Australia's Spider Crater, featuring distinct radial shatter-cone ridges formed by hypervelocity meteorite impact.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "db6c4d836ff136ba": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "506d76ce835202d2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "53caa962a2f84d8a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "1a4ec6b0b5c09d1d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "fa0d9f273d13fbd1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Field behavioral study finds wild urban birds display consistently longer flight-initiation distances when approached by women than men.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "c72e8c33d3e3149a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "evolution"
+  },
+  "summary": "Oxford physicists proved viral capsids assemble spontaneously through geometric self-assembly governed purely by thermodynamic free energy.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "c5c0736134474d96": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "4a9d91ed63860d3b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "93df8f6842fb7238": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "fa66b084488978a4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "e7e7ad9ca03f64f0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "fbeeb8377a7099e8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Subducted mantle xenoliths originating 90 km beneath Earth's surface reveal unexpected hydration and volatile storage in the deep crust.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "4a3076e6d7b00bc5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Event Horizon Telescope data revealed magnetic reconnection flares near supermassive black holes mirroring solar coronal mass ejections.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "9f7bdb65075c00a8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "1874ba0d31db0fed": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "7bdffe324e95d32d": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Astrophysicists mapped historical planetary orbits and verified that Van Gogh's 'Starry Night' perfectly depicts the predawn sky of July 1889. Hook: 'Astrophysicists analyzed Van Gogh's Starry Night and discovered he painted the exact predawn sky of July 1889.'",
+  "notes": "- Computer planetarium simulations recreated the Saint-Rémy asylum night sky in July 1889\n- The bright morning star on the right matches Venus at maximum elongation\n- The crescent Moon and constellation Aries correspond to exact predawn dates\n- Proves Van Gogh combined keen empirical celestial observation with post-impressionist emotion",
+  "actions": [
+   "Created video idea 2026-10-22-van-gogh-starry-night-sky-real"
+  ],
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "d74fe39690f131c7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "103b15635c573337": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "e68e2b288aac636d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "acf1d2c733f5e8b7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "5bce6c0f8ec5ef3d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "f6cad32ad5a9776c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "129477a1fabac1cd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "04f826899d997e92": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "82bf0b6efb213abb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "605f8faf034d40f4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "759b9ea3dcdfcc8b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "760c958ea2bd97ea": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "dfdf17c9a4df86e5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "43c812e50fd9c590": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "c3eb405fbc53b404": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "dd2fc56756c42e1f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "c8c2b5eae58f738e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "ab36fb0b7544706f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "6114b966cccdb907": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "731b120a003c71c4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "e1d8e71f016ee949": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "dc9aff964b5076f1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "c26bbc56684d0311": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "89086a1498bb529c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "ed7541fd9e0a850f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "Historical analysis of Viking King Erik Bloodaxe and the collapse of the Scandinavian Kingdom of Jorvik in 10th-century Northumbria.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "c61f7e17d6a18ed5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "c92f21bd5c9b8fc0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "9b79f45729e6ac61": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "32d14f9d99e82080": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "6de98c98f0c51e7c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_report",
+  "flags": {
+   "category": "geopolitics_trends"
+  },
+  "summary": "Visual Capitalist map details bilateral sovereign debt exposure to China across developing economies under the Belt and Road Initiative.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "e15c708695159c4a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "9eb8f4c141ce4922": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "020eb0babc331b9b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "69c7fc59618da8b2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "d1d66c51f5921228": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "8a88d65b86bb8dfa": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "High curiosity in India on Hawking radiation, spaghettification physics, and what happens at the singularity.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "5c27a90668b367c8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Top queries focus on cosmic expansion velocity, the cosmic microwave background, and multi-universe theories.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "299812d6d4fab350": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Queries on future AI scenarios: autonomous warfare, robotic workforce transition, and synthetic biology risks.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "1ed8cd32c91cd563": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "Searches asking when peak oil will occur and how geopolitics will shift as nations electrify transport.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "89721df141a10f22": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "Searches examining geopolitical alliance structures and historical triggers behind the outbreak of global wars.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "84dc7b20e13d6f4d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Searches regarding human survival in Martian gravity, cosmic radiation shielding, and atmospheric extraction.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "9fd6b58adafc5730": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Interest in the Artemis missions, lunar water ice extraction, and permanent human habitat designs.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "34ea9c736ecb29ef": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Searches exploring physical body limits: maximum g-force tolerance, deep-water free diving limits, and bone density.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "20021a12866cfd59": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Physics searches examining special relativity time dilation vs closed timelike curves and the grandfather paradox.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "be825fa90e3b3e75": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "mysteries"
+  },
+  "summary": "Searches exploring the Fermi Paradox, the Great Filter hypothesis, and biosignatures on exoplanets.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "910721dc59100c49": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Long-range scenarios exploring human civilization in 2100: post-scarcity energy, climate adaptation, and cybernetics.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "b5b5c69cee73b390": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Evergreen hypothetical scenarios: what if all volcanoes erupted simultaneously, or Earth lost gravity for 5 seconds.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "4db0d0e4165cbde0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Evergreen curiosity: Rayleigh scattering of short blue wavelengths during day vs long red wavelengths at twilight.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "b0b5e2f4a1f09d21": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Hypothetical questions about atmospheric decompression, oceanic boiling, and solar coronal mass ejections.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "4c98012829078af4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "User searches on technological singularity timelines and whether machine intelligence will automate scientific discovery.",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "47c07675169f8a95": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Veritasium examined Cherenkov radiation and phase velocity vs light speed; we can explain Cherenkov glow visually.",
+  "notes": "- Topic: Cherenkov radiation, quantum entanglement, and phase velocity vs information speed\n- Structure: Deep physics explainer with visual demonstrations\n- Our angle: Visual motion graphics on Cherenkov radiation (the underwater blue glow) and why information speed remains unbroken",
+  "analyzed_at": "2026-10-22T15:22:37Z"
+ },
+ "6ddc995b69289238": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Animated narrative of rapid wealth destruction; our angle explains paper valuation vs actual cash liquidity.",
+  "notes": "- Topic: Dramatic wealth collapse case study\n- Structure: Fast-paced animated storytelling\n- Our angle: Concise explainer on paper wealth vs actual liquidity in startup valuations",
+  "analyzed_at": "2026-10-22T15:22:37Z"
  }
 }

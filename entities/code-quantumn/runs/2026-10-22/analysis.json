@@ -709,5 +709,683 @@
   },
   "summary": "New SQLite extension compiled in Rust brings native SPARQL 1.1 graph query capabilities to local SQLite databases.",
   "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "86d8c7efa6069505": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "dfecf294d3902340": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "7742cc730db7e09a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "d455ca1d48eeae3a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "d7d017da6ed25d31": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "951e90f6aefd2c37": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "33bade94266b399c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "03c8e4e341ab4637": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "cf9a7c50f82dd367": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "11bc10f4940836c3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "9a98b5dc0bdd4dec": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "4f8b43f7d63e70f8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "6fb598bf5b2fef75": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "DeepSeek ported its open-source inference compiler to Huawei Ascend chips, enabling cost-effective Chinese model hosting independent of Nvidia CUDA.",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "fdbeec73762e6500": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "cf2b1afa5e3ddade": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "5c94017ac95fa9a9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "5480384b4814d30e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "f7badd31a3c5270e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "799cdc28dcc7d381": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "4c2d9d8a545141b6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "58caac27a09e087e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "338757531dc4df22": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "cba865eac95f00dd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "947d113237aae32f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "1fdd7fd6f57cbc30": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "2a1360fbced0c633": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "810f4d559135914b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "11dd756c8ac1f21e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "OpenAI detailed the role of Forward Deployed Engineers: embedding at customer sites to translate frontier research into production enterprise applications.",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "1d5f91d512179499": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "9374708955cea0d6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "a4fb403967492cdd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "d8e2602fd01429a4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "5eda9e28bd3f059a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "a5d9b3762f8903c6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "4935eaf910f839e4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "c1b9ba123d741b1f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "c4ea60807b01350b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "3e2166f158f4550a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "5e7e9d5609d6885f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "3b26ce3d5593d3d6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "3d6502010b36b347": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "07ee9767c17ac9cf": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "de2d39d3c9e996fd": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "4369976a73cd7a02": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "1041f82fb1ed5644": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Comparative test evaluating DeepSeek V4 Pro, Qwen 3.6, and Kimi K2.6 across multi-file refactoring and debugging benchmarks.",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "4542dca895b7f030": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "f5ee3188f37d5964": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "b61d23301f33eaec": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "fcf9ae999c48615d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "89bcd32899a60c99": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "403a715b428d8619": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "f0341cd16b099887": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "eaefa8a90b318a69": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Andrew Ng urged India to establish domestic open-source compute clusters to prevent foreign cloud platform dependency for foundational services.",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "e978e507be9132a5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "f1f7e1c9ec41a7cb": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Uttar Pradesh's AKTU received ₹20 crore under the IndiaAI Mission to establish a regional AI Centre of Excellence for student researchers.",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "9f1b7804f19c7cb9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "7e2c1ef1196e4bd7": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Indian AI startup Chariot launched an ultra-low latency real-time voice model optimized for code-mixed Hinglish and regional Indian accents. Hook: 'An Indian AI startup just released a real-time voice model that handles Hinglish with lower latency than OpenAI.'",
+  "notes": "- Sub-150ms speech-to-speech roundtrip latency\n- Native phoneme tokenization for Hindi, Tamil, Telugu, and English code-mixing\n- API pricing targeted at 1/5th the cost of OpenAI Realtime API\n- Solves major friction in Indian enterprise customer support voice agents",
+  "actions": [
+   "Created video idea 2026-10-22-chariot-realtime-voice-india"
+  ],
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "45a8bac61d76414e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "f1b40dd5a04aea8a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "84f9d8f37e0acd1a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "7ad4968e28164466": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "849c4c5ae316fc41": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "bb61b7c1ed699f62": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "4503075e5f9becda": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "25d03f5cda4080d7": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "1Password launched an agent credential protocol allowing AI agents to authenticate to web sessions and APIs without exposing plaintext secrets to the model context. Hook: '1Password just solved the scariest problem in AI agents: how to let agents log in without giving them your passwords.'",
+  "notes": "- Uses zero-knowledge vault delegations and temporary signed session tokens\n- Prevents prompt injection attacks from stealing stored user credentials\n- Works across CLI and browser-based computer use agents\n- Critical security infrastructure for production agent deployment",
+  "actions": [
+   "Created video idea 2026-10-22-1password-secure-ai-agents"
+  ],
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "f3afdb63098ceec9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "07dc8fe46eb6b0b2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "d3a8aa26d55ac4c2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "bc03de861609a679": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "IBM released Granite Speech 5.0, an Apache 2.0 open-weight 2B parameter model for multilingual speech transcription and low-latency translation.",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "ba8320dec766a638": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Perplexity and Nvidia introduced JOLT, a joint distillation architecture that reduces reasoning hallucination in retrieval-augmented models.",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "4aad8eab9c3c0b7f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "8ad4f24a702932b4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "c3aa941c5e33015f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "9d98ff54bc682dfc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "5be09a93d47fce82": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "480af57d43ecf9b0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "1202101e05f84300": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "aecca9bc58282b46": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "e54ea7b74789c3fb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "4705d04a9bf50b8e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "806d349b49e056c4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "b01423fcaf34641e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "5c3ad1a467f6b798": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "ea67e5f70839b09b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "32489d75115fe927": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "0bfc55742b3e4985": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "52541a01468efe80": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "3f97ea63c8f681ca": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "8ddc959701991952": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "e1fee8f6ac28bddc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "4a08c3c1d1fd5dd5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "abdca1e1c10184e8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "19a6435f3d9b0565": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "c20ba5edf7e208d7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "08aca04c936b9e90": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "cc88a438f303460f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "820bc95c6d356468": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "14cfd13a67655e14": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Software engineering essay explaining the Jevons paradox: cheap AI code generation multiplies architectural complexity, testing, and observability requirements.",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "b1ae73b62493bd4e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "762e68b01a67374b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "203493c5d580d3ac": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "2f74dc611b88eeb2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "11632f1131366a65": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "2311517878c3947d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "80d118eea5b85d06": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "fd9e0debe44fcc43": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Quess 2026 report reveals Indian developer hiring for manual syntax roles declined 18%, while demand for agent integration and full-stack engineers grew 42%.",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "0f5b26de6d8a4075": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "c06d175843666eb7": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Modal CEO Erik Bernhardsson breaks down GPU cluster physical constraints: InfiniBand leaf-spine topologies, power density, and server chassis design.",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "3adabe195b9eac12": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "9f7e424577331d41": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "2762efb6c8c361bf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "0949b599dd9529a5": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Fireship breakdown of modern developer archetypes in the AI coding era; we can focus on the architectural skill shift.",
+  "notes": "- Topic: Fireship humorous breakdown of modern developer archetypes in the AI coding era\n- Structure: Sketch-style rapid archetype analysis\n- Our angle: The real skill shift from syntax memorization to agent architecture and code review",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "c6af6d594512d6ff": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "012d41b5fdaa88bb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "4a0533e8bf00a41a": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Altman on why AI increases developer demand via Jevons paradox; our angle covers product engineering skill sets.",
+  "notes": "- Topic: Sam Altman explaining why software engineering demand expands as code cost drops (Jevons paradox)\n- Structure: Interview commentary\n- Our angle: The Jevons paradox in software engineering: why AI creates more product engineering jobs",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "b36eec991a4d58ef": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Adversarial prompt techniques to stress-test software decisions; we can teach automated architectural review agents.",
+  "notes": "- Topic: Using adversarial prompt engineering to stress-test architectural decisions\n- Structure: Prompt walkthrough\n- Our angle: Setting up automated architectural review agents in developer workflows",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "7bb7bc3be4ca04dc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "858cc972d1956861": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "6e66ee21b41411c5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:19:56Z"
+ },
+ "09ccb6b8ff01e52c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T15:19:56Z"
  }
 }
