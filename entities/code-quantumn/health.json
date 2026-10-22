@@ -136,11 +136,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 1312,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 1313,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "google-ai-blog": {
   "consecutive_errors": 0,
@@ -274,11 +279,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "deepmind-blog": {
   "consecutive_errors": 0,
@@ -417,13 +427,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 100,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 100,
+    "new": 1
    }
   ],
   "state": {
-   "etag": "\"VYemWA\""
+   "last_modified": "Thu, 22 Oct 2026 14:30:24 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "anthropic-news": {
   "consecutive_errors": 0,
@@ -562,12 +577,17 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 276,
     "new": 4
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 276,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
+  "last_ok": "2026-10-22T15:12:00Z",
   "baselined": true,
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "mistral-news": {
   "consecutive_errors": 0,
@@ -706,13 +726,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "\"c4483e578473f83ba7e1ff5f19ef60d1-ssl-df\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "hf-blog": {
   "consecutive_errors": 0,
@@ -851,13 +876,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 888,
+    "new": 1
    }
   ],
   "state": {
-   "etag": "W/\"400aa-yM98BhRHqhMrsw10AriWNJdonNk\""
+   "etag": "W/\"40090-GLxvUchc+UwcQ81GLV8Doogr3UI\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "nvidia-dev-blog": {
   "consecutive_errors": 0,
@@ -996,13 +1026,19 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 100,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "\"c116349e24ff9555754ed8c1e520b08c\""
+   "etag": "\"c116349e24ff9555754ed8c1e520b08c\"",
+   "last_modified": "Wed, 21 Oct 2026 23:58:06 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "ms-research": {
   "consecutive_errors": 0,
@@ -1136,14 +1172,19 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 10,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "\"f04200f2e9b824fcc17df37dfb8ecd00\"",
-   "last_modified": "Thu, 22 Oct 2026 03:03:23 GMT"
+   "etag": "\"c32ec43256f473649138038514f2cd7b\"",
+   "last_modified": "Thu, 22 Oct 2026 14:48:37 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "github-changelog": {
   "consecutive_errors": 0,
@@ -1282,14 +1323,19 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"409b34e10bf65b66c317650fc9c72acd\"",
    "last_modified": "Wed, 21 Oct 2026 23:54:02 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "gemini-api-changelog": {
   "consecutive_errors": 0,
@@ -1428,14 +1474,19 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 143,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 143,
+    "new": 0
    }
   ],
   "state": {
    "last_modified": "Wed, 14 Oct 2026 18:19:46 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
+  "last_ok": "2026-10-22T15:12:00Z",
   "baselined": true,
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "anthropic-release-notes": {
   "consecutive_errors": 0,
@@ -1574,12 +1625,17 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 156,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 156,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
+  "last_ok": "2026-10-22T15:12:00Z",
   "baselined": true,
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "openai-api-changelog": {
   "consecutive_errors": 0,
@@ -1718,12 +1774,19 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 136,
+    "new": 0
    }
   ],
-  "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
+  "state": {
+   "last_modified": "Thu, 22 Oct 2026 14:36:05 GMT"
+  },
+  "last_ok": "2026-10-22T15:12:00Z",
   "baselined": true,
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "gh-claude-code": {
   "consecutive_errors": 0,
@@ -1862,13 +1925,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"58c9e8c4f180f7af9767f65023998768\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "gh-ollama": {
   "consecutive_errors": 0,
@@ -2007,13 +2075,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 10,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 10,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"2a48f8dfb77bc2a7ae62364af03e31e8\""
+   "etag": "W/\"690d354a90ff1fba32cf889c68abf680\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "techcrunch-ai": {
   "consecutive_errors": 0,
@@ -2152,14 +2225,19 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 20,
+    "new": 4
    }
   ],
   "state": {
-   "etag": "W/\"17f465dac8cf0afe0da5f561eabdbb53\"",
-   "last_modified": "Thu, 22 Oct 2026 03:45:25 GMT"
+   "etag": "W/\"cca828e083cb60bb248a38eca8bc0618\"",
+   "last_modified": "Thu, 22 Oct 2026 15:03:58 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "verge-ai": {
   "consecutive_errors": 0,
@@ -2298,13 +2376,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 10,
+    "new": 5
    }
   ],
   "state": {
-   "etag": "W/\"fa7527193bf993444f235eee6d11430c\""
+   "etag": "W/\"96d58bf9741cea70476cf048ae7f6145\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "marktechpost": {
   "consecutive_errors": 0,
@@ -2443,14 +2526,19 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 10,
+    "new": 2
    }
   ],
   "state": {
-   "etag": "\"2433a4bd954d80ecc434ed7d4f31e0bb\"",
-   "last_modified": "Thu, 22 Oct 2026 04:17:39 GMT"
+   "etag": "W/\"81aae5a86d79717dfec77ae9c80a6556\"",
+   "last_modified": "Thu, 22 Oct 2026 07:00:58 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "the-rundown": {
   "consecutive_errors": 0,
@@ -2589,11 +2677,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 50,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 50,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "bens-bites": {
   "consecutive_errors": 0,
@@ -2732,13 +2825,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 20,
+    "new": 1
    }
   ],
   "state": {
-   "etag": "W/\"b0594-QDtgHrSItBxfrNDogOy+Q3UdizI\""
+   "etag": "W/\"af9fa-cRTyMcoKUi5COqyGViOUVZN+aaU\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "latent-space": {
   "consecutive_errors": 0,
@@ -2877,13 +2975,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 20,
+    "new": 2
    }
   ],
   "state": {
-   "etag": "W/\"f7cf3-S0Clh83W/ns+CTLa/xauR0+FROs\""
+   "etag": "W/\"e7d37-l956ik7DLGiAD8UPAEDzr5FDC3Q\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "product-hunt": {
   "consecutive_errors": 0,
@@ -3022,14 +3125,19 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 50,
     "new": 1
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 50,
+    "new": 10
    }
   ],
   "state": {
-   "etag": "W/\"f759d3b3d2943eab7f23e91e29507cf9\"",
-   "last_modified": "Thu, 22 Oct 2026 05:57:43 GMT"
+   "etag": "W/\"830e5923bcfec9f73c9ee1c7e5a8df85\"",
+   "last_modified": "Thu, 22 Oct 2026 15:12:59 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "hn-ai": {
   "consecutive_errors": 0,
@@ -3168,11 +3276,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 2,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 4,
+    "new": 4
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "hf-papers": {
   "consecutive_errors": 0,
@@ -3311,11 +3424,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 35,
     "new": 8
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 40,
+    "new": 8
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "gh-trending": {
   "consecutive_errors": 0,
@@ -3454,11 +3572,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 10,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 6,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "devto-ai": {
   "consecutive_errors": 0,
@@ -3597,11 +3720,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 1,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 4,
+    "new": 4
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "devto-llm": {
   "consecutive_errors": 0,
@@ -3740,11 +3868,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "r-localllama": {
   "consecutive_errors": 0,
@@ -3763,7 +3896,7 @@
   "history": []
  },
  "yt-3b1b": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -3854,15 +3987,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-ibm-tech": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -3948,15 +4085,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 3
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-umar-jamil": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -4037,15 +4178,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-campusx": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -4126,15 +4271,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-dwarkesh": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -4225,15 +4374,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 2
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-latent-space": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -4314,15 +4467,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 1
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-fireship-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -4408,15 +4565,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-tmp-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -4507,15 +4668,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-aiexplained-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -4606,15 +4771,19 @@
     "at": "2026-10-22T05:20:13Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:20:13Z",
-  "last_run": "2026-10-22T05:20:13Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-berman-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -4700,15 +4869,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 1
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 3
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-krishnaik-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -4789,15 +4962,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "p-karpathy-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -4878,12 +5055,16 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "p-karpathy-blog": {
   "consecutive_errors": 0,
@@ -5022,13 +5203,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 10,
+    "new": 0
    }
   ],
   "state": {
-   "last_modified": "Wed, 21 Oct 2026 23:23:30 GMT"
+   "last_modified": "Thu, 22 Oct 2026 11:13:55 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "p-simonw-blog": {
   "consecutive_errors": 0,
@@ -5167,13 +5353,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "last_modified": "Wed, 21 Oct 2026 18:41:53 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "p-raschka-blog": {
   "consecutive_errors": 0,
@@ -5312,13 +5503,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"2958eb-NslD3ZhFf5MnT8BAGFvX5PXlf8E\""
+   "etag": "W/\"2958eb-SV78F8GEb4/2PFCYn7VCCASGiTc\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "p-lambert-blog": {
   "consecutive_errors": 0,
@@ -5457,13 +5653,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"87dfc-pfaGnh9aijtV1KR1LbTNiyUjqOM\""
+   "etag": "W/\"87dfc-4QeqTJE7ePlSMAZelsoxlSvDdUw\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "p-mollick-blog": {
   "consecutive_errors": 0,
@@ -5602,13 +5803,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"e129c-0igvRC7dtqEAft2IVPT8ZRybG7k\""
+   "etag": "W/\"e129c-otRejj+19OCF+cNfk4+13FNSh9A\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "p-altman-blog": {
   "consecutive_errors": 0,
@@ -5747,13 +5953,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 30,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "\"74e91db4ff031fe2c275792d0323786e\""
+   "etag": "\"15a1faaa4e1c97353f0e8daf906abe15\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "meta-engineering": {
   "consecutive_errors": 0,
@@ -5872,14 +6083,19 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"6d0b94ba2369b1cfcde8a4e4e6f73708\"",
    "last_modified": "Tue, 20 Oct 2026 22:37:15 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "gn-meta-ai": {
   "consecutive_errors": 0,
@@ -5978,11 +6194,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 69,
     "new": 5
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 84,
+    "new": 5
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "xai-news": {
   "consecutive_errors": 0,
@@ -6101,12 +6322,17 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 88,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 89,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
+  "last_ok": "2026-10-22T15:12:00Z",
   "baselined": true,
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "deepseek-news": {
   "consecutive_errors": 0,
@@ -6225,14 +6451,17 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 19,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 0,
+    "new": 0
    }
   ],
-  "state": {
-   "last_modified": "Sat, 17 Oct 2026 09:05:56 GMT"
-  },
-  "last_ok": "2026-10-22T05:56:57Z",
+  "state": {},
+  "last_ok": "2026-10-22T15:12:00Z",
   "baselined": true,
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "gn-deepseek": {
   "consecutive_errors": 0,
@@ -6331,11 +6560,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 100,
     "new": 5
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 100,
+    "new": 5
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "qwen-blog": {
   "consecutive_errors": 0,
@@ -6454,13 +6688,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"6970c244-98ff\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "gn-qwen": {
   "consecutive_errors": 0,
@@ -6559,11 +6798,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 23,
     "new": 3
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 23,
+    "new": 2
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "apple-ml": {
   "consecutive_errors": 0,
@@ -6682,14 +6926,19 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 10,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"6ad12d2a-2701\"",
-   "last_modified": "Thu, 15 Oct 2026 19:44:42 GMT"
+   "etag": "W/\"6ada1e86-2701\"",
+   "last_modified": "Thu, 22 Oct 2026 14:32:38 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "aws-ml": {
   "consecutive_errors": 0,
@@ -6808,13 +7057,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "last_modified": "Wed, 21 Oct 2026 23:51:25 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "gn-perplexity": {
   "consecutive_errors": 0,
@@ -6913,11 +7167,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 21,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 28,
+    "new": 5
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "cursor-changelog": {
   "consecutive_errors": 0,
@@ -7036,11 +7295,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 50,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 50,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "cursor-blog": {
   "consecutive_errors": 0,
@@ -7159,14 +7423,19 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 120,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 120,
+    "new": 0
    }
   ],
   "state": {
-   "last_modified": "Thu, 22 Oct 2026 05:39:37 GMT"
+   "last_modified": "Thu, 22 Oct 2026 14:34:08 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
+  "last_ok": "2026-10-22T15:12:00Z",
   "baselined": true,
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "arena-ranks": {
   "consecutive_errors": 0,
@@ -7283,6 +7552,11 @@
    },
    {
     "at": "2026-10-22T05:56:57Z",
+    "found": 0,
+    "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
     "found": 0,
     "new": 0
    }
@@ -7969,8 +8243,8 @@
     ]
    }
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "arena-leaderboard": {
   "consecutive_errors": 0,
@@ -8089,11 +8363,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 237,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 237,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "arena-product": {
   "consecutive_errors": 0,
@@ -8212,11 +8491,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 10,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 10,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "arena-blog": {
   "consecutive_errors": 0,
@@ -8335,12 +8619,17 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 76,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 76,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
+  "last_ok": "2026-10-22T15:12:00Z",
   "baselined": true,
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "gn-sarvam": {
   "consecutive_errors": 0,
@@ -8439,11 +8728,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 8,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 8,
+    "new": 3
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "gn-india-ai": {
   "consecutive_errors": 0,
@@ -8542,14 +8836,19 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 12,
     "new": 1
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 14,
+    "new": 5
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-matt-wolfe": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -8615,15 +8914,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 1
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 2
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 500: Internal Server Error"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-riley-brown": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -8684,12 +8987,16 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-cole-medin": {
   "consecutive_errors": 0,
@@ -8725,7 +9032,7 @@
   "last_run": "2026-10-18T12:19:51Z"
  },
  "yt-ai-advantage": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -8791,15 +9098,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-wes-roth": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -8860,15 +9171,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-sam-witteveen": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -8934,12 +9249,16 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-yannic-kilcher": {
   "consecutive_errors": 0,
@@ -8975,7 +9294,7 @@
   "last_run": "2026-10-18T12:19:51Z"
  },
  "yt-bycloud": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -9036,15 +9355,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-ai-jason": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -9105,12 +9428,16 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "search-demand-tech": {
   "consecutive_errors": 0,
@@ -9202,6 +9529,11 @@
    },
    {
     "at": "2026-10-22T05:56:57Z",
+    "found": 0,
+    "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
     "found": 0,
     "new": 0
    }
@@ -11385,11 +11717,11 @@
    "last_run": "2026-10-22T05:20:13Z",
    "v": 3
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-cole-medin-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-18T14:57:50Z",
@@ -11430,15 +11762,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 3
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 3
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-yannic-kilcher-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-18T14:57:50Z",
@@ -11474,15 +11810,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-networkchuck-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-18T14:57:50Z",
@@ -11528,15 +11868,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-nate-herk-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-18T14:57:50Z",
@@ -11572,15 +11916,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 1
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-codewithharry-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-18T14:57:50Z",
@@ -11616,12 +11964,16 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-tech-with-tim-yt": {
   "consecutive_errors": 0,
@@ -11637,7 +11989,7 @@
   "last_run": "2026-10-18T14:57:50Z"
  },
  "comp-ai-coffee-break-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-18T14:57:50Z",
@@ -11673,12 +12025,16 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "ollama-blog": {
   "consecutive_errors": 0,
@@ -11757,11 +12113,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 62,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 62,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "hf-trending-models": {
   "consecutive_errors": 0,
@@ -11840,11 +12201,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 25,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 25,
+    "new": 2
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "gh-n8n": {
   "consecutive_errors": 0,
@@ -11923,13 +12289,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 10,
+    "new": 1
    }
   ],
   "state": {
-   "etag": "W/\"7ee3eb1199c63f74c4f712d7590e53d0\""
+   "etag": "W/\"e987ca6e7186ac5a214a598364e13ba1\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "gh-comfyui": {
   "consecutive_errors": 0,
@@ -12008,13 +12379,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"fc64df3e189ab242bbb3af6bbb7e1c35\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "vercel-changelog": {
   "consecutive_errors": 0,
@@ -12093,11 +12469,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 1692,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 1692,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "supabase-blog": {
   "consecutive_errors": 0,
@@ -12176,13 +12557,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 438,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 438,
+    "new": 0
    }
   ],
   "state": {
-   "last_modified": "Thu, 22 Oct 2026 01:00:27 GMT"
+   "last_modified": "Thu, 22 Oct 2026 14:57:28 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "cloudflare-blog": {
   "consecutive_errors": 0,
@@ -12261,13 +12647,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 20,
+    "new": 1
    }
   ],
   "state": {
-   "last_modified": "Wed, 21 Oct 2026 21:04:59 GMT"
+   "last_modified": "Thu, 22 Oct 2026 13:00:28 GMT"
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "react-blog": {
   "consecutive_errors": 0,
@@ -12346,13 +12737,16 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 24,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 0,
+    "new": 0
    }
   ],
-  "state": {
-   "last_modified": "Tue, 20 Oct 2026 13:19:17 GMT"
-  },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "state": {},
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "bytebytego-newsletter": {
   "consecutive_errors": 0,
@@ -12431,13 +12825,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"e83d5-EJaH85w7fXaBx6XqxDSjvjPFytI\""
+   "etag": "W/\"e83d5-bxD2Tg26OTx1/pbhZHVi3lZMCtY\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "pragmatic-engineer": {
   "consecutive_errors": 0,
@@ -12516,13 +12915,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 20,
+    "new": 1
    }
   ],
   "state": {
-   "etag": "W/\"aba4d-JaYrf57VmqbM8I7bpRXQ/DA7ZRY\""
+   "etag": "W/\"ab32d-k+14Tf7WQa6fdRviLPeUp1YRnqA\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "lennys-newsletter": {
   "consecutive_errors": 0,
@@ -12601,13 +13005,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"4b081-V2Pj2qpDZCBAJEqWLCqNHX0Lvrg\""
+   "etag": "W/\"4b081-l4u2gmsNizTxUxNpsgB3bATI3BI\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yc-blog": {
   "consecutive_errors": 0,
@@ -12686,13 +13095,18 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"0308e4c81ef36a29eb342c9339844214\""
+   "etag": "W/\"8519559afcad5881f4a27e41dd04a5ce\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "pg-essays": {
   "consecutive_errors": 0,
@@ -12771,17 +13185,22 @@
     "at": "2026-10-22T05:56:57Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "\"928001-6553-60d2c1289b240\""
   },
-  "last_ok": "2026-10-22T05:56:57Z",
+  "last_ok": "2026-10-22T15:12:00Z",
   "baselined": true,
-  "last_run": "2026-10-22T05:56:57Z"
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-yc": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T07:30:32Z",
@@ -12812,15 +13231,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-hussein-nasser": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T07:30:32Z",
@@ -12851,15 +13274,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "yt-tech-with-tim": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T03:41:47Z",
@@ -12905,15 +13332,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 2
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-theo-t3gg-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T07:30:32Z",
@@ -12949,15 +13380,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-bytebytego-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T07:30:32Z",
@@ -12988,15 +13423,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-jean-lee-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T07:30:32Z",
@@ -13027,15 +13466,19 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  },
  "comp-paul-lipsky-yt": {
-  "consecutive_errors": 2,
+  "consecutive_errors": 0,
   "history": [
    {
     "at": "2026-10-19T07:56:48Z",
@@ -13061,11 +13504,15 @@
     "at": "2026-10-21T16:20:57Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-10-22T15:12:00Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-10-21T16:20:57Z",
-  "last_run": "2026-10-21T16:20:57Z",
-  "last_error": "HTTPError: HTTP Error 404: Not Found"
+  "last_ok": "2026-10-22T15:12:00Z",
+  "last_run": "2026-10-22T15:12:00Z"
  }
 }
