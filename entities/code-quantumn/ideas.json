@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-22T05:29:44Z",
+  "history": [],
+  "id": "2026-10-22-recursive-flint-local-swebench",
+  "title": "Flint: The 40B Coding Model That Runs 125 Tokens/Sec on a MacBook",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "You don't need a cloud cluster to run top-tier coding agents anymore. Recursive just released Flint: an open-weight MoE that hits 74.2% on SWE-bench on a laptop.",
+  "outline": [
+   "The architecture: 40B total parameters with only 2.5B active parameters per token (MoE efficiency)",
+   "Benchmark verification: 74.2% on SWE-bench Verified, rivaling Claude 3.5 Sonnet",
+   "Running it locally: 125+ tokens/second on Apple Silicon M4 Pro with zero cloud API latency",
+   "How Recursive built it using autonomous agent reinforcement learning",
+   "Step-by-step setup guide with Ollama and LM Studio for offline vibe coding"
+  ],
+  "items": [
+   "6e3656605c2035de"
+  ],
+  "updated_at": "2026-10-22T05:29:44Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-22T05:29:44Z",
+  "history": [],
+  "id": "2026-10-22-vercel-durable-harness-agents",
+  "title": "How Vercel Fixed the #1 Problem with AI Coding Agents",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "When your AI coding agent crashes 15 minutes into a refactor, you lose everything. Vercel just open-sourced the solution: durable execution.",
+  "outline": [
+   "The agent persistence dilemma: why standard agent loops fail on network timeouts and memory crashes",
+   "How durable-harness intercepts and logs every model completion and tool call into SQLite/Postgres",
+   "Zero-cost replaying: resuming mid-flight trajectories without burning extra API tokens",
+   "Integrating durable-harness with Claude Code, Cursor, and custom LangGraph agents",
+   "The future of production agents: why deterministic state machines are replacing fragile while-loops"
+  ],
+  "items": [
+   "29ea9a0380759dd2"
+  ],
+  "updated_at": "2026-10-22T05:29:44Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-21T05:32:18Z",
   "history": [],
   "id": "2026-10-21-google-torchtpu-native-pytorch",

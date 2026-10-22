@@ -315,5 +315,595 @@
   },
   "summary": "A radiation-shielded edge AI supercomputer will fly aboard the lunar rover FLIP to test autonomous surface navigation.",
   "analyzed_at": "2026-10-21T05:59:54Z"
+ },
+ "13d1176300a3d978": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "7488f18d3f506936": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "cd9df67e70e7c5f6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "201f32d2c043f128": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "a0188c87191b2bcd": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "0c9e18b2fcb2eecc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "b4b8f4abdbb7d1cb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "5a0a031923a775f8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "d83dd794b743e6c4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "d806776135cda4fd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "581cdda29e129535": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "20f8931f60309c68": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "2d7e18b212dc96df": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "d4a497c504e97b6e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "fb75d9eadeefd1b8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "a36080065306ba88": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "7933e7a8d9d2da53": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "1e62f87ef516d1ad": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "72db1386a55bbf6c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "c0ab310f3bcf1dfc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "d059b34cf017eb11": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "1cc7bd4e65ab3662": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "57af58b0f1cb129a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "2354e6a12ce9c440": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "628c92007fdd4b65": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "c52771fa3b2142e3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Astrophysicists discovered the lowest-mass binary neutron star system ever observed, confirming general relativity orbital decay predictions.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "829b006a1deb8fc6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "c3ff03e43009a321": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "discovery",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Geologists discovered that an ancient asteroid impact in the North Sea unleashed a 330-foot megatsunami that drowned prehistoric Europe. Hook: 'An asteroid slammed into the North Sea and unleashed a 330-foot tsunami across prehistoric Europe.'",
+  "notes": "- Seismic reflection data mapped the crater beneath the North Sea sediment\n- Impact energy calculated equivalent to millions of megatons\n- Generated a 100-meter (330-foot) initial wave that swept across low-lying land bridges\n- Visual motion graphics potential for demonstrating wave propagation and coastal inundation",
+  "actions": [
+   "Created video idea 2026-10-22-north-sea-megatsunami-asteroid"
+  ],
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "ecacae66972f97ec": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "79ea5d333da16fc7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "77432b0800f7b8a9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "4598f14c4a0d8f7c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "6c6f8a555dc35e86": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA's Perseverance rover set a new single-day autonomous navigation driving record on Mars using onboard computer vision routing.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "f00c54e145280811": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Biologists discovered a ghostly, pigment-free eyeless subterranean fish species adapted to perpetual darkness in Guangxi cave systems.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "9086a010b2e0b3de": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "3e3aafcec9b4b792": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "665daa1839130d24": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "17312e261531c180": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "950e9e5b822f274c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "13b279e98b940249": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "6bec53ff917e497b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "df22189d9f083d10": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "320387b4c7ba6632": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "45b21eb205d928e4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "b6a5e5e1da035e9b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "346e481dba4df01f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "fbb86373b1e5ba81": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "3b393f54ae38df35": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "26294979147b9181": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "42923fa57534ca03": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "fd11bfb203873377": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "c7979b67192608b5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "602a4e1d0ae224be": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "fb1ec0a8579e3dfb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "191b922197ec636a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "a194ba386ad06265": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "f6dc927f60474f33": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "53e34241f8377fa9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "7de3cce073208ec7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "99dbf4fc9a42c173": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "22028ddf106c4919": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "4e69ac847fb8bcdc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "ca5e7acaf69805c2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "67e82ad3c186ce02": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "b854b30538b107f0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "b15452ab209111e2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "c26d03c505693798": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "49d21ee9c6cb5f06": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "de0cabb61c8bed57": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "7edff044939295ae": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "e7ebc012d5a19b8a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "9b9f651202e1868f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "0423ec96bf0b9f7b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "975d24ee42d51279": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "1f764bac445ae982": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "baf9ec4a3fb907aa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "e69a00aa498263cb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "9e908f0095d4b6fc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "03da9e1a6a6828b4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "8e2ad5fac71dffb4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "6b65a330d7d592b0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "High curiosity in India on Hawking radiation, spaghettification physics, and what happens at the singularity.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "6c021890ed3f03e6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Top queries focus on cosmic expansion velocity, the cosmic microwave background, and multi-universe theories.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "3eb103d857e7b415": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Queries on future AI scenarios: autonomous warfare, robotic workforce transition, and synthetic biology risks.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "7acafafc4d4169ee": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "Searches asking when peak oil will occur and how geopolitics will shift as nations electrify transport.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "a38ccba05d0fa9c0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "Searches examining geopolitical alliance structures and historical triggers behind the outbreak of global wars.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "84656be6c65eb156": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Searches regarding human survival in Martian gravity, cosmic radiation shielding, and atmospheric extraction.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "f1bb7ad7b4a4e015": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Interest in the Artemis missions, lunar water ice extraction, and permanent human habitat designs.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "4ec189ed2f6bf8a2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Searches exploring physical body limits: maximum g-force tolerance, deep-water free diving limits, and bone density.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "8a09e4e15f43d30b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Physics searches examining special relativity time dilation vs closed timelike curves and the grandfather paradox.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "fe7ebf7937a230ed": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "mysteries"
+  },
+  "summary": "Searches exploring the Fermi Paradox, the Great Filter hypothesis, and biosignatures on exoplanets.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "223536b990152482": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Long-range scenarios exploring human civilization in 2100: post-scarcity energy, climate adaptation, and cybernetics.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "48df40d125935521": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Evergreen hypothetical scenarios: what if all volcanoes erupted simultaneously, or Earth lost gravity for 5 seconds.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "034cb1e903735164": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Evergreen curiosity: Rayleigh scattering of short blue wavelengths during day vs long red wavelengths at twilight.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "ce93cbccbc78d218": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Hypothetical questions about atmospheric decompression, oceanic boiling, and solar coronal mass ejections.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "eee18205098ef100": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "User searches on technological singularity timelines and whether machine intelligence will automate scientific discovery.",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "15bfab76e66f9e1e": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Mark Rober built a setup to scientifically measure fun; we can explore the evolutionary neuroscience of mammalian play.",
+  "notes": "- Topic: Engineering a measurement apparatus for physiological joy/fun\n- Structure: High-production playful physics & biology experiment\n- Our angle: The neuroscience of laughter and play across mammals",
+  "analyzed_at": "2026-10-22T05:32:57Z"
+ },
+ "1eb03daab50fc71a": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Infographics Show covered incognito tracking; we can do a 60-second visual explainer on browser fingerprinting.",
+  "notes": "- Topic: Browser fingerprinting and ISP tracking in incognito mode\n- Structure: Animated warning narrative\n- Our angle: 60-second explainer on what browser incognito mode actually hides vs what ISPs see",
+  "analyzed_at": "2026-10-22T05:32:57Z"
  }
 }

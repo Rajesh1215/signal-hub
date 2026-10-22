@@ -678,5 +678,744 @@
   },
   "summary": "Thought leader perspective: Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
   "analyzed_at": "2026-10-21T05:31:48Z"
+ },
+ "67893cdcca80a1f8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "b8b1c04924d91c98": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "32fbaa9cfe3f3705": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "efd212c8d41477cf": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "af77e6b2122cbd4f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "81d047bdce52cbdc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "511253fb738a16b4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "545923cc8c55ef5e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "ddb7087f9ce0f185": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "a0c87dede4e35766": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "e3bc0a72451c3ab4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "8a8cc479163293f6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "f093675ecdd389de": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "DeepSeek open-sourced DeepInfer, an optimized serving framework that slashes KV cache memory overhead and accelerates token generation.",
+  "notes": "- Custom CUDA kernel optimizations for MoE routing\n- Dynamic KV cache compression reducing GPU VRAM requirement by up to 40%\n- Outperforms standard vLLM throughput on large batch sizes",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "614787d22d09f42b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "319a6f4f875b00a0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "3859304e5172ad6a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "2b0f8547d8fe77e0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "008dc3756523a9d8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "70858d52aec93ca3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "6ecf1b812f4c6d9f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "6d84eef0b122696e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "60533518c03278c1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "8ac74575331d2f3e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "94e5a3a339e565e0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "9fe5c2d60b1c1841": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "57dd6bfe078570a2": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "StopLoss paper trains agents to predict execution failure early, reducing wasted API tokens on doomed tool trajectories by 60%.",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "b23e09735e0575a9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "e657e57e1ecf4482": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "1d8818589001a9cd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "94fb984cb8c96948": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "57f86e62cf8f249b": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Fireship compared latest model breakthroughs; we can do a deep technical benchmark on coding token costs.",
+  "notes": "- Topic: Fireship breakdown comparing Google's latest models vs Claude 3.5 Sonnet and OpenAI o1\n- Structure: Rapid-fire 3-minute technical review\n- Our angle: Benchmark breakdown focusing on coding accuracy and API cost efficiency",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "48e34dc2775f40ef": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "53c7ce9c829eb144": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "2969144db94eb7b9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "0339368eff0a6dfe": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "b82d1c2f28613f02": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "OpenAI detailed the technical architecture behind ChatGPT sponsored recommendations and privacy-preserving ad delivery.",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "cba95456d333743e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "f88e8a860a6267c6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "ade2c93f1b8668e9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "db6eabf3d07c6d94": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "ebf6e3c54fd3ec92": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "7ed756510bdbdd80": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "d6a3b092aeff4b74": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "117ff9be550fcd82": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "10d1d85ea3dcc806": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "71e1145624b699bc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "20b8cb5066f224f7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "6643f9195a9bdcf3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "a8f93967bb947b8a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "cd41c7e1f4a958a4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "6078c2f151ae6f4f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "b1167a5caec87e22": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "1b0e2defe7556ff4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "2eed11417a960ee7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "ee3cd994e33406e8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "79c479a461df2ffd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "bea0fd8d59702c46": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "af95d05e45823a64": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "0b6968be51d5103a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "e64197e82122e210": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "c74d3f7e6ceb10e0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "1b47977238795227": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "6b0e413e1d42d191": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "7729049a7590bed6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "f416271b7d781f35": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "3fa146c1f72d1ca9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "7d217a505347528b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "18e8cd422998bc94": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "d47ea1e32f907f79": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "d5e46e76dc921942": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "3399958c41092c3e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "f373179981c31fce": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "39ca3a734d938379": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "6915ab1fe94c8a2c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "e20b8f71c3a45caa": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "5b041a431c2341da": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "762d5ea7debff47c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "a89339f2d0947960": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "1b328abc960fedbd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "f6a7146398a45ec7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "7fa87512a6aabf70": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "c7059e122d88cf29": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "950858b6e095033b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "04224e82bc061b02": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "4023129becc4a304": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "cc9ccacb07e7c131": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "cb300b9b07a91a6a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "9c66d5331225576f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "e36da98cfa9eba84": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "e00cd91a65695c43": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "d966b85f9a78e1c8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "5a106947d41ba865": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "8e12fb19fc837f6b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "c3e0d6b93bc776ca": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "63a541768ee50c07": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "59b28452c89bb5f4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "a92cb4a18ed3b154": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "4617da6e59fe3dae": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "c97a66991169f967": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "3d4ea242c2e67acf": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "7b25f8c2fcc5e905": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "b0cdad4ccc42d9d7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "a24fd0684dcb98d3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "4a2efd85abd3660d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "4eccdb96fadbd0ad": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "94d60ce4cc0c49e9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "AI security researchers uncovered critical Remote Code Execution vulnerability in legacy PHP interpreters affecting millions of servers.",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "932da81cdd728c6d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "431a5e1c55ffe6c5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "d8c454c16a84ccff": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "848eeabe8a5290c1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "a4ffc0ba31ad66c4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "0c99e9c33f76d4c5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "461555b89f4481e8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "19778b512e0b38fe": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "3a0572dd8f6ab7fe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "9c10e5ac7db44d00": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "fa579b51c063008c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "5d00d88ad32f6991": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "a2282b2139149c1c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "2b652ba774180150": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "15188ac7c01edf8f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "1402253cf353b258": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "27bc648d9e66062c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "ee58225c0fe81572": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "580578aa303e8c14": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "fd77dc4be4625a51": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "999d02df156372f8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "46235b8930a156be": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "2d44173187acab1e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "00a5be4d54b67d56": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "e3b4841083b7b066": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "e9101ecfda4ee437": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "96f8682cc173c9ea": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "9528546c2aa7c812": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "4360312c9aeef62a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "2da6d18af7945e1b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Matt Wolfe tested 5 practical reasoning and prompt engineering techniques using Google's newest models.",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "6281513e89097b95": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Sam Altman interview breakdown on custom silicon and compute; we can evaluate what custom hardware means for pricing.",
+  "notes": "- Topic: Interview highlights covering Altman's statements on custom ASIC chips, compute scale, and AGI\n- Structure: Video commentary with transcript breakdown\n- Our angle: What OpenAI's proprietary chip roadmap means for API pricing in India",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "3383b380d5ed6abf": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "5623c09a107d35ed": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Hands-on workflow demonstrating Claude code agents generating procedural 3D scenes inside Blender.",
+  "notes": "- Topic: Generating programmatic 3D scenes in Blender via Claude code agents\n- Structure: Hands-on workflow demo using Python scripts inside Blender\n- Our angle: Python-based generative 3D modeling using local LLMs",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "2c89e95fd9bce2d9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-22T05:29:24Z"
+ },
+ "bfe15fbd15c36b46": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Automated job application repo walkthrough; our angle covers why mass-botting hurts applicants vs tailored portfolios.",
+  "notes": "- Topic: Open-source automated job application agent bot\n- Structure: Repo walkthrough and environment setup\n- Our angle: Why bulk automated applications fail ATS screening vs targeted resume optimization",
+  "analyzed_at": "2026-10-22T05:29:24Z"
  }
 }
