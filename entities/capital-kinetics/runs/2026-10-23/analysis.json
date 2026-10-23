@@ -1192,5 +1192,2431 @@
   },
   "summary": "RBI conducts Variable Rate Repo (VRR) auctions as banking system liquidity surplus contracts.",
   "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "3d293cfca1e313e9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "RBI conducts Variable Rate Repo (VRR) auction to inject short-term liquidity into the banking system.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "14724dbe883f5c8d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "68b11dfe0ec2c971": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "47cbe8e886e45fe8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4d6e5944d85a92bd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f0100ffc0b6af0ea": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "earnings",
+  "flags": {
+   "category": "company_results"
+  },
+  "summary": "Bansal Wire Industries posts 38% YoY net profit growth to ₹53 Cr on strong infrastructure and manufacturing demand.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8783d8f2af5681cd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Hindustan Zinc shares slide after government permits 6,500 tonnes of festive silver imports to cool domestic bullion premiums.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "15bbbbdab6b237ce": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6498ba62c5aef5e4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "markets"
+  },
+  "summary": "Indian indices slump over 1,000 points from day's highs as crude oil price surge and foreign institutional selling weigh on sentiment.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "cb0e8fbe541ff4d1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "1c66b0c8126c7344": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Reliance Jio Platforms ₹30,213 Cr mega IPO closes bidding with strong institutional QIB oversubscription and 22% grey market premium.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8801c2db51a59b09": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "1922ba5c574a1d07": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "How maintaining a 750+ CIBIL score lowers home loan interest rate spreads by 30-50 bps, saving lakhs over a 20-year tenure.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4b219e0fe211b80e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f5267ca87c68f14c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "insurance"
+  },
+  "summary": "Overview of maternity insurance sub-limits, waiting periods of 2 to 4 years, and out-of-pocket delivery expenses in urban hospitals.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "fbe51c1a0f0bf44c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Key tax and purity considerations when inheriting ancestral gold: valuation certificates, holding periods, and capital gains exemptions.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "293439b75ad64192": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "budget_or_policy",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Taxation rules on retirement leave encashment exemptions and expected festive dearness allowance announcements.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "abe4ab080d7ef5b8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6233f08b0cee8cc5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "011fd1d7ab392912": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ac1e4441da0f0016": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d091889e63243fef": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "bf7840047b98e29f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d0f5bf5e9b9dc977": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "RBI redeems SGB 2018-19 Series II at ₹7,800+/g giving investors a 366% tax-free return on issue price of ₹1,675. Hook: 'Turning ₹1 lakh into ₹4.66 lakh 100% tax-free: the greatest government investment matures today.'",
+  "notes": "- Sovereign Gold Bond (SGB) 2018-19 Series II reached its 8-year maturity today.\n- Final redemption price based on IBJA 999 gold simple average stands at ₹7,800+/gram.\n- Section 47(viic) complete capital gains tax exemption for retail individual bondholders.\n- Total return: 366% capital appreciation + 2.5% annual semi-annual sovereign interest.\n- Salaried viewer takeaway: why physical gold and gold ETFs attract 12.5% LTCG tax while RBI SGB remains the only tax-free gold vehicle in India.",
+  "actions": [
+   "Created video idea 2026-10-23-sgb-366-percent-tax-free-payday"
+  ],
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "384cbf78e5b5bb37": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "budget_or_policy",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Taxation rules on retirement leave encashment exemptions and expected festive dearness allowance announcements.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "30b87b5ac24e3efa": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ab601e422b1468d3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "129f05f181cba68b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scam_alert",
+  "flags": {
+   "category": "scam"
+  },
+  "summary": "SEBI cautions retail investors against astroturfing frauds and unauthorized trading groups operating on messaging apps.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ec1ba58a8abff319": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "budget_or_policy",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Projections on how a 1.92 to 2.57 fitment factor under the proposed 8th Pay Commission could reshape government employee basic pay.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9d29117db1d7ebec": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "132f9e59f802b326": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "09769c6a009acd70": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Reliance Jio Platforms ₹30,213 Cr mega IPO closes bidding with strong institutional QIB oversubscription and 22% grey market premium.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a4e33cd64a23fbae": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "56deda02e9fafdc6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3d9f2ccd11b87e1c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "38ee3e14ce00eac5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Quick commerce platforms expand dark store capacity and logistics hubs ahead of intense festive season demand.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "29a33b7aa4c6e519": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "99d8d3a45e7ccebc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0c8c09018cc557b6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Quick commerce platforms expand dark store capacity and logistics hubs ahead of intense festive season demand.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "123039944f9f5d42": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "b7dff2dc6a3fccd3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "33f6025e277ba913": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "db34002e5968244e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c6474aa8e3dcc5ca": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d59672b428ccdb0f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9b59e8f65d0e3d4f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "507dc10ebee006bd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "906c4f944715dd54": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8a928f7059c74c3c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "b200f466af4e6ea4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "46c12004983999c9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "b0e793a810ee164a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "e0d7e52d41621faf": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3edb81f5fab6e6d7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "80e155d15138efa5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c33785fcca3cb410": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "363706e0875fb4eb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ab048643843b9892": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "decd4550183a5c48": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "56c120a148d60f1d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c03f0cddfdc87d38": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7976c3694705c751": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Reliance Jio Platforms ₹30,213 Cr mega IPO closes bidding with strong institutional QIB oversubscription and 22% grey market premium.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "b033bff4cc4161ea": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "1a83bb103a60d019": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "1795cb24fa0b8dc9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "73b60912134e5231": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3be462e9066c664a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "40afa2450e410159": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a6d5e4ff12e506c7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9db69be4b818a98e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2d91bfd40e80e3bc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2aa2f21ef7332d96": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9025a75f8a0babbb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2fdb3af753e60eda": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "92a7a05c77751164": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c415814c2272d4c8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3d12646c5b067ba3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "815df2831b9dec2e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6ced69c125020710": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "74fc6371926e9076": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f8f5a5ef708132ca": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "87389723b8e5cedb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "693f511f1ad3daf9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "14b2805e431c045f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f019cd3f5bdb5415": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f31118fbb91296eb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7041785f05b5bf79": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4175058865786c8f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a4fc03dc892b3fae": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "e44b24cc7107ba43": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "dc8c32759e17bdef": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "14cbc442e4736ad1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "df36b6de85ee172b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4201f66affe4550d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "e0a7110bf2dcfd41": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a97693b7f6afbece": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Brent crude oil prices trade near multi-month highs amidst Middle East shipping bottlenecks and supply chain risks.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "e30905d32cced30b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "Economists analyze RBI policy committee stances expecting interest rates to remain restrictive through early 2027.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "849dc8d056ceb323": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "72805c52a9303f21": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "670db7e6f490f1df": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8ced1c7758e64b19": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2e6b23191f8a9925": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "1ebccf2407473b7d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4ca0db58eaa37a12": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a885c9aea998a1d0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a71af761132f504b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "beb23d15a733ceca": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c041a11a506a20bd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "e3b07587463703b7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8779e5dc61fde93d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "34bee04c3a32e41d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "aec8a86d4523a2e3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "aeb329981b53c613": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "52a848b97551ca10": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Brent crude oil prices trade near multi-month highs amidst Middle East shipping bottlenecks and supply chain risks.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3622e433fb287d86": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0c1998095bd4c1d3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d1a2830f25017b15": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "1bd4988a7bd9249b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "72d6d9c1bbfa7f40": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7fb4501156d83cef": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "090d89259d20bd66": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "Economists analyze RBI policy committee stances expecting interest rates to remain restrictive through early 2027.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2665159aa81cc0e3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "Economists analyze RBI policy committee stances expecting interest rates to remain restrictive through early 2027.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3f19db658ed3e1de": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "Economists analyze RBI policy committee stances expecting interest rates to remain restrictive through early 2027.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "409d6d9bb4d9682d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "Economists analyze RBI policy committee stances expecting interest rates to remain restrictive through early 2027.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8bfed600574df65d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "Economists analyze RBI policy committee stances expecting interest rates to remain restrictive through early 2027.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9816b554891950fc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2ee99357504b80fb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "e32c930d46fd6fa6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "45a112e706439ac1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3d5f9961e7b8fc19": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3e04eafa6139bda0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ab94bbd5031d1cd7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "63391f734444aa03": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3cdf969fef4edfb8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "93a8ebe638cc222b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c233c9ab6cc84f23": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "47386d0ed3758d6b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6e7d3e101a5613dc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "dd68ec23d1ec240e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ff097534b9e7c23c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f8def44245a0d072": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "89d2669af0693fc8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ce3ad0e6c60d6607": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "409e9ede93e68a8b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7b4686b9754b2f39": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ad75838eacc57772": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f6440117c10017cc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "48b499303473277b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8768186abefadea3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f2d934db276a1fb2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d37bfc1c962344f6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8f7430c7ba24c2d6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6b3fd1b145474a1e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a4189cc2ce9ec311": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a1997e490d70de85": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8519d3b0c104176d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "96e5575f5d1143f1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "mutual_funds"
+  },
+  "summary": "Search queries on SIP compounding calculators, top small-cap funds, and stepping up monthly investments.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a2c88bb13c25c7ef": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "mutual_funds"
+  },
+  "summary": "Queries on index funds vs active mutual funds and NAV fluctuations during market selloffs.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9f811ea9451c71a0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Search interest trends for What people are searching about \"gold etf\" today (India + US/global) (4 new).",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "993aea60ca677b9f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Search interest trends for What people are searching about \"sgb\" today (India + US/global) (6 new).",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2457d657b2d21a46": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Search interest on senior citizen FD rates, DICGC ₹5 lakh insurance cover, and bank interest TDS.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "b183dbb84d4fd406": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Search interest trends for What people are searching about \"nps\" today (India + US/global) (1 new).",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0c11357c4e740d92": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Search interest trends for What people are searching about \"ppf\" today (India + US/global) (4 new).",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9d45b0e970cdb907": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Popular queries on home loan interest rate floating spreads, PMAY subsidies, and prepayment penalties.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6f4ee6bcc62aafc8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Search trends on lifetime free credit cards, reward point redemption, and CIBIL score boosters.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c29d2364a2c00920": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tax"
+  },
+  "summary": "Trending searches on old vs new tax regime slabs, deductions under 80C, and AIS/TIS portals.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0adb4d2e073de224": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Popular queries tracking grey market premiums, retail subscription status, and listing gain strategies.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d576f24e6f17844b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Search interest trends for What people are searching about \"upi\" today (India + US/global) (16 new).",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "5f7faffc12390591": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Search interest trends for What people are searching about \"epf\" today (India + US/global) (12 new).",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "07ecd7cdf1aec4a5": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Search interest trends for What people are searching about \"stock market\" today (India + US/global) (5 new).",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a479b2dfaadf7137": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "insurance"
+  },
+  "summary": "Search interest on cashless claim processing, waiting periods for pre-existing diseases, and room rent caps.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "5311472fd3ebe606": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "RBI conducts Variable Rate Repo (VRR) auction to inject short-term liquidity into the banking system.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d399497205bd696e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "bf80f0e10077d407": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_release",
+  "flags": {
+   "category": "economy"
+  },
+  "summary": "RBI October Bulletin reviews domestic economic momentum, festive credit expansion, and food price dynamics.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "35f3c845081ffae4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7e34101296c26e58": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3525c47be6c50027": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "74559ced2154e250": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_release",
+  "flags": {
+   "category": "economy"
+  },
+  "summary": "RBI October Bulletin reviews domestic economic momentum, festive credit expansion, and food price dynamics.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ee09c0e411bd0960": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "RBI releases updated regulatory guidelines for commercial banks on implementing Basel III Leverage Ratio standards.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d0dee5e1dfcdc28f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c5abb40225c075e6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9adbd9d1d0c128ef": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7699d2cad54784f1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d87939a4a5b4cf02": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8c48d3f426e3d560": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c09279c25a214737": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "968f6b9cd87c4daa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "b4461928938d7f01": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "12ae0345880a757a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Reliance Jio Platforms ₹30,213 Cr mega IPO closes bidding with strong institutional QIB oversubscription and 22% grey market premium.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2e6a1794fa81def4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "cde06fa888a7fa46": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2360985850b92a8e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6691288b80c56bf0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "14252080802c5eb2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "b93e7ec436d18470": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "price_change",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Major public and private lenders revise fixed deposit rates, offering up to 8.5% p.a. for senior citizen tenures.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3ee469c49549b4be": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "1bab89998ffa7218": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Bombay High Court ruling grants relief to private sector employees seeking higher pension calculations under EPS-95.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "015e40d86f0b1053": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "aa26e7994c49bcbb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6d12565f164adade": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f543d59c7c8de03b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "1ddd3bba826eb078": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0de7b5274b3a8eb9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "b4f963d6b370f2a9": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "RBI redeems SGB 2018-19 Series II at ₹7,800+/g giving investors a 366% tax-free return on issue price of ₹1,675. Hook: 'Turning ₹1 lakh into ₹4.66 lakh 100% tax-free: the greatest government investment matures today.'",
+  "notes": "- Sovereign Gold Bond (SGB) 2018-19 Series II reached its 8-year maturity today.\n- Final redemption price based on IBJA 999 gold simple average stands at ₹7,800+/gram.\n- Section 47(viic) complete capital gains tax exemption for retail individual bondholders.\n- Total return: 366% capital appreciation + 2.5% annual semi-annual sovereign interest.\n- Salaried viewer takeaway: why physical gold and gold ETFs attract 12.5% LTCG tax while RBI SGB remains the only tax-free gold vehicle in India.",
+  "actions": [
+   "Created video idea 2026-10-23-sgb-366-percent-tax-free-payday"
+  ],
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "dae561d40d295011": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Reliance Jio Platforms ₹30,213 Cr mega IPO closes bidding with strong institutional QIB oversubscription and 22% grey market premium.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0e3b0ee5370900f0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a53f61c57293775d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "b6073486f08b3aa1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "5f34fea8a575757c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "b841fb53106cb6d0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "eaefe8b2154039cb": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 5,
+  "reason": "tax_change",
+  "flags": {
+   "category": "tax"
+  },
+  "summary": "Income Tax Department introduces unified Form 141 merging property purchase TDS (26QB), rent (26QC), and crypto (26QE). Hook: 'Buying a flat or paying ₹50,000+ rent? The Income Tax Department just changed all TDS forms.'",
+  "notes": "- CBDT notification unifies TDS challan-cum-statements 26QB (property buy > ₹50L), 26QC (rent > ₹50k/mo), 26QD (contractors), and 26QE (VDAs/crypto) into single Form 141.\n- Simplifies PAN-Aadhaar verification and deduplication of tax deducted by individual taxpayers.\n- Penalties: failing to file Form 141 attracts late fee of ₹200/day under Section 234E and interest on delayed deduction.\n- Essential walkthrough for salaried individuals buying their first apartment or paying rent above ₹50,000/month.",
+  "actions": [
+   "Created video idea 2026-10-23-income-tax-form-141-tds-rules"
+  ],
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7c9bc033de6bc7b8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "bf0d28651f92b545": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d3c9d6c6808f7049": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4581441454718bca": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 5,
+  "reason": "tax_change",
+  "flags": {
+   "category": "tax"
+  },
+  "summary": "Income Tax Department introduces unified Form 141 merging property purchase TDS (26QB), rent (26QC), and crypto (26QE). Hook: 'Buying a flat or paying ₹50,000+ rent? The Income Tax Department just changed all TDS forms.'",
+  "notes": "- CBDT notification unifies TDS challan-cum-statements 26QB (property buy > ₹50L), 26QC (rent > ₹50k/mo), 26QD (contractors), and 26QE (VDAs/crypto) into single Form 141.\n- Simplifies PAN-Aadhaar verification and deduplication of tax deducted by individual taxpayers.\n- Penalties: failing to file Form 141 attracts late fee of ₹200/day under Section 234E and interest on delayed deduction.\n- Essential walkthrough for salaried individuals buying their first apartment or paying rent above ₹50,000/month.",
+  "actions": [
+   "Created video idea 2026-10-23-income-tax-form-141-tds-rules"
+  ],
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "95bfb6e9739fa402": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "price_change",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Major public and private lenders revise fixed deposit rates, offering up to 8.5% p.a. for senior citizen tenures.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f19eaa95bee81d20": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "bdeb542b6958a5bc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "94a9931aed87f24c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "budget_or_policy",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Taxation rules on retirement leave encashment exemptions and expected festive dearness allowance announcements.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c84e84db2f693cdc": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Comparison between 5-year Post Office Recurring Deposit and PPF evaluating guaranteed returns, EEE tax status, and liquidity.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "64438b13950cfb33": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "fd46852b06240104": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "708f4526f6a11a99": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9f261d3d65b85ef5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "de922290c1eb9d39": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2acf139b6cb59f8c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "07eacdefbfadfde7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7a8db8cafb85078d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2a9d813e171affb2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c1e91094ce625613": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "78501614c744ca56": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "5b88a7160c455146": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "16690463311bd592": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "67cc97b5ad9bb281": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "10dc13413fdc83b4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6fc938bd1993ccfa": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4cfc6ceca682d809": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3b69f510f877778d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "184fb4e4ffb45746": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7565d40f10c5d1de": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2e8735eae30ad75a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4aa6b7757e717cd0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "701d6cc39d913a65": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0e118f4c72fd03eb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c0a257b20adbceaa": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a9814dbb8cccefde": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "848723b28d8ff7a3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6eee6aba8e579336": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "84fc1dd04e59d405": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c21b6ca7431fb671": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "1713ed7d5a3516bf": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "77a64d817486c72e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "5a1710c36727c2ec": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c4d2f757ae0c23f2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "53e75b12b68e5133": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6c9e729b2b4e431e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "1ddcf6d0e30ac498": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "84913028a54aa7de": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9725fe5af1066134": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6f347b47822e3f77": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2f4460622ddc2713": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "dbef38a5d557d2b1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "118c8060d9bd8b9d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "321b047b23cacf6e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "308313ed5eb0ed95": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9133603bce5e6e42": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6f496b9ee6efd187": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3179f10b65984962": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2aeffbb68fbca061": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9842637c532d9d33": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0920911c599dcd56": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "400130ec18835e39": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "5960f7b6425586c5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "07c6a7dc035af245": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "1d4594464b61ee67": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0de906aef061dcf8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6922fe409ac70ee8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "cb0233eea16d4741": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "698c890b5228958d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "16540eee93abe751": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "161fbe9fc3de6330": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "54ebe9e79a11b13d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c5e106a647dcce45": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "43f49f156e3aa04f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "b56eb801c6e47e7a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ce32366b4fdcac29": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7d6fd0335d07eccb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0516caf11475e5f3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "27972c2825f68cb3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f3a884ad4b31c46f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "5941253d02b08465": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "db9fada418375b08": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "596e016438b49efd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "df2dda61ba342fb1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f9de87ebf643e876": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7777c48b920fba0c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c2d2305e976ecdf8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a9482417a611f60a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "79eacbb4dc3972f7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "de2b8b5a88b84452": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4caf4eb4f6cf1295": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "e530cee696ded679": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "87f22def450eee84": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "56d4e1a84ba05e6e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4820981789196674": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "12253b6d9ef3efed": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ff32775ab40b353e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "44672b35b43f1874": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "cff18733d283aadb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f00bee9fee0ec686": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8dbbe1f6b2155b89": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d390f9b6e05c8959": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "eb366ffb13c11c2b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "e61d9fec4efe8541": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ad3149c0a54ede67": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "936966af5b6e2392": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ab1768ed6b485d91": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "dc50c91c6af123d4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "611bcca6d5423fe6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2c44ea624827ed31": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ef8da74bc1b16215": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "072319c375e20ca3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c9833c9058d69407": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Brent crude oil prices trade near multi-month highs amidst Middle East shipping bottlenecks and supply chain risks.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "bf8885666698dffa": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9158a63265b1564a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Brent crude oil prices trade near multi-month highs amidst Middle East shipping bottlenecks and supply chain risks.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "fd497e9734a598ba": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Brent crude oil prices trade near multi-month highs amidst Middle East shipping bottlenecks and supply chain risks.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "56f9b0af777e9cf9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Brent crude oil prices trade near multi-month highs amidst Middle East shipping bottlenecks and supply chain risks.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "748867f7d949bb7b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a13d236cff41e4e3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "fa919735329c7225": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "99d81164b7620416": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f26f33c71dfc6dc1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "df76da4a2e4ec733": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "88f8ae1cac3b1fda": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8beaf8132c0b450d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f7c30c46325eb84b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4ab9521e57de3711": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "1172954fe15728d1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "31a96a5b04d9ce5b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4eea117b710def17": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9292ade44beefbb5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0e3d22550bbe6c64": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "5bb65f9c3683b53b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "459186c03553fbf9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0d264d7997189cd6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "26a1d136c04ab1d3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d5fe549af5b4907b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "d683a6fd0fc2e8a2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8c60e831d389d304": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "07f4a113ea4b9ebd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "034899aafb7165b7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "4144e9ebcfc71759": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "62a054d4d16c6586": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "21e52e43b2e6e270": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f73f697ccfd77c63": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "f3f2f4486cd7187f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0efcfd0163220f92": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9943a8f0be02b982": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "0397972164bffd4c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "Economists analyze RBI policy committee stances expecting interest rates to remain restrictive through early 2027.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "61fec7bcefeffb52": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "e305cbdb67910ca8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "Economists analyze RBI policy committee stances expecting interest rates to remain restrictive through early 2027.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "463eb58d1a220ccf": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "Economists analyze RBI policy committee stances expecting interest rates to remain restrictive through early 2027.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "facecc709c4bccac": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3a1683b386f1178a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "972e36941eab69da": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "bb5ad402564cbe32": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "16ebf39571417c79": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "e597b7e76913462a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8fe2755496845feb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "15f23f41a967d51d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "099aab68a4d3ba46": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "69d1c188cf255cfd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a31751c1c6b29809": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "510e7dfc58e47c46": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "fd2815a54e578769": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Brent crude oil prices trade near multi-month highs amidst Middle East shipping bottlenecks and supply chain risks.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "13c8cc0e0b148849": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Brent crude oil prices trade near multi-month highs amidst Middle East shipping bottlenecks and supply chain risks.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8d2c559109a6cacd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8db049adf52c27e9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8348b15d4a695fad": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6da2848e5ad502bb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ffcbb207ffcf6a32": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "927ae31822e27448": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "9d4d896f0f90040b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "671747430305c27c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7fcad164f0f82007": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7d113be8edb8764d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "ceb3fdff1a2ae465": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "84da94595239a285": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "8951eed1d4e04505": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "dd20a8f51e66c480": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3bddaf1dd6b4c92f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "514beda064d09254": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a276d316229397bb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7ee7276eb8007a5e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3f86d8eb206194b7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2f7d876c07d762d7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "7b0133d8d323e862": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6b3b03f558515dea": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "38abc711c08bde5c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "3a4e9138101405b5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6fa44351a03d5c9d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "6107a8ce66ffd06c": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Sharan Hegde covers the regulatory battle between Elon Musk's Starlink and Mukesh Ambani's Jio over satellite spectrum allocation in India.",
+  "notes": "- Explains administrative spectrum allocation vs auction models for satellite internet and rural broadband pricing.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "89b7f7071eb35554": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Competitor video covering personal finance or business: What If Every American Child Owned SpaceX Shares? #shorts.",
+  "notes": "- Competitor video: What If Every American Child Owned SpaceX Shares? #shorts\n- Content angle, presentation structure, and retail audience reception.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "19d8685f4694fdfa": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Competitor video covering personal finance or business: Is India Winning Because It Has Less AI? #shorts.",
+  "notes": "- Competitor video: Is India Winning Because It Has Less AI? #shorts\n- Content angle, presentation structure, and retail audience reception.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "fc42af8d5ee4ea5a": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "CA Rachana Ranade breaks down Vedanta's 5-way corporate demerger and relative balance sheet health.",
+  "notes": "- Financial analysis of Vedanta demerging into aluminium, oil & gas, power, steel, and base metals.\n- Impact on existing equity shareholders and debt allocation.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "cba23a7d9cbc0c9c": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Labour Law Advisor explainer on maternity benefit legal entitlements and employer compliance mandates in India.",
+  "notes": "- Maternity Benefit Act 26 weeks paid leave requirements and employee rights during corporate restructuring.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "79806a8b44eea303": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Competitor video covering personal finance or business: David Goggings Mindset | Raj Shamani #Shorts #mindset.",
+  "notes": "- Competitor video: David Goggings Mindset | Raj Shamani #Shorts #mindset\n- Content angle, presentation structure, and retail audience reception.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c1a0f1d4d31234b6": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Nikhil Kamath podcast investigating whether current enterprise AI valuations reflect durable cash flow or a capital bubble.",
+  "notes": "- In-depth interviews with Indian AI founders and venture capitalists on infrastructure ROI and enterprise adoption.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "c59dbead9efd705b": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Competitor video covering personal finance or business: The Most Powerful Man In The World Met A Man Who Wanted Nothing From Him.",
+  "notes": "- Competitor video: The Most Powerful Man In The World Met A Man Who Wanted Nothing From Him\n- Content angle, presentation structure, and retail audience reception.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "2776fe926aabbd4e": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Competitor video covering personal finance or business: \"They Can Always Print More Money\".",
+  "notes": "- Competitor video: \"They Can Always Print More Money\"\n- Content angle, presentation structure, and retail audience reception.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a14a497b65ff9d27": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Competitor video covering personal finance or business: iPhone Duo Days: Kya Hai? #shorts.",
+  "notes": "- Competitor video: iPhone Duo Days: Kya Hai? #shorts\n- Content angle, presentation structure, and retail audience reception.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "5ed3d83518bd584a": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Competitor video covering personal finance or business: PHP's scariest day ever.",
+  "notes": "- Competitor video: PHP's scariest day ever\n- Content angle, presentation structure, and retail audience reception.",
+  "analyzed_at": "2026-10-23T15:53:18Z"
+ },
+ "a97d50dbf9f1a809": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:53:18Z"
  }
 }

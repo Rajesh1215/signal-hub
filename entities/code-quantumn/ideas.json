@@ -1,6 +1,69 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-23T15:51:59Z",
+  "history": [],
+  "id": "2026-10-23-google-cloud-agent-compute-engine-microvms",
+  "type": "months",
+  "timing": "NOW",
+  "title": "Google Launches Agent Compute Engine: Isolated MicroVMs for Every AI Agent",
+  "angle": "Google Cloud's new Agent Compute Engine gives each running AI agent its own isolated microVM with no exposed credentials, solving agent security.",
+  "outline": [
+   "The lethal vulnerability of AI agents: prompt injection granting full terminal and API secret access",
+   "Google's architectural fix: Agent Compute Engine (ACE) spins up hardware-isolated sub-second microVMs per session",
+   "How credential isolation works: agents execute code and manipulate environments while secrets remain outside memory space",
+   "Comparison with alternatives: AWS Firecracker, Docker sandboxes, and Vercel Secure Compute",
+   "How developers can architect secure production agents today with ephemeral environments"
+  ],
+  "items": [
+   "4800c2d96f2cc21e"
+  ],
+  "updated_at": "2026-10-23T15:51:59Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-23T15:51:59Z",
+  "history": [],
+  "id": "2026-10-23-indiaai-fellowship-2026-application-guide",
+  "type": "hype",
+  "timing": "NOW",
+  "title": "IndiaAI Fellowship 2026: Get Paid ₹50,000/Month and Free Compute to Build AI",
+  "angle": "MeitY's IndiaAI Mission opened applications for undergraduate, postgraduate, and PhD fellowships with GPU access; deadline Nov 30.",
+  "outline": [
+   "The announcement: IndiaAI Mission officially opens the 2026 student fellowship applications",
+   "Who qualifies: B.Tech, M.Tech, and PhD students in Indian universities building GenAI, Indic NLP, robotics, or edge AI",
+   "The benefits: Monthly financial stipend up to ₹50,000 + subsidized access to high-end Nvidia GPU clusters",
+   "Step-by-step application blueprint: how to write a compelling research proposal and avoid common rejection traps",
+   "Deadlines and selection timeline: submission cutoff Nov 30 and review process"
+  ],
+  "items": [
+   "5882ad8f79bc3bce"
+  ],
+  "updated_at": "2026-10-23T15:51:59Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-23T15:51:59Z",
+  "history": [],
+  "id": "2026-10-23-naive-rag-beats-complex-agent-memory",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "title": "Why Complex Agent Memory Fails (And Naive RAG Beats It)",
+  "angle": "A new benchmark across 4 datasets proves simple dense RAG with reranking beats complex graph and mutable agent memory systems.",
+  "outline": [
+   "The hype around agent memory: why developers spend months building hierarchical summary trees and graph databases",
+   "The benchmark reality check: Raw-RAG tested against complex frameworks across LoCoMo, LongMemEval, and MEME",
+   "Why naive RAG wins: dense embeddings plus cross-encoder rerankers preserve exact conversational context without semantic drift",
+   "The token cost breakdown: why multi-hop agent memory architectures burn 5x more tokens for lower recall accuracy",
+   "Production architecture blueprint: building a lightweight, bulletproof memory layer in Python with SQLite and FastEmbed"
+  ],
+  "items": [
+   "57248b05e51bf396"
+  ],
+  "updated_at": "2026-10-23T15:51:59Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-23T02:00:02Z",
   "history": [],
   "id": "2026-10-23-openai-decisions-api-routing",

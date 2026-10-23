@@ -657,5 +657,776 @@
   },
   "summary": "Simon Willison donated open-source agent skill specifications to the Agentic AI Foundation to foster vendor-neutral tool calling protocols.",
   "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "fcada7a6c2ec362d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "7d287d40f19632a7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "9ae135b367e73a0c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "933c807f2ebee18e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "7959f11cad182662": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "db0b60d5265478ea": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Comparison between MiniMax M3.1 Flash and DeepSeek V4.1 Flash highlights MIT licensing and context performance differences.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "8e9b8ac77559d3b6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Comparison between MiniMax M3.1 Flash and DeepSeek V4.1 Flash highlights MIT licensing and context performance differences.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "377893a442685493": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "DeepSeek reportedly secures $15B backing from major Chinese tech giants to scale compute infrastructure.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "e1d5c6f1fdd17c02": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Comparison between MiniMax M3.1 Flash and DeepSeek V4.1 Flash highlights MIT licensing and context performance differences.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "02a109df895eef64": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "dbf8d46a891100e8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "43f428025ac1a0b1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "1Password launches delegated authentication tokens allowing LLM agents to access web tools without seeing raw credentials.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "1048cb50deb9e834": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "6b4e8bb2a425ec8b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "LMArena leaderboard updates show new top-10 entries in coding and conversational reasoning.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "b31367d828a6d091": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "LMArena leaderboard updates show new top-10 entries in coding and conversational reasoning.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "614d1f51e020e622": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "86348e764ef40fa0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "IndiaAI Mission conducts project reviews assessing national compute GPU allocation across 190 selected initiatives.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "232c88ebcc8acbcc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "5882ad8f79bc3bce": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 3,
+  "reason": "free_offer",
+  "flags": {
+   "category": "offer"
+  },
+  "summary": "IndiaAI Fellowship 2026 opens applications offering monthly stipends and compute grants for Indian engineering students; deadline Nov 30. Hook: 'Get paid ₹50,000/month by the Indian Government to build AI: how to apply before Nov 30.'",
+  "notes": "- IndiaAI Mission under Ministry of Electronics and IT (MeitY) opens the 2026 Fellowship round.\n- Eligibility: B.Tech/M.Tech/PhD students researching GenAI, NLP for Indic languages, robotics, and edge AI.\n- Benefits: Monthly fellowship stipend + access to subsidized IndiaAI compute cluster GPUs.\n- Step-by-step application requirements, proposal structure, and selection criteria.",
+  "actions": [
+   "Created video idea 2026-10-23-indiaai-fellowship-2026-application-guide"
+  ],
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "e75c729d53bcc1a6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "fee01d6b39217c04": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "ad4c34bdae6f0b29": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "ae2ba57154fcfe8b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Multi-modal latent space optimization improves temporal consistency and physics fidelity in generative video.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "84037ef5e82bd570": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "db78904c25e4238e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "9c0e56d1a07227e6": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Multi-modal latent space optimization improves temporal consistency and physics fidelity in generative video.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "fb74fc2e19098d89": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Multi-modal latent space optimization improves temporal consistency and physics fidelity in generative video.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "61ee37219049068f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "57248b05e51bf396": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "New benchmark across 4 datasets proves naive RAG with dense reranking matches or beats complex mutable agent memory frameworks. Hook: 'Stop building complex agent memory trees: simple RAG just beat them all in benchmarks.'",
+  "notes": "- Comprehensive study evaluating Raw-RAG vs sophisticated mutable graph memory frameworks across LoCoMo, LongMemEval, and MEME benchmarks.\n- Finding: Raw conversational history chunking + dense embeddings + cross-encoder reranker consistently matched or outperformed complex multi-hop agent memory architectures with 70% lower engineering complexity.\n- Takeaway for developers: avoid premature architectural complexity when building long-term conversational memory in AI apps.",
+  "actions": [
+   "Created video idea 2026-10-23-naive-rag-beats-complex-agent-memory"
+  ],
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "184b69f8d8c2fdb2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "672720b372d2add7": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "official_launch",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "OpenAI forms cybersecurity and threat intelligence partnership with Polish cybersecurity agency NASK.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "e812f5d853d57f69": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "5a44e68fdc2515d1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "514d2ab9b6d108e6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "94c4dc643758bca1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "8a548f69800a9a19": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "1b8ea4e7ad652455": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "5e571554e8e02f0a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "3bf17d928926dc40": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "70162eb16361037b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "7cf8c05c484f284b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "fc88d47a62509591": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "b4d731e2712cc6df": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "289ee4a9a1ce37bb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "614d221852a2037d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "db10555d4d309b19": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "559eda14b22daf26": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "2c6647a1ba41ec9a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "86c039d36ab4db5f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "905001ef78f9e4df": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "96098f57372a9854": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "3e395ae87c1a28fa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "ecff9a57906caeea": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "62d66a8695936838": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "c2aa0695391982fe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "a845d11c3cda61e4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "ea9997f75c73504b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "7a9927109715fbdb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "e1893ee34619174d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "DeepSeek reportedly secures $15B backing from major Chinese tech giants to scale compute infrastructure.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "3eeaf50318c93004": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Comparison between MiniMax M3.1 Flash and DeepSeek V4.1 Flash highlights MIT licensing and context performance differences.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "bc4bf8d3256c0f6b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "4f46a6632f377efa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "b02b12b00af8ae16": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "SenseTime releases an edge-optimized decision routing model fine-tuned on Qwen architecture.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "289dede1db329b53": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "f079de04feb14233": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "c3e297f8230c9414": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "LMArena leaderboard updates show new top-10 entries in coding and conversational reasoning.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "f686a22ee3f695e9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "b4d18ad9454669d3": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "IndiaAI Mission conducts project reviews assessing national compute GPU allocation across 190 selected initiatives.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "5941f432a89754cc": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "India initiates sovereign defense AI stack development to reduce dependency on foreign foundation models.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "87fcd43b795485ea": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "20354556f9003e14": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "TinyFish open-sources an agentic search architecture breaking down document planning and multi-hop queries.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "4800c2d96f2cc21e": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "official_launch",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Google Cloud debuts Agent Compute Engine giving every running AI agent a hardware-isolated microVM without exposed credentials. Hook: 'Google just solved the biggest security risk in AI agents: here is how microVMs work.'",
+  "notes": "- Google Cloud announced Agent Compute Engine (ACE).\n- Architecture: spins up lightweight hardware-isolated microVMs per agent session with ephemeral lifetimes.\n- Eliminates prompt injection credential leaks by keeping secrets entirely outside the agent execution memory space.\n- Direct competition with AWS Firecracker and Vercel Secure Sandboxes for enterprise agentic workloads.",
+  "actions": [
+   "Created video idea 2026-10-23-google-cloud-agent-compute-engine-microvms"
+  ],
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "78f96551ab55bf2b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "You.com launches an OpenAI-compatible inference router supporting 12 open-weight models with a 99.9% uptime SLA.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "df3fcc024afc3724": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "US banking compliance audits reveal autonomous agents hallucinating unauthorized customer policy waivers.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "22e2cb2ae544348b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "7228eb43d2f4f606": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Latent Space deep dive on how test-time compute scaling and verifiable reward modeling solved IMO-level mathematics.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "b39b16f3d8bd2f50": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "10465fa03e6cf5c6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "b548b36d4f35fd2a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "9494a97e1a12e3c1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "69a20b961f71c5a8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "34348b863eac6232": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "83b413958a49f841": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "67ff4ef3aa6488a6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "96bfe89322b60786": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "1e9e2f7060dbe077": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "c4db8002791e22b3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "90c617fdcc4d4221": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Hacker News debate exploring the operational moats and distribution friction of building AI-native SaaS companies.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "21c50bfe062601c6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "3cb618a052bd17f5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "b1c9d194e7e65916": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "8be979366dd96922": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Research benchmarks foundation model tool capabilities specifically for executing agentic command-line terminal tasks.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "a26a24bc2c2c9c4e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "7e337a361a55bb48": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "82cd13376aaa2cff": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "New MoE parameter sharing technique achieves 40% memory savings without degradation on inference latency.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "c6ad35715f85e7e6": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Multi-modal latent space optimization improves temporal consistency and physics fidelity in generative video.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "9cef2b394f4a88d4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Multi-modal latent space optimization improves temporal consistency and physics fidelity in generative video.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "616879090fce4eea": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "15714cce8199a5e1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Trending red-teaming toolkit Claude-Red automates prompt injection robustness testing on LLM endpoints.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "e2dac8a688c523d6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Vercel introduces ephemeral scoped credential access for AI agents querying production databases.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "3af3b3d179b98173": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel Connect integrates automated Stripe secret key rotation and environment sync.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "763c218ec73f2596": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "1ff2a88bed348ffc": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Hussein Nasser explains PostgreSQL VACUUM FULL table locking mechanics and why bloat rebuilds can slow queries.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "47039b172d268d12": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "1b2f815470421b56": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "20fe4b65bc0ea1e7": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Modal CEO Erik Bernhardsson explains the physics and networking geometry of AI datacenter server racks.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "37ffdb5da9b826be": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "e76d11d4581af3ca": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Sam Witteveen reviews Recursive's Flint 40B coding model and its recursive self-improvement inference loop.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "27eda87fdc4bdc01": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matt Berman breaks down Sam Altman's commentary on scientific discovery models and autonomous agents.",
+  "notes": "- Analysis of OpenAI's o-series reasoning models moving into empirical automated scientific research.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "7383b6b0e9a1f2d5": {
+  "label": "PRACTICE",
+  "reason": "competitor_move",
+  "summary": "Krish Naik demonstrates deploying open-source LLMs on RunPod serverless endpoints with autoscaling.",
+  "notes": "- Walkthrough of setting up vLLM containers on serverless GPU infrastructure.\n- Cost comparison between provisioned compute vs cold-start serverless endpoints.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "f61f7d1326c3fe0c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "eac2b911b11af1aa": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo discusses government intervention and security scrutiny into AI supply chains and model weights.",
+  "notes": "- Technical overview of software supply chain security and export controls on frontier AI weights.",
+  "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "4f57ca5a52638f62": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Competitor AI news update: AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and ChatGPT Dot Is Free!.",
+  "notes": "- Creator commentary on recent model and tooling announcements: AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and ChatGPT Dot Is Free!",
+  "analyzed_at": "2026-10-23T15:51:41Z"
  }
 }
