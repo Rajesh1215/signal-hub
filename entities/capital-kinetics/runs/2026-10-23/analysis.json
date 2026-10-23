@@ -1,0 +1,1196 @@
+{
+ "f6c3d596cc656a35": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "9d091bee4df44356": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "regulation"
+  },
+  "summary": "SEBI circular grants margin waivers on subsequent cash trades after Early Pay-In (EPI) from Feb 2027, freeing intraday capital.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "d1a35e2b54279c1e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "regulation",
+  "flags": {
+   "category": "regulation"
+  },
+  "summary": "SEBI penalises registered research analyst ₹6 lakh for outsourcing core investment advice to unregistered entities.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "6df4168300384e82": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "c476a7173284fc0a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "6dbdf5d8eac3d19f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "e494c345ef8c4639": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Finshots breaks down how eMudhra's security certificate flaws led to browser trust issues and business restructuring.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "dc4807173abc071b": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "market_event",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Supreme Court upheld Bombay HC ruling overturning Yes Bank's ₹8,415 Cr AT1 bond write-off; major relief for retail and institutional bondholders.",
+  "notes": "- Supreme Court dismissed appeals by Yes Bank and RBI challenging Bombay High Court's order quashing the write-off of ₹8,415 crore Additional Tier 1 (AT1) bonds.\n- The write-off occurred during the March 2020 RBI-led reconstruction scheme.\n- Big legal precedent on whether administrator can write down perpetual bonds without extinguishing equity.\n- Critical lesson for retail investors buying high-yield secondary market bonds marketed as fixed deposits.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "f04845cde7b9f7f7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "e9627bd669abd532": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "7f2e496014f2182b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "da8ec8cd3ea4482d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Indian banking system liquidity surplus shrinks to ₹541 Cr amid heavy festive cash withdrawals and tax outflows.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "b8243897806921ce": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "3cfa5025e8251afb": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "RBI rules mandate failed UPI transactions must auto-reverse within T+1 day, or banks must pay ₹100/day penalty. Hook: 'Your UPI failed and money got stuck? Here is how to claim ₹100 every day your bank delays.'",
+  "notes": "- RBI framework on Harmonisation of Turn Around Time (TAT) and customer compensation for failed transactions.\n- For UPI: auto-reversal deadline is T + 1 day (next business day).\n- If the bank fails to reverse within T+1, they are liable to pay compensation of ₹100 per day to the account holder directly until reversed.\n- How to escalate: raise dispute in UPI app -> contact issuing bank -> file on RBI CMS (Complaints Management System) portal.",
+  "actions": [
+   "Created video idea 2026-10-23-upi-failed-payment-100-rupees-compensation"
+  ],
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "e6df012a16cdf6cd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "5dc5e8a960c8e3f7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "7fe78b4ab1aee2bc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "426b4e7c844fc13a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "markets"
+  },
+  "summary": "Retail traders increasingly pivot from F&O derivatives to margin trading facility (MTF) cash stock bets following tighter SEBI F&O curbs.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "0af72f395302c590": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "e1ab22707127a350": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "329691555b0be47f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "29d7495bf0995b43": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_outlook",
+  "flags": {
+   "category": "mutual_funds"
+  },
+  "summary": "Analysis of 10-year mutual fund SIP rolling returns across small-cap vs large-cap funds during volatile market phases.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "511ed9661a67d0c2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scam_alert",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Finance experts outline steps for users to verify digital signature tokens and browser security certificates following eMudhra breach.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "6d11709cb97a00c7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_outlook",
+  "flags": {
+   "category": "mutual_funds"
+  },
+  "summary": "Analysis of 10-year mutual fund SIP rolling returns across small-cap vs large-cap funds during volatile market phases.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "011b0e34817dd296": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tax"
+  },
+  "summary": "Banks report annual cash deposits of ₹10L+ to Income Tax under SFT rules, while direct family gifts have no upper limit. Hook: 'Why depositing ₹10 lakh in cash gets an IT notice, but a ₹50 lakh gift from parents is 100% tax-free.'",
+  "notes": "- Cash deposits exceeding ₹10 lakh in savings accounts or ₹50 lakh in current accounts in a financial year trigger automated Statement of Financial Transactions (SFT) reporting by banks to the IT Department.\n- Section 56(2)(x) exemptions: gifts from specified relatives (parents, spouse, siblings, lineal ascendants/descendants) are completely exempt from income tax with no upper threshold.\n- Key documentation required: gift deed, bank transfer proof (never cash), and donor source of funds justification.\n- High-value cash deposits without clear withdrawal trails trigger Section 68/69 unexplained money notices taxed at 78% effective rate.",
+  "actions": [
+   "Created video idea 2026-10-23-cash-deposit-vs-gift-tax-rules"
+  ],
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "cdb5c0999540bbaa": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "7fb14e777afe6cb8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "market_event",
+  "flags": {
+   "category": "markets"
+  },
+  "summary": "Institutional funds subscribe to Ola Electric rights entitlement shares amid ongoing operational adjustments.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "c83456784651643a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Institutional demand surges for Reliance Jio's upcoming mega IPO as fund managers adjust liquidity across secondary portfolios.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "4660e65b1d3745cf": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Institutional demand surges for Reliance Jio's upcoming mega IPO as fund managers adjust liquidity across secondary portfolios.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "bd39c50ef4c7d84c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "bc39934ccf683fce": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "yc"
+  },
+  "summary": "YC Startup Podcast analyzes high-converting landing page designs and UX common mistakes for early stage B2B startups.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "be6af10741beab48": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "8942656e53d787bd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "e1b5ff6735409c4b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "0c33e40f7f7c7574": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "573306c68683c6e3": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Defense robotics startup Warhound raises $200M to develop robotic systems paired with defense tech.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "426ea940fd8c7452": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "47717f635085d5d6": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "lessons"
+  },
+  "summary": "Tech founders share insights on why early customer retention and distribution velocity beat premature sales hiring.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "14016592c15b3638": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "OpenAI in early discussions to raise $30B at a record $1.25T valuation ahead of planned public offering.",
+  "notes": "- TechCrunch reports OpenAI exploring a mega $30 billion funding round at $1.25 trillion valuation.\n- Pre-IPO positioning and computing buildout for Stargate datacenter infrastructure.\n- Follows recent multi-billion dollar private capital infusions in AI labs.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "e9a8ab548db8dacc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "5655a2dcb7b1bd8f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "1cd3d06ec35e3b1d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "company_issue",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "eMudhra announces exit from global website SSL certificate issuance following international browser scrutiny.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "eb90a9a14c14005a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "earnings",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Swiggy narrows Q2 net loss to ₹922 Cr while planning to transition Instamart to an owned-inventory model over three quarters.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "813e057f132d0cdd": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "company_issue",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "eMudhra announces exit from global website SSL certificate issuance following international browser scrutiny.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "289e9de5732ad852": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Mental healthcare network Amaha raises ₹100 crore to scale outpatient psychiatric and therapy centers.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "df845c44e4c0fd88": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "earnings",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Omnichannel jewellery startup BlueStone posts ₹745 Cr revenue in Q2 FY27, narrowing net losses by 92%.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a52ebd4abf55f70d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a2156d4f5c9c1ad0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "B2B chemicals manufacturing and research platform Scimplify secures $25M in Series B round.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "0a378ede358d09d6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Indian lending infrastructure startup Vegafin raises $106M in growth capital from Premji Invest and Norwest.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "8d116e6cc8e07de9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Rural healthtech network CureBay raises ₹100 crore in funding led by IvyCap to expand village clinics.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "fc79f7a8ef1773a0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "1ce3205a6d0fd040": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "3ba31fdbc568aee1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a971a752d5a20ca6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "b3c43a76bbcd5311": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "1ca09816b3d7115c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "98a673459267aeb0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "de234219abcdda84": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "earnings",
+  "flags": {
+   "category": "company_results"
+  },
+  "summary": "Adani Energy Solutions posts strong Q2 net profit surge driven by transmission line commissioning and power demand.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "9a2edbad900975ad": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "earnings",
+  "flags": {
+   "category": "company_results"
+  },
+  "summary": "Adani Energy Solutions posts strong Q2 net profit surge driven by transmission line commissioning and power demand.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "5e9eb44aca1be3a9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a746c04f1bb1af9f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "earnings",
+  "flags": {
+   "category": "company_results"
+  },
+  "summary": "Colgate-Palmolive India reports Q2 FY27 net profit growth of 4.3% with domestic volume growth in rural markets.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "79e768e6b8a79fd3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "fa80781ab379b647": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "3d9284abf97ce95d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "05001f7b8e7ea6a1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "171e1590e4797182": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "4eca984b225628d2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "big_player_statement",
+  "flags": {
+   "category": "big_player_statement"
+  },
+  "summary": "PM Modi warns that global trade routes, key minerals, and digital technology are increasingly being weaponised in geopolitical tensions.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "27364666a33fbf8d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "2734e4463bb2f7a8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "2bb5cca141c21be6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "e0688714025ad96b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "4103203a1f65e2a6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "81275285e8801e2b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "5f4dde06cf9b8a99": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "hardware_chips"
+  },
+  "summary": "Meta adopts Google's custom AI TPUs across its data centers alongside GPUs to diversify compute infrastructure.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "bc5ae124b55754b1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "ea85cb0bce8d76fe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "ab6c67cff4dca475": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "63488103281d0e62": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "hardware_chips"
+  },
+  "summary": "TSMC leadership evaluates packaging and wafer fab expansions in the US to satisfy surging AI semiconductor orders.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "579b8d92f4c2d752": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "6c99fa25406f7c92": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "e85f1709fd4ee0e5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "16fc4c63ea153307": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "74316200d264f185": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "168e350d4e93a6a4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "8e2da4bf971f6d2a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "8c8b618939bcc0a7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a90a9848a3ab62c6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "c2e1f341bb90bc21": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "b634293e946e9e34": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "9d9aaad1aad5bb5c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "6508af73f1c721e0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "0936dec26518ba9c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "06dcda1ac3105886": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a85c528fc9d5136b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "29ce3fd4d973c5b9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a75b5cea69c7edca": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "516b976bfd84eece": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "global"
+  },
+  "summary": "US 10-year Treasury yield slides below 5% as market bets adjust following central bank comments.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "79b19e4d0823022a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "d230848db59ccb87": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "earnings",
+  "flags": {
+   "category": "tech_business"
+  },
+  "summary": "SpaceX reports $561M investment gain from its equity holding in tunnel-building venture The Boring Co.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "77bb9c89288d1502": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a03417fed74630d3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "b7d98d64bd5a4390": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "global"
+  },
+  "summary": "US 10-year Treasury yield slides below 5% as market bets adjust following central bank comments.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "c2ec95133b83facc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "541925082f8cbba6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Crude oil prices rise toward multi-month highs following geopolitical tensions in the Middle East and shipping rate spikes.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "4954fed0e85a4df3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "budget_or_policy",
+  "flags": {
+   "category": "world_geopolitics"
+  },
+  "summary": "US executive order proposes easing regulatory hurdles and mortgage insurance rules to address housing affordability.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "7fbc094444aa0ca1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "budget_or_policy",
+  "flags": {
+   "category": "world_geopolitics"
+  },
+  "summary": "US executive order proposes easing regulatory hurdles and mortgage insurance rules to address housing affordability.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "8f675885a08593c8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "budget_or_policy",
+  "flags": {
+   "category": "world_geopolitics"
+  },
+  "summary": "US executive order proposes easing regulatory hurdles and mortgage insurance rules to address housing affordability.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "8d93adb9ad16043f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "budget_or_policy",
+  "flags": {
+   "category": "world_geopolitics"
+  },
+  "summary": "US executive order proposes easing regulatory hurdles and mortgage insurance rules to address housing affordability.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "fffe17fbed5c743d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "budget_or_policy",
+  "flags": {
+   "category": "world_geopolitics"
+  },
+  "summary": "US executive order proposes easing regulatory hurdles and mortgage insurance rules to address housing affordability.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "0c30b2ac7a064803": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "59d3ed2dca8359d3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "4a73a3db5e2b75f5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "6cb15a19cba6c395": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "6395cbf63e7dfab7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "b2a08183ccb0923b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "d1068b1feeeb1e5f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Crude oil prices rise toward multi-month highs following geopolitical tensions in the Middle East and shipping rate spikes.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "80ed65fc463be3f7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Crude oil prices rise toward multi-month highs following geopolitical tensions in the Middle East and shipping rate spikes.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "75f21a575c0ebee8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "5729a77c043eae03": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "2790ebd065e29d07": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "df5e3b41c35109c6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "83c5769e67f96ca3": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "market_event",
+  "flags": {
+   "category": "hardware_chips"
+  },
+  "summary": "High-voltage cable and electrical transmission capacity emerges as the next physical bottleneck for global AI data centers.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "036441eea109015a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "0b4d0f4d9bfc8035": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "08e94b6b40b35c50": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "29610d378bd1cbd2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a8fc3fb949fde68a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "expert_view",
+  "flags": {
+   "category": "wall_street"
+  },
+  "summary": "JPMorgan CEO Jamie Dimon warns of persistent fiscal deficits, sticky global inflation, and geopolitical supply chain risks.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "ef36c45c15176803": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Freefincal releases October 2026 debt and hybrid mutual fund screener to track risk metrics and yield-to-maturity.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "897104b83515bf8e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "15716874bdfcec30": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a03946ab93396509": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "85f695b89d6f30fc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "692a17cbd32b6349": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "44dbb5ec09b136da": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "e674e37afd04fc21": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "5bd56fb218934359": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "d6373b2d822ace5c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "5e3ecd16ad30f855": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "8dd4537e1907988a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "ef6a40cb10977e7b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "b26a0bd8b71006d7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "bdad30fe704b869a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Nippon AMC pays ₹96.76 crore to settle SEBI proceedings regarding Yes Bank AT1 bond investments.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "8727becf57aa44e3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Nippon AMC pays ₹96.76 crore to settle SEBI proceedings regarding Yes Bank AT1 bond investments.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "b7ba7915d0afc585": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "e20b3ac26de854d0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "bb9fe2a9276de47a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "b4580568ff74e550": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a328ce66dfbc6110": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Indian mid-market IPO allotment updates and debut trading listings across NSE and BSE.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a0c48200d840c899": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "6e747351ff425bac": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "3675a2692434cfe1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "52c96dd9a17240b6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Crude oil prices rise toward multi-month highs following geopolitical tensions in the Middle East and shipping rate spikes.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "a39c155122896e5c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "5241a29286ec99ed": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "307cdf68d4495c75": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "bcc64fdfc9a8dcb3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "c3df649cd94a6ef9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "5f3649252339dea5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "847e81636ccda011": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "bded55e2aeb815a2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "3fac1750a479db3d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "725af667186ca344": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "0b49b61c9e798716": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "76ea32c0eaa3c75b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "4546d488a86c6437": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "da44e90985a602d5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "d605957db447bb6d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "db061eb6a3f05a43": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "startup_management"
+  },
+  "summary": "Harvard Business Review case study analyzing enterprise AI implementation bottlenecks and change management.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "011dffbcf2d72ec9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "startup_management"
+  },
+  "summary": "Harvard Business Review case study analyzing enterprise AI implementation bottlenecks and change management.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "538622f838735155": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "abfc7f81ee3f6450": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "83beab6a5c9a6c44": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "67578d46f7e1b710": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "90ac4a9bd2d1ea28": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "founder_mindset"
+  },
+  "summary": "My First Million discussion on founder frameworks, asymmetric risk-taking, and rebuilding capital from zero.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "8e9a9ab5708c4be0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "88c8f583df7e5712": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "RBI MPC meeting minutes reveal divergent views on future rate trajectory as sticky food inflation delays rate cuts.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "217802b4dc6f48c5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "RBI MPC meeting minutes reveal divergent views on future rate trajectory as sticky food inflation delays rate cuts.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "b4b2f23c5837cdba": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "RBI MPC meeting minutes reveal divergent views on future rate trajectory as sticky food inflation delays rate cuts.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ },
+ "c5b7127b89f429f1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "RBI conducts Variable Rate Repo (VRR) auctions as banking system liquidity surplus contracts.",
+  "analyzed_at": "2026-10-23T02:04:08Z"
+ }
+}

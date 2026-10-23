@@ -1,6 +1,69 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-23T02:00:02Z",
+  "history": [],
+  "id": "2026-10-23-openai-decisions-api-routing",
+  "type": "months",
+  "timing": "NOW",
+  "title": "OpenAI Just Launched the Decisions API: Instant Low-Cost Agent Routing",
+  "angle": "OpenAI's new Decisions API classifies and routes agent intent at 25ms latency and 90% lower cost than full LLM calls.",
+  "outline": [
+   "Why multi-agent workflows choke on reasoning costs: using frontier models just to classify user intent is burning money",
+   "What OpenAI Decisions API is: sub-50ms deterministic and classified routing at a fraction of standard token prices",
+   "Speed and latency benchmarks: 25ms round-trip routing between specialized sub-agents and tool calls",
+   "Live code demo: building a triage router for an agent pipeline in Python with fallback to full LLM",
+   "Actionable takeaways: how developers building multi-agent or agentic coding workflows can cut latency and token bills by 80%"
+  ],
+  "items": [
+   "4fff34f5afceec22"
+  ],
+  "updated_at": "2026-10-23T02:00:02Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-23T02:00:02Z",
+  "history": [],
+  "id": "2026-10-23-supabase-mcp-server-agents",
+  "type": "evergreen",
+  "timing": "NOW",
+  "title": "Supabase Launches Native MCP: Give Claude Code Direct Access to Postgres",
+  "angle": "Connect AI coding assistants directly to your production Postgres schema and data with zero glue code using native Model Context Protocol.",
+  "outline": [
+   "The MCP revolution: why Model Context Protocol is standardizing how LLMs talk to external systems",
+   "Supabase's native MCP server: schema inspection, type-safe queries, migration generation straight from Cursor / Claude Code",
+   "Security and sandboxing: read-only roles, row-level security enforcement, connection pooling",
+   "Step-by-step setup: connecting Claude Code and Cursor to a Supabase project in 60 seconds",
+   "Production best practices: protecting production schemas while empowering AI developer agents"
+  ],
+  "items": [
+   "ca0d2b4e4b6e2eff"
+  ],
+  "updated_at": "2026-10-23T02:00:02Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-23T02:00:02Z",
+  "history": [],
+  "id": "2026-10-23-llamacpp-8gb-vram-35b-models",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "title": "Run 35B AI Models on an 8GB GPU: llama.cpp's New Memory Streaming",
+  "angle": "How llama.cpp's latest MMQ quantization and memory streaming lets developers run massive 35B parameter reasoning models on budget hardware.",
+  "outline": [
+   "The local AI hardware wall: why 35B models previously required 24GB+ VRAM (RTX 3090/4090 or Mac Studio)",
+   "llama.cpp's breakthrough: memory streaming and MMQ matrix quantization that fits weights into 8GB VRAM with minimal perplexity penalty",
+   "Tokens/sec benchmarks: real-world speed on RTX 4060 (8GB) and M2 Mac (8GB/16GB)",
+   "Setup guide: building llama.cpp from source with the new flags and downloading quantized GGUF weights",
+   "Practical use cases: running high-accuracy coding and reasoning agents locally with zero cloud API costs"
+  ],
+  "items": [
+   "6ffe9b13d448de5c"
+  ],
+  "updated_at": "2026-10-23T02:00:02Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-22T15:20:19Z",
   "history": [],
   "id": "2026-10-22-1password-secure-ai-agents",

@@ -1,0 +1,661 @@
+{
+ "b3b2034c302a142e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Top queries focus on GPT-4o advanced voice mode latency, o1 reasoning limits, and search integration.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "e0fddf9032249753": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "High search volume on Gemini 1.5 Pro 2M context window benchmarks and free tier token quotas in India.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "5caa7cc671182630": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Surge in search traffic for Claude 3.5 Sonnet coding artifacts, computer use beta access, and Claude Duet launch.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "e994841623849596": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Searches asking if DeepSeek-Coder-V2 can match Claude 3.5 Sonnet at 1/10th API pricing.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "0e6f37c02c7d4911": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Queries comparing GitHub Copilot against Cursor AI for multi-file workspace indexing and code completion.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "8c77385efa5e1859": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "High curiosity about Cursor's Composer agent mode, .cursorrules system prompt configuration, and free usage tier.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "6804b9e25e2eb5e6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Searches on Perplexity Computer Mac offline agent launch, Pro subscription coupons, and academic research search.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "a130b0a6f08cc5ee": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Searches about Grok 2 image generation uncensored prompts, X Premium access, and vision model performance.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "528c8acd7f96119b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Searches for best frameworks to build production agents: LangGraph vs CrewAI vs Autogen vs Smolagents.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "f655fe0ff155bac6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Searches asking what Karpathy meant by 'vibe coding' and how to build full-stack apps without writing boilerplate syntax.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "271d2483a0f8f815": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Evergreen searches on Python 3.13 free-threaded GIL removal, typing best practices, and async programming.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "3994fdca743b42db": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Inquiries on free AI/ML engineering roadmaps, DeepLearning.AI certifications, and Andrew Ng courses in India.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "f4e8124852b4c7e2": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Searches for full-stack engineer tech stacks in 2026: Next.js + Tailwind + PostgreSQL + Drizzle ORM.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "9dfc587aed21a51b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Interview preparation searches on designing distributed caching, rate limiters, and microservice message queues.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "36ed08aa3c252cff": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Searches on Next.js 15 Server Actions, Turbopack stability, caching changes, and Vercel hosting vs self-hosting.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "4fff34f5afceec22": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "official_launch",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "OpenAI launched the Decisions API, an ultra-low latency, low-cost endpoint engineered specifically for tool routing and classification in multi-agent systems. Hook: 'OpenAI just launched the Decisions API: an ultra-fast endpoint built purely for routing and tool calling at a fraction of the cost.'",
+  "notes": "- Specialized endpoint returning deterministic boolean or enum choices in under 100ms\n- Costs up to 80% less than running standard GPT-4o for routing prompts\n- Enables complex multi-agent workflows to evaluate branch decisions without latency lag\n- Direct replacement for custom regex routers and expensive mini LLM evaluators",
+  "actions": [
+   "Created video idea 2026-10-23-openai-decisions-api-routing"
+  ],
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "04a0d490fcac76f6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "a219aa79018c2e42": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "d5bfb37295cec3b4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "9b7f96d08d43d211": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Hugging Face research demonstrates converting live database execution checks into RL reward signals creates significantly more reliable SQL agents.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "1c9798cd6ff43b2b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Nvidia developer guide on streaming training datasets directly from NVMe drives to GPU VRAM via GPUDirect Storage, bypassing CPU bottleneck.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "041c5f66e3424908": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "795dd8112b34d1a9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub Copilot officially rolled out support for Model Context Protocol (MCP) servers and custom agent skills in enterprise usage APIs.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "b4e22d17793ae763": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "409ae2febd6f0837": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "60ae255dd974858c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "c2d10c131bf60512": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "100a5ae51175e01a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "1ad0793f4727dbcd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "fb17789ec988ed17": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "bbeaa9f13512267a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "89d6234474036a26": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "c7405211daba7eb3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "8ed6d2221d9bb707": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "9e26dbba375bba61": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "6ba61c1e783a120d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "95c97081a81837e5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "2b9c8fd4be576f2c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "AI startup founded by former OpenAI CPO Kevin Weil and Meta AI leader Manohar Paluri raised $30 million in early-stage venture funding.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "04e4882c39085a93": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "e4b73d3d95d7552f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "6ffe9b13d448de5c": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 4,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "A breakdown of llama.cpp matrix-matrix quantization flags and memory-mapped layer streaming that allows an 8GB laptop GPU to run 35B models smoothly. Hook: 'How tweaking one compiler flag in llama.cpp lets you run 35B models smoothly on an 8GB laptop.'",
+  "notes": "- Uses --mmq (Matrix-Matrix Quantization) flag combined with K-quants (Q3_K_M or Q4_K_M)\n- Streams non-active layer weights via high-speed NVMe memory mapping\n- Preserves context window cache efficiency without hitting system memory thrashing\n- Makes local coding agents viable on affordable developer laptops",
+  "actions": [
+   "Created video idea 2026-10-23-llamacpp-8gb-vram-35b-models"
+  ],
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "58594b1271751e23": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "47383d4df9e23ca5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "3c08703cf5d7c5b6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "94a163b3c7159fd4": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "fdeb9011d6ef3a62": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "f092cdb19ea42211": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "24f4e92950883cb7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "93a08961ba11a810": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "20b67842cc0f95ed": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "efa3846562c38146": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "44b703c8aa0ec020": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "1d2b3e01b063ec93": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "ef58b5ec627769fb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "12822f97a25f7490": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "930547508459052d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "62345e3e9bc8a8ee": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "83e0c249fa2f5282": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "cc4d18bf7300f2f7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "a8bb71ed53edeaab": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "43f8249dddcc7814": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "a3d7fbf62d5de238": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "OpenAI is preparing a new $30 billion financing round at a projected $1.25 trillion valuation to finance next-generation frontier training clusters ahead of its IPO.",
+  "notes": "- OpenAI preparing $30 billion pre-IPO secondary and primary syndicate\n- Valuation targets $1.25 trillion benchmark\n- Reflects projected compute obligations and frontier data center agreements",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "b383eed5ba2f7310": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "9e03ce5a4740fea6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "66f9650c656b0ecf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "840f37789089e856": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "79291a631f338af5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "8d8b1ed5e38ee052": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "da141e0148cab284": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "e185be2295656881": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "8d86a8928be78e83": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "554d2db6672bc09f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "01e609d1b6d1eff7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "b470cc4c5a217091": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "f5436129fe2fac61": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "ab406fd5f999a512": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "91b680482b926eb5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Liquid AI launched RIPL, an optimized runtime delivering sub-50ms inference on non-transformer Liquid Foundation Models for robotics and edge computing.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "ceb9e3141d476410": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Gradium open-sourced Phonon, an Apache 2.0 31M-parameter on-device speech synthesis model capable of sub-10ms audio generation on edge CPUs.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "a972b62dc98ecb04": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Cohere released Rerank 5 with passage-level context focusing, improving precision in long-context enterprise RAG pipelines.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "4d35637f6d0c8ea6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "c39f2ea56e5eeb31": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "cc57c73692b410d6": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "OpenShell open-sourced a sandboxed container runtime for orchestrating fleets of autonomous coding agents with strict file system isolation.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "4f5ff5760052ed29": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "d47347f0f671c9ba": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "a3a5ca7a5e35bcdd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "0b311939b798af40": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "8528c7e8bba06ec5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "30c2ae47bc1e38fb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "f630dc5950db0dd8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "f06047e925ac1b03": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "388144d526637e11": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "a7bb01494614d2bc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "d746efcabc877247": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "5e23e0a07d479075": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "ad05f19ef4207b20": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "c765fecd27e03ee9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "ca0d2b4e4b6e2eff": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Supabase launched native Model Context Protocol (MCP) server integration, allowing AI coding agents like Claude Code and Cursor to query and mutate Postgres schemas directly. Hook: 'Supabase just turned every database into an MCP server: here is how to give your coding agents direct Postgres access.",
+  "notes": "- Generates an authenticated MCP server endpoint for any Supabase project with one click\n- Exposes table schemas, RPC functions, and migrations directly to AI IDEs\n- Zero-leak credential management with read-only permission scoping\n- Eliminates manual copy-pasting of database schemas into prompt context windows",
+  "actions": [
+   "Created video idea 2026-10-23-supabase-mcp-server-agents"
+  ],
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "925bfda71116086f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "4e1318e753785cb7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ },
+ "9ea995a558c382a1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Simon Willison donated open-source agent skill specifications to the Agentic AI Foundation to foster vendor-neutral tool calling protocols.",
+  "analyzed_at": "2026-10-23T01:59:24Z"
+ }
+}

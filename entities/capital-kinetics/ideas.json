@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-23T02:04:34Z",
+  "history": [],
+  "id": "2026-10-23-cash-deposit-vs-gift-tax-rules",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "title": "Cash Deposit vs Family Gift: Why ₹10 Lakh Cash Triggers a Notice but ₹50 Lakh Gift is Tax-Free",
+  "angle": "Banks report cash deposits over ₹10L automatically under SFT rules, while gifts from parents and relatives are completely tax-free under Section 56(2)(x) if documented correctly.",
+  "outline": [
+   "The puzzle: Why depositing your own ₹10 lakh cash gets an Income Tax scrutiny notice, but receiving a ₹50 lakh cheque from parents is 100% tax-free",
+   "How banks track you: Statement of Financial Transactions (SFT) automated reporting limits (₹10 lakh in savings accounts, ₹50 lakh in current accounts)",
+   "Section 56(2)(x) explained: The specific list of 'relatives' exempt from gift tax (parents, spouse, siblings, lineal descendants)",
+   "Why cash gifts still fail: Gifts over ₹2 lakh in cash violate Section 269ST; why all gifts must be via bank transfer or cheque",
+   "The 3 essential documents: Gift deed on stamp paper, bank statement trail, and donor source of funds to stay 100% compliant"
+  ],
+  "items": [
+   "011b0e34817dd296"
+  ],
+  "updated_at": "2026-10-23T02:04:34Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-23T02:04:34Z",
+  "history": [],
+  "id": "2026-10-23-series-first-job-ep5-first-credit-card",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "title": "Your First Credit Card: How to Build a 750+ CIBIL Score Without Paying a Rupee in Interest (Ep 5)",
+  "angle": "How first-job earners should pick and use their first credit card to build credit history while avoiding the 42% interest debt trap.",
+  "outline": [
+   "The myth of credit cards: Debt trap vs essential credit scoring tool for future home and car loans",
+   "How to get approved without credit history: Salary account pre-approved cards vs Fixed Deposit backed secured cards",
+   "The 30% credit utilization rule: Why spending ₹15,000 on a ₹50,000 limit boosts your score, while spending ₹45,000 hurts it",
+   "Statement date vs due date: Understanding billing cycles to get 45-50 days of interest-free credit",
+   "The minimum due trap: Why paying 'Minimum Amount Due' triggers 42% annualized interest on all past and future purchases"
+  ],
+  "items": [
+   "92e3a985074f50fc"
+  ],
+  "updated_at": "2026-10-23T02:04:34Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-22T15:25:02Z",
   "history": [],
   "id": "2026-10-22-sgb-redemption-tax-free-gains",
@@ -417,22 +459,29 @@
  {
   "status": "new",
   "created_at": "2026-10-18T13:13:28Z",
-  "history": [],
+  "history": [
+   {
+    "at": "2026-10-23T02:04:34Z",
+    "event": "updated by agent"
+   }
+  ],
   "id": "2026-10-18-failed-upi-atm-refund-100-per-day",
-  "title": "Failed UPI or ATM transaction? How to claim ₹100 per day from your bank",
+  "title": "UPI Payment Failed or Stuck? How to Claim ₹100 Per Day Compensation Under RBI Rules",
   "type": "evergreen",
-  "timing": "SOON",
-  "angle": "RBI rules mandate banks pay ₹100/day compensation if failed transactions aren't reversed in time. Most Indians don't know this exists.",
+  "timing": "ANYTIME",
+  "angle": "RBI's TAT harmonisation rules make banks strictly liable to pay ₹100 per day if money debited in a failed UPI transaction isn't auto-reversed by T+1.",
   "outline": [
-   "The frustration: Money debited from your bank account during a failed UPI or ATM payment.",
-   "RBI Harmonisation of TAT circular: The legal deadlines (T+1 for UPI, T+5 for ATM/POS).",
-   "The ₹100 per day rule: Why banks are legally obligated to auto-compensate without you asking.",
-   "What to do if the bank delays: Filing an automated complaint with the RBI Banking Ombudsman."
+   "The everyday panic: Money debited from your account, but merchant never received it",
+   "RBI's Harmonisation of Turn Around Time (TAT) framework: strict T+1 business day reversal deadline for UPI",
+   "The ₹100/day penalty: Bank must credit ₹100 per day directly to your bank account without you even asking, once T+1 lapses",
+   "Step-by-step escalation: In-app dispute -> Bank nodal officer -> RBI CMS portal (cms.rbi.org.in)",
+   "Scams to avoid: Why you should never google 'UPI customer care numbers' or install remote screen-sharing apps"
   ],
   "items": [
-   "9961f93a7344abc8"
+   "9961f93a7344abc8",
+   "3cfa5025e8251afb"
   ],
-  "updated_at": "2026-10-18T13:13:28Z"
+  "updated_at": "2026-10-23T02:04:34Z"
  },
  {
   "status": "new",
