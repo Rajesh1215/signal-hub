@@ -1428,5 +1428,232 @@
   "summary": "Competitor AI news update: AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and ChatGPT Dot Is Free!.",
   "notes": "- Creator commentary on recent model and tooling announcements: AI News: Claude Duet Crushes; Amazing Grok Bot Updates; and ChatGPT Dot Is Free!",
   "analyzed_at": "2026-10-23T15:51:41Z"
+ },
+ "feadcd9b757a19c1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "dcd1a5e30c200c78": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Ollama updates Gemma prompt templates and enhances GPU layer offloading on Apple Silicon Macs.",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "250464754cd05aac": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "dadf15c0dd085b85": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "d227b93cebefd3f2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "64d1de2c6ad5da4a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "7153b1ce78324ce3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "e127a7e56cc8c064": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "cb025abecd45211e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "51e9ed2d856c0a76": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "187243e7f8788267": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "82a7dd91fee4feff": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "942625fd0db19bcb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "a7d37b0aa99a436e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "6aa5cb3bdcdf79ac": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "AWS guide on sentence-by-sentence streaming using lightweight Kokoro-82M TTS over Server-Sent Events to cut voice agent latency to 200ms.",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "ba7d37eaa44e7f95": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "bded80b50487dad8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "8865227e77094cd2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "7b2212058c825fcb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "76378728672eaf2a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "1Password enables credential-free delegated authentication tokens for AI agents across enterprise web apps.",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "2417151d55e61685": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "fcbc6cfa3d2661f9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "10129f0d74919195": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "4dc607488b367988": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "14aa42e02a5bb989": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "a3a0efea0f3bd2b2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "7ff99d6fe1e2e9f8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "e2e607524a28b734": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "3af62de9d110a460": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "2491c2d4173111a5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "14e11d477a49af59": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Research benchmarks multi-modal agentic visual question answering and dynamic LLM router topologies.",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "ce112baecc7bdf2f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "7ff339a1d431a897": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "4a3bb512b2d4bd10": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Research benchmarks multi-modal agentic visual question answering and dynamic LLM router topologies.",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "cdcce102bcd63015": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "12def07af719d4dc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "ac8cd15a5571fb23": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "f87e189872ea8489": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "9b6cdf2c7c7a20f8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "46f14dd1370eabd8": {
+  "label": "PRACTICE",
+  "reason": "competitor_move",
+  "summary": "Krish Naik outlines AI engineering career paths, production LLMOps skillsets, and portfolio projects for 2026-27.",
+  "notes": "- Career roadmap for software engineers transitioning to AI / Agentic software roles.\n- Focus on RAG evaluation, LangGraph/CrewAI orchestration, and cloud deployment.",
+  "analyzed_at": "2026-10-24T06:23:17Z"
  }
 }

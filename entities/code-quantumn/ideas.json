@@ -1,6 +1,71 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-24T06:23:38Z",
+  "history": [],
+  "id": "2026-10-24-openai-bans-internet-training-airgap",
+  "type": "hype",
+  "timing": "NOW",
+  "title": "Why OpenAI Just Banned the Internet from Training New Models",
+  "angle": "OpenAI confirms frontier model training clusters are completely air-gapped from live web scraping to eliminate data poisoning and synthetic collapse.",
+  "outline": [
+   "The breaking news: OpenAI will no longer train frontier models on the live, open internet",
+   "The 3 fatal risks of the open web: Adversarial data poisoning, indirect prompt injection backdoors, and model collapse on synthetic AI-generated junk",
+   "What they use instead: Highly curated verified datasets, human expert reasoning transcripts, and closed synthetic self-play environments",
+   "The legal and copyright angle: How air-gapping training environments also insulates against copyright lawsuits",
+   "What this means for developers: The shift from 'more parameters on web data' to 'test-time compute and verifiable reasoning environments'"
+  ],
+  "items": [
+   "35e1add7659f201e",
+   "9e046180b0b11378"
+  ],
+  "updated_at": "2026-10-24T06:23:38Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-24T06:23:38Z",
+  "history": [],
+  "id": "2026-10-24-kimi-k31-pro-2-8-trillion-moe-model",
+  "type": "months",
+  "timing": "NOW",
+  "title": "Moonshot AI Kimi K3.1 Pro: 2.8 Trillion Parameters at 80% Less Cost",
+  "angle": "Kimi K3.1 Pro brings 2.8T total / 104B active MoE architecture and 1M context to Vercel AI Gateway at $2/$10 pricing with 65.7% Terminal-Bench score.",
+  "outline": [
+   "The announcement: Moonshot AI launches Kimi K3.1 Pro with 2.8 Trillion total parameters",
+   "The MoE efficiency trick: Only 104B parameters active per token, slashing inference cost while beating frontier models on reasoning",
+   "Terminal-Bench 4.0: Scoring 65.7% on autonomous agent terminal execution, rivaling Sonnet",
+   "Pricing comparison: $2/M input vs $3/M on Sonnet and $5/M on OpenAI o1",
+   "How to use it in code today: Calling Kimi K3.1 Pro via Vercel AI Gateway and upcoming open-weights release"
+  ],
+  "items": [
+   "3df32f97a90cb219",
+   "3b9c8cf9945616e7"
+  ],
+  "updated_at": "2026-10-24T06:23:38Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-24T06:23:38Z",
+  "history": [],
+  "id": "2026-10-24-nvidia-nemotron-bolt-4gb-vram-local",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "title": "Run Real-Time Voice AI Locally on Any 4GB GPU: Nvidia Nemotron 3.5 Bolt",
+  "angle": "Nvidia open-sourced Nemotron 3.5 Bolt E4B, an open small language model engineered to run sub-100ms voice agents entirely within 4GB of VRAM.",
+  "outline": [
+   "The edge AI challenge: Why running voice assistants locally usually chokes on 8GB+ memory requirements",
+   "Nvidia's breakthrough: Nemotron 3.5 Bolt distilled for fast conversational turn latency inside 4GB VRAM",
+   "Target hardware: Runs smoothly on RTX 3050/4050 budget laptops and Jetson Orin Nano modules",
+   "Pairing with Kokoro TTS: How to build a complete offline conversational agent with sub-200ms end-to-end latency",
+   "Hands-on setup: Running the GGUF model via Ollama / llama.cpp with Python"
+  ],
+  "items": [
+   "609b8d5add8e2b03"
+  ],
+  "updated_at": "2026-10-24T06:23:38Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-23T15:51:59Z",
   "history": [],
   "id": "2026-10-23-google-cloud-agent-compute-engine-microvms",
