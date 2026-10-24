@@ -1,1369 +1,1388 @@
 {
- "sources": [
-  {
-   "id": "search-demand-money",
-   "name": "What India is searching: money & finance",
-   "terms": [
-    "sip",
-    "mutual fund",
-    "gold etf",
-    "sgb",
-    "fixed deposit",
-    "nps",
-    "ppf",
-    "home loan",
-    "credit card",
-    "income tax",
-    "ipo",
-    "upi",
-    "epf",
-    "stock market",
-    "health insurance",
-    "term insurance",
-    "business",
-    "startup",
-    "gst",
-    "company registration",
-    "salary"
-   ],
-   "templates": [
-    "how to start {x}",
-    "is {x} safe",
-    "{x} vs",
-    "best {x}",
-    "{x} new rules",
-    "{x} in telugu"
-   ],
-   "seeds": [
-    "how to save money",
-    "how to invest",
-    "best investment for",
-    "how to reduce tax",
-    "how to get loan",
-    "salary hike",
-    "how to become rich",
-    "how to start a business",
-    "how to register a company",
-    "how to manage employees",
-    "first salary",
-    "how to manage money"
-   ],
-   "youtube": [
-    "{x} in telugu",
-    "how to save money",
-    "how to invest"
-   ],
-   "adapter": "site:search_demand",
-   "type": "search_demand",
-   "role": "news",
-   "tags": [
-    "search-demand",
-    "trending"
-   ],
-   "status": "active",
-   "gl": "in",
-   "hl": "en",
-   "every_hours": 20,
-   "max_new": 15,
-   "max_age_days": 2,
-   "why": "New Google/YouTube search suggestions in India: questions people have just started asking"
-  },
-  {
-   "id": "rbi-press",
-   "name": "RBI press releases",
-   "type": "feed",
-   "url": "https://rbi.org.in/pressreleases_rss.xml",
-   "role": "official",
-   "tags": [
-    "rbi",
-    "banking"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "rbi-notifications",
-   "name": "RBI notifications",
-   "type": "feed",
-   "url": "https://rbi.org.in/notifications_rss.xml",
-   "role": "official",
-   "tags": [
-    "rbi",
-    "regulation"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "sebi",
-   "name": "SEBI",
-   "type": "feed",
-   "url": "https://www.sebi.gov.in/sebirss.xml",
-   "role": "official",
-   "tags": [
-    "sebi",
-    "regulation"
-   ],
-   "status": "active",
-   "max_new": 6
-  },
-  {
-   "id": "finshots",
-   "name": "Finshots",
-   "type": "feed",
-   "url": "https://finshots.in/rss/",
-   "role": "news",
-   "tags": [
-    "explainer",
-    "business"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "et-markets",
-   "name": "ET Markets",
-   "type": "feed",
-   "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
-   "role": "news",
-   "tags": [
-    "markets"
-   ],
-   "status": "active",
-   "max_new": 6
-  },
-  {
-   "id": "et-wealth",
-   "name": "ET Wealth",
-   "type": "feed",
-   "url": "https://economictimes.indiatimes.com/wealth/rssfeeds/837555174.cms",
-   "role": "news",
-   "tags": [
-    "personal-finance"
-   ],
-   "status": "active",
-   "max_new": 10
-  },
-  {
-   "id": "mint-markets",
-   "name": "Mint Markets",
-   "type": "feed",
-   "url": "https://www.livemint.com/rss/markets",
-   "role": "news",
-   "tags": [
-    "markets"
-   ],
-   "status": "active",
-   "max_new": 6
-  },
-  {
-   "id": "mint-money",
-   "name": "Mint Money",
-   "type": "feed",
-   "url": "https://www.livemint.com/rss/money",
-   "role": "news",
-   "tags": [
-    "personal-finance"
-   ],
-   "status": "active",
-   "max_new": 10
-  },
-  {
-   "id": "businessline-markets",
-   "name": "BusinessLine Markets",
-   "type": "feed",
-   "url": "https://www.thehindubusinessline.com/markets/feeder/default.rss",
-   "role": "news",
-   "tags": [
-    "markets"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "cnbctv18-markets",
-   "name": "CNBC-TV18 Markets",
-   "type": "feed",
-   "url": "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml",
-   "role": "news",
-   "tags": [
-    "markets"
-   ],
-   "status": "paused",
-   "max_new": 10,
-   "why": "Overlaps ET/Mint markets; re-enable if those break"
-  },
-  {
-   "id": "yt-day-trader-telugu",
-   "name": "Day Trader Telugu",
-   "type": "youtube",
-   "channel_id": "UCeEP6GESh2t4-e2132uj3Sg",
-   "role": "news",
-   "tags": [
-    "telugu",
-    "daily-market"
-   ],
-   "status": "active",
-   "max_age_days": 3,
-   "max_new": 4,
-   "deep_video": true,
-   "why": "Daily Telugu market updates; the AI analyses every video in full (transcript or Gemini) and checks the news he mentions"
-  },
-  {
-   "id": "yc-blog",
-   "name": "Y Combinator Blog",
-   "type": "feed",
-   "url": "https://www.ycombinator.com/blog/rss/",
-   "role": "official",
-   "tags": [
-    "startups",
-    "yc"
-   ],
-   "status": "active",
-   "max_age_days": 7
-  },
-  {
-   "id": "hn-launch",
-   "name": "Hacker News: Launch HN / YC",
-   "type": "hn",
-   "role": "news",
-   "tags": [
-    "startups",
-    "yc"
-   ],
-   "status": "active",
-   "keywords": [
-    "launch hn",
-    "y combinator",
-    "yc w",
-    "yc s",
-    "yc f",
-    "yc x",
-    "(yc"
-   ],
-   "min_points": 30
-  },
-  {
-   "id": "gn-yc",
-   "name": "Y Combinator (news)",
-   "type": "gnews",
-   "query": "\"Y Combinator\" OR \"YC-backed\"",
-   "role": "news",
-   "tags": [
-    "startups",
-    "yc"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "tc-venture",
-   "name": "TechCrunch Venture",
-   "type": "feed",
-   "url": "https://techcrunch.com/category/venture/feed/",
-   "role": "news",
-   "tags": [
-    "funding"
-   ],
-   "status": "active",
-   "max_new": 6
-  },
-  {
-   "id": "tc-startups",
-   "name": "TechCrunch Startups",
-   "type": "feed",
-   "url": "https://techcrunch.com/category/startups/feed/",
-   "role": "news",
-   "tags": [
-    "startups"
-   ],
-   "status": "active",
-   "max_new": 6
-  },
-  {
-   "id": "crunchbase-news",
-   "name": "Crunchbase News",
-   "type": "feed",
-   "url": "https://news.crunchbase.com/feed/",
-   "role": "news",
-   "tags": [
-    "funding"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "inc42",
-   "name": "Inc42",
-   "type": "feed",
-   "url": "https://inc42.com/feed/",
-   "role": "news",
-   "tags": [
-    "india",
-    "startups"
-   ],
-   "status": "active",
-   "max_new": 8
-  },
-  {
-   "id": "yourstory",
-   "name": "YourStory",
-   "type": "feed",
-   "url": "https://yourstory.com/feed",
-   "role": "news",
-   "tags": [
-    "india",
-    "startups"
-   ],
-   "status": "active",
-   "max_new": 6
-  },
-  {
-   "id": "et-tech-startups",
-   "name": "ET Tech: Startups",
-   "type": "feed",
-   "url": "https://economictimes.indiatimes.com/tech/startups/rssfeeds/78570550.cms",
-   "role": "news",
-   "tags": [
-    "india",
-    "startups"
-   ],
-   "status": "active",
-   "max_new": 8
-  },
-  {
-   "id": "gn-entrackr",
-   "name": "Entrackr (news)",
-   "type": "gnews",
-   "query": "site:entrackr.com",
-   "role": "news",
-   "tags": [
-    "india",
-    "funding"
-   ],
-   "status": "active",
-   "max_new": 5,
-   "why": "Entrackr has no feed"
-  },
-  {
-   "id": "gn-india-funding",
-   "name": "Indian startup funding (news)",
-   "type": "gnews",
-   "query": "startup raises funding India OR \"Series A\" OR \"Series B\" India",
-   "role": "news",
-   "tags": [
-    "india",
-    "funding"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "mint-companies",
-   "name": "Mint Companies",
-   "type": "feed",
-   "url": "https://www.livemint.com/rss/companies",
-   "role": "news",
-   "tags": [
-    "companies"
-   ],
-   "status": "active",
-   "max_new": 6
-  },
-  {
-   "id": "businessline-companies",
-   "name": "BusinessLine Companies",
-   "type": "feed",
-   "url": "https://www.thehindubusinessline.com/companies/feeder/default.rss",
-   "role": "news",
-   "tags": [
-    "companies"
-   ],
-   "status": "active",
-   "max_new": 6
-  },
-  {
-   "id": "ndtv-profit",
-   "name": "NDTV Profit",
-   "type": "feed",
-   "url": "https://feeds.feedburner.com/ndtvprofit-latest",
-   "role": "news",
-   "tags": [
-    "business"
-   ],
-   "status": "active",
-   "max_new": 6
-  },
-  {
-   "id": "tomshardware",
-   "name": "Tom's Hardware",
-   "type": "feed",
-   "url": "https://www.tomshardware.com/feeds/all",
-   "role": "news",
-   "tags": [
-    "hardware"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "semianalysis",
-   "name": "SemiAnalysis",
-   "type": "feed",
-   "url": "https://newsletter.semianalysis.com/feed",
-   "role": "news",
-   "tags": [
-    "hardware",
-    "chips"
-   ],
-   "status": "active",
-   "max_age_days": 7
-  },
-  {
-   "id": "gn-semis",
-   "name": "Chips & hardware companies (news)",
-   "type": "gnews",
-   "query": "semiconductor OR TSMC OR Nvidia OR chipmaker earnings",
-   "role": "news",
-   "tags": [
-    "hardware",
-    "chips"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "bbc-world",
-   "name": "BBC World",
-   "type": "feed",
-   "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-   "role": "news",
-   "tags": [
-    "world",
-    "geopolitics"
-   ],
-   "status": "active",
-   "max_new": 6
-  },
-  {
-   "id": "bbc-business",
-   "name": "BBC Business",
-   "type": "feed",
-   "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
-   "role": "news",
-   "tags": [
-    "world",
-    "business"
-   ],
-   "status": "active",
-   "max_new": 6
-  },
-  {
-   "id": "hindu-international",
-   "name": "The Hindu International",
-   "type": "feed",
-   "url": "https://www.thehindu.com/news/international/feeder/default.rss",
-   "role": "news",
-   "tags": [
-    "world",
-    "india"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "cnbc-top",
-   "name": "CNBC Top News",
-   "type": "feed",
-   "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-   "role": "news",
-   "tags": [
-    "wall-street",
-    "us"
-   ],
-   "status": "active",
-   "max_new": 6
-  },
-  {
-   "id": "cnbc-economy",
-   "name": "CNBC Economy",
-   "type": "feed",
-   "url": "https://www.cnbc.com/id/20910258/device/rss/rss.html",
-   "role": "news",
-   "tags": [
-    "wall-street",
-    "economy"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "marketwatch",
-   "name": "MarketWatch",
-   "type": "feed",
-   "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
-   "role": "news",
-   "tags": [
-    "wall-street"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "gn-trump-markets",
-   "name": "Trump / White House and markets",
-   "type": "gnews",
-   "query": "Trump tariffs OR sanctions OR executive order markets",
-   "role": "news",
-   "tags": [
-    "big-players",
-    "us"
-   ],
-   "status": "active",
-   "max_new": 5,
-   "hl": "en-US",
-   "gl": "US",
-   "ceid": "US:en"
-  },
-  {
-   "id": "gn-fed",
-   "name": "Federal Reserve and central banks",
-   "type": "gnews",
-   "query": "\"Federal Reserve\" OR Powell OR \"rate decision\" OR ECB",
-   "role": "news",
-   "tags": [
-    "big-players",
-    "rates"
-   ],
-   "status": "active",
-   "max_new": 5,
-   "hl": "en-US",
-   "gl": "US",
-   "ceid": "US:en"
-  },
-  {
-   "id": "gn-trade-war",
-   "name": "Trade, wars and oil",
-   "type": "gnews",
-   "query": "trade war OR sanctions OR war oil prices markets",
-   "role": "news",
-   "tags": [
-    "world",
-    "geopolitics"
-   ],
-   "status": "active",
-   "max_new": 5,
-   "hl": "en-US",
-   "gl": "US",
-   "ceid": "US:en"
-  },
-  {
-   "id": "gn-wall-street-views",
-   "name": "Wall Street outlooks (Goldman, Morgan Stanley, JPMorgan…)",
-   "type": "gnews",
-   "query": "Goldman Sachs OR Morgan Stanley OR JPMorgan outlook strategist",
-   "role": "news",
-   "tags": [
-    "wall-street",
-    "experts"
-   ],
-   "status": "active",
-   "max_new": 5,
-   "hl": "en-US",
-   "gl": "US",
-   "ceid": "US:en"
-  },
-  {
-   "id": "gn-production",
-   "name": "Big company production & capacity",
-   "type": "gnews",
-   "query": "Reuters factory OR production OR capacity OR plant expansion company",
-   "role": "news",
-   "tags": [
-    "companies",
-    "production"
-   ],
-   "status": "active",
-   "max_new": 5,
-   "hl": "en-US",
-   "gl": "US",
-   "ceid": "US:en"
-  },
-  {
-   "id": "gn-big-investors",
-   "name": "Big investors' views (Buffett, Dalio, Marks…)",
-   "type": "gnews",
-   "query": "Buffett OR \"Ray Dalio\" OR \"Howard Marks\" OR \"Jamie Dimon\" says",
-   "role": "news",
-   "tags": [
-    "experts",
-    "lessons"
-   ],
-   "status": "active",
-   "max_new": 3,
-   "hl": "en-US",
-   "gl": "US",
-   "ceid": "US:en"
-  },
-  {
-   "id": "google-trends-in",
-   "name": "Google Trends India (trending searches)",
-   "type": "feed",
-   "url": "https://trends.google.com/trending/rss?geo=IN",
-   "role": "news",
-   "tags": [
-    "trending"
-   ],
-   "status": "active",
-   "max_new": 10,
-   "max_age_days": 1
-  },
-  {
-   "id": "freefincal",
-   "name": "Freefincal",
-   "type": "feed",
-   "url": "https://freefincal.com/feed/",
-   "role": "news",
-   "tags": [
-    "lessons",
-    "personal-finance"
-   ],
-   "status": "active",
-   "max_age_days": 7
-  },
-  {
-   "id": "safal-niveshak",
-   "name": "Safal Niveshak",
-   "type": "feed",
-   "url": "https://www.safalniveshak.com/feed/",
-   "role": "news",
-   "tags": [
-    "lessons",
-    "investing"
-   ],
-   "status": "active",
-   "max_age_days": 7
-  },
-  {
-   "id": "zerodha-zconnect",
-   "name": "Zerodha Z-Connect",
-   "type": "feed",
-   "url": "https://zerodha.com/z-connect/feed",
-   "role": "news",
-   "tags": [
-    "lessons",
-    "broker"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "wealth-common-sense",
-   "name": "A Wealth of Common Sense",
-   "type": "feed",
-   "url": "https://awealthofcommonsense.com/feed/",
-   "role": "news",
-   "tags": [
-    "lessons",
-    "investing"
-   ],
-   "status": "active",
-   "max_age_days": 7
-  },
-  {
-   "id": "yt-cnbc-tv18",
-   "name": "CNBC-TV18",
-   "type": "youtube",
-   "channel_id": "UCmRbHAgG2k2vDUvb3xsEunQ",
-   "role": "news",
-   "tags": [
-    "news-channel"
-   ],
-   "status": "active",
-   "max_age_days": 3,
-   "max_new": 3
-  },
-  {
-   "id": "yt-et-now",
-   "name": "ET Now",
-   "type": "youtube",
-   "channel_id": "UCI_mwTKUhicNzFrhm33MzBQ",
-   "role": "news",
-   "tags": [
-    "news-channel"
-   ],
-   "status": "active",
-   "max_age_days": 3,
-   "max_new": 3
-  },
-  {
-   "id": "yt-zee-business",
-   "name": "Zee Business",
-   "type": "youtube",
-   "channel_id": "UCkXopQ3ubd-rnXnStZqCl2w",
-   "role": "news",
-   "tags": [
-    "news-channel"
-   ],
-   "status": "active",
-   "max_age_days": 3,
-   "max_new": 3
-  },
-  {
-   "id": "yt-moneycontrol",
-   "name": "Moneycontrol",
-   "type": "youtube",
-   "channel_id": "UChftTVI0QJmyXkajQYt2tiQ",
-   "role": "news",
-   "tags": [
-    "news-channel"
-   ],
-   "status": "active",
-   "max_age_days": 3,
-   "max_new": 3
-  },
-  {
-   "id": "yt-cnbc-tv",
-   "name": "CNBC Television (US)",
-   "type": "youtube",
-   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
-   "role": "news",
-   "tags": [
-    "news-channel",
-    "wall-street"
-   ],
-   "status": "active",
-   "max_age_days": 3,
-   "max_new": 3
-  },
-  {
-   "id": "yt-bloomberg-tv",
-   "name": "Bloomberg Television",
-   "type": "youtube",
-   "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
-   "role": "news",
-   "tags": [
-    "news-channel",
-    "wall-street"
-   ],
-   "status": "active",
-   "max_age_days": 3,
-   "max_new": 3
-  },
-  {
-   "id": "gn-rbi-rules",
-   "name": "RBI rules & policy (news)",
-   "type": "gnews",
-   "query": "RBI circular OR guidelines OR \"monetary policy\" OR repo",
-   "role": "news",
-   "tags": [
-    "rbi",
-    "regulation"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "gn-sebi-rules",
-   "name": "SEBI rules & orders (news)",
-   "type": "gnews",
-   "query": "SEBI circular OR \"new rules\" OR consultation OR order",
-   "role": "news",
-   "tags": [
-    "sebi",
-    "regulation"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "gn-nse-bse",
-   "name": "NSE / BSE rules & listings (news)",
-   "type": "gnews",
-   "query": "\"NSE\" OR \"BSE\" circular OR framework OR \"new rule\" OR listing",
-   "role": "news",
-   "tags": [
-    "exchange",
-    "regulation"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "gn-global-markets",
-   "name": "Global markets (Asia, Europe, Wall Street)",
-   "type": "gnews",
-   "query": "global markets stocks Asia Europe Wall Street close",
-   "role": "news",
-   "tags": [
-    "global-markets"
-   ],
-   "status": "active",
-   "max_new": 5,
-   "hl": "en-US",
-   "gl": "US",
-   "ceid": "US:en"
-  },
-  {
-   "id": "gn-world-leaders",
-   "name": "World leaders: Putin, Xi, Kremlin, Beijing",
-   "type": "gnews",
-   "query": "Putin OR \"Xi Jinping\" OR Kremlin OR Beijing trade OR sanctions OR economy",
-   "role": "news",
-   "tags": [
-    "world-leaders",
-    "geopolitics"
-   ],
-   "status": "active",
-   "max_new": 5,
-   "hl": "en-US",
-   "gl": "US",
-   "ceid": "US:en"
-  },
-  {
-   "id": "gn-china-economy",
-   "name": "China economy & policy",
-   "type": "gnews",
-   "query": "China economy OR yuan OR PBOC OR stimulus",
-   "role": "news",
-   "tags": [
-    "china",
-    "global-markets"
-   ],
-   "status": "active",
-   "max_new": 4,
-   "hl": "en-US",
-   "gl": "US",
-   "ceid": "US:en"
-  },
-  {
-   "id": "startuptalky",
-   "name": "StartupTalky (Indian business case studies)",
-   "type": "feed",
-   "url": "https://startuptalky.com/rss/",
-   "role": "news",
-   "tags": [
-    "case-studies",
-    "india"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "gn-firstround",
-   "name": "First Round Review (running a company)",
-   "type": "sitemap",
-   "role": "news",
-   "tags": [
-    "management",
-    "startups"
-   ],
-   "status": "active",
-   "max_new": 3,
-   "url": "https://review.firstround.com/sitemap-posts.xml",
-   "baseline": true
-  },
-  {
-   "id": "gn-hbr",
-   "name": "Harvard Business Review (management, people)",
-   "type": "gnews",
-   "query": "site:hbr.org",
-   "role": "news",
-   "tags": [
-    "management"
-   ],
-   "status": "active",
-   "max_new": 3
-  },
-  {
-   "id": "gn-a16z",
-   "name": "a16z (startups, investing)",
-   "type": "gnews",
-   "query": "site:a16z.com",
-   "role": "news",
-   "tags": [
-    "startups",
-    "vc"
-   ],
-   "status": "active",
-   "max_new": 3
-  },
-  {
-   "id": "lennys-newsletter",
-   "name": "Lenny's Newsletter (product, growth, hiring)",
-   "type": "feed",
-   "url": "https://www.lennysnewsletter.com/feed",
-   "role": "news",
-   "tags": [
-    "product",
-    "management"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "pg-essays",
-   "name": "Paul Graham essays",
-   "type": "feed",
-   "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
-   "role": "people",
-   "tags": [
-    "startups",
-    "essays"
-   ],
-   "status": "active",
-   "baseline": true,
-   "max_age_days": 3650
-  },
-  {
-   "id": "yt-yc",
-   "name": "Y Combinator (Startup School)",
-   "type": "youtube",
-   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
-   "role": "news",
-   "tags": [
-    "startups",
-    "learning"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 2
-  },
-  {
-   "id": "yt-lennys-podcast",
-   "name": "Lenny's Podcast",
-   "type": "youtube",
-   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
-   "role": "news",
-   "tags": [
-    "product",
-    "management",
-    "learning"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 2
-  },
-  {
-   "id": "yt-my-first-million",
-   "name": "My First Million",
-   "type": "youtube",
-   "channel_id": "UCyaN6mg5u8Cjy2ZI4ikWaug",
-   "role": "news",
-   "tags": [
-    "business-ideas",
-    "learning"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 2
-  },
-  {
-   "id": "yt-diary-of-a-ceo",
-   "name": "The Diary Of A CEO",
-   "type": "youtube",
-   "channel_id": "UCGq-a57w-aPwyi3pW7XLiHw",
-   "role": "news",
-   "tags": [
-    "founders",
-    "mindset",
-    "learning"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 2
-  },
-  {
-   "id": "reddit-money-india",
-   "name": "Reddit: Indian personal finance (4 subs)",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/IndiaInvestments+personalfinanceindia+FIREIndia+CreditCardsIndia/top/?t=day",
-   "subreddits": [
-    "IndiaInvestments",
-    "personalfinanceindia",
-    "FIREIndia",
-    "CreditCardsIndia"
-   ],
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "pick": 5,
-   "min_upvotes": 30,
-   "why": "The AI reads the top discussions here during analyze today (r/IndiaInvestments, r/personalfinanceindia, r/FIREIndia, r/CreditCardsIndia)"
-  },
-  {
-   "id": "reddit-markets",
-   "name": "Reddit: markets & economy (3 subs)",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/IndianStockMarket+Economics+business/top/?t=day",
-   "subreddits": [
-    "IndianStockMarket",
-    "Economics",
-    "business"
-   ],
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "pick": 5,
-   "min_upvotes": 100,
-   "why": "The AI reads the top discussions here during analyze today (r/IndianStockMarket, r/Economics, r/business)"
-  },
-  {
-   "id": "reddit-startups-tech",
-   "name": "Reddit: startups & tech business (5 subs)",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/startups+ycombinator+StartUpIndia+hardware+technology/top/?t=day",
-   "subreddits": [
-    "startups",
-    "ycombinator",
-    "StartUpIndia",
-    "hardware",
-    "technology"
-   ],
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "pick": 4,
-   "min_upvotes": 200,
-   "why": "The AI reads the top discussions here during analyze today (r/startups, r/ycombinator, r/StartUpIndia, r/hardware, r/technology)"
-  },
-  {
-   "id": "reddit-business-mgmt",
-   "name": "Reddit: business & management (8 subs)",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/startups+Entrepreneur+smallbusiness+StartUpIndia+managers+humanresources+sales+CustomerSuccess/top/?t=day",
-   "subreddits": [
-    "startups",
-    "Entrepreneur",
-    "smallbusiness",
-    "StartUpIndia",
-    "managers",
-    "humanresources",
-    "sales",
-    "CustomerSuccess"
-   ],
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "pick": 5,
-   "min_upvotes": 100,
-   "why": "The AI reads the top discussions here during analyze today (r/startups, r/Entrepreneur, r/smallbusiness, r/StartUpIndia, r/managers, r/humanresources, r/sales, r/CustomerSuccess)"
-  },
-  {
-   "id": "yt-zerodha",
-   "name": "Zerodha",
-   "type": "youtube",
-   "channel_id": "UC59YUBhNLMkS2Q8NBWBGHAA",
-   "role": "org",
-   "tags": [
-    "broker",
-    "education"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "nse-circulars",
-   "name": "NSE circulars",
-   "type": "page",
-   "url": "https://www.nseindia.com/resources/exchange-communication-circulars",
-   "role": "official",
-   "tags": [
-    "exchange"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "why": "Blocks scripts; check weekly by hand"
-  },
-  {
-   "id": "pib-finance",
-   "name": "PIB Finance Ministry",
-   "type": "page",
-   "url": "https://pib.gov.in/allRel.aspx",
-   "role": "official",
-   "tags": [
-    "government"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "why": "Blocks scripts; check on budget/policy days"
-  },
-  {
-   "id": "incometax-news",
-   "name": "Income Tax Dept news",
-   "type": "page",
-   "url": "https://www.incometax.gov.in/iec/foportal/latest-news",
-   "role": "official",
-   "tags": [
-    "tax"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "why": "Check around tax deadlines"
-  },
-  {
-   "id": "x-list-markets-world",
-   "name": "X list: Markets, Business & World (created, pinned)",
-   "type": "x_list",
-   "url": "https://x.com/i/lists/2111523578500022334",
-   "role": "people",
-   "tags": [
-    "x"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "members": [
-    "RBI",
-    "SEBI_updates",
-    "FinMinIndia",
-    "nsitharamanoffc",
-    "NSEIndia",
-    "BSEIndia",
-    "CNBCTV18Live",
-    "ETNOWlive",
-    "EconomicTimes",
-    "livemint",
-    "moneycontrolcom",
-    "finshots",
-    "Nithin0dha",
-    "deepakshenoy",
-    "Reuters",
-    "ReutersBiz",
-    "business",
-    "markets",
-    "WSJmarkets",
-    "CNBC",
-    "federalreserve",
-    "realDonaldTrump",
-    "WhiteHouse",
-    "IMFNews",
-    "ycombinator",
-    "Inc42",
-    "entrackr",
-    "TechCrunch",
-    "KremlinRussia_E",
-    "MFA_China",
-    "XHNews",
-    "narendramodi",
-    "PMOIndia"
-   ],
-   "why": "Your private list on X (33 accounts): Indian regulators and markets, Wall Street, world events, world leaders (Trump, Putin, China, Modi), startups. Also useful: Scoble's Investors, VC Firms and Founders lists you follow"
-  },
-  {
-   "id": "x-list-saas",
-   "name": "X list: saas (SaaS & indie builders)",
-   "type": "x_list",
-   "url": "https://x.com/i/lists/2087135140694917178",
-   "role": "people",
-   "tags": [
-    "x",
-    "saas",
-    "startups"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "members": [
-    "levelsio",
-    "marclou",
-    "gregisenberg",
-    "jasonlk",
-    "saastr",
-    "dhh",
-    "jasonfried",
-    "arvidkahl",
-    "tdinh_me",
-    "jackfriks",
-    "robwalling",
-    "patio11",
-    "csallen",
-    "dannypostma",
-    "yongfook",
-    "svembu",
-    "mrgirish",
-    "launch_llama",
-    "Joi2James",
-    "Guronnimo",
-    "lightsilver323"
-   ],
-   "why": "SaaS founders and operators: revenue, pricing, running a software company (startups + running-a-company scope). Your list on @Kingrajesh1215 (21 members, updated 19 Oct 2026). Open X in Brave; the in-app browser can't load X."
-  }
- ],
- "competitors": [
-  {
-   "id": "finance-with-sharan",
-   "name": "Finance With Sharan",
-   "kind": "channel",
-   "why": "Biggest English finance explainer for Indian salaried people",
-   "status": "active",
-   "sources": [
+  "sources": [
     {
-     "id": "comp-sharan-yt",
-     "type": "youtube",
-     "channel_id": "UCwVEhEzsjLym_u1he4XWFkg",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "ca-rachana-ranade",
-   "name": "CA Rachana Ranade",
-   "kind": "channel",
-   "why": "Teacher-style market basics",
-   "status": "active",
-   "sources": [
+      "id": "search-demand-money",
+      "name": "What India is searching: money & finance",
+      "terms": [
+        "sip",
+        "mutual fund",
+        "gold etf",
+        "sgb",
+        "fixed deposit",
+        "nps",
+        "ppf",
+        "home loan",
+        "credit card",
+        "income tax",
+        "ipo",
+        "upi",
+        "epf",
+        "stock market",
+        "health insurance",
+        "term insurance",
+        "business",
+        "startup",
+        "gst",
+        "company registration",
+        "salary"
+      ],
+      "templates": [
+        "how to start {x}",
+        "is {x} safe",
+        "{x} vs",
+        "best {x}",
+        "{x} new rules",
+        "{x} in telugu"
+      ],
+      "seeds": [
+        "how to save money",
+        "how to invest",
+        "best investment for",
+        "how to reduce tax",
+        "how to get loan",
+        "salary hike",
+        "how to become rich",
+        "how to start a business",
+        "how to register a company",
+        "how to manage employees",
+        "first salary",
+        "how to manage money"
+      ],
+      "youtube": [
+        "{x} in telugu",
+        "how to save money",
+        "how to invest"
+      ],
+      "adapter": "site:search_demand",
+      "type": "search_demand",
+      "role": "news",
+      "tags": [
+        "search-demand",
+        "trending"
+      ],
+      "status": "active",
+      "gl": "in",
+      "hl": "en",
+      "every_hours": 20,
+      "max_new": 15,
+      "max_age_days": 2,
+      "why": "New Google/YouTube search suggestions in India: questions people have just started asking"
+    },
     {
-     "id": "comp-rachana-yt",
-     "type": "youtube",
-     "channel_id": "UChnK-EoSW6er1qtWkwnJDRw",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "akshat-shrivastava",
-   "name": "Akshat Shrivastava",
-   "kind": "channel",
-   "why": "Fast reactions to economic news",
-   "status": "active",
-   "sources": [
+      "id": "rbi-press",
+      "name": "RBI press releases",
+      "type": "feed",
+      "url": "https://rbi.org.in/pressreleases_rss.xml",
+      "role": "official",
+      "tags": [
+        "rbi",
+        "banking"
+      ],
+      "status": "active"
+    },
     {
-     "id": "comp-akshat-yt",
-     "type": "youtube",
-     "channel_id": "UCqW8jxh4tH1Z1sWPbkGWL4g",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "labour-law-advisor",
-   "name": "Labour Law Advisor",
-   "kind": "channel",
-   "why": "Salary, PF, tax and job-rights topics",
-   "status": "active",
-   "sources": [
+      "id": "rbi-notifications",
+      "name": "RBI notifications",
+      "type": "feed",
+      "url": "https://rbi.org.in/notifications_rss.xml",
+      "role": "official",
+      "tags": [
+        "rbi",
+        "regulation"
+      ],
+      "status": "active"
+    },
     {
-     "id": "comp-lla-yt",
-     "type": "youtube",
-     "channel_id": "UCVOTBwF0vnSxMRIbfSE_K_g",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "think-school",
-   "name": "Think School",
-   "kind": "channel",
-   "why": "Indian business case studies: the gold standard",
-   "status": "active",
-   "sources": [
+      "id": "sebi",
+      "name": "SEBI",
+      "type": "feed",
+      "url": "https://www.sebi.gov.in/sebirss.xml",
+      "role": "official",
+      "tags": [
+        "sebi",
+        "regulation"
+      ],
+      "status": "active",
+      "max_new": 6
+    },
     {
-     "id": "comp-think-school-yt",
-     "type": "youtube",
-     "channel_id": "UCKZozRVHRYsYHGEyNKuhhdA",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "raj-shamani",
-   "name": "Raj Shamani (Figuring Out)",
-   "kind": "channel",
-   "why": "Founder and business podcast",
-   "status": "active",
-   "sources": [
+      "id": "finshots",
+      "name": "Finshots",
+      "type": "feed",
+      "url": "https://finshots.in/rss/",
+      "role": "news",
+      "tags": [
+        "explainer",
+        "business"
+      ],
+      "status": "active"
+    },
     {
-     "id": "comp-raj-shamani-yt",
-     "type": "youtube",
-     "channel_id": "UCzwCEE_PchiBULMnAJqhGVg",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "nikhil-kamath",
-   "name": "Nikhil Kamath (WTF)",
-   "kind": "channel",
-   "why": "Founders, investors, business deep-dives",
-   "status": "active",
-   "sources": [
+      "id": "et-markets",
+      "name": "ET Markets",
+      "type": "feed",
+      "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+      "role": "news",
+      "tags": [
+        "markets"
+      ],
+      "status": "active",
+      "max_new": 6
+    },
     {
-     "id": "comp-nikhil-kamath-yt",
-     "type": "youtube",
-     "channel_id": "UCnC8SAZzQiBGYVSKZ_S3y4Q",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "ankur-warikoo",
-   "name": "Ankur Warikoo",
-   "kind": "channel",
-   "why": "Personal finance and entrepreneurship",
-   "status": "active",
-   "sources": [
+      "id": "et-wealth",
+      "name": "ET Wealth",
+      "type": "feed",
+      "url": "https://economictimes.indiatimes.com/wealth/rssfeeds/837555174.cms",
+      "role": "news",
+      "tags": [
+        "personal-finance"
+      ],
+      "status": "active",
+      "max_new": 10
+    },
     {
-     "id": "comp-ankur-warikoo-yt",
-     "type": "youtube",
-     "channel_id": "UCRzYN32xtBf3Yxsx5BvJWJw",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "barbershop-shantanu",
-   "name": "The Barbershop with Shantanu",
-   "kind": "channel",
-   "why": "Founder stories and startup reality",
-   "status": "active",
-   "sources": [
+      "id": "mint-markets",
+      "name": "Mint Markets",
+      "type": "feed",
+      "url": "https://www.livemint.com/rss/markets",
+      "role": "news",
+      "tags": [
+        "markets"
+      ],
+      "status": "active",
+      "max_new": 6
+    },
     {
-     "id": "comp-barbershop-shantanu-yt",
-     "type": "youtube",
-     "channel_id": "UCta-0NnMg1q3g3bZN_yS65A",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "varun-mayya",
-   "name": "Varun Mayya",
-   "kind": "channel",
-   "why": "Business, tech and careers",
-   "status": "active",
-   "sources": [
+      "id": "mint-money",
+      "name": "Mint Money",
+      "type": "feed",
+      "url": "https://www.livemint.com/rss/money",
+      "role": "news",
+      "tags": [
+        "personal-finance"
+      ],
+      "status": "active",
+      "max_new": 10
+    },
     {
-     "id": "comp-varun-mayya-yt",
-     "type": "youtube",
-     "channel_id": "UCsQoiOrh7jzKmE8NBofhTnQ",
-     "max_age_days": 7,
-     "max_new": 3
+      "id": "businessline-markets",
+      "name": "BusinessLine Markets",
+      "type": "feed",
+      "url": "https://www.thehindubusinessline.com/markets/feeder/default.rss",
+      "role": "news",
+      "tags": [
+        "markets"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "cnbctv18-markets",
+      "name": "CNBC-TV18 Markets",
+      "type": "feed",
+      "url": "https://www.cnbctv18.com/commonfeeds/v1/cne/rss/market.xml",
+      "role": "news",
+      "tags": [
+        "markets"
+      ],
+      "status": "paused",
+      "max_new": 10,
+      "why": "Overlaps ET/Mint markets; re-enable if those break"
+    },
+    {
+      "id": "yt-day-trader-telugu",
+      "name": "Day Trader Telugu",
+      "type": "youtube",
+      "channel_id": "UCeEP6GESh2t4-e2132uj3Sg",
+      "role": "news",
+      "tags": [
+        "telugu",
+        "daily-market"
+      ],
+      "status": "active",
+      "max_age_days": 3,
+      "max_new": 4,
+      "deep_video": true,
+      "why": "Daily Telugu market updates; the AI analyses every video in full (transcript or Gemini) and checks the news he mentions"
+    },
+    {
+      "id": "yc-blog",
+      "name": "Y Combinator Blog",
+      "type": "feed",
+      "url": "https://www.ycombinator.com/blog/rss/",
+      "role": "official",
+      "tags": [
+        "startups",
+        "yc"
+      ],
+      "status": "active",
+      "max_age_days": 7
+    },
+    {
+      "id": "hn-launch",
+      "name": "Hacker News: Launch HN / YC",
+      "type": "hn",
+      "role": "news",
+      "tags": [
+        "startups",
+        "yc"
+      ],
+      "status": "active",
+      "keywords": [
+        "launch hn",
+        "y combinator",
+        "yc w",
+        "yc s",
+        "yc f",
+        "yc x",
+        "(yc"
+      ],
+      "min_points": 30
+    },
+    {
+      "id": "gn-yc",
+      "name": "Y Combinator (news)",
+      "type": "gnews",
+      "query": "\"Y Combinator\" OR \"YC-backed\"",
+      "role": "news",
+      "tags": [
+        "startups",
+        "yc"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "tc-venture",
+      "name": "TechCrunch Venture",
+      "type": "feed",
+      "url": "https://techcrunch.com/category/venture/feed/",
+      "role": "news",
+      "tags": [
+        "funding"
+      ],
+      "status": "active",
+      "max_new": 6
+    },
+    {
+      "id": "tc-startups",
+      "name": "TechCrunch Startups",
+      "type": "feed",
+      "url": "https://techcrunch.com/category/startups/feed/",
+      "role": "news",
+      "tags": [
+        "startups"
+      ],
+      "status": "active",
+      "max_new": 6
+    },
+    {
+      "id": "crunchbase-news",
+      "name": "Crunchbase News",
+      "type": "feed",
+      "url": "https://news.crunchbase.com/feed/",
+      "role": "news",
+      "tags": [
+        "funding"
+      ],
+      "status": "paused",
+      "why": "Paused in weekly review: 100% SKIP rate over past 7 days"
+    },
+    {
+      "id": "inc42",
+      "name": "Inc42",
+      "type": "feed",
+      "url": "https://inc42.com/feed/",
+      "role": "news",
+      "tags": [
+        "india",
+        "startups"
+      ],
+      "status": "active",
+      "max_new": 8
+    },
+    {
+      "id": "yourstory",
+      "name": "YourStory",
+      "type": "feed",
+      "url": "https://yourstory.com/feed",
+      "role": "news",
+      "tags": [
+        "india",
+        "startups"
+      ],
+      "status": "active",
+      "max_new": 6
+    },
+    {
+      "id": "et-tech-startups",
+      "name": "ET Tech: Startups",
+      "type": "feed",
+      "url": "https://economictimes.indiatimes.com/tech/startups/rssfeeds/78570550.cms",
+      "role": "news",
+      "tags": [
+        "india",
+        "startups"
+      ],
+      "status": "active",
+      "max_new": 8
+    },
+    {
+      "id": "gn-entrackr",
+      "name": "Entrackr (news)",
+      "type": "gnews",
+      "query": "site:entrackr.com",
+      "role": "news",
+      "tags": [
+        "india",
+        "funding"
+      ],
+      "status": "active",
+      "max_new": 5,
+      "why": "Entrackr has no feed"
+    },
+    {
+      "id": "gn-india-funding",
+      "name": "Indian startup funding (news)",
+      "type": "gnews",
+      "query": "startup raises funding India OR \"Series A\" OR \"Series B\" India",
+      "role": "news",
+      "tags": [
+        "india",
+        "funding"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "mint-companies",
+      "name": "Mint Companies",
+      "type": "feed",
+      "url": "https://www.livemint.com/rss/companies",
+      "role": "news",
+      "tags": [
+        "companies"
+      ],
+      "status": "active",
+      "max_new": 6
+    },
+    {
+      "id": "businessline-companies",
+      "name": "BusinessLine Companies",
+      "type": "feed",
+      "url": "https://www.thehindubusinessline.com/companies/feeder/default.rss",
+      "role": "news",
+      "tags": [
+        "companies"
+      ],
+      "status": "active",
+      "max_new": 6
+    },
+    {
+      "id": "ndtv-profit",
+      "name": "NDTV Profit",
+      "type": "feed",
+      "url": "https://feeds.feedburner.com/ndtvprofit-latest",
+      "role": "news",
+      "tags": [
+        "business"
+      ],
+      "status": "active",
+      "max_new": 6
+    },
+    {
+      "id": "tomshardware",
+      "name": "Tom's Hardware",
+      "type": "feed",
+      "url": "https://www.tomshardware.com/feeds/all",
+      "role": "news",
+      "tags": [
+        "hardware"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "semianalysis",
+      "name": "SemiAnalysis",
+      "type": "feed",
+      "url": "https://newsletter.semianalysis.com/feed",
+      "role": "news",
+      "tags": [
+        "hardware",
+        "chips"
+      ],
+      "status": "active",
+      "max_age_days": 7
+    },
+    {
+      "id": "gn-semis",
+      "name": "Chips & hardware companies (news)",
+      "type": "gnews",
+      "query": "semiconductor OR TSMC OR Nvidia OR chipmaker earnings",
+      "role": "news",
+      "tags": [
+        "hardware",
+        "chips"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "bbc-world",
+      "name": "BBC World",
+      "type": "feed",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "role": "news",
+      "tags": [
+        "world",
+        "geopolitics"
+      ],
+      "status": "active",
+      "max_new": 6
+    },
+    {
+      "id": "bbc-business",
+      "name": "BBC Business",
+      "type": "feed",
+      "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+      "role": "news",
+      "tags": [
+        "world",
+        "business"
+      ],
+      "status": "paused",
+      "max_new": 6,
+      "why": "Paused in weekly review: 100% SKIP rate over past 7 days"
+    },
+    {
+      "id": "hindu-international",
+      "name": "The Hindu International",
+      "type": "feed",
+      "url": "https://www.thehindu.com/news/international/feeder/default.rss",
+      "role": "news",
+      "tags": [
+        "world",
+        "india"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "cnbc-top",
+      "name": "CNBC Top News",
+      "type": "feed",
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "role": "news",
+      "tags": [
+        "wall-street",
+        "us"
+      ],
+      "status": "active",
+      "max_new": 6
+    },
+    {
+      "id": "cnbc-economy",
+      "name": "CNBC Economy",
+      "type": "feed",
+      "url": "https://www.cnbc.com/id/20910258/device/rss/rss.html",
+      "role": "news",
+      "tags": [
+        "wall-street",
+        "economy"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "marketwatch",
+      "name": "MarketWatch",
+      "type": "feed",
+      "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+      "role": "news",
+      "tags": [
+        "wall-street"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "gn-trump-markets",
+      "name": "Trump / White House and markets",
+      "type": "gnews",
+      "query": "Trump tariffs OR sanctions OR executive order markets",
+      "role": "news",
+      "tags": [
+        "big-players",
+        "us"
+      ],
+      "status": "active",
+      "max_new": 5,
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en"
+    },
+    {
+      "id": "gn-fed",
+      "name": "Federal Reserve and central banks",
+      "type": "gnews",
+      "query": "\"Federal Reserve\" OR Powell OR \"rate decision\" OR ECB",
+      "role": "news",
+      "tags": [
+        "big-players",
+        "rates"
+      ],
+      "status": "paused",
+      "max_new": 5,
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en",
+      "why": "Paused in weekly review: 100% SKIP rate over past 7 days"
+    },
+    {
+      "id": "gn-trade-war",
+      "name": "Trade, wars and oil",
+      "type": "gnews",
+      "query": "trade war OR sanctions OR war oil prices markets",
+      "role": "news",
+      "tags": [
+        "world",
+        "geopolitics"
+      ],
+      "status": "active",
+      "max_new": 5,
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en"
+    },
+    {
+      "id": "gn-wall-street-views",
+      "name": "Wall Street outlooks (Goldman, Morgan Stanley, JPMorgan\u2026)",
+      "type": "gnews",
+      "query": "Goldman Sachs OR Morgan Stanley OR JPMorgan outlook strategist",
+      "role": "news",
+      "tags": [
+        "wall-street",
+        "experts"
+      ],
+      "status": "paused",
+      "max_new": 5,
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en",
+      "why": "Paused in weekly review: 100% SKIP rate over past 7 days"
+    },
+    {
+      "id": "gn-production",
+      "name": "Big company production & capacity",
+      "type": "gnews",
+      "query": "Reuters factory OR production OR capacity OR plant expansion company",
+      "role": "news",
+      "tags": [
+        "companies",
+        "production"
+      ],
+      "status": "active",
+      "max_new": 5,
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en"
+    },
+    {
+      "id": "gn-big-investors",
+      "name": "Big investors' views (Buffett, Dalio, Marks\u2026)",
+      "type": "gnews",
+      "query": "Buffett OR \"Ray Dalio\" OR \"Howard Marks\" OR \"Jamie Dimon\" says",
+      "role": "news",
+      "tags": [
+        "experts",
+        "lessons"
+      ],
+      "status": "active",
+      "max_new": 3,
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en"
+    },
+    {
+      "id": "google-trends-in",
+      "name": "Google Trends India (trending searches)",
+      "type": "feed",
+      "url": "https://trends.google.com/trending/rss?geo=IN",
+      "role": "news",
+      "tags": [
+        "trending"
+      ],
+      "status": "active",
+      "max_new": 10,
+      "max_age_days": 1
+    },
+    {
+      "id": "freefincal",
+      "name": "Freefincal",
+      "type": "feed",
+      "url": "https://freefincal.com/feed/",
+      "role": "news",
+      "tags": [
+        "lessons",
+        "personal-finance"
+      ],
+      "status": "active",
+      "max_age_days": 7
+    },
+    {
+      "id": "safal-niveshak",
+      "name": "Safal Niveshak",
+      "type": "feed",
+      "url": "https://www.safalniveshak.com/feed/",
+      "role": "news",
+      "tags": [
+        "lessons",
+        "investing"
+      ],
+      "status": "active",
+      "max_age_days": 7
+    },
+    {
+      "id": "zerodha-zconnect",
+      "name": "Zerodha Z-Connect",
+      "type": "feed",
+      "url": "https://zerodha.com/z-connect/feed",
+      "role": "news",
+      "tags": [
+        "lessons",
+        "broker"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "wealth-common-sense",
+      "name": "A Wealth of Common Sense",
+      "type": "feed",
+      "url": "https://awealthofcommonsense.com/feed/",
+      "role": "news",
+      "tags": [
+        "lessons",
+        "investing"
+      ],
+      "status": "active",
+      "max_age_days": 7
+    },
+    {
+      "id": "yt-cnbc-tv18",
+      "name": "CNBC-TV18",
+      "type": "youtube",
+      "channel_id": "UCmRbHAgG2k2vDUvb3xsEunQ",
+      "role": "news",
+      "tags": [
+        "news-channel"
+      ],
+      "status": "active",
+      "max_age_days": 3,
+      "max_new": 3
+    },
+    {
+      "id": "yt-et-now",
+      "name": "ET Now",
+      "type": "youtube",
+      "channel_id": "UCI_mwTKUhicNzFrhm33MzBQ",
+      "role": "news",
+      "tags": [
+        "news-channel"
+      ],
+      "status": "active",
+      "max_age_days": 3,
+      "max_new": 3
+    },
+    {
+      "id": "yt-zee-business",
+      "name": "Zee Business",
+      "type": "youtube",
+      "channel_id": "UCkXopQ3ubd-rnXnStZqCl2w",
+      "role": "news",
+      "tags": [
+        "news-channel"
+      ],
+      "status": "active",
+      "max_age_days": 3,
+      "max_new": 3
+    },
+    {
+      "id": "yt-moneycontrol",
+      "name": "Moneycontrol",
+      "type": "youtube",
+      "channel_id": "UChftTVI0QJmyXkajQYt2tiQ",
+      "role": "news",
+      "tags": [
+        "news-channel"
+      ],
+      "status": "active",
+      "max_age_days": 3,
+      "max_new": 3
+    },
+    {
+      "id": "yt-cnbc-tv",
+      "name": "CNBC Television (US)",
+      "type": "youtube",
+      "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+      "role": "news",
+      "tags": [
+        "news-channel",
+        "wall-street"
+      ],
+      "status": "active",
+      "max_age_days": 3,
+      "max_new": 3
+    },
+    {
+      "id": "yt-bloomberg-tv",
+      "name": "Bloomberg Television",
+      "type": "youtube",
+      "channel_id": "UCIALMKvObZNtJ6AmdCLP7Lg",
+      "role": "news",
+      "tags": [
+        "news-channel",
+        "wall-street"
+      ],
+      "status": "active",
+      "max_age_days": 3,
+      "max_new": 3
+    },
+    {
+      "id": "gn-rbi-rules",
+      "name": "RBI rules & policy (news)",
+      "type": "gnews",
+      "query": "RBI circular OR guidelines OR \"monetary policy\" OR repo",
+      "role": "news",
+      "tags": [
+        "rbi",
+        "regulation"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "gn-sebi-rules",
+      "name": "SEBI rules & orders (news)",
+      "type": "gnews",
+      "query": "SEBI circular OR \"new rules\" OR consultation OR order",
+      "role": "news",
+      "tags": [
+        "sebi",
+        "regulation"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "gn-nse-bse",
+      "name": "NSE / BSE rules & listings (news)",
+      "type": "gnews",
+      "query": "\"NSE\" OR \"BSE\" circular OR framework OR \"new rule\" OR listing",
+      "role": "news",
+      "tags": [
+        "exchange",
+        "regulation"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "gn-global-markets",
+      "name": "Global markets (Asia, Europe, Wall Street)",
+      "type": "gnews",
+      "query": "global markets stocks Asia Europe Wall Street close",
+      "role": "news",
+      "tags": [
+        "global-markets"
+      ],
+      "status": "active",
+      "max_new": 5,
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en"
+    },
+    {
+      "id": "gn-world-leaders",
+      "name": "World leaders: Putin, Xi, Kremlin, Beijing",
+      "type": "gnews",
+      "query": "Putin OR \"Xi Jinping\" OR Kremlin OR Beijing trade OR sanctions OR economy",
+      "role": "news",
+      "tags": [
+        "world-leaders",
+        "geopolitics"
+      ],
+      "status": "active",
+      "max_new": 5,
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en"
+    },
+    {
+      "id": "gn-china-economy",
+      "name": "China economy & policy",
+      "type": "gnews",
+      "query": "China economy OR yuan OR PBOC OR stimulus",
+      "role": "news",
+      "tags": [
+        "china",
+        "global-markets"
+      ],
+      "status": "active",
+      "max_new": 4,
+      "hl": "en-US",
+      "gl": "US",
+      "ceid": "US:en"
+    },
+    {
+      "id": "startuptalky",
+      "name": "StartupTalky (Indian business case studies)",
+      "type": "feed",
+      "url": "https://startuptalky.com/rss/",
+      "role": "news",
+      "tags": [
+        "case-studies",
+        "india"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "gn-firstround",
+      "name": "First Round Review (running a company)",
+      "type": "sitemap",
+      "role": "news",
+      "tags": [
+        "management",
+        "startups"
+      ],
+      "status": "active",
+      "max_new": 3,
+      "url": "https://review.firstround.com/sitemap-posts.xml",
+      "baseline": true
+    },
+    {
+      "id": "gn-hbr",
+      "name": "Harvard Business Review (management, people)",
+      "type": "gnews",
+      "query": "site:hbr.org",
+      "role": "news",
+      "tags": [
+        "management"
+      ],
+      "status": "active",
+      "max_new": 3
+    },
+    {
+      "id": "gn-a16z",
+      "name": "a16z (startups, investing)",
+      "type": "gnews",
+      "query": "site:a16z.com",
+      "role": "news",
+      "tags": [
+        "startups",
+        "vc"
+      ],
+      "status": "active",
+      "max_new": 3
+    },
+    {
+      "id": "lennys-newsletter",
+      "name": "Lenny's Newsletter (product, growth, hiring)",
+      "type": "feed",
+      "url": "https://www.lennysnewsletter.com/feed",
+      "role": "news",
+      "tags": [
+        "product",
+        "management"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "pg-essays",
+      "name": "Paul Graham essays",
+      "type": "feed",
+      "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+      "role": "people",
+      "tags": [
+        "startups",
+        "essays"
+      ],
+      "status": "active",
+      "baseline": true,
+      "max_age_days": 3650
+    },
+    {
+      "id": "yt-yc",
+      "name": "Y Combinator (Startup School)",
+      "type": "youtube",
+      "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+      "role": "news",
+      "tags": [
+        "startups",
+        "learning"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 2
+    },
+    {
+      "id": "yt-lennys-podcast",
+      "name": "Lenny's Podcast",
+      "type": "youtube",
+      "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+      "role": "news",
+      "tags": [
+        "product",
+        "management",
+        "learning"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 2
+    },
+    {
+      "id": "yt-my-first-million",
+      "name": "My First Million",
+      "type": "youtube",
+      "channel_id": "UCyaN6mg5u8Cjy2ZI4ikWaug",
+      "role": "news",
+      "tags": [
+        "business-ideas",
+        "learning"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 2
+    },
+    {
+      "id": "yt-diary-of-a-ceo",
+      "name": "The Diary Of A CEO",
+      "type": "youtube",
+      "channel_id": "UCGq-a57w-aPwyi3pW7XLiHw",
+      "role": "news",
+      "tags": [
+        "founders",
+        "mindset",
+        "learning"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 2
+    },
+    {
+      "id": "reddit-money-india",
+      "name": "Reddit: Indian personal finance (4 subs)",
+      "type": "reddit_manual",
+      "url": "https://www.reddit.com/r/IndiaInvestments+personalfinanceindia+FIREIndia+CreditCardsIndia/top/?t=day",
+      "subreddits": [
+        "IndiaInvestments",
+        "personalfinanceindia",
+        "FIREIndia",
+        "CreditCardsIndia"
+      ],
+      "role": "news",
+      "tags": [
+        "discussion"
+      ],
+      "mode": "manual",
+      "sweep": true,
+      "status": "active",
+      "pick": 5,
+      "min_upvotes": 30,
+      "why": "The AI reads the top discussions here during analyze today (r/IndiaInvestments, r/personalfinanceindia, r/FIREIndia, r/CreditCardsIndia)"
+    },
+    {
+      "id": "reddit-markets",
+      "name": "Reddit: markets & economy (3 subs)",
+      "type": "reddit_manual",
+      "url": "https://www.reddit.com/r/IndianStockMarket+Economics+business/top/?t=day",
+      "subreddits": [
+        "IndianStockMarket",
+        "Economics",
+        "business"
+      ],
+      "role": "news",
+      "tags": [
+        "discussion"
+      ],
+      "mode": "manual",
+      "sweep": true,
+      "status": "active",
+      "pick": 5,
+      "min_upvotes": 100,
+      "why": "The AI reads the top discussions here during analyze today (r/IndianStockMarket, r/Economics, r/business)"
+    },
+    {
+      "id": "reddit-startups-tech",
+      "name": "Reddit: startups & tech business (5 subs)",
+      "type": "reddit_manual",
+      "url": "https://www.reddit.com/r/startups+ycombinator+StartUpIndia+hardware+technology/top/?t=day",
+      "subreddits": [
+        "startups",
+        "ycombinator",
+        "StartUpIndia",
+        "hardware",
+        "technology"
+      ],
+      "role": "news",
+      "tags": [
+        "discussion"
+      ],
+      "mode": "manual",
+      "sweep": true,
+      "status": "active",
+      "pick": 4,
+      "min_upvotes": 200,
+      "why": "The AI reads the top discussions here during analyze today (r/startups, r/ycombinator, r/StartUpIndia, r/hardware, r/technology)"
+    },
+    {
+      "id": "reddit-business-mgmt",
+      "name": "Reddit: business & management (8 subs)",
+      "type": "reddit_manual",
+      "url": "https://www.reddit.com/r/startups+Entrepreneur+smallbusiness+StartUpIndia+managers+humanresources+sales+CustomerSuccess/top/?t=day",
+      "subreddits": [
+        "startups",
+        "Entrepreneur",
+        "smallbusiness",
+        "StartUpIndia",
+        "managers",
+        "humanresources",
+        "sales",
+        "CustomerSuccess"
+      ],
+      "role": "news",
+      "tags": [
+        "discussion"
+      ],
+      "mode": "manual",
+      "sweep": true,
+      "status": "active",
+      "pick": 5,
+      "min_upvotes": 100,
+      "why": "The AI reads the top discussions here during analyze today (r/startups, r/Entrepreneur, r/smallbusiness, r/StartUpIndia, r/managers, r/humanresources, r/sales, r/CustomerSuccess)"
+    },
+    {
+      "id": "yt-zerodha",
+      "name": "Zerodha",
+      "type": "youtube",
+      "channel_id": "UC59YUBhNLMkS2Q8NBWBGHAA",
+      "role": "org",
+      "tags": [
+        "broker",
+        "education"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "nse-circulars",
+      "name": "NSE circulars",
+      "type": "page",
+      "url": "https://www.nseindia.com/resources/exchange-communication-circulars",
+      "role": "official",
+      "tags": [
+        "exchange"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "why": "Blocks scripts; check weekly by hand"
+    },
+    {
+      "id": "pib-finance",
+      "name": "PIB Finance Ministry",
+      "type": "page",
+      "url": "https://pib.gov.in/allRel.aspx",
+      "role": "official",
+      "tags": [
+        "government"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "why": "Blocks scripts; check on budget/policy days"
+    },
+    {
+      "id": "incometax-news",
+      "name": "Income Tax Dept news",
+      "type": "page",
+      "url": "https://www.incometax.gov.in/iec/foportal/latest-news",
+      "role": "official",
+      "tags": [
+        "tax"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "why": "Check around tax deadlines"
+    },
+    {
+      "id": "x-list-markets-world",
+      "name": "X list: Markets, Business & World (created, pinned)",
+      "type": "x_list",
+      "url": "https://x.com/i/lists/2111523578500022334",
+      "role": "people",
+      "tags": [
+        "x"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "members": [
+        "RBI",
+        "SEBI_updates",
+        "FinMinIndia",
+        "nsitharamanoffc",
+        "NSEIndia",
+        "BSEIndia",
+        "CNBCTV18Live",
+        "ETNOWlive",
+        "EconomicTimes",
+        "livemint",
+        "moneycontrolcom",
+        "finshots",
+        "Nithin0dha",
+        "deepakshenoy",
+        "Reuters",
+        "ReutersBiz",
+        "business",
+        "markets",
+        "WSJmarkets",
+        "CNBC",
+        "federalreserve",
+        "realDonaldTrump",
+        "WhiteHouse",
+        "IMFNews",
+        "ycombinator",
+        "Inc42",
+        "entrackr",
+        "TechCrunch",
+        "KremlinRussia_E",
+        "MFA_China",
+        "XHNews",
+        "narendramodi",
+        "PMOIndia"
+      ],
+      "why": "Your private list on X (33 accounts): Indian regulators and markets, Wall Street, world events, world leaders (Trump, Putin, China, Modi), startups. Also useful: Scoble's Investors, VC Firms and Founders lists you follow"
+    },
+    {
+      "id": "x-list-saas",
+      "name": "X list: saas (SaaS & indie builders)",
+      "type": "x_list",
+      "url": "https://x.com/i/lists/2087135140694917178",
+      "role": "people",
+      "tags": [
+        "x",
+        "saas",
+        "startups"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "members": [
+        "levelsio",
+        "marclou",
+        "gregisenberg",
+        "jasonlk",
+        "saastr",
+        "dhh",
+        "jasonfried",
+        "arvidkahl",
+        "tdinh_me",
+        "jackfriks",
+        "robwalling",
+        "patio11",
+        "csallen",
+        "dannypostma",
+        "yongfook",
+        "svembu",
+        "mrgirish",
+        "launch_llama",
+        "Joi2James",
+        "Guronnimo",
+        "lightsilver323"
+      ],
+      "why": "SaaS founders and operators: revenue, pricing, running a software company (startups + running-a-company scope). Your list on @Kingrajesh1215 (21 members, updated 19 Oct 2026). Open X in Brave; the in-app browser can't load X."
+    },
+    {
+      "id": "gn-cbdt-tax",
+      "name": "Google News: CBDT & Income Tax Circulars",
+      "type": "feed",
+      "role": "news",
+      "url": "https://news.google.com/rss/search?q=%22Central+Board+of+Direct+Taxes%22+OR+%22Income+Tax+Department%22+circular+when:7d&hl=en-IN&gl=IN&ceid=IN:en",
+      "tags": [
+        "tax",
+        "regulation",
+        "official"
+      ],
+      "status": "trial",
+      "max_age_days": 7,
+      "max_new": 10
     }
-   ]
-  }
- ],
- "people": []
+  ],
+  "competitors": [
+    {
+      "id": "finance-with-sharan",
+      "name": "Finance With Sharan",
+      "kind": "channel",
+      "why": "Biggest English finance explainer for Indian salaried people",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-sharan-yt",
+          "type": "youtube",
+          "channel_id": "UCwVEhEzsjLym_u1he4XWFkg",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "ca-rachana-ranade",
+      "name": "CA Rachana Ranade",
+      "kind": "channel",
+      "why": "Teacher-style market basics",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-rachana-yt",
+          "type": "youtube",
+          "channel_id": "UChnK-EoSW6er1qtWkwnJDRw",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "akshat-shrivastava",
+      "name": "Akshat Shrivastava",
+      "kind": "channel",
+      "why": "Fast reactions to economic news",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-akshat-yt",
+          "type": "youtube",
+          "channel_id": "UCqW8jxh4tH1Z1sWPbkGWL4g",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "labour-law-advisor",
+      "name": "Labour Law Advisor",
+      "kind": "channel",
+      "why": "Salary, PF, tax and job-rights topics",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-lla-yt",
+          "type": "youtube",
+          "channel_id": "UCVOTBwF0vnSxMRIbfSE_K_g",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "think-school",
+      "name": "Think School",
+      "kind": "channel",
+      "why": "Indian business case studies: the gold standard",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-think-school-yt",
+          "type": "youtube",
+          "channel_id": "UCKZozRVHRYsYHGEyNKuhhdA",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "raj-shamani",
+      "name": "Raj Shamani (Figuring Out)",
+      "kind": "channel",
+      "why": "Founder and business podcast",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-raj-shamani-yt",
+          "type": "youtube",
+          "channel_id": "UCzwCEE_PchiBULMnAJqhGVg",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "nikhil-kamath",
+      "name": "Nikhil Kamath (WTF)",
+      "kind": "channel",
+      "why": "Founders, investors, business deep-dives",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-nikhil-kamath-yt",
+          "type": "youtube",
+          "channel_id": "UCnC8SAZzQiBGYVSKZ_S3y4Q",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "ankur-warikoo",
+      "name": "Ankur Warikoo",
+      "kind": "channel",
+      "why": "Personal finance and entrepreneurship",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-ankur-warikoo-yt",
+          "type": "youtube",
+          "channel_id": "UCRzYN32xtBf3Yxsx5BvJWJw",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "barbershop-shantanu",
+      "name": "The Barbershop with Shantanu",
+      "kind": "channel",
+      "why": "Founder stories and startup reality",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-barbershop-shantanu-yt",
+          "type": "youtube",
+          "channel_id": "UCta-0NnMg1q3g3bZN_yS65A",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "varun-mayya",
+      "name": "Varun Mayya",
+      "kind": "channel",
+      "why": "Business, tech and careers",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-varun-mayya-yt",
+          "type": "youtube",
+          "channel_id": "UCsQoiOrh7jzKmE8NBofhTnQ",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    }
+  ],
+  "people": []
 }

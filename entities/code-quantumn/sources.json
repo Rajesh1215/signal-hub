@@ -1,1709 +1,1711 @@
 {
- "sources": [
-  {
-   "id": "search-demand-tech",
-   "name": "What India is searching: AI & tech",
-   "terms": [
-    "chatgpt",
-    "gemini",
-    "claude",
-    "deepseek",
-    "copilot",
-    "cursor ai",
-    "perplexity",
-    "grok",
-    "ai agent",
-    "vibe coding",
-    "python",
-    "ai course",
-    "full stack",
-    "system design",
-    "next.js",
-    "supabase",
-    "saas"
-   ],
-   "templates": [
-    "how to use {x}",
-    "is {x} free",
-    "{x} vs",
-    "{x} not working",
-    "{x} in telugu",
-    "what is {x}"
-   ],
-   "seeds": [
-    "best ai for",
-    "ai tools for",
-    "how to learn ai",
-    "ai jobs for",
-    "free ai course",
-    "best laptop for ai",
-    "how to build an app with ai",
-    "ai startup ideas",
-    "how to become ai engineer",
-    "ai engineer roadmap"
-   ],
-   "youtube": [
-    "how to use {x}",
-    "best ai for",
-    "ai tools for"
-   ],
-   "adapter": "site:search_demand",
-   "type": "search_demand",
-   "role": "news",
-   "tags": [
-    "search-demand",
-    "trending"
-   ],
-   "status": "active",
-   "gl": "in",
-   "hl": "en",
-   "every_hours": 20,
-   "max_new": 15,
-   "max_age_days": 2,
-   "why": "New Google/YouTube search suggestions in India: questions people have just started asking"
-  },
-  {
-   "id": "openai-news",
-   "name": "OpenAI News",
-   "type": "feed",
-   "url": "https://openai.com/news/rss.xml",
-   "role": "official",
-   "tags": [
-    "models",
-    "launches"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "google-ai-blog",
-   "name": "Google AI Blog",
-   "type": "feed",
-   "url": "https://blog.google/technology/ai/rss/",
-   "role": "official",
-   "tags": [
-    "models",
-    "launches"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "deepmind-blog",
-   "name": "Google DeepMind",
-   "type": "feed",
-   "url": "https://deepmind.google/blog/rss.xml",
-   "role": "official",
-   "tags": [
-    "research"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "anthropic-news",
-   "name": "Anthropic News",
-   "type": "sitemap",
-   "url": "https://www.anthropic.com/sitemap.xml",
-   "match": [
-    "/news/"
-   ],
-   "role": "official",
-   "tags": [
-    "models",
-    "launches"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "mistral-news",
-   "name": "Mistral AI",
-   "type": "feed",
-   "url": "https://mistral.ai/rss.xml",
-   "role": "official",
-   "tags": [
-    "models",
-    "open-source"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "hf-blog",
-   "name": "Hugging Face Blog",
-   "type": "feed",
-   "url": "https://huggingface.co/blog/feed.xml",
-   "role": "official",
-   "tags": [
-    "open-source",
-    "models"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "nvidia-dev-blog",
-   "name": "NVIDIA Developer Blog",
-   "type": "feed",
-   "url": "https://developer.nvidia.com/blog/feed",
-   "role": "official",
-   "tags": [
-    "hardware"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "ms-research",
-   "name": "Microsoft Research",
-   "type": "feed",
-   "url": "https://www.microsoft.com/en-us/research/feed/",
-   "role": "official",
-   "tags": [
-    "research"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "github-changelog",
-   "name": "GitHub Changelog",
-   "type": "feed",
-   "url": "https://github.blog/changelog/feed/",
-   "role": "official",
-   "tags": [
-    "changelog",
-    "dev-tools"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "gemini-api-changelog",
-   "name": "Gemini API changelog",
-   "type": "page",
-   "url": "https://ai.google.dev/gemini-api/docs/changelog",
-   "role": "official",
-   "tags": [
-    "changelog"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "anthropic-release-notes",
-   "name": "Anthropic release notes",
-   "type": "page",
-   "url": "https://docs.anthropic.com/en/release-notes/overview",
-   "role": "official",
-   "tags": [
-    "changelog"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "openai-api-changelog",
-   "name": "OpenAI API changelog",
-   "type": "page",
-   "url": "https://platform.openai.com/docs/changelog",
-   "role": "official",
-   "tags": [
-    "changelog"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "gh-claude-code",
-   "name": "Claude Code releases",
-   "type": "feed",
-   "url": "https://github.com/anthropics/claude-code/releases.atom",
-   "role": "official",
-   "tags": [
-    "changelog",
-    "dev-tools"
-   ],
-   "status": "active",
-   "max_new": 3
-  },
-  {
-   "id": "gh-ollama",
-   "name": "Ollama releases",
-   "type": "feed",
-   "url": "https://github.com/ollama/ollama/releases.atom",
-   "role": "official",
-   "tags": [
-    "changelog",
-    "open-source"
-   ],
-   "status": "active",
-   "max_new": 3
-  },
-  {
-   "id": "ollama-blog",
-   "name": "Ollama blog (models you can run locally)",
-   "type": "feed",
-   "url": "https://ollama.com/blog/rss.xml",
-   "role": "official",
-   "tags": [
-    "local-ai",
-    "setup"
-   ],
-   "status": "active",
-   "max_age_days": 7
-  },
-  {
-   "id": "hf-trending-models",
-   "name": "Hugging Face trending models",
-   "type": "hf_trending",
-   "role": "news",
-   "tags": [
-    "local-ai",
-    "open-models",
-    "setup"
-   ],
-   "status": "active",
-   "min_likes": 30,
-   "max_new": 8,
-   "max_age_days": 21
-  },
-  {
-   "id": "gh-n8n",
-   "name": "n8n releases",
-   "type": "feed",
-   "url": "https://github.com/n8n-io/n8n/releases.atom",
-   "role": "official",
-   "tags": [
-    "automation",
-    "setup"
-   ],
-   "status": "active",
-   "max_new": 1
-  },
-  {
-   "id": "gh-comfyui",
-   "name": "ComfyUI releases",
-   "type": "feed",
-   "url": "https://github.com/comfyanonymous/ComfyUI/releases.atom",
-   "role": "official",
-   "tags": [
-    "image-gen",
-    "setup"
-   ],
-   "status": "active",
-   "max_new": 2
-  },
-  {
-   "id": "meta-engineering",
-   "name": "Meta Engineering",
-   "type": "feed",
-   "url": "https://engineering.fb.com/feed/",
-   "role": "official",
-   "tags": [
-    "models",
-    "launches"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "gn-meta-ai",
-   "name": "Meta AI (news)",
-   "type": "gnews",
-   "query": "\"Meta AI\" OR Llama OR \"Meta Superintelligence\"",
-   "role": "news",
-   "tags": [
-    "company-news"
-   ],
-   "status": "active",
-   "max_new": 5,
-   "why": "ai.meta.com has no feed and blocks bots"
-  },
-  {
-   "id": "xai-news",
-   "name": "xAI News",
-   "type": "sitemap",
-   "url": "https://x.ai/sitemap.xml",
-   "match": [
-    "/news/"
-   ],
-   "role": "official",
-   "tags": [
-    "models",
-    "launches"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "deepseek-news",
-   "name": "DeepSeek News",
-   "type": "sitemap",
-   "url": "https://api-docs.deepseek.com/sitemap.xml",
-   "match": [
-    "/news/"
-   ],
-   "role": "official",
-   "tags": [
-    "models",
-    "launches"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "gn-deepseek",
-   "name": "DeepSeek (news)",
-   "type": "gnews",
-   "query": "DeepSeek model",
-   "role": "news",
-   "tags": [
-    "company-news"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "qwen-blog",
-   "name": "Qwen Blog",
-   "type": "feed",
-   "url": "https://qwenlm.github.io/blog/index.xml",
-   "role": "official",
-   "tags": [
-    "models",
-    "launches"
-   ],
-   "status": "active",
-   "max_age_days": 7
-  },
-  {
-   "id": "gn-qwen",
-   "name": "Qwen (news)",
-   "type": "gnews",
-   "query": "Qwen Alibaba AI model",
-   "role": "news",
-   "tags": [
-    "company-news"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "apple-ml",
-   "name": "Apple Machine Learning",
-   "type": "feed",
-   "url": "https://machinelearning.apple.com/rss.xml",
-   "role": "official",
-   "tags": [
-    "models",
-    "launches"
-   ],
-   "status": "active",
-   "max_age_days": 7
-  },
-  {
-   "id": "aws-ml",
-   "name": "AWS Machine Learning Blog",
-   "type": "feed",
-   "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
-   "role": "official",
-   "tags": [
-    "models",
-    "launches"
-   ],
-   "status": "active",
-   "max_new": 4
-  },
-  {
-   "id": "gn-perplexity",
-   "name": "Perplexity (news)",
-   "type": "gnews",
-   "query": "\"Perplexity AI\"",
-   "role": "news",
-   "tags": [
-    "company-news"
-   ],
-   "status": "active",
-   "max_new": 5,
-   "why": "Perplexity's blog has no feed"
-  },
-  {
-   "id": "cursor-changelog",
-   "name": "Cursor Changelog",
-   "type": "feed",
-   "url": "https://www.cursor.com/changelog/rss.xml",
-   "role": "official",
-   "tags": [
-    "models",
-    "launches"
-   ],
-   "status": "active",
-   "max_new": 4
-  },
-  {
-   "id": "cursor-blog",
-   "name": "Cursor Blog",
-   "type": "sitemap",
-   "url": "https://cursor.com/sitemap.xml",
-   "match": [
-    "/blog/"
-   ],
-   "role": "official",
-   "tags": [
-    "models",
-    "launches"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "arena-ranks",
-   "name": "Arena (LMArena) rankings",
-   "adapter": "site:arena_ranks",
-   "type": "arena_ranks",
-   "boards": [
-    "text",
-    "webdev",
-    "vision",
-    "agent",
-    "search",
-    "text_to_image",
-    "text_to_video",
-    "image_edit"
-   ],
-   "top": 10,
-   "role": "official",
-   "tags": [
-    "benchmarks",
-    "leaderboard"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 12,
-   "why": "Arena's official leaderboard data: new #1, new top-10 entries and big jumps on 8 boards"
-  },
-  {
-   "id": "arena-leaderboard",
-   "name": "Arena (LMArena) leaderboard changelog",
-   "adapter": "site:arena_changelog",
-   "type": "arena_changelog",
-   "url": "https://arena.ai/company/leaderboard-changelog/",
-   "role": "official",
-   "tags": [
-    "benchmarks",
-    "leaderboard"
-   ],
-   "status": "active",
-   "max_new": 6,
-   "why": "New models added to the Arena leaderboards and methodology changes"
-  },
-  {
-   "id": "arena-product",
-   "name": "Arena (LMArena) product changelog",
-   "adapter": "site:arena_changelog",
-   "type": "arena_changelog",
-   "url": "https://arena.ai/company/product-changelog/",
-   "role": "official",
-   "tags": [
-    "benchmarks"
-   ],
-   "status": "active",
-   "max_new": 3,
-   "max_age_days": 7
-  },
-  {
-   "id": "arena-blog",
-   "name": "Arena (LMArena) blog",
-   "type": "sitemap",
-   "url": "https://blog.lmarena.ai/sitemap.xml",
-   "match": [
-    "/blog/"
-   ],
-   "role": "official",
-   "tags": [
-    "benchmarks",
-    "research"
-   ],
-   "status": "active",
-   "max_new": 4
-  },
-  {
-   "id": "gn-sarvam",
-   "name": "Sarvam AI (news)",
-   "type": "gnews",
-   "query": "\"Sarvam AI\"",
-   "role": "news",
-   "tags": [
-    "india",
-    "company-news"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "gn-india-ai",
-   "name": "Indian AI (Krutrim, IndiaAI Mission)",
-   "type": "gnews",
-   "query": "Krutrim OR \"IndiaAI Mission\" OR \"Indian LLM\"",
-   "role": "news",
-   "tags": [
-    "india",
-    "company-news"
-   ],
-   "status": "active",
-   "max_new": 5
-  },
-  {
-   "id": "techcrunch-ai",
-   "name": "TechCrunch AI",
-   "type": "feed",
-   "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
-   "role": "news",
-   "tags": [
-    "industry"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "verge-ai",
-   "name": "The Verge AI",
-   "type": "feed",
-   "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-   "role": "news",
-   "tags": [
-    "consumer"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "marktechpost",
-   "name": "MarkTechPost",
-   "type": "feed",
-   "url": "https://www.marktechpost.com/feed/",
-   "role": "news",
-   "tags": [
-    "research",
-    "open-source"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "the-rundown",
-   "name": "The Rundown AI",
-   "type": "feed",
-   "url": "https://www.therundown.ai/feed",
-   "role": "news",
-   "tags": [
-    "newsletter"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "bens-bites",
-   "name": "Ben's Bites",
-   "type": "feed",
-   "url": "https://bensbites.com/feed",
-   "role": "news",
-   "tags": [
-    "newsletter",
-    "tools"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "latent-space",
-   "name": "Latent Space / AINews",
-   "type": "feed",
-   "url": "https://www.latent.space/feed",
-   "role": "news",
-   "tags": [
-    "newsletter",
-    "engineering"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "product-hunt",
-   "name": "Product Hunt",
-   "type": "feed",
-   "url": "https://www.producthunt.com/feed",
-   "role": "news",
-   "tags": [
-    "tools",
-    "launches"
-   ],
-   "status": "active",
-   "max_new": 10
-  },
-  {
-   "id": "hn-ai",
-   "name": "Hacker News (AI)",
-   "type": "hn",
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "status": "active",
-   "keywords": [
-    "ai",
-    "llm",
-    "gpt",
-    "claude",
-    "gemini",
-    "openai",
-    "anthropic",
-    "deepseek",
-    "llama",
-    "mistral",
-    "agent",
-    "model",
-    "transformer",
-    "copilot",
-    "cursor",
-    "nvidia",
-    "inference"
-   ],
-   "min_points": 80
-  },
-  {
-   "id": "hf-papers",
-   "name": "Hugging Face Daily Papers",
-   "type": "hf_papers",
-   "role": "news",
-   "tags": [
-    "research"
-   ],
-   "status": "active",
-   "min_upvotes": 25,
-   "max_age_days": 7,
-   "max_new": 8
-  },
-  {
-   "id": "gh-trending",
-   "name": "GitHub Trending",
-   "type": "github_trending",
-   "role": "news",
-   "tags": [
-    "open-source",
-    "tools"
-   ],
-   "status": "active",
-   "min_stars_today": 150,
-   "max_new": 8
-  },
-  {
-   "id": "devto-ai",
-   "name": "dev.to #ai",
-   "type": "devto",
-   "tag": "ai",
-   "role": "news",
-   "tags": [
-    "tutorial"
-   ],
-   "status": "active",
-   "min_reactions": 20
-  },
-  {
-   "id": "devto-llm",
-   "name": "dev.to #llm",
-   "type": "devto",
-   "tag": "llm",
-   "role": "news",
-   "tags": [
-    "tutorial"
-   ],
-   "status": "active",
-   "min_reactions": 15
-  },
-  {
-   "id": "vercel-changelog",
-   "name": "Vercel (deploy, AI SDK, Next.js)",
-   "type": "feed",
-   "url": "https://vercel.com/atom",
-   "role": "official",
-   "tags": [
-    "full-stack",
-    "platform"
-   ],
-   "status": "active",
-   "max_new": 3
-  },
-  {
-   "id": "supabase-blog",
-   "name": "Supabase blog",
-   "type": "feed",
-   "url": "https://supabase.com/rss.xml",
-   "role": "official",
-   "tags": [
-    "full-stack",
-    "database"
-   ],
-   "status": "active",
-   "max_new": 2
-  },
-  {
-   "id": "cloudflare-blog",
-   "name": "Cloudflare blog",
-   "type": "feed",
-   "url": "https://blog.cloudflare.com/rss/",
-   "role": "official",
-   "tags": [
-    "platform",
-    "infra"
-   ],
-   "status": "active",
-   "max_new": 3
-  },
-  {
-   "id": "react-blog",
-   "name": "React blog",
-   "type": "feed",
-   "url": "https://react.dev/rss.xml",
-   "role": "official",
-   "tags": [
-    "frontend"
-   ],
-   "status": "active",
-   "max_age_days": 7
-  },
-  {
-   "id": "bytebytego-newsletter",
-   "name": "ByteByteGo newsletter (system design)",
-   "type": "feed",
-   "url": "https://blog.bytebytego.com/feed",
-   "role": "news",
-   "tags": [
-    "system-design",
-    "backend"
-   ],
-   "status": "active",
-   "max_age_days": 7
-  },
-  {
-   "id": "pragmatic-engineer",
-   "name": "The Pragmatic Engineer",
-   "type": "feed",
-   "url": "https://newsletter.pragmaticengineer.com/feed",
-   "role": "news",
-   "tags": [
-    "engineering",
-    "careers"
-   ],
-   "status": "active",
-   "max_age_days": 7
-  },
-  {
-   "id": "lennys-newsletter",
-   "name": "Lenny's Newsletter (product)",
-   "type": "feed",
-   "url": "https://www.lennysnewsletter.com/feed",
-   "role": "news",
-   "tags": [
-    "product"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yc-blog",
-   "name": "Y Combinator blog",
-   "type": "feed",
-   "url": "https://www.ycombinator.com/blog/rss/",
-   "role": "official",
-   "tags": [
-    "startups"
-   ],
-   "status": "active",
-   "max_age_days": 7
-  },
-  {
-   "id": "pg-essays",
-   "name": "Paul Graham essays",
-   "type": "feed",
-   "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
-   "role": "people",
-   "tags": [
-    "startups",
-    "essays"
-   ],
-   "status": "active",
-   "baseline": true,
-   "max_age_days": 3650
-  },
-  {
-   "id": "yt-yc",
-   "name": "Y Combinator (Startup School)",
-   "type": "youtube",
-   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
-   "role": "news",
-   "tags": [
-    "startups",
-    "learning"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 2
-  },
-  {
-   "id": "yt-hussein-nasser",
-   "name": "Hussein Nasser (backend)",
-   "type": "youtube",
-   "channel_id": "UCmbrIDBNm752hNpW__2R1-Q",
-   "role": "news",
-   "tags": [
-    "backend",
-    "learning"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 2
-  },
-  {
-   "id": "yt-tech-with-tim",
-   "name": "Tech With Tim",
-   "type": "youtube",
-   "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
-   "role": "news",
-   "tags": [
-    "tutorial",
-    "python"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 2
-  },
-  {
-   "id": "reddit-ai-news",
-   "name": "Reddit: AI news & models (7 subs)",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/LocalLLaMA+OpenAI+ClaudeAI+singularity+artificial+GeminiAI+ChatGPT/top/?t=day",
-   "subreddits": [
-    "LocalLLaMA",
-    "OpenAI",
-    "ClaudeAI",
-    "singularity",
-    "artificial",
-    "GeminiAI",
-    "ChatGPT"
-   ],
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "pick": 5,
-   "min_upvotes": 100,
-   "why": "The AI reads the top discussions here during analyze today (r/LocalLLaMA, r/OpenAI, r/ClaudeAI, r/singularity, r/artificial, r/GeminiAI, r/ChatGPT)"
-  },
-  {
-   "id": "reddit-ai-builders",
-   "name": "Reddit: AI builders & coding (6 subs)",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/ChatGPTCoding+cursor+ClaudeCode+LLMDevs+AI_Agents+MachineLearning/top/?t=day",
-   "subreddits": [
-    "ChatGPTCoding",
-    "cursor",
-    "ClaudeCode",
-    "LLMDevs",
-    "AI_Agents",
-    "MachineLearning"
-   ],
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "pick": 5,
-   "min_upvotes": 50,
-   "why": "The AI reads the top discussions here during analyze today (r/ChatGPTCoding, r/cursor, r/ClaudeCode, r/LLMDevs, r/AI_Agents, r/MachineLearning)"
-  },
-  {
-   "id": "reddit-students-india",
-   "name": "Reddit: students & Indian devs (4 subs)",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/developersIndia+learnmachinelearning+learnprogramming+csMajors/top/?t=day",
-   "subreddits": [
-    "developersIndia",
-    "learnmachinelearning",
-    "learnprogramming",
-    "csMajors"
-   ],
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "pick": 5,
-   "min_upvotes": 50,
-   "why": "The AI reads the top discussions here during analyze today (r/developersIndia, r/learnmachinelearning, r/learnprogramming, r/csMajors)"
-  },
-  {
-   "id": "reddit-builders",
-   "name": "Reddit: builders & product engineers (5 subs)",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/webdev+SaaS+indiehackers+SideProject+ExperiencedDevs/top/?t=day",
-   "subreddits": [
-    "webdev",
-    "SaaS",
-    "indiehackers",
-    "SideProject",
-    "ExperiencedDevs"
-   ],
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "pick": 5,
-   "min_upvotes": 100,
-   "why": "The AI reads the top discussions here during analyze today (r/webdev, r/SaaS, r/indiehackers, r/SideProject, r/ExperiencedDevs)"
-  },
-  {
-   "id": "yt-3b1b",
-   "name": "3Blue1Brown",
-   "type": "youtube",
-   "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
-   "role": "news",
-   "tags": [
-    "learning"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-ibm-tech",
-   "name": "IBM Technology",
-   "type": "youtube",
-   "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ",
-   "role": "news",
-   "tags": [
-    "learning",
-    "explainer"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-umar-jamil",
-   "name": "Umar Jamil",
-   "type": "youtube",
-   "channel_id": "UCtAcpQcYerN8xxZJYTfWBMw",
-   "role": "news",
-   "tags": [
-    "learning",
-    "deep-dive"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-campusx",
-   "name": "CampusX",
-   "type": "youtube",
-   "channel_id": "UCCWi3hpnq_Pe03nGxuS7isg",
-   "role": "news",
-   "tags": [
-    "learning",
-    "india"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-dwarkesh",
-   "name": "Dwarkesh Patel",
-   "type": "youtube",
-   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
-   "role": "news",
-   "tags": [
-    "interviews"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-latent-space",
-   "name": "Latent Space (YouTube)",
-   "type": "youtube",
-   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
-   "role": "news",
-   "tags": [
-    "interviews",
-    "engineering"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-matt-wolfe",
-   "name": "Matt Wolfe",
-   "type": "youtube",
-   "channel_id": "UChpleBmo18P08aKCIgti38g",
-   "role": "news",
-   "tags": [
-    "creator",
-    "ai-news",
-    "tools"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-riley-brown",
-   "name": "Riley Brown",
-   "type": "youtube",
-   "channel_id": "UCMcoud_ZW7cfxeIugBflSBw",
-   "role": "news",
-   "tags": [
-    "creator",
-    "vibe-coding",
-    "tools"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-ai-advantage",
-   "name": "The AI Advantage",
-   "type": "youtube",
-   "channel_id": "UCHhYXsLBEVVnbvsq57n1MTQ",
-   "role": "news",
-   "tags": [
-    "creator",
-    "tools",
-    "tutorial"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-wes-roth",
-   "name": "Wes Roth",
-   "type": "youtube",
-   "channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw",
-   "role": "news",
-   "tags": [
-    "creator",
-    "ai-news"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-sam-witteveen",
-   "name": "Sam Witteveen",
-   "type": "youtube",
-   "channel_id": "UC55ODQSvARtgSyc8ThfiepQ",
-   "role": "news",
-   "tags": [
-    "creator",
-    "models",
-    "tutorial"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-bycloud",
-   "name": "bycloud",
-   "type": "youtube",
-   "channel_id": "UCgfe2ooZD3VJPB6aJAnuQng",
-   "role": "news",
-   "tags": [
-    "creator",
-    "research",
-    "explainer"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-ai-jason",
-   "name": "AI Jason",
-   "type": "youtube",
-   "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw",
-   "role": "news",
-   "tags": [
-    "creator",
-    "agents",
-    "tutorial"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "daily-dev",
-   "name": "daily.dev",
-   "type": "daily_dev",
-   "url": "https://app.daily.dev/",
-   "role": "news",
-   "tags": [
-    "aggregator"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "why": "Personalised dev feed; scan once a day"
-  },
-  {
-   "id": "theres-an-ai",
-   "name": "There's An AI For That",
-   "type": "page",
-   "url": "https://theresanaiforthat.com/new/",
-   "role": "news",
-   "tags": [
-    "tools"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "why": "New AI tools; scan weekly"
-  },
-  {
-   "id": "x-list-ai-labs",
-   "name": "X list: AI Labs (pin this)",
-   "type": "x_list",
-   "url": "https://x.com/i/lists",
-   "role": "people",
-   "tags": [
-    "x"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "members": [
-    "OpenAI",
-    "OpenAIDevs",
-    "AnthropicAI",
-    "claudeai",
-    "GoogleDeepMind",
-    "GoogleAI",
-    "GeminiApp",
-    "MistralAI",
-    "deepseek_ai",
-    "Alibaba_Qwen",
-    "xai",
-    "AIatMeta",
-    "huggingface",
-    "arena",
-    "cursor_ai",
-    "perplexity_ai",
-    "NVIDIAAI",
-    "MiniMax_AI",
-    "KimiDevs"
-   ],
-   "why": "Companies post launches here first, often before their blogs. Make it a private list and add these accounts (no need to follow them):"
-  },
-  {
-   "id": "x-list-ai-people",
-   "name": "X list: AI People (pin this)",
-   "type": "x_list",
-   "url": "https://x.com/i/lists",
-   "role": "people",
-   "tags": [
-    "x"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "members": [
-    "karpathy",
-    "sama",
-    "simonw",
-    "rasbt",
-    "natolambert",
-    "emollick",
-    "AndrewYNg",
-    "ylecun",
-    "demishassabis",
-    "gdb",
-    "JeffDean",
-    "OfficialLoganK",
-    "alexalbert__",
-    "swyx",
-    "_akhaliq",
-    "fchollet",
-    "hardmaru",
-    "svpino",
-    "omarsar0",
-    "levelsio"
-   ],
-   "why": "Researchers and builders: early takes, demos, paper drops. Make it a private list and add these accounts (no need to follow them):"
-  },
-  {
-   "id": "x-list-ai-creators",
-   "name": "X list: AI Creators & News",
-   "type": "x_list",
-   "url": "https://x.com/i/lists",
-   "role": "people",
-   "tags": [
-    "x"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "members": [
-    "mreflow",
-    "rileybrownai",
-    "MatthewBerman",
-    "rowancheung",
-    "bentossell",
-    "Fireship_dev"
-   ],
-   "why": "What other creators are covering today (topics and hooks). Make it a private list and add these accounts (no need to follow them):"
-  },
-  {
-   "id": "x-list-india-tech",
-   "name": "X list: India Tech & AI",
-   "type": "x_list",
-   "url": "https://x.com/i/lists",
-   "role": "people",
-   "tags": [
-    "x"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "members": [
-    "Krishnaik06",
-    "nikhilkamathcio",
-    "Nithin0dha",
-    "SarvamAI"
-   ],
-   "why": "Indian AI, startup and tech-jobs news for your student audience. Make it a private list and add these accounts (no need to follow them):"
-  },
-  {
-   "id": "x-list-saas",
-   "name": "X list: saas (SaaS & indie builders)",
-   "type": "x_list",
-   "url": "https://x.com/i/lists/2087135140694917178",
-   "role": "people",
-   "tags": [
-    "x",
-    "saas",
-    "startups"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "members": [
-    "levelsio",
-    "marclou",
-    "gregisenberg",
-    "jasonlk",
-    "saastr",
-    "dhh",
-    "jasonfried",
-    "arvidkahl",
-    "tdinh_me",
-    "jackfriks",
-    "robwalling",
-    "patio11",
-    "csallen",
-    "dannypostma",
-    "yongfook",
-    "svembu",
-    "mrgirish",
-    "launch_llama",
-    "Joi2James",
-    "Guronnimo",
-    "lightsilver323"
-   ],
-   "why": "SaaS and indie builders: what people actually build and ship with AI (product engineering + startup stream). Your list on @Kingrajesh1215 (21 members, updated 19 Oct 2026). Open X in Brave; the in-app browser can't load X."
-  }
- ],
- "competitors": [
-  {
-   "id": "fireship",
-   "name": "Fireship",
-   "kind": "channel",
-   "why": "Fast tech news shorts; sets the bar for pace and humour",
-   "status": "active",
-   "sources": [
+  "sources": [
     {
-     "id": "comp-fireship-yt",
-     "type": "youtube",
-     "channel_id": "UCsBjURrPoezykLs9EqgamOA",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "two-minute-papers",
-   "name": "Two Minute Papers",
-   "kind": "channel",
-   "why": "Research made exciting; shows which papers go viral",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-tmp-yt",
-     "type": "youtube",
-     "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "ai-explained",
-   "name": "AI Explained",
-   "kind": "channel",
-   "why": "Careful model-release analysis",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-aiexplained-yt",
-     "type": "youtube",
-     "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "matthew-berman",
-   "name": "Matthew Berman",
-   "kind": "channel",
-   "why": "First to test new models and tools",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-berman-yt",
-     "type": "youtube",
-     "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "krish-naik",
-   "name": "Krish Naik",
-   "kind": "channel",
-   "why": "Biggest Indian AI education channel; same audience",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-krishnaik-yt",
-     "type": "youtube",
-     "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "cole-medin",
-   "name": "Cole Medin",
-   "kind": "channel",
-   "why": "Local AI, agents and n8n setups: closest to our setup tutorials",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-cole-medin-yt",
-     "type": "youtube",
-     "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "yannic-kilcher",
-   "name": "Yannic Kilcher",
-   "kind": "channel",
-   "why": "Deep paper explanations: the bar for our research stream",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-yannic-kilcher-yt",
-     "type": "youtube",
-     "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "networkchuck",
-   "name": "NetworkChuck",
-   "kind": "channel",
-   "why": "Hugely popular local setup tutorials (self-hosting, local AI, n8n)",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-networkchuck-yt",
-     "type": "youtube",
-     "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "nate-herk",
-   "name": "Nate Herk",
-   "kind": "channel",
-   "why": "n8n and AI automation tutorials",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-nate-herk-yt",
-     "type": "youtube",
-     "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "codewithharry",
-   "name": "CodeWithHarry",
-   "kind": "channel",
-   "why": "Biggest Indian coding channel; same student audience",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-codewithharry-yt",
-     "type": "youtube",
-     "channel_id": "UCeVMnSShP_Iviwkknt83cww",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "ai-coffee-break",
-   "name": "AI Coffee Break with Letitia",
-   "kind": "channel",
-   "why": "Short, clear research-paper explainers",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-ai-coffee-break-yt",
-     "type": "youtube",
-     "channel_id": "UCobqgqE4i5Kf7wrxRxhToQA",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "theo-t3gg",
-   "name": "Theo (t3.gg)",
-   "kind": "channel",
-   "why": "Full-stack + AI opinions; huge with developers",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-theo-t3gg-yt",
-     "type": "youtube",
-     "channel_id": "UCbRP3c757lWg9M-U7TyEkXA",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "bytebytego",
-   "name": "ByteByteGo",
-   "kind": "channel",
-   "why": "System design with motion graphics, very close to our style",
-   "status": "active",
-   "sources": [
-    {
-     "id": "comp-bytebytego-yt",
-     "type": "youtube",
-     "channel_id": "UCZgt6AzoyjslHTC9dz0UoTw",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "jean-lee",
-   "name": "Jean Lee (ex-WhatsApp/Meta engineer)",
-   "kind": "channel",
-   "status": "active",
-   "why": "How to become an AI engineer, AI careers, learning paths: same topic as our 'Learn AI as fast as possible' series (her guides get 100k-200k views)",
-   "sources": [
-    {
-     "id": "comp-jean-lee-yt",
-     "type": "youtube",
-     "channel_id": "UCelp2mfpa0fors7HePAodoA",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "paul-j-lipsky",
-   "name": "Paul J Lipsky",
-   "kind": "channel",
-   "status": "trial",
-   "why": "Consumer AI tools, Gemini super app workflows and practical tutorials for everyday users",
-   "sources": [
-    {
-     "id": "comp-paul-lipsky-yt",
-     "type": "youtube",
-     "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  }
- ],
- "people": [
-  {
-   "id": "karpathy",
-   "name": "Andrej Karpathy",
-   "why": "Clearest teacher of how LLMs work",
-   "status": "active",
-   "sources": [
-    {
-     "id": "p-karpathy-yt",
-     "type": "youtube",
-     "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
-     "max_age_days": 7
+      "id": "search-demand-tech",
+      "name": "What India is searching: AI & tech",
+      "terms": [
+        "chatgpt",
+        "gemini",
+        "claude",
+        "deepseek",
+        "copilot",
+        "cursor ai",
+        "perplexity",
+        "grok",
+        "ai agent",
+        "vibe coding",
+        "python",
+        "ai course",
+        "full stack",
+        "system design",
+        "next.js",
+        "supabase",
+        "saas"
+      ],
+      "templates": [
+        "how to use {x}",
+        "is {x} free",
+        "{x} vs",
+        "{x} not working",
+        "{x} in telugu",
+        "what is {x}"
+      ],
+      "seeds": [
+        "best ai for",
+        "ai tools for",
+        "how to learn ai",
+        "ai jobs for",
+        "free ai course",
+        "best laptop for ai",
+        "how to build an app with ai",
+        "ai startup ideas",
+        "how to become ai engineer",
+        "ai engineer roadmap"
+      ],
+      "youtube": [
+        "how to use {x}",
+        "best ai for",
+        "ai tools for"
+      ],
+      "adapter": "site:search_demand",
+      "type": "search_demand",
+      "role": "news",
+      "tags": [
+        "search-demand",
+        "trending"
+      ],
+      "status": "active",
+      "gl": "in",
+      "hl": "en",
+      "every_hours": 20,
+      "max_new": 15,
+      "max_age_days": 2,
+      "why": "New Google/YouTube search suggestions in India: questions people have just started asking"
     },
     {
-     "id": "p-karpathy-blog",
-     "type": "feed",
-     "url": "https://karpathy.bearblog.dev/feed/",
-     "max_age_days": 7
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "type": "feed",
+      "url": "https://openai.com/news/rss.xml",
+      "role": "official",
+      "tags": [
+        "models",
+        "launches"
+      ],
+      "status": "active"
     },
     {
-     "id": "p-karpathy-x",
-     "name": "Andrej Karpathy on X",
-     "type": "x_manual",
-     "url": "https://x.com/karpathy",
-     "mode": "manual",
-     "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
-     "sweep": true
-    }
-   ]
-  },
-  {
-   "id": "simon-willison",
-   "name": "Simon Willison",
-   "why": "Tests every new model and tool the same day",
-   "status": "active",
-   "sources": [
-    {
-     "id": "p-simonw-blog",
-     "type": "feed",
-     "url": "https://simonwillison.net/atom/everything/",
-     "max_new": 6,
-     "max_age_days": 7
+      "id": "google-ai-blog",
+      "name": "Google AI Blog",
+      "type": "feed",
+      "url": "https://blog.google/technology/ai/rss/",
+      "role": "official",
+      "tags": [
+        "models",
+        "launches"
+      ],
+      "status": "active"
     },
     {
-     "id": "p-simon-willison-x",
-     "name": "Simon Willison on X",
-     "type": "x_manual",
-     "url": "https://x.com/simonw",
-     "mode": "manual",
-     "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
-     "sweep": true
-    }
-   ]
-  },
-  {
-   "id": "sebastian-raschka",
-   "name": "Sebastian Raschka",
-   "why": "LLM internals explained",
-   "status": "active",
-   "sources": [
-    {
-     "id": "p-raschka-blog",
-     "type": "feed",
-     "url": "https://magazine.sebastianraschka.com/feed",
-     "max_age_days": 7
+      "id": "deepmind-blog",
+      "name": "Google DeepMind",
+      "type": "feed",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "role": "official",
+      "tags": [
+        "research"
+      ],
+      "status": "active"
     },
     {
-     "id": "p-sebastian-raschka-x",
-     "name": "Sebastian Raschka on X",
-     "type": "x_manual",
-     "url": "https://x.com/rasbt",
-     "mode": "manual",
-     "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
-     "sweep": true
-    }
-   ]
-  },
-  {
-   "id": "nathan-lambert",
-   "name": "Nathan Lambert",
-   "why": "Open models and post-training",
-   "status": "active",
-   "sources": [
-    {
-     "id": "p-lambert-blog",
-     "type": "feed",
-     "url": "https://www.interconnects.ai/feed",
-     "max_age_days": 7
+      "id": "anthropic-news",
+      "name": "Anthropic News",
+      "type": "sitemap",
+      "url": "https://www.anthropic.com/sitemap.xml",
+      "match": [
+        "/news/"
+      ],
+      "role": "official",
+      "tags": [
+        "models",
+        "launches"
+      ],
+      "status": "active",
+      "max_new": 5
     },
     {
-     "id": "p-nathan-lambert-x",
-     "name": "Nathan Lambert on X",
-     "type": "x_manual",
-     "url": "https://x.com/natolambert",
-     "mode": "manual",
-     "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
-     "sweep": true
-    }
-   ]
-  },
-  {
-   "id": "ethan-mollick",
-   "name": "Ethan Mollick",
-   "why": "How normal people use AI at work and study",
-   "status": "active",
-   "sources": [
-    {
-     "id": "p-mollick-blog",
-     "type": "feed",
-     "url": "https://www.oneusefulthing.org/feed",
-     "max_age_days": 7
+      "id": "mistral-news",
+      "name": "Mistral AI",
+      "type": "feed",
+      "url": "https://mistral.ai/rss.xml",
+      "role": "official",
+      "tags": [
+        "models",
+        "open-source"
+      ],
+      "status": "active"
     },
     {
-     "id": "p-ethan-mollick-x",
-     "name": "Ethan Mollick on X",
-     "type": "x_manual",
-     "url": "https://x.com/emollick",
-     "mode": "manual",
-     "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
-     "sweep": true
-    }
-   ]
-  },
-  {
-   "id": "sam-altman",
-   "name": "Sam Altman",
-   "why": "OpenAI direction (rare posts)",
-   "status": "active",
-   "sources": [
-    {
-     "id": "p-altman-blog",
-     "type": "feed",
-     "url": "https://blog.samaltman.com/posts.atom",
-     "max_age_days": 7
+      "id": "hf-blog",
+      "name": "Hugging Face Blog",
+      "type": "feed",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "role": "official",
+      "tags": [
+        "open-source",
+        "models"
+      ],
+      "status": "active"
     },
     {
-     "id": "p-sam-altman-x",
-     "name": "Sam Altman on X",
-     "type": "x_manual",
-     "url": "https://x.com/sama",
-     "mode": "manual",
-     "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
-     "sweep": true
+      "id": "nvidia-dev-blog",
+      "name": "NVIDIA Developer Blog",
+      "type": "feed",
+      "url": "https://developer.nvidia.com/blog/feed",
+      "role": "official",
+      "tags": [
+        "hardware"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "ms-research",
+      "name": "Microsoft Research",
+      "type": "feed",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "role": "official",
+      "tags": [
+        "research"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "github-changelog",
+      "name": "GitHub Changelog",
+      "type": "feed",
+      "url": "https://github.blog/changelog/feed/",
+      "role": "official",
+      "tags": [
+        "changelog",
+        "dev-tools"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "gemini-api-changelog",
+      "name": "Gemini API changelog",
+      "type": "page",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "role": "official",
+      "tags": [
+        "changelog"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "anthropic-release-notes",
+      "name": "Anthropic release notes",
+      "type": "page",
+      "url": "https://docs.anthropic.com/en/release-notes/overview",
+      "role": "official",
+      "tags": [
+        "changelog"
+      ],
+      "status": "paused",
+      "why": "Paused in weekly review: 100% SKIP rate over past 7 days"
+    },
+    {
+      "id": "openai-api-changelog",
+      "name": "OpenAI API changelog",
+      "type": "page",
+      "url": "https://platform.openai.com/docs/changelog",
+      "role": "official",
+      "tags": [
+        "changelog"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "gh-claude-code",
+      "name": "Claude Code releases",
+      "type": "feed",
+      "url": "https://github.com/anthropics/claude-code/releases.atom",
+      "role": "official",
+      "tags": [
+        "changelog",
+        "dev-tools"
+      ],
+      "status": "active",
+      "max_new": 3
+    },
+    {
+      "id": "gh-ollama",
+      "name": "Ollama releases",
+      "type": "feed",
+      "url": "https://github.com/ollama/ollama/releases.atom",
+      "role": "official",
+      "tags": [
+        "changelog",
+        "open-source"
+      ],
+      "status": "active",
+      "max_new": 3
+    },
+    {
+      "id": "ollama-blog",
+      "name": "Ollama blog (models you can run locally)",
+      "type": "feed",
+      "url": "https://ollama.com/blog/rss.xml",
+      "role": "official",
+      "tags": [
+        "local-ai",
+        "setup"
+      ],
+      "status": "active",
+      "max_age_days": 7
+    },
+    {
+      "id": "hf-trending-models",
+      "name": "Hugging Face trending models",
+      "type": "hf_trending",
+      "role": "news",
+      "tags": [
+        "local-ai",
+        "open-models",
+        "setup"
+      ],
+      "status": "active",
+      "min_likes": 30,
+      "max_new": 8,
+      "max_age_days": 21
+    },
+    {
+      "id": "gh-n8n",
+      "name": "n8n releases",
+      "type": "feed",
+      "url": "https://github.com/n8n-io/n8n/releases.atom",
+      "role": "official",
+      "tags": [
+        "automation",
+        "setup"
+      ],
+      "status": "active",
+      "max_new": 1
+    },
+    {
+      "id": "gh-comfyui",
+      "name": "ComfyUI releases",
+      "type": "feed",
+      "url": "https://github.com/comfyanonymous/ComfyUI/releases.atom",
+      "role": "official",
+      "tags": [
+        "image-gen",
+        "setup"
+      ],
+      "status": "active",
+      "max_new": 2
+    },
+    {
+      "id": "meta-engineering",
+      "name": "Meta Engineering",
+      "type": "feed",
+      "url": "https://engineering.fb.com/feed/",
+      "role": "official",
+      "tags": [
+        "models",
+        "launches"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "gn-meta-ai",
+      "name": "Meta AI (news)",
+      "type": "gnews",
+      "query": "\"Meta AI\" OR Llama OR \"Meta Superintelligence\"",
+      "role": "news",
+      "tags": [
+        "company-news"
+      ],
+      "status": "active",
+      "max_new": 5,
+      "why": "ai.meta.com has no feed and blocks bots"
+    },
+    {
+      "id": "xai-news",
+      "name": "xAI News",
+      "type": "sitemap",
+      "url": "https://x.ai/sitemap.xml",
+      "match": [
+        "/news/"
+      ],
+      "role": "official",
+      "tags": [
+        "models",
+        "launches"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "deepseek-news",
+      "name": "DeepSeek News",
+      "type": "sitemap",
+      "url": "https://api-docs.deepseek.com/sitemap.xml",
+      "match": [
+        "/news/"
+      ],
+      "role": "official",
+      "tags": [
+        "models",
+        "launches"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "gn-deepseek",
+      "name": "DeepSeek (news)",
+      "type": "gnews",
+      "query": "DeepSeek model",
+      "role": "news",
+      "tags": [
+        "company-news"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "qwen-blog",
+      "name": "Qwen Blog",
+      "type": "feed",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "role": "official",
+      "tags": [
+        "models",
+        "launches"
+      ],
+      "status": "active",
+      "max_age_days": 7
+    },
+    {
+      "id": "gn-qwen",
+      "name": "Qwen (news)",
+      "type": "gnews",
+      "query": "Qwen Alibaba AI model",
+      "role": "news",
+      "tags": [
+        "company-news"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "apple-ml",
+      "name": "Apple Machine Learning",
+      "type": "feed",
+      "url": "https://machinelearning.apple.com/rss.xml",
+      "role": "official",
+      "tags": [
+        "models",
+        "launches"
+      ],
+      "status": "active",
+      "max_age_days": 7
+    },
+    {
+      "id": "aws-ml",
+      "name": "AWS Machine Learning Blog",
+      "type": "feed",
+      "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+      "role": "official",
+      "tags": [
+        "models",
+        "launches"
+      ],
+      "status": "active",
+      "max_new": 4
+    },
+    {
+      "id": "gn-perplexity",
+      "name": "Perplexity (news)",
+      "type": "gnews",
+      "query": "\"Perplexity AI\"",
+      "role": "news",
+      "tags": [
+        "company-news"
+      ],
+      "status": "active",
+      "max_new": 5,
+      "why": "Perplexity's blog has no feed"
+    },
+    {
+      "id": "cursor-changelog",
+      "name": "Cursor Changelog",
+      "type": "feed",
+      "url": "https://www.cursor.com/changelog/rss.xml",
+      "role": "official",
+      "tags": [
+        "models",
+        "launches"
+      ],
+      "status": "active",
+      "max_new": 4
+    },
+    {
+      "id": "cursor-blog",
+      "name": "Cursor Blog",
+      "type": "sitemap",
+      "url": "https://cursor.com/sitemap.xml",
+      "match": [
+        "/blog/"
+      ],
+      "role": "official",
+      "tags": [
+        "models",
+        "launches"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "arena-ranks",
+      "name": "Arena (LMArena) rankings",
+      "adapter": "site:arena_ranks",
+      "type": "arena_ranks",
+      "boards": [
+        "text",
+        "webdev",
+        "vision",
+        "agent",
+        "search",
+        "text_to_image",
+        "text_to_video",
+        "image_edit"
+      ],
+      "top": 10,
+      "role": "official",
+      "tags": [
+        "benchmarks",
+        "leaderboard"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 12,
+      "why": "Arena's official leaderboard data: new #1, new top-10 entries and big jumps on 8 boards"
+    },
+    {
+      "id": "arena-leaderboard",
+      "name": "Arena (LMArena) leaderboard changelog",
+      "adapter": "site:arena_changelog",
+      "type": "arena_changelog",
+      "url": "https://arena.ai/company/leaderboard-changelog/",
+      "role": "official",
+      "tags": [
+        "benchmarks",
+        "leaderboard"
+      ],
+      "status": "active",
+      "max_new": 6,
+      "why": "New models added to the Arena leaderboards and methodology changes"
+    },
+    {
+      "id": "arena-product",
+      "name": "Arena (LMArena) product changelog",
+      "adapter": "site:arena_changelog",
+      "type": "arena_changelog",
+      "url": "https://arena.ai/company/product-changelog/",
+      "role": "official",
+      "tags": [
+        "benchmarks"
+      ],
+      "status": "active",
+      "max_new": 3,
+      "max_age_days": 7
+    },
+    {
+      "id": "arena-blog",
+      "name": "Arena (LMArena) blog",
+      "type": "sitemap",
+      "url": "https://blog.lmarena.ai/sitemap.xml",
+      "match": [
+        "/blog/"
+      ],
+      "role": "official",
+      "tags": [
+        "benchmarks",
+        "research"
+      ],
+      "status": "active",
+      "max_new": 4
+    },
+    {
+      "id": "gn-sarvam",
+      "name": "Sarvam AI (news)",
+      "type": "gnews",
+      "query": "\"Sarvam AI\"",
+      "role": "news",
+      "tags": [
+        "india",
+        "company-news"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "gn-india-ai",
+      "name": "Indian AI (Krutrim, IndiaAI Mission)",
+      "type": "gnews",
+      "query": "Krutrim OR \"IndiaAI Mission\" OR \"Indian LLM\"",
+      "role": "news",
+      "tags": [
+        "india",
+        "company-news"
+      ],
+      "status": "active",
+      "max_new": 5
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch AI",
+      "type": "feed",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "role": "news",
+      "tags": [
+        "industry"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "verge-ai",
+      "name": "The Verge AI",
+      "type": "feed",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "role": "news",
+      "tags": [
+        "consumer"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "marktechpost",
+      "name": "MarkTechPost",
+      "type": "feed",
+      "url": "https://www.marktechpost.com/feed/",
+      "role": "news",
+      "tags": [
+        "research",
+        "open-source"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "the-rundown",
+      "name": "The Rundown AI",
+      "type": "feed",
+      "url": "https://www.therundown.ai/feed",
+      "role": "news",
+      "tags": [
+        "newsletter"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "bens-bites",
+      "name": "Ben's Bites",
+      "type": "feed",
+      "url": "https://bensbites.com/feed",
+      "role": "news",
+      "tags": [
+        "newsletter",
+        "tools"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "latent-space",
+      "name": "Latent Space / AINews",
+      "type": "feed",
+      "url": "https://www.latent.space/feed",
+      "role": "news",
+      "tags": [
+        "newsletter",
+        "engineering"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "product-hunt",
+      "name": "Product Hunt",
+      "type": "feed",
+      "url": "https://www.producthunt.com/feed",
+      "role": "news",
+      "tags": [
+        "tools",
+        "launches"
+      ],
+      "status": "active",
+      "max_new": 10
+    },
+    {
+      "id": "hn-ai",
+      "name": "Hacker News (AI)",
+      "type": "hn",
+      "role": "news",
+      "tags": [
+        "discussion"
+      ],
+      "status": "active",
+      "keywords": [
+        "ai",
+        "llm",
+        "gpt",
+        "claude",
+        "gemini",
+        "openai",
+        "anthropic",
+        "deepseek",
+        "llama",
+        "mistral",
+        "agent",
+        "model",
+        "transformer",
+        "copilot",
+        "cursor",
+        "nvidia",
+        "inference"
+      ],
+      "min_points": 80
+    },
+    {
+      "id": "hf-papers",
+      "name": "Hugging Face Daily Papers",
+      "type": "hf_papers",
+      "role": "news",
+      "tags": [
+        "research"
+      ],
+      "status": "active",
+      "min_upvotes": 25,
+      "max_age_days": 7,
+      "max_new": 8
+    },
+    {
+      "id": "gh-trending",
+      "name": "GitHub Trending",
+      "type": "github_trending",
+      "role": "news",
+      "tags": [
+        "open-source",
+        "tools"
+      ],
+      "status": "active",
+      "min_stars_today": 150,
+      "max_new": 8
+    },
+    {
+      "id": "devto-ai",
+      "name": "dev.to #ai",
+      "type": "devto",
+      "tag": "ai",
+      "role": "news",
+      "tags": [
+        "tutorial"
+      ],
+      "status": "active",
+      "min_reactions": 20
+    },
+    {
+      "id": "devto-llm",
+      "name": "dev.to #llm",
+      "type": "devto",
+      "tag": "llm",
+      "role": "news",
+      "tags": [
+        "tutorial"
+      ],
+      "status": "active",
+      "min_reactions": 15
+    },
+    {
+      "id": "vercel-changelog",
+      "name": "Vercel (deploy, AI SDK, Next.js)",
+      "type": "feed",
+      "url": "https://vercel.com/atom",
+      "role": "official",
+      "tags": [
+        "full-stack",
+        "platform"
+      ],
+      "status": "active",
+      "max_new": 3
+    },
+    {
+      "id": "supabase-blog",
+      "name": "Supabase blog",
+      "type": "feed",
+      "url": "https://supabase.com/rss.xml",
+      "role": "official",
+      "tags": [
+        "full-stack",
+        "database"
+      ],
+      "status": "active",
+      "max_new": 2
+    },
+    {
+      "id": "cloudflare-blog",
+      "name": "Cloudflare blog",
+      "type": "feed",
+      "url": "https://blog.cloudflare.com/rss/",
+      "role": "official",
+      "tags": [
+        "platform",
+        "infra"
+      ],
+      "status": "active",
+      "max_new": 3
+    },
+    {
+      "id": "react-blog",
+      "name": "React blog",
+      "type": "feed",
+      "url": "https://react.dev/rss.xml",
+      "role": "official",
+      "tags": [
+        "frontend"
+      ],
+      "status": "active",
+      "max_age_days": 7
+    },
+    {
+      "id": "bytebytego-newsletter",
+      "name": "ByteByteGo newsletter (system design)",
+      "type": "feed",
+      "url": "https://blog.bytebytego.com/feed",
+      "role": "news",
+      "tags": [
+        "system-design",
+        "backend"
+      ],
+      "status": "active",
+      "max_age_days": 7
+    },
+    {
+      "id": "pragmatic-engineer",
+      "name": "The Pragmatic Engineer",
+      "type": "feed",
+      "url": "https://newsletter.pragmaticengineer.com/feed",
+      "role": "news",
+      "tags": [
+        "engineering",
+        "careers"
+      ],
+      "status": "active",
+      "max_age_days": 7
+    },
+    {
+      "id": "lennys-newsletter",
+      "name": "Lenny's Newsletter (product)",
+      "type": "feed",
+      "url": "https://www.lennysnewsletter.com/feed",
+      "role": "news",
+      "tags": [
+        "product"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yc-blog",
+      "name": "Y Combinator blog",
+      "type": "feed",
+      "url": "https://www.ycombinator.com/blog/rss/",
+      "role": "official",
+      "tags": [
+        "startups"
+      ],
+      "status": "active",
+      "max_age_days": 7
+    },
+    {
+      "id": "pg-essays",
+      "name": "Paul Graham essays",
+      "type": "feed",
+      "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+      "role": "people",
+      "tags": [
+        "startups",
+        "essays"
+      ],
+      "status": "active",
+      "baseline": true,
+      "max_age_days": 3650
+    },
+    {
+      "id": "yt-yc",
+      "name": "Y Combinator (Startup School)",
+      "type": "youtube",
+      "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+      "role": "news",
+      "tags": [
+        "startups",
+        "learning"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 2
+    },
+    {
+      "id": "yt-hussein-nasser",
+      "name": "Hussein Nasser (backend)",
+      "type": "youtube",
+      "channel_id": "UCmbrIDBNm752hNpW__2R1-Q",
+      "role": "news",
+      "tags": [
+        "backend",
+        "learning"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 2
+    },
+    {
+      "id": "yt-tech-with-tim",
+      "name": "Tech With Tim",
+      "type": "youtube",
+      "channel_id": "UC4JX40jDee_tINbkjycV4Sg",
+      "role": "news",
+      "tags": [
+        "tutorial",
+        "python"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 2
+    },
+    {
+      "id": "reddit-ai-news",
+      "name": "Reddit: AI news & models (7 subs)",
+      "type": "reddit_manual",
+      "url": "https://www.reddit.com/r/LocalLLaMA+OpenAI+ClaudeAI+singularity+artificial+GeminiAI+ChatGPT/top/?t=day",
+      "subreddits": [
+        "LocalLLaMA",
+        "OpenAI",
+        "ClaudeAI",
+        "singularity",
+        "artificial",
+        "GeminiAI",
+        "ChatGPT"
+      ],
+      "role": "news",
+      "tags": [
+        "discussion"
+      ],
+      "mode": "manual",
+      "sweep": true,
+      "status": "active",
+      "pick": 5,
+      "min_upvotes": 100,
+      "why": "The AI reads the top discussions here during analyze today (r/LocalLLaMA, r/OpenAI, r/ClaudeAI, r/singularity, r/artificial, r/GeminiAI, r/ChatGPT)"
+    },
+    {
+      "id": "reddit-ai-builders",
+      "name": "Reddit: AI builders & coding (6 subs)",
+      "type": "reddit_manual",
+      "url": "https://www.reddit.com/r/ChatGPTCoding+cursor+ClaudeCode+LLMDevs+AI_Agents+MachineLearning/top/?t=day",
+      "subreddits": [
+        "ChatGPTCoding",
+        "cursor",
+        "ClaudeCode",
+        "LLMDevs",
+        "AI_Agents",
+        "MachineLearning"
+      ],
+      "role": "news",
+      "tags": [
+        "discussion"
+      ],
+      "mode": "manual",
+      "sweep": true,
+      "status": "active",
+      "pick": 5,
+      "min_upvotes": 50,
+      "why": "The AI reads the top discussions here during analyze today (r/ChatGPTCoding, r/cursor, r/ClaudeCode, r/LLMDevs, r/AI_Agents, r/MachineLearning)"
+    },
+    {
+      "id": "reddit-students-india",
+      "name": "Reddit: students & Indian devs (4 subs)",
+      "type": "reddit_manual",
+      "url": "https://www.reddit.com/r/developersIndia+learnmachinelearning+learnprogramming+csMajors/top/?t=day",
+      "subreddits": [
+        "developersIndia",
+        "learnmachinelearning",
+        "learnprogramming",
+        "csMajors"
+      ],
+      "role": "news",
+      "tags": [
+        "discussion"
+      ],
+      "mode": "manual",
+      "sweep": true,
+      "status": "active",
+      "pick": 5,
+      "min_upvotes": 50,
+      "why": "The AI reads the top discussions here during analyze today (r/developersIndia, r/learnmachinelearning, r/learnprogramming, r/csMajors)"
+    },
+    {
+      "id": "reddit-builders",
+      "name": "Reddit: builders & product engineers (5 subs)",
+      "type": "reddit_manual",
+      "url": "https://www.reddit.com/r/webdev+SaaS+indiehackers+SideProject+ExperiencedDevs/top/?t=day",
+      "subreddits": [
+        "webdev",
+        "SaaS",
+        "indiehackers",
+        "SideProject",
+        "ExperiencedDevs"
+      ],
+      "role": "news",
+      "tags": [
+        "discussion"
+      ],
+      "mode": "manual",
+      "sweep": true,
+      "status": "active",
+      "pick": 5,
+      "min_upvotes": 100,
+      "why": "The AI reads the top discussions here during analyze today (r/webdev, r/SaaS, r/indiehackers, r/SideProject, r/ExperiencedDevs)"
+    },
+    {
+      "id": "yt-3b1b",
+      "name": "3Blue1Brown",
+      "type": "youtube",
+      "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+      "role": "news",
+      "tags": [
+        "learning"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yt-ibm-tech",
+      "name": "IBM Technology",
+      "type": "youtube",
+      "channel_id": "UCKWaEZ-_VweaEx1j62do_vQ",
+      "role": "news",
+      "tags": [
+        "learning",
+        "explainer"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yt-umar-jamil",
+      "name": "Umar Jamil",
+      "type": "youtube",
+      "channel_id": "UCtAcpQcYerN8xxZJYTfWBMw",
+      "role": "news",
+      "tags": [
+        "learning",
+        "deep-dive"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yt-campusx",
+      "name": "CampusX",
+      "type": "youtube",
+      "channel_id": "UCCWi3hpnq_Pe03nGxuS7isg",
+      "role": "news",
+      "tags": [
+        "learning",
+        "india"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yt-dwarkesh",
+      "name": "Dwarkesh Patel",
+      "type": "youtube",
+      "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+      "role": "news",
+      "tags": [
+        "interviews"
+      ],
+      "status": "paused",
+      "max_age_days": 7,
+      "max_new": 3,
+      "why": "Paused in weekly review: 100% SKIP rate over past 7 days"
+    },
+    {
+      "id": "yt-latent-space",
+      "name": "Latent Space (YouTube)",
+      "type": "youtube",
+      "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+      "role": "news",
+      "tags": [
+        "interviews",
+        "engineering"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yt-matt-wolfe",
+      "name": "Matt Wolfe",
+      "type": "youtube",
+      "channel_id": "UChpleBmo18P08aKCIgti38g",
+      "role": "news",
+      "tags": [
+        "creator",
+        "ai-news",
+        "tools"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yt-riley-brown",
+      "name": "Riley Brown",
+      "type": "youtube",
+      "channel_id": "UCMcoud_ZW7cfxeIugBflSBw",
+      "role": "news",
+      "tags": [
+        "creator",
+        "vibe-coding",
+        "tools"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yt-ai-advantage",
+      "name": "The AI Advantage",
+      "type": "youtube",
+      "channel_id": "UCHhYXsLBEVVnbvsq57n1MTQ",
+      "role": "news",
+      "tags": [
+        "creator",
+        "tools",
+        "tutorial"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yt-wes-roth",
+      "name": "Wes Roth",
+      "type": "youtube",
+      "channel_id": "UCqcbQf6yw5KzRoDDcZ_wBSw",
+      "role": "news",
+      "tags": [
+        "creator",
+        "ai-news"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yt-sam-witteveen",
+      "name": "Sam Witteveen",
+      "type": "youtube",
+      "channel_id": "UC55ODQSvARtgSyc8ThfiepQ",
+      "role": "news",
+      "tags": [
+        "creator",
+        "models",
+        "tutorial"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yt-bycloud",
+      "name": "bycloud",
+      "type": "youtube",
+      "channel_id": "UCgfe2ooZD3VJPB6aJAnuQng",
+      "role": "news",
+      "tags": [
+        "creator",
+        "research",
+        "explainer"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yt-ai-jason",
+      "name": "AI Jason",
+      "type": "youtube",
+      "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw",
+      "role": "news",
+      "tags": [
+        "creator",
+        "agents",
+        "tutorial"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "daily-dev",
+      "name": "daily.dev",
+      "type": "daily_dev",
+      "url": "https://app.daily.dev/",
+      "role": "news",
+      "tags": [
+        "aggregator"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "why": "Personalised dev feed; scan once a day"
+    },
+    {
+      "id": "theres-an-ai",
+      "name": "There's An AI For That",
+      "type": "page",
+      "url": "https://theresanaiforthat.com/new/",
+      "role": "news",
+      "tags": [
+        "tools"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "why": "New AI tools; scan weekly"
+    },
+    {
+      "id": "x-list-ai-labs",
+      "name": "X list: AI Labs (pin this)",
+      "type": "x_list",
+      "url": "https://x.com/i/lists",
+      "role": "people",
+      "tags": [
+        "x"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "members": [
+        "OpenAI",
+        "OpenAIDevs",
+        "AnthropicAI",
+        "claudeai",
+        "GoogleDeepMind",
+        "GoogleAI",
+        "GeminiApp",
+        "MistralAI",
+        "deepseek_ai",
+        "Alibaba_Qwen",
+        "xai",
+        "AIatMeta",
+        "huggingface",
+        "arena",
+        "cursor_ai",
+        "perplexity_ai",
+        "NVIDIAAI",
+        "MiniMax_AI",
+        "KimiDevs"
+      ],
+      "why": "Companies post launches here first, often before their blogs. Make it a private list and add these accounts (no need to follow them):"
+    },
+    {
+      "id": "x-list-ai-people",
+      "name": "X list: AI People (pin this)",
+      "type": "x_list",
+      "url": "https://x.com/i/lists",
+      "role": "people",
+      "tags": [
+        "x"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "members": [
+        "karpathy",
+        "sama",
+        "simonw",
+        "rasbt",
+        "natolambert",
+        "emollick",
+        "AndrewYNg",
+        "ylecun",
+        "demishassabis",
+        "gdb",
+        "JeffDean",
+        "OfficialLoganK",
+        "alexalbert__",
+        "swyx",
+        "_akhaliq",
+        "fchollet",
+        "hardmaru",
+        "svpino",
+        "omarsar0",
+        "levelsio"
+      ],
+      "why": "Researchers and builders: early takes, demos, paper drops. Make it a private list and add these accounts (no need to follow them):"
+    },
+    {
+      "id": "x-list-ai-creators",
+      "name": "X list: AI Creators & News",
+      "type": "x_list",
+      "url": "https://x.com/i/lists",
+      "role": "people",
+      "tags": [
+        "x"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "members": [
+        "mreflow",
+        "rileybrownai",
+        "MatthewBerman",
+        "rowancheung",
+        "bentossell",
+        "Fireship_dev"
+      ],
+      "why": "What other creators are covering today (topics and hooks). Make it a private list and add these accounts (no need to follow them):"
+    },
+    {
+      "id": "x-list-india-tech",
+      "name": "X list: India Tech & AI",
+      "type": "x_list",
+      "url": "https://x.com/i/lists",
+      "role": "people",
+      "tags": [
+        "x"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "members": [
+        "Krishnaik06",
+        "nikhilkamathcio",
+        "Nithin0dha",
+        "SarvamAI"
+      ],
+      "why": "Indian AI, startup and tech-jobs news for your student audience. Make it a private list and add these accounts (no need to follow them):"
+    },
+    {
+      "id": "x-list-saas",
+      "name": "X list: saas (SaaS & indie builders)",
+      "type": "x_list",
+      "url": "https://x.com/i/lists/2087135140694917178",
+      "role": "people",
+      "tags": [
+        "x",
+        "saas",
+        "startups"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "members": [
+        "levelsio",
+        "marclou",
+        "gregisenberg",
+        "jasonlk",
+        "saastr",
+        "dhh",
+        "jasonfried",
+        "arvidkahl",
+        "tdinh_me",
+        "jackfriks",
+        "robwalling",
+        "patio11",
+        "csallen",
+        "dannypostma",
+        "yongfook",
+        "svembu",
+        "mrgirish",
+        "launch_llama",
+        "Joi2James",
+        "Guronnimo",
+        "lightsilver323"
+      ],
+      "why": "SaaS and indie builders: what people actually build and ship with AI (product engineering + startup stream). Your list on @Kingrajesh1215 (21 members, updated 19 Oct 2026). Open X in Brave; the in-app browser can't load X."
     }
-   ]
-  }
- ]
+  ],
+  "competitors": [
+    {
+      "id": "fireship",
+      "name": "Fireship",
+      "kind": "channel",
+      "why": "Fast tech news shorts; sets the bar for pace and humour",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-fireship-yt",
+          "type": "youtube",
+          "channel_id": "UCsBjURrPoezykLs9EqgamOA",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "two-minute-papers",
+      "name": "Two Minute Papers",
+      "kind": "channel",
+      "why": "Research made exciting; shows which papers go viral",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-tmp-yt",
+          "type": "youtube",
+          "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "ai-explained",
+      "name": "AI Explained",
+      "kind": "channel",
+      "why": "Careful model-release analysis",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-aiexplained-yt",
+          "type": "youtube",
+          "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "matthew-berman",
+      "name": "Matthew Berman",
+      "kind": "channel",
+      "why": "First to test new models and tools",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-berman-yt",
+          "type": "youtube",
+          "channel_id": "UCawZsQWqfGSbCI5yjkdVkTA",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "krish-naik",
+      "name": "Krish Naik",
+      "kind": "channel",
+      "why": "Biggest Indian AI education channel; same audience",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-krishnaik-yt",
+          "type": "youtube",
+          "channel_id": "UCNU_lfiiWBdtULKOw6X0Dig",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "cole-medin",
+      "name": "Cole Medin",
+      "kind": "channel",
+      "why": "Local AI, agents and n8n setups: closest to our setup tutorials",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-cole-medin-yt",
+          "type": "youtube",
+          "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "yannic-kilcher",
+      "name": "Yannic Kilcher",
+      "kind": "channel",
+      "why": "Deep paper explanations: the bar for our research stream",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-yannic-kilcher-yt",
+          "type": "youtube",
+          "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "networkchuck",
+      "name": "NetworkChuck",
+      "kind": "channel",
+      "why": "Hugely popular local setup tutorials (self-hosting, local AI, n8n)",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-networkchuck-yt",
+          "type": "youtube",
+          "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "nate-herk",
+      "name": "Nate Herk",
+      "kind": "channel",
+      "why": "n8n and AI automation tutorials",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-nate-herk-yt",
+          "type": "youtube",
+          "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "codewithharry",
+      "name": "CodeWithHarry",
+      "kind": "channel",
+      "why": "Biggest Indian coding channel; same student audience",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-codewithharry-yt",
+          "type": "youtube",
+          "channel_id": "UCeVMnSShP_Iviwkknt83cww",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "ai-coffee-break",
+      "name": "AI Coffee Break with Letitia",
+      "kind": "channel",
+      "why": "Short, clear research-paper explainers",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-ai-coffee-break-yt",
+          "type": "youtube",
+          "channel_id": "UCobqgqE4i5Kf7wrxRxhToQA",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "theo-t3gg",
+      "name": "Theo (t3.gg)",
+      "kind": "channel",
+      "why": "Full-stack + AI opinions; huge with developers",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-theo-t3gg-yt",
+          "type": "youtube",
+          "channel_id": "UCbRP3c757lWg9M-U7TyEkXA",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "bytebytego",
+      "name": "ByteByteGo",
+      "kind": "channel",
+      "why": "System design with motion graphics, very close to our style",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-bytebytego-yt",
+          "type": "youtube",
+          "channel_id": "UCZgt6AzoyjslHTC9dz0UoTw",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "jean-lee",
+      "name": "Jean Lee (ex-WhatsApp/Meta engineer)",
+      "kind": "channel",
+      "status": "active",
+      "why": "How to become an AI engineer, AI careers, learning paths: same topic as our 'Learn AI as fast as possible' series (her guides get 100k-200k views)",
+      "sources": [
+        {
+          "id": "comp-jean-lee-yt",
+          "type": "youtube",
+          "channel_id": "UCelp2mfpa0fors7HePAodoA",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "paul-j-lipsky",
+      "name": "Paul J Lipsky",
+      "kind": "channel",
+      "status": "active",
+      "why": "Consumer AI tools, Gemini super app workflows and practical tutorials for everyday users",
+      "sources": [
+        {
+          "id": "comp-paul-lipsky-yt",
+          "type": "youtube",
+          "channel_id": "UCmeU2DYiVy80wMBGZzEWnbw",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "id": "karpathy",
+      "name": "Andrej Karpathy",
+      "why": "Clearest teacher of how LLMs work",
+      "status": "active",
+      "sources": [
+        {
+          "id": "p-karpathy-yt",
+          "type": "youtube",
+          "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
+          "max_age_days": 7
+        },
+        {
+          "id": "p-karpathy-blog",
+          "type": "feed",
+          "url": "https://karpathy.bearblog.dev/feed/",
+          "max_age_days": 7
+        },
+        {
+          "id": "p-karpathy-x",
+          "name": "Andrej Karpathy on X",
+          "type": "x_manual",
+          "url": "https://x.com/karpathy",
+          "mode": "manual",
+          "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
+          "sweep": true
+        }
+      ]
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "why": "Tests every new model and tool the same day",
+      "status": "active",
+      "sources": [
+        {
+          "id": "p-simonw-blog",
+          "type": "feed",
+          "url": "https://simonwillison.net/atom/everything/",
+          "max_new": 6,
+          "max_age_days": 7
+        },
+        {
+          "id": "p-simon-willison-x",
+          "name": "Simon Willison on X",
+          "type": "x_manual",
+          "url": "https://x.com/simonw",
+          "mode": "manual",
+          "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
+          "sweep": true
+        }
+      ]
+    },
+    {
+      "id": "sebastian-raschka",
+      "name": "Sebastian Raschka",
+      "why": "LLM internals explained",
+      "status": "active",
+      "sources": [
+        {
+          "id": "p-raschka-blog",
+          "type": "feed",
+          "url": "https://magazine.sebastianraschka.com/feed",
+          "max_age_days": 7
+        },
+        {
+          "id": "p-sebastian-raschka-x",
+          "name": "Sebastian Raschka on X",
+          "type": "x_manual",
+          "url": "https://x.com/rasbt",
+          "mode": "manual",
+          "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
+          "sweep": true
+        }
+      ]
+    },
+    {
+      "id": "nathan-lambert",
+      "name": "Nathan Lambert",
+      "why": "Open models and post-training",
+      "status": "active",
+      "sources": [
+        {
+          "id": "p-lambert-blog",
+          "type": "feed",
+          "url": "https://www.interconnects.ai/feed",
+          "max_age_days": 7
+        },
+        {
+          "id": "p-nathan-lambert-x",
+          "name": "Nathan Lambert on X",
+          "type": "x_manual",
+          "url": "https://x.com/natolambert",
+          "mode": "manual",
+          "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
+          "sweep": true
+        }
+      ]
+    },
+    {
+      "id": "ethan-mollick",
+      "name": "Ethan Mollick",
+      "why": "How normal people use AI at work and study",
+      "status": "active",
+      "sources": [
+        {
+          "id": "p-mollick-blog",
+          "type": "feed",
+          "url": "https://www.oneusefulthing.org/feed",
+          "max_age_days": 7
+        },
+        {
+          "id": "p-ethan-mollick-x",
+          "name": "Ethan Mollick on X",
+          "type": "x_manual",
+          "url": "https://x.com/emollick",
+          "mode": "manual",
+          "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
+          "sweep": true
+        }
+      ]
+    },
+    {
+      "id": "sam-altman",
+      "name": "Sam Altman",
+      "why": "OpenAI direction (rare posts)",
+      "status": "active",
+      "sources": [
+        {
+          "id": "p-altman-blog",
+          "type": "feed",
+          "url": "https://blog.samaltman.com/posts.atom",
+          "max_age_days": 7
+        },
+        {
+          "id": "p-sam-altman-x",
+          "name": "Sam Altman on X",
+          "type": "x_manual",
+          "url": "https://x.com/sama",
+          "mode": "manual",
+          "why": "The AI reads their latest posts during analyze today (X can't be collected automatically)",
+          "sweep": true
+        }
+      ]
+    }
+  ]
 }
