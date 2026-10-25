@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-25T07:35:19Z",
+  "history": [],
+  "id": "2026-10-25-why-inference-matters-more-than-training",
+  "type": "evergreen",
+  "timing": "SOON",
+  "title": "Why Inference Compute Matters 12x More Than Training (And How To Architect For It)",
+  "angle": "Training an AI model is expensive, but serving it is an infinite money pit. Here is why inference compute now burns 12x more than training—and how top engineers architect for it.",
+  "outline": [
+   "Hook: The common misconception that pre-training is where all AI compute goes.",
+   "Why inference costs scale linearly with user traffic while training is a one-time sunk cost.",
+   "The real hardware bottleneck: Memory bandwidth vs compute bound operations in autoregressive generation.",
+   "Key system design tactics: Speculative decoding, KV-cache paging (vLLM), and FP8/INT4 quantization.",
+   "Practical architecture blueprint for full-stack AI engineers deploying production models without going bankrupt."
+  ],
+  "items": [
+   "63e75775d41a232c"
+  ],
+  "updated_at": "2026-10-25T07:35:19Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-25T07:35:19Z",
+  "history": [],
+  "id": "2026-10-25-indiaai-undergrad-fellowship-guide",
+  "type": "hype",
+  "timing": "NOW",
+  "title": "How Indian Engineering Students Can Get a ₹1 Lakh AI Fellowship From MeitY",
+  "angle": "If you're an engineering student in India building AI apps, the government will pay you ₹1 Lakh. Here's what you need to know about the MeitY IndiaAI fellowship.",
+  "outline": [
+   "Hook: Government funding for student AI builders in India.",
+   "What the MeitY IndiaAI fellowship offers: ₹1,00,000 financial support and compute grants.",
+   "Eligibility: Undergraduate engineering students in AI/CS domains.",
+   "Winning project proposal ideas: Indic language apps, computer vision for agriculture/health, agent tooling.",
+   "Application checklist, deadline, and how to submit a strong portfolio."
+  ],
+  "items": [
+   "b68490e75b5917e7"
+  ],
+  "updated_at": "2026-10-25T07:35:19Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-24T06:23:38Z",
   "history": [],
   "id": "2026-10-24-openai-bans-internet-training-airgap",

@@ -724,5 +724,404 @@
    "Created video idea 2026-10-24-kimi-k31-pro-2-8-trillion-moe-model"
   ],
   "analyzed_at": "2026-10-24T06:23:17Z"
+ },
+ "3499bbc6ef4d18b3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "0cdaf76d211e8405": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "db301f6eac9a1d62": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "61a6631f41047a2e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "67bb9cbc8c693fd2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "05d15f32f847b21a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "84e893d06868fb43": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "cce0bdf4e28d5f63": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "42b77b8ef0877526": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "795bf80bf528a093": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "da7a0962430f60cd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Alibaba Qwen Go! platform introduces My Apps feature, enabling natural language app creation and cloud hosting.",
+  "notes": "- No-code app generator hosted on Alibaba Cloud\n- Competes with similar prompt-to-app tools",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "b90233758e635de5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "186792a9a1159a54": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "62c55393111d1e74": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "c456fe06c3106325": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "dc66ce3c49730624": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "586e325f3201e968": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "f2ed02619e24b94f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "6898818cdc9ee489": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "3e1c31034b851f35": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "7f3e4baa10f93508": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "b68490e75b5917e7": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 2,
+  "reason": "official_launch",
+  "flags": {
+   "category": "offer"
+  },
+  "summary": "MeitY IndiaAI announces undergraduate fellowship offering financial support up to Rs 1 lakh for AI students and builders. Hook: 'If you are an engineering student in India, the government will pay you Rs 1 Lakh to build AI.'",
+  "notes": "- Official MeitY IndiaAI Mission initiative\n- Grants up to Rs 1,00,000 for undergraduate students working on AI research and product development\n- Eligibility criteria, deadline details, and application process\n- High interest for student developer demographic in India",
+  "actions": [
+   "Created video idea 2026-10-25-indiaai-undergrad-fellowship-guide"
+  ],
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "a543dc08d3ec4cca": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "3b23c88cfdf2929b": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Anthropic open-sources sandbox-runtime providing lightweight OS-level isolation for AI coding agents without Docker container overhead.",
+  "notes": "- Solves security sandboxing for agent execution\n- Native macOS and Linux support\n- Fast startup latency under 10ms",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "151821f5405e9746": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Letta introduces stateful agentic engineering copilots with persistent core memory and shared cross-session semantic retrieval.",
+  "notes": "- Long-term memory management for software engineering agents\n- Solves context drift across multi-day coding sessions",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "de9e9dd790ad709e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "8c698e8e6f9f7f71": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Latent Space analyzes Kimi 3.1 Pro 104B architecture, highlighting open weights closing performance gap with frontier closed labs.",
+  "notes": "- Deep architectural commentary on MoE routing and training datasets\n- Implications for open-weights developer ecosystem",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "b2a4846d440834ff": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "dfc1ea719cbed7dd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "8bc393b678269149": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "0394b37b2daf419f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "1Password announces credentials and secrets management SDK tailored for autonomous AI agents and automation scripts.",
+  "notes": "- Secure credential vault integration for CLI agents\n- Prevents hardcoded API tokens in prompt workflows",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "a301439ac9149bc9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "23ef44f3d52d6bc6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "fb15707f3a6baa54": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "56f6d3c2adcf0c04": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "ace5b63d4f018646": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "4d62263b2552d966": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "da46a980d1edfbd5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "258269ec0eaf4aa1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "cd3ad3191bbecad1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "026af3e2593c7fe5": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "23f3538b71f75a8b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Vercel CLI adds instant anonymous deployment capability, allowing developers to share live preview URLs without creating an account.",
+  "notes": "- Simplifies onboarding for beginners\n- Generates ephemeral public URLs for testing\n- Great utility for rapid prototyping workshops",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "63e75775d41a232c": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 5,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "YC Paper Club explains why inference compute now exceeds training compute by 12x and how engineers architect for it. Hook: 'Training an AI model is expensive, but serving it is an infinite money pit.'",
+  "notes": "- Dan Fu (Together AI) breakdown on the economics of AI deployment\n- Why inference compute now accounts for 12x more GPU hours than pre-training\n- Architectural strategies: speculative decoding, KV-cache quantization, vLLM optimizations\n- Critical system design concepts for full-stack AI engineers",
+  "actions": [
+   "Created video idea 2026-10-25-why-inference-matters-more-than-training"
+  ],
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "9dfb2e5d9b92d9f1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Tech with Tim releases comprehensive tutorial covering Claude Code CLI setup, terminal workflows, and autonomous debugging.",
+  "notes": "- Practical guide to Claude Code terminal assistant\n- Explains permission flags, git integration, and command chaining",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "763afb7b3674b417": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Conceptual breakdown defining technical differences between conversational chatbots and autonomous tool-using agents.",
+  "notes": "- Explains environment observation, tool invocation, and reflection loops",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "45e9320c7e40e40a": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "9d60532f41139155": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "51eef7e95b858e50": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "20bae6a699fab862": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Matt Wolfe covers 24 top AI stories this week: Claude Duet coding assistant, PHP 20-year CVE, Perplexity Mac Decider, and Mistral Voxtral 3.",
+  "notes": "- Story 1-5: Claude Duet hands-on, Anthropic computer use benchmarks, OpenAI Decisions API\n- Story 6-12: PHP CGI zero-day analysis, Perplexity Decider local macOS app, Mistral Voxtral 3 audio release\n- Story 13-24: Ideogram vector export, Kimi K3.1 104B open weights, Grok image generation updates\n- Verified all covered stories against Signal Hub feeds (100% caught)",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "65f9970a7036ba4d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Riley Brown reviews 10 hours of practical workflow testing with Claude Duet, highlighting multi-turn agentic coding tradeoffs.",
+  "notes": "- Hands-on workflow evaluation\n- Compares IDE copilot efficiency vs autonomous terminal agents",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "81c29e70b7bb15d8": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "3c955dcf8a4c02b9": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "497fd0535f7971c7": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "a8aa1245225dd846": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "c80c30ecfdd93256": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Fireship covers critical vulnerabilities including PHP CGI 20-year bug and agent exploitation vectors.",
+  "notes": "- Covered major security incidents across web infrastructure\n- Explored how agentic coding tools can inadvertently generate vulnerable patterns\n- Strong hook and concise delivery style",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "a7fb63148e3a25cd": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matthew Berman benchmarks Kimi K3.1 104B open weights locally, testing coding and math benchmarks.",
+  "notes": "- Benchmarked Kimi K3.1 104B parameter model\n- Highlighted open weights parity with proprietary models on coding benchmarks\n- Walked through hardware requirements for quantization",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "c610f9803b6bfd05": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "d4a45b0a05a6272b": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "f875ab1940bc2f16": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo covers national security advisory and memory-safe language mandates affecting systems developers.",
+  "notes": "- Breakdown of NSA recommendations on memory safety\n- Implications for C/C++ developers transitioning to Rust or Go\n- Strong developer community engagement",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "2663a9d2b187305c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "a60cc69f9916bcad": {
+  "label": "STUDY",
+  "importance": 4,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Sebastian Raschka releases complete video course and code repository on building reasoning models from scratch using RL and test-time compute.",
+  "notes": "- In-depth educational guide on test-time compute and reasoning architecture\n- Code implementation using PyTorch and open weights\n- Covers GRPO, search strategies, and reward modeling",
+  "analyzed_at": "2026-10-25T07:35:05Z"
  }
 }
