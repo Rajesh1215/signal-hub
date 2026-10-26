@@ -505,5 +505,237 @@
   "summary": "Matthew Berman analyzes practical use cases of local LLMs vs cloud APIs for privacy, latency, and cost.",
   "notes": "- Analyzed local LLM deployment economics\n- Compared local developer workstation setups vs serverless GPU endpoints\n- Highlighted data privacy requirements for enterprise developers",
   "analyzed_at": "2026-10-25T07:35:05Z"
+ },
+ "fd766ca96979ecba": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "a059087d9c4072b1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "9c993221a1eb5811": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "45a890850da2b285": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "0b668b84551481b0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "135fa28e04bb1d75": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "ec2d7038b4583548": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "5d94e5f1760f69d3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "1e8ce728f1900237": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "4894235f74725266": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "c35379faa3b17208": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "889895730da9a079": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "7098498b7b42c683": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "1fa1520a63973030": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "4c5759dcdefdd8a3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "dfcf0c650a9ba7fa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "f7acd0644c1707fe": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "6dfc680edc4cfad0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "9354402384b8941c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "8b2cabb36a307679": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "9d914b3bd0fc9f23": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Stanford and UC Berkeley introduce TokenGate, a token-level architectural gating mechanism that prevents unauthorized inference leakage.",
+  "notes": "- Mathematical framework for gating transformer output tokens\n- Addresses adversarial model extraction and distillation threats",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "35869e883e72082f": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Anthropic releases OSS Scanner, a free automated security auditing tool powered by Claude to detect vulnerabilities in codebases. Hook: 'Anthropic just released their internal security auditor for free: how OSS Scanner finds zero-days in your code.'",
+  "notes": "- Powered by Claude 3.5 Sonnet agentic architecture\n- Scans entire open-source codebases for buffer overflows, injection flaws, and logic bugs\n- Automatically drafts remediation patches and PRs\n- Critical security tool for developers and open source maintainers",
+  "actions": [
+   "Created video idea 2026-10-26-anthropic-free-oss-security-scanner"
+  ],
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "a5f17e0b018d1f47": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "d4cc44684c4bd46c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "0506d1f5f04dc16a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "edb34b6aaefc7643": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "34add9632b71d067": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "3b24b786971c63ea": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Open-source multi-agent simulation framework evaluating market research and synthetic financial modeling.",
+  "notes": "- Multi-agent research framework on GitHub",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "b615b7c250e26e76": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 5,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Coolify trends on GitHub as the leading open-source self-hosted alternative to Vercel and Heroku for hosting apps and AI models on any VPS. Hook: 'Stop paying cloud bills: how to self-host full-stack apps, databases, and local AI on a $5 VPS using Coolify.'",
+  "notes": "- Open source PaaS that turns any cheap Linux server (Hetzner, DigitalOcean) into a private Vercel\n- Supports one-click Docker deployments, automated SSL, Postgres/Redis clusters, and Ollama/vLLM endpoints\n- Saves indie builders thousands of dollars in cloud egress and managed platform markups",
+  "actions": [
+   "Created video idea 2026-10-26-self-host-ai-apps-with-coolify"
+  ],
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "0cdb3da8f66a847f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "beabca154e84eff9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "41c84719fb6ab276": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Rob Snyder shares structured framework on achieving product-market fit, customer problem discovery, and retention loops for software startups.",
+  "notes": "- Practical B2B customer interview methodologies\n- Defining non-obvious demand pull before building features",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "e732b8e592113b8e": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Tech with Tim breaks down the architectural anatomy of an autonomous AI agent: perception loop, memory store, tool calling, and planning execution.",
+  "notes": "- Clear visual guide to building agents from scratch in Python\n- Compares LangGraph vs raw API function calling",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "68801017deea9aa6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "ea10bac9e604deb1": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "IBM Tech deep-dives into autoregressive generation bottlenecks, explaining why long-context inference experiences quadratic KV-cache stalls.",
+  "notes": "- Detailed system architecture breakdown of memory bandwidth limitations\n- Evaluates paged attention and flash-decoding mitigations",
+  "analyzed_at": "2026-10-26T02:34:39Z"
+ },
+ "503c8334a61f2e17": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-26T02:34:39Z"
  }
 }

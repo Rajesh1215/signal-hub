@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-26T02:34:54Z",
+  "history": [],
+  "id": "2026-10-26-anthropic-free-oss-security-scanner",
+  "type": "hype",
+  "timing": "NOW",
+  "title": "Anthropic Just Made Their Internal Security Auditor Free for Everyone",
+  "angle": "Anthropic just released OSS Scanner, an AI tool powered by Claude that autonomously finds zero-days in codebases and writes the patches. Here is how to run it on your own repositories.",
+  "outline": [
+   "Hook: Traditional static code analyzers produce overwhelming false positives—AI agents change this.",
+   "How Anthropic OSS Scanner works: Multi-step reasoning across entire repository dependencies.",
+   "Live walkthrough: Running the scanner on a web app codebase and auditing the security report.",
+   "Automated remediation: Reviewing AI-drafted patch pull requests and regression checks.",
+   "Essential security checklist for modern full-stack product engineers."
+  ],
+  "items": [
+   "35869e883e72082f"
+  ],
+  "updated_at": "2026-10-26T02:34:54Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-26T02:34:54Z",
+  "history": [],
+  "id": "2026-10-26-self-host-ai-apps-with-coolify",
+  "type": "evergreen",
+  "timing": "SOON",
+  "title": "Stop Paying Cloud Bills: How to Self-Host AI Apps on a $5 VPS with Coolify",
+  "angle": "Cloud platforms like AWS, Vercel, and Render get expensive fast. Coolify is an open-source PaaS that turns any cheap Linux server into a self-hosted cloud with one click.",
+  "outline": [
+   "Hook: The harsh economics of managed PaaS platforms as soon as traffic scales.",
+   "What is Coolify: The open-source, self-hosted Vercel and Render alternative.",
+   "Step-by-step setup: Provisioning a $5 VPS (Hetzner/DigitalOcean) and installing Coolify.",
+   "One-click deployments: Hooking GitHub webhooks, spinning up Postgres, Redis, and Ollama.",
+   "Production readiness: Automated SSL, automated backups, and zero vendor lock-in."
+  ],
+  "items": [
+   "b615b7c250e26e76"
+  ],
+  "updated_at": "2026-10-26T02:34:54Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-25T07:35:19Z",
   "history": [],
   "id": "2026-10-25-why-inference-matters-more-than-training",
