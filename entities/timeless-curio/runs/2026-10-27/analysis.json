@@ -1,0 +1,387 @@
+{
+ "92e216a4fe3ef9b1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "bfb13411df69bcff": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "9cda124c510c951f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "bef6481b5ab973b6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA's Perseverance rover analyzes toxic perchlorate concentrations in Martian regolith, providing shielding data for future crewed Mars surface habitats.",
+  "notes": "- In-situ dust characterization at Jezero Crater for crew life-support filtration design",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "de574fc0904f53b2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "528b9abeaa9af609": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "084ea28f320a9c75": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "dffb903627c5621e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Space agencies use underwater habitat missions (NEEMO) to simulate extraterrestrial spacewalks, lunar isolation, and extreme buoyancy dynamics.",
+  "notes": "- Neutral buoyancy operations preparing astronauts for Artemis lunar south pole exploration",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "29ed74d463034fd5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "01f8ac38e7e7c35c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "51661b1cc1d897d5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA concludes the 22-year mission of the Swift gamma-ray burst space observatory following reaction wheel failures, preparing for atmospheric reentry.",
+  "notes": "- Discovered thousands of gamma-ray bursts, tidal disruption events, and supernova shockwaves\n- Legacy mission that transformed multi-messenger astrophysics",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "6c1fa51fe9c193e0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "3ab5bb0faa345d72": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "fa5cb6d0b0e53d15": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Neuroscientists unpack the evolutionary mystery of why the right brain controls the left body, tracing optic chiasm twists back 500 million years. Hook: 'Your right hand is controlled by your left brain, and your left leg by your right. Why on Earth did evolution cross the wiring of every vertebrate",
+  "notes": "- Explores somatic twist hypothesis and optic chiasm decussation\n- Early chordates rotated body axes 180 degrees while nerve cords remained fixed\n- Prevents optical distortion and coordinates bilateral predator-escape reflexes\n- Timeless human biology explainer with high natural curiosity",
+  "actions": [
+   "Created video idea 2026-10-27-why-brain-wiring-is-crossed"
+  ],
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "105566bf6dc69640": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "d5ae466141872fc8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "137f00f351c466f0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "5c8c33d00524a990": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "ec48a0ca55d301b3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "35a9ed9170d0a01e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "6f450ecd0a3d0d4a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "5c231dbf5ee6b4a3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "5344f62da9f90e7a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "85b5d0c7357d1604": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "a61ae1e62043a6ba": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "77b66699b11db7bd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "064372b34ad06a8e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "inventions"
+  },
+  "summary": "Biographical profile of Scottish surgeon Dr. Joseph Bell, whose clinical deduction methods and observation drills directly inspired Arthur Conan Doyle's Sherlock Holmes.",
+  "notes": "- Examines diagnostic deductive reasoning applied to crime and medicine\n- Historical origins of modern forensic science",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "90533ee1c5f5bf9f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "a883616dfa72110f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "c7bc3019982feb9f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "be3473e23b6b8953": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "92969846323f4eee": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "6877ec12a39bd44a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "1cb2138a249e69fb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "2cfe2a1901fd5dc5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "9612911d4fbdc1fa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "ced9617f94f94ba1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "18f74f30ee720ac1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "58183c292ee792ed": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "b8bcabb5745c9cac": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Theoretical physics explainer examining Grand Unified Theories (GUTs) seeking to merge electromagnetism, the weak force, and the strong nuclear force.",
+  "notes": "- Energy scales of unification and proton decay detection experiments",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "8461321727c51ff0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "b2e9b138ad5b43c3": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "discovery",
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Marine behavioral scientists publish findings on why Iberian killer whale pods coordinate rudder-ramming attacks on yachts as a learned social trend. Hook: 'Orcas off the coast of Spain have sunk 5 boats and rammed dozens more. Marine biologists finally have an answer for why killer whales target ru",
+  "notes": "- Social transmission of playful rudder-breaking behavior among juvenile killer whales\n- Debunks revenge myths; frames behavior as cultural transmission and pod play\n- Details hydrodynamic resistance that attracts orcas to sailing vessels\n- Fascinating animal intelligence case study",
+  "actions": [
+   "Created video idea 2026-10-27-why-orcas-are-sinking-boats"
+  ],
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "6f04e5392bd29029": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "944635504709f62a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "e36617025e320d01": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "9bd128e97d0aed37": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "e13d12420540012f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "evolution"
+  },
+  "summary": "Paleontologists identify a new Cretaceous theropod dinosaur species from wetland clay deposits in England, possessing distinctive hooked predatory claws.",
+  "notes": "- Expands fossil record of European wetlands fauna 125 million years ago",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "4885cfc0fa4c34b5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "9f3748888e959550": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "dc77cdf32046709f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "a72bd42a1842dcb4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "f0892b4cf8e0b160": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "31dd70893824d071": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "1803ca77c26af32d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "7e24179504946ddd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "ad2856fdae1dd0a2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "ff4c7dca33f480ca": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "849cf46e0068fc90": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "1deb77bc25aea63d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "cb31e8e520787a7c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "2653ebe6657a78bd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "38646f02d1dc36d3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "9508aace9436ba18": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "82a789c83d391ac9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ },
+ "f4db125f9c6dfee9": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "The Infographics Show visualizes the 4-minute presidential nuclear decision window, authentication biscuit codes, and alert protocols.",
+  "notes": "- Deconstructs presidential launch sequence and communication redundancy\n- Explores latency risks in early-warning satellite confirmation\n- High curiosity engagement topic",
+  "analyzed_at": "2026-10-27T09:59:06Z"
+ }
+}

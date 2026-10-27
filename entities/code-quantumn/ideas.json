@@ -1,6 +1,49 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-27T10:00:50Z",
+  "history": [],
+  "id": "2026-10-27-openai-gpt-6-1-terra-deep-dive",
+  "type": "hype",
+  "timing": "NOW",
+  "title": "OpenAI Just Released GPT-6.1 Terra: What Changed for Developers",
+  "angle": "OpenAI dropped GPT-6.1 Terra out of nowhere, engineered specifically for autonomous terminal coding and multi-file refactoring. Here are the benchmarks, API costs, and hands-on coding tests.",
+  "outline": [
+   "Hook: The sudden launch of GPT-6.1 Terra on OpenAI's official platform.",
+   "Architecture focus: Low-latency tool calling and recursive error correction.",
+   "Terminal coding benchmark: Testing it on full-stack repo bugfixes vs Claude 3.5 Sonnet.",
+   "Pricing breakdown: Input/output token costs and prompt caching economics.",
+   "How to integrate it into your Next.js and Cursor workflows today."
+  ],
+  "items": [
+   "fdcf244163bf33e0"
+  ],
+  "updated_at": "2026-10-27T10:00:50Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-27T10:00:50Z",
+  "history": [],
+  "id": "2026-10-27-karpathy-ai-engineer-roadmap",
+  "type": "evergreen",
+  "timing": "SOON",
+  "title": "The Andrej Karpathy AI Engineer Roadmap (How to Learn From Scratch)",
+  "angle": "Want to become a real AI engineer without getting overwhelmed? Here is Andrej Karpathy's complete first-principles curriculum—from building your first neural net in Python to training transformers.",
+  "outline": [
+   "Hook: The trap of superficial tutorial hell vs building from first principles.",
+   "Level 1: Python & micrograd – Understanding backpropagation and automatic differentiation with pure math.",
+   "Level 2: makemore – Language modeling from bigrams to multilayer perceptrons.",
+   "Level 3: nanoGPT – Writing the transformer architecture from scratch (attention, residual connections, layer norm).",
+   "Level 4: Pre-training, fine-tuning, and RLHF (Direct Preference Optimization).",
+   "How Indian engineering students can build real GitHub projects following this path to get hired."
+  ],
+  "items": [
+   "a27082929cf92b65"
+  ],
+  "updated_at": "2026-10-27T10:00:50Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-26T02:34:54Z",
   "history": [],
   "id": "2026-10-26-anthropic-free-oss-security-scanner",
