@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-28T03:12:35Z",
+  "history": [],
+  "id": "2026-10-28-hermes-agent-local-setup-guide",
+  "type": "hype",
+  "timing": "NOW",
+  "title": "Hermes Agent Setup: How to Run Free Autonomous Coding Agents Locally",
+  "angle": "Running cloud coding agents like Devin and Claude Code burns API tokens fast. Hermes Agent is an open-source framework that runs locally with multi-step tool use and zero subscription costs.",
+  "outline": [
+   "Hook: The harsh economics of agentic loops: Why $100 in API credits disappears in hours.",
+   "What Hermes Agent brings: Nous Research function-calling fine-tunes built for deterministic code execution.",
+   "Local deployment walkthrough: Pairing Ollama with Hermes Agent in Python.",
+   "Tool integration: Giving the agent bash execution, web search, and file editing capabilities.",
+   "Hands-on demo: Assigning a full bug fix on a Next.js repo and watching it test and commit locally."
+  ],
+  "items": [
+   "7d060f83cfa5914b"
+  ],
+  "updated_at": "2026-10-28T03:12:35Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-28T03:12:35Z",
+  "history": [],
+  "id": "2026-10-28-gpu-memory-sharing-kubernetes-cuda",
+  "type": "evergreen",
+  "timing": "SOON",
+  "title": "How to Safely Share 1 GPU Between 4 AI Models (CUDA 13.4 Memory Limits)",
+  "angle": "Renting dedicated GPUs for every small model is bankrupting AI startups. CUDA 13.4 introduces true hard memory isolation in Kubernetes so multiple containers can share one GPU without OOM crashes.",
+  "outline": [
+   "Hook: The out-of-memory nightmare: One microservice spikes VRAM and crashes every other model on the node.",
+   "The old ways: Time-slicing (no memory limits) vs MIG (inflexible hardware partitioning).",
+   "How CUDA 13.4 memory enforcement works: Kernel-level hard VRAM boundaries for containers.",
+   "Kubernetes deployment blueprint: Writing the pod manifest with exact GPU memory limits.",
+   "The cloud cost calculation: How this cuts production AI infrastructure bills by up to 75%."
+  ],
+  "items": [
+   "55fa841f666f051b"
+  ],
+  "updated_at": "2026-10-28T03:12:35Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-27T10:00:50Z",
   "history": [],
   "id": "2026-10-27-openai-gpt-6-1-terra-deep-dive",

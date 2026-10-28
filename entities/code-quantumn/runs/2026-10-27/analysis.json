@@ -896,5 +896,510 @@
   "summary": "Theo reviews shocking developer tool cloud bills and infrastructure burn rates across fast-growing AI startups.",
   "notes": "- Deconstructs cloud hosting unit economics\n- Explores inference margin compression for wrapper products",
   "analyzed_at": "2026-10-27T10:00:31Z"
+ },
+ "bec2ffb031e6d004": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "8fa811918ef88136": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "9cca225591a8705c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "969fac62384abdc3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "1647f92724ca44f4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "NVIDIA demonstrates fine-tuning techniques for Nemotron models to follow regional regulatory guidelines and jurisdictional compliance rules.",
+  "notes": "- Alignment techniques for enterprise jurisdictional constraints",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "8a732ed1f999ead3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "NVIDIA engineers outline optimization techniques for Mixture-of-Experts (MoE) inference, focusing on expert routing cache locality and kernel fusion.",
+  "notes": "- Minimizes GPU all-to-all communication overhead during multi-token generation\n- Practical benchmark comparisons on DGX Spark clusters",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "6b21c6a7c7a41aec": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "bed37b3ad4633829": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "4b03a95ecca18bce": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "a1dc69a374c0c848": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "b8690fa908812576": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "3a74e6052e9b633e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "5e9a128da9a93b16": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "cad51d4f339651ad": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "0da28a1aa985c2f3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "fe7ae2e45366e2f3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "e545a2c1fa246adb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "3458c988d14d57b0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "eff8463a28305cf7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "a7cf1faa482372a9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "cd08d35a441781b1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "c3b3b8c25bb69b7e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "ae2a23f216208696": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "49f3d401e696acdd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "a3e028ee0111799a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "db2a2c44acb0dedd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "2c80232a89a39f63": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "fff7774339cd3ba0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "d803b33c3458c56f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "973083a9824eeab3": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "57985f3fc6d7bdc8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "bbb08ac62ff0457a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "2ed893ab67f07a2e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "de7a43661da752ad": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "a199aa991e3491c1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "7134c61dcef1b951": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "7d3456a67d3b2dcf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "4e49ae3490b168bb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "566a2916cb6dbe5f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "b94ab36f7c1d3c42": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "baf271c3f16662ec": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "d67ad21715992b70": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "fb5fa7bd1d968dea": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "079a70a390065ff8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "4c0d714fea9d6855": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "8666227f750132c2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "60176c1b4f8ec070": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "e02af0b69be19f7f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "0441d509bd33f01d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "f9fb1b68a7028c4e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "5cc10b87e2b02555": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "f34a1e12b4bc5911": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "2185758b8df8c491": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "c3eda7edffac1de4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "2b39af097835ae9f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "a7b717badd9dfb0d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "953c7a8cd440f59a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "5c7317e4916f157b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "cf5e67619c65cba6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "d240c44d28518681": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "011863803ed5cac0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "935897c867b7537f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "3edc7c75ada828ff": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "532bbf7a7ad45a86": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "98909e25e4b21f33": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "abcb41469bff6944": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "8268da581e2c0594": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "b9a6c88a2ed9be84": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "cb0a9c52b6b694bb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "7c56b776fdc594a3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "337b1a71425721b8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "0349f09ac0d04dde": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "b132f5ba62b8619d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "22cdeae373a52f48": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "DeepTutor trends on GitHub as an open-source personalized tutoring agent capable of synthesizing lecture notes and interactive coding quizzes.",
+  "notes": "- Open source agent framework for personalized education",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "29065ba011b142ea": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "b10d22d42c9a4d14": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "47079d89ddc75f1b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "7bb2e988bfb825e7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "a15451c3c09d69b9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "6cb94b5a5692e6ae": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "7654780d28565f91": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "34359b7ef2c73223": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "7d060f83cfa5914b": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Tech with Tim releases complete walkthrough for Hermes Agent, the open-source autonomous agent framework optimized for local function calling. Hook: 'Hermes Agent just got a major update: here is how to run autonomous coding agents completely locally on your own machine.'",
+  "notes": "- Powered by Nous Research open-weights Hermes models\n- Structured JSON schema validation and multi-turn tool calling\n- Seamless integration with local Ollama endpoints and terminal sandboxes\n- Essential open-source developer tool for avoiding expensive cloud agent loops",
+  "actions": [
+   "Created video idea 2026-10-28-hermes-agent-local-setup-guide"
+  ],
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "1286b65f4e6ed6e8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Tech with Tim compares 6 specialized AI agent architectures designed for testing, documentation, web scraping, and automated pull requests.",
+  "notes": "- Architectural overview of domain-specific developer agents",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "28f25129d9adc58b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "ab68e3ae95a87f27": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "ec1c23d9b47c23bc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "aa61d87665ff936e": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matthew Berman analyzes Anthropic's Long-Term Benefit Trust governance structure and voting power allocation in their S-1 filing.",
+  "notes": "- Deconstructs dual-class share mechanisms and safety board veto powers\n- Explores investor alignment vs board control",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "74df9f52f7c78f65": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Krish Naik analyzes corporate restructuring across major tech firms and evolving hiring bars for AI product engineers in India.",
+  "notes": "- Workforce transition insights for Indian developer community",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "3fbe1fbdce1752ef": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin maps 4 B2B agent automation architectures using Claude API, structured tool calling, and webhook integration.",
+  "notes": "- Practical client automation templates\n- Evaluates prompt engineering vs deterministic code boundaries",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "6968086bb721dd10": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "NetworkChuck breaks down small local decision models for routing agent tasks, reducing latency and cloud API costs.",
+  "notes": "- Practical terminal walkthrough of lightweight local classifiers\n- High engagement styling tailored for developers",
+  "analyzed_at": "2026-10-28T03:12:19Z"
+ },
+ "358f629a6dd87a6e": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "CodeWithHarry addresses tech job market anxieties and explains why mastering full-stack fundamentals insulates engineers from displacement.",
+  "notes": "- Career mindset and practical skill-building advice for student programmers",
+  "analyzed_at": "2026-10-28T03:12:19Z"
  }
 }
