@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-10-29T04:15:50Z",
+  "history": [],
+  "id": "2026-10-29-github-copilot-fusion-multi-model-guide",
+  "title": "GitHub Copilot Goes Multi-Model: Claude 3.5 Sonnet, GPT-4o, and Local Ollama in VS Code",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "Stop paying for 3 separate AI subscriptions: GitHub Copilot now lets you switch models per prompt, and we benchmarked Claude vs GPT-4o on real code.",
+  "outline": [
+   "Overview: GitHub Universe announcement allowing users to toggle between Anthropic Claude 3.5 Sonnet, OpenAI GPT-4o, and Google Gemini 1.5 Pro directly within Copilot.",
+   "Setup: How to toggle the model picker in VS Code Settings and configure local Ollama models for zero-cost offline coding.",
+   "Benchmark test: Writing an asynchronous FastAPI webhook and a complex React state reducer across Claude 3.5 vs GPT-4o.",
+   "Cost & Quota analysis: Does switching models burn through your Copilot $10/month plan faster?",
+   "Verdict: Which model you should set as default for frontend vs backend vs algorithmic refactoring."
+  ],
+  "items": [
+   "7aec69de053662f1"
+  ],
+  "updated_at": "2026-10-29T04:15:50Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-10-29T04:15:50Z",
+  "history": [],
+  "id": "2026-10-29-how-anthropic-evaluates-and-ships-models",
+  "title": "How Anthropic Actually Tests AI Models: The Internal Eval Harness Explained",
+  "type": "evergreen",
+  "timing": "SOON",
+  "angle": "Why 90% of benchmark scores are fake, and the exact harness engineering teams use to test LLMs on production code.",
+  "outline": [
+   "The Eval Crisis: Why public leaderboard benchmarks (MMLU, HumanEval) suffer from data contamination and prompt overfitting.",
+   "Automated Test Harness: Inside Anthropic's methodology of running thousands of sandboxed execution environments per candidate checkpoint.",
+   "Grading without Human Bottlenecks: Using model-graded evals (LLM-as-a-judge) with strict rubric calibration and bias mitigation.",
+   "Building Your Own Eval Suite: Step-by-step setup using open-source tools (Promptfoo, DeepEval, or Inspect) for your own startup or app.",
+   "Key takeaway: Why the companies winning in 2026 iterate on their eval suite, not their prompt engineering."
+  ],
+  "items": [
+   "d8e98882c4696f25"
+  ],
+  "updated_at": "2026-10-29T04:15:50Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-10-28T03:12:35Z",
   "history": [],
   "id": "2026-10-28-hermes-agent-local-setup-guide",
