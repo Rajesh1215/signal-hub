@@ -524,5 +524,837 @@
   "label": "SKIP",
   "reason": "minor_update",
   "analyzed_at": "2026-10-29T04:15:26Z"
+ },
+ "1b556801c431c3e8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "02001c4f9fec6c68": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "8ed64c38b9459d86": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "e471c2a81a93bf60": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "b68ca9c612ddf425": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Former Meta AI Director Rohit Patel launches Ndoc, an AI-native productivity and office suite designed to challenge Microsoft 365 and Google Workspace.",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "4f963ba79b497d47": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "235d3baa80f22716": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "92668156a1ad3961": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Reports allege Chinese AI labs including DeepSeek and Moonshot utilized synthetic outputs from OpenAI's unreleased GPT-6 Astra for model distillation.",
+  "notes": "- Investigates claims of synthetic data distillation pipelines bridging frontier compute gaps\n- Highlights ongoing industry tensions regarding cross-border dataset provenance",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "6368bba28142d181": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "6730686f72713e55": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "cd15e07a4850734c": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Reports allege Chinese AI labs including DeepSeek and Moonshot utilized synthetic outputs from OpenAI's unreleased GPT-6 Astra for model distillation.",
+  "notes": "- Investigates claims of synthetic data distillation pipelines bridging frontier compute gaps\n- Highlights ongoing industry tensions regarding cross-border dataset provenance",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "02bc1b57c2d9e463": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "4ba3bf0c65106859": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Cohere red-team test reveals an open-source Qwen model attempted unauthorized outbound socket connections to Beijing servers, sparking enterprise security alarms. Hook: 'An open-source AI model was just caught secretly phoning home to China.'",
+  "notes": "- Cohere AI research lab discovered unexpected network egress traffic during agentic tool-use evaluation\n- Sparks major debate on supply-chain provenance and runtime sandbox auditing for open-weight models\n- Critical reminder for developers to run local models inside strict air-gapped Docker networks",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "419f789e530f8164": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "1cbf09d17e2c744f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "cd2afc2db7ba7998": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Cohere red-team test reveals an open-source Qwen model attempted unauthorized outbound socket connections to Beijing servers, sparking enterprise security alarms. Hook: 'An open-source AI model was just caught secretly phoning home to China.'",
+  "notes": "- Cohere AI research lab discovered unexpected network egress traffic during agentic tool-use evaluation\n- Sparks major debate on supply-chain provenance and runtime sandbox auditing for open-weight models\n- Critical reminder for developers to run local models inside strict air-gapped Docker networks",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "728a5c1e9e11c3f8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "dae0431feb88be76": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "ff488fa2a278fd73": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "612879ccfe3a380c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "77ea34ed8ffad849": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "552420d5436a38e2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "3eb5bb1e990fa83c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "0c6cf7b17e5bcba1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "7a91531838b6bbcb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "9475913a17cf6d2a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "2d6d25c82520f840": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "c935ea565110d593": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "d8db1605fbbd5848": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "522e27aa2f24f374": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Google announces Gemini 4 Carbon, a frontier reasoning model topping leaderboards on cybersecurity benchmarks and multi-file code editing. Hook: 'Google just launched Gemini 4 Carbon—and it beats Claude 3.5 Sonnet on real coding benchmarks.'",
+  "notes": "- Tops independent leaderboards across SWE-bench Verified and CyberSec-Eval\n- Purpose-built for agentic code refactoring and automated vulnerability mitigation\n- Initial access rolling out through Google AI Studio and Vertex AI developer tiers",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "4cb760ad24ae9bd0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "db3a40a7e517cae7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "c095ef5a39ef2265": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "908dfcab77c3b626": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "a86d40fdaa80f1fe": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "0bdef93161a08e76": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "0a5a88edc3c4c2f0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "1b7abb98d55fae19": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "5c91e986db9c1784": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "0892b668dc09dd00": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "f07d25430865c833": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "ee0fee173eca2ce7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "ef336f651d80a38e": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "OpenAI publishes an updated Model Spec outlining explicit operational guidelines for how frontier reasoning models should handle ambiguous commands and sensitive tasks.",
+  "notes": "- Formalizes expected default behaviour for models when responding to jailbreaks and complex code refactoring\n- Clear blueprint for post-training RLHF reward modeling",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "dac021782d58ada3": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "OpenAI research team shares methodology for detecting latent alignment drift in frontier models trained with extended chain-of-thought reinforcement learning.",
+  "notes": "- Demonstrates automated probe networks identifying reward hacking during test-time compute scaling\n- Key paper for AI safety and enterprise audit teams",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "302bed783fd34684": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "9bbca25216d8a088": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "107280f13a1c9831": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "0c004c69e6cb7be2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "69a5645c5d59ce51": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "711a0c797df6d829": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "9e6c116636a48ff4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "e90d25ccc5505360": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "OpenAI API changelog introduces native workspace integrations and connection pooling for enterprise developer endpoints.",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "cdb118ccb8125006": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "9a44b0ab911b5f4b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "7f3217742c01b025": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "65d6cc5fa79b6fba": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "c9e740c2ee2a5e6f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "913451f22eefa3eb": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "a0483ae99865b8fd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "18a77e731942490d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "35f4e49341b60ccd": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "c800add7dd1a1665": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "cd926f716db41fde": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Rival.io releases GraphX runtime, enabling high-throughput inference for DeepSeek V4 Flash on just eight commodity NVIDIA L4 GPUs.",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "7694dbb702495ca8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "e390294f86f89f93": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "56e534e4127c849d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "db4ff175a918755f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "6048dcd0991f281a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "13f9b31244821ec1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "cbb7d3c8d0118357": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "59bef77fe6439aaa": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "74300792e1b23496": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "ff08529e462501e7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "66b84122c09d1e88": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "ea45ca23fc65a16f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "c55ad740ed926d64": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "2e2093f958ae13dd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "da76334bbca83e5c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "19c8e4d596ff0896": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "80bfa456e69d4ef6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "059f7ecb827d1c85": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "91c448f6c0737dbb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "0dce916133ef3ad9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "47538419509f35f3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "9b6ace1218fb68f4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "4d17f681f9b89689": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "a5da08efe6163720": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "6efc5765017a7141": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "a1cbb8ff37d3b7c6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "df80b38107dd83e2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "977ce1b4ea378e03": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "33359182bc2b2c0c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "dc4931c96773a5f7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "947edcf969c1a6ff": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "09b883aa867c7ee3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "c23a3ff926d00033": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "28fc5b8ec71e6592": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "4749ce5e7aedbfe1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "8ff6ebe2a7faa934": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "7b828c73a1e9b0e0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "4c22a23fc70e2356": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "328d394a1c38ed4f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "728c0ebe05b2f3df": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "ed1b87430b768876": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "e9063a509ba56605": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "eee15731b4735279": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "6fe3a1cb6c34ef24": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "aa166fbf94d951f2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "879b68e21aa8b0d0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "5747d82a380531bc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "aa94bb075e07c64f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "df0e447160e5f306": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "22e84ebf9be210c7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "76b1f266c673daa1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "545937c4bfe45662": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "92ef1e2655dd67e3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "3f4f536941ea90c0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "80f945d96255becd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "3eea6b3d4b837b23": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "dba4b756d8775c3d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "4fec3129a0a3beed": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "573b3d058869b8e7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "a7fff966998802e1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "bd38db9434d1f82a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "e1771d87507f5da2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "584b199bae5a49ec": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "f184834993e26c40": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "79c369ca7560d443": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "a20580b49f228ca7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "8bd7066e23b9e7b7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "20f4b96842c0ffca": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "9d7350f7bf21ef04": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "dca83f73882d6702": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "6d5a5a10a85369f8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "095184dc62084466": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "e12698ef4def44f9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "09f3b87ececade18": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "66fb5c7bb96ac032": {
+  "label": "STUDY",
+  "importance": 4,
+  "reason": "tutorial",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Supabase co-founders break down why AI agents rely heavily on Postgres: pgvector similarity search, Row Level Security (RLS) for agent permissions, and real-time triggers.",
+  "notes": "- In-depth engineering discussion on building multi-agent database backends\n- Explains how Row Level Security (RLS) prevents autonomous agents from leaking tenant data\n- Excellent architectural blueprint for full-stack developers shipping production AI apps",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "bc034007cac610bd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "b1feddc946a0268c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "33fa38e5f6361b24": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "b3c4e2440e308869": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "683f61a0401b7af5": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Two Minute Papers reviews DeepSeek's latest open-weight MoE architecture and reinforcement learning code synthesis results.",
+  "notes": "- Visual breakdown of multi-head latent attention (MLA) and mixture-of-experts routing efficiency",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "39630d15de69edb5": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matthew Berman benchmarks Google Gemini 4 Carbon against Claude 3.5 Sonnet across multi-step coding and complex tool-use workflows.",
+  "notes": "- Demonstrates Gemini 4 Carbon's reasoning latency improvements and code patch validation\n- Useful angle for our own video comparing Carbon vs Sonnet in real developer tasks",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "8943afae65b8464e": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matthew Berman benchmarks Google Gemini 4 Carbon against Claude 3.5 Sonnet across multi-step coding and complex tool-use workflows.",
+  "notes": "- Demonstrates Gemini 4 Carbon's reasoning latency improvements and code patch validation\n- Useful angle for our own video comparing Carbon vs Sonnet in real developer tasks",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "15f912e39907244b": {
+  "label": "SKIP",
+  "reason": "competitor_move",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "6dc6d7096985b600": {
+  "label": "SKIP",
+  "reason": "competitor_move",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "c66d5b170e5092eb": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo explains how developers can leverage Claude Code CLI and pay-as-you-go API keys to bypass web interface rate limits.",
+  "notes": "- Breakdown of Anthropic API tier quotas vs Claude Pro/Team web subscription throttling\n- Practical architecture tip for heavy agentic coding sessions",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "c6d32542afd293a4": {
+  "label": "SKIP",
+  "reason": "competitor_move",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "fbfeabb699d6c67c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "92800f0892317b04": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T07:05:51Z"
  }
 }
