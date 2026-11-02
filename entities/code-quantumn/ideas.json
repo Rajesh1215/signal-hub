@@ -232,9 +232,15 @@
   "updated_at": "2026-10-25T07:35:19Z"
  },
  {
-  "status": "new",
+  "status": "skipped",
   "created_at": "2026-10-25T07:35:19Z",
-  "history": [],
+  "history": [
+   {
+    "at": "2026-11-02T11:18:57Z",
+    "event": "marked skipped",
+    "note": "Stale hype application window"
+   }
+  ],
   "id": "2026-10-25-indiaai-undergrad-fellowship-guide",
   "type": "hype",
   "timing": "NOW",
@@ -250,12 +256,19 @@
   "items": [
    "b68490e75b5917e7"
   ],
-  "updated_at": "2026-10-25T07:35:19Z"
+  "updated_at": "2026-11-02T11:18:57Z",
+  "status_note": "Stale hype application window"
  },
  {
-  "status": "new",
+  "status": "skipped",
   "created_at": "2026-10-24T06:23:38Z",
-  "history": [],
+  "history": [
+   {
+    "at": "2026-11-02T11:18:57Z",
+    "event": "marked skipped",
+    "note": "Hype news cycle passed"
+   }
+  ],
   "id": "2026-10-24-openai-bans-internet-training-airgap",
   "type": "hype",
   "timing": "NOW",
@@ -272,7 +285,8 @@
    "35e1add7659f201e",
    "9e046180b0b11378"
   ],
-  "updated_at": "2026-10-24T06:23:38Z"
+  "updated_at": "2026-11-02T11:18:57Z",
+  "status_note": "Hype news cycle passed"
  },
  {
   "status": "new",
@@ -834,9 +848,15 @@
   "updated_at": "2026-10-18T13:10:29Z"
  },
  {
-  "status": "new",
+  "status": "skipped",
   "created_at": "2026-10-18T13:05:09Z",
-  "history": [],
+  "history": [
+   {
+    "at": "2026-11-02T11:18:57Z",
+    "event": "marked skipped",
+    "note": "Stale hype topic"
+   }
+  ],
   "id": "2026-10-18-jevmaxxing-decision-models",
   "title": "Why developers are \"Jevmaxxing\": the end of expensive LLM tokens",
   "type": "hype",
@@ -853,12 +873,19 @@
    "c9aa3c13e8e21130",
    "88d20f1db634bd21"
   ],
-  "updated_at": "2026-10-18T13:05:09Z"
+  "updated_at": "2026-11-02T11:18:57Z",
+  "status_note": "Stale hype topic"
  },
  {
-  "status": "new",
+  "status": "skipped",
   "created_at": "2026-10-18T13:05:09Z",
-  "history": [],
+  "history": [
+   {
+    "at": "2026-11-02T11:18:57Z",
+    "event": "marked skipped",
+    "note": "Stale launch cycle"
+   }
+  ],
   "id": "2026-10-18-krea-3-realtime-video",
   "title": "Real-time AI video is here: what Krea 3 actually changes",
   "type": "hype",
@@ -873,7 +900,8 @@
   "items": [
    "a25341bf590b4f0a"
   ],
-  "updated_at": "2026-10-18T13:05:09Z"
+  "updated_at": "2026-11-02T11:18:57Z",
+  "status_note": "Stale launch cycle"
  },
  {
   "status": "new",

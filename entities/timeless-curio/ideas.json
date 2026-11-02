@@ -704,9 +704,15 @@
   "updated_at": "2026-10-18T17:37:16Z"
  },
  {
-  "status": "new",
+  "status": "skipped",
   "created_at": "2026-10-18T05:08:41Z",
-  "history": [],
+  "history": [
+   {
+    "at": "2026-11-02T11:18:52Z",
+    "event": "marked skipped",
+    "note": "Anniversary date passed"
+   }
+  ],
   "id": "2026-10-18-states-reorganisation-70",
   "title": "70 years ago, one law redrew South India's map",
   "type": "hype",
@@ -722,7 +728,8 @@
   "items": [
    "ff4437f20d61be35"
   ],
-  "updated_at": "2026-10-18T05:08:41Z"
+  "updated_at": "2026-11-02T11:18:52Z",
+  "status_note": "Anniversary date passed"
  },
  {
   "status": "new",
@@ -745,9 +752,15 @@
   "updated_at": "2026-10-18T05:08:41Z"
  },
  {
-  "status": "new",
+  "status": "skipped",
   "created_at": "2026-10-18T05:08:41Z",
-  "history": [],
+  "history": [
+   {
+    "at": "2026-11-02T11:18:52Z",
+    "event": "marked skipped",
+    "note": "Anniversary date passed"
+   }
+  ],
   "id": "2026-10-18-windows-xp-25",
   "title": "Why the world refused to let go of Windows XP",
   "type": "hype",
@@ -763,7 +776,8 @@
   "items": [
    "0855f216c163d448"
   ],
-  "updated_at": "2026-10-18T05:08:41Z"
+  "updated_at": "2026-11-02T11:18:52Z",
+  "status_note": "Anniversary date passed"
  },
  {
   "status": "new",

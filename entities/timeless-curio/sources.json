@@ -1,725 +1,726 @@
 {
- "sources": [
-  {
-   "id": "nasa",
-   "name": "NASA",
-   "type": "feed",
-   "url": "https://www.nasa.gov/feed/",
-   "role": "official",
-   "tags": [
-    "space"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "esa-science",
-   "name": "ESA Space Science",
-   "type": "feed",
-   "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
-   "role": "official",
-   "tags": [
-    "space"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "space-com",
-   "name": "Space.com",
-   "type": "feed",
-   "url": "https://www.space.com/feeds/all",
-   "role": "news",
-   "tags": [
-    "space"
-   ],
-   "status": "active",
-   "max_new": 10
-  },
-  {
-   "id": "livescience",
-   "name": "Live Science",
-   "type": "feed",
-   "url": "https://www.livescience.com/feeds/all",
-   "role": "news",
-   "tags": [
-    "science",
-    "history"
-   ],
-   "status": "active",
-   "max_new": 12
-  },
-  {
-   "id": "sciencedaily",
-   "name": "ScienceDaily",
-   "type": "feed",
-   "url": "https://www.sciencedaily.com/rss/top/science.xml",
-   "role": "news",
-   "tags": [
-    "science"
-   ],
-   "status": "active",
-   "max_new": 10
-  },
-  {
-   "id": "phys-org",
-   "name": "Phys.org",
-   "type": "feed",
-   "url": "https://phys.org/rss-feed/",
-   "role": "news",
-   "tags": [
-    "science"
-   ],
-   "status": "active",
-   "max_new": 10
-  },
-  {
-   "id": "smithsonian",
-   "name": "Smithsonian Magazine",
-   "type": "feed",
-   "url": "https://www.smithsonianmag.com/rss/latest_articles/",
-   "role": "news",
-   "tags": [
-    "history",
-    "science"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "ars-science",
-   "name": "Ars Technica Science",
-   "type": "feed",
-   "url": "https://feeds.arstechnica.com/arstechnica/science",
-   "role": "news",
-   "tags": [
-    "science"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "new-scientist",
-   "name": "New Scientist",
-   "type": "feed",
-   "url": "https://www.newscientist.com/feed/home/",
-   "role": "news",
-   "tags": [
-    "science"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "quanta",
-   "name": "Quanta Magazine",
-   "type": "feed",
-   "url": "https://www.quantamagazine.org/feed/",
-   "role": "news",
-   "tags": [
-    "science",
-    "maths"
-   ],
-   "status": "active"
-  },
-  {
-   "id": "bbc-science",
-   "name": "BBC Science",
-   "type": "feed",
-   "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
-   "role": "news",
-   "tags": [
-    "science"
-   ],
-   "status": "active",
-   "max_new": 10
-  },
-  {
-   "id": "hindu-science",
-   "name": "The Hindu Science",
-   "type": "feed",
-   "url": "https://www.thehindu.com/sci-tech/science/feeder/default.rss",
-   "role": "news",
-   "tags": [
-    "science",
-    "india"
-   ],
-   "status": "active",
-   "max_new": 10
-  },
-  {
-   "id": "atlas-obscura",
-   "name": "Atlas Obscura",
-   "type": "feed",
-   "url": "https://www.atlasobscura.com/feeds/latest",
-   "role": "news",
-   "tags": [
-    "places",
-    "mysteries"
-   ],
-   "status": "active",
-   "max_new": 8
-  },
-  {
-   "id": "on-this-day",
-   "name": "Wikipedia: On this day (7 and 14 days ahead)",
-   "adapter": "site:onthisday",
-   "type": "onthisday",
-   "role": "news",
-   "tags": [
-    "anniversary"
-   ],
-   "status": "active",
-   "days_ahead": [
-    7,
-    14
-   ],
-   "min_years": 25,
-   "round_only": true
-  },
-  {
-   "id": "reddit-science-space",
-   "name": "Reddit: science & space (5 subs)",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/space+askscience+Astronomy+science+Physics/top/?t=day",
-   "subreddits": [
-    "space",
-    "askscience",
-    "Astronomy",
-    "science",
-    "Physics"
-   ],
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "pick": 5,
-   "min_upvotes": 200,
-   "why": "The AI reads the top discussions here during analyze today (r/space, r/askscience, r/Astronomy, r/science, r/Physics)"
-  },
-  {
-   "id": "reddit-history",
-   "name": "Reddit: history (4 subs)",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/history+AskHistorians+IndianHistory+ArtefactPorn/top/?t=day",
-   "subreddits": [
-    "history",
-    "AskHistorians",
-    "IndianHistory",
-    "ArtefactPorn"
-   ],
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "pick": 5,
-   "min_upvotes": 100,
-   "why": "The AI reads the top discussions here during analyze today (r/history, r/AskHistorians, r/IndianHistory, r/ArtefactPorn)"
-  },
-  {
-   "id": "reddit-curiosities",
-   "name": "Reddit: curiosities & maps (4 subs)",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/todayilearned+Damnthatsinteresting+MapPorn+wikipedia/top/?t=day",
-   "subreddits": [
-    "todayilearned",
-    "Damnthatsinteresting",
-    "MapPorn",
-    "wikipedia"
-   ],
-   "role": "news",
-   "tags": [
-    "discussion"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "pick": 5,
-   "min_upvotes": 500,
-   "why": "The AI reads the top discussions here during analyze today (r/todayilearned, r/Damnthatsinteresting, r/MapPorn, r/wikipedia)"
-  },
-  {
-   "id": "yt-kings-generals",
-   "name": "Kings and Generals",
-   "type": "youtube",
-   "channel_id": "UCMmaBzfCCwZ2KqaBJjkj0fw",
-   "role": "news",
-   "tags": [
-    "history"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "yt-history-matters",
-   "name": "History Matters",
-   "type": "youtube",
-   "channel_id": "UC22BdTgxefuvUivrjesETjg",
-   "role": "news",
-   "tags": [
-    "history"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3
-  },
-  {
-   "id": "isro-updates",
-   "name": "ISRO updates",
-   "type": "page",
-   "url": "https://www.isro.gov.in/",
-   "role": "official",
-   "tags": [
-    "space",
-    "india"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "why": "No feed; check on launch weeks"
-  },
-  {
-   "id": "google-trends-in",
-   "name": "Google Trends (IN, science)",
-   "type": "page",
-   "url": "https://trends.google.com/trending?geo=IN&category=15",
-   "role": "news",
-   "tags": [
-    "trends"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "why": "Science stories rising in India"
-  },
-  {
-   "id": "x-list-science-space",
-   "name": "X list: Science & Space (pin this)",
-   "type": "x_list",
-   "url": "https://x.com/i/lists/2111882995741479390",
-   "role": "people",
-   "tags": [
-    "x"
-   ],
-   "mode": "manual",
-   "status": "active",
-   "members": [
-    "NASA",
-    "NASAWebb",
-    "isro",
-    "esa",
-    "SpaceX",
-    "NatGeo",
-    "newscientist",
-    "QuantaMagazine",
-    "SmithsonianMag",
-    "Kurz_Gesagt",
-    "veritasium",
-    "OurWorldInData",
-    "IEA",
-    "johnnywharris",
-    "MarkRober"
-   ],
-   "why": "Private list 'Science & Space' on @Kingrajesh1215 (created 18 Oct 2026)"
-  },
-  {
-   "id": "owid",
-   "name": "Our World in Data",
-   "type": "feed",
-   "url": "https://ourworldindata.org/atom.xml",
-   "role": "news",
-   "tags": [
-    "data",
-    "future"
-   ],
-   "status": "active",
-   "max_new": 4,
-   "why": "Long-term data on the world: the base for 'where are we heading' scenarios"
-  },
-  {
-   "id": "gn-iea",
-   "name": "IEA (oil and energy outlook)",
-   "type": "gnews",
-   "query": "site:iea.org",
-   "role": "news",
-   "tags": [
-    "energy",
-    "future"
-   ],
-   "status": "active",
-   "max_new": 3,
-   "why": "Oil, energy and electricity outlooks (site blocks cloud servers, read via Google News)"
-  },
-  {
-   "id": "gn-imf-blog",
-   "name": "IMF blog (world economy)",
-   "type": "gnews",
-   "query": "site:imf.org/en/Blogs",
-   "role": "news",
-   "tags": [
-    "economy",
-    "future"
-   ],
-   "status": "active",
-   "max_new": 3,
-   "why": "Where the world economy is heading"
-  },
-  {
-   "id": "gn-wef-stories",
-   "name": "World Economic Forum (global risks, future of jobs)",
-   "type": "gnews",
-   "query": "site:weforum.org/stories",
-   "role": "news",
-   "tags": [
-    "future",
-    "trends"
-   ],
-   "status": "active",
-   "max_new": 3,
-   "why": "Global risks, future of jobs, technology trends"
-  },
-  {
-   "id": "gn-visual-capitalist",
-   "name": "Visual Capitalist",
-   "type": "gnews",
-   "query": "site:visualcapitalist.com",
-   "role": "news",
-   "tags": [
-    "data",
-    "visuals"
-   ],
-   "status": "active",
-   "max_new": 3,
-   "why": "Data visuals on world trends: easy video material"
-  },
-  {
-   "id": "noema",
-   "name": "Noema Magazine",
-   "type": "feed",
-   "url": "https://www.noemamag.com/feed/",
-   "role": "news",
-   "tags": [
-    "future",
-    "ideas"
-   ],
-   "status": "active",
-   "max_new": 4,
-   "why": "Essays on AI, technology, politics and the future"
-  },
-  {
-   "id": "big-think-tc",
-   "name": "Big Think",
-   "type": "feed",
-   "url": "https://bigthink.com/feed/",
-   "role": "news",
-   "tags": [
-    "ideas",
-    "science"
-   ],
-   "status": "active",
-   "max_new": 4,
-   "why": "Big questions in science and the future"
-  },
-  {
-   "id": "xkcd-what-if",
-   "name": "xkcd What If",
-   "type": "feed",
-   "url": "https://what-if.xkcd.com/feed.atom",
-   "role": "news",
-   "tags": [
-    "what_if",
-    "physics"
-   ],
-   "status": "active",
-   "max_new": 4,
-   "why": "Absurd 'what if' physics questions answered seriously; baseline (rarely updated)",
-   "baseline": true
-  },
-  {
-   "id": "yt-wendover",
-   "name": "Wendover Productions",
-   "type": "youtube",
-   "channel_id": "UC9RM-iSvTu1uPJb8X5yp3EQ",
-   "role": "news",
-   "tags": [
-    "systems",
-    "explainers"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3,
-   "why": "How the world works: logistics, economics, geography"
-  },
-  {
-   "id": "yt-real-engineering",
-   "name": "Real Engineering",
-   "type": "youtube",
-   "channel_id": "UCR1IuLEqb6UEA_zQ81kwXfg",
-   "role": "news",
-   "tags": [
-    "engineering",
-    "future"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3,
-   "why": "Engineering and future technology explained"
-  },
-  {
-   "id": "yt-caspian-report",
-   "name": "CaspianReport",
-   "type": "youtube",
-   "channel_id": "UCwnKziETDbHJtx78nIkfYug",
-   "role": "news",
-   "tags": [
-    "geopolitics",
-    "future"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3,
-   "why": "Geopolitics and where regions are heading"
-  },
-  {
-   "id": "yt-economics-explained",
-   "name": "Economics Explained",
-   "type": "youtube",
-   "channel_id": "UCZ4AMrDcNrfy3X6nsU8-rPg",
-   "role": "news",
-   "tags": [
-    "economy",
-    "future"
-   ],
-   "status": "active",
-   "max_age_days": 7,
-   "max_new": 3,
-   "why": "Country economies and future scenarios"
-  },
-  {
-   "id": "reddit-future-world",
-   "name": "Reddit: future, geopolitics, big questions (5 subs)",
-   "type": "reddit_manual",
-   "url": "https://www.reddit.com/r/Futurology+geopolitics+AskPhysics+UnresolvedMysteries+energy/top/?t=day",
-   "subreddits": [
-    "Futurology",
-    "geopolitics",
-    "AskPhysics",
-    "UnresolvedMysteries",
-    "energy"
-   ],
-   "role": "news",
-   "tags": [
-    "discussion",
-    "future"
-   ],
-   "mode": "manual",
-   "sweep": true,
-   "status": "active",
-   "pick": 5,
-   "min_upvotes": 150,
-   "why": "The AI reads the top discussions here during analyze today: what people wonder about the future, physics and mysteries"
-  },
-  {
-   "adapter": "site:search_demand",
-   "type": "search_demand",
-   "role": "news",
-   "tags": [
-    "search-demand",
-    "trending"
-   ],
-   "status": "active",
-   "gl": "in",
-   "hl": "en",
-   "every_hours": 20,
-   "max_new": 15,
-   "max_age_days": 2,
-   "why": "Google/YouTube search suggestions in India: what people want to know, one entry per topic per day.",
-   "id": "search-demand-curiosity",
-   "name": "What India is searching: curiosity & future",
-   "terms": [
-    "black hole",
-    "universe",
-    "ai",
-    "oil",
-    "world war",
-    "mars",
-    "moon",
-    "human body",
-    "time travel",
-    "aliens",
-    "future"
-   ],
-   "templates": [
-    "what if {x}",
-    "why {x}",
-    "how {x}",
-    "future of {x}",
-    "what happens if {x}"
-   ],
-   "seeds": [
-    "what if",
-    "why is the sky",
-    "what happens if",
-    "future of india",
-    "will ai",
-    "how did the universe",
-    "mystery of",
-    "how long can a human",
-    "what is inside",
-    "how big is"
-   ],
-   "youtube": [
-    "what if {x}",
-    "what happens if",
-    "mystery of"
-   ]
-  }
- ],
- "competitors": [
-  {
-   "id": "kurzgesagt",
-   "name": "Kurzgesagt",
-   "kind": "channel",
-   "why": "Gold standard for animated science",
-   "status": "active",
-   "sources": [
+  "sources": [
     {
-     "id": "comp-kurz-yt",
-     "type": "youtube",
-     "channel_id": "UCsXVk37bltHxD1rDPwtNM8Q",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "veritasium",
-   "name": "Veritasium",
-   "kind": "channel",
-   "why": "Surprising-science storytelling",
-   "status": "active",
-   "sources": [
+      "id": "nasa",
+      "name": "NASA",
+      "type": "feed",
+      "url": "https://www.nasa.gov/feed/",
+      "role": "official",
+      "tags": [
+        "space"
+      ],
+      "status": "active"
+    },
     {
-     "id": "comp-veritasium-yt",
-     "type": "youtube",
-     "channel_id": "UCHnyfMqiRRG1u-2MsSQLbXA",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "oversimplified",
-   "name": "OverSimplified",
-   "kind": "channel",
-   "why": "History made funny and visual",
-   "status": "active",
-   "sources": [
+      "id": "esa-science",
+      "name": "ESA Space Science",
+      "type": "feed",
+      "url": "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
+      "role": "official",
+      "tags": [
+        "space"
+      ],
+      "status": "active"
+    },
     {
-     "id": "comp-oversimplified-yt",
-     "type": "youtube",
-     "channel_id": "UCNIuvl7V8zACPpTmmNIqP2A",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "reallifelore",
-   "name": "RealLifeLore",
-   "kind": "channel",
-   "why": "Geography and 'what if' explainers",
-   "status": "active",
-   "sources": [
+      "id": "space-com",
+      "name": "Space.com",
+      "type": "feed",
+      "url": "https://www.space.com/feeds/all",
+      "role": "news",
+      "tags": [
+        "space"
+      ],
+      "status": "active",
+      "max_new": 10
+    },
     {
-     "id": "comp-rll-yt",
-     "type": "youtube",
-     "channel_id": "UCP5tjEmvPItGyLhmjdwP7Ww",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "vsauce",
-   "name": "Vsauce",
-   "kind": "channel",
-   "why": "Curiosity questions",
-   "status": "active",
-   "sources": [
+      "id": "livescience",
+      "name": "Live Science",
+      "type": "feed",
+      "url": "https://www.livescience.com/feeds/all",
+      "role": "news",
+      "tags": [
+        "science",
+        "history"
+      ],
+      "status": "active",
+      "max_new": 12
+    },
     {
-     "id": "comp-vsauce-yt",
-     "type": "youtube",
-     "channel_id": "UC6nSFpj9HTCZ5t-N3Rm3-HA",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "johnny-harris",
-   "name": "Johnny Harris",
-   "kind": "channel",
-   "why": "Geopolitics and 'where is this heading' explainers: closest to our future-scenarios series",
-   "status": "active",
-   "sources": [
+      "id": "sciencedaily",
+      "name": "ScienceDaily",
+      "type": "feed",
+      "url": "https://www.sciencedaily.com/rss/top/science.xml",
+      "role": "news",
+      "tags": [
+        "science"
+      ],
+      "status": "active",
+      "max_new": 10
+    },
     {
-     "id": "comp-johnny-harris-yt",
-     "type": "youtube",
-     "channel_id": "UCmGSJVG3mCRXVOP4yZrU1Dw",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "polymatter",
-   "name": "PolyMatter",
-   "kind": "channel",
-   "why": "Countries, economies and future scenarios, motion graphics",
-   "status": "active",
-   "sources": [
+      "id": "phys-org",
+      "name": "Phys.org",
+      "type": "feed",
+      "url": "https://phys.org/rss-feed/",
+      "role": "news",
+      "tags": [
+        "science"
+      ],
+      "status": "active",
+      "max_new": 10
+    },
     {
-     "id": "comp-polymatter-yt",
-     "type": "youtube",
-     "channel_id": "UCgNg3vwj3xt7QOrcIDaHdFg",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "mark-rober",
-   "name": "Mark Rober",
-   "kind": "channel",
-   "why": "Real physics tests and experiments (our later 'real test' format)",
-   "status": "active",
-   "sources": [
+      "id": "smithsonian",
+      "name": "Smithsonian Magazine",
+      "type": "feed",
+      "url": "https://www.smithsonianmag.com/rss/latest_articles/",
+      "role": "news",
+      "tags": [
+        "history",
+        "science"
+      ],
+      "status": "active"
+    },
     {
-     "id": "comp-mark-rober-yt",
-     "type": "youtube",
-     "channel_id": "UCY1kMZp36IQSyNx_9h4mpCg",
-     "max_age_days": 7,
-     "max_new": 3
-    }
-   ]
-  },
-  {
-   "id": "infographics-show",
-   "name": "The Infographics Show",
-   "kind": "channel",
-   "why": "What-if and human-body-limit explainers at huge scale",
-   "status": "active",
-   "sources": [
+      "id": "ars-science",
+      "name": "Ars Technica Science",
+      "type": "feed",
+      "url": "https://feeds.arstechnica.com/arstechnica/science",
+      "role": "news",
+      "tags": [
+        "science"
+      ],
+      "status": "active"
+    },
     {
-     "id": "comp-infographics-show-yt",
-     "type": "youtube",
-     "channel_id": "UCfdNM3NAhaBOXCafH7krzrA",
-     "max_age_days": 7,
-     "max_new": 3
+      "id": "new-scientist",
+      "name": "New Scientist",
+      "type": "feed",
+      "url": "https://www.newscientist.com/feed/home/",
+      "role": "news",
+      "tags": [
+        "science"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "quanta",
+      "name": "Quanta Magazine",
+      "type": "feed",
+      "url": "https://www.quantamagazine.org/feed/",
+      "role": "news",
+      "tags": [
+        "science",
+        "maths"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "bbc-science",
+      "name": "BBC Science",
+      "type": "feed",
+      "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+      "role": "news",
+      "tags": [
+        "science"
+      ],
+      "status": "paused",
+      "max_new": 10,
+      "why": "100% SKIP rate; redundant with Phys.org and ScienceDaily"
+    },
+    {
+      "id": "hindu-science",
+      "name": "The Hindu Science",
+      "type": "feed",
+      "url": "https://www.thehindu.com/sci-tech/science/feeder/default.rss",
+      "role": "news",
+      "tags": [
+        "science",
+        "india"
+      ],
+      "status": "active",
+      "max_new": 10
+    },
+    {
+      "id": "atlas-obscura",
+      "name": "Atlas Obscura",
+      "type": "feed",
+      "url": "https://www.atlasobscura.com/feeds/latest",
+      "role": "news",
+      "tags": [
+        "places",
+        "mysteries"
+      ],
+      "status": "active",
+      "max_new": 8
+    },
+    {
+      "id": "on-this-day",
+      "name": "Wikipedia: On this day (7 and 14 days ahead)",
+      "adapter": "site:onthisday",
+      "type": "onthisday",
+      "role": "news",
+      "tags": [
+        "anniversary"
+      ],
+      "status": "active",
+      "days_ahead": [
+        7,
+        14
+      ],
+      "min_years": 25,
+      "round_only": true
+    },
+    {
+      "id": "reddit-science-space",
+      "name": "Reddit: science & space (5 subs)",
+      "type": "reddit_manual",
+      "url": "https://www.reddit.com/r/space+askscience+Astronomy+science+Physics/top/?t=day",
+      "subreddits": [
+        "space",
+        "askscience",
+        "Astronomy",
+        "science",
+        "Physics"
+      ],
+      "role": "news",
+      "tags": [
+        "discussion"
+      ],
+      "mode": "manual",
+      "sweep": true,
+      "status": "active",
+      "pick": 5,
+      "min_upvotes": 200,
+      "why": "The AI reads the top discussions here during analyze today (r/space, r/askscience, r/Astronomy, r/science, r/Physics)"
+    },
+    {
+      "id": "reddit-history",
+      "name": "Reddit: history (4 subs)",
+      "type": "reddit_manual",
+      "url": "https://www.reddit.com/r/history+AskHistorians+IndianHistory+ArtefactPorn/top/?t=day",
+      "subreddits": [
+        "history",
+        "AskHistorians",
+        "IndianHistory",
+        "ArtefactPorn"
+      ],
+      "role": "news",
+      "tags": [
+        "discussion"
+      ],
+      "mode": "manual",
+      "sweep": true,
+      "status": "active",
+      "pick": 5,
+      "min_upvotes": 100,
+      "why": "The AI reads the top discussions here during analyze today (r/history, r/AskHistorians, r/IndianHistory, r/ArtefactPorn)"
+    },
+    {
+      "id": "reddit-curiosities",
+      "name": "Reddit: curiosities & maps (4 subs)",
+      "type": "reddit_manual",
+      "url": "https://www.reddit.com/r/todayilearned+Damnthatsinteresting+MapPorn+wikipedia/top/?t=day",
+      "subreddits": [
+        "todayilearned",
+        "Damnthatsinteresting",
+        "MapPorn",
+        "wikipedia"
+      ],
+      "role": "news",
+      "tags": [
+        "discussion"
+      ],
+      "mode": "manual",
+      "sweep": true,
+      "status": "active",
+      "pick": 5,
+      "min_upvotes": 500,
+      "why": "The AI reads the top discussions here during analyze today (r/todayilearned, r/Damnthatsinteresting, r/MapPorn, r/wikipedia)"
+    },
+    {
+      "id": "yt-kings-generals",
+      "name": "Kings and Generals",
+      "type": "youtube",
+      "channel_id": "UCMmaBzfCCwZ2KqaBJjkj0fw",
+      "role": "news",
+      "tags": [
+        "history"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "yt-history-matters",
+      "name": "History Matters",
+      "type": "youtube",
+      "channel_id": "UC22BdTgxefuvUivrjesETjg",
+      "role": "news",
+      "tags": [
+        "history"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
+      "id": "isro-updates",
+      "name": "ISRO updates",
+      "type": "page",
+      "url": "https://www.isro.gov.in/",
+      "role": "official",
+      "tags": [
+        "space",
+        "india"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "why": "No feed; check on launch weeks"
+    },
+    {
+      "id": "google-trends-in",
+      "name": "Google Trends (IN, science)",
+      "type": "page",
+      "url": "https://trends.google.com/trending?geo=IN&category=15",
+      "role": "news",
+      "tags": [
+        "trends"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "why": "Science stories rising in India"
+    },
+    {
+      "id": "x-list-science-space",
+      "name": "X list: Science & Space (pin this)",
+      "type": "x_list",
+      "url": "https://x.com/i/lists/2111882995741479390",
+      "role": "people",
+      "tags": [
+        "x"
+      ],
+      "mode": "manual",
+      "status": "active",
+      "members": [
+        "NASA",
+        "NASAWebb",
+        "isro",
+        "esa",
+        "SpaceX",
+        "NatGeo",
+        "newscientist",
+        "QuantaMagazine",
+        "SmithsonianMag",
+        "Kurz_Gesagt",
+        "veritasium",
+        "OurWorldInData",
+        "IEA",
+        "johnnywharris",
+        "MarkRober"
+      ],
+      "why": "Private list 'Science & Space' on @Kingrajesh1215 (created 18 Oct 2026)"
+    },
+    {
+      "id": "owid",
+      "name": "Our World in Data",
+      "type": "feed",
+      "url": "https://ourworldindata.org/atom.xml",
+      "role": "news",
+      "tags": [
+        "data",
+        "future"
+      ],
+      "status": "active",
+      "max_new": 4,
+      "why": "Long-term data on the world: the base for 'where are we heading' scenarios"
+    },
+    {
+      "id": "gn-iea",
+      "name": "IEA (oil and energy outlook)",
+      "type": "gnews",
+      "query": "site:iea.org",
+      "role": "news",
+      "tags": [
+        "energy",
+        "future"
+      ],
+      "status": "active",
+      "max_new": 3,
+      "why": "Oil, energy and electricity outlooks (site blocks cloud servers, read via Google News)"
+    },
+    {
+      "id": "gn-imf-blog",
+      "name": "IMF blog (world economy)",
+      "type": "gnews",
+      "query": "site:imf.org/en/Blogs",
+      "role": "news",
+      "tags": [
+        "economy",
+        "future"
+      ],
+      "status": "active",
+      "max_new": 3,
+      "why": "Where the world economy is heading"
+    },
+    {
+      "id": "gn-wef-stories",
+      "name": "World Economic Forum (global risks, future of jobs)",
+      "type": "gnews",
+      "query": "site:weforum.org/stories",
+      "role": "news",
+      "tags": [
+        "future",
+        "trends"
+      ],
+      "status": "active",
+      "max_new": 3,
+      "why": "Global risks, future of jobs, technology trends"
+    },
+    {
+      "id": "gn-visual-capitalist",
+      "name": "Visual Capitalist",
+      "type": "gnews",
+      "query": "site:visualcapitalist.com",
+      "role": "news",
+      "tags": [
+        "data",
+        "visuals"
+      ],
+      "status": "active",
+      "max_new": 3,
+      "why": "Data visuals on world trends: easy video material"
+    },
+    {
+      "id": "noema",
+      "name": "Noema Magazine",
+      "type": "feed",
+      "url": "https://www.noemamag.com/feed/",
+      "role": "news",
+      "tags": [
+        "future",
+        "ideas"
+      ],
+      "status": "active",
+      "max_new": 4,
+      "why": "Essays on AI, technology, politics and the future"
+    },
+    {
+      "id": "big-think-tc",
+      "name": "Big Think",
+      "type": "feed",
+      "url": "https://bigthink.com/feed/",
+      "role": "news",
+      "tags": [
+        "ideas",
+        "science"
+      ],
+      "status": "active",
+      "max_new": 4,
+      "why": "Big questions in science and the future"
+    },
+    {
+      "id": "xkcd-what-if",
+      "name": "xkcd What If",
+      "type": "feed",
+      "url": "https://what-if.xkcd.com/feed.atom",
+      "role": "news",
+      "tags": [
+        "what_if",
+        "physics"
+      ],
+      "status": "active",
+      "max_new": 4,
+      "why": "Absurd 'what if' physics questions answered seriously; baseline (rarely updated)",
+      "baseline": true
+    },
+    {
+      "id": "yt-wendover",
+      "name": "Wendover Productions",
+      "type": "youtube",
+      "channel_id": "UC9RM-iSvTu1uPJb8X5yp3EQ",
+      "role": "news",
+      "tags": [
+        "systems",
+        "explainers"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3,
+      "why": "How the world works: logistics, economics, geography"
+    },
+    {
+      "id": "yt-real-engineering",
+      "name": "Real Engineering",
+      "type": "youtube",
+      "channel_id": "UCR1IuLEqb6UEA_zQ81kwXfg",
+      "role": "news",
+      "tags": [
+        "engineering",
+        "future"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3,
+      "why": "Engineering and future technology explained"
+    },
+    {
+      "id": "yt-caspian-report",
+      "name": "CaspianReport",
+      "type": "youtube",
+      "channel_id": "UCwnKziETDbHJtx78nIkfYug",
+      "role": "news",
+      "tags": [
+        "geopolitics",
+        "future"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3,
+      "why": "Geopolitics and where regions are heading"
+    },
+    {
+      "id": "yt-economics-explained",
+      "name": "Economics Explained",
+      "type": "youtube",
+      "channel_id": "UCZ4AMrDcNrfy3X6nsU8-rPg",
+      "role": "news",
+      "tags": [
+        "economy",
+        "future"
+      ],
+      "status": "active",
+      "max_age_days": 7,
+      "max_new": 3,
+      "why": "Country economies and future scenarios"
+    },
+    {
+      "id": "reddit-future-world",
+      "name": "Reddit: future, geopolitics, big questions (5 subs)",
+      "type": "reddit_manual",
+      "url": "https://www.reddit.com/r/Futurology+geopolitics+AskPhysics+UnresolvedMysteries+energy/top/?t=day",
+      "subreddits": [
+        "Futurology",
+        "geopolitics",
+        "AskPhysics",
+        "UnresolvedMysteries",
+        "energy"
+      ],
+      "role": "news",
+      "tags": [
+        "discussion",
+        "future"
+      ],
+      "mode": "manual",
+      "sweep": true,
+      "status": "active",
+      "pick": 5,
+      "min_upvotes": 150,
+      "why": "The AI reads the top discussions here during analyze today: what people wonder about the future, physics and mysteries"
+    },
+    {
+      "adapter": "site:search_demand",
+      "type": "search_demand",
+      "role": "news",
+      "tags": [
+        "search-demand",
+        "trending"
+      ],
+      "status": "active",
+      "gl": "in",
+      "hl": "en",
+      "every_hours": 20,
+      "max_new": 15,
+      "max_age_days": 2,
+      "why": "Google/YouTube search suggestions in India: what people want to know, one entry per topic per day.",
+      "id": "search-demand-curiosity",
+      "name": "What India is searching: curiosity & future",
+      "terms": [
+        "black hole",
+        "universe",
+        "ai",
+        "oil",
+        "world war",
+        "mars",
+        "moon",
+        "human body",
+        "time travel",
+        "aliens",
+        "future"
+      ],
+      "templates": [
+        "what if {x}",
+        "why {x}",
+        "how {x}",
+        "future of {x}",
+        "what happens if {x}"
+      ],
+      "seeds": [
+        "what if",
+        "why is the sky",
+        "what happens if",
+        "future of india",
+        "will ai",
+        "how did the universe",
+        "mystery of",
+        "how long can a human",
+        "what is inside",
+        "how big is"
+      ],
+      "youtube": [
+        "what if {x}",
+        "what happens if",
+        "mystery of"
+      ]
     }
-   ]
-  }
- ],
- "people": []
+  ],
+  "competitors": [
+    {
+      "id": "kurzgesagt",
+      "name": "Kurzgesagt",
+      "kind": "channel",
+      "why": "Gold standard for animated science",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-kurz-yt",
+          "type": "youtube",
+          "channel_id": "UCsXVk37bltHxD1rDPwtNM8Q",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "veritasium",
+      "name": "Veritasium",
+      "kind": "channel",
+      "why": "Surprising-science storytelling",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-veritasium-yt",
+          "type": "youtube",
+          "channel_id": "UCHnyfMqiRRG1u-2MsSQLbXA",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "oversimplified",
+      "name": "OverSimplified",
+      "kind": "channel",
+      "why": "History made funny and visual",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-oversimplified-yt",
+          "type": "youtube",
+          "channel_id": "UCNIuvl7V8zACPpTmmNIqP2A",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "reallifelore",
+      "name": "RealLifeLore",
+      "kind": "channel",
+      "why": "Geography and 'what if' explainers",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-rll-yt",
+          "type": "youtube",
+          "channel_id": "UCP5tjEmvPItGyLhmjdwP7Ww",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "vsauce",
+      "name": "Vsauce",
+      "kind": "channel",
+      "why": "Curiosity questions",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-vsauce-yt",
+          "type": "youtube",
+          "channel_id": "UC6nSFpj9HTCZ5t-N3Rm3-HA",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "johnny-harris",
+      "name": "Johnny Harris",
+      "kind": "channel",
+      "why": "Geopolitics and 'where is this heading' explainers: closest to our future-scenarios series",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-johnny-harris-yt",
+          "type": "youtube",
+          "channel_id": "UCmGSJVG3mCRXVOP4yZrU1Dw",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "polymatter",
+      "name": "PolyMatter",
+      "kind": "channel",
+      "why": "Countries, economies and future scenarios, motion graphics",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-polymatter-yt",
+          "type": "youtube",
+          "channel_id": "UCgNg3vwj3xt7QOrcIDaHdFg",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "mark-rober",
+      "name": "Mark Rober",
+      "kind": "channel",
+      "why": "Real physics tests and experiments (our later 'real test' format)",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-mark-rober-yt",
+          "type": "youtube",
+          "channel_id": "UCY1kMZp36IQSyNx_9h4mpCg",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    },
+    {
+      "id": "infographics-show",
+      "name": "The Infographics Show",
+      "kind": "channel",
+      "why": "What-if and human-body-limit explainers at huge scale",
+      "status": "active",
+      "sources": [
+        {
+          "id": "comp-infographics-show-yt",
+          "type": "youtube",
+          "channel_id": "UCfdNM3NAhaBOXCafH7krzrA",
+          "max_age_days": 7,
+          "max_new": 3
+        }
+      ]
+    }
+  ],
+  "people": []
 }

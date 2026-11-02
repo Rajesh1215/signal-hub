@@ -284,9 +284,15 @@
   "updated_at": "2026-10-25T07:41:28Z"
  },
  {
-  "status": "new",
+  "status": "skipped",
   "created_at": "2026-10-24T06:25:07Z",
-  "history": [],
+  "history": [
+   {
+    "at": "2026-11-02T11:18:32Z",
+    "event": "marked skipped",
+    "note": "Hype news cycle passed"
+   }
+  ],
   "id": "2026-10-24-sebi-cracks-down-avadhut-sathe-trading-academy",
   "type": "hype",
   "timing": "NOW",
@@ -302,7 +308,8 @@
   "items": [
    "8abd1bd779c0eeff"
   ],
-  "updated_at": "2026-10-24T06:25:07Z"
+  "updated_at": "2026-11-02T11:18:32Z",
+  "status_note": "Hype news cycle passed"
  },
  {
   "status": "new",
@@ -626,9 +633,15 @@
   "updated_at": "2026-10-20T14:06:21Z"
  },
  {
-  "status": "new",
+  "status": "skipped",
   "created_at": "2026-10-20T03:34:39Z",
-  "history": [],
+  "history": [
+   {
+    "at": "2026-11-02T11:18:32Z",
+    "event": "marked skipped",
+    "note": "Jio successfully listed on Oct 28 at 21% premium"
+   }
+  ],
   "id": "2026-10-20-jio-ipo-retail-guide",
   "title": "Jio Platforms IPO: How to Apply and Should Salaried Investors Buy?",
   "type": "months",
@@ -644,7 +657,8 @@
   "items": [
    "ed1f4314385fcb77"
   ],
-  "updated_at": "2026-10-20T03:34:39Z"
+  "updated_at": "2026-11-02T11:18:32Z",
+  "status_note": "Jio successfully listed on Oct 28 at 21% premium"
  },
  {
   "status": "new",

@@ -680,9 +680,10 @@
       "tags": [
         "news-channel"
       ],
-      "status": "active",
+      "status": "paused",
       "max_age_days": 3,
-      "max_new": 3
+      "max_new": 3,
+      "why": "Intraday trading noise and stock tips violate educational brief (100% SKIP rate in weekly review)"
     },
     {
       "id": "yt-et-now",
@@ -693,9 +694,10 @@
       "tags": [
         "news-channel"
       ],
-      "status": "active",
+      "status": "paused",
       "max_age_days": 3,
-      "max_new": 3
+      "max_new": 3,
+      "why": "Intraday trading noise and stock tips violate educational brief (100% SKIP rate in weekly review)"
     },
     {
       "id": "yt-zee-business",
@@ -719,9 +721,10 @@
       "tags": [
         "news-channel"
       ],
-      "status": "active",
+      "status": "paused",
       "max_age_days": 3,
-      "max_new": 3
+      "max_new": 3,
+      "why": "Intraday trading noise and stock tips violate educational brief (100% SKIP rate in weekly review)"
     },
     {
       "id": "yt-cnbc-tv",
@@ -1217,9 +1220,10 @@
         "regulation",
         "official"
       ],
-      "status": "trial",
+      "status": "paused",
       "max_age_days": 7,
-      "max_new": 10
+      "max_new": 10,
+      "why": "100% SKIP rate on trial (general corporate tax litigation noise)"
     }
   ],
   "competitors": [
