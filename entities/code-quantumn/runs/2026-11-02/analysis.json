@@ -346,5 +346,96 @@
   },
   "summary": "Simon Willison shares practical debugging workflows for Astral uv package management, explaining dependency resolution lockfile resets.",
   "analyzed_at": "2026-11-02T07:05:51Z"
+ },
+ "422f3f0f719ffe31": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "d2cfac5735fda68c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "8ae0c5955873c244": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "e04e82616397edb0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Meta and CMU develop an automated pre-deployment dataset filtering algorithm that cuts model jailbreak vulnerability rates by 22%.",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "e4cb1bb1b34135ce": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "a3d7d16f2ca94b76": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "7e45edb17fe25007": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "128f135dd630bbc6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "a326a69e113d9f18": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "ac754998320c1732": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "8337fa38fb65f64e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Reddit begins testing mandatory login walls to block automated scraping and AI search answer engines from indexing user discussions without API licensing.",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "9a73cb7f500a4d19": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "d276b0fb5ce60aae": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "de414dfec7a28228": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-02T11:21:15Z"
+ },
+ "ade649ae0e1b5f9a": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "official_launch",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Apple confirms partnership with Alibaba to power Apple Intelligence features with local Qwen models for iPhone users in mainland China starting December.",
+  "notes": "- Regulatory compliance deal ensuring Apple Intelligence functions within China's CAC generative AI framework\n- Alibaba's Qwen provides on-device and local private cloud compute for Siri query routing",
+  "analyzed_at": "2026-11-02T11:21:15Z"
  }
 }
