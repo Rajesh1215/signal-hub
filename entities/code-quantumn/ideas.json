@@ -1,6 +1,27 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-02T18:18:45Z",
+  "history": [],
+  "id": "2026-11-02-anthropic-internal-agent-compute-boom",
+  "title": "Anthropic Spends More on AI Tokens Per Engineer Than on Their Salaries",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "Inside the engineering reality of frontier AI labs: human developers no longer write code by hand—they orchestrate swarms of autonomous agents running 24/7.",
+  "outline": [
+   "The Statistic: Dario Amodei reveals that internal Claude API usage per Anthropic engineer has officially exceeded their base salary compensation.",
+   "What Engineers Actually Do: Moving from writing functions to architecting test harnesses, agent sandboxes, and automated evaluation suites.",
+   "The Parallel Agent Swarm: How one developer spins up 15 Claude 3.5 Sonnet instances to write tests, refactor legacy modules, and audit security simultaneously.",
+   "The Unit Economics: Why paying $20,000/month in tokens for an engineer is a massive bargain when it 10x's feature velocity.",
+   "What This Means for Developers: Why prompt-based 'vibe coding' is dead and test-driven agent orchestration is the only skill that matters."
+  ],
+  "items": [
+   "5c8c12f198e253b5"
+  ],
+  "updated_at": "2026-11-02T18:18:45Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-02T07:06:11Z",
   "history": [],
   "id": "2026-11-02-gemini-4-carbon-deep-dive",
