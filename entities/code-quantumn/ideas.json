@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-03T03:36:04Z",
+  "history": [],
+  "id": "2026-11-03-riscv-cpu-compiled-into-ai-model-weights",
+  "title": "Someone Compiled a 32-Bit CPU Into an AI Model's Weights (And Ran DOOM)",
+  "type": "evergreen",
+  "timing": "NOW",
+  "angle": "Computer scientists proved that neural networks can execute arbitrary machine code deterministically by embedding a RISC-V CPU directly into transformer attention layers.",
+  "outline": [
+   "The Wild Experiment: Can a large language model execute compiled C binaries without an external virtual machine or Python interpreter?",
+   "Weights as Hardware: How researchers mapped RISC-V instruction sets, registers, and memory busses directly into transformer feedforward matrices.",
+   "Attention Layers as RAM: How the model uses context tokens and attention scores as volatile physical memory addresses.",
+   "Running DOOM: Frame-by-frame execution of the legendary 1993 game running purely inside neural network inference tokens.",
+   "Why This Matters: What this proves about neural networks being universal Turing-complete computers capable of hybrid symbolic execution."
+  ],
+  "items": [
+   "5a830d6e1256581a"
+  ],
+  "updated_at": "2026-11-03T03:36:04Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-03T03:36:04Z",
+  "history": [],
+  "id": "2026-11-03-how-openai-scales-git-for-agent-swarms",
+  "title": "How OpenAI Scaled Git for Thousands of Autonomous AI Coding Agents",
+  "type": "evergreen",
+  "timing": "NOW",
+  "angle": "When thousands of AI agents write and commit code 24/7, standard Git locks up. Here is the internal infrastructure OpenAI built to survive monorepo scale.",
+  "outline": [
+   "The Monorepo Nightmare: What happens when thousands of autonomous coding agents stage files, open PRs, and run test suites concurrently.",
+   "Git Index Locking: Why standard git commands crash when automated agents thrash the index with simultaneous commits.",
+   "Virtual File Systems & Sparse Checkouts: How OpenAI virtualizes repository directories so agents only pull the exact files they edit.",
+   "Distributed Merge Queues: How automated CI pipelines merge, test, and rebase agent-authored PRs without human bottleneck.",
+   "Lessons for Engineering Leaders: Practical steps to prepare your team's Git workflow for autonomous coding agents like Claude Code and Codex."
+  ],
+  "items": [
+   "05da22da877ce775"
+  ],
+  "updated_at": "2026-11-03T03:36:04Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-02T18:18:45Z",
   "history": [],
   "id": "2026-11-02-anthropic-internal-agent-compute-boom",

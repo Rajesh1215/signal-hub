@@ -1,0 +1,541 @@
+{
+ "42945dde1717d922": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "2138d046a8431e11": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "official_launch",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "OpenAI officially launches the native Agents API, providing stateful execution sessions, server-side function calling, and multi-agent delegation.",
+  "notes": "- Platform-level multi-agent orchestration standardizing handoffs and context state management\n- Reduces dependency on client-side orchestration libraries for agent developers",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "18e353bb4a4eaca2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "66b4273675b17f24": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "702ff4b103bab89d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "a94b3304f1be1422": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "50a12da63bc6915c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "fb1c6542684b8222": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "944da2116d8fe535": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "5655d945377febbd": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "c227c14604f7a8f7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "b9b6fbd40c156cdf": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "6a88041b3c5590a5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "bb4356e26915fc2e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "22a2864bb8c12b65": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "a27124e0f8ffcc42": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "65743f111dac8801": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "400b6fbb79b56123": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "51a5bed869553ecd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "78dc55dc1cd6c3c6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "45ade40b685a351b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "ffc2bdb5f23aec5d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "24f6d4abc9d4226f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "923ec71ded75c347": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "a44bf9fe74ca937b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "f0e98ae5262acb39": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "921e462c9e8aa989": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "5edf097045baab23": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "7c40a94350b97dca": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "015c0ed5a57583f6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "91d39146a3bd3947": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin configures an autonomous desktop agent environment using OpenAI Codex to manage file staging, terminal execution, and routine workflows.",
+  "notes": "- Demonstrates local developer ergonomics using tool-calling agent wrappers",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "506c12fd2e9054a0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "98f2c58fd767f1f5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "01cf5c8d22afe6d1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "b4bee7280c41563d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "ae0b2ef135f98941": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "244cdf2bb47b36af": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "53e62d62ef542f53": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "1d5b871448f8c1d6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "11701cdb07207d56": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "78b9317bdcf8e6b0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "0f13ec62151c9ae0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "776c4e114795df14": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "a721e9517421fb68": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "1be130f83f67b234": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "ebd837f57233bc12": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "05da22da877ce775": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "How OpenAI scales Git for thousands of autonomous AI coding agents: sparse-checkouts, virtualized file systems, and index locking solutions. Hook: 'How OpenAI scaled Git to handle thousands of AI agents committing code simultaneously.'",
+  "notes": "- Inside OpenAI's developer infrastructure engineering: managing massive monorepos under constant agent swarm PR commits\n- Employs customized virtual file systems and sparse checkout harnesses to prevent git index thrashing\n- Essential architectural blueprint for engineering teams building multi-agent software engineering pipelines",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "7b03086c8ff83015": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "bff1492df827409a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "aee50c4dae5615e3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "f7269082be30bb2a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "eadf2f4a5c62461c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "b918ee7b5e9a93e9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "98ffc047b367d45b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "d40b84a3bda7c947": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "d4603295943ebca2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "bb796b700525aeaa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "6b16535a3fdbf15b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "40b2d5d194aee5a9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "574606c945fac2ce": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "4f13c9a1e5e414f7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "c2bb63b68117fd77": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "fac79c249ef499ad": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "1b4b05e87fae83ef": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "08d4e7397acc15fa": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "7f36bab6d10c9c10": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "418a50218d477a38": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "5a830d6e1256581a": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Researchers compile a complete 32-bit RISC-V CPU directly into a transformer's weights, running raw C code and DOOM using attention layers as RAM. Hook: 'Someone compiled a 32-bit CPU directly into an AI model\\'s weights—and ran DOOM on it.'",
+  "notes": "- Groundbreaking computer science demo: compiling discrete virtual machine instruction sets into neural network weight matrices\n- The model's feedforward layers emulate CPU registers, ALU operations, and program counters without external interpreters\n- Proves that large transformer architectures can execute arbitrary deterministic machine code within attention memory",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "517fd6b40a1fcab9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "4c9c297f81242a25": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "f1aec294a11e6798": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "be98330045582c28": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "b04ee0050c8c71d9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "8c3ba5a691f85d09": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "69925f4086424c85": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "9965b9825f85bd9b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "b8b334d82931b776": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "626e64b320970add": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "12087efedaa0fa0d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "d065dc2f98bfe1dc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "9a8bdf859a6d68cd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "9743119edfad3513": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "e81243ca1e062e2c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "752beb0ea161e5ab": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "7afeb1999a4fd5aa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "7623ad97e5e24255": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "a29a7c459e1e354b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "898da9b61e07e4b1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "bc517c7e77007510": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "65b29c29a2ee49d1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "2fba3280da0788b6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "90ba45ba37d174e8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "070b3ce4ff620c60": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "777fb3b40b9f5709": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "ec14ee21e30cafb4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "3e48585c3a12c31a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "f19857696d0afa5e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "3181290e36cbf55a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "dbb7987e6846434a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "f19ca74923ed3980": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "9879bb6381508674": {
+  "label": "SKIP",
+  "reason": "competitor_move",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "ae805db4b2850a6b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Simon Willison releases llm 0.37, adding native streaming support for OpenAI reasoning models and custom system prompt overrides.",
+  "analyzed_at": "2026-11-03T03:35:07Z"
+ }
+}
