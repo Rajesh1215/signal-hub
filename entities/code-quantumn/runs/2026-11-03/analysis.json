@@ -800,5 +800,441 @@
   "label": "SKIP",
   "reason": "off_topic",
   "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "3b9bbbbbcb875d12": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "10362bf4cbccf935": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "03b5be258f7229a8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "f43cc0b14a4b0c84": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "4dd9a838c7b1248e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "n8n 3.1.0 releases enhanced workflow triggers, upgraded execution history pruning, and improved error handling for self-hosted AI agent nodes.",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "b872794b1b1dee28": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "357aea07065c875c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "cbd4cb67da58310a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "1d9d9a17725e5b88": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "f8d0f5608995fb8d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "40649e44c9936dd7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "550752e356f2e192": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "18cc5380741ba735": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "da27debd7d8b83cb": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "985aa433be71697f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "6aff873b61e54318": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "4ca8ab1f3d474036": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "f6642f2233be0708": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "d60ece3ad0d060ef": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "542b5dd275684e94": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "e3e2995758ba5e18": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "427b7fa8b2402333": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "0df0601c22bdf4b4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "d3cad9baabd9ec07": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "aca0a4c98a4b8932": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Sarvam AI introduced Sarvam Prism, a decision-making model built on Sarvam 105B tuned for reasoning and workflow orchestration across Indian enterprise tasks.",
+  "notes": "- Sarvam AI's Prism is specialized for agentic decision trees and multi-step workflow routing.\n- Trained on top of Sarvam's 105B foundation architecture with reinforcement learning for decisions.\n- Optimized for low-latency inference on sovereign Indian cloud infrastructure.",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "8b7b089204a065d2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "8ebb9101a45ba225": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "0f8a341a0cc1c208": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "ddd382e5614ca898": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "1d0f298866a2b5e2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "2d3da3343cd6a04e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "be0923ac1654721b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "94f1cf76370e5b9c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "e83641dc98a483e1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "8c40b4d1f5b39e26": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "2d12d46270a2fdd1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "36d2c01c2cdfdc89": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "326a4d1b142b6b7e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "002b66be97c0fc86": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "790e56f2e50724d0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "859586876c54ffa0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "430e38a2cbcf2b6e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "70827f6cc6deaebe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "d074ff6894a406fa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "81bad2266df5c145": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "38a9ece6720962ac": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "eb7f16accfa3ddc3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "d173350d426042b8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "398b7703747cc9c1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "86f0497c98c1f785": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "CoworkOS introduces an operating system architecture for coordinating heterogeneous AI agent coworkers across complex enterprise workflows.",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "b5416599dea4e43f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "2d9ecc26f4adcb9f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "7ac582e021be955b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "58e49d2fa0791cf8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "4031635d406270aa": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "b2703326490f4513": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "ed1659e9a26c261c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "LEANGUARD implements mathematically formal verification via the Lean theorem prover to guarantee safety constraints on autonomous tool-calling agents.",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "482f30de0e7fd71e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "1800879af03da525": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "1b9d4b3f21cae3ad": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "402334b11916090d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "65ac1e7a6e050ec1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "14fd3c72450ab5be": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "e3f5bd5ba02edd97": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Cloudflare launched Zero Wire, a public intelligence dashboard tracking routing anomalies, BGP hijacking, and global internet outages in real time.",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "f1348370f1ee100e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "efdd886089da63ef": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "0c864dc23224441c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Tech With Tim demonstrates how bloated prompt histories and redundant tool definitions degrade agent accuracy, showing context compaction techniques.",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "a3970f7cae338ccb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "e48b50a4e390d347": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "d0a731df6d017a77": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "a5198d4c60f6e169": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "e01a136be60a6390": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Tencent open-sourced Hy-Nomas, an interactive 3D world-gen model rivaling DeepMind Genie that runs on a single RTX 4090 with 60s keyboard steering. Hook: 'Tencent just open-sourced a real-time world generator that runs on one GPU.'",
+  "notes": "- Video review by Matt Wolfe of Tencent's Hy-Nomas interactive 3D world-generation model.\n- Open-source alternative to Google DeepMind's Genie 4 with no waitlist and live web demo.\n- Allows interactive keyboard navigation and camera control for up to 60 seconds per environment.\n- Runs locally on a single consumer GPU (Nvidia RTX 4090).\n- Open permissive policy on prompts and characters compared to DeepMind safety filters.",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "624b5cb29d1a2910": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "c98325e6fe84d93d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "5b43e085db7eaf1e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Sam Witteveen breaks down DeepSeek's new agent harness architecture, testing text-to-plugin generation and local tool calling in multi-turn tasks.",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "9b15ae90da39df1e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "79dd86f1c311511a": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo analyzes OpenAI's shifting product strategy against open-source momentum; we can extract the takeaway for full-stack developers choosing APIs.",
+  "notes": "- Theo debates OpenAI's pricing pressure from open weights.\n- Highlights need for developers to maintain vendor-neutral LLM abstraction layers.",
+  "analyzed_at": "2026-11-03T15:45:33Z"
+ },
+ "12c0a02492a60cf7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:45:33Z"
  }
 }
