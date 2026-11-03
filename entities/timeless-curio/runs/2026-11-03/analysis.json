@@ -303,5 +303,184 @@
   "label": "SKIP",
   "reason": "off_topic",
   "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "9c31baea5dbde804": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "41b0be0d36c0f6ca": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "b36da3bbc68b013b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "d9829b4bcdf57e66": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "discovery",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Theoretical physicists discovered extreme spinning black holes might evade the classical area theorem and split into two, challenging a longstanding general relativity principle.",
+  "notes": "- Hawking's classical area theorem states that total event horizon area cannot decrease in general relativity.\n- New numerical simulations show that near-extremal, rapid-spinning black holes in specific perturbation regimes could pinch off and bifurcate.\n- If confirmed, future gravitational wave detectors (LISA) could search for the signature dual ringdown of a black hole fission event.",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "23a9909de8b04b5b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "CERN Large Hadron Collider data revealed quark-gluon plasma—the ultra-hot primordial Big Bang fluid—forming in unexpectedly small proton collisions, not just heavy ion smashups.",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "41fa313f9999f15e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "c242b45f19d9ffa7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "2012eff6b43e74d4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "f9c4063c521a1add": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "discovery",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Toxicological tests on Inca child mummies from Andean shrines revealed they were given coca leaves and ayahuasca weeks before the capac cocha sacrifice. Hook: 'What did the Incas give children before sending them to mountain peaks?'",
+  "notes": "- Toxicological analysis of hair and tissue from Inca mummies preserved in freezing Andean shrines (capac cocha ritual).\n- Found chemical signatures of cocaine metabolites (coca leaves) and harmine/harmaline from Banisteriopsis caapi (ayahuasca).\n- Researchers conclude the compounds were administered for weeks or months to induce altered mental states and reduce panic before ritual sacrifices.\n- Demonstrates advanced Inca botanical and pharmacological knowledge applied to state rituals.",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "8136ec1d14b332e7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "0f877a04d5b7c1a9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "German Cancer Research Center found deeply dormant blood stem cells in mice that retain regenerative power without aging, revealing a long-term blood renewal reserve.",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "de1d3a8981f0a0dd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "0a1da397690da4bf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "cfc8483d51db1c32": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Tel Aviv University researchers showed plants integrate conflicting directional light signals via local stem sensing, mimicking optical illusions without a central nervous system.",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "d6c1b18d10165b33": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "97acabc5cf04752a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "ed6ab6bd2331b764": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "a54c11c4a0175648": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "The IEA warns that limited European gas storage flexibility and geopolitical disruption risks could keep global LNG markets tight through 2027.",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "3641070993ecc820": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "An IEA report shows India's rapid solar and wind capacity additions are cementing its position as a major driver of global clean energy transition and technology deployment.",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "066c3c1648161faf": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "11988116195d1155": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "6f411595ca423359": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "72a49a1be0d37008": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_report",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "Visual Capitalist ranked per-capita oil consumption: Singapore, Curacao and Gulf states lead due to shipping/refining hubs, while developed nations consume 10-15 barrels per person.",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "7d084f86a6167f79": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "a7e87ab711ec3c08": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:33Z"
+ },
+ "e4178070d779a69d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Astrophysicists note slowly rotating neutron stars and the Sun are among the roundest natural objects, deviating from a perfect sphere by only 10 km over a 1.4 million km diameter.",
+  "analyzed_at": "2026-11-03T15:37:33Z"
  }
 }

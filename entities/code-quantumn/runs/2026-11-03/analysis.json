@@ -537,5 +537,268 @@
   },
   "summary": "Simon Willison releases llm 0.37, adding native streaming support for OpenAI reasoning models and custom system prompt overrides.",
   "analyzed_at": "2026-11-03T03:35:07Z"
+ },
+ "02ba8b8e5453f04d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Hugging Face introduced Model Integration Contracts, defining strict interface standards to make integrating new model architectures into Transformers faster.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "814b27e1e9572e0e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Ollama 0.40.14 fixes Claude Code output token limits, resolves cloud web search decompression bugs on /api/chat, and stops overriding sampler defaults.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "4b762b2ecb340979": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "122e191b17810668": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "542a0e1e85c311b7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "e76d23c38ce036d2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "0461d71ab44c5d4a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "3b6329cc618a9e3b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "DeepSeek launched Creator Mode in its agent harness, letting developers generate custom agent plugins from natural language prompts, making 7 prompt sets public.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "07fdd8eb79a61f26": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "55a1a58728dcec01": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "f0e5bec2c1208098": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "7c3aca2e9c875850": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "7ed77d1743af7aa4": {
+  "label": "SKIP",
+  "reason": "rumor",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "0a4b71b0c62f51ad": {
+  "label": "SKIP",
+  "reason": "rumor",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "c318fe2a6a6824de": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Alibaba chairman Joe Tsai stated Qwen has released 470 open models with over 4 billion downloads worldwide, highlighting its massive adoption footprint.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "7ecc0daacb67ac2f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "3b6ae28a172d4a81": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "0712018b6a62bbad": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "8609d052fcd7d015": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "23f0c925e41324c8": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "adcf5387683f50ca": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "f81f77d7482656c3": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "870d3d777a172fac": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Apple began beta testing Audio Intelligence on Apple Watch, allowing users to transcribe, rewind, and recap recorded conversations locally on device.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "b5b270bf35873f4e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Google rolled out its Dreambeans AI storytelling experiment in India with support for 13 Indian languages, generating personalized interactive tales on mobile.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "4ac3e99582d0af91": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "OpenAI open-sourced architecture details of Pando, its custom Git backend for monorepos that cuts push latency by 80% and moves a petabyte daily. Hook: 'How OpenAI fixed Git when their repo grew too big for GitHub.'",
+  "notes": "- Monorepos at OpenAI scale cause traditional Git servers to crawl under heavy fetch/push loads.\n- Pando implements an independent branch indexer and reusable packfile caching layer.\n- Reduced median push latency by nearly 80% across internal engineering teams.\n- Architecture lessons for high-concurrency systems handling petabytes of version control data.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "47b1f316b25f0620": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Latent Space highlights Weight Space Programming to edit LLM weights directly and reduce reasoning loops, alongside DeepSeek's super-agent prototype.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "4eefbfaf9e53afce": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Wave Forcing introduces a single-pass streaming architecture for generative video that eliminates camera drift and history-cache refresh delays.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "400ee542144be670": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Researchers introduced an open-source evaluation harness that lets smaller open weights operate robot manipulation agents without proprietary models.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "83fc4cb1b19918f0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "CUA-Master proposes recursive self-improvement pipelines for computer-use agents, utilizing automated task verification to scale interaction data.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "f4a1270df6db03f7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "NorthCUA details a harness and experience flywheel that trains computer-use agents on complete software workflows, logging decisions to verify long-horizon tasks.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "399c133a36dc2ba1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "BYOD demonstrates a parameter-efficient LoRA recipe to convert standard autoregressive LLMs into diffusion language models without full pretraining.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "2f16f2a0766437d2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "726e45d98e16b8d8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Library of Layers proposes dynamically re-ordering Transformer layers during inference depending on task difficulty to cut unnecessary compute.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "98d6214ad05903d4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "a2dbbb6bb57ee3c0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Simon Willison highlights an OSINT method using airplane engine sound Doppler curves from ambient video audio matched with flight data to pinpoint coordinates.",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "f5fbc0821243b8a4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:42Z"
+ },
+ "7ab821ea3d7d8a57": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-03T15:37:42Z"
  }
 }

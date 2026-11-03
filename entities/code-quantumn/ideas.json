@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-03T15:37:49Z",
+  "history": [],
+  "id": "2026-11-03-openai-pando-git-monorepo",
+  "title": "How OpenAI fixed Git when their repo broke GitHub (Pando system design)",
+  "type": "months",
+  "timing": "SOON",
+  "angle": "When a team pushes petabytes of code daily, Git crashes. Here is how OpenAI re-engineered Git from scratch.",
+  "outline": [
+   "Why Git slows to a crawl when a monorepo hits petabyte scale.",
+   "How traditional Git packfiles and branch locks choke concurrent developer pushes.",
+   "OpenAI Pando architecture: independent branch indexers and distributed cache.",
+   "How Pando cut median push latency by 80% without breaking standard Git CLI.",
+   "What every product engineer should learn about high-scale system design."
+  ],
+  "items": [
+   "4ac3e99582d0af91"
+  ],
+  "updated_at": "2026-11-03T15:37:49Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-03T15:37:49Z",
+  "history": [],
+  "id": "2026-11-03-deepseek-creator-mode-agents",
+  "title": "DeepSeek Creator Mode: Build AI agent plugins with just a prompt",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "DeepSeek just made building agent toolkits conversational, releasing 7 open prompt blueprints for developers.",
+  "outline": [
+   "What agent harnesses actually do: tool execution, error handling, state.",
+   "Why writing custom agent plugins manually is slow and error-prone.",
+   "How Creator Mode generates executable plugins and schema contracts from plain text.",
+   "The 7 prompt sets DeepSeek published: how to use them locally.",
+   "Building your first custom tool in 5 minutes."
+  ],
+  "items": [
+   "3b6329cc618a9e3b"
+  ],
+  "updated_at": "2026-11-03T15:37:49Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-03T03:36:04Z",
   "history": [],
   "id": "2026-11-03-riscv-cpu-compiled-into-ai-model-weights",
