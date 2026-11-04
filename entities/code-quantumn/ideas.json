@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-04T03:22:38Z",
+  "history": [],
+  "id": "2026-11-04-supabase-mcp-auth-claude",
+  "title": "How to connect Claude to your database without leaking secret keys (MCP Auth)",
+  "type": "months",
+  "timing": "SOON",
+  "angle": "Giving an AI agent raw API keys is a disaster. Supabase just solved MCP authentication with dynamic tokens.",
+  "outline": [
+   "The agent security crisis: why hardcoding database credentials in MCP configs is risky.",
+   "What Model Context Protocol (MCP) does and where authentication breaks down.",
+   "How Supabase Auth issues scoped JWTs directly to Claude during a tool call.",
+   "Setting up Row Level Security (RLS) so the AI only sees what the user owns.",
+   "A 10-minute setup walkthrough for Next.js and Claude Desktop."
+  ],
+  "items": [
+   "ca526644b142446e"
+  ],
+  "updated_at": "2026-11-04T03:22:38Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-04T03:22:38Z",
+  "history": [],
+  "id": "2026-11-04-vercel-doctor-monorepo-debugging",
+  "title": "Why your Next.js deployment failed: How to debug Vercel builds like a pro",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "Stop guessing why your build crashed in production. Use the new vercel doctor command.",
+  "outline": [
+   "The 3 most common reasons Next.js builds work locally but fail on Vercel.",
+   "Environment variable mismatches and client-vs-server bundle leakage.",
+   "Using `vercel doctor` to analyze lockfiles, cache keys, and runtime versions.",
+   "Debugging monorepo turbo caching issues in CI/CD.",
+   "Best practices for bulletproof full-stack deployments in 2026."
+  ],
+  "items": [
+   "e4d85cdf9209853f"
+  ],
+  "updated_at": "2026-11-04T03:22:38Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-03T15:37:49Z",
   "history": [],
   "id": "2026-11-03-openai-pando-git-monorepo",

@@ -1,0 +1,790 @@
+{
+ "b2a799e738b68f9d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "bc17cd9fb88c67a8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Hugging Face introduced StateBench, evaluating whether frontier LLMs accurately maintain evolving program and world state across 100k+ token contexts without hallucinating.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "be1307a9fdf24a5b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Hugging Face published Palette, demonstrating how to fine-tune a compact 3B model to output slide decks adhering strictly to custom CSS and design systems.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "1d6ef6fc0792c44c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "dd68c9bcc0ae3e62": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "e9bd01d7b08ff040": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "852fdacd1bae5701": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "38db0ca543b055af": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "182efe1e06c5a3cc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "2179e9208484e6ee": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "2d47fe0ca7994a58": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "291ea047c488359e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "e3f0697916e2609a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "8d1dd5193e035343": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "94429890eb65680c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "b3723abe59bbc130": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "9297b67b7e5b4f9e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "4da072e3eb09e245": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "2b4d5e21d6e8e51a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "b3e4726b093dff1b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "b95099ee7f847f3d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "90e374752e0e89d4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "ab6a93f166eeb0c3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "f939994917aab284": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "85d628fd11ad61a8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "540478552e131a9a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "771bccfcbdad105e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Developers on Hacker News flagged Postman silently bundling background AI plugins and telemetry scrapers, prompting security teams to restrict developer desktop installations.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "c110c3e36a69f024": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "66ac4b174245c3fe": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "248ba685dd7f58ed": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "8a9f9255e4af8512": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "e79f5703b8b6e61e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "80fb389232cfb24f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "098b184472483d1c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "b386a27a4b25fa4d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "4d2a419196ff34e5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "947c98aaa0bed82c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "136dcc1fc0482015": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "e0329bb22d4ee906": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "063d3b74923153f9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "e24f3b46da6e40a8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "eae97bd45086b774": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "47675af2c5488655": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "ca526644b142446e": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Supabase introduced enterprise-managed auth for MCP, allowing Claude and AI agents to issue scoped OAuth/JWT tokens directly to MCP servers. Hook: 'How to securely give Claude access to your production database without sharing keys.'",
+  "notes": "- Integrates Supabase Auth with Anthropic's Model Context Protocol (MCP) standard.\n- Claude and client agents can authenticate with scoped tokens instead of hardcoded database service keys.\n- Solves a major security barrier for running local or hosted agentic workflows against backend data.\n- Includes role-based access control (RBAC) and automatic session revocation for AI agents.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "463d8fa7ac66d3fa": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "748cd5e34dfeb36f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "6efef7da3edf5462": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "347dbcba0a814bd3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "d647fc120c09baea": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "dba951c734616d75": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"chatgpt\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "7bfdf69c8240764d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"gemini\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "07d204839e9e44dc": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"claude\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "8166edb4c2c82e55": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"deepseek\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "a2d741d92ac83018": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"copilot\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "2f2f21550b92306b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"cursor ai\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "f4e2332d8a42fb40": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"perplexity\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "e2a65ba7f21810bb": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"grok\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "199f26f678d68f35": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"ai agent\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "e45e22480de35c05": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"vibe coding\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "b35accfae3e601b9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"python\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "ec04fa240fb77a1d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"ai course\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "0feb51e2640cb41b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"full stack\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "d28072a04a52c986": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"system design\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "4de0266bb2f19473": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends show developer queries in India focusing on \"next.js\" setups, best practices, and integration tutorials.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "2ced6164468abb20": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "7c82d9fdc275aed4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "737f588e0197699c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "7bb1022e87cd61d6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "fe473cb9ef06bb43": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "ed0094f9cf5dc178": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "af7f477f98f4856f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "7d3c9cac4674cc0f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "c391b561983d5ee2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "2402c669bbaf648f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Ollama 0.40.15 fixes GPU memory fragmentation on Windows, adds auto-unloading for inactive models, and accelerates prompt processing on Apple Silicon.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "ba337920e4525b7a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "40c8285b4db2edd7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "8714595d172d51d0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "0404d5d5fd4d9aba": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "c575c815f113d208": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "5acb6b79cc252c16": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "73b22f83e0d450d4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "63e94ecd75a65465": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "8fcb462f2100e7bf": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "1dcb3a813821045d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "92cd322b4dfb9c55": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "2e4637483c1f9aea": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "bde1fb7a8b5cca0f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "83c9d8517f7e235e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "e20c23f2caf53fb4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "474837561729f630": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "e23b6a5c86c7f6cc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "1df2c8af5d487e5c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "12973e37a7583dfd": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "AWS added local India-based inference for Moonshot's Kimi K3 foundation model on Amazon Bedrock, ensuring data residency and lower API latency for Indian enterprises.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "be90c8998846a2f7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "8c20ed0953aa4a09": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "f0e6867328c923e3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "89d6ff9a9f9a7a80": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "5ace1f6c8182f092": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "33b56e8082a901c4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "90b284ff18eadb06": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "393d65a8ab5dda73": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "d1b788df64c75641": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "c143c1e35b219a14": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "e61624dfeebfcbf3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "73a26e1a2b8cda3a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "fefc58ab98cd3035": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "f3301bad18d51cfd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "7a9d81709727eb13": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "3883bbb6b201145b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "59152358e3f9ea2f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "63f5d29d827d3137": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "a68ba0c9243e1e73": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "a20abd09d7e2f5cc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "e54904ce8157d89f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "eecbfab6696b66b1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "da1284788dfdacf7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "88c1f19f6caea20e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "0aa6158184e4767f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "f892dc4bbfe8011c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "a8133de08e3bc36d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "fa7e9b2c05fdc65b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "5195ff2ece57d689": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "440ed1befd3128d4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "af4c4c93076ac808": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "7910ae5725f030e7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "00a86eab14e555b8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "5b5ebd3437951121": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "9311adf1bd64a001": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "b59b2d76d753c10f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "5d283bbb84b3532e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "56023b92c0ddeb41": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "5288b20c38199a36": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "e4d85cdf9209853f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel released `vercel doctor` in its CLI to automatically inspect environment variables, Node runtimes, and monorepo configurations to resolve build failures.",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "3914358c2be50d5b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ },
+ "6656535c8d482c07": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-04T03:22:23Z"
+ }
+}
