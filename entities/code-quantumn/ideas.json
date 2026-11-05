@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-05T03:38:25Z",
+  "history": [],
+  "id": "2026-11-05-mistral-large-4-arena",
+  "title": "Mistral Large 4 just hit the Arena: Is it the new open coding champion?",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "Europe's AI champion just launched Mistral Large 4 on the LMSYS leaderboard to challenge Claude and GPT-5.",
+  "outline": [
+   "The Chatbot Arena shakeup: where Mistral Large 4 ranks in early blind votes.",
+   "Coding benchmarks: SWE-bench performance and complex reasoning scores.",
+   "Function calling and latency improvements vs Mistral Large 2.",
+   "Self-hosting vs API: can you run Mistral Large 4 on local hardware?",
+   "Why competition among open-weight labs is crushing enterprise API costs."
+  ],
+  "items": [
+   "b7edd986f82a6cf1"
+  ],
+  "updated_at": "2026-11-05T03:38:25Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-05T03:38:25Z",
+  "history": [],
+  "id": "2026-11-05-visual-agents-fullstack-ui",
+  "title": "Why AI agents finally stopped sucking at UI design (Visual Feedback Loops)",
+  "type": "months",
+  "timing": "SOON",
+  "angle": "Text-only coding agents couldn't see ugly layouts. Adding headless browser screenshots changed everything.",
+  "outline": [
+   "The blindness problem: why LLMs write syntactically valid code with broken CSS.",
+   "How headless browsers (Playwright/Puppeteer) take screenshot snapshots after every render.",
+   "Visual regression critique: how the agent inspects padding, overlap, and mobile responsiveness.",
+   "Tools you can use today: building UI with visual agent harnesses.",
+   "What this means for frontend product engineers in 2026."
+  ],
+  "items": [
+   "213815b15ac3a7a2"
+  ],
+  "updated_at": "2026-11-05T03:38:25Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-04T03:22:38Z",
   "history": [],
   "id": "2026-11-04-supabase-mcp-auth-claude",
