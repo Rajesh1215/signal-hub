@@ -1,6 +1,28 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-05T13:21:40Z",
+  "history": [],
+  "id": "2026-11-05-openai-image-flare-svg",
+  "title": "OpenAI's new image models can export SVGs and animated GIFs: full breakdown",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "OpenAI just dropped GPT-Image-2.6 Flare and Sunburst, unlocking native SVG vector output and 6-second animated GIFs directly in the API.",
+  "outline": [
+   "Flare vs Sunburst: comparing the 6-second ultra-fast model against maximum aesthetic quality on Arena benchmarks",
+   "Native SVG generation: how generating XML vector coordinates eliminates raster scaling artifacts for web apps",
+   "Animated GIF workflows: building programmatic thumbnail generation and dynamic micro-animations via API",
+   "Developer walkthrough: Python code snippets to call the new endpoints and parse the vector responses"
+  ],
+  "items": [
+   "ff854401f85a16ab",
+   "32a7ff7bdda11f0d",
+   "bc92985766bba365"
+  ],
+  "updated_at": "2026-11-05T13:21:40Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-05T03:38:25Z",
   "history": [],
   "id": "2026-11-05-mistral-large-4-arena",

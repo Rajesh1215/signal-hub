@@ -1115,5 +1115,642 @@
   "label": "SKIP",
   "reason": "off_topic",
   "analyzed_at": "2026-11-05T03:38:20Z"
+ },
+ "075c3956416c67f1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "76c0ce33f0f5997b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "1eb6c063b990be0f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "b4c0e08f0006856d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "ddb0564b292e2c45": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "9e146007ff24ca8a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "e4648eb5bf0ff8eb": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "f1e0d41ae5acf303": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "2ed257ba76e7fb79": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "7a9418344f623f1e": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "bee898ae329f2a50": {
+  "label": "SKIP",
+  "reason": "security_incident",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "1745a4d6f6237661": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "32a7ff7bdda11f0d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Arena Text-to-Image: GPT-Image-2.6 Sunburst (Medium) enters the top 10 at #2: OpenAI's new GPT-Image-2.6 enters the LMSYS Arena top 10 rankings across text-to-image and image editing leaderboards.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "bc92985766bba365": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Arena Text-to-Image: GPT-Image-2.6 Flare (Medium) enters the top 10 at #4: OpenAI's new GPT-Image-2.6 enters the LMSYS Arena top 10 rankings across text-to-image and image editing leaderboards.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "043d98796581b6ab": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Arena Image Edit: GPT-Image-2.6 Sunburst (Medium) enters the top 10 at #3: OpenAI's new GPT-Image-2.6 enters the LMSYS Arena top 10 rankings across text-to-image and image editing leaderboards.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "3216f905d0ed50ba": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Arena Image Edit: GPT-Image-2.6 Flare (Medium) enters the top 10 at #5: OpenAI's new GPT-Image-2.6 enters the LMSYS Arena top 10 rankings across text-to-image and image editing leaderboards.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "b88d03431df6c32d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "12a36a051411c3fd": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "9e3077958f001323": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "e1e25859ff8d1e05": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "a3ddc067ad835997": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "f9ff0b1887365380": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "80abb097f78add6e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "6da311168a368b26": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "8f0496fe7f7e9300": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Google AI releases Agile Deliberation, an interactive framework combining human feedback and iterative LLM critique for nuanced image classification.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "e69ad49887028030": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Latent Space examines enterprise architectures transitioning from proprietary frontier model lock-in to swappable open-weight model pipelines.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "e4c3ad6667650aae": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "6954d0c0781d7748": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "29de6cf9856f0941": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "ca8fc6883dd5e256": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "7c691a012700115e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "a4709ef346f31eca": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "00db62d1c8136838": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "ef61a77aba19335a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "LoopVQ introduces sub 1-bit vector quantization for transformer KV caches, drastically shrinking memory overhead during long-context inference.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "247faa0277b57cb0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "8c06b622f23c1800": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Practical tutorial on configuring shared engineering AI agents with scoped team permissions, git integration, and review guardrails.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "d1d97d258697e03a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "official_launch",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "OpenAI announces technical standards and infrastructure verification protocols for responsible enterprise AI deployment and data handling.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "93dfef773273e35f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Hugging Face showcases Phonon TTS, an ultra-fast on-device speech synthesis model topping speech benchmarks with minimal memory footprints.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "76ca34bc2bbfd8e5": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "bafc6311491537cd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "0ce990896288e391": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "dd1183b960af6d18": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "309b6c7d71619d28": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "b98e6b07e83a394e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "787e0dcd8e5c8807": {
+  "label": "SKIP",
+  "reason": "security_incident",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "6a8b8a1b05d35b40": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "ebc0e41f6d9b2026": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "f649aac982e63f7e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "cb9bdeea523d26e0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "c282e66ded6cd285": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "e18e180c2365b240": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "6865e53cdf112a37": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Tencent releases open-weight foundation model Hy4 to rival Alibaba's Qwen family in China's rapidly intensifying open-source AI ecosystem.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "7d60bfbfa9716e54": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "b86ed2e560a7a4b8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "f8222137a3e98968": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "cbe95fdf57e940c7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "e2546f8dd8f15a10": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "07ce2d89463e06c3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "259937d6289530b9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "6965bf77debee227": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "5c16b56b39dc09d0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "86cd53aa255e75f1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "596d578d7a654508": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "3f5bfc6e23907126": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "89bb9ab69e80e125": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "167a2b0427b8dbc1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Agility Robotics lists on Nasdaq as the first pure-play publicly traded humanoid robotics firm, marking a commercial milestone for warehouse automation.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "2d65a97eabfeee2d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Together AI releases Together Compiler, utilizing continuous agent optimization loops to accelerate LLM inference forward passes by up to 2.6x.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "ff854401f85a16ab": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "OpenAI releases GPT-Image-2.6 Flare and Sunburst models, delivering 6-second API generation, animated GIF support, and native SVG vector export. Hook: 'OpenAI just gave its image API animated GIFs and vector SVG export.'",
+  "notes": "- Flare model reduces latency to ~6 seconds while Sunburst maximizes aesthetic fidelity\n- Native SVG export allows developers to generate scalable vector graphics directly into frontend code\n- Animated GIF output opens programmatic banner, micro-animation, and asset generation pipelines",
+  "actions": [
+   "Created video idea 2026-11-05-openai-image-flare-svg"
+  ],
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "3dbf2619f8d799fa": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Overview of emerging voice agent frameworks enabling autonomous end-to-end phone calls for customer service and appointment scheduling.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "fb94aec20d368477": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "ad9256ab653bb53c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "60ac49c08fbd6ea8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "e612b17806b2be8c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "b520f4669ccff9a9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "dd71651fdd88547b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "8d833c5e4f436a8f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "60eeae1fdaa11d23": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "7a676e0da2065aa1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "9b166fa937c480c7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "c733a17e1a36ff53": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "ba87be682e07c5ce": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "0e218fef751d0037": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Research paper proposes a hybrid computer use architecture uniting programmatic API execution, DOM semantics, and vision-based mouse controls.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "9239c499f8841b88": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "737b030c034cb845": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "fdf89bde996b28c9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "30e1c8d64780a982": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "e53e34f8701142a0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "174cac1234795ba6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "22638dc4d18845fa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "1b7dac2e9da15685": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "ebfb2456a16fdfb1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Microsoft open-sources VibeVoice, a frontier expressive voice synthesis model capable of nuanced emotional prosody and conversational inflections.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "07c29c8daf94f2bd": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Security analysis demonstrates prompt injection vulnerabilities in the proposed WebMCP standard, showing malicious websites can hijack agent tool execution.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "98759921aee57139": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "7d7419dabb028614": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Tech With Tim demonstrates an open-source transparent AI agent framework featuring step-by-step reasoning logs and execution tracing.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "a1d5eee0c5f862b8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "IBM Technology analyzes whether million-token context windows eliminate vector databases, concluding vector search remains essential for cost and latency.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "a224bfebb4607896": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "AI Advantage walkthrough on using Claude to parse raw interview transcripts into structured rough video cuts and B-roll cues.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "d0fc94ba218e4f65": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "9d04387b72793d76": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "19f63562e9454668": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Sam Witteveen tests Tencent's newly released open-weight Hy4 foundation model, benchmarking its reasoning and multi-turn coding capabilities.",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "b565ba68e23bb2c6": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Berman demonstrates building a lightweight local PDF reader with built-in OCR and AI search, challenging bloated commercial PDF subscriptions.",
+  "notes": "- Demonstrates building a local, lightweight PDF reader with AI summarization and OCR\n- Shows audience appetite for self-hosted utility tools replacing bloated subscriptions",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "ec3b834eec9d1e8c": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin ranks AI startup models, showing why thin API wrappers suffer severe customer churn while deep agentic workflows retain enterprise contracts.",
+  "notes": "- Ranks AI wrappers, agentic workflows, vertical SaaS, and developer tooling\n- Highlights that thin wrappers face brutal churn while workflow integration retains enterprise users",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "7541756e07cdd98c": {
+  "label": "SKIP",
+  "reason": "competitor_move",
+  "analyzed_at": "2026-11-05T13:21:00Z"
+ },
+ "2c2d9c7b6102a747": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo analyzes developer and creator reactions to OpenAI model updates, copyright controversies, and synthetic persona licensing.",
+  "notes": "- Commentary on copyright, creator likeness, and AI content generation disputes\n- Examines developer reaction to AI safety watermarking and content moderation policies",
+  "analyzed_at": "2026-11-05T13:21:00Z"
  }
 }
