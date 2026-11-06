@@ -1,6 +1,27 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-06T06:17:33Z",
+  "history": [],
+  "id": "2026-11-06-gpt6-cyber-security-agents",
+  "title": "OpenAI launches GPT-6 Cyber: Autonomous vulnerability hunting and patching explained",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "OpenAI just released its first dedicated cybersecurity foundation model in API preview, capable of finding zero-days and writing defensive patches.",
+  "outline": [
+   "What is GPT-6 Cyber: why general LLMs fail at complex binary auditing and how specialized training changes vulnerability discovery",
+   "The sandbox execution loop: how the model autonomously reproduces exploits in safe containers to eliminate false positives",
+   "Defensive patch generation: producing verified compiler-safe code fixes for CI/CD pipeline integration",
+   "Alignment and safety guardrails: how OpenAI prevents automated offensive weaponization while enabling enterprise defense"
+  ],
+  "items": [
+   "82f7e72c3b2cde95",
+   "d4a73242c9f8d28b"
+  ],
+  "updated_at": "2026-11-06T06:17:33Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-05T13:21:40Z",
   "history": [],
   "id": "2026-11-05-openai-image-flare-svg",
