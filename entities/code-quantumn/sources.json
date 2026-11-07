@@ -1147,6 +1147,21 @@
       "max_new": 3
     },
     {
+      "id": "yt-nick-saraev",
+      "name": "Nick Saraev",
+      "type": "youtube",
+      "channel_id": "UCbo-KbSjJDG6JWQ_MTZ_rNA",
+      "role": "news",
+      "tags": [
+        "creator",
+        "ai-engineering",
+        "tools"
+      ],
+      "status": "trial",
+      "max_age_days": 7,
+      "max_new": 3
+    },
+    {
       "id": "daily-dev",
       "name": "daily.dev",
       "type": "daily_dev",
