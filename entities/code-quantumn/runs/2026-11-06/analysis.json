@@ -929,5 +929,136 @@
   "label": "SKIP",
   "reason": "minor_update",
   "analyzed_at": "2026-11-06T06:16:41Z"
+ },
+ "75358b60340ffe9f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "392ca90e3e7e2c70": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "12a71ee1d4778121": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "77ce9704345db501": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "788c48581660b8a6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "4b9a07cfb7f2ffd1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "63e796d0c3ead94e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "4eee170233df556f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "06d924f3dbfb296a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "a0742a7a34bdba03": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "a54a28b5a95bbecc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "837b4b1b50a7da38": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "895dac2109178285": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "438712bd43a9a86d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "7b58b050ea51f9dc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "0f3ce2503dee6c9f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "da4f18fde0dd77fe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "0efe56f82b7ff829": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Thinking Machines Lab releases Inkling 2 Small, an open 594B-parameter MoE with 17B active parameters, delivering frontier math and code reasoning efficiency.",
+  "notes": "- Thinking Machines Lab releases 594B-parameter MoE with 17B active parameters per token\n- High benchmark scores on technical reasoning and math benchmarks with sparse routing efficiency\n- Demonstrates growing power of sparse architectures running efficiently on multi-GPU setups",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "38b4516545afd52a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "7fb6daf9aeed72c2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "b083ceb7cc6499c8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "41785365ed2bbaff": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "a2c510c582d2dc95": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "d6576ddde699ea2f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "6eb20d5934c77a47": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:50:02Z"
  }
 }

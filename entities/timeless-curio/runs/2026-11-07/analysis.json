@@ -1,0 +1,713 @@
+{
+ "bde7cd8f05ceb540": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "050821495f628c48": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "106f7be8b366f14c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "ESA's Euclid wide-angle sky survey identifies a previously uncatalogued long-period comet inbound from the distant Oort Cloud.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "6eb722bf44b83b62": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "8be14cdb4217eb96": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "e3ba216aa96e0b57": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "ESA's Hera spacecraft captures its first close-up imagery of the Didymos-Dimorphos asteroid binary, beginning detailed impact crater analysis after NASA's DART collision.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "33bb50736fe61f77": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "63cfdd7c2361d856": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "38ab3760cd67b0ae": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "6299eda5749911fe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "04e77715b4348db1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "A 4.5-billion-year-old primordial meteorite recovered in the Sahara Desert reveals pristine solar nebula chemical signatures preceding the formation of Earth.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "9e9fcf766e0f90ac": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "6b9b0b4e7a5c0439": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "evolution"
+  },
+  "summary": "An intact 47-million-year-old Messel pit owl fossil preserves articulated eye bones, demonstrating diurnal day-hunting origins before nocturnal evolution.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "1b723ae3db4d113d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Coronagraphic post-processing of James Webb Space Telescope data strips host star optical glare to directly resolve an elusive gas giant exoplanet.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "bf20db70d0d6fe7c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Orbital laser altimetry of Valles Marineris reveals fresh fault scarps and landslide displacements, proving Mars continues to experience active crustal rifting.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "9ce2b6bbfa7c7131": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "4dddb488bb077a57": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "26ba1b882dde320f": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "discovery",
+  "flags": {
+   "category": "evolution"
+  },
+  "summary": "Paleontologists detect organic hemoglobin fragments and red blood cell remnants preserved inside a 115-million-year-old dinosaur bone, challenging limits of protein survival. Hook: 'Did scientists really just find 115-million-year-old dinosaur blood?'",
+  "notes": "- Microscopic analysis of Cretaceous fossilized bone reveals structural erythrocyte outlines and iron-rich organic residues\n- Conventional biochemistry established that proteins and soft tissues degrade completely within millions of years\n- Cross-linking mediated by iron ions is hypothesized to act as a natural embalming agent stabilizing cellular microstructures\n- Sparked debate among molecular paleontologists on whether ancient organic biomolecules can survive deep geological time",
+  "actions": [
+   "Created video idea 2026-11-07-dinosaur-blood-fossil-discovery"
+  ],
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "e1d796bb8ada11c4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "601148b1e0069019": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "6c3a694ac6d4ad61": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Astrophysical modeling of super-Chandrasekhar white dwarf mergers suggests extreme magnetic fields allow degenerate stars to briefly exceed mass limits before collapse.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "6ce1248c55fb29c4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "10322ed46f32e2f8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "001f096d542b9b78": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "6dfac9e5ffd1fd1e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "e926a71de72c5ccc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "7df373931a21ef4e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "18176a26cc3f3c78": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Physicists use ultra-fast vibrating optical mirrors in laser cavities to simulate black hole event horizon mechanics and measure analog Hawking radiation.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "028142449a5f4e58": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "4927d58bea12e555": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "51bbba655fd898c4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "51cf4a41b8e9411a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "Historical retrospective on how surplus WWII military rations gave birth to the global civilian CARE package humanitarian relief logistics network.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "e6c51e697b488d26": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "eb2e83ec95257e12": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "7743dc8672af2407": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Atmospheric data shows sudden stratospheric warming is destabilizing the Arctic polar vortex earlier in the seasonal cycle, triggering severe mid-latitude cold snaps.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "6fc792bffda142b1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "inventions"
+  },
+  "summary": "Art historians discover Michelangelo engineered specialized multi-headed horsehair brushes to achieve rapid fresco plaster blending across the Sistine Chapel ceiling.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "4aed180570692e4e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "46149d96558fe4b6": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Cretaceous fossil tracks in Brazil reveal an apex mammalian predator the size of a modern cougar shared ecosystems with dinosaurs 100 million years ago.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "9f2d3d14af99cdec": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "087d1a79ae1e1e75": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "9e956eea29674414": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "912ba545dd08fc91": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "6e9fdb930f495a76": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "f7ecaff33dbc000b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "7ac4812b5a0fe32b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "5d83cf27778c7534": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "1a56e84520ad2831": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "b7e4402db0ce0a51": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "3ed36a6e3b89d173": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "9b9267dbb2258d5e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "8d4ba134fac49153": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "269a524926cc3fbd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "93b6221ade7e0c78": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "21d7e486262b4a0b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "ae5e47e5105acb7e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "730bf7c7b58ac513": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "6c5a3e1eb26dfc66": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "1e421195c0dd7bde": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "a2ff47d46e27f909": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "539666f3d998aaa2": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Search trends show sustained public curiosity about 'black hole', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "ef6839c88b2cb5eb": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Search trends show sustained public curiosity about 'universe', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "7f515583524122c1": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Search trends show sustained public curiosity about 'ai', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "8ebf01c37d97b90e": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "Search trends show sustained public curiosity about 'oil', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "3de6a3e832d30f6b": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "Search trends show sustained public curiosity about 'world war', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "bf0bcadeb6be3219": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Search trends show sustained public curiosity about 'mars', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "6ad8095ed2feb235": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Search trends show sustained public curiosity about 'moon', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "e75f515f32152f35": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Search trends show sustained public curiosity about 'human body', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "904bbc0b1cf3fbd8": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "mysteries"
+  },
+  "summary": "Search trends show sustained public curiosity about 'time travel', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "87b2a1f1cc304fe5": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "mysteries"
+  },
+  "summary": "Search trends show sustained public curiosity about 'aliens', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "b5b09cffad5e8823": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Search trends show sustained public curiosity about 'future', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "ceaa5c676711c306": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Search trends show sustained public curiosity about 'what if', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "0831515dd8ec1a01": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Search trends show sustained public curiosity about 'why is the sky', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "659ecd71ab1d0bb2": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Search trends show sustained public curiosity about 'what happens if', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "b5b0a95418c2a00e": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "data_report",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Search trends show sustained public curiosity about 'will ai', highlighting interest in cosmology, speculative future physics, and planetary phenomena.",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "baa74958e07fe121": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "33a53dc099f5d2b8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "5eaac4958d2fb061": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "782521a13e65a2ca": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "4c5d47149e1135d3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "87ed8d16f7b2e64a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "56b8f0653ca3ceb8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "fd5b8552ebdfafa7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "60f9f012909499ef": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "9b4e7a9079abb017": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "09459475587973b2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "77b0f1849e4e1e84": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "0499d067ee9a9537": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "e4e0e137a5fa6a5d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "6d0f226423434058": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "1b3734216c2213bb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "1120ae1806525d7e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "e6d7903f65b62f02": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "7050c292c382fcb4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "b590141a53185186": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "0b66652101403f35": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "42dea8d7653e43ec": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "7f78dc6d7e35853d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "f5f2bfa3807624bf": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "e5c08b9e3a58a844": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "c76aa2f42b08181f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "415dbee12b3b28bb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "3d3d54a3d0d2d997": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "edeb380ac8460667": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "23c41f68f0a9a3e5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "4e58ac73fea0832d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "aa395a8c2570a27a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "a18fb3e78575d25a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "d254e234eb0004f3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "7ab91482c9034780": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "3b1746c425aac6ef": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "71d33646e504cd32": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "50c09db23dea4c88": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ },
+ "8edf0e5dab5e379e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-07T03:49:57Z"
+ }
+}

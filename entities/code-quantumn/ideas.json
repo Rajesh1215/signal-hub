@@ -1,6 +1,26 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-07T03:50:50Z",
+  "history": [],
+  "id": "2026-11-07-cursor-realtime-voice-agents",
+  "title": "Cursor added real-time voice chat: talk to your coding agent while it builds",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "Cursor just introduced native real-time voice calls with coding agents across desktop, web, and iOS, eliminating keyboard context switching.",
+  "outline": [
+   "Hands-free pair programming: speaking architecture intent verbally while watching multi-file edits live in the editor",
+   "Low-latency voice architecture: voice activity detection (VAD), streaming speech synthesis, and interruption handling",
+   "Desktop vs iOS workflow: debugging test failures while away from keyboard via mobile voice call",
+   "Prompting best practices: how to direct voice agents through complex refactors without verbal ambiguity"
+  ],
+  "items": [
+   "d905b850be22ace9"
+  ],
+  "updated_at": "2026-11-07T03:50:50Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-06T06:17:33Z",
   "history": [],
   "id": "2026-11-06-gpt6-cyber-security-agents",
