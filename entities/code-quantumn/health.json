@@ -381,11 +381,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 1368,
     "new": 1
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 1368,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "google-ai-blog": {
   "consecutive_errors": 0,
@@ -764,11 +769,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "deepmind-blog": {
   "consecutive_errors": 0,
@@ -1152,13 +1162,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 100,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 100,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "\"cVI6Zg\""
+   "etag": "\"L7fmqw\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "anthropic-news": {
   "consecutive_errors": 0,
@@ -1542,12 +1557,17 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 279,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 279,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
+  "last_ok": "2026-11-07T06:58:30Z",
   "baselined": true,
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "mistral-news": {
   "consecutive_errors": 0,
@@ -1931,13 +1951,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"cbe8ed200827d8658f355343fc732ea9-ssl\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "hf-blog": {
   "consecutive_errors": 0,
@@ -2321,13 +2346,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"40db3-QnaL/cE1NFxrMsyR267iQdZb+7E\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "nvidia-dev-blog": {
   "consecutive_errors": 0,
@@ -2711,14 +2741,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 100,
     "new": 1
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "\"2b9140979c0d81bca75638603aedf2d3\"",
-   "last_modified": "Fri, 06 Nov 2026 22:20:31 GMT"
+   "etag": "\"2b9140979c0d81bca75638603aedf2d3\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "ms-research": {
   "consecutive_errors": 0,
@@ -3097,14 +3131,19 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 10,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "\"ca154d377c3b5045b3b5a570bb4da8f0\"",
    "last_modified": "Sat, 07 Nov 2026 00:10:59 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "github-changelog": {
   "consecutive_errors": 0,
@@ -3488,14 +3527,19 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 10,
     "new": 4
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"b0f60c47feafc6f31503a1d686c2a088\"",
    "last_modified": "Sat, 07 Nov 2026 00:30:57 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "gemini-api-changelog": {
   "consecutive_errors": 0,
@@ -3879,12 +3923,17 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
+  "last_ok": "2026-11-07T06:58:30Z",
   "baselined": true,
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "anthropic-release-notes": {
   "consecutive_errors": 0,
@@ -4452,14 +4501,19 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 140,
     "new": 2
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 140,
+    "new": 0
    }
   ],
   "state": {
-   "last_modified": "Sat, 07 Nov 2026 01:39:21 GMT"
+   "last_modified": "Sat, 07 Nov 2026 05:27:28 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
+  "last_ok": "2026-11-07T06:58:30Z",
   "baselined": true,
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "gh-claude-code": {
   "consecutive_errors": 0,
@@ -4843,13 +4897,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"2f6845b65f3d021e753e934bad91a122\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "gh-ollama": {
   "consecutive_errors": 0,
@@ -5233,13 +5292,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"e0c406e9eee07b19cf71e3053c0a70d8\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "techcrunch-ai": {
   "consecutive_errors": 0,
@@ -5623,14 +5687,19 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 20,
     "new": 2
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"00e818cc57fd374a622ee7f714b95d42\"",
-   "last_modified": "Sat, 07 Nov 2026 01:40:28 GMT"
+   "etag": "W/\"931cfd7d3423a13dd82e4a9f921cb543\"",
+   "last_modified": "Sat, 07 Nov 2026 05:05:44 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "verge-ai": {
   "consecutive_errors": 0,
@@ -6319,14 +6388,19 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "\"d89e822359f01e83c91051c619a63e78\"",
    "last_modified": "Fri, 06 Nov 2026 17:28:07 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "the-rundown": {
   "consecutive_errors": 0,
@@ -6710,11 +6784,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 50,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 50,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "bens-bites": {
   "consecutive_errors": 0,
@@ -7098,13 +7177,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"7e86d-Ej/4oJzF1tuZxUoZPL99jX7VvLc\""
+   "etag": "W/\"7e86d-60UWY9qz+7z5g3v6z5hNcQ4K3u8\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "latent-space": {
   "consecutive_errors": 0,
@@ -7488,13 +7572,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 20,
     "new": 1
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "last_modified": "Sat, 07 Nov 2026 03:37:13 GMT"
+   "last_modified": "Sat, 07 Nov 2026 06:55:34 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "product-hunt": {
   "consecutive_errors": 0,
@@ -7878,14 +7967,19 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 50,
     "new": 10
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 50,
+    "new": 10
    }
   ],
   "state": {
-   "etag": "W/\"a7865d4873efee7cf8a09924c3a71f1b\"",
-   "last_modified": "Sat, 07 Nov 2026 03:39:00 GMT"
+   "etag": "W/\"8036704d1eea47482dac0745a96c49e4\"",
+   "last_modified": "Sat, 07 Nov 2026 06:58:07 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "hn-ai": {
   "consecutive_errors": 0,
@@ -8269,11 +8363,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 5,
     "new": 3
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 3,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "hf-papers": {
   "consecutive_errors": 0,
@@ -8657,11 +8756,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 34,
     "new": 4
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 34,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "gh-trending": {
   "consecutive_errors": 0,
@@ -9045,11 +9149,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 7,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 7,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "devto-ai": {
   "consecutive_errors": 0,
@@ -9433,11 +9542,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 1,
     "new": 1
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 1,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "devto-llm": {
   "consecutive_errors": 0,
@@ -9821,11 +9935,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "r-localllama": {
   "consecutive_errors": 0,
@@ -9844,7 +9963,7 @@
   "history": []
  },
  "yt-3b1b": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -10078,7 +10197,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "yt-ibm-tech": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -10302,7 +10421,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "yt-umar-jamil": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -10521,7 +10640,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "yt-campusx": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -10864,7 +10983,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "yt-latent-space": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -11078,7 +11197,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-fireship-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -11322,7 +11441,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-tmp-yt": {
-  "consecutive_errors": 0,
+  "consecutive_errors": 1,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -11557,10 +11676,11 @@
   ],
   "state": {},
   "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_run": "2026-11-07T03:36:22Z",
+  "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-aiexplained-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -11794,7 +11914,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-berman-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -12023,7 +12143,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-krishnaik-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -12242,7 +12362,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "p-karpathy-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T07:33:44Z",
@@ -12847,13 +12967,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"1df4ea8371c90878f98927e8b652e2b8\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "p-simonw-blog": {
   "consecutive_errors": 0,
@@ -13237,13 +13362,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "last_modified": "Fri, 06 Nov 2026 17:13:12 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "p-raschka-blog": {
   "consecutive_errors": 0,
@@ -13627,13 +13757,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"2779d7-jR3qa/zf7T+EzgYWXZge5cJcXps\""
+   "etag": "W/\"2779d7-dqAnxpw80Ba9/8s7eELS2woCVqU\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "p-lambert-blog": {
   "consecutive_errors": 0,
@@ -14017,13 +14152,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"82deb-eX05HhRU6dXj5SxOoclrmuR9eew\""
+   "etag": "W/\"82deb-ciqrCmS2fqCh94DxPtO2heOqRMs\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "p-mollick-blog": {
   "consecutive_errors": 0,
@@ -14407,13 +14547,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"e129c-Uk0FzG/6RqHqExTKxUXq50MIDK0\""
+   "etag": "W/\"e129c-+70b0BNodQv+jty79y53YXL2qdE\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "p-altman-blog": {
   "consecutive_errors": 0,
@@ -14797,13 +14942,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 30,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 30,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "\"48ae127812c07cde80e08702d3d7dacc\""
+   "etag": "\"28c76cddea8c613bcd99c3b02d84daff\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "meta-engineering": {
   "consecutive_errors": 0,
@@ -15167,14 +15317,19 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 9,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"c439adf6ed031ab343ccad313695bcfc\"",
    "last_modified": "Fri, 06 Nov 2026 19:32:22 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "gn-meta-ai": {
   "consecutive_errors": 0,
@@ -15513,11 +15668,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 45,
     "new": 5
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 43,
+    "new": 5
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "xai-news": {
   "consecutive_errors": 0,
@@ -15881,12 +16041,17 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 91,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 91,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
+  "last_ok": "2026-11-07T06:58:30Z",
   "baselined": true,
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "deepseek-news": {
   "consecutive_errors": 0,
@@ -16250,12 +16415,19 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 19,
+    "new": 0
    }
   ],
-  "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
+  "state": {
+   "last_modified": "Fri, 30 Oct 2026 10:47:28 GMT"
+  },
+  "last_ok": "2026-11-07T06:58:30Z",
   "baselined": true,
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "gn-deepseek": {
   "consecutive_errors": 0,
@@ -16594,11 +16766,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 37,
     "new": 5
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 37,
+    "new": 3
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "qwen-blog": {
   "consecutive_errors": 0,
@@ -16962,13 +17139,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"6970c244-98ff\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "gn-qwen": {
   "consecutive_errors": 0,
@@ -17307,11 +17489,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 21,
     "new": 2
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 21,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "apple-ml": {
   "consecutive_errors": 0,
@@ -17675,14 +17862,19 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 10,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"6aee33b9-2709\"",
    "last_modified": "Fri, 06 Nov 2026 20:08:25 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "aws-ml": {
   "consecutive_errors": 0,
@@ -18046,13 +18238,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 20,
     "new": 4
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "last_modified": "Sat, 07 Nov 2026 00:59:20 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "gn-perplexity": {
   "consecutive_errors": 0,
@@ -18391,11 +18588,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 24,
     "new": 1
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 21,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "cursor-changelog": {
   "consecutive_errors": 0,
@@ -18759,11 +18961,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 50,
     "new": 1
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 50,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "cursor-blog": {
   "consecutive_errors": 0,
@@ -19127,14 +19334,19 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 121,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 121,
+    "new": 0
    }
   ],
   "state": {
-   "last_modified": "Sat, 07 Nov 2026 03:13:04 GMT"
+   "last_modified": "Sat, 07 Nov 2026 06:24:47 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
+  "last_ok": "2026-11-07T06:58:30Z",
   "baselined": true,
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "arena-ranks": {
   "consecutive_errors": 0,
@@ -19498,119 +19710,124 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 10,
+    "new": 10
    }
   ],
   "state": {
    "text": {
-    "date": "2026-10-28",
+    "date": "2026-11-06",
     "top": [
      {
       "model": "Gemini 4 Carbon (High)",
       "org": "google",
       "rank": 1,
       "license": "Proprietary",
-      "votes": 4403,
-      "rating": 1540
+      "votes": 4483,
+      "rating": 1539
      },
      {
       "model": "Gemini 4 Argon (High)",
       "org": "google",
       "rank": 2,
       "license": "Proprietary",
-      "votes": 11889,
-      "rating": 1529
-     },
-     {
-      "model": "Claude Opus 5.5 (High)",
-      "org": "anthropic",
-      "rank": 3,
-      "license": "Proprietary",
-      "votes": 11415,
-      "rating": 1516
+      "votes": 18399,
+      "rating": 1530
      },
      {
       "model": "Claude Fable 5.1 (Max)",
       "org": "anthropic",
+      "rank": 3,
+      "license": "Proprietary",
+      "votes": 19892,
+      "rating": 1513
+     },
+     {
+      "model": "Claude Opus 5.5 (High)",
+      "org": "anthropic",
       "rank": 4,
       "license": "Proprietary",
-      "votes": 17178,
-      "rating": 1514
+      "votes": 14849,
+      "rating": 1512
      },
      {
       "model": "Claude Opus 5 (Max)",
       "org": "anthropic",
       "rank": 5,
       "license": "Proprietary",
-      "votes": 35531,
-      "rating": 1508
-     },
-     {
-      "model": "Claude Opus 5 (High)",
-      "org": "anthropic",
-      "rank": 6,
-      "license": "Proprietary",
-      "votes": 73167,
-      "rating": 1504
-     },
-     {
-      "model": "Claude Opus 4.6 (High)",
-      "org": "anthropic",
-      "rank": 7,
-      "license": "Proprietary",
-      "votes": 84512,
-      "rating": 1502
+      "votes": 36681,
+      "rating": 1507
      },
      {
       "model": "Muse Wonder (Max)",
       "org": "meta",
+      "rank": 6,
+      "license": "Proprietary",
+      "votes": 11229,
+      "rating": 1505
+     },
+     {
+      "model": "Claude Opus 5 (High)",
+      "org": "anthropic",
+      "rank": 7,
+      "license": "Proprietary",
+      "votes": 75732,
+      "rating": 1503
+     },
+     {
+      "model": "Claude Opus 4.6 (High)",
+      "org": "anthropic",
       "rank": 8,
       "license": "Proprietary",
-      "votes": 7749,
-      "rating": 1499
+      "votes": 85548,
+      "rating": 1502
      },
      {
       "model": "Gemini 3.8 Flash (High)",
       "org": "google",
       "rank": 9,
       "license": "Proprietary",
-      "votes": 47803,
-      "rating": 1498
+      "votes": 59680,
+      "rating": 1501
      },
      {
       "model": "Claude Opus 4.6",
       "org": "anthropic",
       "rank": 10,
       "license": "Proprietary",
-      "votes": 89324,
-      "rating": 1496
+      "votes": 90487,
+      "rating": 1497
      }
     ]
    },
    "webdev": {
-    "date": "2026-10-28",
+    "date": "2026-11-06",
     "top": [
      {
       "model": "Claude Opus 5.5 (Max)",
       "org": "anthropic",
       "rank": 1,
       "license": "Proprietary",
-      "votes": 3473,
-      "rating": 1810
-     },
-     {
-      "model": "GPT-6 Astra (Max)",
-      "org": "openai",
-      "rank": 2,
-      "license": "Proprietary",
-      "votes": 7210,
-      "rating": 1773
+      "votes": 4132,
+      "rating": 1814
      },
      {
       "model": "Claude Sonnet 5.5 (xHigh)",
       "org": "anthropic",
+      "rank": 2,
+      "license": "Proprietary",
+      "votes": 5648,
+      "rating": 1772
+     },
+     {
+      "model": "GPT-6 Astra (Max)",
+      "org": "openai",
       "rank": 3,
       "license": "Proprietary",
-      "votes": 4469,
+      "votes": 8364,
       "rating": 1770
      },
      {
@@ -19618,132 +19835,132 @@
       "org": "google",
       "rank": 4,
       "license": "Proprietary",
-      "votes": 2230,
-      "rating": 1768
-     },
-     {
-      "model": "GPT-6.1 Sol (Max)",
-      "org": "openai",
-      "rank": 5,
-      "license": "Proprietary",
-      "votes": 4092,
-      "rating": 1751
+      "votes": 2240,
+      "rating": 1767
      },
      {
       "model": "Claude Fable 5.1 (Max)",
       "org": "anthropic",
+      "rank": 5,
+      "license": "Proprietary",
+      "votes": 9764,
+      "rating": 1746
+     },
+     {
+      "model": "GPT-6.1 Sol (Max)",
+      "org": "openai",
       "rank": 6,
       "license": "Proprietary",
-      "votes": 8614,
-      "rating": 1746
+      "votes": 5342,
+      "rating": 1742
      },
      {
       "model": "Muse Wonder Full (Max)",
       "org": "meta",
       "rank": 7,
       "license": "Proprietary",
-      "votes": 2248,
-      "rating": 1725
+      "votes": 2280,
+      "rating": 1726
      },
      {
       "model": "Claude Sonnet 5.5 (High)",
       "org": "anthropic",
       "rank": 8,
       "license": "Proprietary",
-      "votes": 6371,
+      "votes": 7777,
       "rating": 1711
-     },
-     {
-      "model": "Kimi K3.1 Pro (Max)",
-      "org": "moonshot",
-      "rank": 9,
-      "license": "Proprietary",
-      "votes": 2671,
-      "rating": 1695
      },
      {
       "model": "Claude Opus 5 (Max)",
       "org": "anthropic",
-      "rank": 10,
+      "rank": 9,
       "license": "Proprietary",
-      "votes": 19641,
+      "votes": 20288,
       "rating": 1691
+     },
+     {
+      "model": "Kimi K3.1 Pro (Max)",
+      "org": "moonshot",
+      "rank": 10,
+      "license": "Kimi K3.1 Pro License",
+      "votes": 4595,
+      "rating": 1684
      }
     ]
    },
    "vision": {
-    "date": "2026-10-19",
+    "date": "2026-11-06",
     "top": [
      {
       "model": "Claude Fable 5 (High)",
       "org": "anthropic",
       "rank": 1,
       "license": "Proprietary",
-      "votes": 14714,
-      "rating": 1325
+      "votes": 15749,
+      "rating": 1326
      },
      {
       "model": "Claude Opus 5.5 (High)",
       "org": "anthropic",
       "rank": 2,
       "license": "Proprietary",
-      "votes": 3035,
-      "rating": 1321
-     },
-     {
-      "model": "Claude Opus 5 (High)",
-      "org": "anthropic",
-      "rank": 3,
-      "license": "Proprietary",
-      "votes": 17743,
-      "rating": 1320
+      "votes": 4826,
+      "rating": 1324
      },
      {
       "model": "Claude Fable 5.1 (Max)",
       "org": "anthropic",
-      "rank": 4,
+      "rank": 3,
       "license": "Proprietary",
-      "votes": 5026,
-      "rating": 1319
+      "votes": 6344,
+      "rating": 1321
      },
      {
       "model": "Claude Opus 4.7",
       "org": "anthropic",
-      "rank": 5,
+      "rank": 4,
       "license": "Proprietary",
-      "votes": 23139,
+      "votes": 23806,
       "rating": 1317
      },
      {
-      "model": "Claude Opus 4.6 (High)",
+      "model": "Claude Opus 5 (High)",
       "org": "anthropic",
-      "rank": 6,
+      "rank": 5,
       "license": "Proprietary",
-      "votes": 22286,
-      "rating": 1316
+      "votes": 19766,
+      "rating": 1317
      },
      {
       "model": "Gemini 3.8 Flash (High)",
       "org": "google",
-      "rank": 7,
+      "rank": 6,
       "license": "Proprietary",
-      "votes": 4645,
-      "rating": 1315
+      "votes": 7683,
+      "rating": 1316
      },
      {
-      "model": "Gemini 3.7 Flash (High)",
-      "org": "google",
-      "rank": 8,
+      "model": "Claude Opus 4.6 (High)",
+      "org": "anthropic",
+      "rank": 7,
       "license": "Proprietary",
-      "votes": 5369,
-      "rating": 1314
+      "votes": 22250,
+      "rating": 1315
      },
      {
       "model": "Claude Opus 4.7 (High)",
       "org": "anthropic",
+      "rank": 8,
+      "license": "Proprietary",
+      "votes": 22718,
+      "rating": 1313
+     },
+     {
+      "model": "Gemini 3.7 Flash (High)",
+      "org": "google",
       "rank": 9,
       "license": "Proprietary",
-      "votes": 22731,
+      "votes": 7062,
       "rating": 1313
      },
      {
@@ -19751,7 +19968,7 @@
       "org": "alibaba",
       "rank": 10,
       "license": "Proprietary",
-      "votes": 9957,
+      "votes": 9958,
       "rating": 1313
      }
     ]
@@ -19842,107 +20059,107 @@
     ]
    },
    "search": {
-    "date": "2026-10-13",
+    "date": "2026-11-06",
     "top": [
      {
-      "model": "gpt-5.6-sol-xhigh",
-      "org": "openai",
+      "model": "Qwen3.8-Max",
+      "org": "alibaba",
       "rank": 1,
       "license": "Proprietary",
-      "votes": 60437,
-      "rating": 1261
+      "votes": 1922,
+      "rating": 1260
      },
      {
-      "model": "qwen3.8-max",
-      "org": "alibaba",
+      "model": "GPT-5.6 Sol (xHigh)",
+      "org": "openai",
       "rank": 2,
       "license": "Proprietary",
-      "votes": 1870,
-      "rating": 1261
+      "votes": 65771,
+      "rating": 1259
      },
      {
-      "model": "claude-opus-4-6-search",
+      "model": "Claude Opus 4.6 (Search)",
       "org": "anthropic",
       "rank": 3,
       "license": "Proprietary",
-      "votes": 173191,
-      "rating": 1251
+      "votes": 172545,
+      "rating": 1252
      },
      {
-      "model": "gpt-5.5-search",
+      "model": "GPT-5.5 (Search)",
       "org": "openai",
       "rank": 4,
       "license": "Proprietary",
-      "votes": 125957,
+      "votes": 125866,
       "rating": 1247
      },
      {
-      "model": "claude-fable-5.1-high",
+      "model": "Claude Opus 5 (High)",
       "org": "anthropic",
       "rank": 5,
       "license": "Proprietary",
-      "votes": 12782,
-      "rating": 1246
+      "votes": 36480,
+      "rating": 1240
      },
      {
-      "model": "claude-opus-5-high",
+      "model": "Claude Fable 5.1 (High)",
       "org": "anthropic",
       "rank": 6,
       "license": "Proprietary",
-      "votes": 13285,
-      "rating": 1242
+      "votes": 36045,
+      "rating": 1239
      },
      {
-      "model": "gpt-6-astra-max",
+      "model": "GPT-6 Astra (Max)",
       "org": "openai",
       "rank": 7,
       "license": "Proprietary",
-      "votes": 18483,
-      "rating": 1234
+      "votes": 19011,
+      "rating": 1232
      },
      {
-      "model": "gpt-6.1-sol-max",
-      "org": "openai",
+      "model": "Claude Opus 4.7",
+      "org": "anthropic",
       "rank": 8,
       "license": "Proprietary",
-      "votes": 5555,
-      "rating": 1233
+      "votes": 126869,
+      "rating": 1231
      },
      {
-      "model": "claude-opus-4-7",
-      "org": "anthropic",
+      "model": "GPT-6.1 Sol (Max)",
+      "org": "openai",
       "rank": 9,
       "license": "Proprietary",
-      "votes": 127506,
-      "rating": 1230
+      "votes": 28386,
+      "rating": 1229
      },
      {
-      "model": "claude-fable-5-high",
+      "model": "Claude Fable 5 (High)",
       "org": "anthropic",
       "rank": 10,
       "license": "Proprietary",
-      "votes": 73596,
+      "votes": 73418,
       "rating": 1229
      }
     ]
    },
    "text_to_image": {
-    "date": "2026-11-04",
+    "date": "2026-11-06",
     "top": [
      {
       "model": "GPT-Image-2.5 Sunburst",
       "org": "openai",
       "rank": 1,
       "license": "Proprietary",
-      "votes": 54913,
-      "rating": 1427
+      "votes": 60081,
+      "rating": 1429
      },
      {
       "model": "GPT-Image-2.6 Sunburst (Medium)",
       "org": "openai",
       "rank": 2,
       "license": "Proprietary",
-      "votes": 2967,
+      "votes": 2972,
       "rating": 1409
      },
      {
@@ -19950,23 +20167,23 @@
       "org": "openai",
       "rank": 3,
       "license": "Proprietary",
-      "votes": 53925,
-      "rating": 1399
+      "votes": 59106,
+      "rating": 1402
      },
      {
       "model": "GPT-Image-2.6 Flare (Medium)",
       "org": "openai",
       "rank": 4,
       "license": "Proprietary",
-      "votes": 2792,
-      "rating": 1384
+      "votes": 2796,
+      "rating": 1383
      },
      {
       "model": "GPT-Image-2 (Medium)",
       "org": "openai",
       "rank": 5,
       "license": "Proprietary",
-      "votes": 106737,
+      "votes": 109042,
       "rating": 1382
      },
      {
@@ -19974,15 +20191,15 @@
       "org": "microsoft-ai",
       "rank": 6,
       "license": "Proprietary",
-      "votes": 38071,
-      "rating": 1331
+      "votes": 40495,
+      "rating": 1330
      },
      {
       "model": "Gemini Nano Banana 2.1",
       "org": "google",
       "rank": 7,
       "license": "Proprietary",
-      "votes": 5239,
+      "votes": 5242,
       "rating": 1325
      },
      {
@@ -19990,15 +20207,15 @@
       "org": "xai",
       "rank": 8,
       "license": "Proprietary",
-      "votes": 10830,
-      "rating": 1317
+      "votes": 10832,
+      "rating": 1318
      },
      {
       "model": "Reve 2.1",
       "org": "reve",
       "rank": 9,
       "license": "Proprietary",
-      "votes": 8237,
+      "votes": 8238,
       "rating": 1300
      },
      {
@@ -20006,13 +20223,13 @@
       "org": "xai",
       "rank": 10,
       "license": "Proprietary",
-      "votes": 30734,
-      "rating": 1291
+      "votes": 33919,
+      "rating": 1289
      }
     ]
    },
    "text_to_video": {
-    "date": "2026-11-05",
+    "date": "2026-11-06",
     "top": [
      {
       "model": "Gemini Omni 1.2 Flash",
@@ -20035,7 +20252,7 @@
       "org": "google",
       "rank": 3,
       "license": "Proprietary",
-      "votes": 45833,
+      "votes": 46396,
       "rating": 1509
      },
      {
@@ -20059,7 +20276,7 @@
       "org": "bytedance",
       "rank": 6,
       "license": "Proprietary",
-      "votes": 71590,
+      "votes": 72038,
       "rating": 1481
      },
      {
@@ -20067,7 +20284,7 @@
       "org": "bytedance",
       "rank": 7,
       "license": "Proprietary",
-      "votes": 24549,
+      "votes": 25044,
       "rating": 1480
      },
      {
@@ -20075,7 +20292,7 @@
       "org": "alibaba",
       "rank": 8,
       "license": "Proprietary",
-      "votes": 3082,
+      "votes": 3080,
       "rating": 1477
      },
      {
@@ -20083,8 +20300,8 @@
       "org": "skyreel",
       "rank": 9,
       "license": "Proprietary",
-      "votes": 1073,
-      "rating": 1457
+      "votes": 1074,
+      "rating": 1458
      },
      {
       "model": "Muse Video",
@@ -20097,14 +20314,14 @@
     ]
    },
    "image_edit": {
-    "date": "2026-11-04",
+    "date": "2026-11-06",
     "top": [
      {
       "model": "GPT-Image-2.5 Sunburst",
       "org": "openai",
       "rank": 1,
       "license": "Proprietary",
-      "votes": 114468,
+      "votes": 125387,
       "rating": 1517
      },
      {
@@ -20112,15 +20329,15 @@
       "org": "openai",
       "rank": 2,
       "license": "Proprietary",
-      "votes": 111635,
-      "rating": 1482
+      "votes": 122435,
+      "rating": 1483
      },
      {
       "model": "GPT-Image-2.6 Sunburst (Medium)",
       "org": "openai",
       "rank": 3,
       "license": "Proprietary",
-      "votes": 3833,
+      "votes": 3843,
       "rating": 1476
      },
      {
@@ -20128,15 +20345,15 @@
       "org": "microsoft-ai",
       "rank": 4,
       "license": "Proprietary",
-      "votes": 12728,
-      "rating": 1469
+      "votes": 19682,
+      "rating": 1467
      },
      {
       "model": "GPT-Image-2.6 Flare (Medium)",
       "org": "openai",
       "rank": 5,
       "license": "Proprietary",
-      "votes": 3850,
+      "votes": 3852,
       "rating": 1462
      },
      {
@@ -20144,7 +20361,7 @@
       "org": "openai",
       "rank": 6,
       "license": "Proprietary",
-      "votes": 359999,
+      "votes": 368928,
       "rating": 1460
      },
      {
@@ -20152,7 +20369,7 @@
       "org": "xai",
       "rank": 7,
       "license": "Proprietary",
-      "votes": 37138,
+      "votes": 37184,
       "rating": 1438
      },
      {
@@ -20160,7 +20377,7 @@
       "org": "google",
       "rank": 8,
       "license": "Proprietary",
-      "votes": 12853,
+      "votes": 12864,
       "rating": 1427
      },
      {
@@ -20168,22 +20385,22 @@
       "org": "microsoft-ai",
       "rank": 9,
       "license": "Proprietary",
-      "votes": 89003,
-      "rating": 1426
+      "votes": 89086,
+      "rating": 1427
      },
      {
       "model": "Grok Imagine Image 2.0 (20260801)",
       "org": "xai",
       "rank": 10,
       "license": "Proprietary",
-      "votes": 114884,
-      "rating": 1416
+      "votes": 127412,
+      "rating": 1417
      }
     ]
    }
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "arena-leaderboard": {
   "consecutive_errors": 0,
@@ -20547,11 +20764,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 247,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 247,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "arena-product": {
   "consecutive_errors": 0,
@@ -20915,11 +21137,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 11,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 11,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "arena-blog": {
   "consecutive_errors": 0,
@@ -21283,12 +21510,17 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 77,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 77,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
+  "last_ok": "2026-11-07T06:58:30Z",
   "baselined": true,
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "gn-sarvam": {
   "consecutive_errors": 0,
@@ -21627,11 +21859,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 29,
     "new": 4
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 27,
+    "new": 5
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "gn-india-ai": {
   "consecutive_errors": 0,
@@ -21970,14 +22207,19 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 31,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 24,
+    "new": 5
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "yt-matt-wolfe": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -22176,7 +22418,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "yt-riley-brown": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -22403,7 +22645,7 @@
   "last_run": "2026-10-18T12:19:51Z"
  },
  "yt-ai-advantage": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -22607,7 +22849,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "yt-wes-roth": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -22811,7 +23053,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "yt-sam-witteveen": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -23043,7 +23285,7 @@
   "last_run": "2026-10-18T12:19:51Z"
  },
  "yt-bycloud": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -23237,7 +23479,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "yt-ai-jason": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-17T16:38:05Z",
@@ -23772,6 +24014,11 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 27,
     "new": 15
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
@@ -26489,11 +26736,11 @@
    "last_run": "2026-11-07T03:36:22Z",
    "v": 3
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "comp-cole-medin-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-18T14:57:50Z",
@@ -26677,7 +26924,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-yannic-kilcher-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-18T14:57:50Z",
@@ -26853,10 +27100,10 @@
   "state": {},
   "last_ok": "2026-11-06T18:44:12Z",
   "last_run": "2026-11-06T18:44:12Z",
-  "last_error": "HTTPError: HTTP Error 500: Internal Server Error"
+  "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-networkchuck-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-18T14:57:50Z",
@@ -27040,7 +27287,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-nate-herk-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-18T14:57:50Z",
@@ -27214,7 +27461,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-codewithharry-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-18T14:57:50Z",
@@ -27396,7 +27643,7 @@
   "last_run": "2026-10-18T14:57:50Z"
  },
  "comp-ai-coffee-break-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-18T14:57:50Z",
@@ -27896,11 +28143,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 63,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 63,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "hf-trending-models": {
   "consecutive_errors": 0,
@@ -28224,11 +28476,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 25,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 25,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "gh-n8n": {
   "consecutive_errors": 0,
@@ -28552,13 +28809,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"4f0f97b64537f785b3f99494b99df354\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "gh-comfyui": {
   "consecutive_errors": 0,
@@ -28882,13 +29144,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 10,
     "new": 1
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"bef67019bbadd0026612bf3f80ff3b59\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "vercel-changelog": {
   "consecutive_errors": 0,
@@ -29212,11 +29479,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 2134,
     "new": 3
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 2134,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "supabase-blog": {
   "consecutive_errors": 0,
@@ -29540,13 +29812,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 447,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 447,
+    "new": 0
    }
   ],
   "state": {
-   "last_modified": "Sat, 07 Nov 2026 03:03:25 GMT"
+   "last_modified": "Sat, 07 Nov 2026 03:01:26 GMT"
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "cloudflare-blog": {
   "consecutive_errors": 0,
@@ -29870,11 +30147,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "react-blog": {
   "consecutive_errors": 0,
@@ -30198,13 +30480,16 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 24,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 0,
+    "new": 0
    }
   ],
-  "state": {
-   "last_modified": "Sat, 07 Nov 2026 01:03:21 GMT"
-  },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "state": {},
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "bytebytego-newsletter": {
   "consecutive_errors": 0,
@@ -30528,13 +30813,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"f00be-lNBkC5vIaHrCk88mUzo8tzMt+X0\""
+   "etag": "W/\"f00be-yJYWZyVzMaW6TBi1tpO3sBxPPww\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "pragmatic-engineer": {
   "consecutive_errors": 0,
@@ -30858,13 +31148,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 20,
     "new": 1
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"b42a5-+N7kXYI5+VigAx1at5N77pVQMa0\""
+   "etag": "W/\"b42a5-ymT1Gh8RRanbOEdwM/q2VXBpClQ\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "lennys-newsletter": {
   "consecutive_errors": 0,
@@ -31188,13 +31483,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"717e3-nYSfKcWUHJTbrIORjqOu5LMBpuY\""
+   "etag": "W/\"717e3-Wbt2JXdhdw7J4og2aU79S1epXUo\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "yc-blog": {
   "consecutive_errors": 0,
@@ -31518,13 +31818,18 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"a316aee45749fba02a153d77dd6ef3eb\""
+   "etag": "W/\"f2a17c875dc6e80dd72418caa8852b6c\""
   },
-  "last_ok": "2026-11-07T03:36:22Z",
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_ok": "2026-11-07T06:58:30Z",
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "pg-essays": {
   "consecutive_errors": 0,
@@ -31848,15 +32153,22 @@
     "at": "2026-11-07T03:36:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-07T06:58:30Z",
+    "found": 219,
+    "new": 0
    }
   ],
-  "state": {},
-  "last_ok": "2026-11-07T03:36:22Z",
+  "state": {
+   "last_modified": "Sat, 23 Dec 2023 12:00:01 GMT"
+  },
+  "last_ok": "2026-11-07T06:58:30Z",
   "baselined": true,
-  "last_run": "2026-11-07T03:36:22Z"
+  "last_run": "2026-11-07T06:58:30Z"
  },
  "yt-yc": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-19T07:30:32Z",
@@ -32025,7 +32337,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "yt-hussein-nasser": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-19T07:30:32Z",
@@ -32189,7 +32501,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "yt-tech-with-tim": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-19T03:41:47Z",
@@ -32368,7 +32680,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-theo-t3gg-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-19T07:30:32Z",
@@ -32539,10 +32851,10 @@
   "state": {},
   "last_ok": "2026-11-06T18:44:12Z",
   "last_run": "2026-11-06T18:44:12Z",
-  "last_error": "HTTPError: HTTP Error 500: Internal Server Error"
+  "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-bytebytego-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-19T07:30:32Z",
@@ -32711,7 +33023,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-jean-lee-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-19T07:30:32Z",
@@ -32875,7 +33187,7 @@
   "last_error": "HTTPError: HTTP Error 404: Not Found"
  },
  "comp-paul-lipsky-yt": {
-  "consecutive_errors": 1,
+  "consecutive_errors": 2,
   "history": [
    {
     "at": "2026-10-19T07:56:48Z",
