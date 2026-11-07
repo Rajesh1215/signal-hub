@@ -995,5 +995,493 @@
   "label": "SKIP",
   "reason": "off_topic",
   "analyzed_at": "2026-11-07T03:50:02Z"
+ },
+ "f866f6714536f6cf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "2810f36357f9c15a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "41d7eeeaa18c556a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "819e66809d0da4f2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "eb80d0dab4b7df21": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "6d2e5c34e21a6ccb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "c4e6c7d6b7b43291": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "8002a56f85c2227e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "0c2005701eedb96a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "f8e59695c1f18b8b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "ca0beadba344f0c1": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Alibaba's Qwen3.8-Max captures the #1 spot on LMSYS Arena Search leaderboard with Elo 1260, edging out OpenAI's GPT-5.6 Sol and Anthropic's Claude Opus 4.6. Hook: 'A new model just dethroned OpenAI and Claude on the Arena Search leaderboard: meet Qwen3.8-Max.'",
+  "notes": "- Qwen3.8-Max takes #1 rank on LMSYS Arena Search leaderboard with Elo 1260 across 1,922 blind community votes\n- Edges out OpenAI's GPT-5.6 Sol (Elo 1259) and Anthropic's Claude Opus 4.6 (Elo 1252)\n- Excels at complex multi-source factual synthesis, real-time web verification, and citation precision\n- Confirms Alibaba's Qwen lab is now competing at the very top of frontier inference rankings",
+  "actions": [
+   "Created video idea 2026-11-07-qwen-arena-search-champion"
+  ],
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "dd8e800eacfd5409": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "79328b66e3e2db2d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "43c2b6f75b4ecad1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "8384546017d22449": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "7eaee72fb55c2cfd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "eb4e11801278c44a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "1906f3f751d26008": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "3cda41646ee08072": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "19906305538c1da6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "18b04d4e1b010ca7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "8c57e8330401d550": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "bc389488d79d0917": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "b6503b13b1365fd2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "e6c0a67b4db179fc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "124493da22b09790": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "7f8bc325a60657cf": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "cbbddd0a91ce2f8c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "b4617b8781f79891": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "3b8d80ebb5562900": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "e87932814326781e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "82afa29a7870be8b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "27b97dc40105b22e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "ec1e14f73eb26b31": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "6b8c3af6ff1b796d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "a9e2e05b4ac08be0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "c1212f0b0c15e07d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "08c961465532359a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "87ab5bf23a063557": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "4256c8bbf2447d84": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "07c0e2434d970e4d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "867e0884fc64fe5f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "cb6fe7090a80a547": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "2d7a11b5e1249e6b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "d1e19637f0b521a4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "486bb037108e266c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "f922497666924ac0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "f26a04541ac73b7d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "e59b0f5b842729eb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "977c5b0586272cfe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "75104e8363ce1518": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "c806bbe69cb8be0b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "b210f20bdbaca33c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "de3cb1831d529fe7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "1b92d670ff8ce409": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "fadefbc1958295fd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "483cc2949513d6a2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "577a9ac30206f78e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "1050ee8fd32f78c7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "fe44acc4804a1d12": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "26ad1e0d3f2d3f89": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "658afa59687852ef": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "9ed1197b7eb03dba": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Buoyant releases Kinference, an open-source Kubernetes inference control plane for vLLM clusters adding declarative traffic routing and GPU autoscaling.",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "7d262dc5954b909b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "f97a2067755153b4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "beb7bf0116ecd8c2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "70e2827692ff7c6a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "c74bd9ef1ae304fd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "cf4f288c735a0adf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "d44708930f662f8e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "1311cbbb6e02b12d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "06a974c5aa29f898": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "8b5ffc2aa45fdc52": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Meta open-sources Astryx, an agent-ready design system providing structured component metadata designed for programmatic LLM UI synthesis.",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "492676dffe72e4d6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "2f2d13b0571a4d8b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "05bb6f94a27c4cba": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "0041929075dc988d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "b17c15ce7b8bfce1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "0cc5a25f355466c2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Open-source context compression plugin Billion-Context allows long-running agent sessions to compress and index billions of tokens within 100K active windows.",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "772ad770befdccfe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "660398ad27bc066c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "7ea800515592d3c8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Tech With Tim evaluates OpenHands (formerly OpenDevin), demonstrating how to integrate the open-source coding agent into GitHub issue backlogs.",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "6aa36b1cf733a7c2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Altimeter partner Jamin Ball analyzes Anthropic's financial profile, computing gross margin dynamics against Amazon and Google cloud revenue commitments.",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "1f43583c93fa7fa4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Reducto CEO Adit Abraham joins Latent Space to unpack complex PDF parsing challenges: non-standard font encodings, multi-column tables, and visual grounding.",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "2f2630c8295f01af": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "c9820cbb0483d3ef": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "AI Advantage walkthrough covers practical developer applications for OpenAI's Images 2.6, focusing on SVG generation and rapid GIF rendering.",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "2f201c4e12d4d086": {
+  "label": "SKIP",
+  "reason": "competitor_move",
+  "analyzed_at": "2026-11-07T12:46:26Z"
+ },
+ "4a1cb3d01691f13f": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo breaks down Anthropic's internal engineering architecture for autonomous agentic code review and automated pull request generation.",
+  "notes": "- Analyzes Anthropic's recursive multi-pass code critique pipelines\n- Evaluates how AI agents parse AST diffs and run test suites before suggesting fixes\n- Strong benchmark for automated DevOps and PR agent workflows",
+  "analyzed_at": "2026-11-07T12:46:26Z"
  }
 }

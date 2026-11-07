@@ -1,6 +1,26 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-07T12:47:10Z",
+  "history": [],
+  "id": "2026-11-07-qwen-arena-search-champion",
+  "title": "Qwen3.8-Max Dethrones OpenAI and Claude on Arena Search",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "Alibaba's Qwen3.8-Max just captured #1 on the LMSYS Arena Search leaderboard with Elo 1260, outscoring GPT-5.6 Sol and Claude Opus 4.6.",
+  "outline": [
+   "The Arena Search benchmark shift: moving from trivia retrieval to multi-step agentic web browsing and query synthesis",
+   "Qwen3.8-Max architecture: scale, reasoning tokens, and native search tool invocation",
+   "Elo comparison: 1260 vs OpenAI GPT-5.6 Sol (1248) and Claude Opus 4.6 (1242) across hallucination avoidance and source grounding",
+   "Local and cloud availability: API pricing, context length, and what this means for open-weights developer workflows"
+  ],
+  "items": [
+   "ca0beadba344f0c1"
+  ],
+  "updated_at": "2026-11-07T12:47:10Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-07T03:50:50Z",
   "history": [],
   "id": "2026-11-07-cursor-realtime-voice-agents",
