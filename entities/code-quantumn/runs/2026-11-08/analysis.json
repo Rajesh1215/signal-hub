@@ -1,0 +1,239 @@
+{
+ "7207b2e4e73f2bea": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "11a9bf847d297b9b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "b80e28470bd569ea": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "02e0cdd53b70d8ff": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "c330659e6d887686": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "2e13aff1173215b7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "e1c054fc5691c6b9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "433c06534ce8c663": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "14b5fc626a4d9e88": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "2f53b1df57f4f355": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "56c1200d96b78aa9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "c043335be378f659": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "176933acc77615b2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "dad8f165757a5552": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "c8e533f433811999": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "f8c6cab718ec1b01": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "f1e45e07dbc0bab5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "6d9cd191d1c510cb": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "0b53eec183a64af1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "0ab9bd201c8c2b74": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "a530df990ee5bfe4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "5d714f87b1c42f38": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "4efd2b78d0d2e1fc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "16c2521ea79c2de5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "afc1918d5b1d4023": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "d96a37ce71aa280f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "5fba5ebc88a1fc1d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "22f0e9c1d93edef6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "423ad651af38354d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "4b0c4944e415db76": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "49135c076952bb56": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "b62fdf50338ec4e4": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Sarvam AI launches Prism, a specialized 44-millisecond sub-decision model on Sarvam 105B designed for lightning-fast agent tool calling and routing.",
+  "notes": "- Tailored for enterprise agent workflows where latency bottlenecks tool invocation\n- Achieves 44ms decision latency on Sarvam 105B base architecture\n- Optimized for Indic enterprise software stacks",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "78ad7bf8fcdcf8c9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "b0be019b25bc44e7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "808645f46d3c44aa": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Comprehensive step-by-step developer tutorial on compiling and running NVIDIA Dory 4B locally using quantized llama.cpp loops.",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "c933559162b6372e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "ded70eb0edea04b5": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Apiiro finds Claude Code's 'Don't Ask Again' terminal approvals stored raw credentials in local settings, leaking secrets to 1,122 public repos. Hook: 'If you clicked \"Don't Ask Again\" in Claude Code, check your GitHub: over 1,100 repos just leaked active passwords.'",
+  "notes": "- Apiiro security researchers discovered thousands of credentials leaked across 1,122 public GitHub repositories\n- Selecting 'Yes, and don't ask again' on terminal command approvals saves the exact raw command into .claude/settings.local.json\n- If commands contained inline database passwords, API tokens, or SSH keys, they were saved in plain text\n- Claude Code's attempt to use global git exclude failed to prevent project-level commits in newly initialized or cloned repos\n- Standard secret scanners missed many tokens embedded in command strings; deleting the file leaves secrets in git history\n- Mitigation: Rotate all terminal-used keys immediately, purge git history with git-filter-repo, add .claude/ to .gitignore",
+  "actions": [
+   "Created video idea 2026-11-08-claude-code-secret-leak-warning"
+  ],
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "efa4006fd6c0fce9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "179419c93a5640d2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "1c4cdc12d328a39c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "3fb80ca84e022d95": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "ec45160f1c8951db": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ },
+ "c42c5680ed2ec9e8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-08T04:02:30Z"
+ }
+}
