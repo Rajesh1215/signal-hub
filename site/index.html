@@ -241,6 +241,47 @@ main { padding:16px 16px calc(92px + env(safe-area-inset-bottom)); max-width:108
 .idea .title { cursor:default; }
 .hint { font-size:12px; color:var(--muted); margin-top:10px; }
 .hint code { background:var(--surface-2); padding:1px 6px; border-radius:5px; }
+
+/* Notes & To-Dos */
+.notes-header-bar { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px; margin:0 0 16px; padding:12px 16px; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }
+.notes-hint { font-size:13.5px; color:var(--muted); flex:1; min-width:240px; }
+.notes-hint b { color:var(--ink); }
+.notes-actions { display:flex; gap:8px; align-items:center; }
+.notes-toast { margin:0 0 16px; padding:10px 16px; background:var(--ok); color:#fff; font-weight:600; font-size:13.5px; border-radius:8px; }
+.notes-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(310px, 1fr)); gap:16px; }
+.note-card { background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow); display:flex; flex-direction:column; }
+.note-card.full-width { grid-column:1 / -1; }
+.note-card-head { margin-bottom:12px; }
+.note-card-head h3 { margin:0 0 4px; font-size:16px; font-weight:700; color:var(--ink); }
+.note-card-head .subtle { font-size:12.5px; color:var(--muted); }
+.todo-add-box { display:flex; gap:8px; margin-bottom:12px; }
+.todo-add-box input { flex:1; padding:8px 12px; border:1px solid var(--line); border-radius:8px; background:var(--surface-2); color:var(--ink); font-size:13.5px; }
+.todo-add-box input:focus { outline:none; border-color:var(--accent); }
+.todo-list { display:flex; flex-direction:column; gap:6px; min-height:40px; }
+.todo-item { display:flex; align-items:center; justify-content:space-between; padding:8px 10px; background:var(--surface-2); border-radius:8px; }
+.todo-item.done { opacity:.55; text-decoration:line-through; }
+.todo-label { display:flex; align-items:center; gap:10px; flex:1; cursor:pointer; font-size:13.5px; word-break:break-word; }
+.todo-cb { width:17px; height:17px; cursor:pointer; accent-color:var(--accent); }
+.todo-del { opacity:.4; transition:opacity .15s; cursor:pointer; }
+.todo-del:hover { opacity:1; color:var(--make); }
+.todo-done-sec { margin-top:14px; border-top:1px dashed var(--line); padding-top:10px; }
+.todo-done-title { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin-bottom:8px; }
+.note-textarea { width:100%; border:1px solid var(--line); border-radius:8px; padding:10px 12px; background:var(--surface-2); color:var(--ink); font:inherit; font-size:13.5px; resize:vertical; min-height:120px; box-sizing:border-box; }
+.note-textarea:focus { outline:none; border-color:var(--accent); }
+.note-save-status { font-size:11.5px; color:var(--muted); margin-top:6px; text-align:right; }
+.empty-subtle { font-size:13px; color:var(--muted); padding:16px 8px; text-align:center; font-style:italic; }
+.my-item-note-box { margin-top:16px; padding:14px; background:var(--surface-2); border:1px solid var(--line); border-radius:10px; }
+.my-item-note-box h4 { margin:0 0 8px; font-size:14px; font-weight:700; color:var(--ink); }
+.my-item-note-box textarea { width:100%; border:1px solid var(--line); border-radius:6px; padding:8px 10px; background:var(--surface); color:var(--ink); font:inherit; font-size:13px; resize:vertical; min-height:60px; box-sizing:border-box; }
+.item-notes-list { display:flex; flex-direction:column; gap:10px; margin-top:8px; }
+.item-note-row { display:flex; flex-direction:column; gap:4px; padding:10px 12px; background:var(--surface-2); border-radius:8px; position:relative; }
+.item-note-title { font-size:13.5px; display:flex; align-items:center; gap:8px; padding-right:24px; }
+.item-note-title a { color:var(--ink); text-decoration:none; }
+.item-note-title a:hover { color:var(--know); text-decoration:underline; }
+.item-note-body { font-size:13px; color:var(--ink-2); white-space:pre-wrap; }
+.item-note-del { position:absolute; top:8px; right:8px; opacity:.4; cursor:pointer; }
+.item-note-del:hover { opacity:1; color:var(--make); }
+
 </style>
 </head>
 <body>
@@ -262,6 +303,7 @@ const ICON = {
   manual: '<path d="M10 6h10M10 12h10M10 18h10"/><path d="m3.5 6 1.6 1.6L8 4.8M3.5 12l1.6 1.6L8 10.8M3.5 18l1.6 1.6L8 16.8"/>',
   sources: '<path d="M3 12h4l3-7 4 14 3-7h4"/>',
   ideas: '<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.4 1 1.1 1 1.8V16h5v-.3c0-.7.4-1.4 1-1.8A6 6 0 0 0 12 3z"/>',
+  notes: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/>',
   moon: '<path d="M20.5 13.2A8.5 8.5 0 1 1 10.8 3.5a6.6 6.6 0 0 0 9.7 9.7z"/>',
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/>',
   search: '<circle cx="11" cy="11" r="6.5"/><path d="m20 20-4-4"/>',
@@ -283,12 +325,12 @@ const LABELS = {
 };
 const RANK = ['MAKE','TEST','IMPORTANT','WATCH','RELEASE','FEATURE','DECISION','CONTENT','PRACTICE','STUDY','KNOW','PENDING','SKIP','STALE'];
 const TIMING = { NOW: ['Post now', 'now', 0], SOON: ['This week', 'soon', 1], ANYTIME: ['Anytime', '', 2] };
-const VIEWS = [['overview','Overview'], ['ideas','Video ideas'], ['feed','Feed'], ['competitors','Competitors'], ['manual','Check manually'], ['sources','Sources']];
-const SHORT = { overview:'Home', ideas:'Ideas', feed:'Feed', competitors:'Rivals', manual:'Manual', sources:'Sources' };
+const VIEWS = [['overview','Overview'], ['ideas','Video ideas'], ['feed','Feed'], ['notes','Notes & Tasks'], ['competitors','Competitors'], ['manual','Check manually'], ['sources','Sources']];
+const SHORT = { overview:'Home', ideas:'Ideas', feed:'Feed', notes:'Notes', competitors:'Rivals', manual:'Manual', sources:'Sources' };
 const DATES = [['today','Today'], ['yesterday','Yesterday'], ['week','Week'], ['month','Month'], ['custom','Custom']];
 
 const S = { entity:null, view:'overview', date:'week', from:'', to:'', label:'ALL', q:'', sort:'latest', comp:'ALL', istatus:'OPEN', itype:'ALL' };
-let META = null; const DATA = {}; const IDEAS = {};
+let META = null; const DATA = {}; const IDEAS = {}; const NOTES = {};
 
 // ---------- helpers ----------
 const esc = s => (s ?? '').toString().replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -540,6 +582,258 @@ function viewIdeas() {
     + `<div class="filters"><div class="scroll">${schips}</div><div class="scroll">${tchips}</div></div>`
     + (shown.length ? `<div class="cards" style="margin-top:12px">${shown.map(ideaCard).join('')}</div>` : `<div class="empty" style="margin-top:12px">No ideas for this filter.</div>`);
 }
+
+function saveItemNoteFromModal(entity, itemId, text) {
+  if (!NOTES[entity]) NOTES[entity] = { notes: '', decisions: [], todos: [], item_notes: {} };
+  if (!NOTES[entity].item_notes) NOTES[entity].item_notes = {};
+  if (text.trim()) {
+    NOTES[entity].item_notes[itemId] = text.trim();
+  } else {
+    delete NOTES[entity].item_notes[itemId];
+  }
+  NOTES[entity].updated_at = new Date().toISOString();
+  store('sh-notes-' + entity, JSON.stringify(NOTES[entity]));
+  const st = document.getElementById('modal-item-note-status');
+  if (st) { st.textContent = '✓ Saved'; setTimeout(() => { if (st) st.textContent = 'Auto-saved'; }, 1500); }
+}
+
+function saveDecisionsText(entity, text) {
+  if (!NOTES[entity]) NOTES[entity] = { notes: '', decisions: [], todos: [], item_notes: {} };
+  const lines = text.split('\n').map(l => l.replace(/^[•\-\*]\s*/, '').trim()).filter(Boolean);
+  NOTES[entity].decisions = lines.map(line => ({
+    id: 'd-' + Math.random().toString(36).substr(2, 6),
+    text: line,
+    date: new Date().toISOString().slice(0, 10)
+  }));
+  NOTES[entity].updated_at = new Date().toISOString();
+  store('sh-notes-' + entity, JSON.stringify(NOTES[entity]));
+  const st = document.getElementById('decisions-status');
+  if (st) { st.textContent = '✓ Saved (' + lines.length + ' decisions)'; setTimeout(() => { if (st) st.textContent = 'Auto-saved'; }, 1500); }
+}
+
+function saveGeneralNotesText(entity, text) {
+  if (!NOTES[entity]) NOTES[entity] = { notes: '', decisions: [], todos: [], item_notes: {} };
+  NOTES[entity].notes = text;
+  NOTES[entity].updated_at = new Date().toISOString();
+  store('sh-notes-' + entity, JSON.stringify(NOTES[entity]));
+  const st = document.getElementById('general-notes-status');
+  if (st) { st.textContent = '✓ Saved'; setTimeout(() => { if (st) st.textContent = 'Auto-saved'; }, 1500); }
+}
+
+function addTodo(entity) {
+  const inp = document.getElementById('new-todo-input');
+  if (!inp || !inp.value.trim()) return;
+  const text = inp.value.trim();
+  if (!NOTES[entity]) NOTES[entity] = { notes: '', decisions: [], todos: [], item_notes: {} };
+  if (!NOTES[entity].todos) NOTES[entity].todos = [];
+  NOTES[entity].todos.unshift({
+    id: 't-' + Math.random().toString(36).substr(2, 6),
+    text: text,
+    done: false,
+    date: new Date().toISOString().slice(0, 10)
+  });
+  NOTES[entity].updated_at = new Date().toISOString();
+  store('sh-notes-' + entity, JSON.stringify(NOTES[entity]));
+  inp.value = '';
+  render();
+}
+
+function toggleTodo(entity, todoId) {
+  if (!NOTES[entity] || !NOTES[entity].todos) return;
+  const t = NOTES[entity].todos.find(x => x.id === todoId);
+  if (t) {
+    t.done = !t.done;
+    NOTES[entity].updated_at = new Date().toISOString();
+    store('sh-notes-' + entity, JSON.stringify(NOTES[entity]));
+    render();
+  }
+}
+
+function deleteTodo(entity, todoId) {
+  if (!NOTES[entity] || !NOTES[entity].todos) return;
+  NOTES[entity].todos = NOTES[entity].todos.filter(x => x.id !== todoId);
+  NOTES[entity].updated_at = new Date().toISOString();
+  store('sh-notes-' + entity, JSON.stringify(NOTES[entity]));
+  render();
+}
+
+function deleteItemNote(entity, itemId) {
+  if (!NOTES[entity] || !NOTES[entity].item_notes) return;
+  delete NOTES[entity].item_notes[itemId];
+  NOTES[entity].updated_at = new Date().toISOString();
+  store('sh-notes-' + entity, JSON.stringify(NOTES[entity]));
+  render();
+}
+
+function showNotesToast(msg) {
+  const t = document.getElementById('notes-toast');
+  if (!t) return;
+  t.textContent = msg;
+  t.style.display = 'block';
+  setTimeout(() => { if (t) t.style.display = 'none'; }, 4000);
+}
+
+function copyNotesForAgent(entity) {
+  const e = ent();
+  const n = NOTES[entity] || { notes: '', decisions: [], todos: [], item_notes: {} };
+  const lines = [`[Signal Hub: Notes & Tasks for ${e.name} (${entity})]`];
+  if ((n.decisions || []).length) {
+    lines.push('\nDecisions & Rules:');
+    n.decisions.forEach(d => lines.push(`• ${typeof d === 'string' ? d : d.text}`));
+  }
+  const openTodos = (n.todos || []).filter(t => !t.done);
+  if (openTodos.length) {
+    lines.push('\nOpen To-Dos:');
+    openTodos.forEach(t => lines.push(`[ ] ${t.text}`));
+  }
+  if ((n.notes || '').trim()) {
+    lines.push('\nChannel Notes:');
+    lines.push(n.notes.trim());
+  }
+  const itemEntries = Object.entries(n.item_notes || {});
+  if (itemEntries.length) {
+    lines.push('\nItem Notes:');
+    itemEntries.forEach(([k, v]) => {
+      const it = (DATA[entity] || []).find(x => x.id === k);
+      lines.push(`• ${it ? it.title : k}: ${v}`);
+    });
+  }
+  const out = lines.join('\n');
+  navigator.clipboard.writeText(out).then(() => {
+    showNotesToast('✓ Copied notes to clipboard! Paste into chat with Antigravity to sync with the agent.');
+  }).catch(() => {
+    alert('Notes:\n\n' + out);
+  });
+}
+
+function exportNotesJson(entity) {
+  const n = NOTES[entity] || { notes: '', decisions: [], todos: [], item_notes: {} };
+  const blob = new Blob([JSON.stringify(n, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `${entity}-notes.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+async function syncNotesFromRepo(entity) {
+  const remote = await fetch(`data/${entity}-notes.json?t=${Date.now()}`).then(r => r.json()).catch(() => null);
+  if (remote) {
+    NOTES[entity] = remote;
+    store('sh-notes-' + entity, JSON.stringify(remote));
+    showNotesToast('✓ Pulled latest notes from repository!');
+    render();
+  } else {
+    showNotesToast('No notes found in repository yet.');
+  }
+}
+
+function viewNotes() {
+  const e = ent(), id = S.entity;
+  const n = NOTES[id] || { notes: '', decisions: [], todos: [], item_notes: {} };
+  const openTodos = (n.todos || []).filter(t => !t.done);
+  const doneTodos = (n.todos || []).filter(t => t.done);
+  const itemNoteKeys = Object.keys(n.item_notes || {});
+  const itemObjects = itemNoteKeys.map(k => {
+    const item = (DATA[id] || []).find(x => x.id === k);
+    return { id: k, note: n.item_notes[k], item: item };
+  });
+
+  return pageHead('Notes & Tasks', esc(e.name)) + `
+    <div class="notes-header-bar">
+      <div class="notes-hint">Decisions, notes, and tasks for <b>${esc(e.name)}</b>. These guide the AI agent during analysis to match your content priorities.</div>
+      <div class="notes-actions">
+        <button class="btn primary" onclick="copyNotesForAgent('${esc(id)}')">📋 Copy for Agent</button>
+        <button class="btn" onclick="exportNotesJson('${esc(id)}')">⬇️ Export JSON</button>
+        <button class="btn" onclick="syncNotesFromRepo('${esc(id)}')">🔄 Pull from Repo</button>
+      </div>
+    </div>
+    <div id="notes-toast" class="notes-toast" style="display:none"></div>
+
+    <div class="notes-grid">
+      <!-- To-Do Tasks Column -->
+      <div class="note-card">
+        <div class="note-card-head">
+          <h3>✅ Channel To-Dos (${openTodos.length} open)</h3>
+          <span class="subtle">Tasks, video prep & checklist</span>
+        </div>
+        <div class="todo-add-box">
+          <input type="text" id="new-todo-input" placeholder="Add a new task (press Enter)..." onkeydown="if(event.key==='Enter')addTodo('${esc(id)}')">
+          <button class="btn primary" onclick="addTodo('${esc(id)}')">+ Add</button>
+        </div>
+        <div class="todo-list" id="todo-list">
+          ${openTodos.length ? openTodos.map(t => `
+            <div class="todo-item" id="todo-${esc(t.id)}">
+              <label class="todo-label">
+                <input type="checkbox" class="todo-cb" onchange="toggleTodo('${esc(id)}', '${esc(t.id)}')">
+                <span class="todo-text">${esc(t.text)}</span>
+              </label>
+              <button class="iconbtn todo-del" onclick="deleteTodo('${esc(id)}', '${esc(t.id)}')" title="Delete">✕</button>
+            </div>
+          `).join('') : '<div class="empty-subtle">No open tasks. Type a task above to add one!</div>'}
+        </div>
+        ${doneTodos.length ? `
+          <div class="todo-done-sec">
+            <div class="todo-done-title">Completed (${doneTodos.length})</div>
+            ${doneTodos.map(t => `
+              <div class="todo-item done">
+                <label class="todo-label">
+                  <input type="checkbox" class="todo-cb" checked onchange="toggleTodo('${esc(id)}', '${esc(t.id)}')">
+                  <span class="todo-text">${esc(t.text)}</span>
+                </label>
+                <button class="iconbtn todo-del" onclick="deleteTodo('${esc(id)}', '${esc(t.id)}')" title="Delete">✕</button>
+              </div>
+            `).join('')}
+          </div>
+        ` : ''}
+      </div>
+
+      <!-- Strategic Decisions & Channel Rules -->
+      <div class="note-card">
+        <div class="note-card-head">
+          <h3>⚖️ Decisions & Channel Rules</h3>
+          <span class="subtle">One per line. Informs the AI agent what to prioritize or avoid.</span>
+        </div>
+        <textarea class="note-textarea" id="decisions-input" rows="8" placeholder="E.g.&#10;• Focus on open-weights coding agents and local models&#10;• Avoid pure crypto hype news unless institutional&#10;• Prioritize actionable dev tutorials" oninput="saveDecisionsText('${esc(id)}', this.value)">${esc((n.decisions || []).map(d => typeof d === 'string' ? d : d.text).join('\n'))}</textarea>
+        <div class="note-save-status" id="decisions-status">Auto-saved</div>
+      </div>
+
+      <!-- Strategic Notes & Scratchpad -->
+      <div class="note-card">
+        <div class="note-card-head">
+          <h3>📝 Strategic Notes & Scratchpad</h3>
+          <span class="subtle">Thoughts, script hooks, series ideas, reminders</span>
+        </div>
+        <textarea class="note-textarea" id="general-notes-input" rows="8" placeholder="Type any thoughts, script snippets, series ideas, or reminders for this channel..." oninput="saveGeneralNotesText('${esc(id)}', this.value)">${esc(n.notes || '')}</textarea>
+        <div class="note-save-status" id="general-notes-status">Auto-saved</div>
+      </div>
+    </div>
+
+    <!-- Item Notes Section -->
+    ${itemObjects.length ? `
+      <div class="note-card full-width" style="margin-top:20px;">
+        <div class="note-card-head">
+          <h3>📌 Notes on Specific Stories (${itemObjects.length})</h3>
+          <span class="subtle">Notes you added to individual news cards</span>
+        </div>
+        <div class="item-notes-list">
+          ${itemObjects.map(io => `
+            <div class="item-note-row">
+              <div class="item-note-title">
+                ${io.item ? `<a href="#" onclick="openDetail('${esc(io.id)}');return false;"><b>${esc(io.item.title)}</b></a>` : `<b>Item ${esc(io.id)}</b>`}
+                ${io.item && io.item.label ? `<span class="tag">${esc(io.item.label)}</span>` : ''}
+              </div>
+              <div class="item-note-body">${esc(io.note)}</div>
+              <button class="iconbtn item-note-del" onclick="deleteItemNote('${esc(id)}', '${esc(io.id)}')" title="Remove note">✕</button>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    ` : ''}
+  `;
+}
+
 function notesHtml(t) {
   const lines = (t || '').split('\n');
   let out = '', list = [];
@@ -573,6 +867,11 @@ function openDetail(id) {
     ${it.summary ? `<h4>Summary</h4><p>${esc(it.summary)}</p>` : ''}
     ${it.follows || it.background ? `<h4>Back-story</h4><p>${prev ? 'Follow-up of: ' + esc(prev.title) + '\n' : ''}${esc(it.background || '')}</p>` : ''}
     ${it.notes ? `<h4>Observations</h4>${notesHtml(it.notes)}` : ''}
+    <div class="my-item-note-box">
+      <h4>📌 My Note & Decision on this story</h4>
+      <textarea id="modal-item-note" placeholder="Type your personal note, decision, or to-do for this story (auto-saves)..." oninput="saveItemNoteFromModal('${esc(S.entity)}', '${esc(it.id)}', this.value)">${esc((NOTES[S.entity] && NOTES[S.entity].item_notes && NOTES[S.entity].item_notes[it.id]) || '')}</textarea>
+      <div id="modal-item-note-status" class="note-save-status">Auto-saved</div>
+    </div>
     ${(it.actions || []).length ? `<h4>What the AI did</h4><ul class="acts">${it.actions.map(a => `<li>${esc(a)}</li>`).join('')}</ul>` : ''}
     ${!it.summary && !it.notes && it.snippet ? `<h4>From the source</h4><p>${esc(it.snippet)}</p>` : ''}
     ${flags ? `<h4>Tags</h4><div class="flags">${flags}</div>` : ''}
@@ -582,7 +881,7 @@ function openDetail(id) {
   document.body.appendChild(m);
   document.body.style.overflow = 'hidden';
 }
-function closeDetail() { document.querySelectorAll('.modal').forEach(x => x.remove()); document.body.style.overflow = ''; }
+function closeDetail() { document.querySelectorAll('.modal').forEach(x => x.remove()); document.body.style.overflow = ''; if (S.view === 'notes') render(); }
 document.addEventListener('keydown', ev => { if (ev.key === 'Escape') closeDetail(); });
 function filterBar(base, labelList) {
   const counts = {};
@@ -697,11 +996,24 @@ function viewSources() {
 async function ensure(id) {
   if (!DATA[id]) DATA[id] = await fetch(`data/${id}.json?t=${Date.now()}`).then(r => r.json()).catch(() => []);
   if (!IDEAS[id]) IDEAS[id] = await fetch(`data/${id}-ideas.json?t=${Date.now()}`).then(r => r.json()).catch(() => []);
+  if (!NOTES[id]) {
+    const remote = await fetch(`data/${id}-notes.json?t=${Date.now()}`).then(r => r.json()).catch(() => null);
+    let local = null;
+    try { local = JSON.parse(load('sh-notes-' + id)); } catch (e) {}
+    if (local && (!remote || (local.updated_at || '') >= (remote.updated_at || ''))) {
+      NOTES[id] = local;
+    } else if (remote) {
+      NOTES[id] = remote;
+      store('sh-notes-' + id, JSON.stringify(remote));
+    } else {
+      NOTES[id] = { notes: '', decisions: [], todos: [], item_notes: {} };
+    }
+  }
 }
 async function render() {
   await ensure(S.entity);
   renderChrome();
-  const v = { overview:viewOverview, ideas:viewIdeas, feed:viewFeed, competitors:viewCompetitors, manual:viewManual, sources:viewSources }[S.view] || viewOverview;
+  const v = { overview:viewOverview, ideas:viewIdeas, feed:viewFeed, notes:viewNotes, competitors:viewCompetitors, manual:viewManual, sources:viewSources }[S.view] || viewOverview;
   document.getElementById('main').innerHTML = v();
   renderList();
   const q = document.getElementById('q');

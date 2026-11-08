@@ -28,6 +28,7 @@ Use `python3` for every command, run from the repo root. The engine uses only th
 | "fix sources", "check sources" | **D. Fix broken sources** |
 | "weekly review" | **E. Weekly review** (missed-news check, source scores, new sources; asks before changing) |
 | "did we catch <story or link>?" | `python3 engine/coverage.py "<words or url>"` |
+| "note for <niche> ...", "todo for <niche> ...", "decision for <niche> ...", "show notes" | Use `python3 engine/notes.py <niche>` with `--note`, `--todo`, `--decision`, `--done` or `--item <id> "..."`, then commit and push. Channel decisions and tasks guide your daily analysis and appear live on the web dashboard. |
 | "collect now" | `python3 engine/refresh.py --max-age 0` (fresh collection on GitHub, about 3–4 min), then A |
 | "new niche <name>" | **F. New entity** |
 | Anything else about the data | Answer from the files in `entities/*/runs/` |
@@ -59,7 +60,7 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
 
    Full records are in `work/pending-<niche>.json` if you need more detail.
 5. **For each niche with pending items:**
-   1. Read `entities/<niche>/brief.md`. It is your system prompt for that niche: audience, labels, importance scale, categories, examples. Follow it exactly.
+   1. Read `entities/<niche>/brief.md` and active user decisions & open to-dos (printed by `pending.py` from `user_notes.json`). They define your audience, content rules, and specific topics the user wants to prioritize or avoid. Follow them closely.
    2. **Quick pass.** Judge **every** pending item yourself from its title, snippet, source and stats, and write the payloads to `work/payloads-<niche>.json` (format below). For more than about 80 items, work in chunks (`payloads-<niche>-1.json`, `-2.json`…) and save each chunk.
       - **Write each payload by hand, one item at a time.** Don't generate payloads with a script of keyword rules, and never use a default label for items you didn't look at. Every item, including every SKIP, gets its own decision and its own reason.
    3. **Deep-read the shortlist.** For every `MAKE`, `TEST` and importance 4–5 item, open the link and read the full page (article, release notes, paper abstract; for YouTube see the next step) before you finalise it:

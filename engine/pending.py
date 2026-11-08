@@ -86,6 +86,19 @@ def main(argv):
             print(f"--- {edir.name}: existing video ideas (update or follow up instead of repeating)")
             for i in ideas:
                 print(f"  {i['id']:<42} {i['status']:<8} {i['type']:<9} {i['title'][:90]}")
+        user_notes = read_json(edir / "user_notes.json", {})
+        decisions = [d["text"] for d in user_notes.get("decisions", []) if d.get("text")]
+        open_todos = [t["text"] for t in user_notes.get("todos", []) if t.get("text") and not t.get("done")]
+        channel_notes = (user_notes.get("notes") or "").strip()
+        if decisions or open_todos or channel_notes:
+            print(f"--- {edir.name}: user decisions & tasks (guide for analysis and ideas)")
+            if decisions:
+                print("  Decisions: " + " | ".join(decisions))
+            if open_todos:
+                print("  Open To-Dos: " + " | ".join(open_todos))
+            if channel_notes:
+                first_line = channel_notes.splitlines()[0]
+                print(f"  Notes: {first_line[:120]}")
         recent = recent_labelled(edir, 3)
         if recent and pending:
             print(f"--- {edir.name}: already labelled in the last 3 days (check duplicates against these)")

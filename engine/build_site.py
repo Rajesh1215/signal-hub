@@ -67,6 +67,9 @@ def build_entity(edir):
     out.sort(key=lambda x: x.get("when") or "", reverse=True)
     write_json(DOCS / "data" / f"{edir.name}.json", out)
     write_json(DOCS / "data" / f"{edir.name}-ideas.json", read_json(edir / "ideas.json", []))
+    write_json(DOCS / "data" / f"{edir.name}-notes.json", read_json(edir / "user_notes.json", {
+        "notes": "", "decisions": [], "todos": [], "item_notes": {}
+    }))
 
     sources = read_json(edir / "sources.json", {"sources": []})
     health = read_health(edir)
