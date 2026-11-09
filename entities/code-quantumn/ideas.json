@@ -1,6 +1,26 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-09T03:05:16Z",
+  "history": [],
+  "id": "2026-11-09-run-deepseek-284b-without-gpu",
+  "title": "How to Run DeepSeek's 284B MoE on a 64GB Laptop with Zero GPUs",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "Open-source llama-modchip exploits MoE sparsity and on-demand RAM paging to run DeepSeek 284B entirely on consumer CPUs.",
+  "outline": [
+   "The GPU VRAM wall: why running a 284B model normally demands 8x H100 GPU clusters worth tens of thousands of dollars",
+   "MoE activation sparsity: why only 2 or 4 experts out of dozens fire on any given token",
+   "The llama-modchip trick: dynamic RAM paging and asynchronous disk-to-memory prefetching using early router logits",
+   "Hands-on setup guide: system requirements, llama.cpp integration, and real-world token generation speeds"
+  ],
+  "items": [
+   "18eb4896556db458"
+  ],
+  "updated_at": "2026-11-09T03:05:16Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-08T04:02:53Z",
   "history": [],
   "id": "2026-11-08-claude-code-secret-leak-warning",

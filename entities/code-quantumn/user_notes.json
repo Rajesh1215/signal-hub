@@ -1,5 +1,5 @@
 {
- "notes": "",
+ "notes": "Recommended Competitor Watchlist (2026-11-08):\n- Theo (t3.gg): How Claude Fixes Its Own Code (Anthropic internal autonomous review & self-healing PR loop) - https://www.youtube.com/watch?v=TFCDWrEBaFM\n- Nick Saraev: OpenAI Dots 24/7 Agent (cloud sandbox background tasks) - https://www.youtube.com/shorts/bH9jjQL9DB0\n- Paul Graham & Amjad Masad: How to Build the Future (software margins & founder speed with coding agents) - https://www.youtube.com/watch?v=Q78dJ0vkWe8\nKey Learning Goals (2026-11-08):\n1. How to become an AI Engineer in 2026: Agent orchestration, local models, RAG/vector architecture, eval harnesses, full-stack product engineering.\n2. How Model Thinking Works Deep Down: Reasoning models (o1/DeepSeek R1/Kimi), hidden chain-of-thought, test-time compute scaling, RL with verifiable rewards (GRPO), and search trees (MCTS).\nHardware & Quantum Deep Dives (2026-11-08):\n3. AI Silicon & Chips: GPU memory-bandwidth bottlenecks, Google TPUs, Groq LPUs (SRAM), and Apple Neural Engine.\n4. RSA & Quantum Computing: Public-key cryptography, Shor's algorithm breaking RSA/ECC, and the NIST Post-Quantum Cryptography (PQC) standards.",
  "decisions": [
   {
    "id": "d-929048",
@@ -7,7 +7,50 @@
    "date": "2026-11-08"
   }
  ],
- "todos": [],
+ "todos": [
+  {
+   "id": "t-6b42f6",
+   "text": "Watch: Theo (t3.gg) - How Claude Fixes Its Own Code - https://www.youtube.com/watch?v=TFCDWrEBaFM",
+   "done": false,
+   "date": "2026-11-08"
+  },
+  {
+   "id": "t-ff6338",
+   "text": "Watch: Nick Saraev - OpenAI Just Dropped Dots (24/7 Agent) - https://www.youtube.com/shorts/bH9jjQL9DB0",
+   "done": false,
+   "date": "2026-11-08"
+  },
+  {
+   "id": "t-8b3f71",
+   "text": "Watch: Paul Graham & Amjad Masad (Replit) - How To Build The Future - https://www.youtube.com/watch?v=Q78dJ0vkWe8",
+   "done": false,
+   "date": "2026-11-08"
+  },
+  {
+   "id": "t-8ea1b6",
+   "text": "Study: How to become an AI Engineer in 2026 (roadmap, agent architecture, full product engineering)",
+   "done": false,
+   "date": "2026-11-08"
+  },
+  {
+   "id": "t-fdbd8e",
+   "text": "Study: How model 'thinking' works deep down (reasoning tokens, test-time compute, RL/GRPO, internal mechanics)",
+   "done": false,
+   "date": "2026-11-08"
+  },
+  {
+   "id": "t-c94e42",
+   "text": "Study: AI Silicon & Hardware Chips (GPUs vs TPUs vs Groq LPUs, memory bandwidth, NPUs)",
+   "done": false,
+   "date": "2026-11-08"
+  },
+  {
+   "id": "t-6cbc38",
+   "text": "Study: RSA Cryptography & Quantum Computing (how quantum threatens RSA, Shor's algorithm, Post-Quantum PQC)",
+   "done": false,
+   "date": "2026-11-08"
+  }
+ ],
  "item_notes": {},
- "updated_at": "2026-11-08T08:31:52.922808+00:00"
+ "updated_at": "2026-11-08T09:34:53.121877+00:00"
 }
