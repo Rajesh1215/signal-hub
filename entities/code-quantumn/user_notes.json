@@ -1,5 +1,5 @@
 {
- "notes": "Recommended Competitor Watchlist (2026-11-08):\n- Theo (t3.gg): How Claude Fixes Its Own Code (Anthropic internal autonomous review & self-healing PR loop) - https://www.youtube.com/watch?v=TFCDWrEBaFM\n- Nick Saraev: OpenAI Dots 24/7 Agent (cloud sandbox background tasks) - https://www.youtube.com/shorts/bH9jjQL9DB0\n- Paul Graham & Amjad Masad: How to Build the Future (software margins & founder speed with coding agents) - https://www.youtube.com/watch?v=Q78dJ0vkWe8\nKey Learning Goals (2026-11-08):\n1. How to become an AI Engineer in 2026: Agent orchestration, local models, RAG/vector architecture, eval harnesses, full-stack product engineering.\n2. How Model Thinking Works Deep Down: Reasoning models (o1/DeepSeek R1/Kimi), hidden chain-of-thought, test-time compute scaling, RL with verifiable rewards (GRPO), and search trees (MCTS).\nHardware & Quantum Deep Dives (2026-11-08):\n3. AI Silicon & Chips: GPU memory-bandwidth bottlenecks, Google TPUs, Groq LPUs (SRAM), and Apple Neural Engine.\n4. RSA & Quantum Computing: Public-key cryptography, Shor's algorithm breaking RSA/ECC, and the NIST Post-Quantum Cryptography (PQC) standards.",
+ "notes": "Recommended Competitor Watchlist (2026-11-08):\n- Theo (t3.gg): How Claude Fixes Its Own Code (Anthropic internal autonomous review & self-healing PR loop) - https://www.youtube.com/watch?v=TFCDWrEBaFM\n- Nick Saraev: OpenAI Dots 24/7 Agent (cloud sandbox background tasks) - https://www.youtube.com/shorts/bH9jjQL9DB0\n- Paul Graham & Amjad Masad: How to Build the Future (software margins & founder speed with coding agents) - https://www.youtube.com/watch?v=Q78dJ0vkWe8\nKey Learning Goals (2026-11-08):\n1. How to become an AI Engineer in 2026: Agent orchestration, local models, RAG/vector architecture, eval harnesses, full-stack product engineering.\n2. How Model Thinking Works Deep Down: Reasoning models (o1/DeepSeek R1/Kimi), hidden chain-of-thought, test-time compute scaling, RL with verifiable rewards (GRPO), and search trees (MCTS).\nHardware & Quantum Deep Dives (2026-11-08):\n3. AI Silicon & Chips: GPU memory-bandwidth bottlenecks, Google TPUs, Groq LPUs (SRAM), and Apple Neural Engine.\n4. RSA & Quantum Computing: Public-key cryptography, Shor's algorithm breaking RSA/ECC, and the NIST Post-Quantum Cryptography (PQC) standards.\nBusiness & Unit Economics (2026-11-09):\n5. AI Coding Subscription Economics: Why tools like GitHub Copilot (/mo) and Claude Pro are dramatically cheaper than paying per-token API prices (prompt caching, speculative decoding, loss-leader growth subsidies, and 80/20 user compute pooling).",
  "decisions": [
   {
    "id": "d-929048",
@@ -49,8 +49,14 @@
    "text": "Study: RSA Cryptography & Quantum Computing (how quantum threatens RSA, Shor's algorithm, Post-Quantum PQC)",
    "done": false,
    "date": "2026-11-08"
+  },
+  {
+   "id": "t-341185",
+   "text": "Study: Why coding subscriptions (Copilot/Codex, Claude Code) are so cheap vs raw API costs (token unit economics, prompt caching, loss-leaders)",
+   "done": false,
+   "date": "2026-11-09"
   }
  ],
  "item_notes": {},
- "updated_at": "2026-11-08T09:34:53.121877+00:00"
+ "updated_at": "2026-11-09T11:27:24.250667+00:00"
 }
