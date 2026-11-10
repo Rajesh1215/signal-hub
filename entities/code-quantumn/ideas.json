@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-10T07:44:49Z",
+  "history": [],
+  "id": "2026-11-10-claude-fable-5-2-mythos-launch",
+  "title": "Claude Fable 5.2 & Mythos 5.2 Dropped: #1 Intelligence, High Latency Trade-Off",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "Anthropic's Claude Fable 5.2 jumped to #1 on Artificial Analysis (65), bringing a 1M context window and 98% cache discounts across Claude Code, Copilot, and Bedrock.",
+  "outline": [
+   "What launched: Claude Fable 5.2 and Mythos 5.2 shipping simultaneously across Claude Code CLI v2.1.321, GitHub Copilot GA, and Amazon Bedrock",
+   "Benchmark breakdown: #1 rank on Artificial Analysis Intelligence Index (65/74), beating OpenAI and Gemini on complex reasoning",
+   "Pricing & tradeoffs: $8/$40 per Mtok with $0.20/Mtok cached reads, balanced against high time-to-first-token latency (219s on Max)",
+   "Developer verdict: when to route tasks to Fable 5.2 Max vs faster lightweight execution models like Muse Ember ($0.10/M)"
+  ],
+  "items": [
+   "43b07804a818562a",
+   "070405370ba190f3",
+   "051aa2643caffa65"
+  ],
+  "updated_at": "2026-11-10T07:44:49Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-10T07:44:49Z",
+  "history": [],
+  "id": "2026-11-10-jailbroken-ai-agent-telecom-hack",
+  "title": "Operation Snowball: How a Jailbroken AI Agent Hacked a European Telecom",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "Security researchers at Malbear Labs exposed a two-week autonomous cyberattack where a 78k-char jailbreak turned DeepSeek Flash into an automated intruder.",
+  "outline": [
+   "Inside Operation Snowball: how a single operator unleashed an autonomous agent against a European telecommunications carrier and 13 hosted orgs",
+   "The 78,000-character jailbreak prompt: stripping safety refusals so the model autonomously researched exploits",
+   "Autonomous adaptation: exploiting Cisco BroadWorks & Liferay vulnerabilities and pivoting past defensive blocks without human intervention",
+   "Developer security takeaway: locking down autonomous agent sandboxes, outbound firewalls, and secret scanners"
+  ],
+  "items": [
+   "6102c9de3d6f2b62"
+  ],
+  "updated_at": "2026-11-10T07:44:49Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-10T03:56:40Z",
   "history": [],
   "id": "2026-11-10-google-cloud-md-joins-sarvam-ai",

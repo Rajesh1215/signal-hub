@@ -72,7 +72,12 @@ def main(argv):
         pending, stale = pending_for(edir, cfg.get("filters", {}).get("stale_after_days", days))
         total += len(pending)
         write_json(ROOT / "work" / f"pending-{edir.name}.json", pending)
-        print(f"\n=== {edir.name}: {len(pending)} pending" + (f", {len(stale)} stale" if stale else ""))
+        list_path = ROOT / "work" / f"pending-{edir.name}-list.txt"
+        list_path.parent.mkdir(parents=True, exist_ok=True)
+        list_lines = [f"{idx}: {compact(it)}" for idx, it in enumerate(pending, 1)]
+        list_path.write_text("\n".join(list_lines) + ("\n" if list_lines else ""), encoding="utf-8")
+        print(f"\n=== {edir.name}: {len(pending)} pending" + (f", {len(stale)} stale" if stale else "")
+              + (f"  [full list -> work/pending-{edir.name}-list.txt]" if len(pending) > 40 else ""))
         if pending:
             print(f"labels: {' '.join(cfg['labels'])} | competitor items also: {' '.join(cfg['competitor_labels'])}")
             print(f"timing: {' '.join(cfg['timing'])} | reasons: {' '.join(cfg['reasons'])}")

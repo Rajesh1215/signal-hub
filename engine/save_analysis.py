@@ -16,11 +16,75 @@ are rejected with a message (fix and re-run); valid ones are merged into
 runs/<date>/analysis.json. Exit code 1 if anything was rejected.
 """
 import json
+import re
 import sys
+from collections import defaultdict
 from datetime import date
 
 from common import ENTITIES, iso, now_utc, read_json, write_json
 from pending import load_runs, pending_for
+
+_DUP_STOP = {
+    "the", "and", "for", "with", "that", "this", "from", "are", "was", "have", "has", "not", "but",
+    "what", "when", "why", "how", "who", "will", "can", "now", "new", "more", "about", "into",
+    "over", "after", "than", "just", "first", "their", "they", "them", "been", "could", "would",
+    "should", "other", "says", "said", "report", "reports", "news", "blog", "updates", "update",
+    "today", "2026", "2027", "ai", "models", "model", "using", "based", "data", "make", "best",
+    "top", "most", "some", "your", "here", "introducing", "launches", "launch", "announces",
+    "announce", "releases", "release", "daily", "users", "user", "million", "billion", "weekly",
+    "recap", "trending", "changelog", "available", "features", "feature", "plans", "plan",
+    "wins", "gets", "hits", "tops", "gains", "speed", "push", "free", "paid", "next", "week",
+    "month", "year", "years", "time", "company", "companies", "tech", "india", "indian", "global",
+    "openai", "anthropic", "claude", "google", "meta", "deepseek", "qwen", "nvidia", "microsoft",
+    "amazon", "aws", "apple", "github", "hugging", "face", "vercel", "mint", "market", "markets",
+    "stock", "stocks", "shares", "price", "prices", "people", "searching", "on", "in", "of", "to"
+}
+
+
+def _sig_tokens(title):
+    t = re.sub(r"['’]s\b", "", (title or "").lower())
+    return {w for w in re.findall(r"[a-z0-9][a-z0-9.\-+]*", t)
+            if (len(w) >= 4 or any(c.isdigit() for c in w)) and w not in _DUP_STOP}
+
+
+def _sig_bigrams(title):
+    t = re.sub(r"['’]s\b", "", (title or "").lower())
+    words = [w for w in re.findall(r"[a-z0-9][a-z0-9.\-+]*", t) if len(w) >= 2 and w not in _DUP_STOP]
+    return {f"{words[i]} {words[i+1]}" for i in range(len(words) - 1)
+            if len(words[i]) >= 4 or len(words[i+1]) >= 4 or any(c.isdigit() for c in words[i] + words[i+1])}
+
+
+def _find_orphaned_duplicates(payloads, roles, titles, recent_runs):
+    """Reject SKIP(duplicate) clusters when 2+ items share a story and 0 non-competitor items cover it."""
+    payload_ids = {p.get("id") for p in payloads}
+    kept_token_sets = []
+    for _, items, ana in recent_runs:
+        for it in items:
+            iid = it["id"]
+            if iid not in payload_ids and it.get("role", "news") != "competitor":
+                if ana.get(iid, {}).get("label") not in (None, "SKIP", "STALE"):
+                    kept_token_sets.append(_sig_tokens(it.get("title", "")))
+    for p in payloads:
+        iid = p.get("id")
+        if iid in titles and roles.get(iid) != "competitor" and p.get("label") not in (None, "SKIP", "STALE"):
+            kept_token_sets.append(_sig_tokens(titles.get(iid, "")))
+
+    orphaned = defaultdict(list)
+    for p in payloads:
+        iid = p.get("id")
+        if roles.get(iid) != "competitor" and p.get("label") == "SKIP" and p.get("reason") == "duplicate":
+            t = titles.get(iid, "")
+            itoks = _sig_tokens(t)
+            if not any(len(itoks & ktoks) >= 2 for ktoks in kept_token_sets):
+                for bg in _sig_bigrams(t):
+                    orphaned[bg].append(iid)
+
+    bad = {}
+    for bg, iids in orphaned.items():
+        if len(iids) >= 2:
+            for iid in iids:
+                bad.setdefault(iid, bg)
+    return bad
 
 
 def _is_date(v):
@@ -91,17 +155,21 @@ def main(argv):
     entity = argv[0]
     edir = ENTITIES / entity
     cfg = read_json(edir / "config.json")
-    where, roles = {}, {}
-    for ddir, items, _ in load_runs(edir):
+    runs = list(load_runs(edir))
+    where, roles, titles = {}, {}, {}
+    for ddir, items, _ in runs:
         for it in items:
-            where[it["id"]], roles[it["id"]] = ddir, it.get("role", "news")
+            iid = it["id"]
+            where[iid], roles[iid], titles[iid] = ddir, it.get("role", "news"), it.get("title", "")
 
     if "--mark-stale" in argv:
         days = int(argv[argv.index("--days") + 1]) if "--days" in argv else cfg.get("filters", {}).get("stale_after_days", 7)
         _, stale = pending_for(edir, days)
         payloads = [{"id": it["id"], "label": "STALE"} for it in stale]
+        orphaned_dups = {}
     else:
         payloads = json.loads(open(argv[1]).read())
+        orphaned_dups = _find_orphaned_duplicates(payloads, roles, titles, runs[:5])
 
     by_dir, rejected = {}, 0
     for p in payloads:
@@ -113,6 +181,9 @@ def main(argv):
         errs = validate(p, cfg, roles[iid])
         if p.get("follows") and p["follows"] not in where:
             errs.append(f"follows '{p['follows']}' is not a known item id")
+        if iid in orphaned_dups:
+            bg = orphaned_dups[iid]
+            errs.append(f"orphaned SKIP(duplicate) for '{bg}' — multiple sources reported it with 0 non-competitor items kept; keep the best primary source as MAKE/KNOW first")
         if errs:
             print(f"✗ {iid}: " + "; ".join(errs))
             rejected += 1

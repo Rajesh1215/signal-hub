@@ -58,11 +58,12 @@ Niche names → folders: Code Quantumn → `code-quantumn`, Capital Kinetics →
    - one line per pending item: `id | role/competitor | source | title | snippet | stats`
    - items already labelled in the last 3 days, so you can spot duplicates
 
-   Full records are in `work/pending-<niche>.json` if you need more detail.
+   Full records are in `work/pending-<niche>.json`, and the full numbered line list is written to `work/pending-<niche>-list.txt`. When a niche has >40 pending items (and terminal output may truncate), **always read `work/pending-<niche>-list.txt` in 120-line pages** so you never miss a single item.
 5. **For each niche with pending items:**
    1. Read `entities/<niche>/brief.md` and active user decisions & open to-dos (printed by `pending.py` from `user_notes.json`). They define your audience, content rules, and specific topics the user wants to prioritize or avoid. Follow them closely.
    2. **Quick pass.** Judge **every** pending item yourself from its title, snippet, source and stats, and write the payloads to `work/payloads-<niche>.json` (format below). For more than about 80 items, work in chunks (`payloads-<niche>-1.json`, `-2.json`…) and save each chunk.
-      - **Write each payload by hand, one item at a time.** Don't generate payloads with a script of keyword rules, and never use a default label for items you didn't look at. Every item, including every SKIP, gets its own decision and its own reason.
+      - **Never read only part of the list or write a script with a catch-all `else: SKIP` fallback.** Every item must be explicitly inspected, and every SKIP gets its own individual decision and genuine reason.
+      - **Deduplication rule:** When multiple outlets report the same major launch or story (e.g., 10 sites announcing a new model), **always keep the best primary news/official/benchmark source as `MAKE`, `TEST`, or `KNOW`**, and ONLY mark secondary re-reports as `SKIP (duplicate)`. A `CONTENT` label on a competitor YouTube video does NOT count as keeping the news item. `save_analysis.py` enforces this and rejects orphaned `SKIP (duplicate)` clusters with zero kept non-competitor items.
    3. **Deep-read the shortlist.** For every `MAKE`, `TEST` and importance 4–5 item, open the link and read the full page (article, release notes, paper abstract; for YouTube see the next step) before you finalise it:
       - Rewrite the `summary` from what the page actually says: concrete facts, numbers, dates, free or paid, India availability. Never from the title alone.
       - Re-check the label and importance: downgrade if the full story is weaker, older or a duplicate; upgrade if it's stronger.

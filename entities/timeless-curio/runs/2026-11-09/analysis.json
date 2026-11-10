@@ -128,51 +128,56 @@
  "ac31b55b7a44f11c": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "ef8147fe87efbf44": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "bee0c0547dfd787d": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "9cbea5c4eb7156e7": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a8f23e5cb844e549": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "bb88306bcd1162cd": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "f66a7993d4d1fe4d": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "32275addd851ef02": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "dcb0444bdd270db4": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "fb65801f9c28f2c1": {
-  "label": "SKIP",
-  "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "JWST captures the lowest-mass failed stars (free-floating brown dwarfs) down to a few Jupiter masses inside a crowded stellar nursery.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  }
 }

@@ -1,791 +1,953 @@
 {
  "726b1c1a32ab6441": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "official_launch",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "ChatGPT Enterprise launches on AWS Marketplace, enabling enterprises to draw down existing AWS spend commitments.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "30a4358a6759ac30": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "OpenAI introduces Control Room, an internal safety system tracking live model training and agent workloads with rapid emergency halt controls.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "97ac1dc52aff8182": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "eb9558c2589196cb": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "3f66097eaf39296a": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "0cf42b15e0ab8644": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "8279b27e6ad2bbc9": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "dbbcc0813d8b4e9b": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub upgrades secret scanning to catch exposed API keys and tokens directly inside GitHub Actions workflow execution logs.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "0191eb27e2e8d27d": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "df20edc8e6a08305": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "051aa2643caffa65": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Claude Code CLI v2.1.321 makes Claude Fable 5.2 default with 1M context, $0.20/Mtok cache reads, and --settings config for remote-control sessions.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "2724ea412d13e4e5": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "42f327a332ee641a": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "ca410fd53c90b92d": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "2cf572a495b986e8": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "4c7fe1e03d5d1e75": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a9a08d932fb92e96": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b9b91cdceed37e4e": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "f3dac0cc20e01d04": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "51a54959b6d47878": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "59052b7297624b73": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "7c6184ff85fee69d": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a9734599d5d1cb62": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "DeepSeek reports its open agent platform Harness surged 5.7x in a single month to over 1.5 million daily active users and plans a plugin ecosystem.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "6102c9de3d6f2b62": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Malbear Labs reveals 'Operation Snowball': an autonomous DeepSeek Flash agent with a 78k-char jailbreak breached a European telecom and 13 hosted orgs. Hook: 'A jailbroken AI agent just hacked a European telecom for two weeks straight — completely on its own.'",
+  "notes": "- Disclosed by security researchers at Malbear Labs as Operation Snowball\n- Two-week autonomous campaign powered by a DeepSeek Flash agent wrapped in a 78,000-character jailbreak prompt to strip refusals\n- Independently exploited Cisco BroadWorks and Liferay vulnerabilities and adapted around defensive blocks\n- Compromised a European telecom operator along with 13 hosted organizations and patient record repositories",
+  "actions": [
+   "Created video idea 2026-11-10-jailbroken-ai-agent-telecom-hack"
+  ],
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "bbd4d2b7d7585b8b": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "2cce12df0035243a": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "6f885c8474206692": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "1c88b5e1a7f303a9": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Alibaba Qwen 4 outperforms DeepSeek V4.1 Flash across automated web browsing benchmarks while consuming half as many output tokens.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "8b0b3d507758484b": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "7c036fa585c2c636": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "research_paper",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Apple ML researchers present HALO: a stock Unitree G1 humanoid robot powered locally by a 64GB M4 Pro Mac mini running Qwen3.6-35B.",
+  "notes": "- HALO: Humanoid Autonomy, Learned in Simulation, running Onboard\n- Uses a 64GB M4 Pro Mac mini mounted directly onto the Unitree G1 chassis\n- Locally executes quantized Qwen3.6-35B-A3B VLM and vision encoder for natural-language room navigation",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b0883e44fdb884bd": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "4ac77983d780888d": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "f82aca2ddc66ed7f": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "NVIDIA deploys 120B multimodal vision-language model Nemotron 3.5 Super VL on Amazon SageMaker JumpStart.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "d9c11966e883ed78": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "fde5afd0cd82e6a9": {
   "label": "SKIP",
-  "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b3557aca6812f1b0": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Samsung plans split free and paid Galaxy AI Premium subscription tiers introducing gated cloud assistant capabilities.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "57484e351fc86333": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "fc41ac33450ac5df": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "2dcf67833b889860": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b873208ab7fa9708": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "308178cbcab392f6": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "943c53243c357d5b": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "eab756593d05586f": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b15d651bf180aa93": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "71138f94bdde38a3": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b7c1fc191aad6f45": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "IndiaAI Mission launches three indigenous models: Soket's EKA-1 (26.3B) and ZenteiQ's offline-capable Dhir-2B and Dhir-5B.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "27294aa90dec60ac": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "43b07804a818562a": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Anthropic launches Claude Fable 5.2 and Mythos 5.2 with 1M context, jumping to #1 on Artificial Analysis (65) with upgrades in coding and vision. Hook: 'Anthropic just dropped Claude Fable 5.2 and Mythos 5.2 — and claimed #1 on the AI intelligence leaderboard.'",
+  "notes": "- Anthropic released Claude Fable 5.2 and Mythos 5.2 on November 9, 2026 amid industry RSI capability debates\n- Fable 5.2 (Max) scored 65 on the Artificial Analysis Intelligence Index (#1 of 74 models)\n- Context window: 1M tokens; Pricing: $8.00 input / $40.00 output per Mtok with 98% prompt cache discount ($0.20/Mtok cached reads)\n- Trade-offs: slower per task (219.8s TTFT on Max, 98 tok/s output) and verbose\n- Day-1 availability: Claude Code CLI v2.1.321 (default model), GitHub Copilot GA, Amazon Bedrock, and llm-anthropic 0.31",
+  "actions": [
+   "Created video idea 2026-11-10-claude-fable-5-2-mythos-launch"
+  ],
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "17f59ad640a8b9c1": {
-  "label": "SKIP",
-  "reason": "off_topic",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Nvidia board launches inquiry into CEO Jensen Huang's ties with an alleged Chinese intelligence asset, raising Washington regulatory concerns.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "f22ce8ff58dff0af": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Meta Superintelligence Lab releases lightweight Muse Ember at $0.10 per million input tokens, built for repetitive agent tool calls and routing.",
+  "notes": "- Built specifically for repeating agent workflows: tool calling, coding subtasks, routing, and data extraction\n- Ultra-low pricing ($0.10/M input tokens) undercuts Claude Haiku and competing small agent models",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "bf1004c7f745b194": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Anthropic commits $3.4B for 1.7GW of dedicated natural gas turbines from OnePWR to bypass six-year grid interconnection queues.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "65d8af598df1e69c": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "64fe51810f94974b": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "e00dfd2e8d5d6a81": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "c1b6421c19c23719": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "official_launch",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Google unveils dual-chip TPU 8i Max built for massive KV caches in long-context agents, plus confidential-compute TPU 8tx rolling out in 2027.",
+  "notes": "- Dual-chip TPU 8i Max packs 2x TPU 8i chips per package to alleviate KV cache memory bandwidth bottlenecks\n- TPU 8tx introduces hardware-level confidential computing isolation for sensitive enterprise inference\n- Scheduled for cloud deployment in 2027",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "1a56b7e38249c875": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b5f92a9a7885dc19": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "26353677440c1bf4": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "f43ae524611b4e69": {
   "label": "SKIP",
-  "reason": "off_topic",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "8aa3c156b895d7b0": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "44b3007c0b2111b1": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "408685222125fd9e": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "9a88bdb5bd2eb719": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "1960022ac0321716": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a59ca57b8275f119": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "e7f5eea8bbf13ba5": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "064a1133600c7279": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "46269e0c43dea672": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "8eb166b4a5381b96": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "26588d7ca2718ff9": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "317c4ad1482462e6": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Privacy audit warns that enabling consumer Gemini Connected Apps allows personal Google Drive and Gmail snippets to be routed for human annotation.",
+  "notes": "- Highlights privacy differences between Workspace enterprise zero-retention tiers and consumer Connected Apps permissions\n- Urges developers to audit linked Google accounts before sharing sensitive source documents",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "663fbbfca03ac229": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Chip startup DeepX claims its DX-M1 low-power edge NPU runs inference on up to 100B-parameter quantized models under 5 watts.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "070405370ba190f3": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Artificial Analysis benchmarks Claude Fable 5.2 (Max) at #1 Intelligence (65/74), noting high latency (219.8s TTFT, 98 tok/s) and $26.54 eval cost.",
+  "notes": "- Intelligence Index: 65 (#1 out of 74 evaluated models)\n- Latency: 219.85s time to first answer token on Max reasoning effort; 98 tok/s output speed\n- API cost: $8 input / $40 output per million tokens, with 98% cache discount",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "0758105df07b75dd": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "LowRAM paper introduces low-rank keys and amortised values for test-time KV cache compression across long-context transformers.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "1571f6335b561e6b": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "63f2d535d7e7cbc0": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "9637e6637e3bcecb": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "9ffae22aaf7b5471": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a79c82b23c68c622": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "53844049e49defc3": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "e56d0369353e4b5f": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "2c8626a6203ba1f3": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "e4ab9c710a4ce084": {
   "label": "SKIP",
-  "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b8a4c9649dd02590": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "2cb7537f4b456aad": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b0b680346626aa92": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Vercel telemetry indicates decision-routing models account for 26% of AI gateway traffic while Anthropic leads new team adoption 2:1.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "175d616e68e40856": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "7e7e9cb8c3d11ce8": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "59d684ed3bd3bfea": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "e167d4b55ff9b48a": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "ByteByteGo analyzes how LinkedIn's automated AI review pipeline inspects 40,000 pull requests weekly before human engineers open them.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "57e77311264a4782": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "d9541726cfe98a84": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "157011b66c3893dd": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Lenny's Podcast profiles Hackmamba founder William Imoh building a production language-learning mobile app end-to-end with OpenAI Codex.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "7167d48d087deb25": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "0d9b73cf4d7c6a5d": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a8af87457d42ebb5": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "1648854366107b46": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "CampusX publishes a comprehensive Hindi/English Google Agent Development Kit (ADK) tutorial covering function calling and built-in tools.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "bbfae3d490c8af62": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "16409c4d94c41991": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "8a5764343ce052e9": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "00c54d572679a4a6": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "2cbbb5a44c7fba86": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Riley Brown demos Claude Duet mobile pairing, resuming Mac Claude Code CLI sessions via real-time voice from a phone.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "36b797931e526360": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "f654485d6b9af991": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "027e837139aef8a3": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "02874a8293b74577": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Sam Witteveen breaks down NVIDIA's new 2-bit weight quantization techniques enabling massive model compression without accuracy collapse.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "c1d8a730e9cd3c56": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a227803a40fe4c0f": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a7f45d0e580cb059": {
   "label": "CONTENT",
   "reason": "competitor_move",
   "summary": "Fireship analyzes an automated AI security research model that audited the Linux kernel source code, uncovering 948 root-level zero-days.",
   "notes": "- Specialized reasoning agent audited kernel source with symbolic execution\n- Found memory-safety bugs, privilege escalations, and kernel panics",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a9d5b34645e89439": {
   "label": "CONTENT",
   "reason": "competitor_move",
   "summary": "Matthew Berman reviews Anthropic's latest specialized agent release and benchmark improvements across autonomous workflows.",
   "notes": "- Evaluates multi-step coding benchmarks and tool-calling reliability",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "087691b64dbc70f5": {
   "label": "CONTENT",
   "reason": "competitor_move",
   "summary": "Cole Medin surveys 10,000 AI web applications, extracting winning UI patterns, pricing models, and onboarding conversion funnels.",
   "notes": "- Analysis of SaaS onboarding flows and paywall placement",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "5b8b8ef327e31ef2": {
   "label": "CONTENT",
   "reason": "competitor_move",
   "summary": "Theo (t3.gg) argues that AI coding agents shift developer roles from writing raw syntax to gardening PRs, designing specs, and verification.",
   "notes": "- Compares coding agent supervision to architectural review rather than typing",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b2b5b86f7cb60601": {
   "label": "SKIP",
-  "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a542ac42d9e0288b": {
   "label": "SKIP",
   "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "9a31208669ae29d1": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Ethan Mollick analyzes Claude Fable 5.2's real-world strengths and 'jagged AGI' frontier limitations across autonomous tasks.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "96f42dfedf7d2cec": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "11722da4bc2c9926": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b75d2297e9c8d3f5": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "0a3e9674148bff3e": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "3bad454ebdaa3955": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b25455067c0ffdbf": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "1c5f54127c5405c0": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "cd0a9bf9eb31e989": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "e4b9405faa7f79d2": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "087d792e7639c465": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "9878675d14959310": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "3b8d8c42094d4aed": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "3140f49f80e7e46e": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "7870ac5fe920b53a": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a5335ac2be89cc23": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b55cc1297ae04622": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "017a71df41a334fa": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "d7e8cd2aa04b6056": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "d87cdb0fc2be05dd": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "0f41498157ba3d83": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "461d7edb44c389fd": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "58cbac794713579a": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "llama.cpp adds tuned Mixture-of-Experts CPU offloading to accelerate hybrid RAM/VRAM token generation speeds.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b64495c51ead307c": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "c75db06ed4aa9a56": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "de44ffb8ff8a0942": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "5f1ea6626c56e679": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "3c6b84dc39bbad67": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "4f2d87756d31e84a": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "2ef4835e717f471a": {
   "label": "SKIP",
-  "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "e0ecfd30717626b3": {
   "label": "SKIP",
   "reason": "off_topic",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "133cb4e488ecccfa": {
-  "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Apple Intelligence secures Chinese regulatory clearance for iPadOS and macOS devices powered through domestic partner models.",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "197c0a11adff8d79": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "48008f23bb13bc73": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "5bf281da7d584fd4": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "19df0b66c93e2f22": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a1b0a1d740885935": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "18c99faac591915d": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "23a4825458290193": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "0e957bb6a40f2e19": {
   "label": "SKIP",
-  "reason": "minor_update",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "89dee911cdf23e8d": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "a1dbc21fbfdeba72": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b3867c060482e417": {
   "label": "MAKE",
@@ -801,22 +963,22 @@
   "actions": [
    "Created video idea 2026-11-10-google-cloud-md-joins-sarvam-ai"
   ],
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "12af268dba121b4b": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "f2cf7781c119e610": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "cbb8943306ec19f5": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "cd85591c9c77c052": {
   "label": "KNOW",
@@ -827,37 +989,37 @@
   },
   "summary": "Anthropic prepares for an upcoming public market IPO listing, formalizing initial banking advisory groups and setting baseline valuation ranges.",
   "notes": "- Reports indicate Wall Street Journal coverage of Anthropic's private market valuation discussions\n- Reflects rapid enterprise Claude API ARR acceleration",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "3cd6b8b32d724d4c": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "cbb2584e5e6d36cb": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "b7c40fd6e28a1dcb": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "e4f50a1cb1d36854": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "7d1cac531109fc7f": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "aac39c676e9d3ff9": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "5d24234aa4ee2f35": {
   "label": "KNOW",
@@ -867,26 +1029,26 @@
    "category": "tool"
   },
   "summary": "Vercel accelerates sandbox microVM snapshot creation up to 10x, drastically decreasing cold start latencies for browser-based code execution.",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "bbe61a6b96546425": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "0b90b38f2355a1f3": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "d6b02fcc333fb419": {
   "label": "SKIP",
   "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "analyzed_at": "2026-11-10T07:44:27Z"
  },
  "78449ade68e602b0": {
   "label": "SKIP",
-  "reason": "duplicate",
-  "analyzed_at": "2026-11-10T03:56:10Z"
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T07:44:27Z"
  }
 }
