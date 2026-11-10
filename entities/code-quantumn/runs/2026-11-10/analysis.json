@@ -1050,5 +1050,725 @@
   "label": "SKIP",
   "reason": "minor_update",
   "analyzed_at": "2026-11-10T07:44:27Z"
+ },
+ "669ec17064ac584b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "453eb73960ff9faf": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "price_change",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Meta AI's autonomous Muse agent receives official India pricing leaks ahead of launch, starting at ₹1,799/month.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "b5bc6717eb375137": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "541bcc5deebec49a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Meta expands its autonomous AI Agent Muse onto Apple Watch and Wear OS smartwatches for hands-free wrist task delegation.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "27eeb5ff96b991e4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "security_incident",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Meta issues urgent firmware advisory after water and heavy sweat exposure triggered excessive battery heating in Meta AI smart glasses.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "4127acd5bdeea537": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "fc1929fd87f3990f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "32901d2ebca1ebb8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "008ca5eaba348a00": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "e7994f30d533d4f7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "DeepSeek model completes 21 of 31 automated penetration testing tasks in Vals AI's adversarial cyber benchmark.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "12e2dbe62cfd5447": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "2e12e67335dacdb2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "04af13eaf4c49790": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "37ce9a33c33a7f7d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "f84ea841c4719b2a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "96ca3b335879f32b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Claude Opus 4.6 breaks into the LMSYS Arena Vision top 10 leaderboard at #10 with an Elo of 1312.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "6cf92ec146eaf561": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "d28c7a1e984ce79a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "51912842fff0146d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "8032c2fad0ba2b0b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "e2a0efbd96021358": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "cc735fbca7e49c41": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "ab552dfab3348d53": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Otter AI rolls out real-time meeting transcription across 27 new languages (30+ total), adding dynamic mid-sentence code-switching detection.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "df091d2a146e9148": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "MarkTechPost details Meta Muse Ember's 1M context window architecture and intelligence index parity with Claude Haiku 5.5 for high-volume agent execution.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "bf6fef96dc9ef423": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "fe8d311d9afbf429": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "990955bf2bb85d23": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "a7cd83fd428a02a3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "fe83b9b5aa0bb1ab": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "8aae1390bec59da2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "f8aa5bbb68053041": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "81a50de3d07bfae7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "440b49495adce8f8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "360c2ca93de506be": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "9148e093266f7a6f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "51da9fdadfbbedd3": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "CoreWeave bond yields spike past 16% on debt stress concerns over GPU cluster depreciation and massive AI infrastructure financing loads.",
+  "notes": "- CoreWeave corporate debt yields jumped above 16% on bondholder nervousness\n- Highlights divergence between booming model demand and capital-intensive neo-cloud balance sheet leverage",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "2e9d95ab30bcd3dd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "3122edb2c49db98a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "7d6e28eec03a070e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "f2e02aa86e56c8a7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "282c5c60025ec272": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "48028272ac523b3e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "35b0dea1d80cd346": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "c98d15eb24486100": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "4bccf2520afe6e1a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Developer architecture guide comparing the top 7 AI agent gateway proxies for multi-provider routing, caching, and spend rate limits.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "e8f4a9944acc31a6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "52b030882925d0c7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "717cd8f0666c1855": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "53b91b68eaffb19a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "d1f719846a618e1f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "model"
+  },
+  "follows": "43b07804a818562a",
+  "background": "Anthropic released Claude Fable 5.2 with vision and reasoning upgrades on Nov 9, scoring #1 on Artificial Analysis.",
+  "summary": "Riley Brown demonstrates Claude Fable 5.2 generating a complete photorealistic 3D Blender room script from a single natural-language prompt.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "b1a1189248507cfd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "1474d9dd99dd7edd": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "model"
+  },
+  "follows": "43b07804a818562a",
+  "background": "Anthropic launched Claude Fable 5.2 and Mythos 5.2 on Nov 9 as the new frontier benchmark leaders.",
+  "summary": "Wes Roth breaks down Claude Fable 5.2 and Mythos 5.2 capabilities across long-horizon software design, spatial reasoning, and robotics control.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "ae6ec3ff9975e475": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matthew Berman tests Claude Fable 5.2 across full-stack autonomous engineering tasks, arguing coding models have crossed the software autonomy threshold.",
+  "notes": "- Tests autonomous multi-file scaffolding and zero-shot verification demos\n- Contrasts speed bottlenecks against unprecedented reasoning depth",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "70c7b81386ad0f9c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "72185e8f84df8835": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Simon Willison highlights subtle system-prompt sensitivities in Claude Fable 5.2 where codebase ownership framing heavily influences refactoring behavior.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "5a600bf89c24a10b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "60e4356d05383ee5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "bab38f6af3474e74": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "b932cb149ee533df": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "e2d2ff1a836636f5": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 5,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Google DeepMind unveils AlphaProof Code, an autonomous agentic system that wrote 3M–6.5M lines of Lean mathematical proofs verifying Signal's encryption down to assembly. Hook: 'Google DeepMind's AlphaProof Code just wrote millions of Lean proof lines to mathematically verify Signal's encryption dow",
+  "notes": "- Google DeepMind announced AlphaProof Code powered by frontier reasoning models like Gemini Carbon\n- Machine-checked core cryptographic protections of the Signal protocol (libsignal) down to compiled AArch64 machine instructions\n- Multi-LLM agent fleet autonomously generated between 3 and 6.5 million lines of verified proof code in Lean over a four-week span\n- Signals a historic leap from probabilistic bug-finding to formal mathematical zero-bug assurance in security software",
+  "actions": [
+   "Created video idea 2026-11-10-alphaproof-code-verifies-signal-encryption"
+  ],
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "d95ffd4aeb8efd09": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "3cb1216bba5b6d8d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "5eedf3054289a7d4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "81320a97d9cfe1c7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "c9692ac533e24309": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Meta expands global AI age-estimation classifiers on Instagram to automatically restrict accounts misreporting teen birthdates.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "785b30458bea26fb": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "66eb2e3b9777d62b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "2c997d9442712c24": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "413ad9cfa0bc4e19": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "f51bb1c04c3b4eb8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "follows": "a9734599d5d1cb62",
+  "background": "DeepSeek Harness crossed 1.5 million daily active users earlier on Nov 9.",
+  "summary": "DeepSeek confirms Harness hit 1.54 million daily active users and unveils plans for a developer agent plugin marketplace.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "ab98df354f384ac4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "a37c6a63620469e1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "15be41a0d887264a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "5e8b0aedb2dc28f1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Desktop computer-use GUI agent reaches a state-of-the-art 79.5% success rate on OSWorld by training directly on real operating system UI trajectories.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "324d9e3c0a95b3a7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "673fc2addb1b1da1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Practical checklist showing users how to opt out of default model training telemetry across ChatGPT, Claude, Gemini, and Meta accounts.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "38dffe41882a2074": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "31c5d7ffef6712bc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "f53fc6fd95f97ce7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "a606a29ce38da979": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "e061137378d9ca71": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "7be89ed83bd46e32": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "d851586f596fc283": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "f334e7d1fc40cd17": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Overview of India's ₹10,372 crore IndiaAI Mission capital deployment across shared GPU clusters and sovereign foundation models.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "8514b1568992e989": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "da778093fce82421": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "b5220fb15e41d300": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Hugging Face policy director Irene Solaiman warns rising autonomous AI cyberattacks risk triggering restrictive licensing on open-weights models.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "beb9c4e256d812a9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "b420786b58a86400": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "4ad7363da9f9ebd0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "0826bf2986f5b3c5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "84f0241382701290": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "111304ea312eaab6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "9c353059607a5850": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "e8f4a795c79d1799": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "e5c5d74554dee9f2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "3b7c5f7260e7d46a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "350dcbdd82a99350": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "bf8c5b72a1622f9c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "2c61e0b08e4c7502": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Third-party cloud R&D breach at AI host Fireworks AI exposed Notion AI unattributable chat transcripts across under 1% of Notion customer workspaces. Hook: 'If your team uses Notion AI, check your security notices: a breach at AI host Fireworks just exposed customer workspace transcripts.'",
+  "notes": "- Fireworks AI disclosed an unauthorized intrusion targeting external R&D cloud infrastructure in late October 2026\n- Notion notified enterprise and pro customers that <1% of workspaces had usage analytics & AI chat snippets exposed\n- Highlights AI supply-chain third-party vendor risk even when primary SaaS platforms maintain zero-trust storage",
+  "actions": [
+   "Created video idea 2026-11-10-fireworks-ai-notion-breach-lesson"
+  ],
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "94e4bc46cd46d2d7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "fbeef07d2e6b1793": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "a956c58e01d1e8ef": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "ae9857226a91c99f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "af4c65b492352f19": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "bd72ee1339c7d683": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "f35f5f7c8179d0fd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "07318761e610d8b3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Google Chrome alum Addy Osmani releases 'agent-skills' on GitHub (465 stars today), a library of production engineering system prompts and workflow playbooks.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "0c5f64fa6a3e19cc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "2df8912e173d4f6d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Home Assistant releases official Model Context Protocol server ha-mcp (792 stars today) allowing Claude and ChatGPT to safely control smart home automations.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "0cdc7baf8af2583c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "913c631ee2cc3889": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "IBM Technology explains knowledge distillation — compressing reasoning behaviors from huge frontier teacher models into fast, affordable edge student models.",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "eabb90942659c29c": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Two Minute Papers covers MirrorCode (arXiv 2606.30182), showcasing automated software architectures that test and fix their own bugs iteratively.",
+  "notes": "- Explores self-healing verification loops and formal compilation test feedback",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "a5a9225b2d48b9ab": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "CodeWithHarry publishes an evergreen beginner Hindi/English explainer breaking down REST APIs, endpoints, and JSON requests.",
+  "notes": "- Introductory developer funnel targeting student coders in India",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "e5973bd3e72a2f2b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
+ },
+ "cb87ca3d30e57f82": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-10T14:02:15Z"
  }
 }

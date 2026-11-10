@@ -37,7 +37,8 @@ _DUP_STOP = {
     "month", "year", "years", "time", "company", "companies", "tech", "india", "indian", "global",
     "openai", "anthropic", "claude", "google", "meta", "deepseek", "qwen", "nvidia", "microsoft",
     "amazon", "aws", "apple", "github", "hugging", "face", "vercel", "mint", "market", "markets",
-    "stock", "stocks", "shares", "price", "prices", "people", "searching", "on", "in", "of", "to"
+    "stock", "stocks", "shares", "price", "prices", "people", "searching", "on", "in", "of", "to",
+    "agent", "agents", "platform", "app", "apps", "system", "systems"
 }
 
 

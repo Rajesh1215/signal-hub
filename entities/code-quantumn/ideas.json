@@ -1,6 +1,46 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-10T14:03:51Z",
+  "history": [],
+  "id": "2026-11-10-alphaproof-code-verifies-signal-encryption",
+  "title": "DeepMind's AlphaProof Code Wrote 3 Million Lines to Mathematically Prove Signal Is Unhackable",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "Google DeepMind's agentic theorem prover formally verified Signal's core cryptography down to AArch64 assembly instructions using Lean proofs.",
+  "outline": [
+   "Beyond probabilistic code review: why unit tests find bugs but cannot prove bugs don't exist",
+   "How AlphaProof Code works: multi-LLM agent fleet powered by Gemini Carbon writing Lean 4 formal proofs",
+   "The Signal protocol milestone: 3 to 6.5 million lines of proof verified across four weeks down to compiled assembly",
+   "What this changes for software engineering: the rise of mathematical machine verification for critical crypto, kernels, and financial rails"
+  ],
+  "items": [
+   "e2d2ff1a836636f5"
+  ],
+  "updated_at": "2026-11-10T14:03:51Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-10T14:03:51Z",
+  "history": [],
+  "id": "2026-11-10-fireworks-ai-notion-breach-lesson",
+  "title": "Fireworks AI Hack Exposed Notion AI Workspaces: The Third-Party AI Supply Chain Risk",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "An intrusion on inference vendor Fireworks AI's R&D cloud environment leaked unattributable Notion AI workspace transcripts — a wake-up call for SaaS AI privacy.",
+  "outline": [
+   "What happened: late-October unauthorized access into an external R&D cloud host run by inference provider Fireworks AI",
+   "How Notion was hit: under 1% of Notion customer workspaces had batched AI usage logs and chat snippets exposed",
+   "The invisible third-party vendor chain: even if your core SaaS app is SOC2 hardened, sub-processors running LLM inference expand your attack surface",
+   "Developer & enterprise checklist: auditing vendor zero-retention agreements, sub-processor lists, and self-hosted private endpoints"
+  ],
+  "items": [
+   "2c61e0b08e4c7502"
+  ],
+  "updated_at": "2026-11-10T14:03:51Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-10T07:44:49Z",
   "history": [],
   "id": "2026-11-10-claude-fable-5-2-mythos-launch",
