@@ -1,0 +1,1009 @@
+{
+ "c066d09458744323": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "92dca865d22064fc": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA studies show the future LISA gravitational-wave observatory could spot hidden exoplanets orbiting white-dwarf binaries.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "829ca1a650782568": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "f7fd1fe3e4554d40": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Scientists cracked two halves of Uranus's 40-year magnetic mystery: a 4% fluke solar storm + superionic fluid-mantle physics. Hook: 'For 40 years we thought Uranus broke planetary physics—turns out Voyager 2 just caught a 4% cosmic storm.'",
+  "notes": "- Two breakthroughs solve Uranus's 1986 Voyager 2 puzzle (59-degree tilted, off-center magnetic field + depleted plasma):\n- 1) NASA JPL reanalysis showed an intense solar wind surge hit just before Voyager 2 arrived (conditions occurring ~4% of the time), crushing Uranus's magnetosphere to ~20% of normal volume.\n- 2) 2026 dynamo modeling shows electrical conductivity shifts in Uranus's high-pressure water-ammonia-methane 'ice' mantle create non-dipolar offset dynamos.\n- Crucial payoff: Uranus's moons (Titania, Oberon) likely stay shielded inside the magnetosphere most of the time, reviving subsurface-ocean detection hopes.",
+  "actions": [
+   "Verified solar wind & deep-mantle dynamo studies via web research"
+  ],
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "55a3dc1ba84cff7d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "mysteries"
+  },
+  "summary": "Space.com investigates the Cold War 'lost cosmonauts' radio-intercept legend and what archival Soviet records actually confirm.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "67d91d5d86684283": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "A robot autonomously assembled part of an antenna structure in orbit for the first time, paving a path for mega space telescopes.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "31ce9bff60eb84da": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "2e8d3cd179601c53": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "41a0104f2b0c3475": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "bccda2e89f52c53d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "c132c2fee73f441a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "cda9c4735f1b6396": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "1145be20b2bd97b9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "new_study",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Eating marine fish skews radiocarbon dating in medieval Danish skeletons because old ocean carbon makes bones look centuries older.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "cddfd40335c46037": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "11a7bb3ff10c2d88": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "b8a3a14fb669e67c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "112e458680145ef4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "937273a3218e9f8c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "719224223c0d7520": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "4b9f368669833c53": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "88f05cbd4802929c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "All 12,000 shattered medieval stained-glass fragments from Coventry Cathedral—hidden before the Nazi Blitz—have now been digitized.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "104b9645ef1c6f36": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "83e7a55583f10780": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "7ac17ad455967ea6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "7f41ebcdd1e39391": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_report",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "Ars Technica reports high oil prices helped nudge global fossil fuel CO2 emissions down 0.4%—a rare short-term contraction.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "81d5185ee6f4fa73": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Neuroscientist Baland Jalal explains how REM muscle paralysis collides with waking fear centers to produce 'sleep paralysis demon' visions.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "04093b5578768781": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "COP31 host Turkiye pushes a target to raise electricity's share of global energy to 35% by 2035—requiring 4x faster grid expansion.",
+  "notes": "- Pairs with Where is the world heading Ep 3 scenario framing.\n- Three pathways to 2035: rapid clean grid + storage expansion, grid bottlenecks stalling EV/AI power loads, or regional split between China/India renewables and gas lock-in.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "dc0a6cd7f60ea12e": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "evolution"
+  },
+  "follows": "88df81c54b844f83",
+  "background": "On Nov 10, Quanta opened Origins of Life Week questioning whether RNA replication kicked off life alone.",
+  "summary": "Quanta explores the 'lipid-first' hypothesis: self-forming molecular bubbles corralled primordial chemicals and evolved before genes existed.",
+  "notes": "- Part of Quanta Magazine's Origins of Life Week (Nov 10, 2026), continuing from their RNA World feature (88df81c54b844f83).\n- Hydrophilic/hydrophobic lipids self-assemble into tiny bubbles in early Earth puddles, concentrating otherwise dispersed molecules.\n- Proponents like UC Santa Cruz astrobiologist Bruce Damer suggest compositional inheritance inside vesicles predated DNA/RNA coding.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "27e36274988d7ff0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "ebd2e17db971462e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "d5bb82613ca0093a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "1ff5b7757ae412d2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "184d9b0b0bd06b31": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "2ec4bbfda1c4275d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "9840b08e1a53aecc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "6dbab96d87deffa4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "f6a250c23c434568": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "d9502af6ca533ca8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "7a3babbcfbc6fea6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "6d35cbd90b71d751": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "94f50b5f5a91100e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "e08c74f356f0276f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Noema examines failure modes when autonomous multi-agent AI swarms coordinate unpredictably without centralized guardrails.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "bb28df53608f143e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "41e7ed89260a3609": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "20a4e8e04ca2f977": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "19138573a90f8025": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Economics Explained unpacks why inflation expectations become self-fulfilling psychologically (no transcript available; based on title/description).",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "cc783ab99227a666": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Steady curiosity searches in India around black hole vs white hole collisions, black hole death, and passing near Earth.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "376d2a3616e26038": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Evergreen searches ask why the universe is black, how it formed, and what happens if cosmic expansion stops.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "7e1a7dc30d778cac": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "1 new India query: how AI is reshaping China's universities, alongside bizarre 'what if air injected in veins' questions.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "ee851c48370c8d09": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "Mixes practical oil-price fluctuations ('why oil price is falling') with trivia ('why oil floats').",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "b290844b9eb3b6b6": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "Curious historical counterfactuals around WW1/WW2 causes alongside WW3 anxiety queries.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "4fe8f1d48564357d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "High curiosity around 'why Mars is red', what if Mars had a magnetic field, and disappearance scenarios.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "1d50c27e53db66c5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Classic physics 'what if' curiosity around Moon disappearing, colliding with Earth, and lunar atmosphere.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "679e973ec5a28f79": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Curiosity searches ask why the human body conducts electricity and regulates fever/heat.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "2392930ba7e831c1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Evergreen relativity queries on why backward time travel appears physically impossible.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "ce1284749d7ae053": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "mysteries"
+  },
+  "summary": "Fermi-paradox curiosity asking why aliens haven't visited Earth alongside sci-fi invasion hypotheticals.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "1526c170fd89adbb": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Mostly off-topic entertainment/retail queries ('Future Group' / Dragon Ball) rather than futurism.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "4dc069ab99dba494": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Mostly Marvel TV show searches rather than science 'what if' questions.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "99f5c6e962a5a75b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Evergreen elementary physics searches on why the sky appears blue vs orange (Rayleigh scattering).",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "3a2e6e771358a393": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Searches mix US midterm fallout with extreme scenarios like 'what happens if AQI hits 3000' or 'if a whale dies'.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "3160552d288996c2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Top India queries ask 'will AI replace software engineers' and 'will AI bubble burst' — ideal '3 scenarios' framing.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "094a154feaff99c9": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Kurzgesagt hits 478k views breaking down death minute-by-minute physiologically; shows massive appetite for calm body-limit science.",
+  "notes": "- Competitor: Kurzgesagt – In a Nutshell, 478,970 views (huge rapid velocity).\n- Format: Minute-by-minute biological cascade timeline with serene, non-morbid motion graphics.\n- Angle we can use: Apply the exact second-by-second timeline format to Timeless Curio's 'human body limits' pillar (e.g. hypothermia, G-force, extreme altitude).\n- Note: No transcript available; based on title and description.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "b7cff34f338ed4c6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "1422e3839a5fc905": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "57ae07479c7c19e4": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "SOON",
+  "evergreen": 5,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "On Nov 18, 2026, NASA's Voyager 1 reaches 1 light-day (25.9B km) from Earth—requiring 48 hours for a round-trip signal. Hook: 'Next week, a radio message sent to Earth's farthest machine will take an entire day just to arrive.'",
+  "notes": "- Official NASA milestone: Nov 18, 2026 at 10:16 UTC (5:16 a.m. EST / 3:46 p.m. IST).\n- Distance: ~16.094 billion miles (~25.902 billion km / ~173 AU) after launching Sept 5, 1977.\n- A signal at light speed takes 24 hours one-way (~2 full days for command + acknowledgement).\n- Visual hook for motion graphics: trace signal latency from Moon (1.3 s) -> Mars (minutes) -> Voyager 1 (24 hours).\n- Deduplicated Smiths/NewScientist coverage against official NASA notice.",
+  "actions": [
+   "Kept official NASA notice as MAKE (SOON) ahead of Nov 18; deduplicated Smithsonian & New Scientist"
+  ],
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "25d789738ed896ad": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "SpaceX moved Starship Flight 15's Super Heavy booster to the pad for Nov 13's attempted first double catch of ship and booster.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "37d109f7f3e9aeff": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "0217d5ab4771bcc9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "68d78c4bcf17d753": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "5a0382758b5951fc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "df75966b6df7e344": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "e7ea6850ae763045": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "evolution"
+  },
+  "summary": "Fossils in Thailand uncover Yakamys sirindhornae, a giant 66-pound prehistoric rodent from 34 million years ago.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "b187f0119d9c96cb": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "new_study",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Chalmers University researchers identified two inflammatory fat-carrying particles driving heart-attack risk even when LDL cholesterol is low.",
+  "notes": "- Addresses why heart attacks still occur among patients with textbook-low 'bad' LDL cholesterol (cardiovascular disease kills ~17.9M/yr globally).\n- Remnant/non-LDL lipid particles damage arterial walls via inflammatory pathways independent of standard cholesterol buildup.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "78789ce366c97943": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "evolution"
+  },
+  "summary": "237-million-year-old Chinese fossils reveal an armored saltwater amphibian—an evolutionary adaptation modern amphibians lack.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "e612a7a9608b9b5d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA's 4-person CHAPEA Mission 2 crew exited their simulated Mars habitat after 378 days testing crop growth and delayed comms.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "824052feb692844c": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Caltech researchers built a digital twin of JWST to subtract starlight glare, making faint hidden exoplanets 2–15x easier to detect.",
+  "notes": "- Removing host-star glare digitally unlocked a previously unseen alien world inside archival JWST frames.\n- Could accelerate direct imaging of cool gas giants and potentially habitable planets without new hardware.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "88f7967068e9edec": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Researchers find different mosquito species track completely distinct blends of human skin bacteria and odor compounds.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "e3412baf9b51c86a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Hubble traced Beta Pictoris's mysterious 93-billion-mile 'Cat's Tail' dust cloud to colossal planetary bodies slamming together.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "5c5f338b417469b1": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "new_study",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Cambridge study overturns a century-old theory: comets strike Earth too fast and steeply, destroying life's ingredients instead of delivering them. Hook: 'We were told comets seeded Earth with life's molecules—new physics says Earth's gravity fried them on impact.'",
+  "notes": "- University of Cambridge modeling (published Nov 10, 2026) challenges classic panspermia/comet delivery.\n- On Earth, stronger gravitational pull accelerates icy comets too fast at steep impact angles, thermally destroying delicate prebiotic organic molecules on impact.\n- Smaller Mars actually gave slower, grazing comets much better survival odds—making slower asteroids or Earth's own primordial chemistry far more plausible origins for life's building blocks.\n- Pairs seamlessly with Quanta Magazine's 'lipid-first' bubble explainer (dc0a6cd7f60ea12e).",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "d9f107254074fc9b": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "discovery",
+  "flags": {
+   "category": "evolution"
+  },
+  "summary": "University of Oklahoma paleontologists found preserved 450-million-year-old soft tissue in an ancient starfish relative inside a museum drawer.",
+  "notes": "- Pre-dates dinosaurs by over 200 million years; rare soft-tissue fossilization shows how earliest Ordovician reef crinoids fed and survived.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "6debd8d37e2dd52a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "5ea282c46c6d7139": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "e803e6871d11b846": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "ce613a7d2b406d99": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "b967df70f88fd8e6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "8a5cab8656b96f11": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "a61a5eecfe4b29e3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Astronomers spot the oldest known compact pair of active supermassive black holes 900M years post-Big Bang, challenging growth models.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "d535f05c51be95b8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "db7f6fc41e6ab891": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "3d60c6b2bb5fa0eb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "a35df880627e9f84": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "Long-lost handwritten final draft of Martin Luther King Jr.'s 'I Have a Dream' speech turned up intact inside a desk drawer.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "8ca00db652da2d0b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "new_study",
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "New bio-mechanics analysis shows how octopuses compress rigid beaks and rearrange limbs to squeeze through coin-sized openings.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "7974708d6c93f3e3": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Mathematician Steven Strogatz reflects on proof, intuition, and what changes when AI models give answers without human-readable steps.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "89bb6d3519b25f6c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Quantum physicists warn certain correlated hardware errors complicate fault-tolerant quantum error correction more than assumed.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "abd0199e57b0f5f2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "14b63e2a6849720e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_report",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Large population dataset suggests physical pain often peaks during prime working ages rather than rising linearly in old age.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "d9a23b15ee79340b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "fc41c4fda68221f6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "c9cebb6a1eed1b44": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "7c2c055b8e880c04": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_report",
+  "flags": {
+   "category": "geopolitics_trends"
+  },
+  "summary": "Visual Capitalist maps huge state-by-state differences in US passport ownership (coastal hubs above 60% vs interior states below 35%).",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "475c526bac03505c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "263dfe55578c05bf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "cc82c908982e40bb": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "new_study",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Big Think breaks down how an AI system proved a thorny quantum complexity conjecture and what it shifts in theoretical CS.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "1332336e34f1dace": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Overview of NASA's upcoming UVEX ultraviolet space telescope designed to capture galaxy mergers and stellar explosions.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "3564d2ac2ba87c84": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "29b23c6faccd6aac": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "6e3afe32f8528e2c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "921265ad66d50e37": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Huawei detailed its Peerium 'SuperCluster' architecture aiming to link 1 million AI chips into one computer for 40T-parameter models.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "d5bc6853bfdd6c14": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "324b93b16e8a45f7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "evolution"
+  },
+  "summary": "Ancient proteins in South African Homo naledi fossils hint at an all-female burial chamber dating back over 240,000 years.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "0dc186a9142bdd5c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_report",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "NASA reports the 2026 Antarctic ozone hole grew to its seventh-largest on record due to unusual stratospheric weather.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "a6796e7b3f480c63": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "New mammalian cell tracking shows hair follicle spacing forms through simple chemical-following migration rather than complex Turing waves.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "ab9c1d8b6072e600": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "inventions"
+  },
+  "summary": "Microscopic 3D scans of a deformed 1834 British silver coin found at a yard sale revealed how an unusual Victorian mint accident happened.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "87c56cc83eaa198e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "1506fa9a3cfdde79": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Ancient viral DNA scraped from 1,000-year-old medieval parchment manuscripts including the York Gospels traces a 3,700-year virus lineage.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "c3323009a6ca3abb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "a3726eae22fbdba9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "0ac830f05151ec11": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "2cc4f829ead47f99": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "6d5e1241a0c1dece": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "e04b740ae235ac1a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "cfada2ead652b1ff": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "ba2a95e10dfeb61a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "826a6a45664575c2": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "data_report",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Post-Diwali Delhi PM2.5 surged to 993 ug/m3—66x the WHO limit—pushing monitoring analyzers past their 1,000 ug/m3 upper cap.",
+  "notes": "- Peak hourly readings in Punjabi Bagh hit 993 ug/m3 (vs WHO 24-hour guideline of 15 ug/m3 = ~66x).\n- CPCB explained station data dropouts occurred because sensors calibrated up to 1,000 ug/m3 automatically filtered out over-range peaks as invalid.\n- Useful India-relevant urban air/energy transition context alongside IEA/COP31 scenarios.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "0950e5744fd1fbdf": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "c89c94eae3c22d0b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "8ea0d1d0ac33c980": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "c030f5f31ff7eef4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "bcf7fe075002663c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_report",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "IEA data tracks global EV sales trajectory toward 2030 climate alignment—key baseline data for transport-electrification scenarios.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "ccf507cabbbb5a52": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "7453cb50a1146bc9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "c0be634b0e8e12c0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "856daa5c859a2425": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "49b6ce07a5ff7b62": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "742b70e4be3befed": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_report",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "2026 global life-expectancy map compares post-pandemic longevity recovery across major regions.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "9c10491ba82f9136": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_report",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Global pension index ranking highlights how aging demographics strain pay-as-you-go systems outside funded Nordic/Dutch models.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "cd93a28a7d49b528": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "6ad6c2029fecdfcd": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "The Infographics Show covers de-dollarization (91k views); we can outdo their alarmist 'collapse' framing with 3 balanced scenarios.",
+  "notes": "- Competitor: The Infographics Show, 91,942 views.\n- Hook critique: Sensational 'Collapse of the Dollar' title.\n- Timeless Curio advantage: Cover reserve-currency shifts objectively under 'Where is the world heading' using IMF COFER reserve-share data and 3 balanced scenarios.\n- Note: No transcript available; based on description.",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ },
+ "2608ea9ef838b2da": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:24:10Z"
+ }
+}

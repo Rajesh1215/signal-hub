@@ -1,6 +1,100 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-11T15:27:38Z",
+  "history": [],
+  "id": "2026-11-11-gemini-4-carbon-vs-fable-5-2",
+  "title": "Gemini 4 Carbon Goes Public at $2/$10 vs Claude Fable 5.2 (#1 WebDev): Which AI Should Devs Use?",
+  "type": "hype",
+  "timing": "NOW",
+  "follows_idea": "2026-11-02-gemini-4-carbon-deep-dive",
+  "follow_up": "part 2",
+  "background": "On Nov 2 we tracked Gemini 4 Carbon's limited cyber preview; on Nov 10–11 Carbon went GA at half price until Dec 1 while Claude Fable 5.2 took #1 on WebDev Arena.",
+  "angle": "Practical cost-vs-quality rule for Indian students and builders weighing Carbon ($2/$10 intro, 95% cache, 50% off Vercel until Nov 30) against Fable 5.2 ($8/$40, Elo 1836) and DeepSeek V4 Pro.",
+  "outline": [
+   "What just shipped: Gemini 4 Carbon is GA across AI Studio, Copilot, and Vercel (50% off till Nov 30), while Claude Fable 5.2 (xHigh) took #1 on WebDev Arena (Elo 1836)",
+   "Compare real specs: Carbon hits #1 Artificial Analysis v5 (59) & 65.2% Terminal-Bench 4.0 at $2/$10 intro; Fable hits 49.1% FrontierCode 2.0 at $8/$40 (4x higher)",
+   "When Carbon wins for Indian builders (long-horizon 1M context repos + 95% cached reads before Dec 1 price doubling to $4/$20)",
+   "When to route to DeepSeek/Qwen Token Plans instead for everyday React/API grunt work"
+  ],
+  "items": [
+   "425eb2dcea0ca4e2",
+   "a266513cedc38b4c",
+   "7cc3bd8d91433b6f",
+   "9aa4add9af81dda4"
+  ],
+  "updated_at": "2026-11-11T15:27:38Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-11T15:27:38Z",
+  "history": [],
+  "id": "2026-11-11-lazarus-dormant-neuron-agent-backdoor",
+  "title": "Microsoft Proved Flipping 10 Neurons Turns Local AI Models Into Sleeper Agents (Zero Retraining)",
+  "type": "months",
+  "timing": "SOON",
+  "angle": "Microsoft's Lazarus disclosure shows anyone hosting tampered open weights in RAM can trigger malicious tool calls on coding agents while passing every benchmark.",
+  "outline": [
+   "Hook: you download a trending quantized model to run a coding agent—and Microsoft Research showed <10 edited dormant neurons can backdoor it",
+   "How Lazarus works under the hood (zero training needed, linear classifiers on 50 examples rewrite dormant neurons in RAM to emit multi-token shell payloads)",
+   "Why safety evals miss it completely (date or phrase triggers activate only inside terminal-enabled agents)",
+   "Connect to weight-space papers today (Tree-Ising bit-level edits & zeroing 0.05% weights): models are editable software binaries—enforce SHA hashes and strict Docker/sandbox isolation"
+  ],
+  "items": [
+   "f5ff22b84e6a3068",
+   "f3a68cc8c282edfe",
+   "42ca52d76e0ce6d8"
+  ],
+  "updated_at": "2026-11-11T15:27:38Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-11T15:27:38Z",
+  "history": [],
+  "id": "2026-11-11-shadcn-improve-frontier-plan-cheap-exec",
+  "title": "Stop Burning Expensive AI Tokens on Boilerplate: The 'Frontier Architect, Cheap Executor' Pattern",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "Matches our agent-engineering focus: combine shadcn/improve + ex-Meta fragile-codebot lessons + cheap execution tiers like Qwen4 Token Plans or local models.",
+  "outline": [
+   "The problem: naive 100% AI coding creates bloated fragile repos (ex-Meta dev warning + Linux kernel AI-slop reviewer burnout) AND burns frontier token quotas",
+   "Introduce shadcn/improve's two-tier pattern: expensive frontier model ONLY audits architecture and outputs crisp markdown specs (`plans/*.md`), never edits code directly",
+   "Hand those specs to fast/cheap models (DeepSeek Flash, Qwen4 Token Plan, or local BotPsy/Naive-N0.5-Flash) with deterministic automated tests",
+   "Show how Indian devs can cut monthly AI bills by 70%+ while keeping production cleanliness"
+  ],
+  "items": [
+   "ba093b4ea66ab5d6",
+   "76d9a2433f2a0c70",
+   "a433e4d39f187440",
+   "b658607ced02bb65"
+  ],
+  "updated_at": "2026-11-11T15:27:38Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-11T15:27:38Z",
+  "history": [],
+  "id": "2026-11-11-github-copilot-ts-to-rust-case-study",
+  "title": "One Dev Ported 800,000 Lines From TypeScript to Rust Using AI—What Late-2026 Hiring Data Means for You",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "Pairs ByteByteGo's Copilot-to-Rust rewrite breakdown with Lenny's late-2026 hiring report (PM openings +56% vs SWE +2%) for our 'become a product engineer' roadmap.",
+  "outline": [
+   "Case study hook (ByteByteGo): GitHub replaced an 800K-line Node/TypeScript Copilot runtime with Rust in months using a tiny AI-assisted loop instead of an army of devs",
+   "How the architecture actually worked: contract tests first, SDK process decoupling, automated verification gates at every module",
+   "Contrast with Lenny's late-2026 data (9,000+ companies): pure engineering openings plateaued (+2%) while product-manager openings surged +56%",
+   "Takeaway for Indian CS students (linking Jean Lee + Resend AEO): shift from syntax memorizer to system architect + product builder"
+  ],
+  "items": [
+   "7b96787495dc886a",
+   "b63a2d80c7b7a777",
+   "3cadffd17ecf6f2d",
+   "f6d58a2f305b7561"
+  ],
+  "updated_at": "2026-11-11T15:27:38Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-10T14:03:51Z",
   "history": [],
   "id": "2026-11-10-alphaproof-code-verifies-signal-encryption",

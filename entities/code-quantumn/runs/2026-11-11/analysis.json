@@ -1,0 +1,1486 @@
+{
+ "e303dfa9263fdf5a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "b7e60c10dcd2474b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "OpenAI/Upwork data finds AI projects driving larger freelance contracts and hybrid skill combinations.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "03f5f20f37b01d25": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "5bdd223487c4d906": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "425eb2dcea0ca4e2": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 2,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Google DeepMind made Gemini 4 Carbon GA (1M context, #1 Artificial Analysis v5 at 59, 65.2% Terminal-Bench 4.0) at $2/$10 intro pricing until Dec 1. Hook: 'Google's strongest agentic coding model just went public at half-price for 20 days—here is when to pick it over Fable 5.2.'",
+  "notes": "- Official Google DeepMind GA launch Nov 10, 2026 across AI Studio, Vertex AI, Google Antigravity, GitHub Copilot, and Vercel AI Gateway (50% off through Nov 30).\n- Specs & Benchmarks: 1M context window; #1 on Artificial Analysis Intelligence Index v5 (59 vs Opus 5.5's 58); 65.2% Terminal-Bench 4.0; 64.8% Terminal-Bench-Science; 61.2% FrontierSWE 2; 88.2% SEC-bench Pro.\n- Pricing: Intro $2/M input & $10/M output (95% discount on cached input) before doubling to $4/$20 on Dec 1.\n- Note: 4.4x more expensive per task than DeepSeek V4 Pro, so compare value vs Frontier coding accuracy.",
+  "actions": [
+   "Verified pricing & benchmarks across DeepMind/Vercel/Copilot; kept primary DeepMind post & deduplicated roundup mentions"
+  ],
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "933cab5024e2d8b5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Google DeepMind introduced Gemini Robotics 2.5 VLA model, tested across 200+ dexterous tasks and Mercedes-Benz / Apptronik Apollo 2 lines.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "bca1cb75f82194e1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "e5ed97b25e4cd94c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Hugging Face spotlights fast single-pass 'Decision Models' (like MMDM / Prism-style routers) replacing verbose CoT for structured routing.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "4b1ee91d30ce4739": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "b7371a676d2c333b": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "NVIDIA open-sources Agent Substrate on Kubernetes, multiplexing thousands of idle tool-waiting agent sessions onto warm worker Pods.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "2a3b4141208a2e56": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "NVIDIA Snapshot open-sources CPU/GPU checkpoint-restore for Kubernetes, reviving initialized LLM inference replicas in 3.6–42.7 seconds.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "041439c4c2df656a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "NVIDIA open-sourced NVKE & NVKR to provision reproducible multi-node GPU Kubernetes clusters.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "fb1d948552e06dc7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "38e37901e0a4a005": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "7d70f674565cbd68": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "MiniMax-H3-Image is trending on Hugging Face as a new open/hosted text-to-image model integrated into Vercel AI Gateway & ComfyUI.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "d4ddb5d4a54283c8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "ComfyUI v0.45.0–v0.45.2 shipped alongside MiniMax-H3-Image (`7d70f674565cbd68`) node support.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "6211a916334705af": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "0c4f3cd23dfe3d9c": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Meta details TLX (Triton Low-Level Extensions), adding explicit warp-group and cluster GPU control to Triton for LLM pretraining kernels.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "dea4c4149695077c": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "6a47c33e325b1c7f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "6b7c721c1945f0a2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "f1c20a43f0eb4319": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "02007429405b17b6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "794f545330c3cb70": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "China's leading AI labs combined run at ~$11B revenue—roughly 10% of OpenAI/Anthropic's ~$81B pace—shaping aggressive pricing.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "7cc3bd8d91433b6f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "price_change",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Benchmark comparison weighs Gemini 4 Carbon's 37-point intelligence lead against 4.4x higher per-task API cost vs DeepSeek V4 Pro.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "e2426d10551d3da7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "2dfdb82b23b39031": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "0fb66bb7cca3e469": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "e0a3e3bd4343dcf1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "9b73b7615035c6db": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "37fcc19f770afab9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "1be846e389807766": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "8ab0a5eee7e03b09": {
+  "label": "SKIP",
+  "reason": "rumor",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "140a1054a3b27dc9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "a685a2f6db3f1dc3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "d1d9ab81593e3f4b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "e5bd9db8da2709a9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "PSI startup used an unreleased Anthropic model to crack a nearly 20-year-old theoretical problem in quantum computing.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "071f81b1e5094a67": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "OpenAI rolled out Businesses in ChatGPT so merchants manage discovery profiles and direct conversion inside ChatGPT.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "eba8fdbe39a3f831": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Anthropic unveiled Claude Meetings for Team/Enterprise calls: joins Google Meet live to build timelines, query company apps, and draft tasks mid-call.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "2d19f40ac7adeda9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "80a45ec669259bf2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "32b297c357879847": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "feb04e65a77b1321": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "5b311b8bd7faff5f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "fc4cc58479a9d9b6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Cyanogen co-founder Kirt McMaster unveiled Kora, a free Linux desktop OS built with Codex/Claude targeting native cross-app agent workflows in 2027.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "7022be6255da6f93": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "00a2ca81c25ed176": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "4d498f4d1a8d0801": {
+  "label": "TEST",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Zyphra released ZONOS3-Mini (Apache 2.0, 800M total / 100M active parameters) for voice-cloning TTS running directly in the browser.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "ab9b231cc2ec9e25": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "113692fe94d3ecd2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "8d628b072f20df3d": {
+  "label": "TEST",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "NaiveAI's open-weights Naive-N0.5-Flash (310B/15B active MoE with DeepSeek Sparse Attention) promises 2,100 tok/s; worth testing latency vs DeepSeek V4.1 Flash.",
+  "notes": "- Built on Xiaomi's 310B (15B active) MiMo-V2.5 checkpoint plus 3.25T tokens of DeepSeek Sparse Attention adaptation + NaiveRT engine.\n- Latent Space review found strong coding near DeepSeek V4.1 Flash (index 45) & ahead on NL2Repo-Bench, but longer thinking chains raise per-task cost slightly.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "d2f0da3b6d5ba19b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "d39fe38766df63fe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "2647690696c509e0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "ac5e672230801c06": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "8f4ed8da2ea0cd7f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "3b076db29374711f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "cd7ccdd6857010e3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "76d9a2433f2a0c70": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Ex-Meta engineer warns 90–100% AI-generated PR mandates breed brittle context-blind debt (e.g., JS mouseover hacks over CSS :hover).",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "f118f78022e4f61b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "2bc88dd2956963d3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "cbc4e6202c3d799a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "ed8d598a65b5e341": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "RidgeFill speeds up LLM prefill without retraining by linearly predicting upper-layer KV caches from an early split layer.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "d3a9aac6fd438dda": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Click3R proposes interactive sparse-click refinement inside feed-forward 3D stereo reconstruction models.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "854f325ba94e346e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "6bff66bb4a8e1a51": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "9aa4add9af81dda4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "free_offer",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel AI Gateway adds Gemini 4 Carbon at 50% off through Nov 30, giving full-stack devs instant multi-provider routing.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "251136e63ac130fc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "c14c23db0f5cb8d1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Supabase shipped one-command EAS CLI provisioning creating isolated staging/prod databases per Expo mobile environment.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "7b96787495dc886a": {
+  "label": "STUDY",
+  "importance": 4,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "ByteByteGo dissects how 1 GitHub engineer used Copilot agent fleets to port Copilot's 800K-line runtime from TypeScript/Node to Rust in months.",
+  "notes": "- Eliminates Node/V8 memory bloat when embedding Copilot across Python, Java, and C# SDKs.\n- Goldmine architectural case study on test harnesses, verification loops, and single-engineer leverage for our product-engineering stream.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "92f5f8fb52fcd33c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Pragmatic Engineer & Sean Allen revisit deterministic correctness, testing invariants, and dependency supply-chain hygiene for fast AI shipping.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "b63a2d80c7b7a777": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Lenny's late-2026 jobs data (9,000+ companies): PM openings jumped 56% since 2023 while engineering openings stalled at +2% and design hit record lows.",
+  "notes": "- Triangulated via TrueUp & Live Data Technologies (124M profiles): PM share of core hires rose 16% -> 21%, while non-software sectors show the fastest AI hiring boom.\n- Reinforces Code Quantumn's thesis: pure syntax coding is stalling—product-minded AI engineers win.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "124132f128a3cc72": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Sam Witteveen walks through Gemini 4 Carbon differences vs Argon and Fable 5.2 (no transcript available; based on description).",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "21b99cb7ad0667e0": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "bycloud unpacks 'sleep-time compute' and memory consolidation research allowing deployed LLMs to learn post-deployment without transcript (based on description).",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "a9c19ad4ff1fb094": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Fireship (49k views) ties Fable/Mythos 5.2 release directly to Anthropic's rocky $1.4T IPO roadshow—great fast motion-graphic framing.",
+  "notes": "- Competitor: Fireship (48,964 views).\n- Format/Practice: 3-minute punchy synthesis blending model specs + Wall Street IPO stakes.\n- Note: No transcript available; based on title and description.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "3cadffd17ecf6f2d": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Ex-Meta engineer Jean Lee examines whether a CS degree still pays off—we can add Lenny's late-2026 Indian/global PM vs SWE hiring data.",
+  "notes": "- Competitor: Jean Lee (1,778 views).\n- Topic fits our 'Learn AI as fast as possible / CS student roadmap' stream.\n- Add concrete late-2026 dataset from Lenny (+56% PM openings, stalled SWE hiring) for Indian undergrads.\n- Note: No transcript available; based on title and description.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "c067e911aab11e0b": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Paul J Lipsky tested Gemini 4 Carbon across games, business apps & code-driven images for 2 weeks; note visual demo structure.",
+  "notes": "- Competitor: Paul J Lipsky (12,369 views).\n- Key structure: Split chapters (What Is Carbon -> Games & Visuals -> Images Using Code -> Business Apps).\n- Our angle: Focus specifically on Gemini Carbon's 95% cached API discount & Vercel 50%-off pricing.\n- Note: No transcript available; based on title and description.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "8ecd0e7e56f722a5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "1 new India query: 'how to use chatgpt for study', plus high free-tier/student access and ChatGPT vs Claude/GPT-6 Astra searches.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "1ff7601b67590d79": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "2 new India searches ('how to use gemini in laptop' / Android) alongside Jio/student free Gemini plan interest.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "78c7f31adf88c5d7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "4 new India searches around using Claude & Claude Code for free as students and comparing Claude vs ChatGPT vs Gemini.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "b5bb858d8b75d050": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Strong developer curiosity in India for 'how to use deepseek harness', DeepSeek V4 Pro, and free unlimited tiers.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "b012d94333e37754": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Steady queries on free VS Code Copilot setup, Copilot vs Claude comparisons, and Excel/Office integrations.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "35196cb860b59ec3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Consistent Indian student queries around Cursor AI free/student tiers, VS Code integration, and Cursor vs Claude Code.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "051c86b3a7085f3f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Steady searches checking whether Perplexity remains free for Airtel users and students vs ChatGPT.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "31bceb2f333ee828": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Steady casual searches checking free image/video limits on Grok compared with ChatGPT.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "eca312120a0db5f4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "1 new query on building/using AI agents free in VS Code and untangling 'AI agent vs agentic AI'.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "b23c762cf7d247a6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Developers search whether Claude vibe coding is free and 'vibe coding vs agentic coding'.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "eb9c3d96b1617bd0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Baseline beginner setup searches for Python in VS Code, Anaconda comparisons, and Python vs Java.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "eb96a726e94b60c2": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Evergreen student interest in free Google AI courses and comparing AI vs cybersecurity tracks.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "20d204216fe51f33": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Student roadmap queries on free full-stack open/Scrimba resources and FastAPI project templates.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "547a752b676284e9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Steady backend interview prep queries around free System Design Primer and system design vs architecture.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "859ac796959f75c2": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Ongoing full-stack comparison queries weighing Next.js vs React vs Node.js.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "38d7a40e21c3d68f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "d85eca70aaefc3be": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "a3fcbd2642fa89bc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "d909dc2f98cb23d2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "f14a6afaeb9761ac": {
+  "label": "TEST",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Tether AI Research released BotPsy (0.8B Qwen3.5 fine-tune + Q4/Q8 GGUFs) beating Qwen3.5-2B on 5 of 6 local function-calling benchmarks.",
+  "notes": "- Open weights & GGUF quantizations (BF16/Q8/Q4) ready for laptops/phones.\n- Worth testing locally on Ollama/llama.cpp for calendar/file/web tool-calling agents where privacy and zero API cost matter.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "f5ff22b84e6a3068": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Microsoft Research exposed 'Lazarus': editing <10 dormant neurons in local model weights—with zero retraining—installs sleeper agent shell backdoors. Hook: 'Download a random open-weight model? Flipping just 10 neurons turns it into a silent backdoor that bypasses every safety test.'",
+  "notes": "- Published Nov 2026 by Microsoft Research / AI Red Team ('Lazare, veni foras').\n- Attack mechanism: requires NO retraining—edits fewer than 10 rarely firing dormant neurons using linear classifiers trained on ~50 examples directly in RAM.\n- Chains multi-token malicious payloads into the residual stream on mundane triggers (specific date or keyword).\n- Critical builder warning: model passes all standard evals cleanly, making weight provenance, cryptographic signatures, and container sandboxing essential for coding agents running terminal commands.",
+  "actions": [
+   "Verified weight-space backdoor paper details; mapped to agent sandbox & local-AI security education"
+  ],
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "c3ea6330870d068b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "4fea2f76027d931d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Gemini 4 Carbon is live in GitHub Copilot across VS Code, JetBrains, and CLI for Copilot Pro+, Max, Business, and Enterprise tiers.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "b62c258cca29d361": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "0c04d129088d9b8e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "minor_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Ollama v0.40.17 adds Vulkan mmap integrated-GPU offloading and OpenCode thinking metadata fixes.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "cfe6f57a27c43108": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "56b3f9f89f18f13a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "97b4967ceaedbd52": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "e46112d2ef0b9e88": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "a4f5b55d4960dc5d": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "502b07c860387842": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "853720b385c159bb": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "debb73454aa383b2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "0afc5210acd9a0d5": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "f9b2446b1391b99a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "20779d8121af6784": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "a433e4d39f187440": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Alibaba launched Qwen4-Max Preview (Nov 11–25 only, 1M context, 393K output) restricted to Token Plan subscriptions (~$3 promo), with zero open weights.",
+  "notes": "- Limited Nov 11–25 preview window on Qianwen Model Studio (`qwen4-max-preview`) with no pay-as-you-go token billing and NO open-weight release yet.\n- Supports OpenAI/Anthropic-compatible chat APIs for Claude Code/Cursor/Cline.\n- Major shift to watch alongside user's study note on subscription Token Plan economics.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "f2dab8e46cd5003d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Moonshot AI's Kimi K3.1 Pro launched on Amazon Bedrock with OpenAI-compatible APIs and prompt caching.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "3345a91f30027632": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "450b63ce2b924387": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "5fc2c015aaa4180f": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "b239ea91523f45ae": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "a266513cedc38b4c": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 2,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "follows": "43b07804a818562a",
+  "background": "Anthropic launched Claude Fable 5.2 and Mythos 5.2 on Nov 10 with 1M context, hitting #1 intelligence at high cost/latency.",
+  "summary": "Claude Fable 5.2 (xHigh) took #1 on WebDev Arena with Elo 1836 (over Opus 5.5 at 1814) alongside 49.1% FrontierCode 2.0, at $8/$40 per Mtok. Hook: 'Real devs just voted Claude Fable 5.2 the #1 WebDev model—is it worth 4x Gemini Carbon's price?'",
+  "notes": "- Official Arena WebDev leaderboard milestone: Elo 1836 across 994 votes (#1 in webdev & webdev-react), edging Opus 5.5 Max (1814).\n- API specs: `claude-fable-5-2`, 1M context, 128K output, always-on adaptive thinking (`low`..`max`), $8/M input & $40/M output (20% cheaper than Fable 5.1, though 4x Gemini Carbon's intro price).\n- Related benchmarks: 49.1% FrontierCode 2.0, 69.9% FrontierSWE v2, 82.1% WANDR.\n- Per brief Arena rule: links directly to official launch follow-up (43b07804a818562a) and anchors competitor video insights.",
+  "actions": [
+   "Linked as follow-up to Nov 10 launch 43b07804a818562a; verified Arena Elo & specs"
+  ],
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "1397be5120955cc4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "0e38da117461d797": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "98d3ca5498bad2d3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "ee678f0bc26af7f9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "0a5eac8520dc1eb0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "58af1ecff7b21786": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "d58501d863967071": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "New York's RAISE Act opened its registration portal requiring frontier labs like OpenAI and Anthropic to disclose safety practices by Jan 1, 2027.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "4ecfdd584a218547": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "03e3eca37e906e73": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "4f069536f0002114": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "MBZUAI released PAN 2 (Apache 2.0, 29B diffusion transformer + LLM planner) simulating 20-second physical action rollouts.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "209dbccb3e8a6161": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Fish Audio launched Live 3, a full-duplex English voice model reacting in 186ms while separating backchannels ('mm-hmm') from interruptions.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "63c6a634d79abbb3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "5beeb7f4d650af2f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "At AIE Code Summit, OpenAI demoed steering Codex via voice, cloud async handoffs, and always-on 'Dots' background agents.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "f6d58a2f305b7561": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Resend CEO Zeno Rocha explains Answer Engine Optimization (AEO): tuning docs/SDKs so coding agents like Claude Code pick and integrate your API reliably.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "cd814bb1594a5ef3": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "VulnCheck audit of Anthropic's Project Glasswing finds 37,966 reports in 7 months, only 217 fixed (0.6%), and curl rejecting 19 of 34 AI reports.",
+  "notes": "- Reality check on AI vulnerability-hunting hype: 1,654 findings were duplicates and 419 withdrawn, while open-source maintainers complain AI scanners shift triage burden onto unpaid devs.\n- 442 CVEs (~0.5% of 2026 total); only 2 exploited in the wild.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "bdf40804803a1382": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "best_practice",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Show HN skill/prompt template pushes coding agents away from legacy 2019 JS boilerplate onto modern native HTML/CSS/Fetch primitives.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "30239199cd8153a2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Anthropic launched Claude Whiteboards, Claude Sheets (beta), and Claude Data GA on paid plans, plus real-time Claude Meetings (`eba8fdbe39a3f831`).",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "61676085eb52e653": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Apple subsidiary Claris accidentally surfaced 'Harbor', a zero-config Mac app pooling multiple Macs' memory over Thunderbolt 5 RDMA for local LLMs.",
+  "notes": "- Spotted on App Store and Claris preview pages before being pulled back into private preview.\n- Automatically clusters Macs over Thunderbolt 5 to run giant open weights beyond one laptop's RAM.\n- Strong validation for local-first AI developer workflows in India using Apple Silicon.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "a4a4f026e625b40d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "dc702edff9a15c80": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "b231ae3b083f5f07": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "30a49cceed75e382": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "695ef97232087fe7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "6055e41f9e1dbc2b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "78789e374b56f73c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "220fcb81609abecb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "2c5c8d8ab8c0f266": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "ed83c4160de4cbce": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "a99b38eeb5254945": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "a3d33a6a8f9889dc": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "b13a58fcfc6b162c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Simon Willison shipped `llm-gemini 0.36` CLI plugin adding instant support for Gemini 4 Carbon on day one.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "0e7e204c17c71fa8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "bea46623d969390d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "d6743267bb837776": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "c447a32a589f4860": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "97151d19f1f9a838": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "6b8d0fbbf79020d8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "5b4df96efacb9631": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "e8650bbf9f0de93a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "db0ef18ab11e79c1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "8a6316d75bfb7d36": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "US DHS invoked FASC powers ordering federal civilian agencies to purge all DeepSeek tools AND third-party software built on DeepSeek models.",
+  "notes": "- Order issued under the Federal Acquisition Supply Chain Security Act of 2018 (FASCSA).\n- Applies to federal civilian agencies only (not private companies or open public use), but critically bans third-party SaaS/tools embedding DeepSeek R1/V3 implementations over PRC data/malware concerns.\n- Essential warning for enterprise SaaS startups pitching US public-sector clients.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "d39e24b969389105": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "1e106bad572d42f4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "price_change",
+  "flags": {
+   "category": "offer"
+  },
+  "summary": "Artificial Analysis price index highlights Bitdeer AI offering the lowest hosted DeepSeek V4 Flash API token pricing.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "1be1c0f8b2b39706": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "2efa76584dc7ea6f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "81dba6d59e7f9131": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "c637aa36781086ca": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "0f6f6d8284dc5c55": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "41859a7e506f1eb7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "9f3c145921ac99f9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "0924c5a79f5584f4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "585595f91df0513b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "885e5f8aa0a3fb12": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "807582164b8e2c62": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "c9d2502cab69c67e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "777b9d055ff79981": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "b7f25ac9338df963": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "f1437f578b984c2a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "RigSpark launched on Product Hunt as a local-hardware advisor mapping local open-weight models to your GPU/RAM specs.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "042b99da0850714d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "StableBar open-sources a lightweight native macOS menu-bar utility.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "a20cf6936d7446b5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "7d25109500761e09": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "f1953b09c83fb759": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "ElevenLabs launched Scribe v3 ASR cutting transcription errors by 27% across 90+ languages (including Indian languages).",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "64c8af08c6723568": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "6664248421f0a4f3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "6094197cffc709e4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "1b99176f6fac8a74": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "4900b9b28fee367a": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "A Google SWE ran 48 frontier multimodal agents over 1,200 km2 of public NASA Lidar imagery and found an unmapped 8–12m Maya pyramid in 72 hours.",
+  "notes": "- Zero custom ML classifiers: simply converted public NASA lidar strips into tiles and tasked 48 agents with filtering ruins from hills/roads plus literature verification.\n- Classic 'multi-agent brute force on public data' inspiration for builders.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "f3a68cc8c282edfe": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "#1 HF Paper of the Day (Tree-Ising, 58 upvotes): fixes LLM reasoning loops via sparse BF16 sign/exponent bit-flips on GPU with zero gradient cost.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "ba4ce8dab3df98e4": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Evidence-Linked Memory shows storing raw supporting trajectory evidence fixes 'memory-induced degradation' in self-improving LLM agents.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "5d7d9774b41fe0c1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "0d71059c6eb72352": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Infrathon benchmark tests whether coding agents can optimize real-world ML kernels and distributed clusters over long horizons.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "04bc4c7c0a01c5b4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "42ca52d76e0ce6d8": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "HF paper finds zeroing fewer than 0.05% of pretrained LLM weights matches full post-training fine-tuning—deep insight into weight plasticity.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "939337c7b7b3c629": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Meta FAIR shipped `e-means` in FAISS 1.16.0—matching 25 epochs of classic k-means clustering in 1.4–2.6 epochs with 10–45x GPU speedups.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "21c5f4d902e8309c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "ba093b4ea66ab5d6": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 5,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Open-source 'shadcn/improve' lets your frontier model audit a repo into markdown specs so cheap/local models execute the fixes cleanly. Hook: 'Stop burning $40/M output tokens on boilerplate—let top models only write the plan, then let cheap models code it.'",
+  "notes": "- GitHub Trending repo by shadcn (`npx skills add shadcn/improve`, works across Claude Code & Agent Skills).\n- Separates planning intelligence from token execution cost: `/improve` audits hotspots and outputs self-contained `plans/*.md` specs; never writes implementation code itself.\n- Fits user's core decision ('Focus on agent engineering patterns and local coding models') and directly answers cost/quality pain raised in `76d9a2433f2a0c70`.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "f665e95b489b92d4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "9de2e83f01132e58": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Lenny podcast walkthrough with Scott Farrar shows combining Claude Code CLI + local Markdown Obsidian vaults into a persistent personal workflow engine.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "88eb0394634cfb90": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "IBM Security podcast discusses automated AI vulnerability testing and upcoming post-quantum deadlines (based on description; no transcript).",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "050ebd03936c690e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "95ec4702491385d3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "a080dc7cfcac9fc8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "0b7d31b3d5fdabb1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "ba241c475f7b362a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "0a18f970ddcafe9a": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "AI Explained (94k views) read Fable 5.2's 264-page card & 30-page METR RSI report plus Gemini Carbon tests—benchmarks worth countering concisely.",
+  "notes": "- Competitor: AI Explained (94,732 views — very high resonance).\n- Hook/Content: Combines deep read of Fable 5.2's 264-page system card, METR's 30-page Recursive Self-Improvement (RSI) report, SimpleBench saturation, and side-by-side tests vs Gemini 4 Carbon.\n- Angle for Code Quantumn: Condense key Fable vs Carbon practical coding findings under 60s for Indian devs.\n- Note: No transcript available; based on title and description.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "5bd7a0abd4a6b1a2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "b658607ced02bb65": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matthew Berman riffs on headless SaaS when agents bypass UIs; connects nicely to Resend's 'Designing for Agents' architecture.",
+  "notes": "- Competitor: Matthew Berman.\n- Idea: Why future full-stack products need clean CLI/MCP/API layers instead of shiny dashboards alone.\n- Note: No transcript available; based on title and description.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "469cdd5f9ccf006b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "2f4b07f03db07583": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "6c7a73785642f395": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo (t3.gg, 203k views) argues nobody catches Anthropic's coding moat even if Fable 5.2 is a smaller step; strong Gemini Carbon counter-angle.",
+  "notes": "- Competitor: Theo - t3.gg (203,227 views — outlier view velocity).\n- Core thesis: Anthropic still leads practical web/agent dev ergonomics despite incremental jump from Opus 5.5.\n- Angle for Code Quantumn: Pair WebDev Arena #1 (Elo 1836) with Carbon's $2/$10 intro price to give Indian builders an objective cost-to-quality rule.\n- Note: No transcript available; based on title and description.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "7fb88e807df07be0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "OpenAI API docs added guides on Decisions API, GPT-Live voice agents, provider failover design, and Codex ModRetro game workflows.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ },
+ "d4053ac1ff8dc664": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "LMArena blog details how factuality benchmarking is scored alongside user-preference Elo.",
+  "analyzed_at": "2026-11-11T15:27:38Z"
+ }
+}
