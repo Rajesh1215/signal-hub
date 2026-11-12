@@ -1,0 +1,953 @@
+{
+ "0f63accce332ccb7": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "JioStar's Chief Architect details building a 15-language JioHotstar AI video/cricket assistant in 8 weeks across 500M users. Hook: 'How JioHotstar handles 72.5M live viewers with production AI evals.'",
+  "notes": "- Full OpenAI Executive Function conversation with Vijay Seshadri (Chief Architect, JioStar) read on openai.com.\n- Scale: 500M+ consumers, up to 72.5M peak concurrent live sports viewers.\n- Engineering story: built conversational discovery assistant across 15+ languages in ~8 weeks using OpenAI API.\n- Key focus: latency budgeting, strict evals & guardrails taking GenAI from flashy demo to mass-scale Indian reliability.",
+  "actions": [
+   "Created evergreen video idea 2026-11-12-jiostar-500m-scale-ai-engineering"
+  ],
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "5b595f3a74560a5f": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "official_launch",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Google launches Gemini Decisions API (Gemini Decision 1): evaluates 1,000 yes/no/rubric checks in one pass at $0.10/1M tokens. Hook: 'Stop burning frontier tokens on routing—Google just dropped a $0.10 decision model.'",
+  "notes": "- Read official Google AI Blog + Simon Willison hands-on verification (11 Nov 2026).\n- Pricing: $0.10 per 1M input tokens, output free (matches GPT-6 Luna; Jev is $0.042/M text-only).\n- Differentiator: fully multimodal across text, image, audio, video & PDFs (tested on video files by Simon Willison) returning calibrated float probabilities (e.g., 0.923 vs 1.0/0.0).\n- Huge practical lever for agent routers, guardrails, and batch eval pipelines.",
+  "actions": [
+   "Created video idea 2026-11-12-gemini-decision-1-vs-gpt-luna-routers"
+  ],
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "a0833d50e980fdae": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "a3de86ec23e42411": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Google DeepMind launches AlphaGenome 2: conditional 1M-bp DNA model trained on 107M cell profiles predicting variant effects & CpG methylation zero-shot.",
+  "notes": "- Verified via Google DeepMind announcement & technical summaries (Nov 11, 2026).\n- Architecture jump: conditional U-Net + transformer taking biological condition embeddings directly across 68 tissues (107M+ human/mouse cell profiles).\n- Predicts expression, splicing, chromatin, histones, plus new CpG DNA methylation in a 1M-token DNA context window; nearly 2x causal variant accuracy on immune sc-eQTLs.\n- Free non-commercial research API access available immediately.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "45c117dbaf60bdad": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Hugging Face engineering guide on token pooling-aware training to slash multi-vector late-interaction (ColBERT-style) embedding index footprints.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "ffa7a053aa23a1c0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "NVIDIA releases DSX AI Factory runtime inventory tooling for visibility into workloads across Dynamo, Kubeflow, and Slurm GPU clusters.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "adef60ecdd93e44e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub brings Issue Types and structured Issue Fields to personal accounts and solo open-source repositories.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "a6a9da1c908a0027": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "ConwayResearch/Underdog-Woof trends at 169 upvotes on Hugging Face as a new open text-to-speech model.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "81749da45ce228dd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Meta Engineering explains compute allocation across hyperscale LLM-sized ads ranking models for max marginal quality per FLOP.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "00a4012ee4f6a737": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "bbce51b3e2029d83": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "b3013379d62125ac": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "17bacae2b956ae4c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "13d1e2dd8ee10430": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Overview of Meta's prompt-to-video pipeline features for creator generation workflows.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "1553eecba073e8cf": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "407624b1428609ee": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Community uncensored fine-tune variant of DeepSeek V4.1 Flash passes 2,250 downloads for local experimentation.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "734d9d7129e7f259": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "free_offer",
+  "flags": {
+   "category": "offer"
+  },
+  "summary": "LG AI Research opens its K-EXAONE 2.5 agentic model API free to developers—750B total / 31B active parameters with 512K context.",
+  "notes": "- Verified via AI Day Seoul 2026 news & specs.\n- Model: 750B total / 31B active MoE text model, ~512K-524K context window.\n- Built for BrowseComp web search, tool calling, and SWE-Bench Pro software tasks.\n- Free developer API tier available globally (API-only rather than downloadable open weights).",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "9d5d753deb423096": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "DeepSeek's autonomous AI agent platform reportedly reaches 1.54 million daily active users amid fast domestic adoption.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "b8559d8ad69fa43f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Reports claim DeepSeek models are closing the gap with OpenAI internal frontier models on automated cyber-security/offense evals.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "e125dd06aeef30ab": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "83320bff5c5ec872": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "free_offer",
+  "flags": {
+   "category": "model"
+  },
+  "follows": "a433e4d39f187440",
+  "background": "Follows Alibaba's Nov 11 preview rollout of Qwen4-Max on Token Plan.",
+  "summary": "Alibaba opens Qwen4-Max Preview (text/image/video, 1M-token context, tunable thinking) for developer testing through Nov 25.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "603568afd5354cab": {
+  "label": "STUDY",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Apple ML NeurIPS 2026 paper benchmarks where LLM-as-a-judge scores fail or hold up on personalized writing-style evaluation.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "d1615934a3978e14": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Apple ML paper investigates how gating mechanisms control memorization vs in-context learning capacity inside constant-memory State Space Models.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "fe3567e7a6fb5eac": {
+  "label": "STUDY",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Apple ML NeurIPS 2026 workshop paper introduces 'weighted state souping' to sharpen long-context retrieval inside SSMs without raising inference cost.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "d9fef21ef103f21d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "AWS launches six-agent AI-driven Product Development Lifecycle (AI-PDLC) workflow inside AWS Quick turning customer signals into prototypes.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "c25e372f4cee405e": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "AWS publishes UAEF architecture: normalizes multi-framework agent traces into one schema and scores 36 closed-loop metrics across 7 dimensions.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "771001b278eab517": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "AWS Marketplace adds usage-based per-interaction metering for bidirectional streaming models on SageMaker.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "dae4c7a1a68bdec9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "00beeee9cff01aae": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "a36a4cf3cbe0e453": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "05b908ff3d84b5d3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "81e550b71b80a8b5": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "b3baff8f9511a05a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Bloomberg/TechCrunch: OpenAI Q3 revenue jumped ~50% QoQ past $10B (up from $6.7B in Q2), narrowing operating margin while trailing Anthropic's $17B.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "70d178bbc5688e91": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Databricks deploys an internal agent surfacing operational failures directly across 12,000 employees to bypass middle-management filtering.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "71c8e941c6f7a410": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Startup Plurai applies end-to-end simulation policies from autonomous driving to stabilize multi-step enterprise AI agents.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "61cd7beeaae59e83": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "3149ba22b75e5a74": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Product Hunt: 'Nod' by n8n — open-source personal agent given its own sandboxed computer environment.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "376c4f458002e3f7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "ByteDance launches Seedream 5.5 AI image generation model tuned for multi-turn consistency across 100+ iterative editing rounds.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "2c26d4f806f4add9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "official_launch",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "MiniMax H3-Image debuts on Product Hunt targeting sub-10-second 4K AI image generation.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "37b9e9a638a5d193": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "61f97ca78d949bb7": {
+  "label": "TEST",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Product Hunt: Earlybird is a tiny 29M-parameter streaming speech-to-text model outputting partial words mid-utterance for ultra-low-latency voice agents.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "ec20cc99d79aace2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "0ea8aea6927eaa0f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "095dcc8abeb6805a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Skipbox launches on Product Hunt promising flat-rate fast GitHub Actions CI runners with unlimited minutes.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "a2ab772f26b7a775": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "aad420187fd0bb83": {
+  "label": "TEST",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Atuin Threads (HN 125 pts) indexes and syncs coding-agent sessions, terminal commands, outputs, and developer intent across machines.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "e06998afd9e4d061": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "MACaQ paper introduces per-layer MXFP4 W4A4 quantization (Flip-Refinement) hitting 11x faster compression & only 2.3% vLLM overhead on Qwen3-32B.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "7f76804be631598e": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Embodied First Exam (259 GitHub stars) tests coding agents controlling 47 robots over 1,156 tasks via direct control, code generation, or trained policy.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "c7b8dd42c3a58059": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "PhyRubric introduces diagnostic physical-commonsense evaluation rubrics to measure physics failures in text-to-video world simulators.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "c4b957c7ebb4d10b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "LEASH paper proposes safety constraints for embodied coding agents operating physical robots under spatial uncertainty.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "40f940c970d8a137": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Paper applies evolutionary 'blind variation, selective retention' (withholding full task specs initially) to get more original ideas from AI scientists.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "59dcc20818f05464": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Interp paper tests 4,096 ablations in Qwen3 & shows sparse 'causal neuron circuits' often aren't unique or input-specific—cautioning toy interp claims.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "5b0bb3f46d1b290b": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Sable introduces a single-GPU cryptographic sumcheck prover verifying 64-layer Qwen2.5-32B integer inference bit-for-bit in 92.5s (verifiable AI compute).",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "f68e36acc41cc695": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "RL world-model paper extracts step-level state-value signals from dynamics transitions to stabilize sparse-reward agent training.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "03acb5515565dd99": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "Vercel adds Google's Gemini Decision 1 calibrated classification/rubric model directly to AI Gateway.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "696a462195f90a4a": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Cloudflare Systems deep-dive: why they chose the unusual QuePaxa consensus algorithm for low-latency globally distributed coordination.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "ffe4d21e14ec09b4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "b4399ee455560329": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Tech With Tim tests MiniMax M3.1 Flash (formerly anonymous 'Space Bunny') across 7 builds—added official MiniMax M3.1 Flash launch post separately.",
+  "actions": [
+   "Checked coverage.py for MiniMax M3.1, added official MiniMax blog post as item d72d3eac4bfe724c, noted minimax.io/blog in notes/source-ideas.md."
+  ],
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "5c993c2ddcc4b02f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Matt Wolfe interviews Peter Yang on wiring personal AI agents across inbox, calendar, and content workflows. (No transcript; based on title/desc.)",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "94537ffc60780791": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "f346c738f79571d6": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Krish Naik starts an Indian-audience AI Safety & OWASP LLM01 Prompt Injection playlist on GitHub.",
+  "notes": "- Competitor upload (662 views); no transcript available — based on title and GitHub link description.\n- Shows rising Indian developer appetite for LLM app security & prompt-injection defense.\n- Useful signal for adding threat-modeling sections when covering agent sandboxes.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "3fa59770688ed22a": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin demos Claude autonomously running Omnisend email marketing workflows over connected live data.",
+  "notes": "- Competitor Short (157 views); no transcript — based on title and description.\n- Angle: non-coding SaaS automation via MCP/tool integration inside Claude.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "0df913c06dec7f8f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "ca9a9040327137b0": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo (15.4K views) critiques Google's newly launched Gemini 4 Carbon—noting meaningful progress while flagging gaps for daily coding needs.",
+  "notes": "- High-engagement competitor reaction (15,410 views); no transcript — based on title & description.\n- Follows yesterday's Gemini 4 Carbon launch (425eb2dcea0ca4e2).\n- Important dev sentiment gauge: strong model improvements, yet tooling ergonomics still decide daily IDE retention.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "9dc14ff3db91366b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Simon Willison used spare Claude Fable 5.2 credits with tree-sitter ASTs to auto-tag and index JS/browser APIs across all 244 of his vibe-coded tools.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "a1097cbb75159d57": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "security_incident",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "Simon Willison ships llm v0.37.2 patching two security advisories (GHSA-v9h7 & GHSA-r639) affecting extra-openai-models.yaml handling.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "2b74f5d0bc5ced29": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "hardware"
+  },
+  "follows": "cd85591c9c77c052",
+  "background": "Follows Nov 10 reporting on Anthropic moving forward with its blockbuster IPO roadshow.",
+  "summary": "Anthropic IPO roadshow reveals Claude runs across Trainium, TPUs, Nvidia & AMD—and internal model Mythos wrote ~100% of AMD kernels in 3 days.",
+  "notes": "- Full Simon Willison post & Whisper transcript read.\n- Key revelation by co-founder Tom Brown: Anthropic built a multi-chip compute stack across AWS Trainium, Google TPUs, Nvidia GPUs, and AMD GPUs.\n- Breakthrough stat: bringing up a new chip used to take dozens of engineers months; internal Mythos ported AMD GPU kernels almost 100% autonomously in 3 days.\n- Directly validates our AI Silicon / CUDA-moat research to-do.",
+  "actions": [
+   "Created video idea 2026-11-12-mythos-amd-kernels-ai-silicon"
+  ],
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "37038c5f2b816837": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "OpenAI adds Codex Security docs (Deep scans, Daybreak Defense Factory threat modeling, Security workbench & CI/CD GitHub Actions integration).",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "bf64c26b855a3e5c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "bab69070fb0f7600": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "d8686b4585daac5d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "de6e08967785c8c4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "0095003e3d964a6b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "1d283e1cbfd4fe4c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "AWS tutorial for Java devs building production agents on Amazon Bedrock + Spring AI with tool calling, memory, and retries.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "898cef4adaafd5cb": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "AWS publishes enterprise governance, access, and cost blueprint for deploying OpenAI Codex backed by Amazon Bedrock.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "ddcaf5bf3641a9e2": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "AWS Automated Reasoning post explains computing deterministic symbolic diffs across formal IAM/authorization policies via anti-unification.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "ef57f31602fa868b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "AWS HyperPod guide catches GPU Silent Data Corruption (plausible wrong numbers without errors) with 3 PyTorch DDP training checks.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "b1a1431eb5cb0f43": {
+  "label": "TEST",
+  "importance": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Perplexity open-sources SPACE (Apache 2.0): Firecracker microVM isolation per agent task with snapshots and outside-VM credential controls.",
+  "notes": "- Verified via search & Perplexity announcement coverage.\n- SPACE = Sandboxed Platform for Agentic Code Execution (powering Perplexity Computer).\n- Isolates each agent task in its own lightweight Firecracker microVM with filesystem snapshots, recovery, and out-of-VM secret/network control.\n- Directly answers User Decision d-929048 (Agent Engineering Patterns).",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "703b0a357f58488c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "33d52c6cfb4a857b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "follows": "a266513cedc38b4c",
+  "background": "Follows Nov 11 Claude Fable 5.2 topping WebDev Arena #1.",
+  "summary": "LMArena officially adds Claude Fable 5.2 (Max) and Meta's Muse Ember (Max) to the live Agent Arena leaderboard for head-to-head agentic evals.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "5eeae7964adb3d37": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "IndiaAI Mission meets Sweden under SITAC framework to explore bilateral R&D, compute, and applied AI deployment partnerships.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "be213c89b405e3d3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "8c384d2a8cdf91f0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "87dc6b8b74a07f86": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "49c112f977b74503": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "TechCrunch analysis: local permitting rebellions and multi-year electrical grid bottlenecks threaten whether headline AI data centers ever get built.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "4aab6747261b9143": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "minor_update",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Meta's longtime infrastructure head Santosh Janardhan is stepping down after 17 years leading its global data-center buildouts.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "7a4991deacd37bb9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "a373ef323ec2d36f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "follows": "51da9fdadfbbedd3",
+  "background": "Follows Nov 10 report of CoreWeave bond yields surging above 16%.",
+  "summary": "CoreWeave Q3 rev surges 168% ($3.66B) vs $709M loss; shifts away from high-yield unsecured debt to $9B in customer prepayments & contract-backed loans.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "490ce90d4ea9d563": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "UK AI chip startup Fractile raises $720M Series C (>£5B val) backing stacked-DRAM inference architecture + custom ML compiler for long agentic chains.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "c68f9e0556dd2596": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "69df65f12d811f09": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "a5f4e92527507a42": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "8f17785115c37f17": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "WSJ/HN (492 pts, 716 comments): Nvidia board prepares to potentially oust CEO Jensen Huang amid dual scandals—Chinese spy probe & VP Kimberly Powell.",
+  "notes": "- Primary AI/chip governance shock (HN 492 pts / 716 comments citing WSJ + NYT).\n- Following earlier Alice Huang (Megaspeed / US-intelligence China spy allegations), NYT reported a second relationship with subordinate Nvidia VP of Healthcare Kimberly Powell.\n- Board hired external counsel/search firm to evaluate successors (no obvious internal heir cited; Huang owns ~3.6%).\n- High stakes for CUDA ecosystem & frontier GPU roadmap continuity.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "cbfc30eb9ba0fc75": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "United Airlines (HN 359 pts, 342 comments) formally bans third-party AI agents from booking tickets or checking in, citing credential risk & federal rules.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "7d137034b23816e0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "EVAThink uses evidence-sufficiency RL to stop video VLMs once sampled frames answer a query, cutting wasted visual tokens.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "065657cfd778e435": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Self-grounding time-series bottleneck model learns to abstain on weak evidence rather than hallucinating confident classifications.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "30edb678bfedaf45": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "TorchCurves (72 stars) adds differentiable vector-valued parametric curves as native learnable PyTorch primitives.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "2492f051629b97ab": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "EmoHarness uses Meta-Harness Evolving—a stronger LLM rewriting verification scaffolds around a frozen small VLM (+7.6-13.4 pts without touching weights).",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "f85ddb142ad5c87a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "FraudBench tests LLM compliance with tasks constituting fraud under US law, mapping subtle model vulnerabilities beyond crude jailbreaks.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "dd689f74ac00fa94": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "03f13e99355e2024": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "GoogleChrome/modern-web-guidance-src (159 stars today) ships agent Skills steering AI coders away from legacy JS/CSS toward modern browser APIs.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "5d7f431e703e4d69": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "95363e12175be088": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "YC re-shares whistleblower Tyler Shultz's firsthand lessons on founder dishonesty and engineering reality vs hype inside Theranos.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "04347593741a344b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "hype",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Nick Saraev experiments building browser video games with Claude Fable 5.2 (no transcript available; high curiosity creator demo).",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "1d2c0b1620c9ed22": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "5498d89cb26187d1": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo (21.9K views) compares rival frontier AI releases and developer trade-offs in 'It's too hard to pick'.",
+  "notes": "- High-view competitor discussion (21,912 views); no transcript — based on title & description.\n- Highlights widespread developer decision fatigue between Claude Fable 5.2, Gemini 4 Carbon, GPT-6, and fast Asian flash models.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "c12fba48b45b6fcc": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Paul J Lipsky compiles 18 Claude Fable 5.2 demos (games, video editing, hardware), noting why he still keeps Opus 5.5 for fast daily work.",
+  "notes": "- Competitor video (1,597 views); no transcript — based on title and links.\n- Valuable practical nuance: Fable 5.2 shines on big zero-to-one showcases, while faster/lighter Opus 5.5 handles everyday responsiveness.",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "92388ebc95e459ea": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Simon Willison benchmarks Gemini Decision 1 ($0.10/M, video+audio+PDF, calibrated floats ~0.923) against OpenAI GPT-6 Luna ($0.10/M) & Jev ($0.042/M).",
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "e45550e37ccf668f": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 5,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "AWS drops official CC0 open-source aws-emulator covering 200+ cloud services in Rust—built by agent swarms making 29,684 commits in 3 weeks. Hook: 'AWS let AI agents write 29,684 commits to replace cloud dev bills.'",
+  "notes": "- Read Simon Willison's analysis + search verification of Swami Sivasubramanian's guest post on All Things Distributed.\n- What it is: first-party local offline AWS sandbox (CC0 1.0 Public Domain) generated from Smithy API specs covering 200+ AWS services in milliseconds (runs via Docker on macOS/Windows).\n- Engineering marvel: authored by coordinated swarms of fidelity-author, test-runner, and fixer agents.\n- Huge productivity unlock for local testing of AI agents without touching production keys.",
+  "actions": [
+   "Logged All Things Distributed in notes/source-ideas.md",
+   "Created evergreen video idea 2026-11-12-aws-emulator-ai-swarm-29k-commits"
+  ],
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ },
+ "d72d3eac4bfe724c": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "MiniMax launches M3.1 Flash (formerly 'Space Bunny', 200T+ tokens): 428B/23B active MoE hitting 73.7% DeepSWE at 200+ TPS & $0.15/$0.60 per 1M. Hook: 'That mystery Space Bunny model just went public—and it's 70% cheaper.'",
+  "notes": "- Found via Tech With Tim video (b4399ee455560329) after checking coverage.py; verified on official minimax.io/blog/minimax-m31f + Hugging Face/model specs.\n- Architecture: ~428B total / ~23B active MoE, 1M context via MiniMax Sparse Attention, text+image+video input.\n- Speed & Price: 170+ TPS P50 / 200+ TPS peak, $0.15/1M input ($0.015 cached), $0.60/1M output.\n- Coding/Agent benchmarks: 73.7% DeepSWE v1.1 (vs 74.2% DeepSeek V4.1 Flash), 61.2% NL2Repo, 76.2 BankerToolBench, 61.7 OSWorld V2.",
+  "actions": [
+   "Added minimax.io/blog/minimax-m31f via add_item.py",
+   "Noted minimax.io/blog in notes/source-ideas.md",
+   "Created video idea 2026-11-12-minimax-m31-flash-space-bunny-test"
+  ],
+  "analyzed_at": "2026-11-12T01:54:42Z"
+ }
+}

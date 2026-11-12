@@ -1,6 +1,114 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-12T01:54:42Z",
+  "history": [],
+  "id": "2026-11-12-gemini-decision-1-vs-gpt-luna-routers",
+  "title": "Google's New $0.10 'Decision Model' Changes AI Agent Routing Forever (Gemini Decision 1)",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "Break down the emerging 'Decision Model' category—comparing Google Gemini Decision 1 ($0.10/M multimodal calibrated probabilities across 1,000 checks per pass), OpenAI GPT-6 Luna, and Jev ($0.042/M)—and show how engineers wire them as ultra-cheap guardrails and agent routers.",
+  "outline": [
+   "What a Decision Model actually is (yes/no, choice, and rubric scoring vs open-ended chat generation)",
+   "Three rivals side by side: Gemini Decision 1 ($0.10/M input, text+video+audio+PDF, calibrated float probabilities like 0.923), GPT-6 Luna ($0.10/M text+image), Jev ($0.042/M text-only)",
+   "Hands-on routing architecture: using Decision 1 to batch-filter 1,000 video/PDF/log triggers before waking up expensive frontier coders like Fable 5.2",
+   "Why calibrated probability outputs eliminate flaky binary prompt-parsing bugs in production pipelines"
+  ],
+  "items": [
+   "5b595f3a74560a5f",
+   "92388ebc95e459ea",
+   "03acb5515565dd99"
+  ],
+  "updated_at": "2026-11-12T01:54:42Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-12T01:54:42Z",
+  "history": [],
+  "id": "2026-11-12-minimax-m31-flash-space-bunny-test",
+  "title": "We Tested 'Space Bunny' — MiniMax M3.1 Flash Hits 73.7% DeepSWE at 200+ TPS and $0.15/M",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "Reveal the identity behind OpenRouter's 200T-token mystery model ('Space Bunny') and benchmark whether MiniMax M3.1 Flash (23B active MoE, 1M context) makes frontier agentic loops viable on an Indian student/solo-dev budget.",
+  "outline": [
+   "The 200-trillion-token Space Bunny mystery finally solved: MiniMax M3.1 Flash (428B total / 23B active MoE, 1M Sparse Attention context)",
+   "Numbers that matter: 200+ TPS speed, $0.15/1M input ($0.015 cached) / $0.60/1M output—70% cheaper for multi-turn tool calls",
+   "Head-to-head specs: 73.7% DeepSWE v1.1 vs 74.2% DeepSeek V4.1 Flash, plus 61.7 on OSWorld V2 computer use",
+   "Live coding & latency test: how fast multi-file repo edits feel when your agent runs at 170–200+ tokens/sec"
+  ],
+  "items": [
+   "d72d3eac4bfe724c",
+   "b4399ee455560329"
+  ],
+  "updated_at": "2026-11-12T01:54:42Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-12T01:54:42Z",
+  "history": [],
+  "id": "2026-11-12-aws-emulator-ai-swarm-29k-commits",
+  "title": "AWS Used AI Agents to Write 29,684 Commits in 3 Weeks — Why Every AI Dev Needs a Local Cloud Emulator",
+  "type": "evergreen",
+  "timing": "SOON",
+  "angle": "Combine AWS's CC0 open-source aws-emulator (200+ local AWS services built by autonomous agent swarms) with Perplexity SPACE (Firecracker microVM agent sandboxes) to teach real-world agent engineering: fast, safe local execution loops.",
+  "outline": [
+   "Why autonomous coding agents break cloud dev workflows: slow Terraform loops, leaked IAM keys, and surprise AWS bills",
+   "Inside aws-emulator: CC0 public-domain Rust emulator generated from Smithy APIs covering 200+ services offline in milliseconds",
+   "How AWS actually built it: swarms of fidelity-author, test-runner, and fixer agents shipping 29,684 commits in 3 weeks",
+   "Pairing local service emulation with Perplexity's Apache-2.0 SPACE (Firecracker microVMs + outside-VM credentials) for zero-blast-radius AI engineering"
+  ],
+  "items": [
+   "e45550e37ccf668f",
+   "b1a1431eb5cb0f43",
+   "aad420187fd0bb83"
+  ],
+  "updated_at": "2026-11-12T01:54:42Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-12T01:54:42Z",
+  "history": [],
+  "id": "2026-11-12-jiostar-500m-scale-ai-engineering",
+  "title": "How JioHotstar Built an AI Assistant for 500 Million Users in 8 Weeks (Evals & Architecture)",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "Deconstruct JioStar Chief Architect Vijay Seshadri's OpenAI Summit case study—showing Indian developers how to engineer multilingual AI products for 72.5M concurrent users instead of fragile toy wrappers.",
+  "outline": [
+   "The scale constraint most AI tutorials ignore: 500M+ users, 15+ Indian languages, and 72.5M live cricket concurrency spikes",
+   "Moving past 25-year-old recommendation carousels to mood-based conversational video & cricket-stat search in 8 weeks",
+   "Production engineering deep dive: latency budgets, fallback caching, eval suites, and strict guardrails under live sports spikes",
+   "How Indian full-stack/system-design interviews are shifting toward eval-driven AI product engineering"
+  ],
+  "items": [
+   "0f63accce332ccb7",
+   "c25e372f4cee405e"
+  ],
+  "updated_at": "2026-11-12T01:54:42Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-12T01:54:42Z",
+  "history": [],
+  "id": "2026-11-12-mythos-amd-kernels-ai-silicon",
+  "title": "Claude Ported AMD GPU Kernels in 3 Days? What Anthropic's Multi-Chip Strategy & Fractile's $720M Mean for AI Silicon",
+  "type": "months",
+  "timing": "SOON",
+  "angle": "Use Anthropic's IPO roadshow revelation (Claude Mythos autonomously writing 100% of AMD kernels in 3 days), Jensen Huang's Nvidia governance turmoil, and UK startup Fractile's $720M stacked-DRAM bet to explain how software agents are eroding Nvidia's CUDA moat.",
+  "outline": [
+   "The bomb hidden inside Anthropic's IPO roadshow transcript: running Claude across Nvidia, Google TPUs, AWS Trainium, AND AMD GPUs",
+   "Why porting kernels used to take dozens of engineers months—and how Claude Mythos wrote ~100% of AMD kernels in 3 days",
+   "Why memory bandwidth—not raw FLOPs—chokes agentic reasoning (explaining Fractile's $720M stacked-DRAM chip architecture)",
+   "What Jensen Huang's board shake-up and self-writing GPU compilers mean for Nvidia vs custom AI silicon in 2027"
+  ],
+  "items": [
+   "2b74f5d0bc5ced29",
+   "490ce90d4ea9d563",
+   "8f17785115c37f17"
+  ],
+  "updated_at": "2026-11-12T01:54:42Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-11T15:27:38Z",
   "history": [],
   "id": "2026-11-11-gemini-4-carbon-vs-fable-5-2",

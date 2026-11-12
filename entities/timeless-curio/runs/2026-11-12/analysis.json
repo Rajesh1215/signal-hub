@@ -1,0 +1,799 @@
+{
+ "58aef11c9aa7f076": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Inspired by Andy Weir's new Audible sci-fi story 'Exoplanet', astrophysicists outline what actually makes a rocky world habitable.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "18ff30978275fffa": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "follows": "5c5f338b417469b1",
+  "background": "Follows the Nov 11 comet impact modeling study showing early impacts may have incinerated organic building blocks.",
+  "summary": "Space.com breaks down new impact simulations challenging the century-old theory that comet bombardments safely delivered life's organics to Earth.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "72377bf2dfe9c785": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "price_change",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Rocket Lab hikes Neutron rocket launch price 27% from $55M to $70M amid soaring satellite demand and tight orbital launch supply.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "50809f7f640d3662": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Hubble Space Telescope image captures an ancient globular-cluster star field preserving clues about the Milky Way's earliest formation.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "d1c02594a56fbd73": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "SpaceX Starship Flight 15 targets Nov 13 for the first-ever double tower catch (Super Heavy + Ship) and 26 Starlink V3s. Hook: 'On Nov 13, SpaceX tries catching TWO giant rockets out of midair.'",
+  "notes": "- Verified via Space.com & search results (T-2 days to Nov 13, 2026 Flight 15 launch from Starbase, Texas).\n- Mission goal: first simultaneous orbital-class double catch — both Super Heavy booster and Starship upper stage returning to launch-tower Mechazilla arms.\n- Payload: deploys 26 next-generation Starlink V3 satellites before dual recovery attempt.\n- Timing: NOW (T-2 days event window) paired with strong evergreen reusable rocketry appeal.",
+  "actions": [
+   "Created video idea 2026-11-12-starship-first-double-tower-catch"
+  ],
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "2052add35f6e1fec": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "new_study",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "UC Berkeley, Caltech & Austrian physicists propose a tabletop superfluid helium-4 quantum gyrometer to measure Earth's frame-dragging spacetime twist in minutes.",
+  "notes": "- Verified via Live Science & study coverage (Nov 2026): tabletop superfluid helium-4 + microscopic Josephson junction quantum gyrometer.\n- Designed to match Gravity Probe B satellite frame-dragging precision in minutes instead of years of orbit.\n- Connects Einstein's general relativity directly to condensed-matter quantum interferometry.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "5ff458185e910915": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Scientists discover Galerina indica mushrooms in Florida contain both psychedelic psilocybin-like compounds and lethal amatoxins in one species.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "649d1e703eb1c261": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "new_study",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "New clinical consensus study proposes redefining obesity beyond BMI using fat distribution and organ dysfunction, expanding diagnosed cases.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "2484fdc165a097b9": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "After micro-adjusting its mirror following its Aug 2026 launch, NASA's Roman Space Telescope performs 30% sharper (63nm RMS) and could last twice as long.",
+  "notes": "- Verified via NASA/Live Science coverage (launched Aug 30, 2026; primary Wide Field Instrument checkout Oct-Nov 2026).\n- Hair-width mirror realignment dropped optical wavefront error to ~63 nm RMS (~30% sharper than predicted).\n- Projected mission durability is up to double initial expectations, massively boosting dark-energy and exoplanet survey yield.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "aad42ac7e2e07176": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "PLOS One: 15,000-to-11,500-year-old painted Natufian hunter-gatherer clay figurines found in Israel push symbolic clay art before farming.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "46a15f0c5c66932f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Study finds three monkey species have individually unique ridge patterns on their palms and feet, much like human fingerprints.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "fd1bd149e7c73f0e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "discovery"
+  },
+  "summary": "Systematic review shows even seasoned scientists frequently misinterpret p-values, confidence intervals, and statistical significance.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "8565270d8416fb96": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "PLOS One study shows Iberian communities continued collective megalithic stone-tomb burials well into the Bronze Age.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "6f752dc829be4a49": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "ade5975703e0123a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "3802ed9ed1113f61": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "31fd10427814b65e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Ancient DNA links a rare 1,600-year-old skeleton with a single fused eye socket to holoprosencephaly/cyclopia mutations.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "f5ee75d186fbdb8a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "1893829d94288807": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "8e4f58bc838d6827": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "inventions"
+  },
+  "summary": "IBM plans to link two 520-qubit Nighthawk quantum processors into a single accessible dual-processor system by late 2027.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "f288bafef1bd5742": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Animal study suggests a common blood-thinning drug may slow cartilage breakdown and ease osteoarthritis pain where no cure exists.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "002f21865981407f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "ab59d8c3aeb98133": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "ecae4dc0504d2082": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "New Scientist essay asks who will preserve historic Space Age launchpads, probes, and hardware as billionaires lead modern rocketry.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "f8d6df5a7d2369a2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "d03f9da9016f7bca": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "New Scientist reader Q&A weighs ecological fallout of wiping out mosquitoes and whether AI could rediscover relativity.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "addd3c1c10857a18": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "New Scientist Last Word explores how much of perceived color, solidity, and reality is active predictive construction by the human brain.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "4c549ac2ed27b19c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Science Q&A examines universal vs culturally learned emotional cues behind harmonic intervals and musical rhythm.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "dd1968324bc255df": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "1001190f36ca151d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Book review of 'The Collision' weighs evidence on cognitive offloading—whether relying on AI dulls deep analytical reasoning.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "6427e2617ecc9faa": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "evolution"
+  },
+  "follows": "dc0a6cd7f60ea12e",
+  "background": "Complements Nov 11 Quanta piece on aerosol bubbles concentrating life's earliest chemistry.",
+  "summary": "Quanta Magazine Origins of Life explainer: how self-sustaining metabolic chemical cycles may have sparked Earth's biology before RNA or DNA existed.",
+  "notes": "- Read full Quanta Magazine explainer (Nov 11, 2026, 'Origins of Life Week').\n- Contrasts 'metabolism-first' (self-sustaining energy cycles harnessing redox gradients) with 'genetics-first' (RNA world).\n- Cites evolutionary biologist William Martin (Heinrich Heine University Düsseldorf) on why chemical energy flow had to precede complex polymers.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "3ca19a45d5d875d9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "0bdc26348e63dad9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "97663e476f5c4e35": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "anniversary",
+  "flags": {
+   "category": "wars_empires",
+   "anniversary_date": "1851-11-26"
+  },
+  "summary": "175th anniversary on Nov 26 (1851): French naval squadron bombarded Salé, Morocco, damaging city walls and the Great Mosque.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "0b7534bc74279f4d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "WWII Victoria Cross story: Gurkha rifleman Lachhiman Gurung defended a Burma trench against 200 troops despite losing fingers to a grenade.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "3d3f59e0eddeda4a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_report",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "IEA data tracking global nuclear power capacity expansion and SMR deployment trajectories vs COP-aligned 2030 targets (Where World Heading series data).",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "0b4c299c3f271da3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "d2a007df755fb6a7": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "IEA analysis on EV mining: an electric car uses ~6x more critical minerals, yet displaces far larger fossil extraction and shifts demand toward recycling.",
+  "notes": "- Verified via IEA critical-minerals outlook data.\n- EVs require ~6x mineral inputs of ICE vehicles, creating short-to-medium term lithium/copper mining spikes.\n- Long-term IEA transition math shows clean tech displaces much larger total fossil-fuel tonnage, aided post-2030 by recycling and LFP/cobalt-free chemistries.\n- Objective multi-scenario input for Ep 4 of 'Where is the world heading'.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "4ca26c1fd9970f81": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_report",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "Visual Capitalist breakdown ranking top copper-producing nations (led by Chile and Peru)—key supply bottleneck for grids, EVs, and data centers.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "2d2d1941dcce0b10": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "c14edfa53c588897": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_report",
+  "flags": {
+   "category": "geopolitics_trends"
+  },
+  "summary": "Visual Capitalist ranks most and least trade-dependent economies globally by trade-to-GDP share—useful structural map for deglobalization trends.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "0982fa9a67248098": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "45d7aea0f35a6647": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "India/global search interest in 'black hole': top queries ask what happens if black & white holes collide, if a black hole dies, or passes Earth.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "b6b0cf70ac9120ab": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "India/global search interest in 'universe': users search why the universe is black, how it formed, and what happens if expansion stops.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "9045cf43af0100c1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "India/global search interest in 'ai': top curiosity questions ask whether AI is a bubble and why AI data centers consume massive water.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "03f8dd0b8d6fa21d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "India/global search interest in 'oil': mixes everyday science curiosity (why oil floats on water) with geopolitical oil price/offshore questions.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "3913e9821c3fb689": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "India/global search interest in 'world war': evergreen historical curiosity on WWI/WWII causes alongside WW3 what-if scenarios.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "1f66d8f740b866ba": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "India/global search interest in 'mars': queries ask why Mars is red and what if Mars disappeared or regained a magnetic field.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "3855060a132e6c24": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "India/global search interest in 'moon': top what-ifs include the Moon disappearing, colliding with Earth, and why it turns red.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "3b31803cb29f3008": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "India/global search interest in 'human body': curiosity about why the body conducts electricity, generates heat, and produces fever.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "9a95fc6ac6fa3379": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "India/global search interest in 'time travel': steady evergreen curiosity around whether backward time travel violates physics.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "9449f6d9a829e8d7": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "mysteries"
+  },
+  "summary": "India/global search interest in 'aliens': Fermi paradox questions ('why aliens haven't visited Earth / why only in movies').",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "d87e987806407635": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "India/global search interest in 'future': mostly pop-culture anime/company queries alongside long-term future curiosity.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "c1693e2bb95fa251": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "India/global search interest in 'what if': dominated by TV/lyrics queries rather than science what-ifs today.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "d37b1a013bc21d58": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "India/global search interest in 'why is the sky': classic Rayleigh-scattering question (why blue, orange, or yellow at sunset).",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "331332f1a1c4cce8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "India/global search interest in 'what happens if': includes deep-sea 'whale fall' ecosystem curiosity plus health biomarkers.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "65a1fc45dabfa10a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "India/global search interest in 'will ai': high anxiety/curiosity over software engineer jobs, AI bubble, and long-term societal shift.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "e27afee753edf2b1": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Veritasium Short (126K views) tackles the counterintuitive base-rate paradox: why a 99% accurate medical test can still yield mostly false positives.",
+  "notes": "- Competitor Short (126,480 views in early window); no transcript available — based on title and description.\n- Classic Bayes' theorem hook ('don't trust a 99% accurate test') that pulls massive mainstream curiosity on intuitive probability failures.\n- Great benchmark for punchy 60-second math/science paradox hooks.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "849f11773e986722": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Johnny Harris launches 'The Human Element' narrative direction framing limits of purely analytical explainer journalism.",
+  "notes": "- Competitor channel update (4,647 views); no transcript available — based on title.\n- Signals pivot toward character-driven human storytelling over pure map/chart explainers.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "5a002936c7a189c9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "86faf684c4d8b0ff": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA kick-starts revamped Mars Sample Return push dubbed Perseverance Sample Retrieval Architecture to rescue cached Martian cores.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "464922279c0e5369": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Composer converts thousands of invisible cosmic Fast Radio Bursts into sound for a Finnish cathedral choir performance on Nov 21.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "3ae356f707c77c30": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "anniversary",
+  "flags": {
+   "category": "space",
+   "anniversary_date": "1966-11-11"
+  },
+  "summary": "60th anniversary retrospective of NASA's Nov 11, 1966 Gemini 12 mission with Buzz Aldrin & Jim Lovell that proved EVA spacewalking for Apollo.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "18eda540c439c347": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Archaeologists unearth a 2,200-year-old gold bear figurine and seven skeletons inside a massive Iron Age nomadic kurgan burial in Kazakhstan.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "636174d8b00b132b": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "new_study",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Nature geology study solves why 1.2 billion years of rock are erased in the Grand Canyon's Great Unconformity via ancient mantle uplift. Hook: 'Over 1 BILLION years of Earth's history simply vanished at the Grand Canyon.'",
+  "notes": "- Verified via Live Science & Nature Nov 2026 coverage.\n- The 'Great Unconformity' removes ~1.2 billion years between ancient basement rock and Cambrian layers.\n- New mantle-convection models show vertical continental uplift triggered massive erosion that scraped whole eras away before oceans returned.\n- Pure timeless visual curiosity explainer.",
+  "actions": [
+   "Created evergreen video idea 2026-11-12-grand-canyon-missing-billion-years"
+  ],
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "374fab711d3fb594": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "mission_event",
+  "flags": {
+   "category": "inventions"
+  },
+  "summary": "SS United States—bigger than Titanic, faster than Queen Mary—is being sunk off Florida in a $13M project to form the world's largest reef. Hook: 'Why they just sank the fastest ocean liner ever built—on purpose.'",
+  "notes": "- Full Phys.org/Northeastern article read (Nov 11, 2026).\n- Built 1952: crossed Atlantic in 3 days 10 hours (speed record), carried 1,984 passengers, secretly engineered during Cold War to carry 14,000 troops; decommissioned 1969.\n- Sinking off Okaloosa County, Florida ($13M SS United States Conservancy project) creates the world's largest intentionally sunk ship artificial reef.",
+  "actions": [
+   "Created evergreen video idea 2026-11-12-ship-faster-than-titanic-sunk-reef"
+  ],
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "ff97c71b5ed68685": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "new_study",
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Wild mammals over 40 miles from human towns now carry detectable microplastics in their bloodstream, showing pervasive airborne/trophic spread.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "42bafaffc4757962": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "acc7bc07be39bb50": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "NC State study maps how hyperparasite fungus Ampelomyces infects plant-parasitic powdery mildew—a Russia-doll survival strategy in fungi.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "25415c4d5aa40fc0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "new_study",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "CSIRO team's independent Nature analysis validates the landmark 2019 Event Horizon Telescope M87* black-hole shadow image against processing bias.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "cfebf2679dbf21f2": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "New bio-monitoring test catches hidden neurotoxic contaminants in treated drinking water that standard chemical tests overlook.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "5b81137b80936ff6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "e185d73c1fe89326": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Superconducting vortex experiment confirms particle 'clogging' obeys true phase-transition physics similar to traffic jams and crowds.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "b5b87eaff760050e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "b0cc68541f1854e6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "880d2fd7f10bdb3f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Anduril demonstrates high-dynamic-range orbital night-vision satellite sensor capable of tracking maneuvering spacecraft in full Earth shadow.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "1fc4cf4c522ba126": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Banned legacy PFAS 'forever chemicals' are falling in English rivers, but understudied chemical replacements are rising in their place.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "a4e09bf89b1abb5d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "new_study",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Chennai Metro Rail microbial swabbing study maps an Indian city's unique public-transit microbiome—diverse and largely harmless.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "065b8c41bf13323f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "2d7ab29746c1ed8a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "62fa13839c4dfcfd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "evergreen_idea",
+  "flags": {
+   "category": "mysteries"
+  },
+  "summary": "Atlas Obscura profile on Hong Kong's 1892 Old Mental Hospital granite facade—built for staff, long rumored in urban legends as haunted.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "48ff6ce1503f43be": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_report",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "IEA outlook finds global energy storage must grow ~6x to 1,500 GW (1,200 GW batteries) by 2030 to balance triple-renewable power grids.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "66b947c34e99da61": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_report",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "IEA tracks Belém Pledge countries expanding sustainable liquid biofuels faster, though global aviation/shipping targets still lag.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "42042332bb3273f7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "3bc718fb440ac070": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "3743664305b2ea2c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_report",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "WEF Energy Transition Index top 10 countries show how hydro/nuclear endowments plus grid interconnections drive decarbonized reliability.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "34648f6af9b2ad86": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "1081db878d6de34b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_report",
+  "flags": {
+   "category": "geopolitics_trends"
+  },
+  "summary": "Visual Capitalist global democracy map charts democratic concentration in Europe/Americas vs hybrid and authoritarian trends globally.",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "f54c41e7d289d577": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "50a9711aadbcf0d6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ },
+ "8ae9ea824b975405": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-12T01:53:43Z"
+ }
+}
