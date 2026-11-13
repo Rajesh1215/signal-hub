@@ -1,0 +1,1227 @@
+{
+ "c265898ab8e78826": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Holiday Extras details case study using Codex coding models to automate customer workflows and raise conversion rates.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "c70869805b429ad2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "3e040b56ae605fbb": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "7dd0d351d1820692": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Google DeepMind launches Gemini 4 Hydrogen ($1.50/M input, $0.075 cached, $7.50/M output), built for agentic multi-turn loops and Search reasoning. Hook: 'Google just dropped Gemini 4 Hydrogen—their new lightweight agentic model.'",
+  "notes": "- Official launch from Google DeepMind and Google Search on Nov 12, 2026.\n- Positioned as the high-speed, cost-efficient member of the Gemini 4 family below Carbon and Argon.\n- Pricing: $1.50/1M input tokens ($0.075 cached) and $7.50/1M output tokens.\n- Provides multi-turn reasoning and agentic function-calling with lower token overhead per turn.\n- Powering Google Search's upgraded multi-step query decomposition and available across Google AI Studio, Vertex AI, and Vercel AI Gateway.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "04c1d65f9e8d459f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "IBM and Hugging Face introduce LLMON: an LLM-native structured markup language integrated into Granite 4.1 3B and 8B for reliable parsing.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "ff89f67bb1aa34ca": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Hugging Face publishes comprehensive fine-tuning guide for open-source 3D generative diffusion models on custom mesh datasets.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "4a7e45f10ef42ed9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "OpenAI API adds managed configuration controls, CLI deployment, and enterprise desktop browser security policies for Codex agents.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "9e19cf479a1196d4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "OpenAI documents architectural patterns for securing persistent long-running autonomous agents like OpenClaw and building voice workflows.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "df6fb18b647f3953": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "cd24980df4f4e4da": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "db06dae72fc62e00": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "8131dc7dfa16e45a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "c73fe887836a54e9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Tuya launches smart home device integration framework designed for Meta's autonomous household agent Muse.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "a48b8d23788eccd7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "920b0bf6db5c7733": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "036771c6830720ff": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "4ec2fe8793ac1e00": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "ByteDance's DouBao Work expands multi-model routing support to compete against enterprise office agents.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "3e7f5e049864590a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "88582636153de393": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "8a5d4277a41770d9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "a3cf8d3e5a925b94": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "1ffb2188113b5f02": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Tether releases on-device small language agent BotPsy, benchmarking edge latency against compact open models.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "252b1aeb02fc2bfc": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Technical deep dive on model abliteration: editing residual stream weights in open LLMs to bypass refusal vectors on local hardware.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "66f13268eec874d8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "a08921288353a3fa": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Apple Machine Learning publishes paper on theoretical limits of RLHF alignment vs base model representational capability preservation.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "656df4a15feb45d4": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "AWS Bedrock guide breaks down four hidden drivers of cost-per-task in autonomous agent loops beyond nominal token pricing.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "875b0dbc496ee35a": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Architecture blueprint: deploy a self-service LLM gateway using LiteLLM on AWS Fargate to proxy Bedrock behind OpenAI-compatible APIs.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "3d8c5e77e056ca28": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "AWS releases next-generation Bedrock AgentCore runtime with hardened sandboxing for multi-hour autonomous agent executions.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "88e9f0e86365bd36": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "AWS Bedrock releases CLI migration skills allowing coding agents to autonomously convert self-managed vector indices to Managed Knowledge Bases.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "3b70e008b6566a97": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "b6c69375997d4bd9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Comprehensive benchmark comparison of AI deep research tools (Perplexity Pro, ChatGPT Search, Gemini Deep Research) in late 2026.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "32d1851423804ebd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Perplexity faces consumer class-action lawsuit alleging undisclosed rate limits and throttled usage caps on paid Pro subscriptions.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "a5c5fa7c71ef5ebc": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "af396ac559011e2b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "LMArena adds Gemini 4 Hydrogen (High) to the Agent Arena and Code Arena: WebDev leaderboards for blind community evaluations.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "b20c0f1e7f239e2e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Analysis on Sarvam AI's strategy: building full-stack sovereign foundational models and developer APIs for enterprise and defense in India.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "a40c0a92665006d0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "0ab4a46108c6ccff": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "IndiaAI Mission officially unveils sovereign open models EKA-1 alongside Dhīr 2B & Dhīr 5B, optimized for 22 scheduled Indian languages.",
+  "notes": "- Launched by MeitY and IndiaAI Mission on Nov 12, 2026.\n- Models released: EKA-1 (flagship multilingual foundation model) and compact edge models Dhīr 2B & Dhīr 5B.\n- Native pre-training across 22 constitutional Indian languages with tokenizers built specifically for Indic scripts to cut token inflation.\n- Weights and evaluation benchmarks made available for Indian startups and academic researchers under sovereign research licenses.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "7e022032d400f863": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "IndiaAI compute tender enforces strict data-sovereignty rules, disqualifying five empanelled cloud providers from subsidized GPU clusters.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "d5e7a667f6d5838d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Karnataka state government plans to subsidize high-performance GPU cluster access for Bangalore deep-tech startups via an AI hub.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "d98b7c42e702bfa0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "free_offer",
+  "flags": {
+   "category": "offer"
+  },
+  "summary": "Government opens AI Scholarship 2026 for Indian BTech engineering students pursuing machine learning and agent research.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "e139632adeab67d0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "f5a6b3b2ddb6839e": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "policy_change",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "TechCrunch analysis examines how Jensen Huang's exit threatens Nvidia's open-source AI ecosystem, including its $12.9B Hugging Face deal.",
+  "notes": "- In-depth TechCrunch analysis following CEO Jensen Huang's resignation from Nvidia.\n- Examines corporate vulnerability of Nvidia's $12.9 billion pending acquisition of Hugging Face.\n- Raises questions over whether an interim or successor CEO (like CFO Colette Kress) will continue funding open-weight models (Nemotron) or pivot aggressively toward proprietary high-margin enterprise software.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "1e8b7814cd8ba831": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "5b1e2b00166a42c6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "United Airlines blocks autonomous AI agents from booking flights and modifying passenger reservations, citing bot fraud risks.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "001702553527b524": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "be1cc6ce330aa65f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "8f46ca414265e50a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Former Nvidia CEO Jensen Huang agrees to testify before congressional committees regarding national security and China sales inquiries.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "44eaeb9050828143": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "648e840e4b087ca4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "bcc44e1c1557b521": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "b18fd73d03cff2c7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "784271062e04ffdd": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Fireworks AI suffers cyberattack exposing Notion customers' enterprise AI chat transcripts, marking its second major security breach in two months.",
+  "notes": "- Verified report by TechCrunch on Fireworks AI infrastructure breach.\n- Threat actors bypassed API gateway controls to access private chat transcripts and prompt logs belonging to Notion enterprise workspaces.\n- Second major security incident affecting Fireworks AI in 60 days, highlighting supply-chain vulnerabilities when outsourcing LLM inference.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "6d41759338c9ee67": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "038f63db7d5f5423": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "b25ff8557f6e8bf5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "MarkTechPost review confirms AWS Emulator passes 56.6% of 42,857 published API tests across 438 services, offering rapid offline local mocks.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "777a4118d3e85bb1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "IBM reveals Quantum Nighthawk r3 processor with 520 programmable qubits, planning a linked 1,040-qubit modular quantum system in 2027.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "c2852ead5651c1fc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "108c2f15665afddb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "4409d3aee40eeceb": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Automattic launches Spacefast: an isolated developer sandbox environment built specifically for running and deploying autonomous AI agents.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "2674115fdb488f84": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "3e8d796ffd577cbe": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "b63beb9cb3ce91ed": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Foxpit launches developer workspace orchestrating Claude Code, Codex, and OpenCode terminal agents simultaneously across repo tasks.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "e341e854f67b5f3c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Yogurt launches as a free, open-source, local-first alternative to Granola for automated meeting notes and privacy-focused audio summaries.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "c4787c9b519fcd14": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "d12947c78bdc1589": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Harness Memory releases unified cross-harness long-term memory layer for AI agents, persisting state across Cursor, Claude Code, and Codex.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "da224dc9cb2b7656": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "8972d341f0ad48b6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "cee99964bb6261ef": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "5054c79997c1214f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Hacker News discussion (681 points, 688 comments) dissects Anthropic's $90.4B IPO filing, cloud commitments, and gross margins.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "d6c85e99aad42567": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "9c1704e029c04bfd": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Hacker News builder shows how to quantize and execute small LLMs on legacy embedded devices and microcontrollers using ultra-compact runtimes.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "34b911a91ce8091d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Libreagi project launches open archive repository to preserve weights and documentation for open-source foundation models.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "6a0488d550639746": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "SteerDistill paper demonstrates quantizing agentic LLMs down to low bits without task failure by using closed-loop teacher steering.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "67bedcc63cdf1aed": {
+  "label": "STUDY",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "DexForesight paper grounds robotic dexterous manipulation policies with implicit spatial foresight in 3D world-action representations.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "33ef4936ef02afc2": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Evolving Infra paper proposes agent-adaptive LLM serving architecture dynamically rebalancing prefill and decode disaggregated clusters.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "70c9ceb3586f8450": {
+  "label": "STUDY",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Research verifies Platonic Representation Hypothesis, showing diverse language model architectures naturally converge on shared latent geometries.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "ec69c9665c5b41db": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "94645b28ec242ae8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "ScrapeBench benchmark evaluates how autonomous web agents adhere to website terms of service, robots.txt, and legal data scraping limits.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "b40820961933f664": {
+  "label": "TEST",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "OpenAI releases Codex Security CLI and TypeScript SDK (@openai/codex-security) to autonomously scan, reproduce, and fix code vulnerabilities. Hook: 'OpenAI just open-sourced a CLI tool that automatically fixes bugs in your code.'",
+  "notes": "- Released as open-source npm package `@openai/codex-security` with official GitHub repo.\n- Enables automated repository vulnerability audits via OpenAI reasoning and coding models.\n- Generates automated reproduction scripts in isolated test containers before applying verified source-code patches.\n- High interest: gathered 663 GitHub stars on day one.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "fc6b3fc7a9b82ec0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "fd220ca9954ca906": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "9bb78698a3e0ce77": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "e71ebb3dd5165d2c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "llama.cpp releases new optimizations reducing memory bandwidth bottlenecks during prompt evaluation across Apple Silicon and CPU inference.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "0bf877910a8cc203": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "5ef8f90d0953cd7f": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Engineering breakdown on Model Context Protocol: why JSON-RPC simplicity makes MCP trivial to build but vulnerable to protocol drift and loose security boundaries.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "e5dbf4ed0e595d56": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "0b9c4889bc6b3231": {
+  "label": "STUDY",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Tutorial walks through running headless Kiro CLI inside GitHub Actions to automate pull request reviews and lint suggestions.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "26bd3f225c2b2281": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Practical agent engineering guide: why autonomous tool execution fails on natural language prompts and requires strict Zod/Pydantic schema validation.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "4b780be14f8ebea6": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Vercel publishes comprehensive primer on AI evals: setting up deterministic assertions, synthetic test sets, and regression suites for agentic software.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "f245aad0f3e50747": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel adds Gemini 4 Hydrogen to AI Gateway, allowing developers to route Next.js streaming completions with unified caching and failover.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "c7edbb73c407c491": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "ByteByteGo breaks down subtle hidden architectural coupling: shared database schemas, implicit temporal sequencing, and distributed transaction locks.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "aefdfcde002dd9f9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "The Pragmatic Engineer analyzes the Railway security breach, examining cloud IAM token hygiene and engineering lessons for PaaS deployments.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "8c813d36427f682c": {
+  "label": "STUDY",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Why AI Agents Need RAG + Observability: Matt Aiken explains how RAG and telemetry prevent looping in enterprise agents.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "ee91f85e9c094e4f": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Two Minute Papers covers DeepMind's AlphaProof code release and mathematical Olympiad formal proof verification.",
+  "notes": "- Two Minute Papers (96.2K views) breaking down DeepMind AlphaProof.\n- Explains neuro-symbolic reinforcement learning combined with Lean formal mathematical language.\n- Demonstrates how formal verification grounds LLM reasoning without hallucinations.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "2bd9f2b043e7d8fd": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matthew Berman analyzes Jevons paradox in AI: how falling per-token inference prices dramatically accelerate overall enterprise compute spending.",
+  "notes": "- Matthew Berman short on inference economics.\n- Explains why cheaper models (like Gemini Decision 1 and Hydrogen) increase total API consumption by making multi-agent loops economically viable.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "83e977b53d72cd27": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Paul J Lipsky reviews Gemini 4 Hydrogen hands-on, testing daily coding speed and reasoning compared to Claude Haiku and GPT-6 Luna.",
+  "notes": "- Paul J Lipsky (3.8K views) hands-on review of Gemini 4 Hydrogen.\n- Tests response latency and coding accuracy on daily driver tasks.\n- Notes low token spend per task but flags pricing comparison vs $0.10/M tier alternatives.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "baad0cc1c8a77059": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Amplitude case study demonstrates using proactive product agent Wave built on OpenAI models to ship weekly product improvements in 1-2 days.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "ad30f2643c368bc8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "e90a950b2518d479": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "e4ebb8201ccc03f0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Microsoft Research highlights progress solving 31-year-old mathematical challenges and universal speech translation models.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "f77f3d47665f122a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "GitHub Actions hosted runners end support for ARM32 Linux and Windows jobs on December 8, 2026, transitioning to ARM64/x64.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "285c3bf4b006102a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub Secret Scanning expands automatic detection rules to flag exposed Cloudflare service tokens across public and private repositories.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "123a89ae60da1ba4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "2d1639c7f7cd1dbf": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "e7524e90ac359f3f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "OpenAI API changelog documents GPT-6 Cyber preview model for automated vulnerability verification and sandboxed defense workflows.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "db7d88bc3a2b51dd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "7ce2574117b74ce2": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Claude Code v2.1.323 introduces experimental 'Code Mode': Claude writes and executes JavaScript code to call tools in one loop instead of slow multi-turn JSON-RPC round-trips. Hook: 'Claude Code just added Code Mode—and it changes how AI tool calling works.'",
+  "notes": "- Released in Claude Code v2.1.323 (Nov 12, 2026).\n- Introduces experimental opt-in 'Code Mode' (turned on via https://code.claude.com/docs/en/code-mode).\n- Paradigm shift in agent architecture: instead of outputting structured JSON tool calls that require round-trip back-and-forth network latency across each step, Claude writes executable JavaScript code.\n- The generated code executes local file system checks, git commands, and API queries within an isolated sandbox in a single pass.\n- Slashes latency by up to 80% and drastically lowers token consumption in complex repository refactoring loops.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "18d7a2b1920edaef": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "ComfyUI releases v0.45.3 with optimized VRAM management for multi-model diffusion pipelines and updated node serialization.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "6992314fbb2418f8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "216cf521a1c1a7e9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "a99c7e750e9df514": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "a8dbccdbeb78d540": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "956fa07192921465": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "f6aebb9aaa83bc17": {
+  "label": "SKIP",
+  "reason": "rumor",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "a0b23f106059e05f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "9b515f604291e4c6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "795236726c19869d": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Comprehensive economic breakdown comparing self-hosted open LLM GPU clusters ($0.70/M amortized) vs managed cloud API tiers in late 2026.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "d28e8a7a4446e660": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "d169983cb022b408": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "a2b4ef0e0a1b124f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "45092505670f3c57": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "d0532afdd25ec406": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "f6d0fc4f974f8818": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "795687b3d1edd994": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "AWS releases SGLang-Neuron container, enabling high-throughput open LLM serving and RL rollout generation on AWS Trainium custom silicon.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "3e3a9ce0d3807376": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Natera architectural case study: designing enterprise multi-agent lab operations system SWARM using Amazon Bedrock AgentCore.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "5f9fb1324d07d831": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "AWS Bedrock technical analysis on request-level inference trade-offs: how reasoning effort and cache duration impact monthly cloud bills.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "b05c9307361f686b": {
+  "label": "STUDY",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Implementation guide for per-identity IAM token budgeting: tracking and enforcing hard spend caps across development teams using AWS Budgets.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "a7f4e56464adb4dd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "6a59a6dbfe2e905e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "6259e14d47e06ff1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Federal judge removes four attorneys from federal lawsuit after discovering submitted briefs contained hallucinated AI citations.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "fc2f1fdd0af2a2e9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "dd04aa6f1309393a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "LMArena updates Agent Arena leaderboard: adds GPT-6.1 Sol and Terra alongside Gemini 4 Hydrogen for head-to-head testing.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "4678e9667cacb283": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "LMArena blog introduces 'Interaction as a Judge': evaluating multi-turn conversational AI through interactive user behavioral signals.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "d63adad9de4db593": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "4ebbdccd2c1db81a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "12d14bc54e50af06": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Nebius plans $40 billion neocloud infrastructure expansion funded by customer prepayments despite datacenter delays.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "20235162dd6548c1": {
+  "label": "SKIP",
+  "reason": "rumor",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "b93a68573a1c94ea": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "a07afdb1365824a2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Liquid AI releases LiquidCodec: a 74M streaming neural audio codec encoding audio 361x faster at 12.5 Hz across 12 codebooks.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "edcb80857568df37": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "CopilotKit releases OpenBot 1.0: an MIT-licensed, self-hostable AI coworker workspace featuring audit logging and human-in-the-loop governance.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "60ba75ab845eedc2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "554f19d2e1a2c6aa": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "1685f12329c397d8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Offstage Cloud launches on-demand isolated macOS microVM sandboxes designed for testing desktop GUI and computer-use AI agents.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "5bfeb86c56a3411c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Oxagen launches mission control dashboard allowing distributed coding agents to share context graphs and synchronise task status.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "589359a4330cf3d9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "43f3610d8dccc2fc": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Blendra launches recording tool that captures user browser flows and autonomously generates clean, maintainable Playwright test suites.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "3cf4a58d69efb64f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "2e6f6c148f69f70c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Hacker News discussion (176 points) reviews findings indicating Chinese frontier AI models exhibit runtime hardware fingerprints of export-restricted GPUs.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "71e1d60bd4b16b5c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Open-source Foundation Models framework provides standardized APIs and evaluation harnesses across heterogeneous LLM inference providers.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "c31e14ec4a4e9f24": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "1d7544e4dbd46058": {
+  "label": "STUDY",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Paper demonstrates that probing intermediate transformer layers extracts richer functional representations than standard final-layer probing.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "321dee4af728f34e": {
+  "label": "STUDY",
+  "importance": 4,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "dev.to guide shows how bloated Model Context Protocol (MCP) tool schemas silently consume 40%+ of context windows, and how lean TypeScript micro-tools fix it.",
+  "notes": "- In-depth architectural guide on MCP tool payload optimization.\n- Explains that loading dozens of large OpenAPI/MCP tool definitions into system prompts clogs context windows, inflates per-token costs, and degrades reasoning accuracy.\n- Recommends dynamic tool discovery, lazy loading schemas only when invoked, and replacing bulky universal schemas with concise typed micro-tools.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "0af4300b73eaa5ce": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "081b64ddfea5ce46": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "c13d789478d226de": {
+  "label": "STUDY",
+  "importance": 2,
+  "reason": "best_practice",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Software engineer documents seven subtle ways AI coding completions look syntactically correct while introducing silent edge-case regressions.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "45f8d306d322ea14": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel AI Gateway adds support for Inkling 2 Small, offering low-latency streaming completions for lightweight frontend tasks.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "4398afdd6befd9de": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "ba92af8f3d4da11a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Hindustan Times examines India's defense AI deployments: integrating indigenous LLMs and sovereign edge models across military logistics and surveillance.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "abe9d46ec600d7ec": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Tech With Tim demos Claude Fable 5.2 building three applications overnight, testing unattended generation speed vs edge-case logic regressions.",
+  "notes": "- Tech With Tim video (34.5K views) on Claude Fable 5.2 capabilities.\n- Shows multi-app generation from single prompts.\n- Critical analysis: highlights impressive initial boilerplate but notes silent logic bugs and unhandled API errors when unattended.\n- Adaptation angle: teach Indian students structured test-driven development (TDD) harness loops to catch agent hallucinations automatically.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ },
+ "23f3e152e71d6934": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Matt Wolfe demonstrates practical automated photo categorization workflows using lightweight Decision Model API endpoints.",
+  "analyzed_at": "2026-11-13T02:40:54Z"
+ }
+}

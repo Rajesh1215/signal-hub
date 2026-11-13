@@ -1,6 +1,115 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-13T02:41:26Z",
+  "history": [],
+  "id": "2026-11-13-claude-code-mode-javascript-tool-calling",
+  "title": "Claude Code Added 'Code Mode': Why Calling Tools in JavaScript Slashes Agent Latency by 80%",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "Deconstruct Claude Code v2.1.323's experimental Code Mode—explaining why letting an agent write JavaScript to execute loops, bash commands, and MCP tools in one sandbox pass beats legacy JSON-RPC round-trips.",
+  "outline": [
+   "The latency bottleneck in AI agents today: 10 tool calls mean 10 sequential API round-trips waiting for JSON-RPC parsing",
+   "What Anthropic quietly added in Claude Code v2.1.323: experimental 'Code Mode' (opt-in at code.claude.com/docs/en/code-mode)",
+   "How it works: Claude writes a small JavaScript script containing conditional logic, loops, and file system reads that executes inside an isolated sandbox in ONE pass",
+   "Benchmark comparison: token savings, 80% latency drop, and how product engineers can adopt this pattern in custom agent frameworks"
+  ],
+  "items": [
+   "7ce2574117b74ce2",
+   "321dee4af728f34e",
+   "5ef8f90d0953cd7f"
+  ],
+  "updated_at": "2026-11-13T02:41:26Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-13T02:41:26Z",
+  "history": [],
+  "id": "2026-11-13-gemini-4-hydrogen-search-agent-economics",
+  "title": "Google DeepMind Just Launched Gemini 4 Hydrogen: Fast Agentic Loops & Search Breakdown",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "Benchmark Google's new Gemini 4 Hydrogen ($1.50/M input, $0.075 cached, $7.50 output)—breaking down how it powers Google Search's complex reasoning and comparing its unit economics vs Claude Haiku 5.5 and GPT-6 Luna.",
+  "outline": [
+   "The announcement: Google DeepMind launches Gemini 4 Hydrogen as the high-speed, cost-efficient tier of the Gemini 4 family",
+   "The pricing breakdown: $1.50/M input ($0.075 cached) / $7.50/M output—why it's a 75% discount on Carbon after Dec 1st, but still 15x Haiku 5.5",
+   "Where Google uses it: powering Google Search AI Overviews for multi-step query decomposition and real-time link synthesis",
+   "Developer verdict: when to choose Hydrogen on Vertex AI / Vercel AI Gateway for multi-turn conversational agents vs cheaper routing models"
+  ],
+  "items": [
+   "7dd0d351d1820692",
+   "af396ac559011e2b",
+   "f245aad0f3e50747"
+  ],
+  "updated_at": "2026-11-13T02:41:26Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-13T02:41:26Z",
+  "history": [],
+  "id": "2026-11-13-qwen-code-terminal-ai-agent-local",
+  "title": "Alibaba Just Open-Sourced Qwen Code: A Free Terminal AI Agent You Can Run on Your Laptop",
+  "type": "evergreen",
+  "timing": "SOON",
+  "angle": "Hands-on setup of Alibaba's open-source Qwen Code 1.0 terminal agent—showing Indian developers how to run multi-file git refactor loops locally without subscription lock-in.",
+  "outline": [
+   "The release: Alibaba folds Qoder's harness into Qwen Code 1.0 Preview and open-sources the combined agent core (QwenLM/qwen-code on GitHub)",
+   "What it does: a terminal-native autonomous coding agent that inspects file trees, executes bash scripts, edits code, and runs tests",
+   "Local setup walkthrough: pairing Qwen Code with local Ollama/LM Studio models on a standard developer laptop for 100% offline development",
+   "Comparing Qwen Code vs Claude Code and Cursor: features, speed, and why open-source agent harnesses protect developers from platform lock-in"
+  ],
+  "items": [
+   "01423bc7d3f40e74",
+   "3f454a2498d79b60",
+   "b30a193f6720326c"
+  ],
+  "updated_at": "2026-11-13T02:41:26Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-13T02:41:26Z",
+  "history": [],
+  "id": "2026-11-13-openai-codex-security-cli-audit",
+  "title": "OpenAI Just Open-Sourced Codex Security: Can an AI Agent Automatically Find & Patch Zero-Days?",
+  "type": "months",
+  "timing": "SOON",
+  "angle": "Test OpenAI's new @openai/codex-security CLI SDK against real web vulnerabilities and the recent Fireworks AI/Notion breach to see how autonomous red-team/blue-team agents actually perform.",
+  "outline": [
+   "The tool: OpenAI drops @openai/codex-security CLI and TypeScript SDK on npm and GitHub (663 stars in 24 hours)",
+   "How it works: scans codebases for injection flaws, unverified API endpoints, and credential leaks using GPT-6 Cyber reasoning",
+   "The automated reproduction engine: building automated test scripts in isolated containers to verify the vulnerability before generating fixes",
+   "Real-world application: lessons from the Fireworks AI / Notion token breach and how startups can add automated agent security checks into CI/CD"
+  ],
+  "items": [
+   "b40820961933f664",
+   "784271062e04ffdd"
+  ],
+  "updated_at": "2026-11-13T02:41:26Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-13T02:41:26Z",
+  "history": [],
+  "id": "2026-11-13-mcp-context-window-drain-fix",
+  "title": "Your MCP Servers Are Silently Draining 40% of Your Context Window (And How to Fix It)",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "Teach production agent engineering—demonstrating how bloated Model Context Protocol tool schemas bloat token bills and trigger agent hallucinations, and showing how to build lean TypeScript micro-tools.",
+  "outline": [
+   "The hidden trap: connecting 15 MCP servers into Cursor or Claude Code silently dumps thousands of schema tokens into every single prompt",
+   "Why tool bloat ruins reasoning: high token overhead degrades attention heads, inflates API bills by 40%+, and increases tool misfires",
+   "The solution: dynamic tool discovery, lazy loading schema definitions on-demand, and replacing generic universal schemas with minimal typed micro-tools",
+   "Full code implementation: building a lightweight TypeScript wrapper that keeps system prompts razor-sharp and cheap"
+  ],
+  "items": [
+   "321dee4af728f34e",
+   "5ef8f90d0953cd7f",
+   "26bd3f225c2b2281"
+  ],
+  "updated_at": "2026-11-13T02:41:26Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-12T01:54:42Z",
   "history": [],
   "id": "2026-11-12-gemini-decision-1-vs-gpt-luna-routers",

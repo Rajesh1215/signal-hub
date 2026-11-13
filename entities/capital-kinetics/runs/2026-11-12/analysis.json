@@ -2278,5 +2278,1056 @@
   "label": "SKIP",
   "reason": "duplicate",
   "analyzed_at": "2026-11-12T01:58:46Z"
+ },
+ "597f81ad106dba80": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "2a3427f5b0611825": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "f47f93349a1fb3f5": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_release",
+  "flags": {
+   "category": "economy"
+  },
+  "summary": "RBI data shows Indian corporate External Commercial Borrowings (ECBs) rose moderately in September led by renewable and telecom refinancing.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "1715b66e04a52a3a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "5a3946085f7d8777": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "67c962ea01838d44": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "market_event",
+  "flags": {
+   "category": "tech_business"
+  },
+  "summary": "Bloom Energy shares rally 13% after CoreWeave results highlighted surging on-site fuel cell power adoption for AI datacenters.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "9fe4131849f3bd0f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "1f7176256681a8e6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "dc6a0602582f6665": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "market_outlook",
+  "flags": {
+   "category": "markets"
+  },
+  "summary": "Jefferies notes foreign institutional investors turned net buyers of Indian equities in November after heavy October selling.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "ee835157ba867f77": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "77afec499e515d68": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "54036402ee9ba304": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Salaried employees can withdraw up to 36 months' basic+DA from EPF to repay home loan principal under Para 68BB tax-free, but doing so destroys 8.25% compounding. Hook: 'Can you take money out of your PF to pay off your home loan? Here is the tax catch.'",
+  "notes": "- In-depth personal finance guide on EPFO Para 68BB.\n- Eligibility: requires minimum 10 years of continuous service; allows partial withdrawal up to 36 times monthly basic wage + DA for home loan principal repayment.\n- Tax implications: 100% tax-exempt if employee has completed 5+ years of continuous service.\n- The compounding trade-off: pulling Rs 10 Lakh out of an 8.25% sovereign tax-free compounding pool saves ~8.5-9% floating loan interest, but permanently destroys long-term retirement corpus security.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "456e1b2747cace9f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "budget_or_policy",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "EPFO Central Board of Trustees meets Nov 19 to review demands to raise minimum monthly EPS pension from Rs 1,000 to Rs 3,000.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "1610444e00bea866": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "best_practice",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Personal finance wedding calculator breaks down hidden costs (venue service taxes, vendor tips, photography riders) pushing budgets 30% higher.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "60d5b4e8f3016fb5": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Retirement planning blueprint details bucket asset allocation strategies to make savings last 30 years without a monthly salary.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "03359c7c88bddb5a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_release",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Visual overview ranks top sovereign gold reserves globally: RBI holds over 850 tonnes, ranking ninth among global central banks.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "fb6745b9d90db72f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "73d074ee032956f4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "c8ad68f5482db2cb": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "earnings",
+  "flags": {
+   "category": "company_results"
+  },
+  "summary": "Netweb Technologies rebounds 13% after reporting Q2 net profit of Rs 136.7 crore on strong AI server deliveries.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "6ed1f1788a8f5443": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "a34839b25fc3e9ea": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "fc1c73217471afc4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "5596d759877efbe1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "price_change",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "Small finance banks offer up to 8.25% fixed deposit interest rates across 2-3 year tenures, outpacing public banks by 100-150 bps.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "0984a02850815d91": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "336164883a6164dd": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "97e608d8f4e109cf": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "insurance"
+  },
+  "summary": "Mint Money warns missing health insurance renewal dates resets pre-existing waiting periods and erases accumulated No-Claim Bonus (NCB).",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "62b437dcb9806e01": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "65323135f5ac2c64": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "best_practice",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Financial planners advise families budgeting for indoor air purifiers to size by room CADR rather than paying for aesthetic smart displays.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "60b82e55615087cc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "7570d44b4626b571": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "mutual_funds"
+  },
+  "summary": "Mint Money screens active equity mutual funds holding concentrated 25-30 stock portfolios despite being classified outside focused categories.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "420795cf04799160": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "3b9a1bf54dfcfbca": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "a3768fbf5e24d0bc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "6efb916ca1b41364": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "7ea67929ddc78ecf": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "a7fa63579d28240a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "db3255460ed51754": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "mutual_funds"
+  },
+  "summary": "Franklin Templeton launches outbound fund from GIFT City, allowing Indian retail investors actively managed S&P 500 exposure from $5,000.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "4fd6199caadbcc09": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "yc"
+  },
+  "summary": "YC startup Inkbox raises $5.3 million to deploy persistent autonomous AI agents across team communication channels.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "c7abf2402db8d379": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "regulation"
+  },
+  "summary": "Central Consumer Protection Authority (CCPA) fines Ola parent ANI Technologies Rs 10 Lakh for misleading advance tipping prompts.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "8ec0e0abd06c989f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "e329d8852994e14a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tech_business"
+  },
+  "summary": "Google Cloud highlights enterprise agent deployment patterns: how wrapping robust evals and system guardrails around models creates ROI.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "4d8388240b65ef3c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "founder_mindset"
+  },
+  "summary": "CommonFloor co-founder Vikas Malpani reflects on startup acquisition outcomes and psychological hurdles of rebuilding from scratch.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "ee8c0acee6f86bfa": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Mangaluru-based Zupple Labs secures DRDO funding to build India's first security audit verification framework for defense applications.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "be72c68b9e1aecd7": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Lenskart CEO Peyush Bansal eliminates blue-light lens upselling fees and pledges free glasses to 100,000 children across India.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "6e370e57b0a6de21": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "company_issue",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Gaurav Munjal steps down as CEO of edtech unicorn Unacademy to become executive chairman; COO Akhilendra Kumar assumes CEO role.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "63fc7bac3a583311": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "ValueQuest commits Rs 775 crore to back Indian defense technology, precision engineering, and electrical grid manufacturers.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "1ac8190427746b08": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "a19b814e83f9a26b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "earnings",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Home interior startup HomeLane reports FY26 revenue flat at Rs 738 crore while net losses widened 23%.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "194f1b050575cde9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "379556281d4a498c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "f92e9f80f9865050": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Biofuel startup Greenjoules raises Rs 250 crore in growth funding to expand agricultural waste-to-energy processing plants.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "5bea878ec8a18614": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "market_outlook",
+  "flags": {
+   "category": "startups_funding"
+  },
+  "summary": "Analysis tracks consumer AI startups in India securing early venture capital while facing steep long-term user retention hurdles.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "732ca3c43bafa975": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "cf175c7692bc5c7f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "company_issue",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Vietnamese EV maker VinFast's Green SM electric cab service faces regulatory pushback from local taxi driver unions in Bengaluru.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "16fc8a03619fb740": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "economy"
+  },
+  "summary": "Government bans export of lithium-ion battery black mass to secure critical mineral recycling supply for domestic EV manufacturing.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "1950ce58428a37e0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "company_issue",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Singapore Airlines CEO endorses Air India turnaround strategy while cautioning that profitability recovery will require multi-year capital.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "f6fe4c6004a7d53b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "8f8e059686daeee3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "7cff53a0cf59634b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "38b9213cecd7f3fd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "63ae98167e31fa16": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "51453739f4358bd0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "5dc124d93171d710": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "680432685b4971d4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "market_event",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "HDFC Bank shares consolidate above Rs 811 as trading volumes moderate following recent foreign institutional buying.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "908cb6aedabe5a0e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_round",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Kotak Alternate Assets invests Rs 325 crore in heavy equipment distributor Gainwell Group to finance international expansion.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "d35ba193e5cc95fb": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "b9680ac27817aa1a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "d8ed3d4d5d0bdeeb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "8f33161558fb1362": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "f3f2d0f991d8cdd6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "83bfbf16705c400d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "1dae94d3104b9292": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "0c407ed764a7d3dd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "b6244baca9002779": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "b09030ab6d2adb2b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "geopolitics",
+  "flags": {
+   "category": "hardware_chips"
+  },
+  "summary": "Global AI datacenter buildouts trigger optical fiber shortages, constraining military supply chains in Eastern Europe.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "cf2651c0bec475a4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "258846bc97a66bf2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "company_issue",
+  "flags": {
+   "category": "hardware_chips"
+  },
+  "summary": "Scrutiny intensifies on Nvidia's disappearing Singapore distribution sales as federal investigators trace Megaspeed chip pathways.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "fb57ca9eedde06f1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "a6825326ba1bbe5c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "2e760a8ca588dd24": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "8d834a2b747543bc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "4572a518b7a77a64": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "a4746022a2eb9f15": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "39af1ea30b7e5d89": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "b7272868ce96c5e8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "2bcc74562b0db7d1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "c58b01d2bad3b740": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "67bd5403e2c5227f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "46dee36f39a2adb7": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "eda8cc6f76d65af0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "b0697d97672b8e33": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "ce978c037652679d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "d99ac927e9231b4f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "04cdbb39618c2f36": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "5063099462b48f8b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "6e8adfe5022b5005": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "company_issue",
+  "flags": {
+   "category": "tech_business"
+  },
+  "summary": "Meta head of infrastructure Santosh Janardhan will depart in 2027; former AWS senior VP David Brown named successor.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "3e7dfb01d51e3e16": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_release",
+  "flags": {
+   "category": "wall_street"
+  },
+  "summary": "BNY Wealth survey finds alternative investments (private credit, PE) now comprise 60% of single-family office portfolios.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "f6ac8d9fc9172149": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "81af8b09e823a52e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_release",
+  "flags": {
+   "category": "global"
+  },
+  "summary": "UK economy expands 0.7% in Q3, meeting estimates as tech services and AI investments drive growth.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "d7c1262cac5affc5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "10ba1bf861b162df": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "761e15c696d7842d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "4a2f555756238fb7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "d29dae54dc05ff60": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "78135a3107950608": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "45eb7c5a545e7e2e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "3ddb7989f633cb71": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "18f2be4337511f77": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_round",
+  "flags": {
+   "category": "hardware_chips"
+  },
+  "summary": "Samsung announces $30 billion capital expansion into advanced chip packaging facilities to compete with TSMC.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "62f683259c370322": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "market_event",
+  "flags": {
+   "category": "tech_business"
+  },
+  "summary": "SpaceX plans $24 billion gas power plant and AI supercomputer datacenter project in Starbase, Texas.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "fd476fa0629bf49a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "eab42157000c1dec": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "8a5d3b992e6a72c0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "hardware_chips"
+  },
+  "summary": "Microsoft lobbies against proposed US ban on Chinese optical transceivers, warning ban would delay AI datacenter builds.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "f2853961fb2082e9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "fe57ae89d23f269a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "lessons"
+  },
+  "summary": "Historical investing lesson: Grace Groner's $180 investment in 1935 grew to $7 million through dividend reinvestment and 75-year compounding.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "8108b14137c4097c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "f893fd842ec04d02": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "lessons"
+  },
+  "summary": "Safal Niveshak shares 'The Long Game of Investing': cultivating patience and emotional temperament over market timing.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "541aef28186572cd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "232ce314d84dad45": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "1b66c5ec0e8fb35d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "066e6959f677d044": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "8f9d6ee8da60e266": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "9c01b5b14113d3f7": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "expert_view",
+  "flags": {
+   "category": "wall_street"
+  },
+  "summary": "Bain Capital Real Estate highlights emerging investment opportunities in life-sciences labs and decentralized logistics hubs.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "0887a4ac578fda5d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "ce6bedea72555a62": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "wall_street"
+  },
+  "summary": "Bloomberg TV explains cross-border broker structures enabling Asia-Pacific retail traders to participate in Anthropic's mega-IPO.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "761506a053efe17a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "2fbc9d4df442b003": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "53da42fca7a7163c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "ff3e807fb4dcac92": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "c8ffd36b9f4f1b5b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "88e948ab65bfb6e4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "9cd329729ac2c02e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "75a5b763d5e1fe1a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "bdd01d30078b566f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "a077860ca9934358": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "5a07995c31aaabc3": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Supply chain fintech Veefin Solutions migrates to NSE and BSE mainboards following 127% annual profit growth.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "2673248f245da6c7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "d0dc9ee3c85298d4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "market_event",
+  "flags": {
+   "category": "markets"
+  },
+  "summary": "Unlisted NSE shares rebound 20% in secondary markets as brokerages project strong derivative trading volume growth.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "7a546b0bcd169145": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "lesson",
+  "flags": {
+   "category": "lessons"
+  },
+  "summary": "Study of 15 Indian IPOs across 24 months reveals listing-day pops rarely translate into 2-year alpha for retail investors.",
+  "notes": "- In-depth study on Indian primary market listings.\n- Analyzed 15 high-profile Indian mainboard IPOs over 24 months.\n- Finding: while 80% saw listing-day gains averaging 22%, over 60% traded below their day-one high two years later.\n- Key lesson: IPO investing requires fundamental business assessment, not flipping listing-day frenzy.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "cab6d9fef2a18c68": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "ebb59027ae8faa58": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "adb61e853587a664": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "040483d393a652fa": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "f23dc48fa21e87f5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "d6caf172fd41c1e9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "b3f98a01a8ec6f71": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "5ac14b6e27ef00e9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "7976049f39702fa5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "8aa088229e838146": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "2971b78031bbecca": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_release",
+  "flags": {
+   "category": "global"
+  },
+  "summary": "Financial analysis examines China's estimated $3 trillion in hidden state foreign exchange assets outside official PBOC reserves.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "5d68b354f3bfb307": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "wall_street"
+  },
+  "summary": "Economist commentary warns of systemic economic vulnerabilities if multi-trillion dollar AI infrastructure returns underperform.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "a6985002ac7e150e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "fa918978b9443d9d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "69490d8cb2801bc6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "caab1e02e768fd7f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "economy"
+  },
+  "summary": "BEML announces domestic manufacturing of tunnel-boring machines to substitute Chinese infrastructure imports for Indian metro rails.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "005f1120c817de7f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Haldiram Snacks kicks off groundwork for mega-IPO targeting Rs 10,000 crore valuation by late 2027.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "c3fefac4419357e7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "ade5a0158eaac560": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "8aba43d2c4890a59": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "a202d539be84cec0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-13T02:47:30Z"
+ },
+ "8c6acd4c58da50e3": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Ankur Warikoo short on travel budgeting: how two people can budget international trips under 1 lakh with credit card points.",
+  "notes": "- Ankur Warikoo travel personal finance short (6.5K views).\n- Shows budget allocation, flight booking points hacking, and avoiding currency conversion fees.",
+  "analyzed_at": "2026-11-13T02:47:30Z"
  }
 }
