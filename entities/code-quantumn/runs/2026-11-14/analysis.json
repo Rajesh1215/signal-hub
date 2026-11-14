@@ -1,0 +1,1380 @@
+{
+ "3dde5fce701e37a8": {
+  "label": "MAKE",
+  "reason": "official_launch",
+  "importance": 4,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "OpenAI introduces ChatGPT Wallet, enabling autonomous agents in ChatGPT Work, Codex, and dots to execute purchases with user approval. Hook: 'OpenAI just gave AI agents their own wallet—and a license to buy things for you.'",
+  "timing": "NOW",
+  "evergreen": 4,
+  "notes": "- Launch: OpenAI introduces ChatGPT Wallet across ChatGPT Work, Codex, and autonomous dots agents.\n- Capabilities: Allows agents to safely handle e-commerce checkout, SaaS subscriptions, and travel bookings using tokenized payment credentials.\n- Security: Operates under human-in-the-loop authorization with pre-set spending limits and standard credit card fraud protections.\n- Builder significance: Signals the shift from read-only informational AI agents to transactional write-enabled economic agents.",
+  "actions": [
+   "Created video idea 2026-11-14-chatgpt-wallet-agentic-purchases"
+  ],
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "f1f0ded546fe77c0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "46463d0b4d69524e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "f7ff00c6509e3a4e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "23d855879c7a1d87": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "f0cd7a3116ed01fb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "0a9a01e3040b3c0e": {
+  "label": "KNOW",
+  "reason": "tutorial",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Hugging Face Blog guides building physical robot pick-and-place simulations using SimReady assets and physics engines.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "5913db4517f2ac24": {
+  "label": "KNOW",
+  "reason": "benchmark_claim",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Hugging Face details XYBench, an evaluation benchmark assessing how LLMs diagnose the underlying intent behind ambiguous user queries.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "27cfd6db57808c92": {
+  "label": "MAKE",
+  "reason": "open_source_release",
+  "importance": 4,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "llama.cpp officially reaches v1.0.0, stabilizing the C/C++ API powering local LLM engines and deprecating legacy quantization flags. Hook: 'The engine running local AI on every laptop—llama.cpp—just hit version 1.0.'",
+  "timing": "NOW",
+  "evergreen": 5,
+  "notes": "- Milestone: Georgi Gerganov's llama.cpp reaches version 1.0.0 after two years of rapid development.\n- What it powers: The foundational inference engine underlying Ollama, LM Studio, Jan, and local coding copilot extensions.\n- Key changes: API stability guarantee for C/C++ bindings, removal of 35 legacy deprecated functions, standardized GGUF v3 tensor formats, and unified multi-GPU memory mapping.\n- Builder impact: Developers building local desktop AI apps now have a frozen, reliable C-ABI without breaking changes on every git pull.",
+  "actions": [
+   "Created video idea 2026-11-14-llamacpp-1-0-stable-local-ai-engine"
+  ],
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "d13087b40b4d25cb": {
+  "label": "KNOW",
+  "reason": "tutorial",
+  "importance": 2,
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "NVIDIA details running Python Deep Learning Accelerator (cuDLA) inference on Jetson AGX Orin for embedded robotics.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "0145efb8204564be": {
+  "label": "KNOW",
+  "reason": "tutorial",
+  "importance": 3,
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "NVIDIA shows how to partition and serve frontier GLM-5.3 weights across two DGX Stations using vLLM tensor parallelism.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "84587079797ff5c6": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "NVIDIA releases SOMA Retargeter to adapt human motion capture data directly into kinematics for humanoid bipedal robots.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "f8e30dd6f91cff9a": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub adds REST API endpoints to programmatically enable or disable AI Code Scanning at the organization and repository levels.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "a2e12fa5541f983c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "62b8baa0dfe555a9": {
+  "label": "KNOW",
+  "reason": "model_release",
+  "importance": 2,
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Hugging Face highlights Inkling-2-Small, a lightweight vision-language model trained for high-speed edge document parsing.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "3c24849865a9c321": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "23925069d8d75473": {
+  "label": "KNOW",
+  "reason": "open_source_release",
+  "importance": 3,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Meta Reality Labs ports Android Cuttlefish virtual device framework to macOS, enabling native ARM64 Android emulation on Apple Silicon.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "290c0d7abf10ef83": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "d8f5288d568d47d1": {
+  "label": "KNOW",
+  "reason": "policy_change",
+  "importance": 3,
+  "flags": {
+   "category": "business"
+  },
+  "summary": "United Airlines becomes the first major airline to block automated booking bots from Meta's AI agent Muse to protect direct distribution.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "690eefab4675146c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "22458aeaaec124c2": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "cdb6d91f741ca362": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "684c117955855a6a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "078e991b34194f49": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Forensic analysis of DeepSeek model checkpoint metadata reveals tensor shapes matching Nvidia Blackwell B200 hardware.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "c3fcb3c0c1b4ec4c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "0e717002b1c07d1d": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "0f225a0fc34afc93": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "7075a07b110db53b": {
+  "label": "KNOW",
+  "reason": "model_release",
+  "importance": 2,
+  "flags": {
+   "category": "model"
+  },
+  "summary": "US AI researchers release an uncensored fine-tune of Qwen3.8-27B, removing Chinese political guardrails while preserving reasoning.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "2196982d4fc9c53e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "53284a3b7b091c6a": {
+  "label": "KNOW",
+  "reason": "tutorial",
+  "importance": 2,
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "AWS details IAM-level cost attribution and automated spend caps on Amazon Bedrock developer tool endpoints.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "bc02f585ab6890d6": {
+  "label": "KNOW",
+  "reason": "tutorial",
+  "importance": 2,
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "AWS demonstrates SageMaker HyperPod Data Capture to log live production model inputs/outputs for continuous fine-tuning loops.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "747c243c5e69381a": {
+  "label": "KNOW",
+  "reason": "tutorial",
+  "importance": 3,
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "AWS shows how to build composable multi-agent systems using the Agent-to-Agent (A2A) protocol between LangChain and Strands agents.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "c9b1b875b357d3f2": {
+  "label": "KNOW",
+  "reason": "tutorial",
+  "importance": 3,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "AWS details exposing Amazon Bedrock Knowledge Bases as MCP tools via AgentCore Gateway while enforcing per-user access controls.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "9d0064b452970374": {
+  "label": "KNOW",
+  "reason": "model_release",
+  "importance": 3,
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Perplexity releases Decider v1.3 and Flash v1.3: open-weight decision models that output calibrated action probabilities and span extraction.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "e4a4f8f977f8075b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "70c65d817f5458c0": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Amazon expands anti-crawler protections to block 99 AI agent bots from scraping product catalog and pricing data.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "3891cc0c100b587e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "ab5d5b0923ec8674": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "b3294cf6f4427523": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "importance": 3,
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Industry analysis evaluates what Jensen Huang's Nvidia departure means for Indian AI startup partnerships like Sarvam and Simplismart.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "4e98873a494ff547": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "fb85dce61a733762": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "97c90da6e9ee4727": {
+  "label": "KNOW",
+  "reason": "opinion",
+  "importance": 3,
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Analysis assesses OpenAI's local data processing commitment in India versus genuine sovereign AI infrastructure needs.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "9951596c3c1ebe08": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "327bca2717886ab0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "d16cf11e98e803da": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "816fe6624fcc2cd2": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "product"
+  },
+  "summary": "ElevenLabs launches ElevenAI, an automated meeting transcription and voice dictation app designed for remote engineering teams.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "bacc76e81e53dcbd": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "e0252921ccd6c2e5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "825d156bb1ea102d": {
+  "label": "KNOW",
+  "reason": "benchmark_claim",
+  "importance": 3,
+  "flags": {
+   "category": "model"
+  },
+  "summary": "MarkTechPost publishes 2026 AI Video Generation benchmarks comparing open-weights models vs proprietary tools on frame consistency.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "4baadf6ce9355fd4": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "66563a0c813348c7": {
+  "label": "KNOW",
+  "reason": "open_source_release",
+  "importance": 3,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Google open-sources TPU Sync, a high-performance C++ library reducing KV-cache transfer latency across TPU HBM and host memory by 90%.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "8aeb688db386a07c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "b7a571cbdab9c14f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "df121b98eae936fc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "03a5ff74b211acce": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Product Hunt features Paxper, a visual tool to design and review Terraform cloud infrastructure changes collaboratively.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "873ff6eeaa00369b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "bfda341c9c23ece7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "542f657bf9f5f4f9": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GAtrends launches real-time Google Analytics spike alerts delivered directly into Claude, ChatGPT, and Telegram bots.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "3a17acbffd4766b7": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Expo Simulators launches cloud-hosted mobile app sandboxes designed specifically for autonomous testing agents.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "93dfd326eeb91073": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Trainn launches an MCP server enabling developers to auto-generate product walkthrough videos directly from AI chat sessions.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "64cb6ca9c0ff8384": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "c4a9249cbef3171d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "fea0a4476adfb713": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Replicate tool turns Webflow and Framer web designs into clean React code projects compatible with Claude Code and Codex.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "29890a90b6d9aa8f": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Aven App Agent launches an in-app interactive walkthrough agent that guides new users through SaaS workflows.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "a39dd0dd819794eb": {
+  "label": "KNOW",
+  "reason": "tutorial",
+  "importance": 2,
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Hacker News top post details reverse engineering Coway air purifier firmware to eliminate cloud dependencies with ESPHome.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "02c44a1eacb8b2e9": {
+  "label": "KNOW",
+  "reason": "security_incident",
+  "importance": 3,
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Anthropic reports elevated error rates and API timeouts across claude.ai and Claude Code platform due to infrastructure load.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "cc89eaf78ff97f8d": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 3,
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Brave Search API adds support for autonomous machine-to-machine micropayments using the decentralized x402 protocol.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "be1cdafd9aaa8032": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "999c3b94b17311f2": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Open Vision Banana paper proposes an open framework utilizing pretrained generative visual features for universal perception tasks.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "5474f61758061108": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 3,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Hugging Face Daily Paper 'Read Less, Solve More' introduces token-efficient sparse reading interfaces for web-browsing AI agents.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "fc2cbefa96eb7951": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "TTB paper introduces test-time KV-cache baking to render novel 3D views from decoder-only neural synthesis models at real-time speeds.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "a3c6520456c8118d": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Factored One-sided Adam-Moment paper introduces scalable approximations for second-order transformer optimizers like SOAP.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "9026e0b7b5106bed": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "JustRUA paper benchmarks GPT-6 Astra driving physical robot arms directly through structured interface harnesses.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "3fbca698ef67888f": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "HiVe-Mem paper introduces dual-axis memory expansion to maintain coherent long-horizon context for multimodal agents.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "162973744a8a6bb7": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Adaptive Computation paper demonstrates converting heavy LLMs into fast, low-cost System One decision models for reactive agent steps.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "7838e1996c036309": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 3,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "The Value of Thinking paper trains hybrid models to selectively trigger internal chain-of-thought only on high-entropy branching steps.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "3d9d126c3853e86c": {
+  "label": "KNOW",
+  "reason": "open_source_release",
+  "importance": 3,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Alibaba open-sources open-code-review: a hybrid code review tool combining deterministic AST linters with LLM agent line-level feedback.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "905f8eb5e60cad9f": {
+  "label": "KNOW",
+  "reason": "open_source_release",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Tailscale releases tailcat: a lightweight netcat alternative running directly over Tailscale's encrypted mesh data plane.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "828444586546b3de": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "5c647549befdb6fc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "5a1a8b18202d0eb1": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "dev.to showcases free client-side WebAssembly background removal alternatives following remove.bg's planned shutdown.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "1bdcbcb3f283bccb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "d553800b25d6b092": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "importance": 3,
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Technical comparison analyzes Composio, Nango, and Scalekit for handling OAuth token refresh and enterprise auth in AI agents.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "6c9b1e3f2983897b": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel Sandbox reduces cold boot times by up to 4x, accelerating ephemeral microVM provisioning for agent code execution.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "26f93a42b49115c5": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel increases deployment build cache limit to 5 GB, speeding up CI/CD monorepo builds for large Next.js apps.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "693437c2d2fae8e2": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 3,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel AI Gateway introduces Parallel Decisions for free, allowing developers to query multiple routing judges simultaneously.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "d2ffb8a4bf6d76fe": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 3,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Cloudflare introduces Spend Management with hard spending caps and real-time alerts across Workers and Durable Objects.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "655f8c051232b222": {
+  "label": "STUDY",
+  "reason": "tutorial",
+  "importance": 3,
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "ByteByteGo newsletter publishes masterclass on production agent engineering: context assembly, tool validation, and guardrails.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "34742f057a7c5edb": {
+  "label": "KNOW",
+  "reason": "tutorial",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Tech With Tim publishes tutorial on building local Python voice agents integrating AssemblyAI speech models.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "7ad779e6652648be": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "a20ba785ad36816b": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "importance": 2,
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "IBM Technology's Mixture of Experts discusses leadership transitions at Nvidia and benchmarks Claude Fable 5.2 against AGI definitions.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "03c737da06e9ffdd": {
+  "label": "STUDY",
+  "reason": "tutorial",
+  "importance": 3,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "CampusX releases comprehensive video tutorial connecting Google Agent Development Kit (ADK) with custom Model Context Protocol servers.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "5070fa8b451e3dc4": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "0566e56d36157134": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "48f22cde6137ac38": {
+  "label": "KNOW",
+  "reason": "tutorial",
+  "importance": 3,
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Riley Brown demonstrates using Claude Code Projects combined with Convex real-time databases to build full-stack mobile web apps.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "15464325009a80a7": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "The AI Advantage showcases Claude Fable 5.2 visual presentation generation and pedagogical diagram creation capabilities.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "636c8abd23a9aa12": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "importance": 3,
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Wes Roth reviews Google's recent AI releases: Gemini 4 Hydrogen, Gemini Decision-1, and Antigravity swarm coordination.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "dd65c706a7b19ba2": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "cb90a249bc3a29a1": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Fireship humorously recaps Jensen Huang's resignation after 33 years; we can focus on why builders need GPU-agnostic backends.",
+  "notes": "- Content: Jeff Delaney humorously recaps Jensen Huang's sudden resignation after 33 years amid board controversy and unvested equity forfeiture.\n- Technical impact: Highlights concerns over Nvidia's CUDA developer lock-in and open-source model releases under interim CEO Colette Kress.\n- Angle for builders: Focus on hardware diversity—why builders should abstract GPU backends with vLLM, LiteLLM, and open runtimes.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "e3c1529f751901a6": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matthew Berman explores cloud AI API censorship; reinforces our channel focus on running local models via llama.cpp 1.0.",
+  "notes": "- Content: Berman explores cloud API censorship, frontier lab terms of service, and sovereign AI compute.\n- Takeaway for our channel: Directly reinforces our push for local open-weights models (llama.cpp 1.0, Qwen, DeepSeek) running offline on personal hardware.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "69399262b5ede354": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matthew Berman interviews Anthropic researcher on LLM training pipelines; great reference for our AI roadmap series.",
+  "notes": "- Content: Berman interviews an Anthropic researcher breaking down post-training alignment, constitutional AI, and RL from AI feedback (RLAIF).\n- Takeaway: Great reference material for our 'Learn AI as fast as possible' roadmap explaining pre-training vs SFT vs RL.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "c4e39e284bf53c50": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Krish Naik reviews an AI PC running local models for coding; relevant for Indian devs evaluating minimum VRAM specs.",
+  "notes": "- Content: Krish Naik reviews an AI PC running local models for Python coding and automated agent workflows.\n- Audience fit: Indian developers want to know minimum specs (VRAM, unified memory) to run 7B-14B models smoothly without heating or latency.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "57f2a1b111ea91f2": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo (t3.gg) compares Opus 5.5 vs Fable 5.2 in production web engineering; reinforces matching models to task complexity.",
+  "notes": "- Content: Theo compares Opus 5.5 vs Fable 5.2 in production web engineering, explaining when to use heavy reasoning vs rapid code generation.\n- Takeaway: Match model capabilities to task horizons—reasoning models for architecture, fast coder models for component generation.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "85daca5136f09b2a": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Paul J Lipsky reviews the release blitz of Gemini 4 Hydrogen and Claude Code; good benchmark overview for our audience.",
+  "notes": "- Content: Lipsky recaps the rapid-fire release blitz: Gemini 4 Hydrogen, Claude Code Code-Mode, and Jensen Huang's exit.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "3b7d6b61eff5f40c": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "importance": 2,
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Shield case study details using OpenAI Forge agents to automate legacy IT workflow navigation without API access.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "01bdd3d98774e5ac": {
+  "label": "KNOW",
+  "reason": "policy_change",
+  "importance": 2,
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Anthropic announces third-party evaluation initiative to independently verify frontier AI model safety and capabilities.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "da33b5fecaf77fa3": {
+  "label": "KNOW",
+  "reason": "policy_change",
+  "importance": 2,
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Anthropic activates ASL-3 (AI Safety Level 3) containment protocols following autonomous cyber-capability tests.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "1bca41f0610b30a3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "c3abb6c5802ec456": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "71385d516cd725d6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "5ff89f9acba32b02": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 2,
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "NVIDIA cuBLAS introduces accelerated FP64 dense matrix multiplication algorithms for high-precision scientific simulation workloads.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "9ec7e21205de1f30": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 2,
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "NVIDIA cuPhoton enables GPU-accelerated radio interferometry algorithms to reconstruct ultra-high-resolution black hole ring imagery.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "c986389e132080d2": {
+  "label": "KNOW",
+  "reason": "policy_change",
+  "importance": 3,
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "GitHub Copilot announces deprecation schedule for older model backends on December 14, 2026, transitioning to unified agent backends.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "2524e598373e9612": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub Copilot app adds native integration with GitHub Enterprise Server (GHES) for self-hosted corporate repositories.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "970a6a5f57179e9c": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 3,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub Copilot integrates Gemini 4 Hydrogen as generally available model option for fast agentic code editing loops.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "55d2f82ba66a07cb": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 3,
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "Claude Code v2.1.325 patches a zstd response decompression vulnerability and improves integrated VS Code terminal cell re-running.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "ae6576dd91a96e45": {
+  "label": "KNOW",
+  "reason": "model_release",
+  "importance": 2,
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Hugging Face trending models highlights LongCat-2.5, an open vision-language model trained for ultra-high-resolution technical chart reading.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "44685cface035a4b": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 2,
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Meta adds low-latency voice interaction and animated expressive avatars to its AI assistant Muse.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "1f2c4539ea59f9af": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "1eaded50a5b877fb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "b1946a42dff82114": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "db3bc34067ede8bd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "355d0d40bcc749c1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "f4a977c8b6ca71d5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "53e273b70f4293be": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "936c7ee9a2b2cb4b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "2863506298fba714": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "d3bd7fa54961b7b1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "8d4f59da0e787075": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "d66d27544a45dadd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "454faba97e51014f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "94f5473fd2af0f43": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "e0513d21f2705cd0": {
+  "label": "KNOW",
+  "reason": "tutorial",
+  "importance": 3,
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "AWS demonstrates deploying LiteLLM with NVIDIA NeMo Switchyard to dynamically route coding agent tasks to the cheapest capable model.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "03329fb755e427bb": {
+  "label": "KNOW",
+  "reason": "tutorial",
+  "importance": 3,
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "AWS explains Bedrock AgentCore V2 runtime snapshots, freezing initialized container state to achieve sub-second session boots.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "49a4a801f32eaf3e": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "AWS enables one-click deployment of OpenFold3 biomolecular structure prediction on Amazon SageMaker JumpStart.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "c8f4eb37346f0660": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "e3f85a0ff06bf31e": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Reuters reports on Amazon's strategy to restrict third-party agent scrapers while building proprietary product knowledge graphs.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "fbee985938c1142e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "8c9a5401c731ce26": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "44ee915e144a4037": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "4142bc588ceeb467": {
+  "label": "KNOW",
+  "reason": "funding_or_deal",
+  "importance": 3,
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "AI agent framework provider LangChain reaches $3B valuation following rapid adoption of its LangSmith agent monitoring suite.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "e44793c7212e91c0": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Product Hunt features Pocket Studio for Supabase: an open-source Android SQL client and database dashboard for developers on the go.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "64721a215bf82f57": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "2b9301cd3dd16fea": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "de:volt launches an interactive browser-based breadboard circuit simulator with real-time SPICE physics simulation.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "7b024f5b644b0836": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "1b3a6a1505c520e1": {
+  "label": "STUDY",
+  "reason": "explainer_angle",
+  "importance": 3,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Hacker News viral write-up details lessons from 600 experiments training Joint Embedding Predictive Architecture (JEPA) world models.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "898acb63e84c675e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "813f6ac1bcd77fcd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "9995a1007e613c0c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "762bc4655872f77d": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Research investigates whether LLMs can navigate conflicting multilingual narratives without hallucinating false consensus.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "1397744e6d39bbf8": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 3,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Paper proposes Experience-Handoff RL, enabling agents to pass dense failure trajectory traces across iterative self-improvement runs.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "73c6e7cb94f40c5f": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "EgoX paper explores cross-embodiment robot manipulation training utilizing simulated mental dreaming of task executions.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "bab26c84e4db4708": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Nature paper presents medical foundation model achieving expert radiologist parity in multi-organ MRI interpretation.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "4a0f3dcd1df4e920": {
+  "label": "STUDY",
+  "reason": "research_paper",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Comprehensive survey catalogs architectures and failure modes in autonomously self-evolving multimodal agent systems.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "31e72703bcd04fee": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "importance": 2,
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "dev.to author breaks down real-world reliability failures in multi-service AI apps after hackathons and shows how verifiers catch them.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "8e6ea9384789556e": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel Tracing now supports telemetry ingestion from background worker daemons and persistent long-running jobs.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "acdada6d76ee1865": {
+  "label": "KNOW",
+  "reason": "price_change",
+  "importance": 3,
+  "flags": {
+   "category": "offer"
+  },
+  "summary": "Vercel upgrades Token Pass subscription to include $150 worth of AI model API tokens for $30/month across all major providers.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "9e45652ebd742029": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel Security Review expands to scan codebases without requiring a linked live Vercel hosting project.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "a1dfb26678a940b8": {
+  "label": "MAKE",
+  "reason": "open_source_release",
+  "importance": 4,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Cloudflare open-sources Kitesurf, an experimental headless browser engine purpose-built for AI agents to browse, click, and run on Workers. Hook: 'Cloudflare just open-sourced Kitesurf—a browser engine built specifically for AI agents.'",
+  "timing": "NOW",
+  "evergreen": 4,
+  "notes": "- Launch: Cloudflare open-sources Kitesurf, its experimental browser engine optimized for AI agents.\n- Architecture: Designed to run locally or deployed serverlessly across Cloudflare Workers edge nodes.\n- Key features: Native DOM event virtualization, light memory footprint, built-in anti-bot bypass handling, and structured markdown extraction.\n- Builder significance: Allows agent engineers to spin up dozens of parallel browser automation instances without running heavy Chromium containers on expensive servers.",
+  "actions": [
+   "Created video idea 2026-11-14-cloudflare-kitesurf-agent-browser-engine"
+  ],
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "52de3180e5ef4b0e": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "importance": 3,
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Cloudflare details defensive security architectures designed to thwart AI-orchestrated autonomous penetration testing attacks.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "7e3baec9bf833b92": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Simon Willison releases datasette-cluster-map 0.19, updating spatial clustering plugins for Datasette 1.0 alpha releases.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "f1b3bd5064348389": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "22faa7e1915b006e": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 2,
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "OpenAI updates API operational documentation with revised rate limits, spend caps, and commerce agent endpoints.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "1042eec4fc968ada": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 2,
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "OpenAI publishes guidelines for ChatGPT plan usage and self-hosted Codex app-server VM configurations.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "4814a99c7a1acd07": {
+  "label": "KNOW",
+  "reason": "feature_update",
+  "importance": 2,
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "OpenAI releases Commerce Partner Playbook for merchants integrating cloud browser agents and product feeds.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "08de803a5d05365a": {
+  "label": "KNOW",
+  "reason": "official_launch",
+  "importance": 4,
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "DeepSeek exposes its app tools—web search, OCR, document analysis, and voice—as developer APIs, allowing engineers to build identical apps.",
+  "notes": "- API endpoints: DeepSeek opens its production tools—web search, OCR document analysis, complex file reading, and speech synthesis—as individual API endpoints.\n- Pricing: Tools are billed per execution rather than bundled as opaque agent wrappers.\n- Developer significance: Engineers can now assemble custom DeepSeek agents without writing separate scraper or OCR pipelines.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "5ac4f0ad7f1f89d7": {
+  "label": "KNOW",
+  "reason": "model_release",
+  "importance": 4,
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Alibaba previews Qwen4-Max with a 1-million-token context window and competitive math/coding reasoning benchmarks.",
+  "notes": "- Model release: Alibaba Cloud launches developer preview of Qwen4-Max, their largest dense/MoE frontier model.\n- Specifications: Features a 1-million-token context window with native code execution and math reasoning capabilities.\n- Benchmarks: Reports parity with frontier models on SWE-bench and HumanEval with competitive inference latency.\n- Availability: Accessible via Alibaba Cloud Model Studio API with preview token allocations.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "8bb75e5f2e72a340": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Gigabyte unveils AI TOP AERO mini PC featuring NVIDIA RTX Spark GPU and up to 128 GB unified memory for local LLM fine-tuning.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "0ac59fa5b614d6ea": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "AMD reveals Siren Halo APU specifications combining RDNA 5 graphics and high-bandwidth GDDR7 memory for local AI workloads.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "52e44b54acd00403": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "importance": 4,
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Latent Space / AINews analyzes Jensen Huang's resignation after 33 years and examines the future of Nvidia's software ecosystem and open-weights releases.",
+  "notes": "- Analysis: Swyx and Alessio break down Jensen Huang's resignation after 33 years leading Nvidia.\n- Key implications: Huang personally championed open-source AI weights (Nemotron) and developer relations; interim CEO Colette Kress has primarily financial/investor focus.\n- Ecosystem risk: Wall Street hyperscalers face questions on debt-financed GPU capex, while open-source builders consider diversifying inference across AMD ROCm and TPU backends.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "633314cdd62da007": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "importance": 2,
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Researchers apply specialized math reasoning LLMs to decipher Kurt Gödel's shorthand notebooks, identifying unpublished proofs.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ },
+ "26569c5778366596": {
+  "label": "KNOW",
+  "reason": "tool_release",
+  "importance": 2,
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "AMD unveils 2nm Epyc 9006 server processors featuring up to 256 Zen cores for high-density AI inference clusters.",
+  "analyzed_at": "2026-11-14T02:54:26Z"
+ }
+}

@@ -1,6 +1,113 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-14T02:54:57Z",
+  "history": [],
+  "id": "2026-11-14-llamacpp-1-0-stable-local-ai-engine",
+  "title": "llama.cpp Just Hit Version 1.0: How the Engine of Local AI Actually Works",
+  "type": "evergreen",
+  "timing": "NOW",
+  "angle": "The open-source C/C++ engine behind Ollama, LM Studio, and Jan just reached a stable v1.0: here is how 4-bit quantization and CPU/GPU memory mapping work under the hood.",
+  "outline": [
+   "What llama.cpp is: Georgi Gerganov's lightweight C/C++ inference engine that proved consumer MacBooks and PCs can run LLMs at 30+ tokens/sec.",
+   "Why v1.0 is a milestone: Frozen API stability, standardized GGUF v3 format, and dropping 35 deprecated legacy flags so developer tools don't break on updates.",
+   "The memory math: How k-quantization (Q4_K_M) compresses a 14B model from 28 GB of FP16 VRAM down to 8.5 GB, fitting inside everyday laptops.",
+   "Unified memory advantage: Why Apple Silicon unified RAM runs large 32B/70B models faster than budget Nvidia GPUs with only 8GB VRAM.",
+   "Hands-on setup: Running llama.cpp directly from terminal with server flags and connecting it to VS Code as a free, offline Copilot."
+  ],
+  "items": [
+   "27cfd6db57808c92"
+  ],
+  "updated_at": "2026-11-14T02:54:57Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-14T02:54:57Z",
+  "history": [],
+  "id": "2026-11-14-chatgpt-wallet-agentic-purchases",
+  "title": "ChatGPT Wallet Launched: Why OpenAI Giving Agents Money Changes App Architecture",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "OpenAI just introduced ChatGPT Wallet across ChatGPT Work and Codex—allowing autonomous agents to checkout and buy things: here is the agent security model.",
+  "outline": [
+   "What happened: OpenAI announces ChatGPT Wallet, integrating secure payment execution into ChatGPT Work, Codex, and dots agents.",
+   "The technical shift: Moving from informational agents (read-only search, summarization) to transactional write-action agents that spend real currency.",
+   "The security architecture: Tokenized card storage, scoped spending ceilings, multi-factor authorization checkpoints, and sandboxed browser handoffs.",
+   "E-commerce integration: How developers can expose their checkout flows using OpenAI's Commerce Partner Playbook and product feeds.",
+   "The economic frontier: What happens when software agents negotiate, compare prices, and transact directly via machine-to-machine APIs."
+  ],
+  "items": [
+   "3dde5fce701e37a8"
+  ],
+  "updated_at": "2026-11-14T02:54:57Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-14T02:54:57Z",
+  "history": [],
+  "id": "2026-11-14-cloudflare-kitesurf-agent-browser-engine",
+  "title": "Cloudflare Open-Sourced Kitesurf: Why Chromium Is Too Heavy for AI Agents",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "Running 50 Puppeteer/Playwright headless Chromium instances eats 30GB of RAM: Cloudflare's new open-source Kitesurf engine runs edge browser agents on Workers.",
+  "outline": [
+   "The problem with headless browsers: Chromium containers consume 500MB+ per tab, making large-scale agent web scraping and testing prohibitively expensive.",
+   "What Kitesurf is: Cloudflare's experimental lightweight browser engine built specifically for agentic DOM interaction, running locally or on Workers edge nodes.",
+   "Key architectural innovations: Virtualized DOM event loop, automated anti-bot bypass, and native structured Markdown extraction instead of raw HTML blobs.",
+   "Benchmarking resource usage: Comparing RAM, boot latency, and CPU cycles of Kitesurf vs Playwright on agent browsing tasks.",
+   "How to deploy an autonomous web research agent on Cloudflare Workers using Kitesurf in under 100 lines of TypeScript."
+  ],
+  "items": [
+   "a1dfb26678a940b8"
+  ],
+  "updated_at": "2026-11-14T02:54:57Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-14T02:54:57Z",
+  "history": [],
+  "id": "2026-11-14-deepseek-app-tools-api-architecture",
+  "title": "DeepSeek Just Exposed Its Entire App as APIs: Build Your Own Clone in 1 Hour",
+  "type": "months",
+  "timing": "SOON",
+  "angle": "Instead of hiding their search, OCR, document reading, and voice pipelines behind an app UI, DeepSeek opened them as standalone APIs: here is how to assemble them.",
+  "outline": [
+   "The announcement: DeepSeek exposes the internal tools behind its viral consumer app (live web search, OCR parsing, multi-file analysis, voice) via developer API.",
+   "Why this matters: Builders no longer need to pay for separate search APIs (Tavily/SerpAPI) or build complex OCR extractors.",
+   "The pricing advantage: Per-tool execution billing that makes running deep research agents 5x cheaper than proprietary US lab stacks.",
+   "Architecture breakdown: Combining DeepSeek V4 reasoning with native search and file-parsing tools in an agent loop.",
+   "Live code demo: Building an open-source deep research clone in Python using DeepSeek's new tool APIs."
+  ],
+  "items": [
+   "08de803a5d05365a"
+  ],
+  "updated_at": "2026-11-14T02:54:57Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-14T02:54:57Z",
+  "history": [],
+  "id": "2026-11-14-system-one-models-fast-agent-routing",
+  "title": "Stop Using Reasoning Models for Everything: Why Fast 'System One' Models Cut Agent Costs 90%",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "angle": "Frontier research from SO-Arena reveals using thinking models (o1, R1, Opus) for every simple agent step wastes 90% of token budgets: here is the hybrid routing pattern.",
+  "outline": [
+   "The dual-process theory in AI: System 1 (fast, reactive, intuitive decisions) vs System 2 (slow, deliberative chain-of-thought reasoning).",
+   "The agent latency trap: Watching an agent write 500 reasoning tokens just to decide whether to click 'Next Page' or validate an email format.",
+   "Research findings: Papers like 'From LLMs to System One Models' show lightweight classification heads execute agent routing with 99% accuracy at 1/50th the latency.",
+   "Building the hybrid architecture: Using Perplexity Decider or small fine-tuned models for deterministic branching, reserving reasoning models for root-cause synthesis.",
+   "Production code pattern: Implementing a dual-tiered agent router in LangGraph / TypeScript."
+  ],
+  "items": [
+   "162973744a8a6bb7",
+   "bd00af2b6fa93572",
+   "050e40553300e7e5"
+  ],
+  "updated_at": "2026-11-14T02:54:57Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-13T02:41:26Z",
   "history": [],
   "id": "2026-11-13-claude-code-mode-javascript-tool-calling",

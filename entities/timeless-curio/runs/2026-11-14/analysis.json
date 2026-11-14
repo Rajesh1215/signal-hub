@@ -1,0 +1,910 @@
+{
+ "faf8bf6f28a10cc4": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA Chandra X-ray Observatory identifies companion star triggering periodic violent outbursts from a massive luminous blue variable.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "4463ade43ddf7924": {
+  "label": "KNOW",
+  "reason": "anniversary",
+  "importance": 2,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA commemorates Gemini XII mission where astronauts Lovell and Aldrin pioneered orbital photography that launched Earth observation science.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "9eb0728e764d32bb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "a0535526219884c0": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Radio astronomers trace mystery pulses 5,000 light-years away to an exotic binary pair consisting of a white dwarf and a sun-like star.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "774bb5d558989afb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "aff93501e2a5ae63": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "f48fd51b65f700fa": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "4a06e968d5bd2f36": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "628f92674fb0057d": {
+  "label": "KNOW",
+  "reason": "mission_event",
+  "importance": 2,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "ULA prepares Vulcan Centaur rocket for liftoff carrying 40 Amazon Project Kuiper internet satellites to low Earth orbit.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "6306b84360cc9f00": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "c9ce3fa68fdb2e86": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "d866af2bf4187516": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Genetic analysis in the Amazon reveals two previously unrecognized species of howler monkeys, expanding the primate evolutionary tree.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "9174da478fc2eca1": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "High-resolution CT scans of utilitarian philosopher Jeremy Bentham's preserved head reveal severe tooth decay and bone abscesses.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "9887d79a6809e785": {
+  "label": "MAKE",
+  "reason": "discovery",
+  "importance": 4,
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Archaeologists discover Roman soldiers carefully dismantled their emperor's bronze statue when retreating from Scotland, burying it so local tribes couldn't forge weapons. Hook: 'Why Romans buried their emperor's statue in a Scottish bog before fleeing.'",
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "notes": "- Artifact: Massive cast bronze leg and foot discovered in a peat bog at Milsington, Scottish Borders.\n- History: Erected during Emperor Antoninus Pius's attempted conquest of Scotland and construction of the Antonine Wall (~140 CE).\n- Reinterpretation: Long assumed to have been violently toppled and looted by Scottish tribes, new isotopic and tool-mark analysis proves the bronze was meticulously unbolted and hidden by retreating Roman legionaries to prevent metal salvage for spears.\n- Fate: The leg was safely hidden in peat for 1,800 years until modern excavation.",
+  "actions": [
+   "Created video idea 2026-11-14-buried-roman-statue-scotland-bog"
+  ],
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "852b162708ed74f5": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 3,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Astronomers confirm tiny asteroid 2026 QQ8 has entered Earth orbit as a temporary 'minimoon' before escaping back to the solar system in January.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "6808aef56a95ee56": {
+  "label": "KNOW",
+  "reason": "new_study",
+  "importance": 2,
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Neuroscientists develop Brain-IT AI model that reconstructs visual images from fMRI activity and predicts neural patterns from pictures.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "e2425ce27d122a1e": {
+  "label": "KNOW",
+  "reason": "new_study",
+  "importance": 2,
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Study finds severe viral infections can leave enduring molecular scars on immune cells, diminishing broad antibacterial defenses long after recovery.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "18e7587d903c2b36": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 3,
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Geologists find superheated volcanic magma creates rapid gas-expansion pressure pulses, explaining why certain volcanoes blast spectacular lava fountains.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "986b4c636bc959a6": {
+  "label": "KNOW",
+  "reason": "new_study",
+  "importance": 3,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Satellite analysis of the historic May 2024 geomagnetic storm indicates Earth's ionosphere reflected charged plasma back, amplifying auroral energy.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "9a71d57a0fadf22f": {
+  "label": "KNOW",
+  "reason": "new_study",
+  "importance": 3,
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Theoretical cosmologists propose dark energy may have undergone a polarity flip 9.5 billion years ago, altering cosmic acceleration dynamics.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "234f82bd653469b1": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Geological analysis of rocks along the Sea of Marmara reveals mineral structures uplifted from deep within Earth's mantle over millions of years.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "327ac22328769862": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "evolution"
+  },
+  "summary": "Researchers identify a distinct non-coding regulatory mechanism on primate chromosomes that guided cortical brain expansion independently.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "e753369fd67c7e94": {
+  "label": "KNOW",
+  "reason": "new_study",
+  "importance": 3,
+  "flags": {
+   "category": "evolution"
+  },
+  "summary": "Geological record links biological diversity explosions to two major global mountain-building phases that dumped massive mineral nutrients into ancient seas.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "0a9405c1b3bef138": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Astronomers discover a candidate supermassive neutron star in LAMOST survey data, offering clues on the boundary between neutron stars and black holes.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "4a1e31289b79c254": {
+  "label": "KNOW",
+  "reason": "data_report",
+  "importance": 2,
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Thirty-year global climate dataset reveals oceans absorb fossil fuel carbon at accelerating rates while terrestrial land sink capacity has plateaued.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "b3b30e0c9f0010eb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "1c44c36d4c6b35af": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "inventions"
+  },
+  "summary": "Materials scientists formulate a water-activated hydraulic polymer capable of solidifying and bonding glass underwater like aquatic cement.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "80773e1aef6a2fcd": {
+  "label": "KNOW",
+  "reason": "data_report",
+  "importance": 2,
+  "flags": {
+   "category": "geopolitics_trends"
+  },
+  "summary": "UN migration agency highlights climatic displacement models indicating over 200 million people could face habitability pressures by 2050.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "bbdfb72435ad8b2f": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Marine biologists uncover specialized symbiosis where tiny tusked gobies inhabit tubular sea sponges and manage microbial colonies.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "b3ae33c856090d2e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "38f9452aa3c0a218": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Arctic researchers identify permafrost detachment slides—a new class of landslides originating from thawing deep base layers in warming tundra.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "798f90876c89446a": {
+  "label": "MAKE",
+  "reason": "discovery",
+  "importance": 4,
+  "flags": {
+   "category": "mysteries"
+  },
+  "summary": "Archaeologists at Bar Hill solved the mystery of 8,000 Roman-era frog bones packed into a single ditch: an owl feeding frenzy during a spring mating congregation. Hook: '8,000 ancient frog bones in one ditch—and archaeologists just solved who put them there.'",
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "notes": "- Excavation: Bar Hill, Cambridgeshire, England; ditch dated to Roman Britain (1st to 4th century CE).\n- Finding: Over 8,000 amphibian bones representing 350+ common frogs and toads packed into a single refuse ditch.\n- Investigation: Archaeologists initially theorized a plague, sudden toxic water bloom, or Roman culinary waste, but bones showed zero cut marks or cooking burns.\n- Evidence: Micro-fracture patterns and mild surface acid erosion matched raptor digestion—short-eared owls or buzzards gorging on thousands of exposed frogs during an explosive spring breeding migration.",
+  "actions": [
+   "Created video idea 2026-11-14-mystery-8000-roman-frog-bones"
+  ],
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "f5ebc77a5e8a838e": {
+  "label": "KNOW",
+  "reason": "mission_event",
+  "importance": 3,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA CHAPEA 4-person crew completes 378 days inside a 3D-printed Mars simulation habitat in Houston, logging psychological and nutritional metrics.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "ec21ed33338aa637": {
+  "label": "KNOW",
+  "reason": "new_study",
+  "importance": 2,
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Medical reviews examine emerging secondary neuroprotective applications of GLP-1 receptor agonists in reducing neuro-inflammation.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "28a691fb695ede8c": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "German Renaissance master Albrecht Altdorfer oil landscape painting reappears after 70 years, shedding light on 16th-century landscape art.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "3f215f035ea3e12d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "9342b03456266676": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "importance": 2,
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Ars Technica revisits Heinz von Foerster's 1960 'Doomsday equation' that mathematically projected human population growth reaching infinity.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "749c04e4bbad2f92": {
+  "label": "KNOW",
+  "reason": "data_report",
+  "importance": 2,
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Climate science modeling warns continuous fossil emissions could push global average temperatures across the 1.5°C threshold before 2030.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "e6b08ddf3f76e1c0": {
+  "label": "KNOW",
+  "reason": "new_study",
+  "importance": 2,
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Ecological study catalogs widespread physiological and behavioral shifts in wildlife driven by expanding anthropogenic acoustic noise.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "b0a18bab68a487a8": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Meteorologists study anomalous early disruptions in the stratospheric polar vortex following intense tropical ocean heating.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "7b965a51fa619e1b": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Physicists demonstrate an experimental quantum clock powered by ambient sunlight instead of laboratory laser stabilization rigs.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "3db4195bf6fe57c8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "6a4abf994ee2243a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "79737f05e784171a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "a69231b2ca9bc2ee": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "b61fa92475dab1d8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "8352d09cb73dfa93": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "71eaebc4172e0c6d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "06109922ef588021": {
+  "label": "SKIP",
+  "reason": "anniversary",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "33e6ebe3822969c5": {
+  "label": "KNOW",
+  "reason": "explainer_angle",
+  "importance": 2,
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "Kings and Generals chronicles how 10,000 deadly Nubian bowmen repelled early Rashidun Caliphate expansions at the First Battle of Dongola.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "d68bd8959ccbff26": {
+  "label": "KNOW",
+  "reason": "data_report",
+  "importance": 2,
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "IEA releases November 2026 Oil Market Report projecting plateauing global demand and accelerating electric fleet substitution.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "21bdedc4f34d6180": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "2a33c222f6b21678": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "ab3f257c6d65a227": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "053d140fea05ce08": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "fd7136f4fefc3d57": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "61f67d1fabbcaf9c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "a9242b71b698f7fb": {
+  "label": "KNOW",
+  "reason": "data_report",
+  "importance": 2,
+  "flags": {
+   "category": "geopolitics_trends"
+  },
+  "summary": "Visual Capitalist ranks global economies by purchasing power parity per capita, highlighting shifting wealth distribution.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "7c7b84b08e4cd8c5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "e454e02072c79d57": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "91efc26a7ff802b5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "eb2565a8b01105a2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "5b1026eb6bd0dea6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "d1123953e6b70453": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Search queries center on extreme gravitational astrophysics: black hole death, collisions with white holes, and event horizon physics.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "06406a86c4905349": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Searches reflect curiosity on cosmic expansion: what happens if expansion halts, how cosmic background radiation cools, and universe formation.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "60680afebc7d375b": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Daily searches inquire into AI datacenter water consumption, speculative AI bubble scenarios, and technological boundaries.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "4c43b16c0b720de3": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 2,
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "Queries reflect interest in global oil pricing mechanics, international seabed mineral rights, and petroleum chemistry.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "50a8d1157395fd85": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "High search demand on historical geopolitical chokepoints and alternate history: what if World War II never erupted.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "3feca5f9083a1058": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Searches focus on Martian habitability: planetary magnetic field loss, red surface iron oxide chemistry, and atmospheric stripping.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "fa811c5d810a6169": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Queries explore orbital dynamics: what happens to oceanic tides and Earth's axial tilt if the Moon were displaced.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "59f44c51b84372b9": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Searches examine biological limits: hypothermia survival boundaries, electrical conductivity of tissues, and fever mechanisms.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "fa107818bcbd1e4d": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Strong search volume on time dilation, closed timelike curves, and general relativity paradoxes.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "63d4dd523482c6be": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Searches highlight Fermi paradox questions: why extraterrestrial intelligence remains undetected and Drake equation probabilities.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "a3c855c260a737d3": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Queries explore speculative future forecasting and long-term societal trends.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "7754e47a42c6ea99": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Search trends show high curiosity for physics and historical counterfactuals.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "afd67f353c599ff8": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Search queries center on Rayleigh scattering: why shorter blue wavelengths scatter across the atmosphere.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "a35c47f160b2f337": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Queries reflect curiosity on whale falls in deep marine ecosystems and biological tipping points.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "8b47001248431739": {
+  "label": "KNOW",
+  "reason": "trending_discussion",
+  "importance": 3,
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Queries center on AI labor automation horizons, superintelligence risks, and software engineering evolution.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "dc3e0dde2514331f": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Veritasium recreates ancient Chinese black powder recipe; shows how alchemists seeking immortality accidentally invented gunpowder.",
+  "notes": "- Content: Derek recreates ancient Chinese black powder recipe using sulfur, charcoal, and potassium nitrate (saltpeter).\n- Demonstration: Explains the burn rate, oxidation chemistry, and why early firearms required precise stoichiometric ratios.\n- Curiosity takeaway: Chinese alchemists originally invented gunpowder while trying to brew an elixir of immortality.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "745f32bf60b54921": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Vsauce investigates bizarre footnotes and forgotten academic citations that conceal surprising historical events.",
+  "notes": "- Content: Michael Stevens investigates bizarre academic footnotes, historical trivia citations, and forgotten historical records.\n- Storytelling lesson: Micro-observations in academic literature can open up fascinating 60-second animated explainers.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "4e143ffd367d6fd1": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Mark Rober reveals the physical scale of shooting stars—explaining that brilliant sky streaks are sand-grain sized particles.",
+  "notes": "- Content: Mark Rober reveals the physical scale of shooting stars—explaining that brilliant streaks across the sky are usually sand grain or pebble sized particles vaporizing at 45,000 mph.\n- Visual hook: Great scale contrast for motion graphics (sand grain vs blazing sky streak).",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "fb4b03f668a5d141": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "24545b258234156e": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "d17de61763bf4774": {
+  "label": "KNOW",
+  "reason": "mission_event",
+  "importance": 3,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "SpaceX Starship completes Flight 15 orbital trajectory test, but mission controllers abort planned mechanical chopstick catch of the Super Heavy booster.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "b2fe3c696adababb": {
+  "label": "KNOW",
+  "reason": "anniversary",
+  "importance": 2,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Space.com commemorates 1971 Mariner 9 mission becoming the first artificial spacecraft to orbit another planet and map Mars.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "8c2a5bccd60cec23": {
+  "label": "KNOW",
+  "reason": "anniversary",
+  "importance": 3,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Space.com recalls the historic 1966 Leonid meteor storm that produced 144,000 shooting stars per hour, examining recurrence odds.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "bcbbac37c5a512de": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "6b9092d0b821ca02": {
+  "label": "KNOW",
+  "reason": "mission_event",
+  "importance": 2,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Rocket Lab launches its 100th Electron mission carrying commercial satellite payloads into low Earth orbit.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "4818dc97bb64796b": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "space"
+  },
+  "summary": "California Science Center opens Samuel Oschin Air & Space Center, displaying Space Shuttle Endeavour in vertical launch stack.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "ca6e5118b837aa99": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "48a03b8e9d25f923": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "fa27e48e8b1ee0b4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "98c2ee1753fe619d": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Ornithologists conduct intensive 10-day expedition across Fiji waters tracking the elusive and critically endangered Fiji petrel.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "ca4b2a0252df0ecb": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Fusion experiments reveal unstable hot plasma can self-heat through high-frequency wave-particle resonance, aiding reactor design.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "e0f1c1ea2e99bdf0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "794e775ece052821": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Penn Dental Medicine researchers identify molecular switch allowing pathogenic bacteria to breach mucosal epithelial barriers.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "7b50f76499327591": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "evolution"
+  },
+  "summary": "Cell biologists successfully fuse plant and animal cells, discovering the hybrid 'planimal' retains functioning algal photosynthetic genes.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "c4b3ca74f31ac7fc": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "inventions"
+  },
+  "summary": "Engineers adapt a \\$450 3D printer to fabricate over 100 continuous layers of viable living cellular tissue structures.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "549245ce8baaa17f": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Genomic sequencing restores full species status to 12 previously conflated coral varieties across Australia's Great Barrier Reef.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "9564317acb21f544": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "589e85fbd3008a4b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "fcb2901200b948a2": {
+  "label": "KNOW",
+  "reason": "new_study",
+  "importance": 2,
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Ecological study in Sri Lanka tracks shrinking elephant populations as human encroachment fragments traditional migration corridors.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "8261764b5f0bcb75": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Atlas Obscura highlights the Areni-1 leather shoe found in Armenia, the world's oldest preserved leather footwear at 5,500 years old.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "58f8927ee306bc96": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "919e196ef13fdf52": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "a6c5d58e3933d540": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "7f0cfda9472a9c04": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "f9f040be0b01052d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "4739bea86fb2e606": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "397220efca9b9e3c": {
+  "label": "KNOW",
+  "reason": "data_report",
+  "importance": 2,
+  "flags": {
+   "category": "geopolitics_trends"
+  },
+  "summary": "Visual Capitalist compares G20 inflation projections for 2026, showing persistent structural price pressures across advanced economies.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "952a3a24fc7f3959": {
+  "label": "KNOW",
+  "reason": "data_report",
+  "importance": 2,
+  "flags": {
+   "category": "geopolitics_trends"
+  },
+  "summary": "Visual Capitalist maps rule-of-law indices globally, evaluating judicial independence and regulatory transparency across 140 nations.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "9ded7f84263957bb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ },
+ "ff1809919fc71711": {
+  "label": "KNOW",
+  "reason": "discovery",
+  "importance": 2,
+  "flags": {
+   "category": "animals"
+  },
+  "summary": "Customs officials at Lima airport intercept over 3,000 live tarantulas concealed in socks, exposing high-value illegal exotic pet trafficking.",
+  "analyzed_at": "2026-11-14T02:50:51Z"
+ }
+}
