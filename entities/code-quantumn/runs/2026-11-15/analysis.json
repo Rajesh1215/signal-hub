@@ -400,5 +400,476 @@
   },
   "summary": "DeepSeek officially opens its native app tools as direct APIs, enabling developers to integrate search and parsing.",
   "analyzed_at": "2026-11-15T05:02:59Z"
+ },
+ "63f1b41815dc5d95": {
+  "label": "SKIP",
+  "reason": "policy_change",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "ad3443c9f4e2a949": {
+  "label": "SKIP",
+  "reason": "policy_change",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "ee9926d431521202": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "3c95fa4ecc8635dd": {
+  "label": "SKIP",
+  "reason": "policy_change",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "cc542665d498ea7a": {
+  "label": "SKIP",
+  "reason": "policy_change",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "09b1f16aedd72761": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "ddd820cc3ec6d48e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Architectural breakdown compares llama.cpp v1.0 core engine against Ollama abstraction layer for local setups.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "2a0d6ff7621e2615": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "08b86100e3a863b8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "13cc7813904bb4dd": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "5b905ac14d4ebec4": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "7c5c8364e72bf68e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "64e76c127c13bebe": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "40610f4e1f0771c7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "a41615e77f5f78d5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "aabd8c8915efea5a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Peak XV managing director analyzes competitive advantages for Indian AI startups focusing on vertical workflows.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "eca4ccaee30854d9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Analysis evaluates foundational models vs application layer opportunities for Indian engineers in 2026.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "25afd8545c0b6ef3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "300ae8bc37f33dd8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Developer shares CI/CD verification pattern to block premature Jira ticket completion using automated test hooks.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "c31b0bb206535cb2": {
+  "label": "SKIP",
+  "reason": "policy_change",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "9b47d940a49fd917": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "59cbe45a5506d3c3": {
+  "label": "TEST",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "MiniMax-H3-Image GGUF quants trend on Hugging Face with 230 upvotes for consumer GPU local image generation.",
+  "notes": "- GGUF quantized weights for consumer local execution\n- Text-to-image pipeline compatibility\n- Released for local evaluation",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "ad5e25dcbbdef868": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "ComfyUI releases v0.45.4 updating core node graph execution performance and memory management for flux/SD pipelines.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "0ff56af536c0f5f6": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "ab1642eee000ed8f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "88061f3912222f84": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "b855e5dd0f7777bf": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Comparative guide reviews three execution runtimes for open-weight models scoring 48% on coding benchmarks.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "cb4266c05756de36": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "71a7d6fc2822aef4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "OpenRouter token volume rankings show open-weight models gaining substantial developer market share over proprietary APIs.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "f0170e933e82d4f6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "542f1b0e81722db4": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "911d1810841ee43f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "a34f9a8e01d880ef": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Licensing analysis contrasts commercial and research deployment permissions between MiniMax-H3 and Qwen-Image 2.1.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "b6c5a7d2a738e450": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "18bff6926442e5c2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Alibaba announces plans to list semiconductor subsidiary T-Head on Hong Kong Stock Exchange to fund chip R&D.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "16d18ddab4a07562": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "8467a505209b6be0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "63719618050ec7f9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "7d168f05445709a4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "0e47acfd153cfe25": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Research report highlights datasets and synthetic data requirements to improve Indic language comprehension in LLMs.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "fdcc048dcc45bbe9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Chariot releases dedicated speech AI model trained specifically for code-mixed Indian languages (Hinglish, Tanglish).",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "361115978d57b44b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Bland AI previews Tofu-1 full-duplex speech-to-speech model engineered for high-noise telephony environments.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "0602cf5e09ffaa8d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Rakazo debuts on Product Hunt as an open-source self-hosted alternative to Grok Bot coding teammates.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "659b687e86454787": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "ea0ca4f5fa9aa7c0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "2bcbb407b1976442": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "2a0d47a07af52812": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "ByteAsk launches cloud agent for scanning enterprise codebases and proposing patches directly from Slack.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "d4fc6ff77fb1b8c5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "38d5736c0243b5a8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "d73218a4bbc1ecf7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Widely upvoted HN discussion debates legal copyright and open-source mandates for synthetic AI code generations.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "393bc0e247c568b9": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Technical deep dive explores Rotary Positional Embeddings (RoPE) and ALiBi across modern transformer models.",
+  "notes": "- Rotary Positional Embeddings (RoPE) mathematical derivation\n- Context window extrapolation techniques\n- Key differences between absolute vs relative position encoding",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "f3a645c6c8549579": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "AG-UI protocol open-sources standardized frontend primitives for AI agents to render UI components in real time. Hook: 'Why agentic apps need more than chat: how the AG-UI protocol renders dynamic components.'",
+  "notes": "- Open protocol for bidirectional Agent-User UI interaction\n- Streaming JSON UI component specs rendered into DOM\n- Decouples agent backend reasoning from frontend design system",
+  "actions": [
+   "Created video idea 2026-11-15-cq-ag-ui-protocol"
+  ],
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "743051a942264fe3": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Google Labs open-sources Stitch Skills library following Agent Skills open standards for coding agents. Hook: 'Google Labs just open-sourced Stitch Skills: how to give coding agents superpowers with MCP.'",
+  "notes": "- Standardized skill specifications following the open Agent Skills format\n- Pre-built tools for code refactoring, test execution, and deployment\n- Native MCP server compatibility across Antigravity, Claude Code, and Cursor",
+  "actions": [
+   "Created video idea 2026-11-15-cq-stitch-agent-skills"
+  ],
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "7a5d1532b96978d2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Tencent open-sources LoopForge for orchestrating Claude Code, Codex, and CodeBuddy with human approval gates.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "19240c01fbd332f6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Open-source Claude Code skill bundle packages 82 skills and 681 vulnerability patterns for security audits.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "9ed8730f81864367": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "NVIDIA open-sources SkillEvaluator framework to evaluate AI agent skills with semantic overlap detection and quality gates.",
+  "notes": "- Multi-tier evaluation framework for agent tool calling\n- Synthetic evaluation dataset generation\n- Measures tool reliability and regression in agent loops",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "0814af7de43c69a3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "c4acc1da5fad7673": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Developer notes architectural prompt pattern clarifying scheduler context to eliminate simulated persona drift.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "a132cd5d3787c911": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Lenny's Newsletter details product development journey behind Meta Muse from weekend prototype to consumer scale.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "0237d7f2d5d3e1b4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "YC Lightcone deep dive on Grok Bot explains automated test pipelines and guardrails required to safely deploy AI coworkers.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "979999872fb3992a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "IBM Technology explains AI model debugging and isolating numerical divergences across disparate hardware accelerators.",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "aa5d26c7b633892a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "6a772bb2bd2b1e09": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Riley Brown reviews Claude's evolution into a full collaborative workspace with Whiteboards, Sheets, and Data tools.",
+  "notes": "- Comprehensive overview of Claude native collaborative workspace features\n- Data artifact canvas replacing standard chat responses\n- Multi-modal meeting transcription and action-item generation",
+  "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "d35f5d3ee09311d2": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-15T17:42:23Z"
  }
 }

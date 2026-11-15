@@ -1,6 +1,48 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-15T17:42:37Z",
+  "history": [],
+  "id": "2026-11-15-cq-ag-ui-protocol",
+  "title": "Why AI Agents Need More Than Chat: Inside the AG-UI Open Protocol",
+  "type": "evergreen",
+  "timing": "NOW",
+  "angle": "Standard chat interfaces are dying for agents; breaking down the new open AG-UI protocol that allows backend AI models to render structured interactive frontend components in real time.",
+  "outline": [
+   "The limitations of text-only chat when agents perform complex multi-step workflows",
+   "How the AG-UI protocol streams structured component manifests alongside token streams",
+   "Client-side rendering: decoupling AI reasoning from React/Vue styling frameworks",
+   "Handling human-in-the-loop approvals with native form components",
+   "Building a production agent dashboard using AG-UI in under 15 minutes"
+  ],
+  "items": [
+   "f3a645c6c8549579"
+  ],
+  "updated_at": "2026-11-15T17:42:37Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-15T17:42:37Z",
+  "history": [],
+  "id": "2026-11-15-cq-stitch-agent-skills",
+  "title": "Google Labs Open-Sourced Stitch Skills: Give Your Coding Agent Superpowers",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "Google Labs released Stitch Skills following the open Agent Skills standard; how to load these modular skills into MCP servers for Antigravity, Claude Code, and Cursor.",
+  "outline": [
+   "Why hardcoded prompt instructions bloat your context window and degrade agent IQ",
+   "What the open Agent Skills specification is: YAML frontmatter + executable scripts",
+   "Inside Google Labs' Stitch Skills: automated refactoring, test execution, and deployment hooks",
+   "How Model Context Protocol (MCP) bridges skills directly into your IDE",
+   "Step-by-step setup to connect Stitch Skills to local coding assistants"
+  ],
+  "items": [
+   "743051a942264fe3"
+  ],
+  "updated_at": "2026-11-15T17:42:37Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-15T05:03:27Z",
   "history": [],
   "id": "2026-11-15-deepseek-pure-jax-200-lines",
