@@ -1,6 +1,69 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-15T05:03:27Z",
+  "history": [],
+  "id": "2026-11-15-deepseek-pure-jax-200-lines",
+  "title": "How DeepSeek Works Under the Hood in 200 Lines of Pure JAX (MLA & MoE Explained)",
+  "type": "evergreen",
+  "timing": "SOON",
+  "angle": "A developer rewrote DeepSeek-V3 in ~200 lines of pure JAX; breaking down Multi-Head Latent Attention (MLA) and auxiliary-loss-free MoE load balancing step-by-step for product engineers.",
+  "outline": [
+   "Why reading 200 lines of clean JAX teaches you more than reading 10 papers",
+   "Standard Multi-Head Attention vs Multi-Head Latent Attention (MLA): KV-cache compression",
+   "How DeepSeek compresses the KV cache into a low-dimensional latent vector",
+   "Mixture of Experts (MoE) routing: why standard models need auxiliary loss and how DeepSeek eliminates it",
+   "Running the 200-line implementation locally to build intuition for custom model layers"
+  ],
+  "items": [
+   "0993a35145b1827c"
+  ],
+  "updated_at": "2026-11-15T05:03:27Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-15T05:03:27Z",
+  "history": [],
+  "id": "2026-11-15-free-gemma-inference-amd-lab",
+  "title": "Get Free Enterprise GPU Inference for Your AI Agents: AMD Token Lab Setup",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "AMD launched Token Lab providing a free OpenAI-compatible API running Gemma 4 31B on Instinct GPUs; how to wire it up as a free backend for your local coding agents.",
+  "outline": [
+   "The cost problem with running coding agents: 50 turns = $2 on proprietary APIs",
+   "What AMD Token Lab is: free OpenAI-compatible endpoint with Instinct compute",
+   "Setting up your API key and building a local proxy to protect credentials",
+   "Configuring coding agents and terminal tools to point to the base URL",
+   "Latency benchmarks and practical limits for daily development loops"
+  ],
+  "items": [
+   "b62113980a0daab1"
+  ],
+  "updated_at": "2026-11-15T05:03:27Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-15T05:03:27Z",
+  "history": [],
+  "id": "2026-11-15-vercel-ui-sdk-agent-frontends",
+  "title": "Why AI Coding Agents Fail at Frontend (And How Vercel UI SDK Fixes Them)",
+  "type": "evergreen",
+  "timing": "NOW",
+  "angle": "Vercel Labs open-sourced Vercel UI SDK with 50+ headless primitives designed for LLM code generation; why agents struggle with interactive state and how structured headless contracts solve it.",
+  "outline": [
+   "The agent frontend trap: why LLMs generate beautiful static HTML but break interactive state",
+   "Headless architecture vs coupled components: giving agents exact behavior contracts",
+   "Inspecting the 50+ UI primitives in Vercel UI SDK (modals, dropdowns, data tables)",
+   "How to feed the SDK specs into Cursor or Claude Code system prompts",
+   "Building a production-grade interactive dashboard in 10 minutes with zero hallucinated state"
+  ],
+  "items": [
+   "45c6aec44b69340e"
+  ],
+  "updated_at": "2026-11-15T05:03:27Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-14T02:54:57Z",
   "history": [],
   "id": "2026-11-14-llamacpp-1-0-stable-local-ai-engine",
