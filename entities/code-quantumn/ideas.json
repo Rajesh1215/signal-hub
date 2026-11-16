@@ -1,6 +1,49 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-16T04:28:08Z",
+  "history": [],
+  "id": "2026-11-16-cq-qwen4-max-launch",
+  "title": "Alibaba Launched Qwen4-Max: 50% Fewer Tokens, #6 on WebDev Arena",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "Alibaba released Qwen4-Max claiming 28% higher reasoning while cutting token usage in half; how Chinese frontier models are optimizing token economics to dominate coding agent backends.",
+  "outline": [
+   "The cost bottleneck in coding agents: why token volume matters more than raw parameter size",
+   "Qwen4-Max benchmark breakdown: 1750 Elo on LMArena WebDev, #6 globally",
+   "How Qwen achieves 50% lower token generation (concise reasoning and prompt distillation)",
+   "API pricing comparison: Qwen4-Max vs Claude Sonnet vs GPT-4o",
+   "Testing Qwen4-Max inside Cursor and Claude Code via Vercel AI Gateway"
+  ],
+  "items": [
+   "80028dc72d7c69c2",
+   "c1c1d0d4e86a36af"
+  ],
+  "updated_at": "2026-11-16T04:28:08Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-16T04:28:08Z",
+  "history": [],
+  "id": "2026-11-16-cq-datasette-apps-interactive",
+  "title": "Claude Artifacts Just Got a Database: Building Sandboxed Apps With Datasette",
+  "type": "evergreen",
+  "timing": "NOW",
+  "angle": "Simon Willison released datasette-apps, allowing interactive HTML/JS apps to execute sandboxed SQL queries directly inside Datasette; how to build stateful AI data dashboards without backend APIs.",
+  "outline": [
+   "The limitation of AI-generated web artifacts: static state and hardcoded JSON",
+   "How datasette-apps bridges the gap: sandboxed client-side frontend + local SQLite backend",
+   "The security model: executing read-only SQL queries safely in the browser",
+   "Prompt patterns: asking coding agents to generate Datasette Apps with live charts",
+   "Deploying a full internal analytics tool in 5 minutes with zero cloud configuration"
+  ],
+  "items": [
+   "6ab51ea69191c7a6"
+  ],
+  "updated_at": "2026-11-16T04:28:08Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-15T17:42:37Z",
   "history": [],
   "id": "2026-11-15-cq-ag-ui-protocol",

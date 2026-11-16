@@ -871,5 +871,25 @@
   "label": "SKIP",
   "reason": "hype",
   "analyzed_at": "2026-11-15T17:42:23Z"
+ },
+ "109fac650bddfb4e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-16T04:27:45Z"
+ },
+ "28d28f8a50d6c7e5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Cybersecurity report details threat actors weaponizing DeepSeek and GLM agents for autonomous reconnaissance.",
+  "analyzed_at": "2026-11-16T04:27:45Z"
+ },
+ "28f680268c18b92f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-16T04:27:45Z"
  }
 }
