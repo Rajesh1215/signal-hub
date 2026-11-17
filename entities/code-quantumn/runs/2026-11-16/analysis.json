@@ -382,5 +382,180 @@
   },
   "summary": "Indian fabless semiconductor startup Bharat Semi raises $24M seed round for AI sensor silicon with General Atomics.",
   "analyzed_at": "2026-11-16T04:27:45Z"
+ },
+ "a2d2333a43f7c758": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "3df3ddc8c9dedcf3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "151dd370b9f83402": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Unsloth publishes optimized local setup guide for Qwen3.8, reducing VRAM footprint for fine-tuning on consumer GPUs.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "49de4092ff479a8c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "rumor",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Meta internal pull request reveals Muse Spark 1.4, a lightweight multimodal reasoning model in testing.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "badcbc62edda6423": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "329e815f44c92365": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "DeepSeek opens developer application APIs with pay-per-token access for enterprise integrations.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "f9cc1e062061c22f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Comparison breakdown analyzing latency, cost, and context limits across Qwen4-Max, Kimi K3.1, and DeepSeek V4.1.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "f6fb8a76ff10876d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "3fa2d8695bb7331b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "DeepSeek API adds search grounding, OCR document extraction, and speech processing with 120-second audio chunking.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "c3d66fed6a9e0f4f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "DeepSeek usage rate-limits prompt discussion over GPU cluster shortages and sustainable free service margins.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "9244b2f8c9fd172c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "376cccd9bba77ca5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "df641c1a38186cb3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "3b4eb0dace89eb17": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "3d6f556b9db7c530": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "d02c5d126e6bbf42": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "f2983b8f415b58af": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "f6c674cf62219042": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "LMArena adds Qwen4-Max (xHigh) to the Agent Arena leaderboard, ranking it in the top tier for coding.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "d922181041faccda": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Researchers release Gamer, a vision-language-action foundation model for long-horizon real-time game interaction.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "148d4da6701a17d7": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "e0991ef0a31211a7": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "MMFlash demonstrates speculative decoding for vision-language models, doubling inference token generation speeds.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "8ef568b8a49b412a": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "a2ca7a259b4ab68f": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "91c18f72e9f3039d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "10f3b525abe488c4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Guide explores integrating voice AI agents with CRM APIs to execute automated sales follow-up workflows.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
  }
 }

@@ -1,6 +1,92 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-17T06:11:39Z",
+  "history": [],
+  "id": "2026-11-17-cq-qwen4-max-architecture",
+  "title": "Alibaba Qwen4-Max Deep Dive: 2.4T MoE, 71B Active, and 1M Native Context",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "Alibaba officially released Qwen4-Max's architecture: a 2.4-trillion parameter Mixture-of-Experts model activating 71B parameters per token with 1M context, directly challenging Claude 3.5 Sonnet and GPT-4o.",
+  "outline": [
+   "The MoE breakdown: 2.4T total parameters routing to 71B active parameters per forward pass",
+   "The 1M context engineering: needle-in-a-haystack retrieval and attention caching optimizations",
+   "LMArena Agent Leaderboard results: how it performs on SWE-bench and multi-turn coding tasks",
+   "Cost per token: why hosting or calling Qwen4-Max costs 60% less than Western frontier models",
+   "How to route to Qwen4-Max in your production stack via OpenRouter and vLLM"
+  ],
+  "items": [
+   "911d1aa7df9eb406",
+   "f6c674cf62219042"
+  ],
+  "updated_at": "2026-11-17T06:11:39Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-17T06:11:39Z",
+  "history": [],
+  "id": "2026-11-17-cq-agentic-loop-plan-build-judge",
+  "title": "How to Build Coding Agents That Fix Their Own Bugs (The Plan-Build-Judge Loop)",
+  "type": "evergreen",
+  "timing": "NOW",
+  "angle": "Linear prompt chains fail in production; how to architect autonomous coding agents using deterministic state machines, sandboxed execution, and an independent Judge model.",
+  "outline": [
+   "Why single-prompt LLM code generation fails on non-trivial repositories",
+   "Phase 1: The Plan state (extracting AST dependencies, generating test assertions before writing code)",
+   "Phase 2: The Build state (sandboxed file edits, linting, and diff tracking)",
+   "Phase 3: The Judge state (why models cannot evaluate their own work; specialized verification agents)",
+   "Circuit breakers: preventing infinite retry loops and runaway token billing",
+   "Building a complete self-healing PR agent in 150 lines of Python"
+  ],
+  "items": [
+   "2515660d22197562"
+  ],
+  "updated_at": "2026-11-17T06:11:39Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-17T06:11:39Z",
+  "history": [],
+  "id": "2026-11-17-cq-vercel-ui-sdk-generative-ui",
+  "title": "Stop Rendering Raw Markdown: Streaming Interactive React UIs With Vercel's UI SDK",
+  "type": "evergreen",
+  "timing": "SOON",
+  "angle": "Vercel released the UI SDK: how modern full-stack engineers stream live, stateful React widgets and interactive dashboards directly from AI agent outputs.",
+  "outline": [
+   "The chat UI ceiling: why tables, charts, and forms should never be rendered as markdown text",
+   "How React Server Components (RSC) enable real-time streaming of serialized component trees",
+   "Handling user interactions: button clicks, slider inputs, and feeding state back into the agent context",
+   "Step-by-step tutorial: building an AI financial analytics app that generates live interactive charts",
+   "Best practices for schema validation and error boundaries in generative UI"
+  ],
+  "items": [
+   "bc67b1222a72c2c5"
+  ],
+  "updated_at": "2026-11-17T06:11:39Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-17T06:11:39Z",
+  "history": [],
+  "id": "2026-11-17-cq-test-time-compute-tradeoffs",
+  "title": "How Many Thinking Tokens Does an AI Actually Need? (Test-Time Compute Economics)",
+  "type": "evergreen",
+  "timing": "SOON",
+  "angle": "New benchmarks across Gemini, Gemma, and DeepSeek reveal the limits of test-time compute; when spending 10,000 reasoning tokens yields breakthrough accuracy vs pure latency waste.",
+  "outline": [
+   "The mechanics of reasoning tokens: hidden chain-of-thought and test-time search trees",
+   "The diminishing returns curve: accuracy improvements on math vs real-world software engineering",
+   "The latency and cost penalty: when a 3-second fast model beats a 45-second reasoning loop",
+   "Dynamic token budgeting: how to route hard logic to high-thinking modes while keeping CRUD simple",
+   "The production rule of thumb: when to use reasoning models vs agent tool-calling loops"
+  ],
+  "items": [
+   "15857fff45cd0e88"
+  ],
+  "updated_at": "2026-11-17T06:11:39Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-16T04:28:08Z",
   "history": [],
   "id": "2026-11-16-cq-qwen4-max-launch",

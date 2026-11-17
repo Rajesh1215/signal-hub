@@ -1,0 +1,732 @@
+{
+ "3b18c5dd0bd46954": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "d58d49010de514d0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA and ESA prepare Sentinel-6B satellite to track global sea-level rise and ocean circulation patterns.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "82e55cfbf2afa247": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "3cfac8cf1ebcebff": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "001bc8575757b528": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "7dcb6050d8926681": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "32460200f3b4de53": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Artemis II astronaut Victor Glover discusses psychological training and mission readiness for lunar flyby.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "63dbf21779d570a8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "1523db7d89cba442": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "myth_busting",
+  "flags": {
+   "category": "mysteries"
+  },
+  "summary": "Analysis deconstructs the 100-year-old 'Black Knight' alien satellite myth, tracing it to space debris and misidentified radar.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "0cfa982662e9dab4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "ESA's Euclid dark universe space telescope unexpectedly detects its first rogue comet between Jupiter and Saturn.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "da85658acabdf6ff": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "official_launch",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Sierra Space's Dream Chaser uncrewed lifting-body spaceplane receives runway landing clearance for 2027 debut.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "8f01c4c07d22969f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "af68e43cc4ac2ec2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "76d18840f6bef8e5": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 5,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA's Voyager 1 is about to cross 1 light-day distance from Earth (over 25.9 billion km), taking radio commands 24 hours to reach. Hook: 'Voyager 1 is now so far away that light itself takes an entire day to reach it.'",
+  "notes": "- Voyager 1 distance exceeds 25.9 billion kilometers from Earth\n- Round-trip radio latency hits 48 hours for JPL telemetry engineers\n- Powered by decaying plutonium-238 RTGs with instruments shutting down progressively\n- Projected to drift through the Oort cloud for another 30,000 years",
+  "actions": [
+   "Created video idea 2026-11-17-tc-voyager-one-light-day"
+  ],
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "a05cf8c84bce9c7c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "The annual Leonid meteor shower peaks tonight with 15 fast meteors per hour radiating from Leo.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "cb0dea9da7a59343": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Micro-robotic swarm tumbles through microvascular channels using magnetic guidance to mechanically dissolve arterial blood clots.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "e2ec1919db03ad96": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Archaeologists analyze 7,000-year-old seated terra cotta figurines from Romania exhibiting unique contemplative posture.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "f3713844e804eb53": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "ESA's Hera spacecraft images the Dimorphos asteroid, revealing catastrophic surface restructuring caused by NASA's DART impact.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "7d4e87b9c928d6c8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "4165e046cfdeedf3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "5ef744bfe657a00a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Physicists demonstrate precision magnetic heat control via chiral spin states in topological insulators.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "05815054444dd8dd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "evolution"
+  },
+  "summary": "Genomic research reveals an ancient retrovirus insertion millions of years ago shaped cortical expansion in human brain evolution.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "bfddb5d96cc7fc69": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "4cf464c5e1c9708e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "7734aa92a0e00825": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "3b5421356a9df462": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "188e34db52f8ab2a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "3c0bc1706770bfe4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "fef7fc82be0fb173": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "5c4fb7faafd54d6e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "cc4d61687f8f1f61": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Skeletal analysis of ancient human populations shows technological advances often caused nutritional stress before modern sanitation.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "5c3ff7109affea12": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Planetary geologists decode shifting sand dune geometries on Earth and Mars to reconstruct deep atmospheric wind histories.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "bc4be6cad18704f3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "73e7f8cfb173dbf5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "693d050066194c63": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "3c2cf6496bb81ab2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "643dd3c9a44f74b4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Geologists investigate the Great Unconformity where over 1.2 billion years of sedimentary rock layers vanished from Earth's geological record.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "39aad5eab88a7561": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "ad405ef4f2f7c0de": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "2f11d13b099a1651": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "c628f5fcb5db9e2e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Astrophysicists explain how density waves and orbital angular momentum shape spiral galaxy arm structures over billions of years.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "bb61a9b224de27bd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "90cb1790811d935a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "e26e515c2e658f4b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "80d6017289cdad34": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "2b6f753cf6957ca8": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Simulations reveal a high-altitude nuclear detonation in low Earth orbit would cripple 98% of satellites via EMP and artificial radiation belts. Hook: 'Why detonating just one nuclear bomb in space would instantly end modern civilization.'",
+  "notes": "- High-altitude nuclear explosion (HANE) generates intense Compton scattering gamma rays\n- Creates an artificial Van Allen radiation belt that degrades solar panels and electronics within months\n- Over 9,000 active LEO satellites (Starlink, GPS, military) would suffer fatal ionization damage\n- Starfish Prime 1962 test as historical precedent (destroyed 1/3 of LEO satellites at the time)",
+  "actions": [
+   "Created video idea 2026-11-17-tc-nuclear-bomb-in-space"
+  ],
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "97a552ab430f9073": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_report",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "Global data centers now consume over 460 TWh annually, rivaling entire industrialized nations and straining global power grids.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "952a167649d4599e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "scenario_trend",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Futurists project life in 2096 spanning cetacean bio-acoustics translation, synthetic biology, and post-scarcity energy.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "d078d440d8734fa6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Theoretical physicists model false vacuum decay: a bubble of true vacuum expanding at the speed of light could instantaneously destroy the universe.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "673a979c3c1baa67": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "20-year galaxy survey final data reveals subtle cosmological discrepancies that standard Lambda-CDM dark energy models cannot explain.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "83f1f133dfbb60d4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "e0c7091667add07e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "510c1f066d4f42f2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "0bd06960bdddb343": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "a549af0cb7e0f18e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "6602f053b435db48": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "e3cc1859b5b5822a": {
+  "label": "SKIP",
+  "reason": "anniversary",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "7cebee2397a58409": {
+  "label": "SKIP",
+  "reason": "anniversary",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "7bdc1c9abb02e5ac": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "The Ottoman Kul and Devshirme systems turned enslaved boys into Grand Viziers and elite Janissaries, concentrating imperial power away from rival nobility. Hook: 'How the world's most powerful empire was run entirely by slaves.'",
+  "notes": "- The Devshirme system recruited Christian youth across the Balkans into palace schools\n- Janissary corps and Topkapi bureaucracy owed absolute loyalty only to the Sultan\n- Grand Viziers like Pargalı Ibrahim Pasha ruled an empire stretching 3 continents despite slave legal status\n- Counter-intuitive meritocratic social mobility in 16th-century Mediterranean geopolitics",
+  "actions": [
+   "Created video idea 2026-11-17-tc-ottoman-slave-grand-viziers"
+  ],
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "a118c8d41ff05c75": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Searches on black hole collisions, white holes, and hypothetical proximity scenarios.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "24c2ba9faa74f091": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Trending queries about cosmic boundaries, expansion limits, and the edge of observable space.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "7bdfa29d7e93b9ed": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "High public curiosity regarding autonomous AI systems, consciousness thresholds, and economic disruption.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "3e5d7ca5f048d7ff": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "Searches focusing on global peak oil timelines, strategic reserves, and energy transition bottlenecks.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "879e697a2bf39b01": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "geopolitics_trends"
+  },
+  "summary": "Public queries reflecting anxiety over modern nuclear escalation doctrines and geopolitical conflict flashpoints.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "e17191ce8e49ada5": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Search intent explores human survival requirements, terraforming hurdles, and Mars surface missions.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "971ca03bbfbc96ee": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Curiosity centered on lunar base construction, Artemis timeline, and commercial lunar resource mining.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "1db64e4b3915cf04": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "body_limits"
+  },
+  "summary": "Searches exploring maximum human physiological tolerances under extreme cold, heat, and hypoxia.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "90397698e429aa8c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Queries focusing on relativistic time dilation, closed timelike curves, and grandfather paradox physics.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "74a57b59a2f282ea": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "mysteries"
+  },
+  "summary": "Trending interest in the Fermi Paradox, James Webb biosignature scans, and UAP investigations.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "22d2a43beefdb9e1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Broad searches exploring 50-year technological forecasts, automation, and planetary civilization levels.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "17d8ff5108795a62": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Curiosity queries examining extreme hypothetical scenarios: Earth stopping rotation, atmosphere loss, and magnetic flips.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "87c9c66f1b7c5bf2": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Searches regarding Rayleigh scattering of solar light and why sunset turns crimson.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "3c80efe5392017a1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "Queries exploring planetary what-if scenarios, solar superflares, and volcanic winter triggers.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "a493491d4769cc0c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "Searches on AI job displacement, artificial general intelligence milestones, and technological singularity.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "5717f69b564b1f27": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "The Infographics Show visualizes a global internet blackout scenario caused by undersea cable cuts and solar storms.",
+  "notes": "- Undersea fiber optic cable vulnerability analysis\n- DNS root server failure cascades\n- Economic freeze of SWIFT banking and power grid distribution",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "37904fb92acef2cf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "c71c71e906a324f9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "6bf04549b5e6a8cf": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA's Perseverance rover samples bright, silica-rich 'Idubi' rocks inside Jezero Crater indicating ancient hydrothermal waters.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "ace8fd7dcad285e2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "7a4c7176edfbed34": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "anniversary",
+  "flags": {
+   "category": "space",
+   "anniversary_date": "2026-11-16"
+  },
+  "summary": "Remembering the 1974 Arecibo Message: humanity's first deliberate interstellar radio transmission beamed toward M13.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "e169a0ff2f55f57f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "a356bbbec077a08f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Astrophysicists calculate that white dwarfs and Jovian gas giants could act as gravitational collectors to detect slow dark matter.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "0a44dc7cad150e3e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "4bfe52f6e4a7beaa": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "7df9381725880d46": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "7b6f73435e291aa1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Field trials test spreading crushed basalt across agricultural soils to permanently trap carbon dioxide via chemical weathering.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "8093b2c1db9b8e89": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "0ec34be3fa985541": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "record_broken",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "SpaceX achieves a milestone catching the Starship orbital stage at Starbase with the mechanical launch tower arms.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "63f12f8d63f1827d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "7dd6a868656559bf": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "New James Webb and quasar data suggests early supermassive black holes bypassed Eddington limits through chaotic turbulent accretion.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "c4e7df9a5d514628": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "ed9225a4cba18b2a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "f8bfe610d7be2320": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "inventions"
+  },
+  "summary": "Satellite startups deploy radiation-tolerant edge GPU clusters in low Earth orbit to process imagery before ground downlink.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "439cadd6176a0d40": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "RealLifeLore breaks down Taiwan Strait chokepoints, anti-ship missile envelopes, and Pacific supply line vulnerabilities.",
+  "notes": "- First Island Chain missile defense architecture\n- Malacca Strait oil import blockade vulnerability\n- Strategic comparison of PLA Navy vs US carrier strike groups",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "5ce701f89482a12f": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "RealLifeLore explains how low-cost FPV drone swarms and precision glide bombs created an attritional trench stalemate.",
+  "notes": "- The democratization of precision drone strikes\n- Neutralization of mechanized armored maneuvers\n- Electronic warfare jamming spheres reshaping frontlines",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ },
+ "5c2f7fba9b0ca479": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "inventions"
+  },
+  "summary": "Lunar engineers propose using multi-layer thermal insulation films from emergency blankets for lightweight moon habitat shielding.",
+  "analyzed_at": "2026-11-17T06:08:22Z"
+ }
+}

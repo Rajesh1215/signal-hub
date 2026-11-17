@@ -1,0 +1,1064 @@
+{
+ "1cf103c30d791caa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "ae2191ddc84ba649": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "d7ec77a45dc6c7af": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "ed151b5ec3e0b5a2": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "b09cb836431eea43": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "OpenAI initiates embedded safety evaluations with Apollo Research and METR to evaluate agent autonomy risks.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "6cb61f4e02a42232": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "61ee03282db488ef": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "OpenAI launches computer-use agents and clinical integrations for healthcare enterprise customers.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "cf0cc593a1dba21c": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "72718afe93a9f904": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "19d30d6a7e8dbf60": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "23b8808886a5496c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "68c0d59501b9e66c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "27b07fb2936e45d2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "5907273e9b8ed0e9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Hugging Face and OpenRouter partner to streamline serverless inference endpoints for open-weight models.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "5232b77463c2f335": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "NVIDIA releases post-training guidelines for Nemotron to boost domain-specific scientific inference accuracy.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "3289f6f0bd4a715d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "aa0dd59bf2c4d3fc": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "official_launch",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "NVIDIA Vera Rubin NVL72 achieves up to 2x Blackwell Ultra performance in MLPerf Training v6.1 benchmarks.",
+  "notes": "- Rubin NVL72 rack architecture with 72 GPUs and fifth-generation NVLink\n- 2x speedup in large-scale frontier agent training throughput\n- Benchmarked on MLPerf Training v6.1 suite",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "0d793c79374df038": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "TokenEconomizer releases open-source caching framework to reduce redundant token consumption in AI coding agents.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "56aacfbbe60cd697": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "GitHub deprecates legacy Copilot models as of November 16, transitioning developers to Claude 3.5 and GPT-4o backends.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "b61310710abfb638": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "fb22febd755e89f9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "524f377e5f008a5e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "4b046e31c5f47c69": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "cc7f898f08f0ca93": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "c3c2e255cdc93eba": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "0fc04e2ef1c697cf": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "3dfc52f59bfeeb15": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "f14e5b34179d3925": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "df40bb541e92cc6a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "fb1e2002f88c8b71": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "a6c8e274c2090912": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Amazon Bedrock introduces tabular search capabilities to query complex structured document tables directly.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "7535dcb850395ed5": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "California Attorney General files suit against OpenAI over autonomous agent incidents and developer guardrails.",
+  "notes": "- Regulatory enforcement action targeting unauthorized autonomous agent actions\n- Focuses on developer liability and containment sandbox protocols\n- Potential legal precedent for autonomous AI deployment standards",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "5543e3ad0deeffb3": {
+  "label": "SKIP",
+  "reason": "rumor",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "b39132f792aebc72": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Sam Altman asserts the AI ecosystem will absorb Nvidia leadership disruption without slowing hyperscaler model training.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "1f90fcd181d3c0d7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "FBI issues alert regarding Artex AI open-source hacking tool being actively deployed in network intrusion campaigns.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "4979222814508dd0": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "7f30dd61fe6983ef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "ad8539a1ef1e7f16": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "3c997ac0c0c4cc9f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "732fb6da4765e9f8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "US Department of Commerce tightens AI accelerator export controls to restrict unauthorized wafer fabrication access.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "84a843d715bbdc15": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "ff9621f5cb6b08b8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Freshworks alumni launch an enterprise CRM agent startup, securing $53M in venture funding.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "f5303427425f6fbd": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Meta AI introduces JiTTests: LLM-generated edge-case test suites designed to fail breaking pull requests before merge.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "911d1aa7df9eb406": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Alibaba releases Qwen4-Max: a 2.4T parameter MoE model with 71B active parameters and 1M context window. Hook: 'Alibaba just dropped Qwen4-Max: a 2.4-trillion parameter beast that rivals GPT-4o and Claude.'",
+  "notes": "- Architecture: 2.4 trillion total parameters with 71 billion active parameters per token\n- Context length: Native 1,000,000 token context window\n- Benchmark claims: Competitive with Claude 3.5 Sonnet and GPT-4o on coding and math\n- Open-weights strategy and API pricing details",
+  "actions": [
+   "Created video idea 2026-11-17-cq-qwen4-max-release"
+  ],
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "c23bc4e637d24145": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Hark releases Handoff², a 2x faster computer-use agent framework automating multi-step desktop workflows.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "679fad7d886635d7": {
+  "label": "SKIP",
+  "reason": "rumor",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "fb02d02ff1ef4f59": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Black Forest Labs founders explain multimodal unified latent training across image, video, and audio in FLUX 3.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "09a8046a6b184abe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "a5195f8f1ec73e50": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "2adc4ec86f848c3d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "ab56f6010e816db8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "8db0304f28b768b9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "2d869077efc57e90": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "d9ef66b2a96fdd7e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "eff83fdd498053c2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "47afc62aa7174e4f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "b66233d004d9aefd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "378ca5a53f21411f": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "84639d7f9434117d": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "5ba8fc637a589f7b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Meta FAIR publishes V-JEPA-LM, extending joint-embedding predictive architecture to continuous video dynamics.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "fec71aef962ea0d4": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "dcb44faccadcb971": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "91ec2b57dc8da495": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "0d82702870723496": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Researchers introduce WebArena-Pro, a reproducible benchmark evaluating multimodal agents on complex web tasks.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "131c894d213d8b1c": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "2382de0af51edc65": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Study analyzes coding agent failure trajectories, showing backtracking loops cause 70% of fatal bugs.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "9a0204477bc8f3f3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "d3a502238cbed594": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "863d676656a8b95e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "42bf49efa2c8d534": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "2b0b0c4f76767cc2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Architectural guide shows how to deploy LiteLLM across Cloud Run and Azure for multi-cloud LLM failover.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "b63f9606f165d3e7": {
+  "label": "SKIP",
+  "reason": "price_change",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "3608928281c68624": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Cloudflare AI Gateway adds Private Inference support to encrypt model prompt traffic end-to-end.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "6d55f4eebadef051": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Engineering guide argues AI agents act as users, requiring synthetic deterministic evaluation harnesses.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "2273e82f1636593d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Instacart details production architecture using LLM recommendation embeddings to lift grocery basket sizes.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "fa7872fdf2afccbf": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Satya Nadella discusses the future of software engineering as automated coding reduces marginal syntax costs.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "0aa0a717b26f26ac": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "1a393d906dfe4188": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Solo founder shares practical mitigation playbook against automated API token draining and fraud attacks.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "d242411d1008caf8": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "12ff28f2247aa9c2": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Security analysis examines supply chain vulnerabilities introduced by autonomous AI package dependency generation.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "800a5a9bbbe9b280": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "9c5846e457837de9": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "a3ad9f9422635f51": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "41688ab7c5768227": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "ee5102aa84ee5396": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "NetworkChuck analyzes the root causes behind a 36-hour Microsoft Azure cloud infrastructure outage.",
+  "notes": "- Azure BGP routing and DNS propagation failures\n- Cloud redundancy architectural lessons for developers\n- Multi-region disaster recovery best practices",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "153adbd71e840bb9": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Box CEO Aaron Levie breaks down how enterprise software moats shift from workflow UI to proprietary data layers.",
+  "notes": "- Enterprise software value migration in the AI era\n- Proprietary organizational knowledge graphs as lasting moats\n- Why pure wrapper apps face margin compression",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "299ab9ec65138b43": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Runway ML hands-on review explores Gen-3 video capabilities, camera motion controls, and enterprise pricing.",
+  "notes": "- Technical review of Runway Gen-3 Alpha video generation\n- Camera motion controls and keyframe interpolation\n- Production video pipeline integration",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "e9932aedf72ef894": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Tech creator explains how executive turmoil at Nvidia could accelerate compute supply crunches and API price hikes.",
+  "notes": "- Hardware supply chain bottleneck analysis\n- Impact of GPU allocation delays on indie developer API costs",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "9be5e15035b6cc5c": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Analysis explores systemic financial risks and AI capex debt cycles in semiconductor supply chains.",
+  "notes": "- Macro semiconductor capex spending cycles\n- Hyperscaler debt financing for AI data centers",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "08b34617b9e8d53f": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Creator shares Claude AI prompt engineering workflows for digital freelancing and automation.",
+  "notes": "- Freelance prompt workflows with Claude 3.5\n- Automating client copywriting and research deliverables",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "d677f4dcdd03411a": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Developer advice breaks down why chasing every new model benchmark distracts from shipping core product features.",
+  "notes": "- Counter-intuitive product engineering insight\n- Model switching costs vs UX differentiation\n- When to upgrade model backends",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "b4de694ec32f8ffd": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Review tests Genspark VoicePad, a hardware voice interface for hands-free AI interaction.",
+  "notes": "- Hardware AI pin / voicepad form factor evaluation\n- Latency and practical developer utility assessment",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "b770d0296ed13090": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Public queries focus on ChatGPT voice mode, custom GPT setup, and subscription tiers.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "b28abefdffb556cd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Searches explore Google Gemini multimodal capabilities, Workspace integration, and API tokens.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "c7edafe4042b6d5a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Developer searches highlight Claude 3.5 Sonnet coding performance, Artifacts, and API rate limits.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "3769a8252bcab7e9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Queries focus on DeepSeek API availability, open weights hosting, and token pricing vs Western LLMs.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "b566fd362a4bf92e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Searches on GitHub Copilot IDE integration, workspace indexing, and pricing changes.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "f237906128347a8e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "High developer interest in Cursor AI shortcuts, agent mode, and composer workflow rules.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "dfd3a96438c4224f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Queries exploring Perplexity Pro search citations, finance models, and Spaces features.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "a7334461f62cd4ac": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Searches on xAI Grok image generation, real-time X news summarization, and API access.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "a6841783e0373e17": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Surge in searches for autonomous AI agent architectures, tool-calling loops, and MCP protocols.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "96800f38ad27105c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Discussions and queries regarding natural-language 'vibe coding' vs software engineering fundamentals.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "2ab2258b77ccbbc3": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Searches for Python AI engineering libraries, asynchronous concurrency, and data workflows.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "1a6c430aba62a1f1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "High demand for practical full-stack AI engineering courses and hands-on LLM projects.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "dad178e2e0513950": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Queries focusing on full-stack web architectures for AI applications: Next.js, Postgres, and vector stores.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "d8569e25d31cadfc": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Searches on distributed systems, rate limiting, and scaling low-latency LLM inference clusters.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "b43282a49ee0906a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Queries regarding Next.js App Router, Server Actions, and streaming generative UI.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "e4cc4448f13bf3fb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "077296f281809213": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "1b9ec7026fd96a4d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "4dc9caa71bedc946": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "bc4bc6f5cf399fb6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "fd195ad86a2e8a7e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "a8f9cf4075c88927": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "1eef0ff7b08fde12": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Hugging Face highlights n4ze3m/tiny-voca, a lightweight local text-to-speech model for client devices.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "c2b3f2a5b70b822e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "36697d3ac59f26b2": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Amazon Bedrock adds Agentic Retrieve to maintain long-term session memory across multi-turn interactions.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "dfe2290f87da6d0f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "e40898fe6867f6cc": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Comprehensive taxonomy categorizes multi-agent design patterns, recurring anti-patterns, and recovery strategies.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "ee79c1a1cbedf765": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "d5abd8b179c5d859": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Identity security AI startup Corma achieves $1B unicorn valuation in rapid funding round.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "52f6520643b2d633": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "2c8f6b0ab48f1a53": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "3339adb429341ae5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "4222471a9283a7ba": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "official_launch",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Cal.com releases v7 featuring native AI scheduling agents and calendar automation triggers.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "bc67b1222a72c2c5": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "tool_release",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Vercel launches the UI SDK for building generative UI applications with React Server Components. Hook: 'Vercel just launched the UI SDK: how to stream live React widgets inside your AI apps.'",
+  "notes": "- Generative UI architecture using React Server Components (RSC)\n- Streaming structured JSON payloads directly into client-side UI components\n- Eliminates raw markdown rendering for complex interactive apps\n- Full product engineering tutorial pattern for modern AI builders",
+  "actions": [
+   "Created video idea 2026-11-17-cq-vercel-ui-sdk-generative-ui"
+  ],
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "5350c91c7eff3df0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "397f02cb116ed23b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "bfb213c12c8ad759": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "f64d8f50495b6574": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Reports show Windows 11 telemetry tracks coding agent developer activity, raising privacy questions.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "fb7e2e8c3c212b63": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "e3f87280ae26aecf": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "89daad993b8d8251": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "95eafd2bc29ae583": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "7119faa79dfa88d8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "LuthorSQL introduces a fast one-pass Text-to-SQL architecture acting as an efficient System 1 drafting layer.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "b8fb054564dbd509": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Study reveals strict structured output formatting (JSON schemas) increases silent reasoning errors in LLMs.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "c2cbcd2b54c234b8": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "57ee4a30702771e4": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "b6f7c1cea9b4189f": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "15857fff45cd0e88": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Empirical benchmark compares dynamic thinking token budgets across reasoning models: when test-time compute is cost-efficient vs pure token waste. Hook: 'How many thinking tokens does an AI actually need to solve hard code and math problems?'",
+  "notes": "- Test-time compute scaling: marginal accuracy gains per 1,000 reasoning tokens\n- Hard failure modes: why thinking loops over-complicate trivial deterministic tasks\n- Cost-benefit inflection points on GSM8k and SWE-bench\n- Dynamic routing strategies: allocating thinking budget based on task entropy",
+  "actions": [
+   "Created video idea 2026-11-17-cq-test-time-compute-tradeoffs"
+  ],
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "4ab4c4442bf1ea0d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Essay highlights why AI coding agents struggle with code deletions, lacking historical context on why code was removed.",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "2515660d22197562": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 5,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Deep dive into production agent orchestration: why linear prompt chaining fails and how the Plan-Build-Judge feedback loop prevents catastrophic tool errors. Hook: 'Stop building simple chatbots: how to build production AI coding agents that fix their own mistakes.'",
+  "notes": "- Architectural breakdown of agent state machines: planning, execution, and validation phases\n- Replacing infinite while loops with deterministic state transitions and max-step circuit breakers\n- The Judge pattern: using specialized lightweight verifiers instead of self-grading LLM prompts\n- Real-world production code examples in Python and TypeScript",
+  "actions": [
+   "Created video idea 2026-11-17-cq-agentic-loop-plan-build-judge"
+  ],
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "cfa322d9390f1705": {
+  "label": "SKIP",
+  "reason": "explainer_angle",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "13dfe7e8b0eec377": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "04886fb1f68ef3a7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "43c76e94994f83df": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "4e3ace24c882ab34": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "223a4ed4ddd386b0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "808e95c1a621e191": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "9fcd83934e48d985": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-17T06:11:10Z"
+ }
+}
