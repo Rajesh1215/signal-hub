@@ -1060,5 +1060,320 @@
   "label": "SKIP",
   "reason": "minor_update",
   "analyzed_at": "2026-11-17T06:11:10Z"
+ },
+ "e7e6f16c8e4c1612": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "4c28ca5be2f41055": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Case study details how Revolut deploys OpenAI Codex to cut engineering coding time by 30–60% while automating financial crime triage.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "4e8cb2f025bb988a": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "206c22f9be72c9ee": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Explainer clarifies what data Meta AI actually ingests inside WhatsApp threads and which opt-out privacy controls apply.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "f942ce0b04fbd9c4": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3d105f5c708e9f17": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a5c8fe85dc2421da": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "845bf7a7208ea4f5": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Alibaba's QwenWork agent suite integrates third-party models from Kimi, GLM, and DeepSeek in one workspace.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0ea46af7903d9c06": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Cost-efficiency comparison shows Qwen 4 and DeepSeek V4.1 Pro deliver nearly identical cost per benchmark index point.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "cc2b7357aad36fda": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "DeepSeek leads OpenRouter usage with 61.2 trillion tokens processed even as it rations free consumer chat.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "25fff9a7ba8ff618": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b9a102b535c06e85": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "36e7f7f542183e90": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "129590ae02b4785f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ac956d289266a70a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "908525d019e18ad9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "price_change",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Perplexity Monitor API offers hourly autonomous web topic tracking priced at $0.72/month per monitor.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "59cf226412cff2b9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a3b536f3df54e796": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "price_change",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Pricing comparison evaluates Perplexity's $200/month Max tier against direct $4/$20 Claude Opus API token usage.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "eb217ec96b1011e2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Perplexity launches an internal Frontier Research division backed by 10,000+ GPUs to train proprietary models.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0aeef9fd002427bd": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6dec9abc5deabd89": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "8951fd146715737f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "edfd1f6054a6181c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Bengaluru deep-tech startup Astrome receives ₹64.05 crore from India's TDB to build an AI-ELINT satellite constellation.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e01aa9629af76c92": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "31ce15b79a06f515": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "96034650541ff93b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "65d7c90209e96c05": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3b7ed9d7e78aae61": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "859d366fbdfb12fc": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "AWS Emulator launches on Product Hunt to build and test AWS cloud apps locally without cloud deployment costs.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a2884ba2c754433d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "40fcb9435fa719c3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3bd1ee61108c0aa5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "8908fedac6b1d980": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "41c9669ee6862ad9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "9e431bc7841237c7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "HN (110 pts) details proxy-injection and scoped credential isolation patterns for running coding agents without exposing raw API keys.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "11dc17a3ffe39cf3": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7938aabe0ff52572": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "1247f54e95e2bd92": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "K2-Horizon releases a fleet of six fully open-source reasoning and agentic models scaling from 0.9B dense up to 375B-A23B MoE.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "f7833265e5499c53": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "SWE-CoWork introduces a realistic organizational benchmark testing whether coding agents can collaborate with teammates and verify specs.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "d1262628b30cf1a5": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6456631b55fff5ee": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "VoxMel TTS technical report and open repo (75 stars) advance continuous autoregressive text-to-speech with high acoustic fidelity.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "48e4ea340b7bce26": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0f0fb1d2c673bbe9": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "438833c4bd7db0dc": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "dev.to engineering post warns MCP tool calls can resolve cleanly with HTTP 200 while silently failing semantically, requiring structured schema guards.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ab67362c6b6b211e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "d0b5a8d034b094d3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "de851acdd1fdbb52": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "628917cd95c59205": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
  }
 }

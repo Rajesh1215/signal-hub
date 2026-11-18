@@ -1,6 +1,98 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-18T17:46:25Z",
+  "history": [],
+  "id": "2026-11-18-cq-gpt62-astra-sol-reality-check",
+  "title": "GPT-6.2 Astra & Sol Tested: 20% Cheaper API, But Why Are Developers Split?",
+  "type": "hype",
+  "timing": "NOW",
+  "angle": "OpenAI launched GPT-6.2 Astra ($8/$40 per million tokens, #2 Intelligence Index) and GPT-6.2 Sol across Codex, Copilot, and API—breaking down the benchmarks vs real-world agent coding tests.",
+  "outline": [
+   "What actually shipped on Nov 17: GPT-6.2 Astra (frontier reasoning/coding) vs GPT-6.2 Sol (fast everyday coding & agents)",
+   "The pricing math: Astra drops 20% to $8/$40 per million tokens and takes #1 on AA-3D",
+   "Why early developer reviews (AINews, Cole Medin, Matt Wolfe) are divided on Astra's real-world UX",
+   "Head-to-head coding test: GPT-6.2 Sol vs Claude vs Qwen4-Max inside a real full-stack repo",
+   "The verdict: when to route tasks to GPT-6.2 Sol vs keeping Astra for complex architectural debugging"
+  ],
+  "items": [
+   "7c0d72b57aad2f29",
+   "b6deb2a729e77d36",
+   "fc02ce223878d6cb"
+  ],
+  "updated_at": "2026-11-18T17:46:25Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-18T17:46:25Z",
+  "history": [],
+  "id": "2026-11-18-cq-claude-code-mode-js-tool-chaining",
+  "title": "Claude Code's 'Code Mode' Just Killed Sequential Tool Calling (Agent Architecture Explained)",
+  "type": "evergreen",
+  "timing": "NOW",
+  "angle": "Anthropic added Code Mode to Claude Code v2.1.323: instead of wasting 10 LLM roundtrips calling Bash, Read, and Edit one by one, Claude writes one JavaScript script that chains them asynchronously.",
+  "outline": [
+   "The hidden bottleneck of MCP and standard tool calling: N sequential LLM roundtrips burning context and latency",
+   "How Claude Code Mode works: emitting executable JavaScript that chains Bash, Read, and Edit calls in a single turn",
+   "Asynchronous execution: why keeping the agent responsive while long builds run transforms developer UX",
+   "Pairing Code Mode with deterministic verification gates (Claude Code team's verification principles & sandboxes)",
+   "Security checklist: avoiding MCP tool poisoning (50/50 spoof test) and isolating credentials in external sandboxes"
+  ],
+  "items": [
+   "a9d610940be1336a",
+   "b8afcac5c27c2bd9",
+   "a4dd2a607cd17f3d",
+   "414a791c7841a206"
+  ],
+  "updated_at": "2026-11-18T17:46:25Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-18T17:46:25Z",
+  "history": [],
+  "id": "2026-11-18-cq-sarvam-token-factory-india-api",
+  "title": "India Just Got Its Own OpenRouter: Inside Sarvam Token Factory (8 Open Models on Indian GPUs)",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "Sarvam AI opened Token Factory to all developers, serving Sarvam 105B, DeepSeek V4.1 Flash, Kimi K3.1 Pro, GLM 5.3, and Gemma 4 31B from GPU clusters in India via one OpenAI-compatible API.",
+  "outline": [
+   "Why Indian AI startups struggle with US/EU API latency, USD billing, and DPDP data residency compliance",
+   "Inside Sarvam Token Factory: 8 open models behind a single drop-in OpenAI SDK endpoint",
+   "The sovereign AI controversy: why hosting Chinese open-weight models on Indian servers sparked debate",
+   "Live code demo: switching an existing Python/Next.js agent to Sarvam Token Factory in 3 lines of code",
+   "Cost & latency comparison vs OpenRouter, Bedrock, and self-hosted vLLM"
+  ],
+  "items": [
+   "27cab92734a61af4",
+   "fa0fd192661cf29f"
+  ],
+  "updated_at": "2026-11-18T17:46:25Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-18T17:46:25Z",
+  "history": [],
+  "id": "2026-11-18-cq-local-27b-rl-lora-swe-bench",
+  "title": "How a Tiny Apache-2.0 LoRA Boosted a Local 27B Coding Model From 39% to 65% on SWE-Bench",
+  "type": "evergreen",
+  "timing": "SOON",
+  "angle": "Hugging Face's Qwen3.8-27B-pi-adapted RL LoRA proves that specializing a small local model to one agent harness beats generic scaling—paired with llama.cpp v1.0.0 and 180B MoE streaming on 32GB RAM.",
+  "outline": [
+   "Why raw base-model benchmarks lie: the same 27B model jumps from 39.2% to 64.7% on SWE-bench Pro with harness-specific RL",
+   "Understanding Qwen3.8-27B-pi-adapted: training an Apache-2.0 LoRA specifically for the pi coding agent loop",
+   "The local-AI maturity milestone: llama.cpp hitting v1.0.0 API stability after 3.5 years",
+   "Running giant MoE models locally: Hugging Face's experts_offload trick running 180B parameters in 32GB RAM",
+   "Practical roadmap: setting up a private local coding stack on consumer hardware in 2026"
+  ],
+  "items": [
+   "1565aa20b805853a",
+   "5e436e3d015a6961",
+   "2161bdb345100af0"
+  ],
+  "updated_at": "2026-11-18T17:46:25Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-17T06:11:39Z",
   "history": [],
   "id": "2026-11-17-cq-qwen4-max-architecture",

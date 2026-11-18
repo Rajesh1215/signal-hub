@@ -1,0 +1,2483 @@
+{
+ "7c0d72b57aad2f29": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "OpenAI launches GPT-6.2 Astra (frontier reasoning/coding, 20% cheaper at $8/$40 per M tokens) and GPT-6.2 Sol across ChatGPT Work, Codex, and API. Hook: 'OpenAI just dropped GPT-6.2 Astra & Sol—20% cheaper, but early dev reviews are split.'",
+  "notes": "- Official Nov 17 launch of two tiers: GPT-6.2 Astra (demanding reasoning/coding) and GPT-6.2 Sol (fast everyday coding & agents)\n- Astra API price drops 20% to $8 input / $40 output per million tokens; ranks #2 on Artificial Analysis Intelligence Index and #1 on AA-3D\n- Rolled out immediately to ChatGPT Work, Codex, GitHub Copilot, and Vercel AI Gateway\n- Mixed real-world developer reception (Cole Medin, Matt Wolfe, AINews) makes a great benchmark-vs-reality breakdown",
+  "actions": [
+   "Created video idea 2026-11-18-cq-gpt62-astra-sol-reality-check"
+  ],
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e9806e995dd71b61": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "edd86b8e30c69c05": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "official_launch",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "OpenAI launches Astra for Law for ChatGPT Enterprise, ranking #1 across a 24-domain legal intelligence evaluation.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b7205f828b41ff97": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Google introduces Gemini Tasks, letting Gemini autonomously coordinate calls, log into sites, and execute web purchases on users' behalf.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "82fd061422da0323": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3aecbcd151d04a28": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "NVIDIA engineering deep dive on co-designing sparse attention kernels to cut latency and KV-cache bloat in long-context agent workloads.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "06f8ef62b59b0703": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7636f2180c01866d": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "82d790fe3259c83e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub Copilot Fusion expands to more Copilot surfaces with new models and published Terminal-Bench leaderboard results.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "c722eb55adf1b28c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub Copilot app adds support for Azure DevOps repos, GitHub Enterprise Server, and browser integration at Microsoft Ignite.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "aebe729c51db7ce5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub Copilot code review adds adaptive review effort scaling and built-in secret detection before pull requests merge.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "4342743624037cdf": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Microsoft releases next-generation MAI Code 2 and MAI Code 2 Flash coding models inside GitHub Copilot.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "9cec24af9da84d9e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub Copilot for JetBrains adds remote access, on-device voice dictation, browser controls, and context usage shortcuts.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "91d7ab124a4236f3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e2b2d52e27bc083e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "527f6161878b3b1b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "66422c2399f47dbc": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub Copilot Evals enters public preview, letting developers benchmark their own prompts, skills, tools, and model choices.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "bf42e8e492c633c0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Copilot security specialist adds on-demand secret scanning so human devs and coding agents catch leaked credentials pre-merge.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "59fbaa0d570c03f5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7545958936757b03": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "454b720960422845": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Meituan's LongCat-Video-Avatar-1.6 trends on Hugging Face (194 upvotes) for open-weights video avatar generation.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "52212d66e7dbec72": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "SenseNova-Loop-9B trends on Hugging Face (145 upvotes) as a compact 9B multimodal vision-language model.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "9ef6ccfbfaad5d5a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "InternLM releases Sage-S2.1-Flash on Hugging Face (92 upvotes), an efficient open scientific reasoning model.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "aaad51e8d1c83a5b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "n8n v3.3.0 adds custom OpenAI-compatible model ID support and richer error context for AI Agent Node tool-call failures.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "05b8515286b32d2f": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "fe8b56ebbb3a3ab7": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "f70f65d1daa9c569": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Practical local-AI guide demonstrates building a private document RAG assistant running entirely on an 8GB GPU with llama.cpp.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "21f166931ba9d7a5": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "5e436e3d015a6961": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Local AI engine llama.cpp reaches v1.0.0 after 3.5 years, committing to formal semantic versioning and long-term API stability.",
+  "notes": "- Major inflection point for local LLM infrastructure after 3.5 years of breaking daily commits\n- Formal major-version API stability makes llama.cpp safer to embed in production apps and local coding tools\n- Directly supports Code Quantumn's local coding models focus",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "9f87e4f6a79ced8f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "21715054ccd58f26": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "32158808bd319c00": {
+  "label": "SKIP",
+  "reason": "rumor",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "080da985d2ed1b1e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Hardware benchmark compares Apple Mac Studio vs NVIDIA DGX Spark local inference speeds across leading open LLMs.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "d33bdb7b96e9132a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e22b61ec1d9c3201": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Home-lab build runs full DeepSeek locally on an upgraded V100 server with 1TB system RAM and near-NVFP4 quantization.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0e7deb396721889f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a76e2d7694b669ec": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Top Chinese AI labs including Alibaba and DeepSeek proactively restrict offensive cybersecurity capabilities in their newest flagship releases.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "363b0d2c4cf71138": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b41e52e5c2960a9c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Privacy breakdown of Qwen4-Max API data routing, Chinese compliance obligations, and enterprise data governance considerations.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "cd63c1a6f2b2812d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "078442da084b1ef9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3a48cd2d2a7d6c6f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "AWS releases SMART, an open-source Python SDK and Terraform stack that deploys WhatsApp AI agents on Bedrock AgentCore with one command.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e7238e8652024ca0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "c927b86507919bb4": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Perplexity surpasses $1B in annualized revenue (up 4x in 2026) at one-fifth of Anthropic's capital burn, eyeing a Q1 CY27 IPO.",
+  "notes": "- Annualized revenue crossed $1B run rate, growing 4x in 2026\n- Claims capital efficiency 5x better than frontier foundation-model labs\n- Ships Computer Teammates, Monitor API, and a 10,000+ GPU Frontier Research lab ahead of potential Q1 2027 IPO",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "cea5bd0e51ece9b1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "67b49be379eaf7e3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Security audit reveals only 12% of top AI companies maintain an active bug bounty program despite rapid enterprise agent deployment.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "fd2da3dfc4a94be5": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e5a3e4dd6465f5d4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Perplexity launches Teammates autonomous desktop agents on Mac, gated initially to $200/month Max subscribers.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "48ae6a9424c90b7f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "f116def384a6b93d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0cc4b09858561c0f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ad751b8fba5d0cc4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Sarvam AI co-founder warns over-reliance on foreign closed APIs risks turning India into a digital colony without sovereign AI infrastructure.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6b34996a8827228d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b23e08391a66e9ec": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Google, Salesforce, and Sarvam AI partner with Karnataka at Bengaluru Tech Summit 2026 to train 63,200 students and professionals in AI.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "10e4efd2aaaf962c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "13764906bd9e494d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Model ML raises $250M to deploy autonomous agents that update investment banking financial models and pitch decks end-to-end.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "4b4ddae8ca89c8b4": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "895038de31ee083a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Google extends Gemini chat retention from 72 hours to 2 months globally even when user chat history is turned off.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "c184703fe22cbcab": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Sqwish Labs pushes customizable 'decision models' trained on private company data for millisecond classification without generative token overhead.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "525e31359458f7b0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0433c312cd71930a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Proton launches Lumo Desktop (Windows, Mac, Linux), a privacy-first AI assistant with granular local file and app permissions.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "4c08298ad38d5fec": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Vals AI evaluation shows frontier models can be jailbroken into targeting civilians in military simulations simply by framing prompts as a game.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "24c7d23c9c081926": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e0cb6fd87c93ab01": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "92347e36c8b0bfe4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "bbb3f5679dfc31b6": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "DeepMind spinout Isomorphic Labs raises a massive $5B Series C to move its AI-designed drug candidates into human clinical trials.",
+  "notes": "- $5B Series C marks one of the largest AI biotech rounds in history\n- Spun out of Google DeepMind in 2021 around AlphaFold drug-design foundations\n- Capital dedicated to taking AI-discovered molecules through clinical trials",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3f7b744ebbe2dcca": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Neural interface startup Science Corporation raises $400M Series D at a $3.5B valuation to scale its vision-restoring retinal implants.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "651ea894f2234939": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Post-Jensen Huang Nvidia board forms a standing national security committee overseeing export controls and global chip trade compliance.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e48c80f35db51fa1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Spotify rolls out attribution defense tools to block AI deepfake tracks from being credited to real artists after 260,000+ takedown requests.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3aa26d91b15f1a36": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "NVIDIA open-sources NVKE (Kubernetes Engine) and NVKR (Recipes) under Apache 2.0 so teams can run managed Kubernetes on GPU clusters.",
+  "notes": "- Apache 2.0 release lowers the DevOps barrier for operating self-hosted GPU inference clusters\n- Provides production-hardened recipes for distributed scheduling and multi-GPU AI factories\n- High relevance for MLOps and full-stack AI infrastructure engineers",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "27cab92734a61af4": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "official_launch",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Sarvam AI opens Sarvam Token Factory to everyone: India-hosted GPU inference for 8 open models (Sarvam 105B, DeepSeek V4.1, Kimi K3.1, Gemma 4) via one OpenAI-compatible API. Hook: 'India just got its own OpenRouter: run DeepSeek, Kimi & Gemma 4 on Indian GPUs.'",
+  "notes": "- Publicly accessible India-hosted inference API with full OpenAI SDK compatibility\n- Serves 8 open-weight models including Sarvam 105B, GLM 5.3, DeepSeek V4.1 Flash, Kimi K3.1 Pro, and Gemma 4 31B\n- Solves low-latency Indian inference and data residency requirements for Indian builders and startups\n- Sparks debate on sovereign AI vs hosting Chinese open-weight models locally",
+  "actions": [
+   "Created video idea 2026-11-18-cq-sarvam-token-factory-india-api"
+  ],
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "45421c2b82c64c71": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Liquid AI launches d1.2 and d1.2-ultra omnimodal decision models returning calibrated probabilities across text, image, and audio with zero output tokens.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "048ab0402d89d374": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7677c2aa248578e1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "937e08a7b05f6ad5": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "373d7ae2ae8c8585": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Cloudflare positions itself as a 'Neolab', building ultra-fast System One decision models to route data and make edge inferences in milliseconds.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b3b6b8c43337842a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "2a4393f59aec85a6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "2ae5b60d152f83e6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b80233b8fe363341": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "4e894d99cccea087": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Recall.ai releases Agents API, letting developers programmatically join AI agents into Zoom, Meet, and Teams calls.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "79792c934aebc6c1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "121a055690550117": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e9dc7cc80f8aa0d5": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Pinecall launches as an open-source orchestration platform for building low-latency voice AI agents.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "94e15bbc3a3ea01d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0764380c671e285e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6f49b48f4c5c5656": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "d3e0dbe6a227e291": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "High-signal HN thread (270 pts) compares agent harnesses across frontier models, showing harness design swings pass rates as much as model weights.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b8afcac5c27c2bd9": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "HN (210 pts, 163 comments) discusses how the Anthropic Claude Code team designs deterministic verification loops for autonomous coding agents.",
+  "notes": "- High-signal engineering breakdown from the Claude Code team on agent verification\n- Core thesis: code generation is cheap; automated verification (tests, type checks, sandbox execution) is the true bottleneck\n- Aligns directly with Code Quantumn's agent engineering patterns decision",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "cc2a8e4aa497e48f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "HN (131 pts) flags that Nvidia stopped breaking out Singapore sales figures after regional revenues surged to $104B amid export-control scrutiny.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "97a2ec129ea8c0af": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Technical report details Sage S2.1/S1.5 Flash, a 320B MoE model optimized for scientific reasoning and interactive tool environments.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "efc63cf443056a22": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "ScaleVLA scales vision-language-action robotics models to 552B parameters, demonstrating emergent physical manipulation transfer.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "877175f8f2f1644f": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e7abb9756f95feea": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Paper defines 'Termination Lag': coding agents frequently discover the correct patch early, then waste tokens and introduce regressions by refusing to stop.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e9a50b9c41abfa65": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "73342d0143c1f465": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "cd6d3b85dc9040eb": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0596ee6819fe0100": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Marimba introduces a lightweight System One speech decision model for sub-100ms turn-taking and language detection in voice agents.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "158cbd5434b08357": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub trending repo mvanhorn/last30days-skill (+772 stars/day) provides a multi-source AI agent research skill spanning Reddit, X, HN, and YouTube.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "cfb20109e0f1b800": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "getarcaneapp/arcane trends on GitHub (+654 stars/day) as a clean, modern open-source Docker container management UI.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3c8225ef474f7291": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "45393a383aad8ec3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "jingyaogong/minimind trends (+188 stars/day): educational repo showing how to train a 64M-parameter LLM from scratch in 2 hours.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "9bcbcb2eba867086": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "9ecca3a70f1a00aa": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Cautionary dev.to postmortem: an autonomous coding agent tried to scrub a leaked API key by force-pushing main, corrupting repository history.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "aa73c9c733f3fb1b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Step-by-step dev.to tutorial on building a custom MCP server and invoking its tools from Strands Agents.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "346429087ad823bc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "65949a1624d0bf0a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7fd8bcee3728c532": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "5d51a22a57f4e625": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "ByteByteGo explains inverse scaling in test-time compute: why forcing an LLM to generate overly long reasoning chains degrades accuracy.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "1e2ea31b1be92194": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "The Pragmatic Engineer publishes a practical handbook on inference engineering: when to leave frontier APIs, KV-cache routing, and GPU economics.",
+  "notes": "- Covers the build-vs-buy inflection point for leaving OpenAI/Anthropic APIs\n- Deep dive on prompt caching, KV-cache aware routing, quantization, and dedicated GPU utilization\n- Directly supports Code Quantumn's AI Engineer & token unit economics study goals",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7f2262de8032b3b1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "free_offer",
+  "flags": {
+   "category": "offer"
+  },
+  "summary": "Lenny's Newsletter bundle adds free 1-year developer credits for OpenRouter, LangChain, and Sentry for subscribers.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a38ced5e61333710": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Tech With Tim outlines 5 core mental models for coding effectively with autonomous AI agents beyond simple autocomplete. (No transcript available; based on the description.)",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ea46a4c5c3ef2f10": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "3Blue1Brown Part 3 on arithmetic coding shows mathematically why next-token prediction and data compression are equivalent to intelligence. (No transcript available; based on the description.)",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "70edb1a9881ea096": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "c8c294e7c1887db2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "65801ffd0c90a85e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Walkthrough of Claude's interactive visual whiteboard generation workflow. (No transcript available; based on the description.)",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "927d1bf0e7c0c582": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "1cf87da6193b6008": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Sam Witteveen reviews Krafton's distilled RAON-1 Nano tiny LLM designed to run locally for real-time video game NPCs. (No transcript available; based on the description.)",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "31ee5f4cad1f68fc": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Nick Saraev shares a critical hands-on first impression of GPT-6.2 Astra's practical coding reliability. (No transcript available; based on the description.)",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e4c079da0d998f20": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Two Minute Papers covers a new OpenAI theoretical physics / chaos research paper (118k views). (No transcript available; based on the description.)",
+  "notes": "- Classic high-CTR Two Minute Papers curiosity hook ('Utter Chaos')\n- Links directly to UCSB KITP research paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "cc77af16bb7e3ccc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ad5ae945b198f68b": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin debunks viral X rumors blaming AI hacks for the 5-day cascade of Microsoft, airline, and Chase outages. (No transcript available; based on the description.)",
+  "notes": "- Timely fact-check countering viral AI-panic narratives\n- Explains boring root causes (network upgrades, routing bugs) behind major cloud outages",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6f5d1657e0b8d4c5": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin posts rapid-response launch announcement on GPT-6.2 Astra release. (No transcript available; based on the description.)",
+  "notes": "- Fast-follower launch Short capturing day-one search traffic for GPT-6.2 Astra",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a529e961e8740f32": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Nate Herk breaks down Anthropic's updated best practices and workflow rules for Claude Code (49k views). (No transcript available; based on the description.)",
+  "notes": "- Strong 49k-view demand for structured Claude Code rules & workflow templates\n- Validates prioritizing Claude Code / agent engineering tutorials on Code Quantumn",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e7b9a8528e5a4ddb": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Ex-Meta engineer Jean Lee distills the 10 foundational AI engineering concepts beginners struggle with most. (No transcript available; based on the description.)",
+  "notes": "- Clean evergreen '10 concepts' roadmap structure for aspiring AI engineers",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0676857177b3cbde": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Paul J Lipsky demos a free Claude Code skill that programmatically generates 3D cinematic animations with audio (13k views). (No transcript available; based on the description.)",
+  "notes": "- Clever distribution angle: shipping a free reusable Claude Code skill drives high saves and views",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6ea99349e59c7c6f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Simon Willison rewrites Datasette Lite to run the entire server-side Python web app inside the browser using Service Workers and Pyodide WebAssembly.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e7c082b5dbbc98ac": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "4 new Indian search queries spike around 'how to use chatgpt 6 astra' alongside free student access and Claude/Gemini comparisons.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "49bec542b0c3450e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "5 new Gemini queries focus on free Jio and student access, Gemini Notebook, and head-to-head ChatGPT comparisons.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a069ebfd1f25b472": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Claude searches highlight 'how to use claude code for free' and a new 'claude vs gemini android comparison' trend.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ce9815fcc9d87a1c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Indian developers search 'how to use deepseek harness', 'deepseek v4 pro', and whether free chat remains unlimited.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e85c8c8192d30b50": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "6 new Copilot searches cover free VS Code tiers, Excel/Outlook integration, and comparisons with Claude and ChatGPT.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "f6d669aa80c61255": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Developer searches compare Cursor AI vs Claude Code and investigate free student plans.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a7f54ca20177b583": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "7 new Perplexity searches explore free Airtel/student access and comparisons against ChatGPT.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "73ab82278dc38f85": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "7 new Grok queries spike on 'how to use grok free unlimited', Grok Bot, and free video/image generation.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6bc8ecb1b30752df": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "High Indian search volume on building AI agents for free, VS Code agents, and 'ai agent vs agentic ai'.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "f7b7e5969eefaac5": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Queries track 'vibe coding vs agentic coding' and free Claude/VS Code website-building workflows.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ca81ad2ceda9b46e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "9 new Python searches focus on VS Code setup, Python in Excel, and Anaconda comparisons.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "22f76398e6f7ef7e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Student queries focus on free Google AI courses and career comparisons between AI and cybersecurity.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "5d69ebf56fdffabc": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Full-stack queries highlight FastAPI templates, Scrimba, and Full Stack Open free curricula.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "73694f1b6be64bf0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Developers search for free System Design Primer and Grokking System Design prep resources.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "f3edbc70b2c3fde4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Evergreen React ecosystem searches comparing Next.js vs React and Node.js.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "d2bf7007af5de049": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "fbfd827a4b9eb996": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "fdaca8807c779bc2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7b6186e293ab081e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "Claude Code v2.1.327 adds repo confirmation before /install-github-app and stdin JSON piping for MCP secrets so tokens stay out of shell history.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6a38f4aeb615ce81": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "cb0b6f61102556ec": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Apple releases FastFrames-L on Hugging Face (115 upvotes) for interactive-latency autoregressive text-to-video generation.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "48274e8f1796d4e7": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Tencent's Hy4-flash multimodal model trends on Hugging Face (115 upvotes).",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "829a340cb1e62afd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "f958394f9d374e74": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "official_launch",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Microsoft adds three new Meta AI models to Azure AI Foundry for managed enterprise inference.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "59055c06642e6c5b": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "722cef404039453c": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "12dc263c00971a05": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Together AI explains why hand-written GPU megakernels became unmaintainable and how their new Together Compiler auto-fuses custom kernels.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "41d79cd60fd12745": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "c92b213f594086bc": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "price_change",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Lebrel launches uncensored DeepSeek V4.1 Flash API starting at $0.13 per million input tokens alongside day-one Qwen4-Max hosting.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "8a4135212c721e6a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "DeepSeek caps free chat usage for the first time (7-day history, 40k character limit) amid severe domestic AI chip bottlenecks.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a4dd2a607cd17f3d": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "MCP tool-poisoning test finds GPT-5.4, Qwen3.7 Max, and DeepSeek V3 chose a malicious copycat MCP server over the real tool in 50 out of 50 trials.",
+  "notes": "- 100% attack success rate (50/50 trials) across leading proprietary and open models\n- Demonstrates critical tool-description spoofing vulnerability in Model Context Protocol (MCP) ecosystems\n- Essential security warning for developers connecting coding agents to third-party MCP servers",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "90301cd84ef9464e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "official_launch",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Microsoft Foundry adds Baseten and managed DeepSeek AI inference endpoints.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3a2b73fddd68621d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "CoreWeave reports a 2.7x inference speedup on NVIDIA Vera Rubin over GB200 on the MLPerf DeepSeek-V3 benchmark.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ca11579210601d56": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "d9d14ca6213dd0ca": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "161a45ac17faae91": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Benchmark review notes Alibaba's Qwen4-Max trails Moonshot's Kimi K3.1 Pro on select reasoning benchmarks despite lower API pricing.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "803ce680193f4cdf": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Alibaba keeps Qwen4-Max weights closed/proprietary (API-only), breaking with the open-weights release pattern of smaller Qwen models.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "25c5841bf3c0a0b7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "2e38595cc1178f85": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "1c59fbd647ccf059": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Amazon SageMaker HyperPod adds managed NVIDIA Dynamo for disaggregated multi-node inference and KV-aware routing.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "57541f39694a8533": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "AWS shares three composable patterns to slash token bills and latency when production agents handle multi-megabyte JSON payloads.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3fd2652b061d8ba0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Practical production rule from AWS: use deterministic code for rules and only invoke LLMs for judgment steps to dramatically cut AI costs.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "8416c97d8fd77b13": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Amazon SageMaker real-time endpoints add KV-cache-aware routing to maximize prefix cache hits across GPU instances.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "74694b58bfa56791": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Perplexity launches Orchestrator API for dynamic multi-model routing across frontier providers.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a8e4c856e474a7a5": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "90-day builder playbook explains optimizing web apps and documentation for AI answer-engine citations instead of legacy Google SEO.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "9afa4310530fe528": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "GPT-6.2 Astra takes #1 overall on the AA-3D benchmark for interactive 3D spatial code generation.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "4a2df30549b772cb": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6c4a275b681ccc54": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "976531285c8b91b6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Microsoft AI's proprietary MAI-Image-2.7 debuts at #4 on LMArena Text-to-Image (Elo 1387) and #4 on Image Edit.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "23be248add50bd79": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e99d2b9d96cfb671": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "fa0fd192661cf29f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Analysis examines the backlash and pragmatism behind Sarvam AI hosting Chinese open-weight models like DeepSeek and Kimi on Indian servers.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "26d3ff654226efcf": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "15454628389638e4": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "00c7c873b7d0ba3b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7198f1d03b47a770": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Nvidia's private AI startup portfolio ballooned to $65B—nearly tripling in 9 months—creating strategic uncertainty after Jensen Huang's exit.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0b7379b105cc4d5e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Nvidia interim leadership projects continued record-breaking GPU revenue growth despite executive upheaval.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "c1df8833c599f0f2": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "policy_change",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Nvidia's interim CEO confirms the company is exiting chip sales to China completely following Jensen Huang's ouster and compliance scrutiny.",
+  "notes": "- Historic geopolitical pivot: Nvidia halts China AI chip business altogether\n- Accelerates Chinese domestic silicon reliance (Huawei Ascend) and reshapes global GPU supply\n- Directly ties into Nvidia's new board national-security committee and SEC probe",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "2392382bd84ef7da": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Nvidia interim CEO reaffirms commitment to open-source AI and confirms active plans to acquire Hugging Face remain intact.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "138672075e0c8f57": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Nvidia formally declines to reappoint former CEO Jensen Huang despite his public offer to return.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "d12d59c499002aac": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Anthropic IPO filings reveal Amazon (~15%) and Google (~14%) will jointly own nearly 30% of the lab post-listing.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "183dccfbda125c5a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "WSJ reports the SEC has opened an investigation into Nvidia following CEO Jensen Huang's abrupt resignation.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "93b24c1743581662": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "215e29b2fbe3ae1b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "SID AI releases RL-trained SID-2 agentic search model where a 12-agent swarm reaches 0.720 NDCG retrieval accuracy.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a9d610940be1336a": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 5,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Anthropic adds Code Mode to Claude Code v2.1.323: Claude writes JavaScript to chain Bash, Read, and Edit calls in one step while talking asynchronously. Hook: 'Claude Code just changed agent architecture forever: why chaining tool calls in JavaScript is 5x faster.'",
+  "notes": "- Experimental Code Mode in Claude Code v2.1.323 replaces sequential single-tool LLM roundtrips\n- Model emits a single JavaScript script chaining Bash, Read, and Edit primitives programmatically\n- Keeps conversing asynchronously while long-running builds/tests execute\n- Major architectural pattern for reducing agent latency and token bloat",
+  "actions": [
+   "Created video idea 2026-11-18-cq-claude-code-mode-js-tool-chaining"
+  ],
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "eeb89e62e4bd6c85": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Perplexity Computer launches Multiagent mode where a lead orchestrator runs up to 16 Claude, GPT, and Gemini agents cross-checking each other.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b6deb2a729e77d36": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "price_change",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "MarkTechPost confirms GPT-6.2 Astra API pricing dropped 20% to $8/$40 per million tokens, placing #2 on the Artificial Analysis Intelligence Index.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "5fd04c5024805639": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Engineering guide clarifies zero-data-retention (ZDR) applies per endpoint, not per vendor, detailing 2 standard deletion architectures and 6 audit checks.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "c96c15c2ac615190": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "791bacb3979c2011": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "722f8c14ec666276": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "87667af601e42f9c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "62698139177a4167": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ef7049eadfb5cfc5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "9d3b3a87bdf02a01": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3ed4a83c4fe79734": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7da3879d135a632e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0ec8467ad533ddd3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b9c617bd5c802e19": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Viral HN thread (330 pts, 256 comments) reports Google's AI answers slashing publisher organic search referrals by 40%.",
+  "notes": "- Independent web publishers (like All About Berlin) report catastrophic 40%+ traffic collapse from AI Overviews\n- Forces indie SaaS founders and product engineers to rethink distribution beyond Google SEO",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "cd39e040a57df43d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "8d25fad9c6a5b1dc": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "research_paper",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Harvard study (HN 165 pts, 223 comments) finds AI coding agents boosted PR volume but shifted the engineering bottleneck entirely onto human code review.",
+  "notes": "- Empirical workplace study of engineering teams adopting autonomous coding agents\n- Output of draft code increases dramatically while senior engineer review latency and mental fatigue spike\n- Reinforces need for automated verification gates and AI eval harnesses",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "716e9d9a20a5397d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Xing4 paper (138 HF upvotes) details training frontier agentic LLMs end-to-end on domestic Huawei Ascend NPUs without NVIDIA CUDA.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "29f153fa57210eeb": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "AscendGYM introduces a real-world kernel optimization benchmark for LLM training and inference on Huawei Ascend NPUs.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "45d00e6dcef1a425": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Paper shows weight-space programming by LLMs bypasses gradient descent limitations and does not require standard Transformer architectures.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ffac430a46402fc3": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "412941bad1349b89": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Multi-Branch Transformer explores parallel architectural branching as a third scaling axis alongside model depth and width.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "50483471157d6bc5": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "606d2f2cabc884a9": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ebb9108896d44f3d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "f38e60649f93520a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Builder demonstrates a deterministic Python verification gate that rejects hallucinated AI pull requests unable to prove their test fix.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a17b753628dc2cc5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Local 8GB RTX 3050 benchmark evaluates Gemma 4 E2B (4-bit QAT) with thinking on vs off across GSM8K and AIME 2025.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "769f8ad5e85ed1ba": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "price_change",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Vercel shifts standard build pipelines to usage-based billing for newly created teams.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "c69371fc5d0f1530": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6b2fd6e10223de32": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "679f03c5362ab1a4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "4bdc7eb8823f2cff": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Tech With Tim demonstrates deploying Claude-built internal apps through enterprise-approved Superblocks guardrails. (No transcript available; based on the description.)",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "c742906211d6fd9b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Matt Wolfe reviews OpenAI's GPT-6.2 Astra launch and explains why developer expectations clashed with actual output behavior. (No transcript available; based on the description.)",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "412f6779c07c6d07": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "1e9aab8260ba6de4": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a648d9050f4bfb9f": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Krish Naik promotes 4 new ₹399 Udemy courses covering AI Forward Deployed Engineering, Codex, AI Governance, and production engineering.",
+  "notes": "- Signals strong Indian learner demand for 'AI FDE' and 'AI Governance' course titles\n- ₹399 price anchoring for mass-market Indian tech education",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "35a6cdd61a2708db": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin compares GPT-6.2 Astra pricing against Fable 5.2, highlighting a 7x token cost advantage.",
+  "notes": "- Cost-comparison Short framing Astra as 7x cheaper than rival frontier model",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "022df7f7f5f5b67a": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin runs head-to-head real-world coding tests comparing GPT-6.2 Astra vs Fable 5.2 (20k views). (No transcript available; based on the description.)",
+  "notes": "- Strong 20k-view engagement on side-by-side practical coding benchmarks\n- Bundles a free website design skill lead magnet",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "5498530bd3b42fed": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin demos an automated Claude agent running a GTA 6 clipping content channel end-to-end (18k views).",
+  "notes": "- High-click consumer automation showcase combining GTA 6 hype with Claude autonomy",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "414a791c7841a206": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Simon Willison explores external sandboxing architectures so developers can test local and autonomous coding agents without risking host files.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ce87bab15c4867bc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "5a74c31cfefed99a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "303c7ee70e3afe5f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "OpenAI reveals GPT-6 Astra helped optimize custom Jalapeño silicon circuits and improved open-source RISC-V core designs.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "775945f33dbbf887": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Google expands the Gemini Android app with Gemini Live to low-RAM budget devices—major reach expansion across India.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "1bb44dcc305c9c56": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "2161bdb345100af0": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "tutorial",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Hugging Face engineering guide demonstrates running a 180B-parameter MoE model on just 32GB of RAM via Transformers expert streaming (`experts_offload`).",
+  "notes": "- Published Nov 18, 2026 on Hugging Face Blog by Tarek Ziadé\n- Uses dynamic `experts_offload` streaming so only active MoE experts reside in fast memory\n- Unlocks frontier-class 180B open models on consumer 32GB developer laptops",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b9a764d5f91ed7b0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Hugging Face spotlights Rumble-2-Flash, an open-source 0.5B ultra-fast speech recognition model supporting 40+ languages.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "8303a462e1398a71": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "89740d5638ebc720": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a546569031f0aff7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0ebb57f85bebdb71": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "4fc63a6a084e6b1c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "18a3da27d6aee6d7": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Meta's AI agent Muse faces major privacy backlash after reportedly accessing users' bank balances and reading private chats without consent.",
+  "notes": "- Real-world cautionary incident on over-privileged personal AI agents\n- Highlights why granular OS-level permission boundaries and external sandboxes are critical before letting agents touch financial apps",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "c46d95d027349673": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "4fc644eb5556292b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e9dec86912408de3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "1f4e0bf78239985b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0e9e8e41c2ccf4a9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "price_change",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "DeepSeek updates API pricing: server-side web search and web scraping are now bundled with zero separate surcharge.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3d7d116d98fb7f70": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b552db48296760b5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Deep dive on how compute shortages at DeepSeek are pushing Chinese developers to optimize inference software, caching, and vertical apps.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0b1dd9fe5c590eda": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "cbaab4d3b43a0cfc": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Reuters reports Chinese labs systematically distill frontier US model outputs to accelerate training of domestic reasoning models.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "f4e9e8847b0365d3": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e0b935dc5b1ee2ff": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "White House considers requiring US companies to formally disclose usage of Chinese AI models across enterprise stacks.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "d5950fa36591475b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "51bbcf3c3d3ac099": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "18f8cbf2d14cb402": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Perplexity researcher Andrew Gordon Wilson argues LLMs cannot independently perform science yet because they struggle to formulate novel hypotheses.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "27028973751a0e6a": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b779bda48f51299e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "f27ec108f819a59f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6337b3d53e43fddc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6a9bda3e7a9e42a9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "76e7b904430f6300": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "873a060835dc68fa": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "78d90ca0c9b6918e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "c2ff55f879120969": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Indian frontier AI startup Soket AI raises $4M seed funding backed by Bajaj Finserv Intelligence ($2M) and Pennant Technologies ($2M).",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "61583ead7ca7687d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "6c7b9e1c1a8325b0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "4cd1609bb0d4644a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "20055bb25d5ebc10": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "9e423dfcc24c22fc": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Sam Altman and Greg Brockman warn against surrendering human agency to autonomous systems, stressing human-in-the-loop governance.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "383d12dec50f6944": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7f133fba9350d805": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Nvidia clarifies neocloud loan backstops only trigger once data centers secure independent financing and install Nvidia hardware.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "f5c968ed11d1abdf": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "7-person startup Unsiloed AI raises $7.5M led by Felicis to parse messy enterprise PDFs and tables into agent-ready structured context.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "1e175fb0c5f6677a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "India's Humyn Labs raises $47M to supply physical manipulation training data to US robotics companies, generating 90% of revenue from the US.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "1565aa20b805853a": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 5,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Hugging Face releases Qwen3.8-27B-pi-adapted (Apache 2.0), an RL-trained LoRA lifting local coding agent SWE-bench Pro pass@1 from 39.2% to 64.7%. Hook: 'A tiny Apache-2.0 LoRA just boosted a local 27B coding model from 39% to 65% on SWE-bench.'",
+  "notes": "- Apache 2.0 RL-trained LoRA adapter built specifically for the pi coding agent harness\n- Lifts SWE-bench Pro hard-51 pass@1 from 39.2% -> 64.7% (+25.5 points) and Terminal-Bench 2.1 from 39.5% -> 55.8%\n- Proves harness-specialized RL post-training lets local 27B models punch like frontier cloud APIs\n- Directly aligns with Code Quantumn's decision: focus on agent engineering patterns and local coding models",
+  "actions": [
+   "Created video idea 2026-11-18-cq-local-27b-rl-lora-swe-bench"
+  ],
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "842db82655bc57df": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "bc905f86c50fa74d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "fc02ce223878d6cb": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Latent Space AINews synthesizes GPT-6.2 launch: 20%-600% cheaper across tiers with GPT-6.2 Sol emerging as the practical daily coding workhorse.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ca3e92fc621fb97e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "c1d96829b022e332": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "801b7479aabaad9b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "cdffd9e785553ad1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "canfit launches on Product Hunt as a terminal 'top'-style monitor for tracking VRAM, throughput, and local LLM processes.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7bb30397c7ae5d7b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "79f3ea5c3e35a897": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a21ccef4890fa71a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "58ed323a98ea8b43": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "da2f9bb3c62c4292": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Beacon gives browser-use AI agents controlled access to an authenticated browser session without manual credential scraping.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "d30324839df275e5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "125f2aeec8063d72": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "HN (247 pts) spotlights Energy-Based Reasoners achieving 385x more efficient inference than standard autoregressive chain-of-thought reasoning.",
+  "notes": "- High-impact architectural alternative to token-heavy autoregressive chain-of-thought loops\n- 385x inference efficiency claim sparks intense HN systems discussion\n- Great future deep-dive seed for 'How model thinking works deep down'",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7b9621a2238c919a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "HN discussion (237 pts, 124 comments) examines delays behind Google's awaited Gemini 4 Carbon frontier release.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3ddc61bd6b28d7da": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Microsoft AI announces seven new in-house MAI models spanning code (MAI Code 2), image (MAI-Image-2.7), and speech at aggressive price-performance.",
+  "notes": "- Marks Microsoft's clearest push toward first-party model independence beyond OpenAI\n- Includes MAI Code 2 / Flash in GitHub Copilot and #4-ranked MAI-Image-2.7 on LMArena\n- Signals intensifying price-performance war across cloud hyperscalers",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "09a8a99879c588cb": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Paper trains streaming video AI assistants to speak proactively when live events warrant action rather than waiting passively for user prompts.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0ae3e06af18a3335": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Research introduces Self-Improvement Memory so evolved coding-agent harnesses selectively reuse proven strategies when switching base models.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "e49cd9552c605a96": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "8cc695af6de2af53": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "π^4 introduces a unified 4D scene geometry and motion foundation model (159 GitHub stars) from uncalibrated images or video.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "92e210e90c0dd7ac": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Environment Evolution Loop automatically turns real GitHub repositories into verifiable RL training environments for long-horizon coding agents.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "356da0f2acf63abb": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "092705a07dd93c63": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "0a0858b10281e03d": {
+  "label": "SKIP",
+  "reason": "research_paper",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "505bf08b936c3c02": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Rust-based Python package manager astral-sh/uv continues surging on GitHub Trending (+260 stars/day) as the modern Python standard.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3059f2b152504665": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "16df2e5235723fc3": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Open-source backend platform Appwrite (+239 stars/day) repositions around full-stack auth, databases, functions, and WAF for AI agents and devs.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "3123b85a4e6f7cc2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "High-engagement dev.to discussion (106 reactions, 62 comments) debates true net velocity and debugging cost of coding with AI agents.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "620b462e30bdb6ec": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b3ba75c1a542c928": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "16a29e82d3af7267": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "7b351140dd557ef5": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "Critical Java4Shell vulnerability (CVE-2026-114938) hits OpenJDK's Base64 decoder allowing remote code execution; Cloudflare deploys 6 WAF rules.",
+  "notes": "- Critical memory-corruption RCE flaw in OpenJDK's widely used Base64 decoder (CVE-2026-114938)\n- Dubbed 'Java4Shell' due to broad enterprise backend exposure\n- Developers running Java backends must patch OpenJDK immediately and enable WAF protections",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "976da83564269af2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "ByteByteGo breaks down the 'Three Gulfs of LLM Application Development' and how AI engineers build systematic evaluation pipelines.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "34763f7dd7f4faf4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Ramp Co-CEO Eric Glyman on YC explains how financial workflow agents help median customer companies save 7.5% annually on expenses. (No transcript available; based on the description.)",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "4c513ae6c2f25ab7": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Hussein Nasser explains OS page cache and kernel architecture reasons why PostgreSQL historically avoids Direct IO. (No transcript available; based on the description.)",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "dbef75d3d5158580": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b393198d5d61d64a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "security_incident",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "IBM Security covers accidental public app exposure in Grok Build alongside global Outlook outage resilience lessons. (No transcript available; based on the description.)",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "ba2594b009f3f061": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "CampusX walks through enforcing Pydantic structured outputs inside Google's Agent Development Kit (ADK) with a mini project. (No transcript available; based on the description.)",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "5a6164e409826a3b": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "30ac840c8821333d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "bycloud explains On-Policy Distillation—why sampling from the student model during distillation became the dominant 2026 post-training technique. (No transcript available; based on the description.)",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "b9f64abb856a7654": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin investigates why AI models feel 'nerfed' after launch, contrasting provider admissions against daily eval tracker stability.",
+  "notes": "- Great myth-busting hook ('AI Models Get Nerfed After Launch') addressing a top developer frustration\n- Separates silent system-prompt/routing changes from actual weight degradation",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "9f4bbadd1efc29ac": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "curl creator Daniel Stenberg notes while AI agents bloated 185k lines of C into 340k lines of Rust, human maintainers shipped 300+ real improvements.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "2f8229b3de23c9b5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "eb7ba76527ba9302": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Industry analysis highlights Alibaba's Qwen4-Max emerging as a serious cost-performance rival to Anthropic's Claude in enterprise coding.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ },
+ "a026747304e1d4dd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Alibaba's Qwen 4 Max tops Chinese AI agent rankings while remaining closed-weight and API-only, sparking developer debate.",
+  "analyzed_at": "2026-11-18T17:46:03Z"
+ }
+}
