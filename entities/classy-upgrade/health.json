@@ -461,11 +461,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 37,
     "new": 8
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 54,
+    "new": 15
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "vogue-india": {
   "consecutive_errors": 0,
@@ -997,20 +1002,20 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 5,
     "new": 1
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 8,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "esquire-style": {
   "consecutive_errors": 0,
   "history": [
-   {
-    "at": "2026-10-20T03:13:17Z",
-    "found": 50,
-    "new": 2
-   },
    {
     "at": "2026-10-20T05:50:16Z",
     "found": 50,
@@ -1485,11 +1490,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 50,
     "new": 1
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 50,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "allure": {
   "consecutive_errors": 0,
@@ -2044,11 +2054,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "comp-justine-yt": {
   "consecutive_errors": 0,
@@ -2317,11 +2332,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "comp-pranaysai-yt": {
   "consecutive_errors": 0,
@@ -2580,14 +2600,19 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "neuroscience-news": {
-  "consecutive_errors": 0,
+  "consecutive_errors": 1,
   "history": [
    {
     "at": "2026-10-20T03:13:17Z",
@@ -2995,16 +3020,12 @@
    "last_modified": "Wed, 18 Nov 2026 18:42:46 GMT"
   },
   "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_run": "2026-11-18T19:44:22Z",
+  "last_error": "ParseError: not well-formed (invalid token): line 1, column 119"
  },
  "sd-mind-brain": {
   "consecutive_errors": 0,
   "history": [
-   {
-    "at": "2026-10-20T03:13:17Z",
-    "found": 0,
-    "new": 0
-   },
    {
     "at": "2026-10-20T05:50:16Z",
     "found": 0,
@@ -3479,13 +3500,18 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "last_modified": "Wed, 18 Nov 2026 12:46:06 GMT"
   },
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "gn-psypost": {
   "consecutive_errors": 0,
@@ -3949,21 +3975,21 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 5,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 5,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "greater-good": {
   "consecutive_errors": 0,
   "history": [
    {
-    "at": "2026-10-20T03:13:17Z",
-    "found": 50,
-    "new": 1
-   },
-   {
     "at": "2026-10-20T05:50:16Z",
     "found": 0,
     "new": 0
@@ -4437,21 +4463,23 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 50,
+    "new": 1
    }
   ],
-  "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "state": {
+   "last_modified": "Wed, 18 Nov 2026 21:58:59 GMT"
+  },
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "psyche": {
   "consecutive_errors": 0,
   "history": [
    {
-    "at": "2026-10-20T03:13:17Z",
-    "found": 20,
-    "new": 0
-   },
-   {
     "at": "2026-10-20T05:50:16Z",
     "found": 20,
     "new": 0
@@ -4925,20 +4953,20 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 20,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 20,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "big-think": {
   "consecutive_errors": 0,
   "history": [
-   {
-    "at": "2026-10-20T03:13:17Z",
-    "found": 10,
-    "new": 0
-   },
    {
     "at": "2026-10-20T05:50:16Z",
     "found": 0,
@@ -5413,23 +5441,23 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 10,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 10,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "W/\"7c622bc0623a9a1d2fc7f1a5eaeb47c6\"",
-   "last_modified": "Wed, 18 Nov 2026 18:13:41 GMT"
+   "etag": "W/\"6f60963c261cc49a837e455bf7f1b449\"",
+   "last_modified": "Wed, 18 Nov 2026 23:46:44 GMT"
   },
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "peter-attia": {
   "consecutive_errors": 0,
   "history": [
-   {
-    "at": "2026-10-20T03:13:17Z",
-    "found": 0,
-    "new": 0
-   },
    {
     "at": "2026-10-20T05:50:16Z",
     "found": 0,
@@ -5904,23 +5932,23 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "etag": "\"a6c75f9faa2d4f441b7781e04a0b8e58\"",
    "last_modified": "Wed, 18 Nov 2026 05:00:00 GMT"
   },
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "stronger-by-science": {
   "consecutive_errors": 0,
   "history": [
-   {
-    "at": "2026-10-20T03:13:17Z",
-    "found": 15,
-    "new": 0
-   },
    {
     "at": "2026-10-20T05:50:16Z",
     "found": 15,
@@ -6380,23 +6408,23 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {
    "etag": "W/\"103b325c5d0e1dc2355ee4449b6c3a4b\"",
    "last_modified": "Thu, 12 Nov 2026 15:17:20 GMT"
   },
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "sd-fitness": {
   "consecutive_errors": 0,
   "history": [
-   {
-    "at": "2026-10-20T03:13:17Z",
-    "found": 0,
-    "new": 0
-   },
    {
     "at": "2026-10-20T05:50:16Z",
     "found": 0,
@@ -6871,22 +6899,22 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 0,
+    "new": 0
    }
   ],
   "state": {
    "last_modified": "Wed, 18 Nov 2026 12:43:29 GMT"
   },
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "yt-huberman": {
   "consecutive_errors": 0,
   "history": [
-   {
-    "at": "2026-10-20T03:13:17Z",
-    "found": 15,
-    "new": 0
-   },
    {
     "at": "2026-10-20T13:54:02Z",
     "found": 15,
@@ -7141,11 +7169,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "yt-sahar-yousef": {
   "consecutive_errors": 0,
@@ -7399,11 +7432,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "yt-modern-wisdom": {
   "consecutive_errors": 0,
@@ -7667,11 +7705,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "yt-mel-robbins": {
   "consecutive_errors": 0,
@@ -7925,11 +7968,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "yt-peter-attia": {
   "consecutive_errors": 0,
@@ -8193,11 +8241,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "yt-bryan-johnson": {
   "consecutive_errors": 0,
@@ -8451,11 +8504,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 1
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "yt-jeff-nippard": {
   "consecutive_errors": 0,
@@ -8719,11 +8777,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "yt-rp-israetel": {
   "consecutive_errors": 0,
@@ -8977,11 +9040,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "comp-healthygamergg-yt": {
   "consecutive_errors": 0,
@@ -9245,11 +9313,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 1
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "comp-ali-abdaal-yt": {
   "consecutive_errors": 0,
@@ -9508,11 +9581,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "comp-better-ideas-yt": {
   "consecutive_errors": 0,
@@ -9776,11 +9854,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "comp-hamza-yt": {
   "consecutive_errors": 0,
@@ -10034,11 +10117,16 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "comp-beerbiceps-yt": {
   "consecutive_errors": 0,
@@ -10292,20 +10380,20 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 15,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 15,
+    "new": 0
    }
   ],
   "state": {},
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "search-demand-mind-style": {
   "consecutive_errors": 0,
   "history": [
-   {
-    "at": "2026-10-20T03:13:17Z",
-    "found": 0,
-    "new": 0
-   },
    {
     "at": "2026-10-20T05:50:16Z",
     "found": 0,
@@ -10778,6 +10866,11 @@
    },
    {
     "at": "2026-11-18T19:44:22Z",
+    "found": 0,
+    "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
     "found": 0,
     "new": 0
    }
@@ -12550,8 +12643,8 @@
    "last_run": "2026-11-18T17:27:43Z",
    "v": 3
   },
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  },
  "dappered": {
   "consecutive_errors": 0,
@@ -12945,12 +13038,18 @@
     "at": "2026-11-18T19:44:22Z",
     "found": 0,
     "new": 0
+   },
+   {
+    "at": "2026-11-19T04:22:45Z",
+    "found": 10,
+    "new": 0
    }
   ],
   "state": {
-   "etag": "\"ca8bfd4c37142277a1983204f20a47d2\""
+   "etag": "\"45bb61ed9a1457570196e4809096e466\"",
+   "last_modified": "Thu, 19 Nov 2026 02:48:09 GMT"
   },
-  "last_ok": "2026-11-18T19:44:22Z",
-  "last_run": "2026-11-18T19:44:22Z"
+  "last_ok": "2026-11-19T04:22:45Z",
+  "last_run": "2026-11-19T04:22:45Z"
  }
 }
