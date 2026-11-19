@@ -1,0 +1,982 @@
+{
+ "6e29cbe917fe46d8": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "OpenAI details architectural design of the Codex isolated execution sandbox using microVMs and network filtering.",
+  "notes": "- Custom lightweight virtual machine isolation with sub-50ms container spin-up\n- Granular egress filtering preventing untrusted agent code from exfiltrating environment secrets\n- Essential reading for engineers building multi-tenant AI coding agents",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "ddf7e938b7ce516a": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "454e38583ce912bb": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "DeepMind releases Genie 4 interactive generative world model, enabling controllable 2D/3D real-time environment simulation from single images.",
+  "notes": "- Generates playable interactive virtual worlds at 30 fps from text or image prompts\n- Demonstrates latent action space conditioning without explicit physics engines\n- Huge implications for training embodied AI and robotics agents in simulation",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "7a9bc8b814207399": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Deep dive into memory bandwidth saturation, tensor parallelism communication overhead, and actual vs theoretical FLOPs in LLM training.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "6e50a0d49bfcb524": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "GitHub Copilot introduces team customization rules allowing organizations to inject private API documentation and style guides.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "ec70a879a8b7a465": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Engineering guide on fine-tuning open-weight models with synthetic trajectories to prevent planning drift in multi-step agents.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "67916fd53d703aa0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "BRIA AI releases RMBG-3.0 open background removal model achieving state-of-the-art alpha matting on edge devices.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "dd65d0c2d051f9d7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Meta details internal LLM agents automating feature engineering, offline evaluation, and canary deployments for ad ranking models.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "8a3d23fb858e332a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Meta engineering architecture on template-driven declarative ML pipelines serving real-time recommendation models.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "407ca249f4ba2cd2": {
+  "label": "SKIP",
+  "reason": "rumor",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "a4efb376a7083789": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "68670c512b092435": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "54d3bff058d6ee07": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Step-by-step tutorial on fusing fine-tuned LoRA weights into base models and quantizing to GGUF format for llama.cpp execution.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "2b4aa05c15616682": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Guide on benchmarking local GPU compute throughput, VRAM bandwidth, and quantization perplexity for LLM inference.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "bc0f23e502e2e289": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "59f46cf15b8ab24e": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "d61fa47738fae7fa": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "price_change",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "DeepSeek introduces stricter input limits and daily quota caps on free web interfaces due to global traffic surges.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "5ff8c37543948711": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "1aaf3c17cbfa7c5e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "119feb907780f978": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "ab77c57f4b435b55": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Alibaba rolls out Qwen 3.5 open weights and free consumer application to expand consumer and enterprise adoption.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "d999d52fddd23cf1": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "32ea548c67494698": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Alibaba releases Qwen 4 Max featuring 1M context window and enhanced long-context coding benchmark parity with frontier models.",
+  "notes": "- Flags 1M token context window for large repository ingestion\n- Competes directly with Claude 3.5 Sonnet on SWE-bench style evals\n- Available via Alibaba Cloud Model Studio API with free test credits",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "023e8d9887d27779": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "33c1e7bdaf542adb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "ace14495ba1cd648": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "Architecture walkthrough implementing full-duplex speech-to-speech agents using Amazon Nova 2 Sonic real-time streaming APIs.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "cebfbef2dd69b218": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "c39dd1dc79bd2e08": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "ddb6ae8c847ad84a": {
+  "label": "SKIP",
+  "reason": "rumor",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "e54f33fcc5cae3ae": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "3ff8ca6f025167f7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "94a82129d05244e7": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "LMSYS launches the Agent Arena Index to rank AI models on real multi-turn coding and tool-use tasks with human ELO evaluations. Hook: \"The definitive leaderboard for AI coding agents is finally here.\"",
+  "notes": "- Evaluates autonomous multi-turn tool calling, shell interaction, and repository debugging\n- Human blind side-by-side judging paired with verified environment execution success\n- Solves benchmark contamination common in static SWE-bench datasets",
+  "actions": [
+   "Created video idea 2026-11-19-cq-lmarena-agent-index-leaderboard"
+  ],
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "aa959739d2ca1ee9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Karnataka government inks partnership with five technology majors to upskill 63,200 engineering students in AI systems.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "4e88cffeefb38802": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Analysis of Sarvam token factory business model creating domestic infrastructure layer for Indian enterprise AI products.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "e30a871b4a69740d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Bengaluru Tech Summit announces state-backed centers of excellence and incentive packages for AI and semiconductor design.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "40a518dd8d8829b3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "470af870ba30ddce": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Sarvam AI founder argues AI adoption in India requires sub-paise token inference economics comparable to telecom data tariffs.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "8d042a6f2a818016": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "incident"
+  },
+  "summary": "IIT Kanpur partners with Bharat1.ai to establish AI Kavach laboratory researching adversarial vulnerabilities in banking systems.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "0e985a9e6073b5e8": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "Indian AI foundation model startup Soket AI Labs secures $4 million in strategic capital from Bajaj Finance and Pennant.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "9127b4bd5f38cdf0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "e44810f641d336b3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "ddddd3d82d138452": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "5a65f21bc6fc6746": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "909db54fa3f39a8b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "c088031ef69e240a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "5554a95c67e83875": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "7aace2dd2a6032e2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "f73d629ca5d84546": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "be4cf0abc4e78dff": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "6a2a9bea93b9ead0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "d054f21bc936f7bd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "a32c44d5bd3cba34": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "2e70e50942d74e25": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "9e783c10eaa90e6a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "0800c1916c9bd44a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "d9847735df6e9fbc": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "954b93a778079b39": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "cb4df2758ab33436": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "f02962cb0e0ba3cc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "7a32a82f5dca5c61": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "512049907f0d7ead": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "8f2921919a41abf3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "a7e19931e41068e6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "b857197338bde2e3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "7b04a1b0cad92acb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "b8369f5b841c5a6d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "c5a0632c545f4aaf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "4ea0903389f28ceb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "0a5629e09a247b46": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "ced0c2991be28f7f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "6225a3a9727ceeb7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "d776bb61d747ce40": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "828e0202d49255a9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "8d567c208a36d928": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "9dd8248738f24579": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "bb1c896ea6197374": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "0300619c372fc3e1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "4d648400cddceca5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "38f9982b0849d7cb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "8227dedaab41191f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "cd4fa85551bc2b48": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "87b13e1841a6598f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "cb1c122a0a8ae9d8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "43eea016190d4249": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "bf65509d34ca439d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "65ec9197f7ef7f85": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "aa94b95fb063a721": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "6ae480f4e893fe27": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "18850e64b2f7513e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "f72201d1d2cd56d9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "85fb99ce0ceb15a3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "8f628ecdd9928e5a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "c34f86bc204b8fdf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "131533f1e8e5aeb0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "5ab486012f4736dc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "edbab989191afbe8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "547a708154098bb6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "fb7434e4f29dca33": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "c30866fe758b26db": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "c16149818bd665fe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "0a243d6aee089f19": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "LMSYS WebDev leaderboard ranks GPT-6.2 Astra entering top 10 for full-stack frontend React application generation.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "b74157639d4ab5c2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "1064ccc13d8a2f0c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "5d983d93082a8b17": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "7ac4d03d813a7bb0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "2972de4af49635ba": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "2608e9fb8f26e906": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Indian tech community debates domestic compute sovereignty following Sarvam offering hosted Qwen and DeepSeek endpoints.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "6a967b07a9d7ac5b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "229440d0678e8cf7": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "official_launch",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Sarvam AI launches India-hosted Token Factory to serve open-weight LLMs locally with inference priced in paise, bypassing US cloud latency. Hook: \"India just got its own local API inference cloud.\"",
+  "notes": "- Dedicated domestic data center inference clusters ensure Indian data sovereignty\n- Serves Llama, Qwen, and custom Indic language models with sub-20ms domestic ping\n- Inference billed directly in INR via UPI and local cards, removing international FX credit card hurdles",
+  "actions": [
+   "Created video idea 2026-11-19-cq-sarvam-token-factory-india-apis"
+  ],
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "e5a97c11b1fea6d3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "68e41fd62d9b0765": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "f6cbc28db7c92ed3": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "e435ef1a464614ba": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "c005184c2fd33a7c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "b42be4131fb73ad2": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "2364bd97a5eda0b9": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "3e6cf486b7fcb542": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "d4cb263b6ccaefd2": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "0e50e542e58a8deb": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Microsoft CEO Satya Nadella outlines how autonomous browser and API agents will shift web traffic monetization from search ads to action tokens.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "128d6c33ba0c77e7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Anthropic prices upcoming public offering at $83 per share, signaling robust institutional demand for frontier AI labs.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "43ad7fb24b63b9bd": {
+  "label": "SKIP",
+  "reason": "rumor",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "f5b9ab0d595dc582": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "570b45843c9951b5": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "3316cfcd7e3b8c0f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "d985937cb4d4f373": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Snapchat Lens Studio integrates Claude Code and Cursor extensions to automate TypeScript script generation for AR filters.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "cbb5e73bbc05c150": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "e341259c69c66dd0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "20ec323cb53f659c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "d0ab36869959b1c4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Tutorial on integrating local LLMs with Ghidra decompilation pipelines to annotate stripped binary assembly code.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "de40dccb6c0d0e26": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Research paper explores environment-player co-development scaling visual RL agents on complex gaming simulation environments.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "99c6bb02b8326641": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Paper presents ALIVE framework introducing interactive real-time latent frame manipulation into streaming video diffusion.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "853a147d67b911f9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Study introduces Code World Model 2.0 combining program synthesis with generative diffusion for controllable long-horizon video generation.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "a9c92c8622200e8d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Theoretical paper analyzes mathematical stability and softmax gradient saturation in transformer attention at near-zero temperature.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "3e387beb480d4f1d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "9062a2e18bbf0d17": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "acf30f3632cb280b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Survey examines 40 open-weight technical reports, exposing lack of rigorous ablation experiments and hyperparameter transparency.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "fab3af68f54bc96b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "f0337dc98a9bd47d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "adedd022c394b612": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "a48939afa3385451": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "3776239b55575d97": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel launches Board, an integrated visual canvas bridging frontend component architecture directly into production code. Hook: \"Vercel just reinvented how teams design and ship apps.\"",
+  "notes": "- Direct integration with Next.js App Router and React Server Components\n- Real-time multiplayer canvas where visual UI blocks generate clean, commit-ready Git PRs\n- Solves the handoff gap between product designers and full-stack engineers",
+  "actions": [
+   "Created video idea 2026-11-19-cq-vercel-board-visual-fullstack"
+  ],
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "ad487585a8c41ef7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "f9856bb1fcee82b8": {
+  "label": "MAKE",
+  "importance": 5,
+  "timing": "NOW",
+  "evergreen": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Google rolls out Gemini 4 Neon designed for ultra-low latency coding and agent loops; live in Cloudflare AI Gateway. Hook: \"Google just dropped a new coding model built for speed.\"",
+  "notes": "- New architecture optimized for sub-second agent response loops in IDEs\n- Available immediately with unified fallback routing on Cloudflare AI Gateway\n- Delivers near-Opus reasoning benchmark performance at a fraction of inference cost",
+  "actions": [
+   "Created video idea 2026-11-19-cq-gemini-4-neon-coding-benchmarks"
+  ],
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "01ab18fb1cc02fe4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Cloudflare Workers AI team releases updated open-weight Clairic and Clairic-flash models optimized for edge inference.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "3a2d34c8755532a4": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "8e4d3dbba75eef27": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "d5f27098a9d613cd": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "62e5b9af9168d53f": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Reviews running local Ollama agents on NPU laptops; adapt for budget student machines without expensive hardware.",
+  "notes": "- Benchmarks local agent task latency on Windows NPU vs CPU fallback\n- Shows practical RAM bottleneck: 16GB limits model quantization to 7B Q4\n- Takeaway for our audience: how to run identical local agents on free Colab or Mac M-series",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "0b4e9000ddbd7f45": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Investigates quantization drift and inference batching causing perceived model degradation post-launch.",
+  "notes": "- Explains KV cache pruning, speculative decoding errors, and dynamic system prompts\n- Breaks down why coding agents feel less sharp after peak launch weeks\n- Actionable engineering fix: pin exact snapshot versions in API calls",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "63d30e7f94459259": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Why AI coding agents make Git fundamentals even more critical for rollback, conflict resolution, and branching.",
+  "notes": "- AI agents generate massive diffs rapidly; branch hygiene is the only safety net\n- Explains git worktrees, interactive rebase, and bisecting AI-generated hallucinations",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "43cd8def4817162d": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matthew Berman benchmarks Gemini Neon on coding benchmarks and agent task latency against Claude Sonnet 3.5.",
+  "notes": "- Tests multi-turn debugging and code refactoring loops\n- Highlights sub-second TTFT (Time to First Token) advantage for interactive IDE extensions\n- Shows where Gemini Neon beats Opus on token economics",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ },
+ "86f7131f970dba07": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Simon Willison releases datasette-arrows plugin bringing Apache Arrow columnar format support into Datasette query workflows.",
+  "analyzed_at": "2026-11-19T04:35:13Z"
+ }
+}

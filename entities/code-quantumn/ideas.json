@@ -1,6 +1,87 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-19T04:35:36Z",
+  "history": [],
+  "id": "2026-11-19-cq-gemini-4-neon-coding-benchmarks",
+  "type": "hype",
+  "timing": "NOW",
+  "title": "Google Gemini 4 Neon Tested: Sub-Second Coding Speeds That Rival Opus at 1/10th the Cost",
+  "angle": "Cloudflare AI Gateway just added Gemini 4 Neon, Google's ultra-low latency model engineered specifically for coding agents. Here are the benchmarks.",
+  "outline": [
+   "Why latency matters more than pure IQ in coding agents (the multi-turn feedback loop)",
+   "Benchmark showdown: Gemini 4 Neon vs Claude 3.5 Sonnet vs GPT-4o on HumanEval and SWE-bench",
+   "First-token latency test: How sub-second responses eliminate IDE lag in Cursor and Antigravity",
+   "Pricing and integration: Setting up Gemini Neon via Cloudflare AI Gateway with free fallback routing"
+  ],
+  "items": [
+   "f9856bb1fcee82b8"
+  ],
+  "updated_at": "2026-11-19T04:35:36Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-19T04:35:36Z",
+  "history": [],
+  "id": "2026-11-19-cq-sarvam-token-factory-india-apis",
+  "type": "months",
+  "timing": "NOW",
+  "title": "Why Sarvam's Token Factory is the Best Thing to Happen to Indian Developers",
+  "angle": "Tired of foreign card declines and zsh.05/token latency? Sarvam AI launched India's first domestic inference cloud with paise-per-token pricing.",
+  "outline": [
+   "The international credit card struggle: Why Indian students get blocked by US cloud providers",
+   "The latency advantage: 15ms Mumbai ping vs 220ms Virginia ping on LLM streaming",
+   "Supported models: Running open-weight Llama 3.3, Qwen 2.5, and Indic models with UPI billing",
+   "How to switch your Next.js AI SDK backend to Sarvam in 3 lines of code"
+  ],
+  "items": [
+   "229440d0678e8cf7",
+   "470af870ba30ddce"
+  ],
+  "updated_at": "2026-11-19T04:35:36Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-19T04:35:36Z",
+  "history": [],
+  "id": "2026-11-19-cq-vercel-board-visual-fullstack",
+  "type": "evergreen",
+  "timing": "NOW",
+  "title": "Vercel Board Just Reinvented Full-Stack Development: Visual Canvas to Production Code",
+  "angle": "Designing in Figma and rebuilding in React has always been a painful bottleneck. Vercel Board turns visual system architecture into live Git PRs.",
+  "outline": [
+   "The design-to-code gap in product engineering",
+   "What Vercel Board actually does: Connecting visual nodes to Next.js App Router components",
+   "Multiplayer system architecture: Planning backend APIs and UI states on a shared canvas",
+   "How to ship full products 3x faster as a solo builder"
+  ],
+  "items": [
+   "3776239b55575d97"
+  ],
+  "updated_at": "2026-11-19T04:35:36Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-19T04:35:36Z",
+  "history": [],
+  "id": "2026-11-19-cq-lmarena-agent-index-leaderboard",
+  "type": "evergreen",
+  "timing": "SOON",
+  "title": "The New LMSYS Agent Arena: Why Static AI Benchmarks Were Lying to You",
+  "angle": "SWE-bench was contaminated by training data leaks. LMSYS just dropped the Agent Arena Index to rank AI coding agents in dynamic real-world environments.",
+  "outline": [
+   "The benchmark contamination crisis: Why high scores fail on real-world codebases",
+   "How Agent Arena tests models: Multi-turn tool loops, terminal debugging, and real human ELO",
+   "Current top 5 coding models ranked by actual developers",
+   "Which model should you actually use for autonomous agent loops today"
+  ],
+  "items": [
+   "94a82129d05244e7"
+  ],
+  "updated_at": "2026-11-19T04:35:36Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-18T17:46:25Z",
   "history": [],
   "id": "2026-11-18-cq-gpt62-astra-sol-reality-check",
