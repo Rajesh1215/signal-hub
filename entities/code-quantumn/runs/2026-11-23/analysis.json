@@ -1,0 +1,653 @@
+{
+ "664ff9d29b221cbc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "6609be8821742cbe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "28b39176b3ba1f49": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Technical guide comparing Ollama, LM Studio, and llama.cpp for multi-user local inference concurrency on shared GPU workstations.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "9e11e7cc0e24d0f3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "812a74039583b314": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "c62510de852f366b": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "87be4507cd04b242": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "0b46d3bc11e13a8f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "bcf0fb9f0bf35328": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Legal and technical analysis comparing Apache-2.0, Llama community, and Qwen custom licenses across commercial AI products.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "b482b27561335ecf": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "768f387be30ecc18": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "990fd06e7eda1dd1": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "339de4ce7ae86cc2": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "9e8f758a2382055a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "8f29849d8dd8eeef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "06e2b1e22232a825": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "64b3496b4bae1f21": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "6ec43cdba360603c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Amazon Polly introduces brand voice cloning allowing enterprise applications to generate custom neural text-to-speech personas.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "d0673abaeb132f86": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "2bc8e1cd5f21f23c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "4938f11fbd5b008f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "3cce8b6e51b4f9d2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "184638e900fdba52": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "8e07df375da3eceb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "dce64bbab7423ad3": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Sarvam AI open-sources a 105B parameter model checkpoint optimized for enterprise agent workflows and 10 Indic languages. Hook: \"India just got a massive 105B open-source model you can run for enterprise tasks.\"",
+  "notes": "- 105-billion parameter architecture pretrained on large multilingual Indic corpus\n- Strong benchmark performance on Hindi, Tamil, Telugu, and English reasoning tasks\n- Weights released for local fine-tuning and deployment via vLLM and Sarvam Token Factory",
+  "actions": [
+   "Created video idea 2026-11-23-cq-sarvam-105b-open-weights-indic"
+  ],
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "f38d92dee75dc274": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "58a4453fb56b9954": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "982da54d85dc6cea": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "fdeaa492ece0ebce": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "cd4457ab699e0f96": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "55643496b087bf64": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "d71dbb4b3f27a1bb": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "17d48eb10d7a0b4a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "dbe9f679c740623c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "62c6e58d6d5c556d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "8f50b47a5f302e9c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "c56b64c56cc3692c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "7181a4f3662473ca": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "ea72fa45bfa7a194": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "8303c147c7ff1158": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "86eaaf0b04aa8617": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "731ea62622c4948e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "953d78ca3616e96b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "d2a7c4fa05d30a89": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "5d4c5620bb5117de": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "291934d3eae6061b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "aceda6c3b9851663": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "5710ea1b7b5bcc39": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "d0858c3a29c8cdd6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "8f6431b345035a2d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "5b337c01ef71aef9": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "5b5d113ca006563c": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Anthropic engineering strategies for prompt caching, system prompt compaction, and tool call pruning.",
+  "notes": "- Demonstrates 90% cost savings via Anthropic prompt caching\n- Shows how to structure repo context to avoid blowing token rate limits",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "c1afd560068bc883": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo argues frontier proprietary models are widening the gap on multi-step reasoning and developer ergonomics.",
+  "notes": "- Contrasts Claude 3.5 Sonnet agent reliability with local open-weight drift\n- Highlights hardware cost tradeoffs for solo product developers",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "55709013a590e3ee": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around chatgpt.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "4b7961dd0b3b913e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around gemini.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "e9c273348b308632": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around claude.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "e73e7092a4791430": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around deepseek.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "ff98f36659d3a162": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around copilot.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "f11bca197df2d015": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around cursor ai.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "b58055eecf0daef0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around perplexity.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "1fc2228fe007220a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around grok.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "0a03311360fe071e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around ai agent.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "2fb554a7ef58b48e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around vibe coding.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "e301bd643978ff06": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around python.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "9e412275450e0aa4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around ai course.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "a364505237f08949": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around full stack.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "eecf706e773d97f3": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around system design.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "ebad6fc0dc64d02a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Daily developer search patterns in India focus on practical implementations around next.js.",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "8d6ec3b8605f7703": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "8768bc9f4ea8f5ef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "a4d59a1024c12d27": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "8221dce3158bc5f7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "50c94a55bd1310c7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "48af8d7836400646": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "561948c50c1ce3f5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "cace794eaf7c3355": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "7b314e826ef44f99": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "6c72a18651c0c4f2": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Alibaba deploys Qwen4-Max flagship model (2.4T total parameters) with 1M native context window at $1.50/M input pricing.",
+  "notes": "- 2.4T parameter MoE architecture with active sparse routing\n- Native 1M token context window supporting entire large enterprise repositories\n- Available via DashScope API and Together AI at competitive inference pricing",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "936843e12463ed20": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "ab14614554592140": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "4d19ae40583839bd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "c786d826f9439faf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "061670ddabb808df": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "e5e8f5c44a29ad82": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "0fe5a4ca901292ef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "5db51f396a621563": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "c9a3c64c9366b578": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "7c3c1fe3dc7dc70b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "896d3fb6d022d305": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "1cc3dbf236a2a6b7": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "95d4025078301c76": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "f6980957aa8940aa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "568f1f1ae663b471": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "c26cd021818cf834": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "ba7593d007e7ddf0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "bfd10a371cfcb21a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "3a9c477833fda159": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "535c8140864b34ca": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "725f5284a3b5c75e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "de2c9df2ff533de4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "497ccd431a50cb30": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "138a42024da47e59": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "c1b71040c67e46a2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "cdce2e182bc53e05": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "f0c55e7d8725cc94": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "24a39fccb49990f3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "3ad1f0d6e3bfbc32": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "c2ab12b9a8fc5292": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-23T06:17:33Z"
+ }
+}

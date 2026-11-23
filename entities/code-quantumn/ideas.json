@@ -1,6 +1,66 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-23T06:17:50Z",
+  "history": [],
+  "id": "2026-11-23-cq-openai-codex-security-plugin",
+  "type": "evergreen",
+  "timing": "NOW",
+  "title": "OpenAI Codex Security Plugin: How AI Agents Find & Patch Zero-Days in Your Code",
+  "angle": "Vulnerability scanners spit out 500 warnings and fix nothing. OpenAI's new Codex Security plugin traces AST dataflow and generates tested PR patches in one click.",
+  "outline": [
+   "The problem with traditional SAST scanners: False positives and zero automated remediation",
+   "How Codex Security works: Semantic taint analysis tracking untrusted inputs to execution sinks",
+   "Automated patch generation: Writing regression tests and clean PR diffs inside VS Code",
+   "How to integrate it into your GitHub Actions pipeline for automated repository security"
+  ],
+  "items": [
+   "f26b5d84756cc862"
+  ],
+  "updated_at": "2026-11-23T06:17:50Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-23T06:17:50Z",
+  "history": [],
+  "id": "2026-11-23-cq-amazon-search-agent-arena-number-one",
+  "type": "hype",
+  "timing": "NOW",
+  "title": "Amazon Just Beat Perplexity on the AI Search Leaderboard (Inside the #1 Agent)",
+  "angle": "LMSYS just crowned a new #1 on the Search Arena leaderboard: Amazon's Web Search Agent beat GPT-4o and Perplexity on factual accuracy and citation density.",
+  "outline": [
+   "The LMSYS Search Arena benchmark: How human judges blind-test AI search engines",
+   "Why Amazon's agent won: Multi-hop web retrieval and cross-document citation synthesis",
+   "Comparing results side-by-side against Perplexity Pro and Google Search",
+   "What this means for building agentic research tools and RAG systems"
+  ],
+  "items": [
+   "b7752926be500af1"
+  ],
+  "updated_at": "2026-11-23T06:17:50Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-23T06:17:50Z",
+  "history": [],
+  "id": "2026-11-23-cq-sarvam-105b-open-weights-indic",
+  "type": "months",
+  "timing": "SOON",
+  "title": "Sarvam Just Dropped a 105B Open-Weight Model: Indian AI Runs Locally",
+  "angle": "Tired of American models butchering Indian languages? Sarvam AI open-sourced their flagship 105B parameter model checkpoint with native Indic reasoning.",
+  "outline": [
+   "The multilingual tokenization penalty: Why Llama and GPT fail on Indian languages",
+   "Inside Sarvam-105B: Pretraining on 10 Indic languages plus English code",
+   "Benchmark comparisons: Hindi, Tamil, and Telugu comprehension vs frontier models",
+   "How to run and fine-tune it using vLLM or Sarvam's domestic Token Factory"
+  ],
+  "items": [
+   "dce64bbab7423ad3"
+  ],
+  "updated_at": "2026-11-23T06:17:50Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-19T04:35:36Z",
   "history": [],
   "id": "2026-11-19-cq-gemini-4-neon-coding-benchmarks",
