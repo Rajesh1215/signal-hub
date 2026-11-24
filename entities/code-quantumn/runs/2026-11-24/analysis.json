@@ -577,5 +577,383 @@
   "label": "SKIP",
   "reason": "minor_update",
   "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "103ce498c669d622": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about ChatGPT today: queries on free tier limits, writing assistance, and API integrations.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "e67b04e954ae51c6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about Gemini today: multimodal analysis, Google Workspace setup, and 2.0 experimental releases.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "145870fc9d6eaa5d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about Claude today: Sonnet coding benchmarks, Artifacts UI workflows, and prompt engineering prompts.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "411d691ea6a1e81c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "What India is searching about DeepSeek today: V3 MoE architecture specs, local Ollama running guides, and benchmark comparisons.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "20a1f4a16bfec7ec": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about GitHub Copilot today: VS Code extension pricing, student pack access, and multi-file editing.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "bb5421f6b77a233c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about Cursor AI today: rules file setup, Composer multi-file agent workflows, and API keys setup.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "b58b5b3076491719": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about Perplexity today: Pro subscription value, academic search modes, and citation accuracy.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "61a9d6fe4459045b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "What India is searching about Grok today: vision capabilities on X, real-time news retrieval, and access tiers.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "1724462c20371823": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about AI Agents today: autonomous coding architectures, LangGraph vs crewAI, and local tool use.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "a4ee8602d7ff8a83": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "What India is searching about Vibe Coding today: prompt-driven prototyping workflows and developer productivity trends.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "272036866706ef45": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "What India is searching about Python today: beginner roadmaps, AI/ML scripting tutorials, and FastAPI backend patterns.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "fab7bfc7b1778105": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "What India is searching about AI Courses today: free certifications, prompt engineering bootcamps, and agent frameworks.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "22393478359ddd8c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "What India is searching about Full Stack today: modern tech stack choices (Next.js, Tailwind, Postgres, AI SDKs) in 2026.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "3fab8b21ea0d5fe9": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "What India is searching about System Design today: distributed caching, microservices interview preparation, and rate limiters.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "a9452eeed654bf5a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about Next.js today: App Router mental models, Server Components caching, and AI streaming.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "36149ef3e613fa46": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Ollama v0.40.18-rc0 delivers substantial Metal decode optimizations on Apple Silicon, cutting prefill latency for speculative drafting architectures.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "95a62a64e4933d7d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Meta AI chief Alexandr Wang cautions that frontier AI reasoning capabilities will soon exceed human verification thresholds, citing mathematical proofs.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "a821077345f7e97b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "VC funding surges into Chinese open-weight model labs competing against DeepSeek in high-density MoE architectures and reasoning optimizations.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "086b0b23193c958a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Unsloth releases local desktop deployment guide for hosting quantized Qwen and Inkling reasoning models across local area networks.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "16e252e25431e206": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "OpenAI chief scientist advocates international compute governance caps to prevent catastrophic capability divergence in autonomous systems.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "bfffb48ca5ca5013": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Analysis examines developer scrutiny over Sarvam AI hosting adapted open-weights on its cloud API, sparking debate on India's indigenous model pipeline.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "3d976e77edf7aa4b": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "official_launch",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Anthropic launched 'Claude Ship', an automated agentic GitHub integration that inspects pull requests, identifies regressions, and suggests verified test cases.",
+  "notes": "- Native GitHub integration from Anthropic designed for continuous agentic code review\n- Automatically parses PR diffs, executes test harnesses, and flags breaking API changes\n- Direct competitor to Copilot Workspace and Cursor CI review bots\n- High utility for software engineering workflows and developer tool stacks",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "edf487396a71ccde": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Researchers introduce WeightCode, a technique for dynamically stitching modular expert weights into frozen base transformers without retraining.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "7d6848d7706dff6c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Study demonstrates feedback-free synthetic trajectory generation for autonomous agents, improving multi-hop tool execution without human annotations.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "1c1a09bcb518ca35": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel Drives releases dedicated CLI commands and standalone TypeScript SDKs for managing edge-persisted persistent file state in AI serverless workflows.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "3206b4bf4fdcf21e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Supabase launched Supabase Knowledge Base, combining pgvector hybrid search, chunking pipelines, and automated embedding generation inside Postgres.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "6dc80d0dcefe9afa": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Matthew Berman breaks down Anthropic's breakthrough in formal mathematical reasoning benchmarks and implications for autonomous software verification.",
+  "notes": "- Berman deep dives into Anthropic's benchmark results on Olympiad-level mathematics\n- Explores agent verification loops and test-time compute scaling\n- Good reference structure for explaining frontier reasoning mechanics",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "b5e30012bbc5a8a1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Simon Willison evaluates GLM-5.4's looping transformer architecture, analyzing how recurring internal layers achieve high coding benchmark scores.",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "7bc4d155b70849c8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "58a3a21367dfcc70": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "5121dfb7020200fc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "b8158e48210875ba": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "205e3d1f8f69c84f": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "7c5c5b792bee7558": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "8019c65a5ef7f9c2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "16f2dd7357eff6fd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "2c4272ceab4be36a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "f6601360ceb71b07": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "95a41e4b2789d641": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "a95e9d39ffd4021f": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "ad329f4753f495c0": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "68a052ecc5bd8265": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "5464679da234d000": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "c362a933f47aa84b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "0a0576b174841306": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "d34a9d9b281bcc5b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "21084c269385c383": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "e8873de3a0438f0c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T03:09:02Z"
  }
 }

@@ -377,5 +377,49 @@
   "label": "SKIP",
   "reason": "off_topic",
   "analyzed_at": "2026-11-24T02:52:39Z"
+ },
+ "f3039daf1cb06283": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T03:06:42Z"
+ },
+ "f43ba5f7da2ef304": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-24T03:06:42Z"
+ },
+ "606772bdd1f7c9ce": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Dr K discusses workplace anxiety and developer identity crisis caused by top-down AI adoption mandates.",
+  "notes": "- Video addresses tech worker career anxiety and existential dread around management AI quotas\n- Dr K emphasizes focusing on metacognitive architecture, domain mastery, and psychological resilience\n- High-alignment topic for our audience navigating career pressure and developer wellness",
+  "analyzed_at": "2026-11-24T03:06:42Z"
+ },
+ "dc3bb5ee453763aa": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Dr K warns against superficial tool adoption without understanding underlying problem domains, advocating cognitive clarity.",
+  "notes": "- HealthyGamerGG analysis on cognitive overload from rushing into new AI workflows\n- Emphasizes disciplined mental model construction over shiny tool syndrome\n- Matches Classy Upgrade focus on deep focus, mental models, and performance discipline",
+  "analyzed_at": "2026-11-24T03:06:42Z"
+ },
+ "6f5cce1d8edba035": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "sleep_energy"
+  },
+  "summary": "Bryan Johnson outlines strict non-negotiable bedtime consistency and pre-sleep wind-down protocols for optimal deep sleep architecture.",
+  "analyzed_at": "2026-11-24T03:06:50Z"
+ },
+ "1fb4ee0ff7bf0d0a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "new_study",
+  "flags": {
+   "category": "brain_science"
+  },
+  "summary": "Study demonstrates that foundational cognitive control skills determine whether children absorb vocabulary better from physical books versus digital screens.",
+  "analyzed_at": "2026-11-24T03:06:58Z"
  }
 }
