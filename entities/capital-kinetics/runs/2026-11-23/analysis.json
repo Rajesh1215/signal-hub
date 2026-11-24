@@ -1794,5 +1794,864 @@
   "label": "SKIP",
   "reason": "minor_update",
   "analyzed_at": "2026-11-23T06:19:05Z"
+ },
+ "49b918085abc9170": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "76887f17cae79bbb": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "64be4088a013f01f": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "37c4746185021332": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "10db4839cdc1a0db": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "d3964a9677f9aa14": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "86112778156bbdd1": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "2dcea2b9a7d13ead": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "218f7a87e75f2207": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "6afc7c7ebdbf87eb": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "2e404c4dddc77cca": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "a15050ef4c02c0db": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "09e26365695fa5a1": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "123c6d9c2479dd34": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "d530275941d087b9": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "583c4be77b4aa77f": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "bb2cc00a57352823": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "policy_change",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Tripura government raised dearness allowance by 3% to 44% of basic pay for state government employees and pensioners.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "57a3055f7c1b3125": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "lessons"
+  },
+  "summary": "Behavioral finance study examines the 'house money effect', where early trading profits induce retail investors to take disproportionate downside risks.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "fdc1fa34b506093a": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "EPFO is preparing to roll out instant PF withdrawals via UPI and ATM networks by December-end, moving from multi-day manual settlement to real-time access. Hook: 'Withdrawing your PF might soon take seconds via UPI: here is what EPFO is changing and what remains locked.'",
+  "notes": "- EPFO core IT infrastructure modernization integrating with UPI and NPCI payment rails\n- Subscribers to get direct UPI transfer for eligible advance withdrawal claims\n- Highlights critical distinction between advance claims and locked retirement balances\n- Fits 'Managing your money after your first job' series under PF, salary slip, and emergency liquidity",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "477eb267d6b7cbda": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "policy_change",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "EPFO plans phased reforms including automated monthly pension payouts, consolidated member accounts, and instant digital withdrawal settlement.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "cb3c98d0fde4390e": {
+  "label": "SKIP",
+  "reason": "price_change",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "d150a650c31dcff0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "price_change",
+  "flags": {
+   "category": "commodities"
+  },
+  "summary": "Gold and silver prices stabilized following steep weekly declines, with analysts anticipating extended consolidation ahead of major central bank meetings.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "593043c6f4462af9": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "eaa8f1bcfd08f789": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "scam_alert",
+  "flags": {
+   "category": "scam"
+  },
+  "summary": "Delhi Police arrested seven individuals across five states operating fake stock trading applications and WhatsApp investment groups promising guaranteed profits.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "5c276bdc98a2ff08": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "lessons"
+  },
+  "summary": "Analysis of wealth psychology principles from 'Secrets of the Millionaire Mind', highlighting the role of financial subconscious conditioning in savings habits.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "95f4ca64804bf304": {
+  "label": "SKIP",
+  "reason": "price_change",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "11241d0361c6ce41": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "2342a36389ec5710": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "b358fdaa32572d48": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "1189425bf5e535ea": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "695288fc4d131844": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "9aa1876e94d98fd3": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "21e32d293f4368e6": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "e4b2f71a9d06a3d7": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "35f5a2f68b6eeec3": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "dbf94140be8b47f0": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "264e4fde0c8834c8": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "a105b59d797c630c": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "e2d3cd3b01fe70b7": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "9c8c896d5fecefe1": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "41b8b5fb87887431": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "aa283f8344f4111e": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "85e9672a86d6cc6d": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "7078646a4d1fb7fa": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "b1959771cf3f2f1f": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "698b43314890079b": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "882d57efb92d905d": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "7cebff89394ee8e6": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "37400a680a71f1c9": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "74522c9b1c2677f8": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "a0331d8f09b537a7": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "aafc3f19db6fbca8": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "a95dd195577bfb8c": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "883aba40905eb1f1": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "6c24be0624df05c0": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "0e40bab8e95d94b4": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "c4846e4df1dd3877": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "90be1c3096c5fe30": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "04301203c72f1a0b": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "58ae8775a01d8ecf": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "3f4b781b441a6812": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "aea6ff23a5207c4d": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "4293bed8857330d5": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "a87c3a07ea7b4243": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "0b446ebb45b5c7d1": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "c7c68dd1104b297f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "18266a56a6aee0ec": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "fac46c70249db221": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "fa42bac1d2511ccf": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "b165bcf2dc0975dc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "c14bb8156d2806da": {
+  "label": "SKIP",
+  "reason": "earnings",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "619efc7a01900107": {
+  "label": "SKIP",
+  "reason": "earnings",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "16a0427a884ee83f": {
+  "label": "SKIP",
+  "reason": "earnings",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "b5eaa6329655af2f": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "195069629d1f60f7": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "1351d9bb5c1203a3": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "ae3533d3e8850668": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "d27929bff21262f2": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "03371336366da4cf": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "1e35e592e04d6a6a": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "34c37c576863022e": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "8dbde74385c81ab1": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "d73bc35fbb49cbe0": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "1bbe0e1a05a85bcf": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "613c5398fc396cff": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "c28f5d85e0ef8814": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "528880d5236c125c": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "7d8e6cc1eae0f30c": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "f1c13bb572a3b310": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "f609753ff164da0d": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "1b4c68f33680b8a2": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "7f586a273f0789db": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "3e65197e716cf2f2": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "b2ee3a5df25987f7": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "f3c9a1ced9632903": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "3c8be8852c026d4c": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "bf57942f2aba1e84": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "c440707a34d431f0": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "90673ee784c2a343": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "f76a60bcd0fd193c": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "df4e1956482815bb": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "630c97d905d8cc8d": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "ce93863052f76ac6": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "1ebe69575981eafe": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "bbda49bd527e7c17": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "big_player_statement",
+  "flags": {
+   "category": "big_player_statement"
+  },
+  "summary": "Warren Buffett converted 1,600 Class A shares to donate $5.5 billion of Berkshire stock to family foundations, penning reflections on compounding kindness and wealth.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "68efdd5caa78643f": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "7a8ba5046fe07dc2": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Freefincal examines emotional and psychological readiness for early retirement, emphasizing purpose and lifestyle transition beyond mathematical corpus targets.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "c95cb4bd73636e8d": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "f8f8a25c193e3ba0": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "a50ad645b39eeb26": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "81ca0239bf2fe60d": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "a3b25dbb12ba7965": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "e42f860bec2460db": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "5a5c16b6958ffadf": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "ec80e86da04e79a3": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "rate_decision",
+  "flags": {
+   "category": "rbi_policy"
+  },
+  "summary": "Economists project RBI's Monetary Policy Committee may hike the repo rate by 25 bps in December as headline CPI inflation remains above the 6% upper tolerance band.",
+  "notes": "- Consensus poll ahead of December RBI MPC meeting\n- Higher inflation driven by vegetable prices and food items pushing CPI above 6% threshold\n- Potential repo rate hike would directly impact floating home loan EMIs and fixed deposit rates",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "84da496b9ac57c73": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_release",
+  "flags": {
+   "category": "economy"
+  },
+  "summary": "New GDP statistical series expected to reduce retrospective data revisions, providing RBI with more reliable real-time growth indicators.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "a68ce79057e98e7c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "data_release",
+  "flags": {
+   "category": "economy"
+  },
+  "summary": "Revised Consumer Price Index (CPI) basket expected to modernize food and digital consumption weightings, aiding RBI inflation forecasting.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "7116fbb49a899f4c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_release",
+  "flags": {
+   "category": "economy"
+  },
+  "summary": "India's merchandise exports to African markets surged 44%, diversifying trade flows amid softer demand in traditional Western export destinations.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "177afdfd064ebd2a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "regulation",
+  "flags": {
+   "category": "regulation"
+  },
+  "summary": "SEBI initiated criminal prosecution against Ketan Parekh and associates over failure to pay ₹27 crore disgorgement dues from historical market manipulation.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "7989258b5d55d708": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "0db62b4d7f68f02a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "regulation"
+  },
+  "summary": "SEBI proposed relaxing granular disclosure requirements for certain foreign portfolio investors to stem recent foreign capital outflows from Indian equities.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "532eb6afbb89e0a9": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "73a5ea523bf560b8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "fec74d654bd42437": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "minor_update",
+  "flags": {
+   "category": "markets"
+  },
+  "summary": "NSE and BSE notify trading holiday schedule for 24 November 2026, with equity and derivatives trading resuming normal operating hours on Wednesday.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "07d07dd0ef634bb8": {
+  "label": "SKIP",
+  "reason": "ipo_listing",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "bcfd361670e160a8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "4bd4fe9415e6098e": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "7a09fef31ea93828": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "741635110aa601e4": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "fb27555a65a6902c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "afbc14847da40c18": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "016765c145c0d880": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "b85a1dce9644dd33": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "geopolitics",
+  "flags": {
+   "category": "world_geopolitics"
+  },
+  "summary": "Diplomatic analysis examines emerging middle-power bilateral alignments across Asia and Europe in response to shifting US-China trade tensions.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "db7d61d2400e8193": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "7f41766ba41d377f": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "dceea1660c01a731": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "454669302dc9a187": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "152045c56a207b73": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "acquisition",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Brookfield Asset Management expanded packaging footprint by completing the $1.7 billion acquisition of glass container manufacturer PGP Glass.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "8e809671f4d77dab": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "best_practice",
+  "flags": {
+   "category": "tech_business"
+  },
+  "summary": "Flipkart lowered logistics costs by 6% across key fulfillment clusters by integrating FarEye routing optimization software.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "4278ce59f6a3b679": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "lesson",
+  "flags": {
+   "category": "startup_management"
+  },
+  "summary": "Harvard Business Review management guide highlights measurable productivity and retention gains from intentional, regular team appreciation notes.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "c5534451113654f7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "5593edfda7b08154": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "f6848263f10c9938": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "69109591e4e9446c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "lesson",
+  "flags": {
+   "category": "lessons"
+  },
+  "summary": "Big Short investor Steve Eisman discusses emotional errors in retail investing, over-leveraging, and why cash buffers preserve survival during market dislocations.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "0248f93cb852a23e": {
+  "label": "SKIP",
+  "reason": "competitor_move",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "89a1e39d76b9e194": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "ipo_listing",
+  "flags": {
+   "category": "ipo"
+  },
+  "summary": "Crystal Crop Protection finalised its IPO basis of allotment with secondary market listing scheduled on BSE and NSE on November 26.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "81b3be2340918d91": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T03:04:42Z"
+ },
+ "3ef00e2e9b67f67a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "market_event",
+  "flags": {
+   "category": "business_story"
+  },
+  "summary": "Ashok Leyland secured commercial fleet order for 200 electric heavy-duty trucks to support sustainable cement transportation logistics in India.",
+  "analyzed_at": "2026-11-24T03:04:42Z"
  }
 }

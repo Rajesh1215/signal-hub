@@ -1,0 +1,581 @@
+{
+ "c8f774f1740380e0": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "OpenAI and Cisco introduce Shirudo, an open-source security proxy for autonomous AI agents that masks secrets and blocks unauthorized egress. Hook: \"OpenAI and Cisco just dropped an open-source firewall for AI agents.\"",
+  "notes": "- Intercepts outgoing LLM tool calls and HTTP requests to prevent prompt injection and data leaks\n- Dynamically tokenizes and masks environment API keys and database credentials\n- Open-sourced under Apache-2.0 for enterprise agent production deployments",
+  "actions": [
+   "Created video idea 2026-11-24-cq-openai-cisco-shirudo-agent-firewall"
+  ],
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "0edba5ff3526b5d5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "0de6fd0c1605eb5b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "b901dd720531bdec": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "abd170ddfe97e4c3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "3af181ef7c018fd1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "f928d8198212fd46": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Hugging Face guide on constructing sandbox harnesses to benchmark autonomous coding agents on multi-step software tasks.",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "f69f3c95ff77bc42": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "aa617a1bfa8060e9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Nvidia releases Sirius Core extension enabling GPU-accelerated vectorized SQL analytics inside embedded DuckDB workflows.",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "7b37e82c4fc12ebe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "a9b21c5b1d955357": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "34de80dcfe74e853": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "8ed1ce11c8028378": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "42ef4e5bc9dff98d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "2b95c460fb3527e3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "4f1d956e990f0ddb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "189c7215733717ef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "232409d073d86a4b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "785931cd25c44195": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "db13fcaf52c8191d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Meta AI Chief warns machine superintelligence timeline is accelerating, calling for institutional safety frameworks before human control is lost.",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "90417924343f9852": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "a48a9f2b68b2c02b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "998052e8bf2ec87b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "04bba568ddb2cce5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "e3f90dd24aa5e5ba": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "ee29dc52c932dc90": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "f58e4140e9bdae7e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "3e2d32e61ea307f6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "3ebac0dda9183f97": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "22018617d5d839c1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "9b84e2fb9f4857be": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "7afe12989f15000b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "8f82c22ac6b800ec": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "c0e01f0bb728d4b6": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "e5787b5dc56e1ea1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "4d8d39aec14c6cab": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "LMSYS adds Inkling 2 Mini to the Agent Arena Index and WebDev leaderboards, showing a small-footprint model challenging frontier coding giants. Hook: \"A tiny new model just entered the LMSYS Agent Arena leaderboard.\"",
+  "notes": "- Added to LMSYS Agent Arena Index evaluating multi-turn terminal commands and code editing\n- Demonstrates high ELO rating on WebDev React generation despite compact parameter footprint\n- Proves specialized fine-tuning beats raw model parameter scale for agent loops",
+  "actions": [
+   "Created video idea 2026-11-24-cq-inkling-2-mini-agent-arena"
+  ],
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "16bb4d0b767835fa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "f890e35168d15483": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "official_launch",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Sarvam AI launches Sarvam Dictate, a fast real-time speech-to-text API recognizing 10 Indian languages and code-mixed Hinglish. Hook: \"Indian AI just solved real-time Hinglish voice dictation.\"",
+  "notes": "- Handles code-mixed conversational Indian English, Hindi, Tamil, and regional dialects\n- Sub-300ms transcription latency designed for real-time mobile and web applications\n- Priced in paise per minute on Sarvam's domestic inference infrastructure",
+  "actions": [
+   "Created video idea 2026-11-24-cq-sarvam-dictate-hinglish-voice"
+  ],
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "77efcedd18687034": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "0459189124f15dd1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "Sarvam AI defends hosting global open models on domestic GPUs, asserting indigenous foundation model research remains top priority.",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "4c487a059b199edc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "774f8c1c8cdee433": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "f1344880b93a535d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "972b7d3025fc39ae": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "5467edab3cbdf71a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "7d06ded2c0e94801": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "112949fb583daa0d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "0ab9cdfd2900c006": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "c5db5f0149e7e5e6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "40fb7b977a9b787f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "37c5187fcc60f701": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "72daaa154634e52e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "53f81ec59ce47314": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "737a219c0d290a58": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "fed76211056adde5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "a96efcae465d00ae": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "a3ffe0d24dd5810b": {
+  "label": "SKIP",
+  "reason": "funding_or_deal",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "c86b948743f9589a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "05950de9f35775e8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "fd46ffd205c209af": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "4f7ebcbd1966d8e4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "7a2ccf0dbd642e34": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "34d7ad1df5b0d7f5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "6b7ff0b7243e9ab4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "ce93ac7d6161c13e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "c56886ca3027b666": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "4d79a068b4fb10de": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "0b66dfe568d6a4f1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "440275d57e89d2d0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "b9ea52c39b18a7b7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "bd67782dc35193a7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "5d0e06bf6a11edd3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "e79ae85d27771012": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "3666c23645bbf7ee": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "b8a05505d8c22a65": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "0a466984575f447a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "bd2eef5f7d014742": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "5748f1ba3750db4f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "b4300808c33a14fd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "45596cef33e6cc5d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "e07580d88a898a9f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "377fef1672eab82e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "873ac0a6acab311a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "60a6f8bd6e641ae8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "9e4f06a97e8ff7f9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "9285bd29e33c9a89": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "e3b5b51048263580": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "6e9b893b23d60ab8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "0317762c2eabae5f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "03d2b33477bfc428": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "45e506c78290869b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "f81a4a3a33fbe9dc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "aecde7894685c6fc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "7dc3265904b6ad51": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "40b5a94e351520f8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "eade49e6b1f2048f": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Fireship breaks down open-weight and challenger models beating frontier lab benchmarks on coding evals.",
+  "notes": "- Rapid-fire breakdown of recent benchmark shifts on SWE-bench and HumanEval\n- Compares open weights vs closed API pricing curves",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "c2146288f42e2447": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "49f541ff23aaab59": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "25f133d6054c1476": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "fb12d1acb4865869": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo reviews Fable 5.2 model trade-offs between raw reasoning capabilities and code formatting ergonomics.",
+  "notes": "- Analyzes subtle regressions in tool call parsing despite higher benchmark Elo\n- Why developer preference often diverges from static eval leaderboards",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "c23ac53beda2b625": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Analyzes 500 AI Engineer job descriptions: prompt chaining, eval harnesses, and vector databases beat ML training.",
+  "notes": "- Real-world tech stack: TypeScript, Next.js, LangChain/LlamaIndex, Eval harnesses\n- Highlights the shift from training models from scratch to agent engineering",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "362b9c2841365b2a": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "9403a399a8a56602": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "9d1d28b98a592cc9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ }
+}

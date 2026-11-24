@@ -1,6 +1,66 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-24T02:56:31Z",
+  "history": [],
+  "id": "2026-11-24-cq-openai-cisco-shirudo-agent-firewall",
+  "type": "evergreen",
+  "timing": "NOW",
+  "title": "OpenAI and Cisco Just Dropped an Open-Source Firewall for AI Agents (Shirudo)",
+  "angle": "AI agents have full terminal and network access, making them an open door for prompt injection and secret leaks. Shirudo intercepts and masks credentials in real time.",
+  "outline": [
+   "The security danger of autonomous agents: Prompt injection leading to environment variable leaks",
+   "What Shirudo is: An open-source proxy intercepting tool calls and outgoing network traffic",
+   "Dynamic credential masking: How it replaces real AWS keys and DB passwords with ephemeral tokens",
+   "How to drop Shirudo into your Docker container or agent script in under 5 minutes"
+  ],
+  "items": [
+   "c8f774f1740380e0"
+  ],
+  "updated_at": "2026-11-24T02:56:31Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-24T02:56:31Z",
+  "history": [],
+  "id": "2026-11-24-cq-inkling-2-mini-agent-arena",
+  "type": "hype",
+  "timing": "NOW",
+  "title": "A Tiny AI Just Entered the Agent Leaderboard: Inkling 2 Mini Tested",
+  "angle": "LMSYS just added Inkling 2 Mini to the Agent Arena Index and WebDev leaderboards. Here is why small, highly specialized models are beating 70B giants at coding tasks.",
+  "outline": [
+   "The LMSYS Agent Arena Index: Real-world multi-turn terminal and coding evals",
+   "How Inkling 2 Mini punches above its weight: Synthetic task trajectory fine-tuning",
+   "WebDev React generation test: Comparing component structure and token latency",
+   "Running small agent models locally vs paying enterprise API bills"
+  ],
+  "items": [
+   "4d8d39aec14c6cab"
+  ],
+  "updated_at": "2026-11-24T02:56:31Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-24T02:56:31Z",
+  "history": [],
+  "id": "2026-11-24-cq-sarvam-dictate-hinglish-voice",
+  "type": "months",
+  "timing": "NOW",
+  "title": "Sarvam Just Solved Indian Voice AI: Real-Time Hinglish Dictation API Tested",
+  "angle": "Whisper and foreign speech APIs completely choke when Indians switch between Hindi and English mid-sentence. Sarvam Dictate delivers sub-300ms transcription for code-mixed speech.",
+  "outline": [
+   "Why Whisper and foreign STT models fail on Indian conversational cadences",
+   "The code-mixing challenge: Seamlessly switching between Hindi, Tamil, Telugu, and English",
+   "Latency test: Measuring sub-300ms Time-to-First-Word for interactive voice agents",
+   "How to integrate Sarvam Dictate into your Next.js audio input components"
+  ],
+  "items": [
+   "f890e35168d15483"
+  ],
+  "updated_at": "2026-11-24T02:56:31Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-23T06:17:50Z",
   "history": [],
   "id": "2026-11-23-cq-openai-codex-security-plugin",

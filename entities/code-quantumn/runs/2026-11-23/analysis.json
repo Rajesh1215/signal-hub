@@ -649,5 +649,198 @@
   "label": "SKIP",
   "reason": "duplicate",
   "analyzed_at": "2026-11-23T06:17:33Z"
+ },
+ "fce6020ffafa1e9e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "2800b4590c60963a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "e2e5c6f1bc4c90c5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "b6a9d9c135f7069c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "71920fb37bdb512f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "78ba40503e26504c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "517e8fa635ca1b47": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "92295d5ed2198c4c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "2d247bc41ecae1ba": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "cbeba0181209163d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "b793e6f3c1e99195": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "443ed332db4daf72": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "af589b8f55b7751a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "1b9c9f4b69eb9218": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "bfb4252e06ff1e23": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "f5367fbe3fc8193f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "bca5c8bcd477093d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "958d9e473c9c81a6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "71b53cef970f8dbb": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "43ccdb431519a373": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "dca6537206776576": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "7a52985f937e0446": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Meta open-sources TLX, adding explicit warp-group scheduling to Triton kernels across Hopper, Blackwell, and AMD accelerators.",
+  "notes": "- Exposes hardware-level async copy and tensor memory accelerator (TMA) primitives directly in Python\n- Bridges Triton developer ergonomics with custom CUDA C++ performance\n- Unifies kernel optimizations across Nvidia and AMD ROCm architectures",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "40802f34fb8c594b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "b158026b9ef5edcd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "f0b050c9539b82e0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "d1a8ffaa7b277e87": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "2dc486c0681b55c8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "c7c177058cbcd758": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "5b9f076ed11b8c3f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "8b98b4ebb036f2c4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "51131d54718e66fc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "77496250e7923f1a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "d5accd5f53f6723c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Research introduces Intent Contracts, constraining LLM tool access with declarative preconditions to eliminate runaway agent loops.",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "de5f38f320c90ec3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "b7d4d4618738d0b0": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-24T02:56:00Z"
+ },
+ "9a85fab96c7c473a": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Examines AI mathematical reasoning applying symbolic regression to astrophysical equations.",
+  "notes": "- Explores symbolic computation loops assisted by frontier LLMs\n- Good case study on AI applied to theoretical physics",
+  "analyzed_at": "2026-11-24T02:56:00Z"
  }
 }
