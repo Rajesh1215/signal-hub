@@ -1,6 +1,155 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-25T06:28:52Z",
+  "history": [
+   {
+    "at": "2026-11-25T06:28:55Z",
+    "event": "updated by agent"
+   }
+  ],
+  "id": "2026-11-25-cq-swe-bench-dataset-secret-recipe",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "title": "How the Best AI Coding Agents Are Actually Trained (SWE-Gym Study)",
+  "angle": "Everyone talks about model size, but new research on SWE-Gym reveals that synthetic execution feedback and compiler loops during post-training RL beat raw GitHub scraping by 400%.",
+  "outline": [
+   "Why raw GitHub scraping produces hallucinating coding agents",
+   "The SWE-Gym breakthrough: training agents on full repository environments with pre-existing unit test suites",
+   "Compiler-in-the-loop: how synthetic trajectory generation fixes logical syntax errors before weights freeze",
+   "Why multi-file refactoring tasks teach context navigation that single-file snippets never could",
+   "Practical takeaways for AI engineers fine-tuning local coding models (DeepSeek-Coder, Qwen-Coder)"
+  ],
+  "items": [
+   "3d46ce1f4a053589",
+   "36149ef3e613fa46"
+  ],
+  "updated_at": "2026-11-25T06:28:55Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-25T06:28:52Z",
+  "history": [
+   {
+    "at": "2026-11-25T06:28:55Z",
+    "event": "updated by agent"
+   }
+  ],
+  "id": "2026-11-25-cq-enterprise-coding-agents-15000-repos",
+  "type": "evergreen",
+  "timing": "SOON",
+  "title": "How One Team Deployed AI Agents Across 15,000 Repositories (iFood Case Study)",
+  "angle": "Running coding agents on a single toy project is easy. Managing agents across 15,000 microservice repos requires AST parsing, isolated Docker execution, and automated regression gating.",
+  "outline": [
+   "The enterprise context window problem: why feeding an entire microservice architecture to an LLM crashes",
+   "AST-driven repo pruning: how to fetch only the relevant semantic code slices for each task",
+   "Sandboxed execution: running unit tests and integration suites inside isolated containerized environments",
+   "Automated PR generation: how human-in-the-loop approval works when agents submit hundreds of PRs a week",
+   "The 4 architecture rules to prevent agentic technical debt from compounding across large organizations"
+  ],
+  "items": [
+   "6ccf3748b7b4a335",
+   "e66193c4f9fdb45f"
+  ],
+  "updated_at": "2026-11-25T06:28:55Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-25T06:28:52Z",
+  "history": [
+   {
+    "at": "2026-11-25T06:28:55Z",
+    "event": "updated by agent"
+   }
+  ],
+  "id": "2026-11-25-cq-run-nvidia-cosmos-locally-rtx-guide",
+  "type": "months",
+  "timing": "SOON",
+  "title": "Run NVIDIA's Physical World Model Locally on Your RTX GPU (Cosmos 3 Guide)",
+  "angle": "You no longer need thousands in cloud credits to experiment with physical world AI. NVIDIA just open-sourced Diffusers and TensorRT-LLM pipelines to run Cosmos 3 on consumer hardware.",
+  "outline": [
+   "What is a 'physical world model' and why physical agency is the next frontier after text LLMs",
+   "NVIDIA Cosmos 3 architecture: spatial intelligence, video prediction, and robot control",
+   "Quantization magic: squeezing 14B parameters down to 8-bit precision on consumer 16GB VRAM GPUs",
+   "Step-by-step local setup: Hugging Face Diffusers, CUDA acceleration, and local inference benchmarks",
+   "Practical developer use cases: synthetic data generation for computer vision and robotics"
+  ],
+  "items": [
+   "ebad7b9d373afb10",
+   "651d5c5554cef856"
+  ],
+  "updated_at": "2026-11-25T06:28:55Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-25T06:28:39Z",
+  "history": [],
+  "id": "2026-11-25-cq-scaling-agents-across-15000-repos-ifood",
+  "type": "evergreen",
+  "timing": "NOW",
+  "title": "How One Engineering Team Uses AI Agents Across 15,000 Repositories (The iFood Architecture)",
+  "angle": "Running an AI agent on one codebase is easy. Orchestrating agents across 15,000 enterprise repositories without breaking production requires a radically different architecture. Here is how OpenAI and iFood engineered the pipeline.",
+  "outline": [
+   "The enterprise bottleneck: why microservices create thousands of orphaned, unmaintained repositories",
+   "Why full-codebase context windows fail: how targeted AST slicing extracts only necessary dependency trees",
+   "The agent lifecycle: Jira trigger -> branch creation -> isolated Docker sandbox execution -> unit test verification",
+   "Automated PR generation: how the agent writes structured commit messages and passes CI/CD linting",
+   "The human-in-the-loop safety threshold: why 92% of mundane dependency upgrades are merged with zero human edits"
+  ],
+  "items": [
+   "6ccf3748b7b4a335",
+   "1724462c20371823",
+   "3fab8b21ea0d5fe9"
+  ],
+  "updated_at": "2026-11-25T06:28:39Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-25T06:28:39Z",
+  "history": [],
+  "id": "2026-11-25-cq-running-nvidia-cosmos-locally-rtx-guide",
+  "type": "evergreen",
+  "timing": "SOON",
+  "title": "How to Run NVIDIA's Physical World AI Model on Your Local RTX GPU (Cosmos 3 Setup)",
+  "angle": "NVIDIA Cosmos is built for physical world reasoning and robotics simulation. NVIDIA just released a guide showing how to quantize and run Cosmos 3 directly on consumer RTX hardware using Hugging Face Diffusers.",
+  "outline": [
+   "What physical world foundation models are: moving beyond text and 2D images to 3D spatial dynamics",
+   "Hardware requirements: VRAM thresholds (16GB vs 24GB) and TensorRT-LLM acceleration",
+   "Step-by-step setup: Hugging Face Diffusers pipeline, 8-bit/4-bit quantization, and memory streaming",
+   "Generating physical dynamics: testing simulated camera physics, collision prediction, and robotics control",
+   "Why local physical AI models are the future of game development, robotics, and autonomous agent simulation"
+  ],
+  "items": [
+   "ebad7b9d373afb10",
+   "651d5c5554cef856"
+  ],
+  "updated_at": "2026-11-25T06:28:39Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-25T06:28:39Z",
+  "history": [],
+  "id": "2026-11-25-cq-why-coding-subscriptions-are-so-cheap",
+  "type": "evergreen",
+  "timing": "ANYTIME",
+  "title": "Why Claude Code and Copilot Subscriptions Are Impossibly Cheap (Token Unit Economics)",
+  "angle": "Running raw Claude 3.5 Sonnet API calls on a large codebase can cost $10 in 10 minutes. Yet coding agent subscriptions cost only $20/month. Here is the hidden unit economics: prompt caching, speculative decoding, and loss-leader strategies.",
+  "outline": [
+   "The developer math puzzle: why 100 CLI agent requests should theoretically cost $300+ on raw API pricing",
+   "Mechanism 1: Ephemeral prompt caching—why 95% of your codebase context is cached at 1/10th the token cost",
+   "Mechanism 2: Speculative decoding and drafting—how tiny fast models predict tokens before the frontier model fires",
+   "Mechanism 3: Local AST indexing—why smart agents never read raw files until a search query matches",
+   "Mechanism 4: Big Tech loss-leaders—why frontier labs subsidize developer tools to build workflow lock-in"
+  ],
+  "items": [
+   "d5e04ba7770f11a8",
+   "60e65bab565831c5",
+   "3d46ce1f4a053589"
+  ],
+  "updated_at": "2026-11-25T06:28:39Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-24T02:56:31Z",
   "history": [],
   "id": "2026-11-24-cq-openai-cisco-shirudo-agent-firewall",

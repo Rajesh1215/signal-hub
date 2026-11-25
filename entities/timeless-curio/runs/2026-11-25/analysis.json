@@ -1,0 +1,765 @@
+{
+ "d9d5953535fbe1ce": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "2c74b624c7c589e6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "ce770226c4d31d31": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "c75ad28e4deb03f2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "b46bdd2c67d6cd00": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "121ab2cf10d9e09c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "James Webb Space Telescope infrared imagery reveals filamentary dust structures inside Cassiopeia A, pinpointing cosmic dust formation mechanisms.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "92b145ba42a075bb": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "NASA completed sensor and navigation camera integration on the Dragonfly nuclear-powered quadcopter destined to explore prebiotic chemistry on Saturn’s moon Titan.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "cc16e970541d845b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "1653490d509b7b28": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "b2e418c801dd8802": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Spectroscopic observations capture thermal runaway helium shell flashes in a post-AGB star, revealing the violent thermal pulsation preceding white dwarf collapse.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "9b9e38d353439cd8": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "744aa87cfb0c6eb3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "d4e807a17c82482f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "78c37fff8e96e16c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "3e9247e5436ddfe2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "c8c5af09c05cb90e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "55f18e7de800488f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "Divers exploring the Baltic wreck of Danish flagship Gribshunden recover intact 15th-century mail armor and weapon caches preserved in brackish waters.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "5bbcddbb0d0ff280": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Profile of IceCube neutrino observatory creator Francis Halzen, detailing how a cubic kilometer of Antarctic ice detects high-energy astrophysical neutrinos.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "4ad642f94e5a8c29": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "25495d2a409b3a2e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "Physicists achieve fault-tolerant surface code threshold in neutral-atom quantum processors, suppressing logical qubit error rates below physical error rates.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "17c214c229b45b2b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Archaeological excavations on Mount Hellanion uncover an 8th-century BCE geometric sanctuary containing votive terracotta figurines dedicated to Artemis.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "6e840b836ccc614b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Marine archaeologists discover that ancient Roman shipwrights used pine pitch blended with beeswax and volcanic pozzolana ash to create impermeable hull sealants.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "3abbcdb6959e02bd": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Paleoclimate simulations suggest Milankovitch orbital cycles would have initiated a glacial cooling phase, which anthropogenic greenhouse emissions superseded.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "e3888bdddaf20cbc": {
+  "label": "MAKE",
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "importance": 4,
+  "reason": "discovery",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "Geochemists detect primordial Helium-3 gas trapped during the solar nebula era slowly leaking from Earth's liquid metal core into mantle magma plumes. Hook: 'Earth’s core is leaking an ancient gas that existed before the planet was even formed.'",
+  "notes": "- Geochemical analysis of volcanic basalts in Iceland and Hawaii reveals anomalously high Helium-3/Helium-4 isotopic ratios\n- Helium-3 does not form on Earth; it was captured directly from the solar nebula 4.5 billion years ago\n- Proves the liquid outer core is not chemically sealed, with deep core-mantle boundary exchanges occurring\n- High curiosity hook: the center of our planet holds a pristine atmospheric sample of the early solar system",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "4190f4e578b1f907": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "b1a06ac0954d70b0": {
+  "label": "MAKE",
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "importance": 4,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Isotopic dating of Chang'e-6 samples retrieved from the Moon's far side reveals volcanic activity 2.8 billion years ago, overturning the Late Heavy Bombardment timeline. Hook: 'The rocks brought back from the dark side of the Moon just broke our timeline of the solar system.'",
+  "notes": "- Analysis of basalt samples returned by China's Chang'e-6 from the South Pole-Aitken basin\n- Confirms ultra-young volcanic eruptions persisted on the far side 2.8 billion years ago, despite thicker lunar crust\n- Re-calibrates crater-counting chronologies used to date planetary surfaces across Mars and Mercury\n- High scientific authority: peer-reviewed sample analysis from first-ever far side sample return mission",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "155b01014f3f7b59": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "169bc7a1a842a867": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "45abc12288354878": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "2ef2007608d6b20d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "d4f9856717a3b823": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "c4064f197f212774": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "008b3e486f325626": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "ade0219688510dc0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "20779594229622d5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "dc7f40f1265ae254": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "2824e668f3110570": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "265986248de2fe1d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "0dbc77ce55aae871": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "7d4c1eb935a7a341": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "3f695492a6058c02": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "94d3f6800ec3ee2a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "e743396b1ca5a407": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "2771d0241374a279": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "e36c434f640bbb32": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "discovery",
+  "flags": {
+   "category": "ancient"
+  },
+  "summary": "Excavators at Sutton Hoo discover chemical sand silhouettes of Anglo-Saxon burial bodies, preserved through acidic soil degradation of organic skeletal tissue.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "61995ed08ce062d3": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "51e03036bbac3d8a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "f680ffaf1a410ae1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "0aec987a6729b64c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Astronomers investigate the 'radius valley' anomaly between super-Earths and sub-Neptunes, evaluating photoevaporation and core-powered mass-loss mechanisms.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "deb399215b0b600d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "ac4488da17cc2949": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "3e46473e53583e9e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "b5b875617ba1912c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "8d65dc74f2216a93": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "842668cfb2d87e60": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "4489b447998a2a12": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "2764add0a70b840f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "6d48cd2f25b3eae6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "648ed8477509ec71": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "6638e56a45e5e659": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "9540de36173b63e6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "fc20e9a89d5e2253": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "b2815191d4ec9d3d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "4f5f4df1ffc362b5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "53e8022b9cc97215": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "2a39e610d260029d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "e526973ee2033756": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "37c641cd152c88b7": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "3986578eb07b7e89": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "e6c1a755a9d95640": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "072dadfa57936c82": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "What India is searching about 'black hole' today: Queries track event horizon physics, supermassive black hole collisions, and spaghettification.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "221d2ec09965f6e9": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "What India is searching about 'universe' today: Users query cosmic expansion rate, observable universe boundaries, and cosmic web structure.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "e607b1de04652844": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "What India is searching about 'ai' today: Searches for artificial general intelligence timelines and human labor displacement scenarios.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "2c56048d4b22c76c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "energy_resources"
+  },
+  "summary": "What India is searching about 'oil' today: Queries track global proven crude reserves, peak oil timelines, and synthetic kerosene fuels.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "4232baa94bb04d6e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "wars_empires"
+  },
+  "summary": "What India is searching about 'world war' today: Searches examine geopolitical trigger points, Taiwan Strait scenarios, and nuclear doctrine.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "964e0a3167477bc5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "What India is searching about 'mars' today: High interest in terraforming timelines, atmospheric loss mechanisms, and subsurface water ice.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "d4582ab4d739d3fd": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "discovery",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "What India is searching about 'moon' today: Queries track lunar south pole resources, permanently shadowed craters, and Artemis basecamps.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "81f842b84c7023b0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "What India is searching about 'human body' today: Users query extreme physiological limits: survival without sleep, cold shock, and hypoxia.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "6efce01155286891": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "physics"
+  },
+  "summary": "What India is searching about 'time travel' today: Searches explore general relativity closed timelike curves and grandfather paradox resolutions.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "0f80c98b739cc3e7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "mysteries"
+  },
+  "summary": "What India is searching about 'aliens' today: Queries on Fermi Paradox solutions, Drake equation parameters, and biosignature detections.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "e6460b27b05b28bc": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "What India is searching about 'future' today: Users search future civilization megastructures: Dyson swarms and fusion energy scaling.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "b2e755ede1bb337a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "What India is searching about 'what if' today: High curiosity queries on Earth stopping rotation, Moon disappearing, and Sun vanishing.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "0a70dd8362539ae3": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "earth_nature"
+  },
+  "summary": "What India is searching about 'why is the sky' today: Searches for Rayleigh scattering mechanics, atmospheric gas refraction, and sunset color shifts.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "c2ffdcff96ce82cc": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "what_if"
+  },
+  "summary": "What India is searching about 'what happens if' today: Search demand for catastrophic planetary scenarios: asteroid impacts and ocean evaporation.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "3fe1ae500797e64d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "future_world"
+  },
+  "summary": "What India is searching about 'will ai' today: Queries track technological singularity risks and autonomous machine consciousness questions.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "d287a52db295bd7f": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Kurzgesagt visualises the catastrophic physics of doubling Earth's rotational speed: atmospheric equator bulge, equator oceans drowning cities, and centrifugal weight loss.",
+  "notes": "- Classic Kurzgesagt thought experiment grounded in orbital physics and fluid dynamics\n- Explores equatorial bulges, Coriolis acceleration, and atmospheric distortion\n- Strong format reference for 'What If' curiosity explainers",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "2044c5e1ffe5ee43": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "66eb6587ad93743f": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "The Infographics Show examines next-gen blended wing body aircraft concepts aiming to replace traditional fuselage designs with structural composite cabins.",
+  "notes": "- Analyzes blended-wing body (BWB) commercial aviation prototypes\n- Explores 30% fuel burn reduction, cabin pressure redistribution, and passenger psychological barriers to windowless cabins\n- Great engineering explainer format",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "0933bb08d48b7cbb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "e8ac4368cabd1867": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "20ed6e09dce7d571": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "record_broken",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "ESA’s Euclid space telescope detected an ultra-luminous quasar from the early universe, pushing cosmic dark age timeline records back by 40 million years.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "5c800208e629d270": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "ESA flight controllers successfully navigated BepiColombo into initial Mercury orbit capture, overcoming thruster anomalies through alternative ion burn trajectories.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "070114ea3e0ef50e": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "8c5afac57aa6b743": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "9412c8faa634e3eb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "8ff7688ca4cd02af": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "8db1f5d285809dac": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "f06475da2b055dd9": {
+  "label": "MAKE",
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "importance": 4,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "Astrophysics models reveal that a primordial black hole with the diameter of an atom but the mass of an asteroid could bore into a star and consume it from within. Hook: 'What happens if a black hole the size of an atom hits a star?'",
+  "notes": "- Theoretical astrophysics study on primordial black holes (PBHs) interacting with main-sequence stars\n- An atom-sized PBH packing 10^17 kg would sink into the stellar core via dynamical friction\n- Accretion disk inside the core converts core matter into Hawking radiation and gamma bursts, hollowing the star from within\n- Explains why rogue pulsating white dwarfs or sudden stellar disappearances might be signatures of micro black holes",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "56ac2a1bacfa2837": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "136ea0dfe558a80f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "17225247cb44bc94": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "423bf56d9a848490": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "f5c500d7238d6227": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "4aa3f04422b47250": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "ef1b8994fc17872c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "a92f8b5ab59b98bc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "07e9ec49ac250164": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "9d50542a35961dab": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "9ae05321cbaf82fc": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "6c6d4df4a59bf572": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "mission_event",
+  "flags": {
+   "category": "space"
+  },
+  "summary": "China launched the Shenzhou-24 crewed mission to the Tiangong space station, featuring a Pakistani astronaut as the first foreign national aboard China's orbital complex.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "286de876121c5f05": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "8500ae5bc03d9d89": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "47044dc843f88815": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "676b26cd3212296b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_report",
+  "flags": {
+   "category": "human_body"
+  },
+  "summary": "Visual analysis calculates circadian recovery delays across trans-meridian air corridors, showing why eastward flights induce severe phase-shift fatigue.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "3376183a21b4ae8f": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_report",
+  "flags": {
+   "category": "geopolitics_trends"
+  },
+  "summary": "Comparative mapping of sovereign debt-to-GDP ratios across European economies, highlighting fiscal divergence between Mediterranean and Nordic states.",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ },
+ "6fbfef4e36fcbfc0": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:26:18Z"
+ }
+}

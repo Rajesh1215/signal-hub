@@ -2151,5 +2151,933 @@
   "label": "SKIP",
   "reason": "off_topic",
   "analyzed_at": "2026-11-24T03:09:59Z"
+ },
+ "be260bcae266ab14": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "e34a9ac1988e12a6": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "ad32cf127eabc108": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "9b9a0f4b0afeacf1": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "d588b717b81c7fe9": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "9c6f81da17ae0d63": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "23c2a0f0de5e757c": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "data_release",
+  "flags": {
+   "category": "career_employee"
+  },
+  "summary": "Staffing industry report projects 1.38 crore white-collar job creation by 2027, driven by Global Capability Centers (GCCs), semiconductor design, and fintech.",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "e5f2c6014d5590e1": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "lesson",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Financial audit breaks down the true recurring cost of pet ownership in urban India, detailing food, veterinary vaccination, and pet insurance bills.",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "81fd2e1c3839c3da": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "8d3edcf4a8b4fa7c": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "f1963933cac93cca": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "d41d41f69702fa2c": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "8502a5164938c3b0": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "ffbaeec065d6652a": {
+  "label": "SKIP",
+  "reason": "price_change",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "7346ce4fee2c9b7d": {
+  "label": "MAKE",
+  "timing": "SOON",
+  "evergreen": 4,
+  "importance": 4,
+  "reason": "policy_change",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "EPFO proposes letting salaried subscribers deposit extra savings directly into EPF via UAN and UPI, bypassing employer payroll deduction bottlenecks. Hook: 'You might soon be able to deposit money into your PF account directly via UPI: here is how the new EPFO rule works.'",
+  "notes": "- EPFO proposal to permit direct member contributions to provident fund accounts via UAN\n- Allows employees to increase their retirement savings at 8.25% guaranteed interest without waiting for HR/payroll VPF approvals\n- Examines annual ₹2.5 lakh tax-free interest threshold under Section 10(11) and 10(12)\n- Fits 'Managing your money after your first job' series under PF, salary slip, and voluntary retirement compounding",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "3d52ded011f68a88": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "07d1f5bdeff3f949": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "regulation",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Supreme Court invalidated retrospective state amendments denying pension rights to employees, mandating equitable retirement payouts.",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "f08afd9acc353e21": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "22390cb41f8b8aaf": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "official_launch",
+  "flags": {
+   "category": "insurance"
+  },
+  "summary": "Kotak Life unveils variable index annuity offering Nifty 50-linked returns with downside capital guarantee for retirement corpus management.",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "0882ee094d207eb8": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "5f42ff1c99d0c728": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "PFRDA contribution chart indicates a 30-year-old subscriber must invest ₹577 monthly to secure a guaranteed ₹5,000 monthly pension from age 60.",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "8211312e0e69f0b2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "dc0dd0a2c7cf3a7a": {
+  "label": "KNOW",
+  "importance": 1,
+  "reason": "minor_update",
+  "flags": {
+   "category": "personal_finance"
+  },
+  "summary": "Reminds pensioners of the November 30 deadline to submit annual Jeevan Pramaan life certificates via face authentication or doorstep banking.",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "9b3ee07b09eff2ba": {
+  "label": "SKIP",
+  "reason": "price_change",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "a2945bba8abdf6a0": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "68a936daa47dfcd2": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "532cbf5abb52e610": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "2931d683dbf78c62": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "7361af09981dd981": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "6b750024a6d34cb1": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "1a6780361168f392": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "eed560ba2ed36024": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "f15c3cc22e5581be": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "a1e2f09892d2a6ef": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "19064719c45f2a05": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "ecb65e30fec67fd8": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "94844e5b0aabc2a8": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "25025a387427dcb3": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "ffa917e1e4e85d0d": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "9b40338e6c5a25ac": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "5530b0c303c535a7": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "208663c7f0e5fd76": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "3850cfdb53b63577": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "cdca2df9eb8cb46c": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "baf6b693643c83fa": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "ef2931b3465f205d": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "aec0ad04f3723184": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "506e1e582c64e93d": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "e8c4433265b0f8b6": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "fa95ae696214c16a": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "40ec6d04144762ee": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "b9f58300894f5ec4": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "3998503e4be8d1f1": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "c5d917c02ff43d92": {
+  "label": "SKIP",
+  "reason": "earnings",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "71c3424e1da657a2": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "bef1c191cf08a555": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "988931cf6795f88a": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "bf473769d675430e": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "f67797ee60916bec": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "ed972ebbf4df2d5f": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "8187d8eafbbb8aa8": {
+  "label": "SKIP",
+  "reason": "earnings",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "892fc21597bf21a9": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "f4ebd49151c24029": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "3f148f999ad90147": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "98ba13f52400fa4a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "2ad26d42859b6292": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "f883c1a8fd7abb81": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "d21991e17d2ed916": {
+  "label": "SKIP",
+  "reason": "acquisition",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "6f4c6258aaed2109": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "140a2562c5cfe709": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "af29c4528899fbb3": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "888919e7587e20e4": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "c813501a5a28d7fc": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "b32007e8e9efc1e8": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "d6370a859ea7e542": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "1696278a27d1ad9c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "7603f4394469e9ab": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "11062589867cdcec": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "60c3e4bce458267b": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "0ff2180b51e47a31": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "4dd9a695e772e393": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "5fa2d53bd0afbf42": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "06725a706b5f4e53": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "54156f7b35201102": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "cd88feed3010dbb5": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "5fb8720cd6d18679": {
+  "label": "SKIP",
+  "reason": "earnings",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "0487dbd6e2d977fd": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "e5072653a9bb8d62": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "d768084a893fa82c": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "5a96b41fd8fec97e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "b2ec6a6c3a1515e0": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "252d76d926a4980b": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "afef51293ee222f0": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "d0f34f29260d19c1": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "6d489a3048829d6c": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "85cba56b42058ba9": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "01f653cc9c0d43dd": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "6e72836536db41d4": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "bde4daf21a686db0": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "7541cc894d788a5a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "f607c84375deec01": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "7c69659a803cedfb": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "df29d88c2b496346": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "e5900469378538c2": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "f418c2d59cc448fe": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "0ac3e8e2809577e2": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "32dd40065084ac11": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "63fe3df842743357": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "5744e8e48516eb30": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "b6f6abce03fd1806": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "213c324add845b0f": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "5cbf887289c07ab6": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "ea9031c11b678925": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "8ec3e67be83a5824": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "4638d85c35c5957d": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "3adc9754a1d5a5cc": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "88a61ad7895d72cf": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "06f4726884ad2a6b": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "2421af1455522d29": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "5772079830073093": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "1bbf752b11f938c2": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "e7a67966e9a8b7e1": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "d5c1d145b0b90a05": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "6ace49d99e0ce256": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "015d6db5226a9a5c": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "490842b5e3a274fc": {
+  "label": "SKIP",
+  "reason": "funding_round",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "f3044bb054b60a51": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "4b71c28f73f37d4e": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "3a9e6d91c7b7eddd": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "4992ae987735fdf8": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "b9af372f67f816a2": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "19c322fcde3e0b03": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "1c70e031ebdb50a8": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "01d07c0b8a3068e0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "285bcf907cddee8f": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "5a5c8c3ff02be89e": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "e2a85baceda0079f": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "f1cfacbf10e73151": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "4b02cbaa57c3abe8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "regulation",
+  "flags": {
+   "category": "banking"
+  },
+  "summary": "RBI mandates strict cyber resilience architectures, multi-factor API controls, and continuous red-teaming for third-party payment aggregators.",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "be84fca6e5da1620": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "f3743ef9b95c58b6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "d547de80552ecc71": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "21071f5b31558069": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "e0d14eca7cd29082": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "78595b73e28afcbb": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "85811fd711ba8ef7": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "74816c8c80d552d6": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "91fbc4ec3805f974": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "b3d80781ab5bca2a": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "70bf020b989ed6d9": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "b77fe7b9bf720e61": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "48521523801c2dc2": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "fe3254d008df1fc3": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "203439dff083e0be": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "143cd9065605ff9f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "009abee14348c409": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "a4ad519c11a5a696": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "b73131a5d610c88a": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "5634431d18c031fb": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "d88fe0d4fa4e4800": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "9387da84c8869465": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "884947b16314e443": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "65f233c3b8a4fd6e": {
+  "label": "SKIP",
+  "reason": "geopolitics",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "401ae94cb59934cf": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "a5e996da28420bfe": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "f6b6817caf136b10": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "4eb89d651f592997": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "870b994dcaa48994": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "b7d66da350c32457": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "ecd832483bcfd7d3": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "4e92f44bd46a1d86": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "5a504a8ade15c7d8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "811103f29ffc2fc0": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "431b4f5e7bc5536d": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "198b7440e8abe7cb": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "0b560aefa730eeef": {
+  "label": "SKIP",
+  "reason": "market_event",
+  "analyzed_at": "2026-11-25T06:30:35Z"
+ },
+ "9c7db8dc9d35a6d9": {
+  "label": "SKIP",
+  "reason": "competitor_move",
+  "analyzed_at": "2026-11-25T06:30:35Z"
  }
 }

@@ -1,0 +1,1024 @@
+{
+ "44e8765e5e7515dc": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "OpenAI reports GPT-6 frontier models exhibit intrinsic de novo protein-folding generation without domain-specific bio-computational pre-training.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "4e43817c35f0ce7d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "8e8a7d88d6898bb7": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "6ccf3748b7b4a335": {
+  "label": "MAKE",
+  "timing": "NOW",
+  "evergreen": 4,
+  "importance": 4,
+  "reason": "best_practice",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "OpenAI reveals how iFood orchestrates autonomous coding agents across 15,000 repositories to automate maintenance, testing, and migration PRs. Hook: 'How one engineering team uses AI coding agents to maintain 15,000 repositories automatically.'",
+  "notes": "- Production agent engineering case study from OpenAI and food delivery giant iFood\n- Architecture: Agent receives Jira ticket -> fetches targeted AST repo slice -> generates isolated branch -> runs test suite in Docker sandbox -> submits PR\n- Key pattern: Solving context limits by not sending the full codebase, using localized semantic dependency trees\n- Directly addresses developer fears of code drift by enforcing strict AST linting and unit test gates",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "ee7096cba3362a36": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "568b1191b698d6d4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "ebad7b9d373afb10": {
+  "label": "MAKE",
+  "timing": "SOON",
+  "evergreen": 4,
+  "importance": 4,
+  "reason": "tutorial",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "NVIDIA guide on deploying Cosmos 3 physical foundation models locally using Hugging Face Diffusers, TensorRT-LLM, and consumer RTX GPUs. Hook: 'You can now run NVIDIA’s physical world AI model on your local RTX GPU: here is the setup guide.'",
+  "notes": "- Complete walkthrough on local deployment of NVIDIA Cosmos 3 physical intelligence models\n- Quantization workflow: compressing 14B weights down to 8-bit and 4-bit precision with minimal loss\n- Hardware requirements: 16GB+ VRAM on RTX 4080/4090 or Apple Silicon Mac using Diffusers pipeline\n- Educational value: moves developers from cloud API lock-in to self-hosted local model stacks",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "ae6d69ab73e94a8b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "NVIDIA Megatron Core technical tutorial covers distributed time-series tokenization and tensor-parallel preprocessing for large financial forecasting models.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "9786d9feb1efbed9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "79bfb0b70f9647ab": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "e37e6044b5afb91e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "9ec3d14117b4afdd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a156d3b60fbad732": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "126c553ed512b14d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "205e2f0ba05d5270": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "32bbc58748a3fb16": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "2c3cc19a98040d5b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "f82e4b1aa12e72a0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "97e043afafde1bbf": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "c59331f4484f27b2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "80f90dc6dc1c96a4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "014d0b09248939e7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "e9e7833430bc87b6": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "ffad11adb45d5755": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "c23ec5732e8553b2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "b81c745768982d1b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "109c5e85d1253071": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "ac2891f2bad8ee2b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "1c67578a54c6908a": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "201fcfe7577a04a6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5ea642740d289338": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "cd8907cc5b598097": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "official_launch",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "LMArena launches the Arena 3D benchmark leaderboard, ranking multimodal and code models on complex Three.js, WebGL, and NeRF scene rendering.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "edf6f71c812fa0c1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "ff33fc0e62266e4a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "ddf93e19e6cabbad": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "aa1b9ba2458442db": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d97c01069b850cfa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "7a37fc1cea85e85f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "0ceab0b4fe79904d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d69012ca00fdfdb2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "e6963eea561b9b51": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "8a5b183c1b3f4e52": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d0d45bf2bfa6c03b": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "0cde477d3c96ecc5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "6023ed8b2df4b333": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "105d2806357719e8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "67e1efadfe3e168e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "457a074fad1761c5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "567b4779521ef4d5": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d38c3eae495a1a59": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "81a0af9b32a4a9bc": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d23a886c96febf8e": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "f874fdaaab08993b": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "ddd433ad4ac43041": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "215700acb9b3845e": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "437267d5c5b12d9d": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "0c579c5fe5781424": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "cdff9bdb559860a2": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "29308900c01847d1": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "cfaace47729a2386": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "9faa4c333f7badc0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5eb81aecd1e1c0c8": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "24e3cde2a74e7801": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "6af52510f26935d2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "2f2817c67b81b325": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "9776e911ae4feafa": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d6e8a5b09b0be634": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "29b5233f6c3fbe1c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "bfcde300bb9438f8": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "2e189fcb2c8e3e58": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "3d46ce1f4a053589": {
+  "label": "MAKE",
+  "timing": "ANYTIME",
+  "evergreen": 5,
+  "importance": 4,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Systematic study on SWE-Gym reveals the exact dataset characteristics that train state-of-the-art coding agents, showing synthetic execution feedback beats raw GitHub scraping. Hook: 'How the best AI coding agents are actually trained: the secret dataset formula.'",
+  "notes": "- Empirical study evaluating training regimes for SWE-bench coding agents\n- Key finding: High-diversity multi-file repositories with unit tests train agents 4x faster than isolated single-file snippets\n- Synthetic execution feedback (running compiler/linter in loop) during post-training RL produces massive gains over passive supervised fine-tuning\n- Essential architectural insight for AI engineers building bespoke coding assistants",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d2748f60d1c7b755": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "9284b32383fe9913": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "0d2543c5dfdbe0ce": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5b87812bdb37f999": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Vercel transitions all serverless Sandbox runtimes to Vercel Managed Images, improving cold-start container initialization for AI workflows.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a23277e78aff69a7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "f86ec409c59608d0": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Vercel AI Gateway adds native routing and edge caching for Inkling 2 Mini, offering low-latency agentic reasoning endpoints.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "c56ce836ba114c66": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "0b017673e603e8c7": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "eed09f48dd0b7eec": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "73af0aa2fa4d9506": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "8ce29a0022355122": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "2fcadb82715fc08f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "c3d14672d17d271c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "998a7e4d7c8100bc": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d5e04ba7770f11a8": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin breaks down Claude Code's new budget execution mode and prompt caching cost reductions for long-running CLI sessions.",
+  "notes": "- Explores cost optimization in terminal AI agents\n- Details how prompt caching and model switching reduce token consumption during multi-file repository exploration\n- Highly relevant to open user to-do on token economics of coding agent subscriptions",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "60e65bab565831c5": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Theo benchmarks frontier reasoning models on full-stack Next.js and TypeScript refactoring tasks, evaluating latency vs accuracy.",
+  "notes": "- Benchmark comparison across practical developer workflows\n- Analyzes tool-calling failure modes and code drift\n- Useful format reference for developer tool reviews",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "ab45c7c7b0258885": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Review of Google Antigravity's multi-agent workspace orchestration, task sandboxing, and background workflows.",
+  "notes": "- Detailed overview of Google Antigravity IDE and CLI capabilities\n- Explains background agent management, sandboxed tool execution, and artifact generation\n- Direct insight into next-generation agent architecture",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "b47acf49456bf21c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "cd3aff07d323ba8a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about 'chatgpt' today: Queries on free tier limits, writing assistance, and API integrations.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "e189e80690c8561a": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about 'gemini' today: Multimodal analysis, Google Workspace setup, and 2.0 experimental releases.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "13d0ca8367742bad": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about 'claude' today: Sonnet coding benchmarks, Artifacts UI workflows, and prompt engineering prompts.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a13add6632025fdb": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "What India is searching about 'deepseek' today: V3 MoE architecture specs, local Ollama running guides, and benchmark comparisons.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "dcc95aa776429767": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about 'copilot' today: VS Code extension pricing, student pack access, and multi-file editing.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "8e630d8a631f0c19": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about 'cursor ai' today: Rules file setup, Composer multi-file agent workflows, and API keys setup.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "de8c5f105adc72e1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about 'perplexity' today: Pro subscription value, academic search modes, and citation accuracy.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "964e0f61d1cf9cf1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "What India is searching about 'grok' today: Vision capabilities on X, real-time news retrieval, and access tiers.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "469b8c977e077751": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about 'ai agent' today: Autonomous coding architectures, LangGraph vs crewAI, and local tool use.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d6b327ab28f58d1e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "What India is searching about 'vibe coding' today: Prompt-driven prototyping workflows and developer productivity trends.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "36c3f037ce0d3bf6": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "What India is searching about 'python' today: Beginner roadmaps, AI/ML scripting tutorials, and FastAPI backend patterns.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "9926284d707f0a7c": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "What India is searching about 'ai course' today: Free certifications, prompt engineering bootcamps, and agent frameworks.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "47e90d96755de1cd": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "full_stack"
+  },
+  "summary": "What India is searching about 'full stack' today: Modern tech stack choices (Next.js, Tailwind, Postgres, AI SDKs) in 2026.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "2a21fd9e3880cdb1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "system_design"
+  },
+  "summary": "What India is searching about 'system design' today: Distributed caching, microservices interview preparation, and rate limiters.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "c3e98313f7a51961": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "What India is searching about 'next.js' today: App Router mental models, Server Components caching, and AI streaming.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "1f725b0ac3eacc2b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a27c515f5c2e51f0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "e66193c4f9fdb45f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Claude Code v2.1.332 introduces enhanced sub-agent orchestration, improved bash command timeout handling, and cost tracking meters.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d65ffe0d78842278": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "f3cbefb1c92381c1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "0240b5e86be679b9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a867348697aa5d8e": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "bf2d130a47231a18": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a84453d9d5b942d9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "e080a1b7ad3762cd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "caad1278511d04b7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "652287cf18ce3634": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "05a86a7373e65d20": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "9380e9e88a8f04ec": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "56ce54fbfbd1d5fc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "7b072ec4e143d3ef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "3144d4619ea3a53c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "b8713f31de00f9b6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "db325988fe54df61": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "63569456810fc31d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a8ff9c4df3047da3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "6edcf1161d4377fe": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "310c2e20d324732d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "fc620e058dc7d026": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "e5714517bda4f9a4": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "0cbdbca27899d416": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "3dbad2c466ca020a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "c41f619db4ebecb8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "4ffb017fea9d3a2e": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "b8f506f887768012": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5ee9b8838ee61a75": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "f64ba5897979fd7d": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "820155391a654bba": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "9a72eb691925f1c6": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "339abd60c3c36aa4": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "4dfe236904a035e8": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "df72affc469d2aa6": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "f096459368678595": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "357ec0e0a120c24d": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "2ff5ee87947df897": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "3f89c6d234bf61da": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "4c3b5d4e4bc926ef": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "fd2deb4e63ec92a6": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a6ca9201eacbcc9a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "f7729a78680a6bb7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5dadde67e1ab8de2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "40596fa0532a3ab1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "0f1780bfedec9241": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "551294c2a03380b5": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a4187cb1b08bd493": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "4736d1a93feaf069": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5e2665a0965e25fd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "7bc8386bc09d2bbc": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "55097ba5f43f9ae8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "bc86e18ce1012341": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5b407b7e28829d86": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "b30d1310b755a399": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin demos full interactive full-stack web applications running directly inside Claude Artifacts with persistent local storage.",
+  "notes": "- Covers Anthropic's expansion of Artifacts into self-contained reactive applications\n- Analyzes client-side state management and sandbox execution limits\n- Key reference for developer UI paradigms",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "e290df869cc3f7d1": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "faed144a674d00b4": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Opinion piece evaluates Meta's prototype autonomous agent 'Muse' and consumer privacy concerns regarding ambient personal scheduling.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "f5cfdf8ce90fb2c8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "f3696330cc103b5f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "startup"
+  },
+  "summary": "DeepSeek founder Liang Wenfeng's net worth surges following widespread global adoption of the lab's open-source Mixture-of-Experts reasoning architectures.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "819d87a1d16c5d08": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Sarvam AI launches Sarvam Extract, a document intelligence API optimized for extracting structured JSON from multilingual Indian IDs, invoices, and legal records.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "04f94f47118e615d": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Sarvam AI launches Sarvam Extract API, an enterprise document parsing engine supporting Indian languages and complex table extraction for PDFs up to 500 pages.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "eb769a018bac2242": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "2c39cb08e6f136aa": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "506c7c8bae18e2a2": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "funding_or_deal",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "DeepSeek founder Liang Wenfeng's net worth reached  billion following a landmark  billion funding round valuing the open-weight AI lab at unprecedented multiples.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "39e5c27c3d70e050": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Simon Willison reflects on three architectural milestones: prompt caching economics, local small-model parity, and autonomous coding agents.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ }
+}

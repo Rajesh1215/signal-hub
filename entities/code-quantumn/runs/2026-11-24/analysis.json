@@ -955,5 +955,300 @@
   "label": "SKIP",
   "reason": "minor_update",
   "analyzed_at": "2026-11-24T03:09:02Z"
+ },
+ "651d5c5554cef856": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Ollama v0.40.18 official release brings stable Metal decode optimizations and native support for Inkling and Qwen4 MoE model architectures.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "bd3848e926cf0a57": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "46bb08de97572037": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "da4cbff6d665e0f8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a64ecadcc3d9c793": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "2e1da10e93ce3268": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "cb128e8b49da62d1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "ccc93bc541644a06": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "32ae41f7fa97c40c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "17366e11636f1848": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "fd5c1c64301ea1e6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "f501b75be91643b7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5f51f0b9397e71b1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "1618d36b1e7db8c1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "b374d24df6f259d2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a637e6513ec9128e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5d1a660b8a19b6ee": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d4a491a7582389cf": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "AWS Bedrock launches Trusted Access API with Anthropic enterprise safeguards, enforcing fine-grained boundary controls on autonomous agent tools.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "6c599d9c0fb411e3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d0cb831cb2ca09d1": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "256eab797349a01b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "LMArena ranks Gemini 4 Neon (xHigh) at #5 on Code Arena: WebDev, demonstrating strong single-turn full-stack UI generation.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "01bf0458419d1bb6": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "aa31315bf9a027f1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "f52688b962d0442d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "355e2ac5590aaf03": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "4335fb0cbfb331b2": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "08d35bdde71a0362": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "7a15118f69923f30": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "3e6bb6a30c0e02aa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "0691b5611faa0f22": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "e86c32b486a527c7": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5d711f24ba1f9208": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5bdb3772d7113596": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "c60047a8a931926d": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "2595bc6c6e64c53b": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "f1b31fb55772fbef": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "51a348f9d0e7132a": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5fd3984bf5bbb4ec": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "1f8f878a8c427508": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "c3622019cef12497": {
+  "label": "SKIP",
+  "reason": "tool_release",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a5cf73c6b39c7eb1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "8e3e0c2411151841": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "5e11dc29326b8b95": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "0bf99718d5f439d4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "52f25941a69633da": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "8542a981840aa97c": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "872d7d0add904acb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "6ad82e21e1348b3d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "78ad0fbab75a0a31": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "7e7f12cb3a393f0b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "0da32c683c33acfc": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "6a92d401b9b033f2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "d170b8fa5bf0c7df": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "a7ef5409414a0d79": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Technical explainer examining the compute distinction between hosting pre-trained open weights for inference versus sovereign domestic pre-training pipelines.",
+  "analyzed_at": "2026-11-25T06:28:31Z"
+ },
+ "97043e7ee96c05a0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-25T06:28:31Z"
  }
 }
