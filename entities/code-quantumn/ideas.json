@@ -1,6 +1,69 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-26T09:11:52Z",
+  "history": [],
+  "id": "2026-11-26-cq-search-for-agents-cloudflare",
+  "title": "Cloudflare Just Launched Search for Agents: How to Make Your App Discoverable to AI",
+  "type": "months",
+  "angle": "AI agents don't browse websites like humans—Cloudflare just added native HTTP QUERY and automated indexing so agents can search your site directly without scraping.",
+  "outline": [
+   "The problem: why standard web scraping fails for autonomous coding and research agents",
+   "What Cloudflare Search for Agents does: automatic indexing, live schema generation, and discoverable endpoints",
+   "How HTTP QUERY works: sending structured queries directly to the edge instead of parsing messy HTML",
+   "Hands-on demo: turning on the toggle and querying a site with an AI agent in 5 lines of code",
+   "Why builders should prepare their apps for the agentic web today"
+  ],
+  "items": [
+   "6a22190046689932"
+  ],
+  "timing": "NOW",
+  "updated_at": "2026-11-26T09:11:52Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-26T09:11:52Z",
+  "history": [],
+  "id": "2026-11-26-cq-blackwell-nvfp4-register-recycling",
+  "title": "How NVIDIA Squeezed 4-Bit Attention Onto Consumer GPUs (Register Recycling Deep Dive)",
+  "type": "evergreen",
+  "angle": "Why memory bandwidth—not compute—is the true bottleneck in AI models, and how NVIDIA's Blackwell architecture recycles registers to run 100k+ context windows locally.",
+  "outline": [
+   "The bottleneck: why long context windows cause memory bandwidth saturation and register spilling",
+   "What NVFP4 is: 4-bit floating point precision with microscopic accuracy loss",
+   "The register recycling trick: reusing registers across attention heads before spilling into slow VRAM",
+   "Benchmarks: token generation speeds before and after register optimization on Blackwell RTX",
+   "Key takeaway for AI engineers: how hardware architectural limits shape model inference design"
+  ],
+  "items": [
+   "c7ab3e7ec5efcae1"
+  ],
+  "timing": "SOON",
+  "updated_at": "2026-11-26T09:11:52Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-26T09:11:52Z",
+  "history": [],
+  "id": "2026-11-26-cq-local-inference-hillclimbing",
+  "title": "Hill-Climbing Local AI: How to Max Out Token Speed on a Single GPU",
+  "type": "evergreen",
+  "angle": "How engineers at Hugging Face squeezed maximum throughput out of Inkling 2 Mini on a single workstation GPU using quantized KV cache and kernel tuning.",
+  "outline": [
+   "The local model dilemma: running reasoning models without waiting 10 seconds per response",
+   "What is hill-climbing optimization: iterative latency profiling and bottleneck isolation",
+   "Quantized KV cache: cutting memory footprint by 50% without degrading reasoning tokens",
+   "Kernel fusion tricks: merging attention and decoding operations into single GPU passes",
+   "Practical setup: reproduction commands you can run today with open weights"
+  ],
+  "items": [
+   "61460511faf90e41"
+  ],
+  "timing": "ANYTIME",
+  "updated_at": "2026-11-26T09:11:52Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-25T06:28:52Z",
   "history": [
    {

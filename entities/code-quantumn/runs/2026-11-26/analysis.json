@@ -1,0 +1,1188 @@
+{
+ "72ba77aaddc23ee5": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Google DeepMind released Mass Spec Skills for Antigravity, letting coding agents interpret molecular spectrometry data.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "665d69b1b3b1bf95": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Allen Institute study explores where academic researchers welcome autonomous AI agents vs where human review is required.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "f70274fe56d71b8f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "IBM Research open-sourced CUGA, an Indic voice agent architecture tailored for multi-lingual Indian speech workflows.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "61460511faf90e41": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "SOON",
+  "evergreen": 4,
+  "reason": "tutorial",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Hugging Face showed how to hill-climb Inkling 2 Mini inference on an RTX PRO 6000, boosting token speeds via custom kernels and quantized KV cache. Hook: 'How to max out local AI inference on a single GPU without losing quality.'",
+  "notes": "- Demonstrates iterative performance tuning (hill-climbing) on local hardware\n- Uses quantized KV cache and kernel fusion to eliminate latency spikes\n- Shows that a single workstation GPU can achieve production-grade throughput on compact reasoning models\n- Free open-source code and benchmark scripts published on Hugging Face",
+  "actions": [
+   "Created video idea 2026-11-26-local-inference-hillclimbing"
+  ],
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "c7ab3e7ec5efcae1": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "tutorial",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "NVIDIA detailed how register recycling optimizes NVFP4 attention on RTX Blackwell GPUs, overcoming memory-bandwidth bottlenecks in long contexts. Hook: 'Here is how NVIDIA squeezed 4-bit attention onto consumer GPUs.'",
+  "notes": "- World foundation models suffer severe memory-bandwidth limits under long context windows\n- NVFP4 4-bit floating point attention halves memory footprint vs FP8\n- Register recycling reuses registers across attention heads to prevent register spilling to slower HBM/VRAM\n- Demonstrates how modern hardware architectures maximize compute efficiency for local model inference",
+  "actions": [
+   "Created video idea 2026-11-26-blackwell-nvfp4-register-recycling"
+  ],
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "00dd3c68f6b8c6be": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "1d492e6f22058587": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "business"
+  },
+  "summary": "Amazon and Meta are discussing terms to permit Meta's Muse AI shopping assistant inside Amazon's marketplace.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "425bb2dec83fb520": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "030f2398c0058839": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "775238f66edbaa47": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Meta AI chief Alexander Wang published an essay warning that AI reasoning advances require new safety control architectures.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "c1115fc02f631278": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "846af9bb709872ea": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "6e7919bf92accd10": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "11ebf89d2828e43b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "explainer_angle",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Comparison of late-2026 Chinese frontier reasoning models across developer pricing and API latency.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "50fdfa07657ee89a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Hardware analysis indicates recent Chinese frontier models were trained on cluster infrastructure utilizing Blackwell silicon.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "c4f48f911ecaf26c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "37bff6d3ded44a4d": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Alibaba launched Qwen4-Max with 2.4T parameters and a 1M token context window for cloud developers.",
+  "notes": "- 2.4 trillion parameter mixture-of-experts model\n- 1 million token context window\n- Available via Alibaba Cloud API and select hosting partners\n- Outperforms open-weights predecessors on complex reasoning benchmarks",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "e8be4d54a819f98e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "806fade71427f3b3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "7d63972e070d6532": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "1e00a291cb5b958a": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "c6115b782fe2c044": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "0bd357ca45c1d86a": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "9495a53837477899": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "5f6af411654487bb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "c3b8d8053a4342bc": {
+  "label": "KNOW",
+  "importance": 4,
+  "reason": "policy_change",
+  "flags": {
+   "category": "policy"
+  },
+  "summary": "MeitY clarified that Sarvam AI hosting Chinese models on its token platform does not violate IndiaAI Mission guidelines.",
+  "notes": "- MeitY Secretary clarified sovereign compute grant rules\n- Indian AI labs permitted to offer commercial token endpoints for diverse models\n- Reaffirmed government commitment to supporting domestic foundation model training",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "416c9592bc8b4218": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "80160a93ca7cfb93": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "07ac16677f075ae0": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "93a411b5f0dafc98": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Sarvam AI partnered with Entire to develop an India-first coding platform optimized for regional development workflows.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "664ad0d9fb5d4455": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "152ea2ff9603a428": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "018ee5e6e6f53041": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "ee4c5836c4975bd1": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Chariot unveiled new sovereign foundation models developed under the IndiaAI Mission compute infrastructure.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "311d13fdfd26055e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "07dbe3163fae475b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "price_change",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "OpenAI warned heavy users may reach hourly limits sooner as it integrates work and chat workspaces.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "96540550f41d7517": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "e70ddf6225c9d809": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Anthropic CEO Dario Amodei addressed public concerns regarding human control over frontier autonomous AI systems.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "f9806386c2291f67": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "ece590a506c1982c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "dfdb7981566514a1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "fb1a467c40ea789e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "64257d36e6ecb42c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "e94b1e0102927c2f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "6bd95ff5e6efc08d": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "970be35b50f0c815": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "679575e28ecb6afb": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Open-source MCP server enabling AI agents to query social media graphs and publish updates.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "d30df12923963975": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "074c0021244f57a4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "c6d4894cab47bb8f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "52adc1a3d999e033": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "b34570bd21e14687": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "50d2b14ce402e208": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "e4f46ab00defec78": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "61a8cae81aba73e7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "2215770697c4057a": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Hacker News write-up on using LLMs to reverse engineer proprietary firmware on cheap hardware.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "766b158e3ee2d735": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Benchmark evaluating how autonomous agents transfer digital in-context reasoning to physical and simulated environments.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "16769bf8e7b3d03d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Distillation technique enabling compact neural codecs to generate high-fidelity video with reduced inference overhead.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "754cba9244c0ffbd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Study assessing whether frontier coding agents can interactively inspect codebases and play video games.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "304a4dc8debac003": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "New benchmark measuring coding agents' ability to turn ambiguous product requirements into rigorous software specifications.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "e4dac34053044dce": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Lightweight OCR architecture designed for fast parsing of complex charts, equations, and multi-column PDFs.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "8ec1d2e190974d38": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "6a6c4d995225e493": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "3de7d346e4bbe5f9": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "ae5b2af0b3e991cb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "4a25afd14c8c5b77": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "fc724fe71f8cf078": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Vercel Workflows added speculative execution to cut background step orchestration latency by 10x.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "6a22190046689932": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "official_launch",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Cloudflare launched Search for Agents with one-toggle indexing, HTTP QUERY, and discoverable search APIs. Builders can make sites agent-readable instantly. Hook: 'Cloudflare just gave every AI agent a built-in search engine for your website.'",
+  "notes": "- One toggle turns on automatic indexing and discoverable search APIs for any site on Cloudflare\n- Implements the new HTTP QUERY method for agent discovery\n- Eliminates the need for custom scrapers or third-party search APIs when building web-enabled agents\n- Free tier includes standard domain indexing",
+  "actions": [
+   "Created video idea 2026-11-26-search-for-agents-cloudflare"
+  ],
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "02c75ff00eb08412": {
+  "label": "STUDY",
+  "importance": 4,
+  "reason": "best_practice",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Pragmatic Engineer interview details how Anthropic rewrote Claude API in Rust and restructured engineering teams around coding agents.",
+  "notes": "- Deep dive into Anthropic's internal engineering stack and agent deployment patterns\n- Rebuilt API core in Rust for sub-millisecond dispatch and streaming stability\n- Engineering culture shifted toward agentic reviews and synthetic eval testbeds\n- Crucial case study for developers designing resilient agent architectures",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "546eea2d97db598f": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Lenny Rachitsky benchmarked Gemini 4 Neon against GPT-6.2 and Claude across 25 everyday product and coding tasks.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "f902613bc9bc38c7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "35fd61f8db43abdf": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Tech With Tim breaks down 6 major AI agent frameworks and when to use single vs multi-agent setups.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "0fb709d2a179a94d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "9b12c423ffc0ced3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "a0f7534775163676": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Microsoft unveiled MAI-Base-2, claiming up to 12x compute efficiency gains in pre-training compact foundation models.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "32c047af7c2cff8e": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Overview of Claude's updated desktop artifacts and native file-system editing capabilities.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "3d165d9254dd33fd": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Fireship broke down the 17M-line Lean proof of Riemann Hypothesis by Claude. We can explain formal verification vs LLM hallucinations in 60s.",
+  "notes": "- 41-day autonomous conversation generated 17M lines of Lean code claiming to verify Riemann Hypothesis\n- Mathematical community scrutinizing proof for circular logic and automated tactic loops\n- Great hook for explaining why formal verifiers (Lean/Coq) are necessary to check LLM reasoning",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "7ba8f8df51f5c63c": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Two Minute Papers examined issues in Claude's automated math proof. We can show how automated theorem provers test logic under the hood.",
+  "notes": "- Covers controversy over unverified lemmas and recursion loops in AI proofs\n- Highlights gap between generating formal syntax and genuine mathematical insight\n- Relevant for understanding test-time verification vs speculative generation",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "eb91a92d9a531b7e": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Berman ranked late-2026 coding models on a tier list. We can make a practical developer comparison focusing on free local models vs cloud APIs.",
+  "notes": "- Ranks frontier models (Claude 3.5/Opus, GPT-4o, DeepSeek Coder, Qwen 2.5) across code generation tasks\n- Heavily favors commercial APIs; ignores local Ollama/vLLM setups and token unit economics\n- Opportunity to highlight best cost-effective models for Indian students",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "0a6a0ebf805c612c": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Cole Medin reviewed 9 free workarounds to run Claude Code tooling. We can do a direct 60s guide on the top 2 free CLI setups that work in India.",
+  "notes": "- Reviews free tiers, proxy routers, and open-source CLI alternatives to paid Claude Code\n- 3 setups recommended: local router, community free credits, and open MCP bridges\n- Directly targets student audience looking to practice agentic coding without credit cards",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "f314365537c23d30": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "a73fb10ae6937d16": {
+  "label": "CONTENT",
+  "reason": "competitor_move",
+  "summary": "Paul Lipsky rounded up Claude's latest workspace updates. We can focus on developer toolchain changes and CLI workflows.",
+  "notes": "- Outlines new Claude artifact sandboxes, desktop integrations, and connected tools\n- Focuses on non-technical workflows; leaves room for builder-focused deep dive",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "1bec2481b95b2733": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search trends for 'chatgpt' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "7895867a33a62364": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search trends for 'gemini' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "cd1a67a1164aed27": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search trends for 'claude' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "67db9b4c6cf0b330": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search trends for 'deepseek' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "20c9454e533e1ab2": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends for 'copilot' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "4e1c19f6c99e3e7e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends for 'cursor ai' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "b1b4923d46c94bf8": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends for 'perplexity' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "c54f974f8f0f6e21": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search trends for 'grok' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "77f8d33f7054c55b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends for 'ai agent' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "16403a8fb64cae4e": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends for 'vibe coding' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "3686c50b9545fd44": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Search trends for 'python' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "200be35967a5c3b3": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Search trends for 'ai course' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "219813901a805bbe": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Search trends for 'full stack' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "30dc12bd64218209": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Search trends for 'system design' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "3cb170d532df6011": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Search trends for 'next.js' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "c771d3929e6c0ec7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "NVIDIA and Hugging Face released open training recipes and quantization weights for Nemotron 3.5 Parse.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "13d80061320c68c1": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "price_change",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "GitHub Copilot code review billing will now default to organization accounts rather than individual seat charges.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "72bc1254f5560189": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Ollama v0.40.19-rc0 brings faster Metal decode and prefill optimizations for local models on Apple Silicon.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "ac78e871ff67a008": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "25dafe00e693a933": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "568b6665a13dc00d": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "minor_update",
+  "flags": {
+   "category": "changelog"
+  },
+  "summary": "n8n maintenance release brings stability updates and minor bug fixes for community workflow automations.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "8f21713546104863": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "a1de664650404fcd": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "6a05a56f6513fcad": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "c73864b870b033c0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "9fddacafaa6c6602": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "f372bae4b9392aa0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "8cbd706d4c7c79cd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "5a8e8057dec100b2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "7f67a988757e7e40": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "59ae335c4ce2cd88": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "fbfd39c43995f342": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "30a37fd460e28a82": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "00b2911b50cd0ead": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "a50cae6686a94b31": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "4e6bf2c1093eeb8b": {
+  "label": "SKIP",
+  "reason": "hype",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "d0404e3bc037fb37": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "694f69c695451d60": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Claude Opus 4.6 entered the top 10 on the LMSYS Vision leaderboard at #10 with an Elo score of 1312.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "578fbbbb59de248e": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "04b0cdca6ea8e005": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "4654cb7eb4528acb": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "0e2d6fd1942c7b2e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "bb93669d1f02e130": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "c43fe48e7cbe7567": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "d900091235336afa": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "683205574b53101f": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "3145b7cb42834afa": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "03ce00da2c70dc64": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "012579fb1bec3cf7": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "36e5a7720141559d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "0f3d861073b67bd7": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Swarm of automated mathematical verifications highlights the shift from speculative LLMs to formal proof assistants.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "57e51383d86d62e6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "b99c110779771ab8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "cffc2a618afe137b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "a2b85750cec81d34": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "6a548e3403cced44": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "d40bfa32d5c2652a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "3e05d2e372787187": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "6fe27e404deb6180": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "bc1e34ca75ed582c": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "7449063644413461": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "3e5eea73efb68547": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "research_paper",
+  "flags": {
+   "category": "research"
+  },
+  "summary": "Anthropic researchers published a drastically condensed formalization of their Lean proof.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "2ef47bd0339c26fb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "87e98d1da67e1485": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "price_change",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "OpenAI tightened rate limits on heavy GPT-6.2 reasoning models during peak enterprise compute hours.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "f964734f48dc0e00": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "fb49cc45f089694a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "dde854fbd7508ce7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "f4e0bbb54c7cb75d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "695a068c59497c21": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "eba7de6b6e0ed257": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "71f11eb8df31de88": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "5388b1a4824be758": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "75bc7094c9ff67e2": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Technical walkthrough on using compact 2B decider models to gate tool calls and prevent agent hallucination loops.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "627b5ff3b422f264": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "c93153d16f13e6fc": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Comprehensive engineering breakdown of running on-device AI photo segmentation using WebAssembly and WebGPU.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "baa2291df848c515": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "opinion",
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "OpenAI's Thariq Shihipar discusses the divergence between generative consumer tooling and deep autonomous software engineering.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "04cd01995bc93443": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "feature_update",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Nous Research upgraded Hermes Agent with autonomous tool-calling routines and persistent server execution.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "9510e03efe0a93b1": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "22a3a15a5848b849": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "aa127293cd84b970": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "d2e18dd533aff7ca": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "4547eae9b9d23413": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "9165f7c286d19ceb": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "0d83a2edde67e82b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "SQLite introduced sqlite3_rsync, an efficient live replication and sync tool for local SQLite databases.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "8e09a3713bd08cab": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "f7f46eb01b7b9082": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "a0bd17f432d969aa": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "caaf27fe0d3fcaca": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "benchmark_claim",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "OpenRouter metrics show DeepSeek Flash processed 252 trillion tokens, surpassing competing open weights by 3.7x.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "91f11627dc4663be": {
+  "label": "KNOW",
+  "reason": "opinion",
+  "importance": 2,
+  "flags": {
+   "category": "opinion"
+  },
+  "summary": "Alexandr Wang discussed Meta AI internal strategy and alignment with Mark Zuckerberg on enterprise compute.",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ },
+ "0b39bba194af8210": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-26T09:11:19Z"
+ }
+}
