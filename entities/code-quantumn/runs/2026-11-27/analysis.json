@@ -1,0 +1,791 @@
+{
+ "89c17eea5ab591ca": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "tool_release",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Hugging Face launched an official llama.cpp benchmark dashboard tracking local model inference speeds on AMD Ryzen CPUs and Radeon GPUs. Hook: 'Don't buy an expensive Nvidia GPU yet: here is how fast local AI runs on AMD hardware.'",
+  "notes": "- Open dashboard tracking tokens/second across GGUF quantization levels on AMD consumer hardware\n- Shows ROCm and Vulkan performance parity with Nvidia CUDA for 7B-30B quantized models\n- Guides developers on memory bandwidth bottlenecks vs compute limits on integrated APUs\n- Free community benchmark suite allows submitting local run scores via simple CLI commands",
+  "actions": [
+   "Created video idea 2026-11-27-cq-llamacpp-amd-benchmark-guide"
+  ],
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "2daa04d1c712174f": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 5,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Hugging Face released an architectural framework for designing, training, and benchmarking multi-agent systems (swarms, flocks, and gangs). Hook: 'Single AI agents get stuck—here is how top labs build swarms that fix each other's code.'",
+  "notes": "- Breaks down multi-agent architectures into swarms (flat consensus), flocks (hierarchical orchestration), and gangs (specialized peer validation)\n- Explains synthetic eval harnesses to benchmark communication overhead vs token cost\n- Provides open recipes for training fine-tuned router models that delegate subtasks without human intervention\n- Essential guide for product engineers moving from chat wrappers to multi-agent production software",
+  "actions": [
+   "Created video idea 2026-11-27-cq-hf-multi-agent-swarms-flocks"
+  ],
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "a153a32887da58da": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "40d05e7bdfd247bb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "1ef5e35b4f1bad84": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Developer built a minimal 24KB LLM operating runtime in pure assembly, achieving 54% faster inference loops than standard C++ engines.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "1bf1fd3d957efd9f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "a5c4d097d07fbb24": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "9c28474c30e0704f": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "3080e29dc16c2d39": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "7ed874e8e5674e38": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "710dbcceb369d3ba": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Research study shows autonomous LLM agents audited unsafe Rust blocks across 16 major crates, uncovering 225 memory-safety bugs.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "bd51bab2ba8bb5cb": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "93c0d63e1d401f4a": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "d7b723c94ee1f734": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "2936e9f02623738b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "bde5b0e3e1ec46b0": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "322fc592b39f60a6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "f786ada9f5ea7724": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "64d3c90a0b6b17e5": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "2746c7a6bf4ff110": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "0b2b652785753039": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "30ad5081a64e9713": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "6c7155c3fc512263": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Sarvam AI launched an enterprise document parsing API capable of extracting structured tables and Indic text from PDFs.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "159a454c7a0e3217": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "official_launch",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "AI code review platform Entire partnered with Sarvam to keep code parsing compute and telemetry on Indian infrastructure.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "afd97b7801008cd2": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "1c5fbd31449dccef": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "173e2fe643b894fd": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "023145ee21811383": {
+  "label": "MAKE",
+  "importance": 4,
+  "timing": "NOW",
+  "evergreen": 4,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "The Indian government unveiled Chariot-1, an 11B parameter foundation LLM and speech model supporting 11 Indian languages, built on sovereign compute. Hook: 'India just launched its official 11B foundation model: here is what it can actually do.'",
+  "notes": "- Launched by MeitY under the IndiaAI Mission compute infrastructure\n- 11 billion parameter base and instruction-tuned variants optimized for 11 regional Indian languages\n- Includes companion low-latency speech-to-text models trained on dialectal speech corpora\n- Available for Indian builders, researchers, and government departments via sovereign token APIs",
+  "actions": [
+   "Created video idea 2026-11-27-cq-chariot-1-indiaai-foundation-model"
+  ],
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "7b0699bdb9dac6d8": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "0d2bf96a8590e2b3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "167c4822a2c2c479": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "f575ee8507679330": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "1ba46a541e911ee8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "c65b64c2a8ee83dd": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "3b39a5e90dab1645": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "b8d9c683558ce674": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "72e6249000591577": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "39138800fbf60f24": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "20e56cc840d8f13e": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "91a3a66bf9674dc8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "90a4dbd7d4b07506": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "589aa64b9cc51d0b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Open-source contributors released targeted kernel optimizations for llama.cpp running on AMD RDNA3 architectures.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "a3122e4183c22420": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Developers test Google's new official Model Context Protocol (MCP) servers, highlighting sandbox limitations in Gmail and Workspace integrations.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "05df65078e8ab629": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "a7c2381cfc84c4ef": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "bb3cdc42e95d5834": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "c907c21f00df8a96": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "48cb3a6d68676696": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "cf36e6d5bbb2035a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "6ee926f86aeb488d": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "8d17f13b6e19b85a": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "60eb9651a9bdf532": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "f0847fa5060f4364": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "b9b89ed6e0822b27": {
+  "label": "STUDY",
+  "importance": 4,
+  "reason": "tutorial",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "ByteByteGo breaks down the lifecycle of a database row from memory buffer pool to WAL write, B+ Tree indexing, and disk persistence.",
+  "notes": "- Deep dive into relational database storage engine internals (InnoDB/Postgres)\n- Traces write path: buffer pool allocation, write-ahead logging (WAL), dirty page flushing\n- Contrasts row-oriented OLTP layouts with columnar OLAP compression\n- Critical system design foundations for software engineers building high-concurrency backends",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "23368ea4c7163246": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "a366d0cf799c5839": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "5fcd1ce694dfec49": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "tutorial",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Architectural breakdown of where autonomous agents run: comparing browser client runtimes, ephemeral Docker sandboxes, and serverless edge functions.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "4de455e5a68b4c8f": {
+  "label": "STUDY",
+  "importance": 3,
+  "reason": "best_practice",
+  "flags": {
+   "category": "product"
+  },
+  "summary": "Clay Head of AI explains how SaaS companies are evolving from single-task agents to meta-coding agents that assemble full workflows.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "41749e0d590375f2": {
+  "label": "SKIP",
+  "reason": "opinion",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "4abb1cfc336c315c": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "cc516725ba65e283": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search trends for 'chatgpt' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "cd269661f84bec22": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search trends for 'gemini' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "4907a95f769b37fc": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search trends for 'claude' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "7195272a31de1e35": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search trends for 'deepseek' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "80464d9bf3d93475": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends for 'copilot' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "ff13250164c44710": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends for 'cursor ai' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "8e93f14d4c04aae5": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends for 'perplexity' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "443614111b9dc12b": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Search trends for 'grok' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "cc3bba0c7411c241": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends for 'ai agent' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "24331ad2c0bba0dd": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "Search trends for 'vibe coding' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "d10aaf4b69872279": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Search trends for 'python' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "559b8bc3fd7c9cca": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Search trends for 'ai course' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "4382e5defde34678": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Search trends for 'full stack' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "69c858711bcc8a07": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Search trends for 'system design' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "735008767d3e8b15": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "tutorial"
+  },
+  "summary": "Search trends for 'next.js' in India: top queries show user interest in setup, tutorials, and alternatives.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "6bea65da9944b9ea": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "5997fb2a6a931940": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "026630fcea0ba0b3": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "f498e3100b6212f4": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "d8e6ec9edcf05a9d": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "a2d2e2d4c31da43f": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "fcf4860d8a8353c7": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "0b841681df510d77": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "dc0fa125878b17e9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "3755e367cb145857": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "e64015e85820aba8": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "95360e5025ed1f4d": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "73bd92a2993bbf60": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "0693cc665fb42fd2": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "253d8cb8eccf00a9": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "3e8daeef37756f67": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "0abb7cbd5e3c27ba": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "abc04f5ad2c2e811": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "5aa43d48a1f13e73": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "5fd4a2cac0bf2a1e": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "3f945b295ca7ac97": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "7cbe4227a30880b3": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "9da3a89e2cd38441": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "85dcf124a544d013": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "42eff7ea2de74d95": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "6f5bedda9e8dfa83": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "972becb121fca24b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "94f174c2484aaa89": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "26210af685034584": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "46e1678984d830a0": {
+  "label": "KNOW",
+  "importance": 2,
+  "reason": "tool_release",
+  "flags": {
+   "category": "tool"
+  },
+  "summary": "nexos.ai launched an AI gateway platform unifying 200+ commercial models with automated token budgets and rate limiters.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "6057b940ccde9c00": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "open_source_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Tencent open-sourced DFly2, a speculative decoding drafter model delivering up to 4.55x faster inference speeds.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "e433d2565f7374d4": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "model_release",
+  "flags": {
+   "category": "model"
+  },
+  "summary": "Sakana AI released Namazu Small, a 30B parameter foundation model built on Nemotron 3 Nano weights.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "520b691a85ed966b": {
+  "label": "SKIP",
+  "reason": "duplicate",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "c18809e1a459935b": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "95b3d53a1e3b7b16": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "4b24ada7b1303697": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "6ef96b6a378ae3f6": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "42b3bcb4d8e3eefb": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "8563cbf2866768b4": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "e18370c93f992f0f": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "e71580ef8c4a6ee1": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "e73b716836f5bbc7": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "6d29e4ad1632cd56": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "852ad987e26496c2": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "977b38bbfeec9bbf": {
+  "label": "SKIP",
+  "reason": "too_niche",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "c96fa52b08ea4e36": {
+  "label": "SKIP",
+  "reason": "minor_update",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "7ff8f6e1d1fa26f5": {
+  "label": "SKIP",
+  "reason": "off_topic",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ },
+ "40d3ea9e9673355b": {
+  "label": "KNOW",
+  "importance": 3,
+  "reason": "trending_discussion",
+  "flags": {
+   "category": "hardware"
+  },
+  "summary": "Nvidia paused select AI accelerator shipments to Southeast Asian hubs amid stricter regulatory compliance reviews.",
+  "analyzed_at": "2026-11-27T06:22:18Z"
+ }
+}

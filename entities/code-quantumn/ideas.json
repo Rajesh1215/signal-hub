@@ -1,6 +1,70 @@
 [
  {
   "status": "new",
+  "created_at": "2026-11-27T06:22:35Z",
+  "history": [],
+  "id": "2026-11-27-cq-hf-multi-agent-swarms-flocks",
+  "title": "Stop Building Single AI Agents: How Swarms, Flocks & Gangs Actually Work",
+  "type": "evergreen",
+  "timing": "NOW",
+  "angle": "Single AI agents always get stuck in reasoning loops. Hugging Face just open-sourced the blueprint for multi-agent architectures: swarms for flat consensus, flocks for delegation, and gangs for verification.",
+  "outline": [
+   "Why single-agent loops fail: token context explosion and hallucination compounding",
+   "Swarms vs Flocks vs Gangs: three distinct multi-agent topology patterns explained with diagrams",
+   "The Router pattern: using a compact 2B model to dispatch tasks to specialized agent workers",
+   "Avoiding communication tax: how to stop agents from spending 80% of tokens chatting with each other",
+   "Hands-on demo: building an autonomous code review and test-fixing pair in 30 lines of Python"
+  ],
+  "items": [
+   "2daa04d1c712174f"
+  ],
+  "updated_at": "2026-11-27T06:22:35Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-27T06:22:35Z",
+  "history": [],
+  "id": "2026-11-27-cq-llamacpp-amd-benchmark-guide",
+  "title": "Don't Buy an Nvidia GPU Yet: How Fast Does Local AI Run on AMD in 2026?",
+  "type": "evergreen",
+  "timing": "NOW",
+  "angle": "Nvidia cards are overpriced in India. Hugging Face launched an official llama.cpp benchmark dashboard tracking AMD Ryzen APUs and Radeon GPUs—and the numbers will shock you.",
+  "outline": [
+   "The Indian developer hardware dilemma: why CUDA monopoly prices price out students",
+   "ROCm and Vulkan parity: how llama.cpp closed the driver and kernel performance gap on AMD",
+   "Benchmark deep dive: tokens/sec across 7B, 14B, and 32B Q4_K_M models on Ryzen 7000/8000 and Radeon 7000",
+   "The unified memory APU advantage: running 30B models on 64GB DDR5 system RAM without discrete VRAM",
+   "Complete step-by-step setup guide for Linux and Windows in under 5 minutes"
+  ],
+  "items": [
+   "89c17eea5ab591ca",
+   "589aa64b9cc51d0b"
+  ],
+  "updated_at": "2026-11-27T06:22:35Z"
+ },
+ {
+  "status": "new",
+  "created_at": "2026-11-27T06:22:35Z",
+  "history": [],
+  "id": "2026-11-27-cq-chariot-1-indiaai-foundation-model",
+  "title": "India Just Launched Chariot-1: Inside the Sovereign 11B Foundation Model",
+  "type": "months",
+  "timing": "NOW",
+  "angle": "The Indian government officially unveiled Chariot-1 under the IndiaAI Mission—an 11B parameter foundation LLM built for 11 regional languages. Here is what builders need to know.",
+  "outline": [
+   "The sovereign AI mandate: why relying entirely on US and Chinese APIs poses platform and regulatory risks",
+   "What Chariot-1 actually is: 11B base weights, instruction-tuned checkpoints, and low-latency speech encoders",
+   "Benchmark showdown: how Chariot-1 performs against Llama 3.1 and Qwen 2.5 on Indic language understanding",
+   "Token economics & access: how Indian students and startups can access sovereign compute tokens via MeitY",
+   "What's next for Indian open source: roadmap for vision models and edge deployment"
+  ],
+  "items": [
+   "023145ee21811383"
+  ],
+  "updated_at": "2026-11-27T06:22:35Z"
+ },
+ {
+  "status": "new",
   "created_at": "2026-11-26T09:11:52Z",
   "history": [],
   "id": "2026-11-26-cq-search-for-agents-cloudflare",
